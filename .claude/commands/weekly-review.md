@@ -10,7 +10,7 @@ Follow all steps from routines/weekly-review.md EXCEPT:
 
 STEP 1 — Read full week of trade log, research log, existing weekly review, strategy.
 STEP 2 — Pull week-end account state and positions.
-STEP 3 — Compute week metrics including S&P 500 comparison via Perplexity.
+STEP 3 — Compute week metrics including S&P 500 comparison via Gemini.
 STEP 4 — Append full review section to memory/WEEKLY-REVIEW.md.
 STEP 5 — Update memory/TRADING-STRATEGY.md if a rule needs to change.
 STEP 6 — Send one ClickUp message with headline numbers.

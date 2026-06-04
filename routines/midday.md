@@ -6,7 +6,7 @@ DATE=$(date +%Y-%m-%d).
 IMPORTANT — ENVIRONMENT VARIABLES:
 - Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
   ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
-  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, CLICKUP_API_KEY,
+  GEMINI_API_KEY, GEMINI_MODEL, CLICKUP_API_KEY,
   CLICKUP_WORKSPACE_ID, CLICKUP_CHANNEL_ID.
 - There is NO .env file in this repo and you MUST NOT create, write, or
   source one.
@@ -46,7 +46,7 @@ Never tighten within 3% of current price. Never move a stop down.
 STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
 if not at -7% yet. Document reasoning in TRADE-LOG.
 
-STEP 6 — Optional intraday research via Perplexity if something is moving
+STEP 6 — Optional intraday research via Gemini if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 
 STEP 7 — Notification: only if action was taken.

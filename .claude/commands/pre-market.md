@@ -18,10 +18,10 @@ STEP 2 — Pull live account state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
 
-STEP 3 — Research market context via Perplexity. Run
-bash scripts/perplexity.sh "<query>" for each catalyst, futures, VIX,
+STEP 3 — Research market context via Gemini. Run
+bash scripts/gemini.sh "<query>" for each catalyst, futures, VIX,
 earnings, economic calendar, sector momentum, and each held ticker.
-Fall back to WebSearch if Perplexity exits 3.
+Fall back to WebSearch if Gemini exits 3.
 
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot, market context, 2-3 trade ideas, risk factors, decision.

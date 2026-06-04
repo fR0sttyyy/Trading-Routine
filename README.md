@@ -1,6 +1,6 @@
 # Trading Bot
 
-An autonomous AI trading agent built on Claude Code. Runs on a daily cron schedule, places real trades on Alpaca, researches via Perplexity, and notifies via ClickUp.
+An autonomous AI trading agent built on Claude Code. Runs on a daily cron schedule, places real trades on Alpaca, researches via Gemini, and notifies via ClickUp.
 
 **Strategy:** Swing trading — stocks only, no options, ever.
 
@@ -60,7 +60,7 @@ trading-bot/
 │   └── weekly-review.md
 ├── scripts/                   # API wrappers — the only way to touch external APIs
 │   ├── alpaca.sh
-│   ├── perplexity.sh
+│   ├── gemini.sh
 │   └── clickup.sh
 └── memory/                    # Agent's persistent state — committed to main
     ├── TRADING-STRATEGY.md
@@ -75,7 +75,7 @@ trading-bot/
 ## Prerequisites
 
 - [Alpaca](https://alpaca.markets) account (paper trading to start)
-- [Perplexity API](https://www.perplexity.ai) key
+- [Gemini API](https://www.gemini.ai) key
 - [ClickUp](https://clickup.com) account with a Chat channel for notifications
 - Claude Code with access to cloud routines
 
@@ -90,7 +90,7 @@ cd Trading-Routine
 
 # 2. Copy env template and fill in your credentials
 cp env.template .env
-# Edit .env with your Alpaca, Perplexity, and ClickUp keys
+# Edit .env with your Alpaca, Gemini, and ClickUp keys
 
 # 3. Smoke test — should print your Alpaca account cleanly
 # Open repo in Claude Code, then run:

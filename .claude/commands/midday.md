@@ -13,5 +13,5 @@ STEP 2 — Pull positions and open orders.
 STEP 3 — Cut losers at -7%.
 STEP 4 — Tighten trailing stops on winners (+15% -> 7%, +20% -> 5%).
 STEP 5 — Thesis check: cut broken theses even if not at -7%.
-STEP 6 — Optional Perplexity research on sharp movers.
+STEP 6 — Optional Gemini research on sharp movers.
 STEP 7 — Notify via ClickUp only if action was taken.
