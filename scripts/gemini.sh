@@ -26,7 +26,7 @@ if [[ -z "${GEMINI_API_KEY:-}" ]]; then
   exit 3
 fi
 
-MODEL="${GEMINI_MODEL:-gemini-2.0-flash}"
+MODEL="${GEMINI_MODEL:-gemini-3.1-flash-lite}"
 
 payload="$(python -c "
 import json, sys
