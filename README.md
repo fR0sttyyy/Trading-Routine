@@ -75,7 +75,7 @@ trading-bot/
 ## Prerequisites
 
 - [Alpaca](https://alpaca.markets) account (paper trading to start)
-- [Gemini API](https://www.gemini.ai) key
+- [Gemini API](https://aistudio.google.com) key
 - [ClickUp](https://clickup.com) account with a Chat channel for notifications
 - Claude Code with access to cloud routines
 
