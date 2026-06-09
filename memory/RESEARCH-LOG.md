@@ -66,3 +66,38 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) and weekly close for first entry next week.
+
+## 2026-06-09 — Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x margin)
+- Daytrade count: 0
+- Positions: none | Open orders: none
+
+### Market Context
+- WTI / Brent: WTI <$90 / Brent ~$91.11 (-3.42%) — Iran-Israel halt-attacks deal; oil sharply lower on peace hopes
+- S&P 500 futures: +0.35-0.4% premarket; chip-led rebound (MU +~10%, NVDA, AVGO higher)
+- VIX: ~18.92 (bid ahead of CPI) — elevated vs prior week's ~16
+- Today's catalysts: Chip-bounce day; Trump says Iran deal "in final throes"; OpenAI confidential IPO filing; Anthropic IPO plans; SpaceX Fri debut; AAPL post-WWDC AI roadmap upgrade (MS PT $360); ORCL earnings Wed
+- Earnings BMO: CASY (Casey's), SJM (Smucker); 22 total (no megacaps)
+- Economic calendar: **CPI Wed 6/10 8:30 ET** (high-impact); PPI + Continuing Claims Thu 6/11; UMich Sentiment Fri 6/12
+- Sector momentum YTD 2026: Leaders = Materials (+22%), Energy (ATH), Semis, Defense/Industrials, Healthcare. Laggards = Utilities, REITs, broader Tech cooling
+
+### Trade Ideas (Watchlist — no fills today)
+1. **NVDA** — chip rebound resumption; wait for CPI print, prefer pullback entry on cool print confirmation. Entry trigger: hold above premarket low post-CPI. Stop: -7%. Target: prior swing high (~2:1 R:R).
+2. **FCX (or XLB)** — Materials YTD leader (+22%); copper bid on China stimulus + reindustrialization. Need pullback to 20-DMA; do not chase ATH.
+3. **XLE / XOM** — Energy at ATHs but oil just -3.4% on Iran ceasefire — AVOID until oil stabilizes; sector tailwind intact but headline risk acute.
+4. **CASY / SJM** — earnings reactions; observe only, no chase.
+
+### Risk Factors
+- **CPI tomorrow 8:30 ET** — overnight gap risk eliminates any same-day entry today
+- Iran-Israel headline risk cuts both ways (oil cratered today, could reverse)
+- Chip-bounce may be a one-day reflex after Friday selloff; not a trend until CPI confirms
+- VIX 18.92 (vs ~16 prior week) signals event hedging — wait for it to compress
+- Tech leadership questioned mid-year — broader rotation into Materials/Industrials in progress
+- Day 1 of live operation in this entry window; protect cash, no FOMO into rebound
+
+### Decision
+**HOLD** — patience > activity. CPI is tomorrow; any entry today carries pure gap risk for zero edge. Reassess Wed post-CPI for first entry. Watchlist priorities: NVDA (cool CPI), FCX (materials pullback). Avoid energy until oil tape settles.
