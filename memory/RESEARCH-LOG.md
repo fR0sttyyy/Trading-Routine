@@ -101,3 +101,38 @@ HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) 
 
 ### Decision
 **HOLD** — patience > activity. CPI is tomorrow; any entry today carries pure gap risk for zero edge. Reassess Wed post-CPI for first entry. Watchlist priorities: NVDA (cool CPI), FCX (materials pullback). Avoid energy until oil tape settles.
+
+## 2026-06-10 — Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x)
+- Daytrade count: 0
+- Positions: none | Open orders: none
+
+### Market Context
+- WTI / Brent: WTI ~$74.12 / Brent ~$78.45 — cooled from prior week's peak on Iran de-escalation chatter
+- S&P 500 futures: Choppy into 8:30 ET CPI; Mon chip-led bounce after Fri -2.6% break of 9-wk win streak; futures not directional pre-print
+- VIX: 20.45 (+8.09%) at Tue close — elevated, event-bid (was 18.92 on Jun 8)
+- Today's catalysts: **MAY CPI 8:30 ET** — consensus headline +0.5% m/m / +4.2% y/y (HOT; multi-yr high), core +0.3% m/m / +2.9% y/y. April CPI was hottest YoY in nearly 2 yrs; Iran war energy spike still in mix
+- Earnings BMO: 15 reports, no megacaps; CASY (Casey's), AAL (American Airlines), DKNG (DraftKings) of note; ORCL after close
+- Economic calendar: CPI 8:30 ET (today); PPI + Continuing Claims Thu 6/11; UMich Sentiment Fri 6/12
+- Sector momentum YTD 2026: Materials, Energy (off ATH), Semis, Defense/Industrials, Healthcare lead. Utilities, REITs, broader Tech lag. Rate-sensitive vulnerable to hot print
+
+### Trade Ideas (Watchlist — no fills pre-CPI)
+1. **NVDA** — chip-bounce continuation IF CPI cool. Trigger: hold premarket low post-print; entry on 30-min reclaim. Stop -7%. Skip if hot.
+2. **FCX** — Materials YTD leader; copper tailwind. Want pullback to 20-DMA — not chase. R:R 2:1.
+3. **Defensive hedge** if hot CPI: XLV (Healthcare YTD leader, less rate-sensitive than utilities/REITs) — observe, no fill same-day.
+4. **AVOID:** Utilities (XLU), REITs (XLRE) if 10Y yield spikes on hot print; energy (oil rolling); semis if rates repricing
+5. **ORCL** earnings AMC — observe only
+
+### Risk Factors
+- **CPI +4.2% YoY consensus is hot** — Fed dot-plot repricing risk; rate-cut hopes can evaporate intraday
+- VIX 20.45 (+8%) signals institutional hedging; whipsaw risk in first 30-60 min post-print
+- Iran war remains live geopolitical input; energy/oil prints both ways
+- Day 1 with zero P&L cushion — first trade must be high-conviction setup, not a print-day chase
+- Fri -2.6% break of 9-wk streak shows tape can swing fast
+
+### Decision
+**HOLD** — no entries before CPI 8:30 ET. Pure event-gap risk for zero edge. Reassess after 10:00 ET "confirmation" window. If cool print and tape stabilizes, NVDA is top candidate for first entry; if hot, sit on hands and let vol drain. Patience > activity.
