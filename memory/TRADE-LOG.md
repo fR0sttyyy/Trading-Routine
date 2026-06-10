@@ -13,3 +13,12 @@ No positions yet. Bot launches tomorrow.
 | — | — | — | — | — | — | — |
 
 **Notes:** Paper account was refunded from $10k to $100k baseline overnight — resetting phase baseline to $100k going forward. No positions, no orders, no trades today. First real trading day; awaiting pre-market scan for setup ideas. Reminder: max 3 new trades/week, max 5-6 open, 10% trailing stop GTC on every fill. ClickUp EOD alert DELIVERED on this retry (msg id 80180052258343) — channel creds now working. Tomorrow: pre-market scan, then patience until a clean setup appears.
+
+### Jun 10 — EOD Snapshot (Day 2, Wednesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat all day — no positions, no orders, no fills. Account equity unchanged at $100k. Trades today: none. Trades this week (Mon-Wed): 0/3. Capital deployed: 0% — well below the 75-85% target, but patience > activity per strategy. No setups crossed conviction threshold in pre-market or midday scans. Tomorrow: refresh pre-market scan, prioritize leading sectors, look for clean breakouts or trend continuations with defined risk; first fill must come with a 10% trailing stop GTC.
