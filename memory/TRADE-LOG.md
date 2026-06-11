@@ -22,3 +22,12 @@ No positions yet. Bot launches tomorrow.
 | — | — | — | — | — | — | — |
 
 **Notes:** Flat all day — no positions, no orders, no fills. Account equity unchanged at $100k. Trades today: none. Trades this week (Mon-Wed): 0/3. Capital deployed: 0% — well below the 75-85% target, but patience > activity per strategy. No setups crossed conviction threshold in pre-market or midday scans. Tomorrow: refresh pre-market scan, prioritize leading sectors, look for clean breakouts or trend continuations with defined risk; first fill must come with a 10% trailing stop GTC.
+
+### Jun 11 — EOD Snapshot (Day 3, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat third consecutive session. No positions, no orders, no fills; equity unchanged at $100k. Trades today: none. Trades this week (Mon-Thu): 0/3. Capital deployed: 0% — below 75-85% target, but patience > activity. Pre-market and midday scans produced no setups clearing strategy filters (clean breakout + sector momentum). Three flat days in a row means the screen needs a wider net Fri — broaden pre-market to semis, AI infra, defense; if a single A+ setup appears, take starter ≤15% notional with 10% trailing stop GTC at fill. ClickUp EOD alert DELIVERED (msg id 80180052717132).
