@@ -136,3 +136,40 @@ HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) 
 
 ### Decision
 **HOLD** — no entries before CPI 8:30 ET. Pure event-gap risk for zero edge. Reassess after 10:00 ET "confirmation" window. If cool print and tape stabilizes, NVDA is top candidate for first entry; if hot, sit on hands and let vol drain. Patience > activity.
+
+## 2026-06-11 — Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x)
+- Daytrade count: 0
+- Positions: none | Open orders: none
+
+### Market Context
+- WTI / Brent: Brent ~$92 (+2%) on Mideast tensions re-escalating; WTI lifting in sympathy (Iran de-escalation narrative reversed)
+- S&P 500 futures: Soft pre-PPI. Cash SPX closed 7,266.99 (-1.62%) Wed on HOT CPI; futures tepid into 8:30 ET print
+- VIX: 22.22 (+11.83%) Wed close — event-bid, regime shift from prior ~18-20
+- Today's catalysts: **MAY PPI 8:30 ET** (Polymarket prices 5.0-5.9% YoY at 47% prob, 6.0-6.9% at 41.5% — hot expected after gasoline +7% m/m drove CPI); **ECB rate decision**; ORCL Cloud miss + $40B raise spooking AI infra trade (AH ~-7%); Mideast war escalation lifting oil
+- Yesterday's CPI (May): headline +0.5% m/m, +4.2% YoY (highest since Apr 2023); core +0.2% m/m, +2.9% YoY. Energy contributed 60% of monthly move (gasoline +7% m/m, +40.5% YoY). Stagflation flag.
+- Earnings BMO: thin; ADBE + LEN report AMC (post-close)
+- Economic calendar: PPI 8:30 ET, Continuing claims, ECB decision; UMich Sentiment Fri 6/12
+- Sector momentum YTD 2026: **Energy leader (+34.5%)**, Tech #2 but cracking on ORCL fade, Materials/Staples/Industrials/REITs +9-11%. Utilities + broader Tech lagging into rate repricing.
+
+### Trade Ideas (Watchlist — no fills pre-PPI)
+1. **XOM / CVX / XLE** — Energy YTD leader (+34.5%); oil bid on Mideast war re-escalation. Want pullback to 10-DMA, not chase blow-off. Trigger: post-PPI hold of premarket low + Brent above $90. Stop -7%. Target 2:1.
+2. **COP / EOG** — same energy thesis, less crowded than majors. Same gating: post-PPI, oil holding.
+3. **AVOID:** ORCL (gap risk), broad tech/QQQ (rate repricing), Utilities (XLU)/REITs (XLRE) if yields spike, anything close to Mideast headline tape (defense names are extended too).
+4. ADBE / LEN earnings AMC — observe only; LEN especially vulnerable to higher-for-longer rates.
+
+### Risk Factors
+- **PPI 8:30 ET** — overnight gap risk; pure event premium for zero edge
+- **ECB rate decision** — adds FX/rates whipsaw on top of PPI
+- VIX 22 + (+12% in a day) signals regime shift — wait for vol drain
+- Mideast war escalation is live; oil can spike OR collapse on single headline
+- ORCL -7% AH risks AI infra/cloud peer contagion at the open (NVDA, AMD, MSFT, GOOGL, MDB)
+- Day 3 of live ops, zero P&L cushion — first trade must be A+, not a chase
+- Stagflationary backdrop = Fed cut hopes evaporating; growth multiples vulnerable
+
+### Decision
+**HOLD** — no entries before PPI 8:30 ET + ECB. Hot CPI + war + ORCL fade = wrong tape to deploy first capital. Reassess after 10:00 ET vol drain. If PPI cool and tape stabilizes, XLE/XOM is top candidate. If PPI hot, sit. Patience > activity.
