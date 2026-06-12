@@ -31,3 +31,12 @@ No positions yet. Bot launches tomorrow.
 | — | — | — | — | — | — | — |
 
 **Notes:** Flat third consecutive session. No positions, no orders, no fills; equity unchanged at $100k. Trades today: none. Trades this week (Mon-Thu): 0/3. Capital deployed: 0% — below 75-85% target, but patience > activity. Pre-market and midday scans produced no setups clearing strategy filters (clean breakout + sector momentum). Three flat days in a row means the screen needs a wider net Fri — broaden pre-market to semis, AI infra, defense; if a single A+ setup appears, take starter ≤15% notional with 10% trailing stop GTC at fill. ClickUp EOD alert DELIVERED (msg id 80180052717132).
+
+### Jun 12 — EOD Snapshot (Day 4, Friday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat fourth consecutive session — full week without a fill. No positions, no orders, no trades; equity unchanged at $100k. Trades today: none. Trades this week (Mon-Fri): 0/3. Capital deployed: 0% vs 75-85% target. Pre-market and midday scans again failed to produce setups clearing strategy filters. Zero-trade week means the screen is too narrow — weekly review must reassess sector momentum, broaden watchlist (semis, AI infra, defense, energy), and define A+ trigger criteria more concretely. Patience > activity still holds, but discipline cuts both ways: missing clean breakouts is also a violation. Monday: refreshed pre-market scan with broader universe; first qualifying setup gets starter ≤15% notional with 10% trailing stop GTC at fill. ClickUp EOD alert DELIVERED (msg id 80180052909178).
