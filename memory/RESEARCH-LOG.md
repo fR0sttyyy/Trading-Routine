@@ -173,3 +173,41 @@ HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) 
 
 ### Decision
 **HOLD** — no entries before PPI 8:30 ET + ECB. Hot CPI + war + ORCL fade = wrong tape to deploy first capital. Reassess after 10:00 ET vol drain. If PPI cool and tape stabilizes, XLE/XOM is top candidate. If PPI hot, sit. Patience > activity.
+
+## 2026-06-12 — Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x)
+- Daytrade count: 0
+- Positions: none | Open orders: none
+- Week trades (Mon-Fri): 0/3
+
+### Market Context
+- WTI / Brent: WTI ~$85.94 (lowest since Apr) / Brent ~$89.25 (-1.25%) — oil rolling on Iran peace deal possibly this weekend (Trump signaling agreement)
+- S&P 500 futures: +0.79% premarket after MASSIVE Thursday risk-on (Dow +1.86%, SPX +1.75%, NDX +2.54%) — relief rally on Iran de-escalation + cooler-than-feared post-PPI digestion
+- VIX: 19.44 Thu close (-12.51%) — significant vol drain from Wed's 22.22 spike; regime returning to mid/upper teens
+- Today's catalysts: **SpaceX IPO debut $135/sh, ~$1.78T market cap, ~$75B raise — largest IPO in history**; UMich Sentiment prelim (year-ahead inflation 4.8% vs 4.7% prior); Iran peace deal headline watch
+- Earnings AMC yesterday: **LEN** Q2 EPS $1.24 ($1.31 ex-MTM) vs $1.81 prior year, rev $7.9B, deliveries +2%, new orders -4%, gross margin 15.6% — homebuilder slowdown confirmed; **ADBE** expected $5.60 EPS / $6.45B rev — pivoting on ARR vs CEO transition narrative
+- Economic calendar: UMich Sentiment prelim 10:00 ET; post-PPI digestion; weekend Iran headline risk
+- Sector momentum YTD 2026: **Materials +22% (leader)**, Healthcare standout, Energy still strong but oil rolling. Current momentum leaders = Consumer Staples, Industrials, Materials, Energy. Lagging = Tech, Comms, Discretionary, Financials. Note: post-Thu Naz +2.54% rally may shift the lagging-tech read short-term
+
+### Trade Ideas (Watchlist — gating on SpaceX debut + UMich + Iran headline)
+1. **FCX (Materials/copper)** — YTD sector leader (+22%); broader rotation theme intact. Entry trigger: post-10:00 ET hold above premarket low AND no Iran headline reversal. Stop -7%. Target 2:1 R:R. Size: starter ~12-15% notional.
+2. **XLI (Industrials ETF)** — momentum-leading sector, less single-name risk than FCX; suitable as cleaner first-position. Same gating as FCX.
+3. **XLV (Healthcare ETF)** — YTD standout; defensive carry if Iran deal slips or UMich inflation expectations re-spike. Same gating.
+4. **AVOID:** SpaceX (no chase IPO Day 1 — pure whipsaw); XLE/XOM (oil rolling on peace headline); LEN (post-earnings -X% likely on order miss); QQQ chase (Thu rally may be one-day reflex into Iran weekend headline)
+5. **ADBE** — post-earnings observe only; gap risk unresolved
+
+### Risk Factors
+- **Iran peace deal weekend headline risk** — cuts both ways; oil cratered today, could reverse violently if no deal
+- **SpaceX debut** — historic IPO drains liquidity from other names AM; mechanical selling possible
+- **UMich inflation expectations 4.8%** — sticky; if revision higher, kills the Thu rate-cut bid that fueled bounce
+- VIX still 19.44 — not yet calm regime; Thu drop from 22 was orderly but fragile
+- Friday into 2-day weekend with binary geopolitical catalyst — gap risk on Monday open
+- Day 4 of live ops, zero P&L cushion — first trade must remain A+, not a Friday-chase
+- Thu's +1.75% SPX day was huge — historically Day 2 of such rallies fades 60%+ of the time
+
+### Decision
+**HOLD** — no entries today. Setup is improving (VIX drain, sector rotation map clear, momentum bid) but Friday + SpaceX debut + Iran weekend headline = wrong entry day. Plan: monitor 10:00 ET window for FCX/XLI/XLV behavior; if all three hold above premarket lows post-UMich AND Iran deal lands cleanly over weekend, FCX or XLI is the first-position candidate for Monday/Tuesday. If Iran deal slips, XLV defensive carry moves up. Patience > activity. 0/3 trades used this week — full budget rolls to next week intact.
