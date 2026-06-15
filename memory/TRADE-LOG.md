@@ -40,3 +40,12 @@ No positions yet. Bot launches tomorrow.
 | — | — | — | — | — | — | — |
 
 **Notes:** Flat fourth consecutive session — full week without a fill. No positions, no orders, no trades; equity unchanged at $100k. Trades today: none. Trades this week (Mon-Fri): 0/3. Capital deployed: 0% vs 75-85% target. Pre-market and midday scans again failed to produce setups clearing strategy filters. Zero-trade week means the screen is too narrow — weekly review must reassess sector momentum, broaden watchlist (semis, AI infra, defense, energy), and define A+ trigger criteria more concretely. Patience > activity still holds, but discipline cuts both ways: missing clean breakouts is also a violation. Monday: refreshed pre-market scan with broader universe; first qualifying setup gets starter ≤15% notional with 10% trailing stop GTC at fill. ClickUp EOD alert DELIVERED (msg id 80180052909178).
+
+### Jun 15 — EOD Snapshot (Day 5, Monday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat fifth consecutive session — second week of no fills opens with zero activity. No positions, no orders, no trades; equity unchanged at $100k (Alpaca balance_asof 2026-06-12, no market data since Fri close). Trades today: none. Trades this week (Mon): 0/3. Capital deployed: 0% vs 75-85% target. Pre-market and midday scans again failed to produce setups clearing strategy filters. Five flat sessions is now a pattern problem — Friday's weekly review action (broaden watchlist to semis, AI infra, defense, energy + concrete A+ trigger criteria) must be implemented in tomorrow's pre-market scan. Discipline cuts both ways: missing clean breakouts is also a violation. Tuesday: refreshed pre-market with broader universe; first qualifying setup gets starter ≤15% notional with 10% trailing stop GTC at fill.
