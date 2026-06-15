@@ -211,3 +211,47 @@ HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) 
 
 ### Decision
 **HOLD** — no entries today. Setup is improving (VIX drain, sector rotation map clear, momentum bid) but Friday + SpaceX debut + Iran weekend headline = wrong entry day. Plan: monitor 10:00 ET window for FCX/XLI/XLV behavior; if all three hold above premarket lows post-UMich AND Iran deal lands cleanly over weekend, FCX or XLI is the first-position candidate for Monday/Tuesday. If Iran deal slips, XLV defensive carry moves up. Patience > activity. 0/3 trades used this week — full budget rolls to next week intact.
+
+
+## 2026-06-15 — Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x)
+- Daytrade count: 0
+- Positions: none | Open orders: none
+- Week trades (Mon-Fri): 0/3
+
+### Market Context
+- WTI / Brent: WTI ~$84.88 (-3.2% Fri) / Brent ~$87.33 — oil sharply lower on confirmed US-Iran peace deal over weekend (Strait of Hormuz reopening expected)
+- S&P 500 futures: sharply higher premarket on Iran peace deal — risk-on across stocks/bonds, dollar weaker in Asia trade. Prediction markets: 51% open-up / 59% close-up
+- VIX: 15.77 (vs Fri close 19.44) — major vol drain, calm regime restored
+- Today's catalysts: **US-Iran peace deal confirmed** (weekend) → broad risk-on; Empire State Mfg, Industrial Production, NAHB Housing Mkt Index (all secondary)
+- Earnings BMO: 34 reports today, no megacaps; thin tape pre-FOMC
+- Economic calendar: Empire State Mfg + Indus Prod + NAHB today (low impact); **FOMC Wed 6/17** (Warsh's first meeting as Fed Chair, no rate change expected, dot-plot risk); Retail Sales Wed; Jobless claims Thu; **Juneteenth Fri 6/19 — markets CLOSED**
+- Sector momentum YTD 2026: **Energy +22% / Materials +22% (co-leaders)**, Staples +16%, Industrials +12%, semis strong. Laggards: IT -3.8%, Discretionary -4.6%, Financials -5.7%. Theme: 2025 winners are now laggards (mirror reversal)
+
+### Trade Ideas (first-position candidates — gating on 10:00 ET behavior)
+1. **FCX (Materials)** — YTD sector leader (+22%); copper bid intact; Iran peace deal removes broad macro headwind. Entry trigger: hold above premarket low at 10:00 ET. Stop -7%. Target 2:1 R:R. Size: starter 12-15% notional. **A+ first-position candidate.**
+2. **XLI (Industrials ETF)** — +12% YTD; cleaner rotation play, less single-name risk than FCX. Same gating; same sizing. Alternate first-position.
+3. **XLB (Materials ETF)** — diversified version of FCX trade. Use if FCX gaps too hot (>+2% premarket) and a chase is unavoidable.
+4. **AVOID:** Energy (XLE/XOM/CVX) — oil rolling on peace deal, sector tailwind broken short-term; ORCL/cloud names (AI infra fade unresolved); Financials (YTD laggard); Discretionary; broad QQQ (chase risk after weekend gap).
+
+### Risk Factors
+- **FOMC Wed 6/17 mid-week** — Warsh's debut adds unpredictability; same-day entries Mon/Tue carry overnight gap risk into Wed 2pm presser
+- **Juneteenth Fri 6/19 closed** — only 4 trading days this week; reduces budget for entries with weekend gap risk
+- Iran peace deal can still unravel — keep stops tight
+- Gap-up risk: chasing Monday open into +0.5%+ futures is bad R:R; wait for 10:00 ET pullback to set entry
+- Day 5 of live ops, zero P&L cushion — first trade must remain A+, sized as starter
+- Materials/Industrials +22%/+12% YTD = extended; pullback entries preferred over breakouts
+- Tech still YTD laggard (-3.8%) — don't try to bottom-fish, rotation favors out of Tech
+- Gemini research API returned stale-date answers (training cutoff) — switched to WebSearch fallback for all market context queries
+
+### Decision
+**HOLD pre-market — but lean LONG into market-open run.** Setup is cleanest in weeks: VIX 15.77 (calm), Iran deal landed (Fri plan's #1 condition met), sector rotation map intact. Friday EOD note explicitly flagged Mon/Tue for first entry if Iran deal lands cleanly — it has. Plan for market-open workflow:
+- Watch FCX + XLI at 10:00 ET. If either holds above premarket low after first 30-min vol shake, take starter (12-15% notional) with 10% trailing stop GTC at fill.
+- DO NOT chase Mon gap-up — let 10:00 ET window confirm.
+- FOMC Wed = trim or hold; do NOT add into Wed presser.
+- Budget: max 1 entry today, 1 Tue, leaving 1 slot for post-FOMC opportunities. 0/3 trades used this week.
+
