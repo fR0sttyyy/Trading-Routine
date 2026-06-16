@@ -255,3 +255,46 @@ HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) 
 - FOMC Wed = trim or hold; do NOT add into Wed presser.
 - Budget: max 1 entry today, 1 Tue, leaving 1 slot for post-FOMC opportunities. 0/3 trades used this week.
 
+## 2026-06-16 — Pre-market Research
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x)
+- Daytrade count: 0
+- Positions: none | Open orders: none
+- Week trades (Mon-Tue): 0/3
+
+### Market Context
+- WTI / Brent: WTI ~$74.20 / Brent ~$78.90 — oil cooled hard on confirmed US-Iran peace deal; broad disinflationary tailwind
+- S&P 500 futures: **ES +1.22% / NQ +1.99%** premarket — continuation rally on top of Mon's monster gap. Mon closes: SPX 7,554.29 (+1.65%), Dow 51,671.03 (+0.92%), NDX 26,683.94 (+3.07%). Iran deal + SpaceX rally driving risk-on.
+- VIX: 16.20 Mon close (-8.37%) — calm regime confirmed, vol drained from 19.44 Fri / 22.22 Wed peak
+- Today's catalysts: **FOMC starts today (decision Wed 6/17 2pm ET)** — Warsh's debut, no rate change expected (~99% prob hold at 3.50-3.75%), but dot plot + SEP are the swing factor. Hot May CPI (+4.2% YoY) still in the mix → hawkish dot-plot risk. Empire State Mfg + Indus Prod + NAHB Housing (low impact).
+- Earnings BMO: Thin. **KR (Kroger)** notable — food inflation/consumer spending read. JBL is **Wed 6/17 BMO** (not today). No megacaps.
+- Economic calendar: FOMC starts today + decision Wed 6/17; Retail Sales Wed; Jobless Claims Thu; **Juneteenth Fri 6/19 — markets CLOSED** (3 trading days left this week incl today)
+- Sector momentum YTD 2026: **Materials/Energy ~+22% co-leaders, Staples +16%, Industrials +12%** still in lead. FCX (Materials proxy) ~$69.86, +25% YTD, sitting -2.6% off 6/2 ATH ($71.72) — modest pullback delivered. IT, Discretionary, Financials remain laggards.
+
+### Trade Ideas (first-position candidates — gating on 10:00 ET behavior)
+1. **FCX (Materials)** — Friday's plan A+ name. +25% YTD, pulled back -2.6% off ATH last week → exactly the entry profile Fri plan called for. Iran deal removes macro headwind. **Trigger:** hold above premarket low at 10:00 ET, no FOMC-curve repricing reversal. Stop -7%. Target 2:1 R:R. **Size: starter 12-15% notional (~$12-15k)**. A+ first-position candidate.
+2. **XLI (Industrials ETF)** — +12% YTD; clean rotation play, less single-name risk than FCX. Same gating; same sizing. Alternate if FCX premarket extension is >+2%.
+3. **XLB (Materials ETF)** — diversified FCX trade. Use only if FCX is too hot to enter cleanly.
+4. **AVOID:** Energy (XLE/XOM/CVX) — oil rolling on peace deal, sector tailwind broken; ORCL/cloud names (AI fade); Financials (laggard); Discretionary (laggard); broad QQQ chase (NQ +1.99% premarket = chase risk); KR earnings (single-name event risk).
+
+### Risk Factors
+- **FOMC decision Wed 6/17 2pm ET** — any Tue entry carries overnight gap risk into Warsh debut + dot plot. Hot CPI 4.2% YoY raises hawkish-revision odds; futures currently price NO 2026 hikes — repricing would hit growth multiples.
+- "70% of warning signals flashing" headline floating into Warsh debut — sentiment fragile under the surface despite Mon rally
+- **Gap-up risk:** ES +1.22% / NQ +1.99% premarket = chasing the Tue open is bad R:R. Wait for 10:00 ET pullback to set entry. Mon was already +1.65% SPX; back-to-back +1.5%+ days fade 60%+ historically.
+- **Juneteenth Fri 6/19 closed** — only 3 trading days this week; weekend gap risk if FOMC hawkish surprise
+- Day 6 of live ops, zero P&L cushion, second flat week underway — first trade must remain A+, sized as starter (no full-size)
+- Materials/Industrials extended at YTD highs — pullback entries only; do not chase breakouts
+- Iran peace deal can still unravel — keep stops tight
+- KR earnings BMO = consumer/inflation read; could swing Staples mid-morning
+
+### Decision
+**HOLD pre-market — Tuesday is the entry window if 10:00 ET confirms.** Setup matches Fri/Mon plan: VIX 16, Iran deal landed, sector rotation map intact, FCX pulled back the requested -2-3% off ATH. Plan for market-open workflow:
+- **Do NOT chase Tue gap-up at the open** — let first 30-min vol shake settle.
+- At 10:00 ET: if FCX holds above premarket low AND ES still green AND no Fed-curve repricing shock → take FCX starter 12-15% notional ($12-15k) with 10% trailing stop GTC at fill.
+- Alternate: XLI same gating if FCX extends too far premarket.
+- **DO NOT add into Wed FOMC presser** — any Tue fill stays as starter only until Wed close clears.
+- Budget: max 1 entry today, leaving 2 slots for post-FOMC opportunities Thu/Mon (Juneteenth closed).
+- Gemini wrappers returned training-cutoff disclaimers on premarket/futures/calendar queries — WebSearch fallback used for ES/NQ futures, Mon closes, VIX 16.20, FCX quote, FOMC schedule. Noting fallback per workflow.
