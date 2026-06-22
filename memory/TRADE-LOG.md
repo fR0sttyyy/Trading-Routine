@@ -54,3 +54,12 @@ No positions yet. Bot launches tomorrow.
 **Market:** CLOSED (`is_open: false`, next_open 2026-06-23 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Action:** none
 
 **Notes:** Midday workflow invoked after the cash session. No positions to manage, no protective stops to tighten, no thesis-break cuts to take. Pre-market plan unchanged: Tue 6/23 10:00 ET, XLI > $181.80 + ES not red >0.5% → buy ~66 sh, 10% trailing stop GTC at fill. FCX fallback only if XLI fails gating AND XLB green. No ClickUp alert (action gate not met).
+
+### Jun 22 — EOD Snapshot (Day 6, Monday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **P&L since Jun 15:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat sixth consecutive session — no positions, no orders, no fills. Equity unchanged at $100k. Trades today: none. Trades this week (Mon): 0/3. Capital deployed: 0% vs 75-85% target. GAP IN COVERAGE: prior EOD snapshot was Jun 15; routines were not run Tue-Fri Jun 16-19, so the change above spans 7 calendar days (5 trading days) rather than a single session — labeled "P&L since Jun 15" accordingly. Alpaca `balance_asof` 2026-06-18 (no fresh post-session mark for today). Six flat sessions confirms screen-too-narrow pattern unresolved from last week's review. Tomorrow (Tue 6/23 10:00 ET): execute pre-market plan — XLI > $181.80 AND ES not red >0.5% → buy ~66 sh XLI w/ 10% trailing stop GTC; FCX fallback only if XLI gating fails AND XLB green. First fill must come with the trailing stop in the same workflow.
