@@ -131,6 +131,10 @@ case "$cmd" in
   account)
     acurl "$API/account"
     ;;
+  clock)
+    # Market status: {is_open, next_open, next_close}. On the trading API.
+    acurl "$API/clock"
+    ;;
   positions)
     acurl "$API/positions"
     ;;
@@ -173,7 +177,7 @@ case "$cmd" in
     acurl -X DELETE "$API/positions"
     ;;
   *)
-    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
+    echo "Usage: bash scripts/alpaca.sh <account|clock|positions|position|quote|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
     exit 1
     ;;
 esac
