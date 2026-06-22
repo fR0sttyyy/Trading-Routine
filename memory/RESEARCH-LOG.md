@@ -300,3 +300,51 @@ HOLD — no fills today. Patience > activity. Re-assess after NFP (Fri 8:30 ET) 
 - **DO NOT add into Wed FOMC presser** — any Tue fill stays as starter only until Wed close clears.
 - Budget: max 1 entry today, leaving 2 slots for post-FOMC opportunities Thu/Mon (Juneteenth closed).
 - Gemini wrappers returned training-cutoff disclaimers on premarket/futures/calendar queries — WebSearch fallback used for ES/NQ futures, Mon closes, VIX 16.20, FCX quote, FOMC schedule. Noting fallback per workflow.
+
+## 2026-06-22 — Pre-market Research
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-06-18 (last session before Juneteenth Fri 6/19 closed; flat through 6/16-18, so snapshot reflects true state — not data-staleness blocker)
+- Week trades (Mon): 0/3 | 4-session pre-market gap since 6/16 entry (6/17-19 routines were missed)
+
+### Market Context (live, end of Mon 6/22 session)
+- WTI / Brent: WTI $74.30 (+0.6%) / Brent $78.25 (+0.45%) — oil briefly broke <$74 intraday on Treasury allowing Iran 60-day oil-sale window; bounced
+- Indices (Mon 6/22 close): SPX 7,472.79 (-0.37%), NDX 26,166.60 (-1.32%), Dow 51,712.71 (+0.29%) — clear rotation OUT of tech megacaps INTO Dow cyclicals
+- VIX: 17.28 (+2.98%) — calm regime intact, but lifting into PCE week
+- Futures (Tue 6/23 setup): ES -0.12%, NQ -0.23% — soft overnight, no gap
+- Today's catalysts: **Treasury 60-day Iran oil-sale allowance** (disinflation tailwind, kills XLE short-term); **tech megacaps slide** on AI-expense concerns (SpaceX extends slump); **Micron + Anthropic AI infra supply agreement** + Micron strategic stake in Anthropic — storage/memory names called out as YTD S&P leaders (MU, WDC, SNDK)
+- Earnings AMC Tue 6/23: **FDX (FedEx)** fiscal Q4 — bellwether for shipping/industrials
+- Economic calendar: **MAY PCE Fri 6/26 8:30 ET** (Fed's preferred inflation gauge — after May CPI +4.2% YoY hot, PCE is the week's swing event); Fed Chair Warsh (post-FOMC) speakers possible mid-week
+- Sector momentum YTD 2026 (refreshed): **Materials +22% / Energy +22%** still co-leaders BUT Energy now under threat from Iran oil allowance; **Industrials +12%** strong; **Storage/Memory pocket** (MU/WDC/SNDK) standout subgroup of broader Tech (which lags). Tech megacaps (SpaceX/MAG7) rolling — IT YTD remains -3-4%, Discretionary -4%, Financials -5%
+- Today's sector tape: XLE +1.26%, XLV +0.88%, XLI +0.74%, XLF +0.59%, XLK +0.49%, XLB +0.01%, XLP -0.66% — Dow cyclicals winning, megacap-heavy XLK weak under the surface
+
+### Trade Ideas (Tue 6/23 first-position candidates — gating on 10:00 ET)
+1. **FCX (Materials)** — A+ name carried over from 6/15-16 plans. Mid ~$69. YTD sector leader +22%; Iran oil cooling = broad disinflation = supports cyclical rotation. **Trigger:** at 10:00 ET, hold above premarket low AND ES not red >0.5%. Entry ~$69. Stop $63 (-8.7%). Target $77 (+11.6%). R:R ~1.3:1 — **borderline, fails 2:1 unless target stretched to $78.50 with momentum**. Size: starter 12-15% notional (~$12-15k).
+2. **MU (Micron) — NEW, fresh catalyst** — signed Anthropic AI infra supply deal + took strategic stake (announced 6/22 18:02 GMT). Storage/memory pocket flagged as S&P YTD leader. Earnings risk: MU fiscal Q3 likely late June — **MUST CONFIRM date before Tue entry** (if reports this week, BLOCK). If clear of earnings: trigger = hold premarket low at 10:00 ET, stop -7-8%, target 2:1 on the Anthropic-deal repricing. Size: starter 10-12% notional.
+3. **XLI (Industrials ETF)** — clean rotation play, Dow +0.29% today vs NDX -1.32% = the trade. Mid ~$181.80. Trigger: hold above premarket low at 10:00 ET. Stop -7%. Target 2:1. Alternate first-position if FCX gaps too hot or MU has earnings overhang.
+4. **AVOID:** XLE/XOM/CVX (Iran 60-day oil sale = sector tailwind broken short-term); SpaceX + MAG7 tech megacaps (extending AI-expense slump); FDX (earnings AMC Tue = gap risk); Discretionary/Financials (YTD laggards); broad QQQ chase (NDX -1.32% today, falling-knife risk).
+
+### Risk Factors
+- **MAY PCE Fri 6/26 8:30 ET** — Fed's preferred gauge after hot May CPI 4.2%; week's primary swing event. Any Tue entry must clear PCE gap risk — **plan exit/trim if hot print before Fri**.
+- **Iran oil 60-day allowance** = double-edged: disinflation supports cyclicals (bullish for FCX/XLI), but kills the YTD #1 sector tailwind. Cuts both ways for portfolio composition.
+- **Tech megacap rolling regime** — NDX -1.32%, SpaceX slump, AI-expense concerns dominating headlines. Avoid bottom-fishing megacaps; rotation favors small/mid-cap cyclicals + storage subgroup.
+- **MU earnings calendar risk** — must verify before entry; reporting into a trade is unmanaged risk.
+- **FedEx AMC Tue** — single-name event but a freight/industrial read that can swing XLI sympathy moves Wed open.
+- **Yfinance context returned live + dated numbers** ✓; **Alpaca quotes pulled at 20:00 UTC = 4:00pm ET close = wide spreads** (FCX bid 66.08/ask 72.34, XLI bid-only) — used for confirmation only, not entry sizing. Use Tue premarket re-quote for actual trigger price.
+- **MU/WDC/SNDK Alpaca quotes look post-split / off-hours-anomalous** (MU $1244, WDC $704, SNDK $2179) — must re-verify on Tue premarket with tighter spreads before MU entry; do NOT size off these.
+- **4-session research gap (6/17-19 missed)** — sector momentum map could have shifted within; refreshed today, but no daily continuity through FOMC/Juneteenth window.
+- Day 11+ of live ops, zero P&L cushion, third flat week underway — first trade must remain A+ qualifying, sized as starter.
+
+### Decision
+**HOLD pre-market — Tuesday is the entry window if 10:00 ET confirms. Default is TRADE per strategy.** Setup remains: VIX 17, sector rotation map intact (Materials/Industrials lead, megacaps roll), Iran disinflation tailwind reinforces cyclicals. Per strategy "default is TRADE", **FCX QUALIFIES** on catalyst (Materials YTD leader + Iran disinflation reinforcement), sector momentum (Materials +22% YTD), stop (definable at $63, 8.7%), R:R (target $78.50 = 13.8% upside vs 8.7% downside = 1.6:1 — **fails 2:1 strict test → DOES NOT FULLY QUALIFY without target stretch**). **MU pending earnings-date verification** — if clear, qualifies on Anthropic-deal catalyst + storage subgroup momentum + clean stop.
+
+Plan for Tue 6/23 market-open workflow:
+- **First action**: verify MU earnings date (if this week → BLOCK MU; if next week+ → MU is primary entry).
+- **If MU clear**: at 10:00 ET, take MU starter 10-12% notional (~$10-12k) with 10% trailing stop GTC at fill. Catalyst-fresh, sector-leading, defined stop.
+- **If MU blocked or fails 10:00 ET hold**: take XLI starter 12% notional (~$12k) at 10:00 ET if it holds premarket low and ES not red >0.5%. Cleaner R:R than FCX given FCX's borderline 1.6:1.
+- **FCX fallback**: only if MU + XLI both fail gating; stretch target to $78.50 for 2:1 only with confirmed sector tape strength.
+- **PCE Fri 6/26 = HALF-SIZE Wed/Thu entries** (event sizing per strategy); Tue entry full-size since PCE 3 sessions out.
+- Budget: max 1 entry Tue. Leaves 2 slots for Wed-Thu post-FedEx / pre-PCE.
+- Note: per strategy, "patience" alone is NOT a valid HOLD reason — Tue entry is the default unless 10:00 ET gating fails or MU earnings risk confirmed.
