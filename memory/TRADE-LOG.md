@@ -49,3 +49,8 @@ No positions yet. Bot launches tomorrow.
 | — | — | — | — | — | — | — |
 
 **Notes:** Flat fifth consecutive session — second week of no fills opens with zero activity. No positions, no orders, no trades; equity unchanged at $100k (Alpaca balance_asof 2026-06-12, no market data since Fri close). Trades today: none. Trades this week (Mon): 0/3. Capital deployed: 0% vs 75-85% target. Pre-market and midday scans again failed to produce setups clearing strategy filters. Five flat sessions is now a pattern problem — Friday's weekly review action (broaden watchlist to semis, AI infra, defense, energy + concrete A+ trigger criteria) must be implemented in tomorrow's pre-market scan. Discipline cuts both ways: missing clean breakouts is also a violation. Tuesday: refreshed pre-market with broader universe; first qualifying setup gets starter ≤15% notional with 10% trailing stop GTC at fill.
+
+### Jun 22 — Midday Scan (Monday, post-session 19:44 ET)
+**Market:** CLOSED (`is_open: false`, next_open 2026-06-23 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Action:** none
+
+**Notes:** Midday workflow invoked after the cash session. No positions to manage, no protective stops to tighten, no thesis-break cuts to take. Pre-market plan unchanged: Tue 6/23 10:00 ET, XLI > $181.80 + ES not red >0.5% → buy ~66 sh, 10% trailing stop GTC at fill. FCX fallback only if XLI fails gating AND XLB green. No ClickUp alert (action gate not met).
