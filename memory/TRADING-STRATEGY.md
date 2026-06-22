@@ -4,7 +4,7 @@
 Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 
 ## Capital & Constraints
-- Starting capital: ~$10,000
+- Starting capital: ~$100,000
 - Platform: Alpaca
 - Instruments: Stocks ONLY
 - PDT limit: 3 day trades per 5 rolling days (account < $25k)
@@ -20,13 +20,22 @@ Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 8. Max 3 new trades per week
 9. Follow sector momentum
 10. Exit a sector after 2 consecutive failed trades
-11. Patience > activity
 
-## Entry Checklist
-- Specific catalyst?
-- Sector in momentum?
-- Stop level (7-10% below entry)
-- Target (min 2:1 R:R)
+## Entry Trigger (when ALL true, the default is to BUY)
+A setup QUALIFIES when all four hold:
+1. Specific catalyst documented in today's RESEARCH-LOG
+2. Sector is in momentum (per the momentum map)
+3. Stop level definable 7-10% below entry
+4. Target gives >= 2:1 R:R
+
+If a setup qualifies AND the Buy-Side Gate passes, SUBMIT THE ORDER.
+To skip a qualifying setup, name the specific item above (or the gate
+condition) that failed. "Patience," "no edge," "wait for confirmation,"
+"protect cash," and "not high-conviction enough" are NOT valid skip reasons.
+A macro event is a reason to HALF-SIZE, not to skip.
+
+A flat session with a qualifying setup available is a rule VIOLATION,
+not discipline, and must be logged as one.
 
 ## Buy-Side Gate (all must pass before any order)
 - Total positions after fill <= 6

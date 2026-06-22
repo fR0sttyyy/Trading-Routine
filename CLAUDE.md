@@ -43,3 +43,14 @@ Never curl these APIs directly.
 
 Ultra concise. No preamble. Short bullets. Match existing memory file
 formats exactly — don't reinvent tables.
+
+## Decision Rule
+- Evaluate every setup on its own merits. Account P&L, days flat, and "cushion" are NOT inputs. There is no need for a winning trade before taking a normal one.
+- A setup QUALIFIES (and should be TRADED) if ALL are true:
+  - in a momentum-leading sector
+  - price at/through a stated entry trigger
+  - risk:reward >= 2:1 with a definable stop
+  - an open slot (< 6 positions) and weekly budget (< 3) remain
+- If a setup qualifies, the DEFAULT IS TO TRADE. To HOLD it, name the specific criterion above that failed today. "Patience," "no edge," "wait for confirmation," "protect cash" are NOT valid reasons.
+- Macro events (CPI, FOMC...) are SIZING inputs, not blockers. A qualifying setup on an event day is taken at HALF size with the stop set — never deferred to a post-event "confirmation" window.
+- A flat week is not success. Missing a setup that met all four tests is a rule VIOLATION and must be logged as one.

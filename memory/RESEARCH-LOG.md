@@ -28,7 +28,9 @@ Format each entry:
 - ...
 
 ### Decision
-TRADE or HOLD (default HOLD if no edge)
+TRADE is the default for any idea meeting all four qualification tests.
+To HOLD a qualifying idea, name the exact test that failed.
+Do not write "patience > activity" or "wait for confirmation."
 
 ---
 
