@@ -401,3 +401,64 @@ Plan for Tue 6/23 market-open workflow:
 - **If both fail or tape sours** → HOLD with documented gating-failure reason; do not force.
 - **Wed FOMC-equivalent** is Micron AMC + PCE Fri — do not add Wed; trim or hold any Tue fill into PCE if hot print risk lifts.
 - Budget: 1 entry Tue (XLI primary, FCX fallback). 2 slots reserved Thu (post-MU) / Fri pre-PCE.
+
+## 2026-06-23 — Pre-market Research (Tuesday — entry day)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-06-18 (no fills since; true flat state, not data-staleness blocker)
+- Week trades (Mon-Tue): 0/3 | Day 7 of live ops; third flat week opens today
+
+### Market Context (live overnight → Tue 6/23 open)
+- WTI / Brent: WTI $73.09 (-1.04%) / Brent $76.93 (-1.25%) — oil continues to slide on Iran 60-day allowance, sub-$74 confirmed; disinflation tailwind intact
+- Indices (Mon 6/22 close): SPX 7,472.79 (-0.37%), NDX 26,166.60 (-1.32%), Dow 51,712.71 (+0.29%) — tech-led drawdown, Dow cyclicals positive; rotation map unchanged
+- VIX: 17.28 (+5.37%) — lifting modestly into PCE-week (yesterday +2.98%); still calm regime
+- **Futures (live, Tue 6/23 pre-open): ES 7,471.25 (-0.93%), NQ 30,136 (-1.69%) — WIDER overnight gap vs yesterday's -0.15%/-0.27%; this CHANGES the gating math.** Catalyst: Warsh hawkish FOMC overhang + MU into earnings de-risk
+- Today's sector tape (Mon close): XLE +1.26%, XLV +0.88%, XLI +0.74%, XLF +0.59%, XLK +0.49%, **XLB +0.01% (FLAT, not strong)**, XLP -0.66% — rotation still cyclical, but XLB weakness removes one fallback confirmer
+- Today's catalysts:
+  - **Fed Chair Warsh hawkish** (post-FOMC) — task forces, potential October hike telegraph (AP/Motley Fool/KITCO). Rates regime risk reset higher; explains overnight futures slide + treasury yield rise
+  - **MU earnings Wed 6/24 AMC** — investors framing as "pulse check of AI rally momentum" (TradingView/Reuters); profit growth ~1,000% YoY expected
+  - **Iran 60-day oil allowance** continues to weigh WTI; supports cyclical/disinflation rotation; weight on XLE
+  - **Tech megacaps continue slide** (Reuters: SpaceX extends slump, AI-expense concerns; Alphabet/Amazon billions lost)
+  - **Treasury yields rising into PCE** (CNBC) — pressures rate-sensitive
+- Earnings AMC Tue: **FDX** Q4 — freight/industrial read, can swing XLI sympathy Wed
+- Economic calendar: **MAY PCE Fri 6/26 8:30 ET** (Fed's preferred gauge — week's swing event); Warsh-Fed hawkish lean is a fresh sizing consideration
+- Sector momentum YTD 2026 (unchanged): Materials +22% / Energy +22% (Energy now under near-term threat) / Industrials +12% / Storage-Memory subgroup standout; IT -3-4%, Discretionary -4%, Financials -5% lag
+- Quotes (post-close, wide/one-sided — confirmation only): XLI bid $176.69 / ask 0 (illiquid AH); FCX bid $66.08 / ask $72.34 (wide); XLB bid $49.99 / ask 0; MU bid $1244.06 / ask $1244.87 (this confirms the $1k+ price tag is real, not a data anomaly)
+
+### Trade Ideas (Tue 6/23 — runtime conditions for market-open routine)
+1. **XLI (Industrials ETF) — PRIMARY.** Mon close $181.80, +12% YTD sector leader; clean rotation play. **Runtime trigger (market-open routine):** at routine runtime, price > $181.80 (Mon close) AND ES futures not red >0.5% from prior close. Stop -7% (~$169.07). Target +14% (~$207.25) → R:R 2:1. Size: **starter 12% notional (~$12k, ~66 shares)** with 10% trailing stop GTC at fill. ENTER AT OPEN-WINDOW.
+2. **FCX (Materials) — FALLBACK.** Mid ~$69. YTD +22% leader; Iran disinflation reinforces cyclicals. **Runtime trigger:** ONLY if XLI fails its gating AND XLB green at routine runtime. Entry > Tue premarket low. Stop $63 (-8.7%). Target $78.50 (+13.8%) → R:R 1.6:1 (FAILS strict 2:1 — accepted ONLY as fallback path with sector tape confirming via XLB green). Size: starter 12% notional (~$12k, ~170 shares).
+3. **MU — BLOCKED** until Thu 6/25 pre-market (earnings Wed AMC = unmanaged event risk per strategy). Re-evaluate Thu pre-market.
+4. **XLB — secondary fallback** if FCX gaps too hot. Mon close $51.62.
+5. **AVOID:** XLE/XOM/CVX (Iran allowance kills near-term tailwind); SpaceX + MAG7 / QQQ chase (NDX -1.32% Mon, futures -1.69% overnight = falling-knife); FDX (earnings AMC Tue); Discretionary/Financials (YTD laggards); MU (earnings); long-duration / rate-sensitive (XLU, XLRE) on Warsh hawkish reset.
+
+### Risk Factors
+- **NEW: Warsh-Fed hawkish overhang** — first FOMC under new chair signaled possible October hike; treasury yields rising; explains the overnight futures slide. This is a sizing risk on any cyclical entry today
+- **Futures -0.93% (ES) / -1.69% (NQ) overnight** — tape softer than yesterday; the "ES not red >0.5%" gating condition may FAIL at runtime. Market-open routine MUST verify ES live before any fill
+- **MAY PCE Fri 6/26 8:30 ET** — week's primary swing event. Tue entry full-size only because PCE 3 sessions out; any Wed/Thu add HALF-SIZE per strategy event rule
+- **MU earnings Wed AMC** — swings AI infra/storage subgroup; XLI is mostly insulated
+- **FedEx earnings AMC Tue** — freight/industrial read; XLI sympathy risk Wed open
+- **Iran 60-day oil window** — confirms disinflation rotation (bullish FCX/XLI) but kills YTD #1 sector tailwind (XLE)
+- **Tech megacap rolling** — do not bottom-fish; rotation map favors small/mid cyclicals + storage
+- **XLB flat (+0.01%)** Mon — the FCX fallback path relies on XLB green at runtime; not currently in play. If FCX fallback hits, must reconfirm XLB at runtime
+- **Quotes wide/post-close** — re-verify all triggers premarket; size off live spreads, not the 4pm one-sided ticks
+- Day 7 live ops, six flat sessions, zero P&L cushion — first trade remains starter-size A+ only
+
+### Decision
+**TRADE — default per strategy.** Setup intact: VIX 17, sector rotation map unchanged from 6/22 (Materials/Industrials lead, megacaps roll), Iran disinflation reinforces cyclicals. The Warsh-hawkish overnight gap softens but does NOT invalidate the rotation tape — it actually supports it (rates-sensitive selling concentrated in megacaps/long-duration, cyclicals positive Mon).
+
+QUALIFICATION CALL per strategy four-test:
+- **XLI → QUALIFIES → TRADE** (catalyst: Iran disinflation + Dow cyclical leadership + post-Warsh rotation; sector: Industrials +12% YTD; stop: definable -7% at ~$169; R:R: 2:1 to $207). ENTER AT OPEN per market-open routine runtime check.
+- **FCX → DOES NOT FULLY QUALIFY** — fails R:R 2:1 strict test (1.6:1 at $78.50). Take ONLY as fallback if XLI gating fails AND XLB green at runtime.
+- **MU → DOES NOT QUALIFY** — fails earnings gate (Wed 6/24 AMC). Revisit Thu pre-market.
+
+Plan for Tue 6/23 market-open workflow (runtime, no clock-time gates):
+- **At routine runtime, check XLI**: if price > $181.80 (Mon close) AND ES futures not red >0.5% → BUY ~66 shares (~$12k, 12% notional) with 10% trailing stop GTC at fill.
+- **If XLI fails (price <= $181.80 OR ES <-0.5%)** AND XLB green at runtime → check FCX: if price > Tue premarket low → BUY ~170 shares (~$12k, 12% notional) with 10% trailing stop GTC; fixed stop $63 as PDT fallback.
+- **If both fail or tape sours** → HOLD with documented gating-failure reason; do not force.
+- **PCE Fri 6/26** = HALF-SIZE Wed/Thu entries if any; Tue full-size accepted (3 sessions out).
+- **Wed**: do NOT add (MU AMC + PCE risk); hold or trim Tue fill if PCE concern lifts.
+- Budget: 1 entry Tue (XLI primary). 2 slots reserved Thu (post-MU) / Fri pre-PCE.
+- **Note**: if at runtime ES futures are red >0.5% (currently -0.93%), XLI gating FAILS as written. That is the strategy-compliant HOLD reason — document explicitly in the trade log. NOT "patience."
