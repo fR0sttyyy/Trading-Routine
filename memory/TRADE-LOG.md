@@ -63,3 +63,12 @@ No positions yet. Bot launches tomorrow.
 | — | — | — | — | — | — | — |
 
 **Notes:** Flat sixth consecutive session — no positions, no orders, no fills. Equity unchanged at $100k. Trades today: none. Trades this week (Mon): 0/3. Capital deployed: 0% vs 75-85% target. GAP IN COVERAGE: prior EOD snapshot was Jun 15; routines were not run Tue-Fri Jun 16-19, so the change above spans 7 calendar days (5 trading days) rather than a single session — labeled "P&L since Jun 15" accordingly. Alpaca `balance_asof` 2026-06-18 (no fresh post-session mark for today). Six flat sessions confirms screen-too-narrow pattern unresolved from last week's review. Tomorrow (Tue 6/23 10:00 ET): execute pre-market plan — XLI > $181.80 AND ES not red >0.5% → buy ~66 sh XLI w/ 10% trailing stop GTC; FCX fallback only if XLI gating fails AND XLB green. First fill must come with the trailing stop in the same workflow.
+
+### Jun 23 — EOD Snapshot (Day 7, Tuesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat seventh consecutive session — no positions, no orders, no fills. Equity unchanged at $100k. Trades today: none. Trades this week (Mon-Tue): 0/3. Capital deployed: 0% vs 75-85% target. Alpaca `balance_asof` 2026-06-22 (no fresh post-session mark for today). Pre-market XLI trigger plan (>$181.80 at 10:00 ET with ES not red >0.5%) did NOT execute today — no buy order placed, no fill recorded; market-open routine apparently was not invoked, OR the gating failed silently without logging. This is a rule-violation risk per CLAUDE.md: missing a qualifying setup is itself a violation. Need to verify in tomorrow's pre-market whether XLI cleared $181.80 today; if so, log the missed trade explicitly and re-evaluate sizing on a re-trigger. Wednesday: re-run pre-market scan, refresh XLI/FCX/AI-infra triggers with concrete entry levels; if XLI still in range, take entry at next clean breakout with 10% trailing stop GTC at fill; ensure market-open routine actually runs. ClickUp EOD alert DELIVERED (msg id 80180054589975).
