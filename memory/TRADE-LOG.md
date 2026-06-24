@@ -77,3 +77,8 @@ No positions yet. Bot launches tomorrow.
 **Market:** PRE-OPEN (`is_open: false`, next_open 2026-06-24 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Action:** none
 
 **Notes:** Market-open workflow invoked at 04:32 ET — ~5 hours before the cash open. STEP 2 MARKET GATE triggered (`is_open: false`): no entries allowed pre-market (regular-hours TIF=day buys would queue + trailing stops only work in cash session per strategy file = unprotectable fill). Skipped to STEP 8 per routine rule. Pre-market plan unchanged: at 09:30+ ET regular session, XLI > $181.80 (Mon close reclaim) AND ES not red >0.5% → BUY ~33 sh XLI HALF-SIZE (~$6k, 6% notional) with 10% trailing stop GTC at fill. FCX fallback HALF-SIZE only if XLI gating fails AND XLB green. HALF-SIZE rationale: PCE Fri 6/26 + MU AMC tonight = stacked event risk. Logging this skip so the next session knows the routine fired but market was pre-open — separates this case from yesterday's "routine apparently not invoked" gap.
+
+### Jun 24 — Midday Scan Skipped (Wednesday, 08:04 ET pre-open)
+**Market:** PRE-OPEN (`is_open: false`, next_open 2026-06-24 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Action:** none
+
+**Notes:** Midday workflow invoked at 08:04 ET — ~1.5 hours before the cash open. No positions to manage, no protective stops to tighten, no thesis-break cuts to take, no losers to cut. STEP 2 clock gate (`is_open: false`) → skip to STEP 8 per routine rule. Pre-market plan from today's RESEARCH-LOG entry stands unchanged: at the 09:30 ET cash open, market-open routine will check XLI reclaim of $181.80 + ES not red >0.5% → BUY ~33 sh XLI HALF-SIZE; FCX fallback HALF-SIZE if XLI fails AND XLB green. No ClickUp alert (no action gate met). Next checkpoint: market-open routine at the cash open.
