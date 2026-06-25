@@ -525,3 +525,68 @@ Plan for Wed 6/24 market-open workflow (runtime, no clock-time gates):
 - **Fri pre-PCE**: no new entry until post-PCE print clears.
 - Budget: 1 HALF-SIZE entry Wed (XLI primary, FCX fallback). 2 slots reserved Thu (post-MU) / Fri (post-PCE).
 - **Watch**: if MU beats and rallies AMC, AI-doubt narrative may unwind Thu open → XLI/cyclical sympathy bid; if MU misses or guides cautious, broad liquidation risk lifts → any Wed fill trim defensively into Thu open if -3% intraday.
+
+## 2026-06-25 — Pre-market Research (Thursday — post-MU blowout, PCE-1)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-06-23 (Wed 6/24 EOD mark not applied yet; flat state is true, not a sizing blocker)
+- Week trades (Mon-Wed): 0/3 | Day 9 of live ops; third flat week, PCE-1
+
+### Market Context (live, Thu 6/25 pre-open)
+- WTI / Brent: WTI $69.36 (-1.39%) / Brent $72.49 (-1.70%) — oil breaks sub-$70 on Iran 60-day allowance; disinflation tailwind deepens, XLE under pressure
+- Indices (Wed 6/24 close): SPX 7,358.22 (-0.10%), NDX 25,476.64 (-0.43%), Dow 51,848.90 (+0.35%) — Dow/cyclicals reasserted, NDX dripped into MU print; rotation map intact
+- VIX: 18.63 (-4.41%) — backing off from Tue 19.49 spike; PCE-week premium easing
+- **Futures (live, Thu 6/25 pre-open): ES 7,471.5 (+0.58%), NQ 30,088.5 (+1.95%)** — sharp gap UP on MU blowout AMC; gating-permissive (well clear of ES -0.5% threshold)
+- Wed 6/24 sector tape: XLI +1.16%, XLP +0.86%, XLV +0.77%, XLB +0.57%, XLF -0.30%, XLK -0.62%, XLE -1.63% — Industrials rebounded from Tue -2.01% rout; XLB returned to green (FCX fallback path opens); XLE breakdown deepens
+- **PRIMARY CATALYST — MU earnings AMC Wed:**
+  - Revenue $41.4B (+345% YoY from $9.3B); EPS +987% YoY; gross margin 84.9% (highest in major US tech, past NVDA/META); market cap > $1T; +13-15% AH gap
+  - Next-Q guide ~$50B; AI memory demand framed as "crisis-tight"
+  - Druckenmiller AI-infra bullish call coincides; NVDA "pours cold water on AI fears" piece released same window
+  - Read-through: AI-rally narrative re-ignites, NDX +1.95% futures, semis/storage sympathy bid likely at open
+- Other catalysts:
+  - Iran 60-day oil allowance continues — WTI sub-$70 confirms disinflation rotation thesis; bullish for Materials/Industrials, bearish XLE
+  - SpaceX slump intact (lowest close ever Mon) — megacap-tech weakness coexists with semis/memory bid
+  - Elastic AI restructuring + Kohl's revamp = single-name noise, not portfolio drivers
+  - Warsh-Fed hawkish overhang persists — backdrop, not today's swing
+- Earnings BMO Thu: nothing tier-1 confirmed; AMC Thu also thin
+- Economic calendar: **MAY PCE Fri 6/26 8:30 ET = TOMORROW** — Fed's preferred gauge after hot May CPI 4.2%; PCE-1 = HALF-SIZE rule still active per strategy event-sizing
+- Sector momentum YTD 2026: Materials +22% / Energy +22% (Energy now breaking down sub-$70 WTI), Industrials +12% (rebounding off Tue dip), Staples +16% (defensive bid pre-PCE), Storage/Memory standout subgroup (re-ignited by MU); IT -3-4%, Discretionary -4%, Financials -5% lag
+- Quotes (post-Wed 4pm ET, wide/one-sided AH — use for spread awareness, not sizing): XLI bid $174.51 / ask $186.49; FCX bid $58.24 / ask $64.65; XLB bid $49.49 / no ask. Re-quote at routine runtime
+
+### Trade Ideas (Thu 6/25 — runtime conditions for market-open routine, HALF-SIZE per PCE-1 rule)
+1. **XLI (Industrials ETF) — PRIMARY (HALF-SIZE).** Wed close $180.21 (+1.16%); reclaim trigger from prior plan ($181.80 = Mon close) NOT yet cleared — within $1.59. Futures gap suggests open above $181.80 plausible. Catalyst: Iran disinflation deepening + cyclical rotation rebounding + AI sentiment lifting risk-on tape. **Runtime trigger:** at routine runtime, XLI > $181.80 AND ES not red >0.5%. Size: HALF 6% notional (~$6k, ~33 shares) with 10% trailing stop GTC at fill. Stop ~$163.62 (fixed fallback if PDT blocks trailing). Target $207 (+14%) → R:R 2:1. ENTER AT OPEN-WINDOW.
+2. **FCX (Materials) — FALLBACK (HALF-SIZE).** YTD +22% sector leader; Iran disinflation tailwind reinforcing; XLB Wed +0.57% (green) opens fallback path. **Runtime trigger:** ONLY if XLI fails ($181.80 not reclaimed OR ES <-0.5%) AND XLB green at runtime. Entry > Thu premarket low. Stop $57 (-8%). Target $71.50 (+15%) → R:R 1.9:1 (fails strict 2:1; accepted ONLY as fallback per prior rule). HALF 6% notional (~$6k, ~97 shares) with 10% trailing stop GTC.
+3. **MU — CHASE-RISK, DOES NOT QUALIFY.** Now cleared from earnings gate (post-print), but +13-15% AH gap means open chases a parabolic move on a $1k+ name. Entry trigger fails (no clean breakout level — gap-up open = at-the-top entry). Stop placement off post-gap pivot would be >10% wide. **Revisit if MU consolidates flat for a session.**
+4. **Storage/Memory sympathy (WDC, SNDK)** — speculative MU read-through; same chase-risk problem (likely gap up huge in sympathy). DO NOT QUALIFY on clean entry. Skip.
+5. **Semis broad (SOXL, SMH, NVDA)** — IT YTD -3-4% NOT on momentum map; one-day MU bounce doesn't establish sector momentum. Fails Test 2. Skip.
+6. **AVOID:** XLE/XOM/CVX (WTI sub-$70, sector breakdown intensifying); MU/WDC/SNDK chase (gap-up open); MAG7/QQQ broad chase (NDX -0.43% Wed despite Dow +0.35%); FDX (post-earnings -5% damage); Discretionary/Financials (YTD laggards); long-duration / XLU / XLRE (Warsh hawkish hold + PCE-1 binary).
+
+### Risk Factors
+- **PCE Fri 6/26 8:30 ET = TOMORROW** — Fed's preferred inflation gauge; PCE-1 = HALF-SIZE per strategy event rule. ALL Thu entries half-size, no exception
+- **MU gap-up = sentiment whipsaw risk** — risk-on bid at open could fade hard if PCE prints hot tomorrow. Cyclical entries today wear the PCE gap risk into Fri
+- **VIX 18.63 (still elevated vs Mon 17.28)** — pre-print premium easing but not fully reset; sizing discount remains
+- **Warsh-Fed hawkish overhang** — first FOMC under new chair signaled possible October hike; yields rising backdrop
+- **XLI reclaim of $181.80 still unproven** — Wed got to $180.21 but didn't clear; opening above the level on AI-bid bounce is possible but not guaranteed. Reclaim-required trigger is the discipline
+- **FCX wide AH spread ($58.24 / $64.65)** — re-quote at runtime; do not size off the 4pm one-sided tick
+- **WTI sub-$70 = double-edged**: bullish cyclicals (XLI/FCX) but kills XLE (former YTD #1 sector tailwind) — confirms rotation thesis but narrows the universe
+- **AI rally re-ignition could be one-day** — MU print is binary fuel; if it fades by mid-session, semis/storage chase-trades blow up. Stick with cyclical-ETF discipline, not single-name chase
+- Day 9 live ops, third flat week through Wed, zero P&L cushion — first trade remains HALF-SIZE A+ only
+
+### Decision
+**TRADE — default per strategy.** Setup constructive: MU blowout removes the AI-doubt overhang that pressured cyclicals on Tue, futures gap up gating-permissive, sector rotation map intact (cyclicals + defensive bid pre-PCE, megacap-tech weak ex-memory). PCE-1 keeps sizing HALF.
+
+QUALIFICATION CALL per strategy four-test:
+- **XLI → QUALIFIES → TRADE HALF-SIZE** (catalyst: Iran disinflation + AI-bid risk-on tape + cyclical rotation rebound; sector: Industrials +12% YTD on momentum map; stop: definable -7% at ~$169 from $181.80 entry; R:R: 2:1 to $207). HALF-SIZE per PCE-1 event rule. ENTER AT OPEN per market-open routine runtime check.
+- **FCX → DOES NOT FULLY QUALIFY** — fails R:R 2:1 strict test (~1.9:1). Take ONLY as fallback if XLI gating fails AND XLB green at runtime. HALF-SIZE.
+- **MU → DOES NOT QUALIFY** — fails clean-entry test (post-gap chase = no defined stop within 10%); revisit if MU consolidates flat for a session.
+- **Semis broad / storage sympathy → DO NOT QUALIFY** — fail sector-momentum test (IT YTD -3-4%, not on map).
+
+Plan for Thu 6/25 market-open workflow (runtime, no clock-time gates):
+- **At routine runtime, check XLI**: if price > $181.80 (Mon close, prior reclaim level) AND ES futures not red >0.5% → BUY ~33 shares (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop $163.62 as PDT fallback.
+- **If XLI fails ($181.80 not reclaimed OR ES <-0.5%)** AND XLB green at runtime → check FCX: if price > Thu premarket low → BUY ~97 shares (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC. Fixed stop $57 as PDT fallback.
+- **If both fail or tape sours** → HOLD with documented gating-failure reason ("XLI failed reclaim" OR "ES red >0.5%" OR "XLB red blocking FCX fallback"). NOT "patience."
+- **Fri pre-PCE**: NO new entries until post-PCE print clears (8:30 ET). Any Thu fill exposed to PCE gap risk Fri open; trim defensively if -3% intraday Fri pre-PCE.
+- Budget: 1 HALF-SIZE entry Thu (XLI primary, FCX fallback). 2 slots reserved post-PCE next week (Mon-Wed window).
+- **Note**: MU clearance does NOT promote MU to "trade" — gap-up entry fails the strategy's clean-entry test independent of catalyst. The catalyst is real; the entry is not.
