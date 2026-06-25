@@ -101,3 +101,12 @@ No positions yet. Bot launches tomorrow.
 **Market:** PRE-OPEN (`is_open: false`, next_open 2026-06-25 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Action:** none
 
 **Notes:** Midday workflow invoked at 08:04 ET — ~1.5 hours before the cash open. STEP 2 clock gate (`is_open: false`) → skip to STEP 8 per routine rule. No positions to manage, no protective stops to tighten, no thesis-break cuts to take, no losers to cut. Account confirmed flat: positions [], orders []. Pre-market plan from today's RESEARCH-LOG stands unchanged: at the 09:30 ET cash open, market-open routine will check XLI > $181.80 + ES not red >0.5% → BUY ~33 sh XLI HALF-SIZE (~$6k, PCE-1 rule); FCX fallback HALF-SIZE only if XLI fails AND XLB green. PCE Fri 6/26 8:30 ET = tomorrow; PCE-1 HALF-SIZE rule remains active for any cash-session entry. No ClickUp alert (no action gate met). Next checkpoint: cash-session market-open routine at 09:30 ET — must actually run today (Wed routine apparently missed cash open, recurring issue).
+
+### Jun 25 — EOD Snapshot (Day 9, Thursday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| — | — | — | — | — | — | — |
+
+**Notes:** Flat ninth consecutive session — no positions, no orders, no fills. Equity unchanged at $100k. Trades today: none. Trades this week (Mon-Thu): 0/3. Capital deployed: 0% vs 75-85% target. Alpaca `balance_asof` 2026-06-24 (no fresh post-session mark yet for today). Pre-open routines (market-open 04:32 ET, midday 08:04 ET) both correctly skipped per clock gate. No evidence of a second cash-session market-open routine run today either — recurring issue: the XLI > $181.80 + ES not red >0.5% HALF-SIZE trigger plan from today's RESEARCH-LOG was NOT executed during the cash session. Per CLAUDE.md decision rule, missing a qualifying setup is itself a rule violation if the trigger actually fired today — needs verification tomorrow whether XLI cleared $181.80. PCE Fri 6/26 8:30 ET = tomorrow morning; PCE-1 HALF-SIZE rule remains active through Friday for any entry. Friday plan: pre-market scan post-PCE print, refresh XLI/FCX triggers around the data reaction; first qualifying setup gets HALF-SIZE notional (~6% per name) with 10% trailing stop GTC at fill; ensure cash-session market-open routine actually runs. Friday afternoon: weekly review covering 0/3 week + recurring missed-trigger pattern.
