@@ -150,3 +150,62 @@ Disciplined cash preservation in an event-heavy short week, but zero execution a
 
 ### Overall Grade: C-
 Cash preservation through a stagflationary, event-heavy week is real — HOT CPI Wed and ORCL-driven tech fade Thu were correctly avoided. But two consecutive zero-trade weeks with multiple identified leaders (Energy +34.5%, Materials +22%) is a strategy execution failure, not patience. We are gathering zero data on our own edge. Next week MUST produce a fill or a documented A+ rejection on a name we'd actually buy.
+
+---
+
+## Week ending 2026-06-26
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon Jun 22 AM equity) |
+| Ending portfolio | $100,000.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | ~-1.36% (SPX Mon 6/22 close 7,472.79 → Fri 6/26 live ~7,371; prior Fri 6/19 was Juneteenth, market closed) |
+| Bot vs S&P | +1.36% (outperformed by sitting in cash) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| - | - | - | - | - |
+| — | — | — | — | No trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| - | - | - | - | - |
+| — | — | — | — | None — 100% cash |
+
+### What Worked
+- Outperformed S&P by ~1.36% via cash sit during a -1.36% SPX week — Tue 6/23 -1.44% chip-led rout and Asia AI sell-off Thu night fully sidestepped
+- Pre-market research correctly framed the regime each session: Iran 60-day oil allowance → disinflation rotation; Materials/Industrials lead; megacap tech rolls; PCE the swing event
+- PCE-1 HALF-SIZE rule was properly applied Wed/Thu (sizing discipline if any fill had occurred)
+- Routine bookkeeping was clean: every pre-open market-open/midday invocation correctly hit the `is_open: false` clock gate and skipped to STEP 8 instead of force-firing
+- MU AMC blowout (rev $41.4B +345% YoY, +13-15% AH) was correctly identified as chase-risk gap-up, not a clean entry — discipline held against the FOMO
+
+### What Didn't Work
+- **THIRD consecutive 0/3 week** — $100k flat for the entire challenge phase since Jun 4 launch. 12 calendar days, zero data on our own edge
+- **CASH-SESSION MARKET-OPEN ROUTINE DID NOT RUN ANY DAY Tue-Fri** — only the 04:32 ET pre-open invocation fired each day, all correctly skipped per clock gate. No second cash-session run at 09:30+ ET on Tue/Wed/Thu/Fri. This is the recurring infrastructure failure
+- **MISSED XLI RECLAIM TRIGGER THURSDAY** — XLI cleared the $181.80 reclaim level (closed $184.12, +2.17%) Thu in cash session. The planned HALF-SIZE entry (~33 sh @ ~$182, $6k notional) did not execute because the cash-session routine never ran. Per CLAUDE.md decision rule, this is a RULE VIOLATION
+- **MISSED FCX FRIDAY POST-PCE SETUP** — Copper +2.72% / Gold +3.84% Fri pre-open + Materials sector YTD #1 + FULL-SIZE unlocked post-PCE = textbook qualifying setup. No cash-session execution = second missed qualifying trigger of the week
+- Two of two qualifying triggers (Thu XLI reclaim, Fri FCX post-PCE) were missed. The strategy isn't broken; the execution layer is
+
+### Key Lessons
+- The recurring "cash-session market-open routine did not run" pattern is no longer a one-off — five consecutive cash-session non-runs (Tue/Wed/Thu/Fri this week + Tue last week). This is the single biggest problem to surface. Pre-open routine firing at 04:32 ET correctly skips per clock gate but there is no second invocation at 09:30+ ET to actually take the trade. Needs a scheduling/cron fix outside the bot's own logic
+- Hot PCE (4.1%/3.4%, fastest in ~3 years) reset the rate-cut narrative — Dec hike priced 89% post-print (vs 30% July pre-print). Cyclical/commodity rotation is the right read; defensives/duration are not
+- Iran 60-day oil-sale window broke the YTD #1 sector tailwind (Energy/XLE) within a single news cycle — sector momentum maps can flip on a headline; pre-market refresh of the leadership read each day saved us from chasing a stale leader
+- "Patience > activity" is NOT what flat 0/3 weeks represent here — RESEARCH-LOG correctly identified XLI and FCX as qualifying. The hold was an EXECUTION GAP, not a discipline win
+- Cash outperformance during -1.36% SPX week is real return on a relative basis but useless for the challenge thesis — the bot must trade to gather P&L data on its own edge
+
+### Adjustments for Next Week (observations — see STEP 5 below; no rule change)
+- **Top priority**: surface and fix the cash-session market-open routine schedule. Five consecutive missed cash-session runs is an infrastructure bug, not a strategy bug. Mon 6/29 pre-market plan MUST include a verification step that the cash-session routine is scheduled and that someone (cron/scheduler/operator) will trigger it at 09:30 ET
+- Pre-stage limit orders BEFORE the open as a hedge against routine-run failure: if FCX/XLI are still qualifying Mon pre-market, file the buy + trailing stop order pair at 04:32 ET pre-open with TIF that activates in cash session
+- Mon 6/29 pre-market: re-evaluate FCX, XLI, and copper/gold tape after Fri close. If FCX and XLI still qualify (catalyst intact, sector momentum, definable stop, R:R >= 2:1), TAKE BOTH at the open — 3-week 0/3 budget remains, weekly slot is full clean
+- Continue tracking Materials/Industrials/Storage-Memory leadership; add a daily SPY/SPX close anchor to EOD snapshot so weekly S&P benchmark is computable without a date-bound LLM
+- Three flat weeks = the screen is filtering correctly (XLI/FCX both qualified) but execution layer is failing to take qualifying trades. Do not weaken entry criteria. Fix the execution gap
+
+### Overall Grade: D
+Outperformed SPX -1.36% week via cash sit (relative win), but missed TWO qualifying setups (Thu XLI reclaim, Fri FCX post-PCE) because the cash-session market-open routine has not run any day this week. Per CLAUDE.md — "missing a setup that met all four tests is a rule VIOLATION and must be logged as one" — this is two violations. Third consecutive 0/3 week means we have ZERO data on our own edge despite a clean strategy framework. The bot is well-researched and disciplined on paper, structurally broken in execution. Cash outperformance does not earn a passing grade when the failure mode is infrastructure, not market.
