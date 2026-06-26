@@ -590,3 +590,72 @@ Plan for Thu 6/25 market-open workflow (runtime, no clock-time gates):
 - **Fri pre-PCE**: NO new entries until post-PCE print clears (8:30 ET). Any Thu fill exposed to PCE gap risk Fri open; trim defensively if -3% intraday Fri pre-PCE.
 - Budget: 1 HALF-SIZE entry Thu (XLI primary, FCX fallback). 2 slots reserved post-PCE next week (Mon-Wed window).
 - **Note**: MU clearance does NOT promote MU to "trade" — gap-up entry fails the strategy's clean-entry test independent of catalyst. The catalyst is real; the entry is not.
+
+## 2026-06-26 — Pre-market Research (Friday — POST-PCE, copper +2.72%, futures red)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-06-24 (Wed mark; Thu close not yet applied. Flat state is true; live sector quotes are fresh, so not a sizing blocker)
+- Week trades (Mon-Thu): 0/3 | Day 10 of live ops; third flat week
+
+### Market Context (live, Fri 6/26 pre-open)
+- WTI / Brent: WTI $70.84 (-1.5%) / Brent $74.53 (-1.28%) — oil down again on Iran 60-day allowance; bullish disinflation rotation for cyclicals continues
+- Indices (Thu 6/25 close): SPX 7,357.49 (-0.01%), NDX 25,358.60 (-0.46%), Dow 51,920.62 (+0.14%) — flat-to-slightly-red on the day PCE printed; Dow held with cyclical lift
+- VIX: 18.89 (+1.4%) — slight tick higher vs Thu 18.63; not in regime-shift territory but elevated
+- **Futures (live, Fri 6/26 pre-open): ES 7,374.0 (-0.66%), NQ 29,350.75 (-1.26%)** — RED on Asia AI sell-off overnight; AP News headline "Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI." Gating-relevant: ES not yet > -0.75% but close
+- **Copper $5.6358/lb (+2.72%) | Gold $4713.3/oz (+3.84%)** — Materials inputs ripping; fresh leg for FCX/XLB
+- **Thu 6/25 sector tape (post-PCE reaction)**: XLI +2.17% to $184.12, XLV +1.49%, XLB +1.33%, XLE +0.97%, XLK +0.83%, XLP -0.59%, XLF -0.5% — risk-on rotation INTO cyclicals/materials, OUT of defensives, on hot PCE. Hot inflation = stay in real assets, away from duration
+- **PRIMARY CATALYST (already printed) — MAY PCE Thu 6/25 8:30 ET**:
+  - Headline 4.1%, Core 3.4% — fastest pace in ~3 years, highest core since Oct 2023
+  - Market repricing: pre-print only 30% chance July hike → post-print 89% probability of December hike, 9/19 FOMC members signal at least one more hike this year
+  - Tape reaction Thu: cyclicals/materials rallied, defensives sold — the "inflation = own real assets" trade
+  - PCE-1 HALF-SIZE rule NO LONGER APPLIES (event already passed); FULL-SIZE entries unlocked
+- **MISSED TRIGGER LOG**: XLI cleared $181.80 reclaim level Thu (closed $184.12, intraday high not in our data but close confirms breakout). Cash-session market-open routine apparently did not run Thu either — this is now THREE consecutive missed cash-session executions (Tue/Wed/Thu). The XLI trade we planned for three sessions running fired Thu and we missed the fill. Per CLAUDE.md decision rule, this is a rule violation — flagging for weekly review
+- Other catalysts:
+  - Asia AI sell-off Thursday night → US futures red Friday pre-open; profit-taking on AI/semis specifically; NOT a broad risk-off
+  - Iran 60-day oil allowance still depressing crude; disinflation tailwind for cyclicals intact (XLE got a one-day bid Thu, but trend lower)
+  - SpaceX/Tesla weakness persists in megacap-tech-adjacent names
+  - Cerebras -20% after first earnings as public co; CRBS misunderstood gross-margin guide — confined to single-name AI infra, not a portfolio mover
+  - American Bitcoin 1-for-15 reverse split — irrelevant
+- Earnings BMO Fri: thin; no tier-1 names; nothing portfolio-affecting
+- Economic calendar Fri 6/26: no further tier-1 data (PCE was the week's swing event yesterday)
+- Sector momentum YTD 2026: Materials +22% (FRESH leg on copper/gold rip) / Energy +22% (but breaking down on Iran), Industrials +12% (CLEARED reclaim trigger Thu), Staples +16% (sold Thu — defensive bid faded post-PCE), IT -3-4% / Discretionary -4% / Financials -5% (lag)
+
+### Trade Ideas (Fri 6/26 — runtime conditions for market-open routine, FULL-SIZE per post-PCE)
+1. **FCX (Freeport-McMoRan, copper/gold producer) — NEW PRIMARY.** Catalyst: Copper +2.72% / Gold +3.84% Fri pre-open = fresh commodity leg, Materials sector YTD #1 leader (+22%), hot PCE confirms commodity demand bid. Thu close ~$63 area (last live AH wide $59.95/$66.99 — disregard, re-quote at runtime). **Runtime trigger:** at routine runtime, FCX bid > Thu close AND copper not red AND XLB green AND ES not red >0.75%. Size: FULL 12% notional (~$12k, ~190 shares @ ~$63) with 10% trailing stop GTC at fill. Stop ~$56.70 fixed fallback if PDT blocks trailing. Target $73 (+15%) for R:R 2:1+. ENTER AT OPEN-WINDOW.
+2. **XLI (Industrials ETF) — SECONDARY.** Thu close $184.12, cleared $181.80 reclaim level we'd been waiting on for THREE sessions. Catalyst: Iran disinflation + post-PCE cyclical rotation + Industrials YTD +12% intact. Risk: chasing a +2.17% one-day pop into red Fri futures. **Runtime trigger:** at routine runtime, XLI bid > $182 (Thu breakout area — must HOLD the breakout, not just gap-fade through it) AND ES not red >0.75%. Size: FULL 12% notional (~$12k, ~65 shares @ ~$184) with 10% trailing stop GTC at fill. Stop ~$165.60 fixed fallback. Target $210 (+14%) for R:R 2:1. ENTER AT OPEN-WINDOW.
+3. **GLD (Gold ETF) — DOES NOT QUALIFY.** Gold +3.84% Fri pre-open = fresh leg, but a +4% gap up = chase entry, no defined stop within 7-10%. Skip; revisit if gold consolidates a session.
+4. **XLB (Materials ETF) — REDUNDANT with FCX.** Same sector exposure; FCX gives higher beta to today's copper/gold print. Skip in favor of FCX.
+5. **MU/WDC/SNDK (storage) — DOES NOT QUALIFY.** Post-blowout gap-up no longer fresh; Asia AI sell-off pulls semis Fri. Chase risk against negative tape. Skip.
+6. **AVOID:** XLE/XOM/CVX (Iran 60-day kills near-term tailwind, oil down again Fri); MAG7/QQQ/SMH/SOXL (Asia AI sell-off Thu night, IT YTD -3-4%, not on momentum map); XLP/XLF/XLU/XLRE (defensives sold post-PCE, rate-sensitive squeezed by 89% Dec hike pricing); single-name AI infra (CRBS -20% example of binary risk); long-duration anything (hot PCE + hawkish repricing = bond bear); quantum names (speculative, no defined-stop setup).
+
+### Risk Factors
+- **Futures red pre-open (ES -0.66%, NQ -1.26%)** — Asia AI sell-off bleed; if ES deteriorates past -0.75% at routine runtime, BOTH trade ideas gate-fail and we hold flat with documented reason (NOT "patience" — gating-failure is the strategy-compliant skip)
+- **89% Dec hike priced in (vs 30% July pre-PCE)** — yields likely up Fri; growth/duration under pressure but ALSO can cap commodity beta if dollar strengthens. Watch USD reaction
+- **XLI is a CHASE entry** — +2.17% one-day move with red futures the next morning; "hold above $182" trigger is the discipline that distinguishes a confirmed-breakout entry from a gap-fade trap
+- **FCX wide AH spread ($59.95 bid / $66.99 ask)** — re-quote at runtime; do not size off the 4pm one-sided tick. The bid in particular is unrealistic post-copper-rip
+- **VIX 18.89** — modestly elevated; sizing-discount era continues but no regime shift
+- **Iran 60-day oil window** still active — confirms cyclical rotation thesis, kills XLE
+- **Asia AI sell-off contained to AI/semis so far** — broader cyclical bid Thu held; but if the spillover broadens at US open, XLI/FCX bid could fade
+- **Friday afternoon = weekly review due** — after market-open routine, weekly review covers 0/3 week + recurring missed-trigger pattern (now 3 consecutive misses)
+- **balance_asof = 2026-06-24** (Wed) — Thu cash-session mark not yet applied to account snapshot. Flat state is true (no positions), so not a sizing blocker, but flag this in midday and EOD
+
+### Decision
+**TRADE — default per strategy.** Setup is the cleanest of the week: hot PCE confirmed the cyclical/commodity rotation, Thu sector tape voted with the thesis (XLI/XLB/XLE bid, defensives sold), copper/gold ripping Fri pre-open. PCE-1 HALF-SIZE rule lifts post-print → FULL-SIZE unlocked. Two qualifying setups, three slots available, weekly budget 3/3 free.
+
+QUALIFICATION CALL per strategy four-test:
+- **FCX → QUALIFIES → TRADE FULL-SIZE** (catalyst: copper +2.72% + gold +3.84% Fri pre-open + post-PCE commodity rotation; sector: Materials +22% YTD #1 leader; stop: -7% definable from entry; R:R: 2:1 to $73). ENTER AT OPEN per market-open routine runtime check.
+- **XLI → QUALIFIES → TRADE FULL-SIZE** (catalyst: post-PCE cyclical rotation + Iran disinflation tailwind + 3-session-overdue reclaim of $181.80 confirmed Thu close; sector: Industrials +12% YTD on momentum map; stop: -7% definable to ~$171 from $184 entry; R:R: 2:1 to $210). ENTER AT OPEN per market-open routine runtime check, contingent on holding above breakout.
+- **GLD → DOES NOT QUALIFY** — fails clean-entry test (+4% gap-up = no defined stop within 7-10%).
+- **XLB → REDUNDANT** with FCX (same exposure, FCX higher beta to today's catalyst).
+- **MU/storage/semis/MAG7 → DO NOT QUALIFY** — Asia AI sell-off + post-blowout chase + IT YTD -3-4% (not on momentum map).
+
+Plan for Fri 6/26 market-open workflow (runtime, no clock-time gates):
+- **At routine runtime, check FCX FIRST (fresh-catalyst leader)**: if FCX bid > Thu close AND copper not red AND XLB green AND ES not red >0.75% → BUY ~190 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$56.70 as PDT fallback.
+- **THEN check XLI**: if XLI bid > $182 (Thu breakout-area hold, NOT just any green) AND ES not red >0.75% → BUY ~65 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$165.60 as PDT fallback.
+- **If both fail or tape sours** (ES red >0.75% OR triggers not hit) → HOLD with documented gating-failure reason. NOT "patience."
+- **If only one fires**: take it, document the other's gating-failure, and HOLD second slot for Monday.
+- Budget after Fri fills: 1-2 entries used, 1-2 slots remain (max 3/week). 4-5 position slots remain (max 6).
+- **Monday plan placeholder**: if Fri fills, monitor cushion; if both fail, re-evaluate post-Asia-spillover at Mon pre-market. Sector momentum map needs Materials/Industrials re-confirmed Fri close.
+- **Weekly review Fri PM**: covers 0/3 week + recurring missed-trigger pattern; flag XLI Thu missed fill explicitly.
