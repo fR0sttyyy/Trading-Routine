@@ -729,3 +729,72 @@ Plan for Mon 6/29 market-open workflow (runtime, no clock-time gates):
 - **Tue-Wed plan placeholder**: if Mon fills hold, manage stops; if Mon fails, re-evaluate Tue with fresh sector tape. Wed close = last FULL-SIZE entry window (NFP-1 = HALF Thu).
 - **Weekly review carry-forward**: 5 missed cash-session executions Tue-Fri last week + Fri's defensive surge character shift need addressing in this Friday's review.
 - **Note**: Mon's market-open routine MUST run during cash session (09:30 ET+). If it again skips during cash hours, this is the 6th consecutive miss and a routine-reliability emergency.
+
+## 2026-06-30 — Pre-market Research (Tuesday — Mon tech-led rally, XLI re-reclaimed, Materials sold)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-06-26 (Fri close mark; Mon cash mark not yet applied to account snapshot. Flat state is true so not a sizing blocker, but flag)
+- Week trades (Mon): 0/3 | Day 12 of live ops; Week 3 of live ops; 2 prior flat weeks
+
+### Market Context (live, Tue 6/30 pre-open)
+- WTI / Brent: WTI $70.18 (-0.81%) / Brent $73.42 (-0.66%) — oil holding sub-$70 area, Iran 60-day allowance still depresses crude; disinflation tailwind for cyclicals intact
+- **Indices (Mon 6/29 close): SPX 7,440.43 (+1.18%), NDX 25,820.15 (+2.07%), Dow 52,182.74 (+0.59%)** — STRONG tech-led rally; Dow lagged badly, signal that breadth was tech-skewed, not broad-cyclical
+- **VIX: 17.65 (-4.13%)** — risk-on; vol crushed, defensives sold
+- **Futures (live, Tue 6/30 pre-open): ES 7,509.75 (+0.13%), NQ 30,163.25 (+0.37%)** — flat-to-slightly-green; Mon rally NOT extending, but no reversal either; gating-permissive direction-wise
+- **Mon 6/29 sector tape (the rotation story)**: XLK +2.37%, XLI +0.86%, XLF +0.28%, XLV +0.25%, XLP -0.4%, XLE -0.48%, **XLB -1.82%** — TECH-LED bid, Industrials green but lagged the broad tape; Materials SOLD HARD (-1.82%) despite Fri's copper bid, defensives faded; CHARACTER: Mon was a tech-snapback day, NOT a cyclical-rotation continuation
+- Copper price: latest data print Fri 6/27 $5.6358/lb (+2.72%); no fresh Mon close print available — XLB -1.82% Mon suggests copper either gave back gains or thesis fade independent of the metal
+- **XLI cleared $181.80 reclaim AGAIN Mon close $182.76** — Thu breakout was lost Fri ($181.20), re-reclaimed Mon; second confirmation of the level
+- **Catalysts / week ahead**:
+  - **NFP this week (likely Thu 7/2 given Fri 7/3 Independence Day)** — Axios/CNBC confirm jobs-heavy week is THE swing event; NFP-1 HALF-SIZE rule activates Wed close for Thu pre-NFP entries
+  - **Fri 7/3 Independence Day = market closed (or early close)** — shortened week, thinner liquidity Wed-Thu
+  - **Fed's Warsh speaking this week** — hawkish risk; 89% Dec hike already priced post-PCE
+  - **SpaceX joins Nasdaq 100 on July 7 (next Mon)** — passive-flow setup for NDX; not today's swing
+  - Iran 60-day oil allowance continues to depress crude; disinflation tailwind for cyclicals
+- Earnings BMO Tue 6/30: thin; no tier-1 names; nothing portfolio-affecting (Devonian Health, California Nanotechnologies, Hecla Mining — all sub-scale)
+- Economic calendar Tue 6/30: no tier-1 data today; week builds toward NFP Thu
+- **Sector momentum YTD 2026 (refreshed post-Mon)**: Materials +22% (held YTD #1 despite Mon -1.82%, intra-sector chop), Energy +22% (Iran kills near-term), Staples +16% (defensive bid extending), Industrials +12% (re-reclaimed breakout Mon), Healthcare quietly building post-Fri-rip, IT -3-4% (Mon one-day rip ≠ trend), Discretionary -4% / Financials -5% (lag)
+
+### Pending issue from last week (still open)
+- 5 consecutive missed cash-session market-open routine runs (Tue-Fri Jun 23-26) plus Mon 6/29 = 6 missed. Mon's FCX trigger ambiguous (copper bid Fri but XLB -1.82% Mon close = gating likely failed intraday); Mon's XLI re-reclaim happened (close $182.76 > $181.80 trigger). If cash-session market-open routine had run Mon and XLI bid was > $181.80 + ES not red, would have been a fill. Treat as missed-trigger pending verification
+
+### Trade Ideas (Tue 6/30 — runtime conditions for market-open routine, FULL-SIZE per pre-NFP Tue rule)
+1. **XLI (Industrials ETF) — NEW PRIMARY (promoted).** Catalyst: Re-reclaimed $181.80 reclaim level Mon (close $182.76, +0.86%); second confirmation of the breakout level after Thu/Fri failed-hold cycle; cyclical rotation intact (Industrials YTD +12% on momentum map); Tue futures flat-green = gating-permissive. AH wide quote $177.89/$187.46 — disregard, re-quote at runtime. **Runtime trigger:** at routine runtime, XLI bid > $182 (must hold above the breakout level, not fade through it) AND ES not red >0.5%. Size: FULL 12% notional (~$12k, ~66 sh @ ~$183) with 10% trailing stop GTC at fill. Stop ~$164.70 fixed fallback if PDT blocks trailing. Target $210 (+14%) → R:R 2:1. ENTER AT OPEN-WINDOW.
+2. **FCX (Freeport-McMoRan) — DEMOTED to SECONDARY (was primary Fri/Mon).** Catalyst weakened by XLB -1.82% Mon (Materials thesis under pressure even though copper print was bid Fri); copper Mon mark unverified; FCX likely traded soft Mon in sympathy. Materials still YTD #1 sector, so thesis not broken — needs Tue confirmation that Mon was profit-taking not regime change. AH wide $57.68/$64.44 — disregard, re-quote at runtime; assume Mon cash close ~$60-62 area. **Runtime trigger (stricter than Mon):** at routine runtime, FCX bid > Mon cash close AND XLB GREEN at runtime AND copper not red AND ES not red >0.5%. Size: FULL 12% notional (~$12k, ~190 sh @ ~$62) with 10% trailing stop GTC at fill. Stop ~$55.80 fixed fallback. Target $73 (+17%) → R:R 2:1+. ENTER AT OPEN-WINDOW conditional on stricter gates.
+3. **XLK (Tech ETF) — DOES NOT QUALIFY.** Mon +2.37% rip is the cleanest single-day catalyst on the tape, BUT IT YTD -3-4% means tech is NOT on the momentum map. One-day move ≠ trend establishment. Chase-risk if Tue futures (flat-green, not extending) fade the Mon rally. Skip; revisit only if XLK closes above Mon's high for 2+ consecutive sessions, establishing a trend reversal.
+4. **XLV (Healthcare) — DOES NOT QUALIFY.** Mon +0.25% = defensive bid faded vs Fri +3.03% panic move. Not on YTD momentum map. Skip.
+5. **GLD (Gold) — DOES NOT QUALIFY.** Fri +3.84% gap leaves no defined stop within 7-10%; not consolidated yet. Skip.
+6. **XLB (Materials ETF) — REDUNDANT with FCX** but Mon -1.82% close means XLB itself doesn't qualify for a fresh entry today. If trading the Materials thesis at all, FCX is the higher-beta vehicle.
+7. **AVOID:** MU/WDC/SNDK (storage post-blowout chase stale, Asia AI sell-off still digesting); SMH/SOXL (Mon tech bid one-day, IT YTD lagger); MAG7 (Mon one-day pop, not on momentum map); XLE/XOM/CVX (Iran kills tailwind, WTI sub-$70); XLP/XLF/XLU/XLRE (defensives bid fading, rate-sensitive squeezed); long-duration anything (89% Dec hike priced); SpaceX (NDX inclusion 7/7 but not investable to us); quantum / single-name AI (no defined-stop setups).
+
+### Risk Factors
+- **NFP Thu 7/2 is the swing event** — Tue 6/30 = T-2, FULL-SIZE OK; Wed 7/1 = T-1 (HALF activates Wed close); Thu 7/2 pre-NFP = HALF. Any Tue/Wed fill wears NFP risk into Thu print. Trim defensively if -3% intraday Wed pre-NFP
+- **Independence Day Fri 7/3 closed** — long-weekend gap risk; Wed-Thu fills size DOWN consideration
+- **Mon tape was TECH-LED, not cyclical-led** — XLI green but +0.86% vs XLK +2.37% means cyclical rotation is weakening, not extending. If Tue sees tech-bid extension and cyclicals further fade, XLI/FCX setups gate-fail. Discipline: runtime triggers ("XLI > $182," "FCX > Mon close + XLB green + copper not red") are the protection
+- **Materials thesis under pressure** — XLB -1.82% Mon = first crack in the Materials YTD #1 leadership story. FCX gating now requires XLB green AT RUNTIME (intraday confirmation) — not just open quote
+- **VIX 17.65 = low vol = no fear bid for defensives** — typically supportive of risk-on, but combined with tech-led rotation, suggests we're in a chase-the-laggards-not-the-leaders backdrop; weighs against fresh XLI/FCX entries if Mon's character extends
+- **89% Dec hike priced** — yields-up backdrop; growth/duration under pressure; commodity beta tied to USD path (USD strength = FCX headwind)
+- **Day 12 / Week 3 of live ops / 0 P&L cushion** — first fill stays disciplined; the goal is execution of the runtime trigger, not aggressive position-building. A flat session with a QUALIFYING setup that fires is a rule VIOLATION; a flat session with gating-failures documented is rule-compliant
+- **Recurring cash-session market-open routine miss (6 consecutive sessions Tue Jun 23 → Mon Jun 29)** — routine-reliability emergency; if Tue's 09:30 ET routine also doesn't run, this becomes 7th miss and a Week-3 weekly-review item. Logging the plan here for the routine to consume if it DOES run today
+- **balance_asof = 2026-06-26** (Fri close) — Mon mark not yet applied. Flat state is true (no positions), not a sizing blocker
+
+### Decision
+**TRADE — default per strategy.** Tue setup: XLI re-reclaimed the $181.80 level Mon close, providing second confirmation of the breakout — this is the cleanest qualifying setup. FCX demoted to secondary (XLB -1.82% Mon Materials weakness needs intraday confirmation). Mon's tech-led rally is NOT a qualifying setup (XLK YTD -3-4%, not on momentum map). Two setups, three slots free, weekly budget 3/3 free, FULL-SIZE Tue per pre-NFP-T-2 rule.
+
+QUALIFICATION CALL per strategy four-test:
+- **XLI → QUALIFIES → TRADE FULL-SIZE** (catalyst: re-reclaim of $181.80 Mon close $182.76 = second confirmation of breakout, post-PCE cyclical rotation intact; sector: Industrials YTD +12% on momentum map; stop: -7% definable from entry to ~$170; R:R: 2:1 to $210). ENTER AT OPEN per market-open routine runtime check, contingent on XLI bid > $182 AND ES not red >0.5%.
+- **FCX → CONDITIONALLY QUALIFIES → TRADE FULL-SIZE only with stricter gates** (catalyst: copper bid intact from Fri, Materials YTD #1, but Mon XLB -1.82% requires intraday confirmation; sector: Materials YTD #1; stop: -7% definable; R:R: 2:1+ to $73). ENTER AT OPEN per market-open routine runtime check, contingent on FCX bid > Mon close AND XLB GREEN AT RUNTIME AND copper not red AND ES not red >0.5%. Stricter than Mon — XLB green at runtime is a new requirement.
+- **XLK / MAG7 / semis → DO NOT QUALIFY** — fails sector-momentum test (IT YTD -3-4%, one-day Mon rip ≠ trend).
+- **XLV / XLP → DO NOT QUALIFY** — defensives, fading bid, not on momentum map.
+- **GLD → DOES NOT QUALIFY** — gap-up chase, no clean stop.
+- **XLB → REDUNDANT with FCX** and itself failed Mon (-1.82%).
+
+Plan for Tue 6/30 market-open workflow (runtime, no clock-time gates):
+- **At routine runtime, check XLI FIRST (cleanest qualifier, breakout re-confirmation)**: if XLI bid > $182 (must hold above breakout, not fade through it) AND ES not red >0.5% → BUY ~66 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$164.70 as PDT fallback.
+- **THEN check FCX (stricter gates)**: if FCX bid > Mon cash close AND XLB GREEN at runtime AND copper not red AND ES not red >0.5% → BUY ~190 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$55.80 as PDT fallback.
+- **If both fail or tape sours** (ES red >0.5% OR XLI < $182 OR FCX gate fails OR tech-led rotation extends and cyclicals fade) → HOLD with documented gating-failure reason. NOT "patience." Valid skip reasons: "XLI failed to hold $182 breakout," "FCX gated by XLB red intraday," "ES red >0.5%," "tech-led rotation extending = cyclical-leadership-fade thesis broken."
+- **If only one fires**: take it, document the other's gating-failure, hold remaining slots for Wed (FULL until close) / Thu (HALF pre-NFP).
+- Budget after Tue fills: 1-2 entries used, 1-2 slots remain (max 3/week). NFP-1 HALF-SIZE rule activates Wed close for Thu pre-NFP entries.
+- **Wed plan placeholder**: if Tue fills hold, manage stops; if Tue fails, re-evaluate Wed AM with fresh post-Mon-rotation tape. Wed close = last FULL-SIZE entry window.
+- **Note**: Tue's market-open routine MUST run during cash session (09:30 ET+). If it again skips during cash hours, this is the 7th consecutive miss = routine-reliability emergency for Week-3 weekly review.
