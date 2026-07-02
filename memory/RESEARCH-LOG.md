@@ -874,3 +874,79 @@ Plan for Wed 7/1 market-open workflow (runtime, no clock-time gates):
 - **Thu plan placeholder**: if Wed fills hold, manage stops; NFP prints 8:30 ET Thu — trim to full-size stop level or cut if -3% intraday pre-NFP. Post-NFP Thu = potential re-add if trend intact and print not extreme. Fri closed.
 - **Mon 7/6 plan placeholder**: NDX SpaceX inclusion flow day; if Wed-Thu fills held through long weekend, manage Mon open; if flat, re-evaluate post-NFP sector tape Mon AM
 - **Note**: Wed's market-open routine MUST run during cash session (09:30 ET+). Missed 7 consecutive sessions Tue Jun 23 → Tue Jun 30 = routine-reliability emergency. Today's cash-session run is critical — 8th miss = FULL-WEEK-3 emergency escalation to weekly review.
+
+## 2026-07-02 — Pre-market Research (Thursday — NFP DAY 8:30 ET, XLI FAILED 3rd breakout Wed, tech sold, long-weekend gap risk)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-06-30 (Tue close mark; Wed cash mark not yet applied. Flat state true, not a sizing blocker; equity valuation lag = zero risk with zero positions)
+- Week trades (Mon-Wed): 0/3 | Day 14 of live ops; Week 3 of live ops; 2 prior flat weeks
+
+### Market Context (live, Thu 7/2 pre-open)
+- WTI / Brent: WTI $67.86 (-1.05%) / Brent $70.89 (-0.95%) — oil BROKE $70, weakest in weeks; Iran allowance + demand fears; disinflation tailwind for cyclicals intact but XLE now under pressure
+- **Indices (Wed 7/1 close): SPX 7,483.23 (-0.22%), NDX 26,040.03 (-0.66%), Dow 52,305.24 (-0.03%)** — REVERSAL of Tue tape; broad markets pulled back
+- **VIX: 16.59 (+0.85%)** — nudged up but still low; NFP-print premium not yet loaded
+- **Futures (live, Thu 7/2 pre-open): ES 7,543.5 (+0%), NQ 30,058.5 (-0.12%)** — flat pre-NFP; market waiting for print
+- **Wed 7/1 sector tape (character SHIFT confirmed)**: **XLF +2.18%, XLV +0.55%, XLB +0.37%, XLP +0.28%**, XLE -0.56%, XLI -1.01%, **XLK -2.57%** — TECH SOLD HARD (Warsh hawkish comments), INDUSTRIALS FADED (failed hold of $184.12), FINANCIALS RIPPED (post-Warsh curve steepener). Character: Tue "tech + cyclicals" → Wed "financials + defensives, tech + industrials sold" = rotation-y chop, no clean leader
+- **XLI Wed close $183.36 — BELOW $184.12 breakout trigger** = third failed-breakout attempt (Thu 6/25 break → Fri fail → Mon re-reclaim → Tue new-high $185.23 → Wed failed hold). Pattern is now weakening, not strengthening; primary XLI thesis under pressure
+- **FCX Wed close $60.53 (-3.75%)** per Yahoo Finance — bigger drop than SPX (-0.22%); single-name weakness DESPITE XLB +0.37% green. Intra-Materials-sector dispersion. Wed AH XLB bid $49.47 (below $51.02 cash close) = weakness continuing AH
+- Copper: last print Fri 6/27 $5.6358/lb (+2.72%); no fresh Wed 7/1 close print available yet; strong China PMI Wed supportive but FCX's -3.75% suggests idiosyncratic factor (UBS "overvalued" flag Tue at $62.83 may be biting)
+- **Catalysts / week ahead (fresh)**:
+  - **NFP Thu 7/2 8:30 ET** — THE swing event. Consensus ~100-115k jobs, unemployment 4.3%. Goldman: World Cup could add +40k boost. Kalshi predicting DISAPPOINT vs Wall St outlook. Wide dispersion of expectations
+  - **ADP Wed 7/1 came in "impressive" but slowdown persists** — sets modestly hawkish setup for NFP; hot NFP → yields up, growth/tech hit, curve steepener supports XLF
+  - **Fri 7/3 = Independence Day = market closed** — Thu entries wear NFP print + 3-day long-weekend gap risk
+  - **Fed Warsh hawkish speech Wed** — already hit XLK -2.57%, XLF +2.18% (curve steepener); 89% Dec hike priced
+  - **SpaceX joins NDX Mon 7/7** — passive-flow setup next week (not investable to us)
+  - **Meta AI cloud plans jumped Wed** — single-name headline
+- Earnings BMO Thu 7/2: thin; no tier-1 names (ManpowerGroup pre-announced; Greenbrier missed rev Wed AMC)
+- Economic calendar Thu 7/2: **NFP 8:30 ET** = only tier-1; Factory Orders 10:00 ET secondary
+- **Sector momentum YTD 2026 (refreshed post-Wed)**: Materials +22% (held YTD #1 via XLB Wed green, but FCX single-name -3.75% intra-sector chop), Energy +22% (WTI broke $70 = near-term pressure), Staples +16% (defensive bid returning: XLP +0.28% Wed), Industrials +12% (breakout LOST Wed = thesis-weakening), IT -3-4% (Wed -2.57% confirms not on momentum map), Financials -5% YTD but Wed +2.18% rip (still off momentum map — one-day rip ≠ trend), Discretionary -4%
+
+### Pending issue (still open — routine-reliability emergency)
+- **8 consecutive missed cash-session market-open routine runs (Tue Jun 23 → Wed Jul 1)**. Wed's XLI + FCX HALF-SIZE plan not executed during cash session. Trigger status Wed cash-session: XLI cash close $183.36 < $184 = XLI trigger DID NOT FIRE (gate-failure documented, not a missed trade); FCX cash close $60.53 < Tue $62.83 = FCX trigger DID NOT FIRE either (gate-failure documented). Result: Wed skip was rule-compliant even if the routine had run. But routine-reliability emergency remains for Week-3 weekly review (Fri PM is holiday, defer to Mon 7/6 review)
+
+### Trade Ideas (Thu 7/2 — POST-NFP runtime conditions, HALF-SIZE per NFP-day + long-weekend gap rule)
+1. **XLI (Industrials ETF) — DEMOTED to SECONDARY (was primary Wed).** Catalyst weakened: Wed close $183.36 = THIRD failed-breakout attempt of the $184.12 level. Pattern is now (break → fail → reclaim → new-high → FAIL) = whipsaw resolving DOWN, not UP. Only tradable today with force post-NFP: bid must reclaim $184.12 AND ES not red >0.5% post-print. Industrials YTD +12% still on momentum map, so thesis not dead, just structurally weakened. **Runtime trigger (post-NFP):** at routine runtime (post-8:30 print), XLI bid > $184.12 (must clear failed-breakout level, not just reclaim $183) AND ES not red >0.5%. Size: HALF 6% notional (~$6k, ~32 sh @ ~$186) with 10% trailing stop GTC at fill. Fixed stop ~$167.40 (-10%) PDT fallback. Target $214 (+15%) → R:R 2:1. ENTER AT OPEN-WINDOW conditional on the STRICT post-NFP reclaim.
+2. **FCX (Freeport-McMoRan) — PROMOTED to PRIMARY (was secondary Wed).** Catalyst: Materials YTD #1 sector intact via XLB Wed +0.37% green; UBS Buy + PT $77 (Tue, Wed post-selloff still stands); copper firm on China PMI beat. Wed -3.75% pullback to $60.53 = the ENTRY-BETTER level (buy the dip in the momentum-leader sector). Not a broken thesis — XLB was green Wed, and copper price is still bid. **Runtime trigger (post-NFP):** at routine runtime, FCX bid > $60.53 (Wed cash close, must show buyers reclaim after the -3.75% pullback) AND XLB green at runtime AND copper not red AND ES not red >0.5%. Size: HALF 6% notional (~$6k, ~99 sh @ ~$60.50) with 10% trailing stop GTC at fill. Fixed stop ~$54.48 (-10%) PDT fallback. Target $73 (+21%) → R:R 2:1+. ENTER AT OPEN-WINDOW post-NFP.
+3. **XLF (Financials ETF) — DOES NOT QUALIFY.** Wed +2.18% rip on Warsh hawkish (curve steepener) is impressive single-day, BUT XLF YTD -5% keeps sector OFF the momentum map. One-day catalyst ≠ trend establishment. Chase-risk if NFP is soft (yields down = flatten curve = XLF fade). Skip; revisit only if XLF holds above Wed high for 2+ sessions establishing trend reversal.
+4. **XLK (Tech ETF) — DOES NOT QUALIFY.** Wed -2.57% on Warsh confirms IT sector remains OFF momentum map (YTD -3-4%). If NFP is soft, tech snapback likely — but chasing a bounce in a lagging sector is anti-strategy. Skip.
+5. **XLV / XLP (Defensives) — DO NOT QUALIFY.** Wed +0.55% / +0.28% = modest defensive bid returning, but neither on momentum map (XLV small, XLP +16% YTD sits at #3 but the setup is a slow bid without a fresh catalyst today). Skip.
+6. **XLE / XOM / CVX — DO NOT QUALIFY.** WTI broke $70 Wed (-1.05%), XLE -0.56% Wed. Iran + demand fears squeezing thesis; Energy YTD +22% but rolling over near-term. Skip.
+7. **GLD (Gold ETF) — DOES NOT QUALIFY.** Vietnam gold up sharply this morning per news but Fri 6/26 +3.84% gap still not consolidated. No defined 7-10% stop level. Skip.
+8. **AVOID:** XLK/MAG7/semis (one-day Wed -2.57% could snap back on soft NFP but IT still off momentum map); XLF (one-day rip only, YTD -5%); XLV/XLP (defensives, no fresh catalyst); XLE/XOM/CVX (WTI broke $70, near-term pressure); MU/WDC/SNDK (storage post-blowout chase stale); MAG7 single names (not on momentum map); long-duration anything (89% Dec hike priced); SpaceX (NDX inclusion 7/7, not investable); quantum / single-name AI (no defined-stop setups); ANY new entry pre-NFP-print (runtime is post-8:30 only).
+
+### Risk Factors
+- **NFP 8:30 ET = swing event; Thu 7/2 = NFP-DAY** — HALF-SIZE for all entries per macro-event rule; entries are POST-print only (routine runs at 09:30 ET = 1 hour after print). Hot NFP → yields up, growth/tech hit, XLF supported, cyclicals mixed (XLI could snap on strong labor supporting industrial demand); Cold NFP → rate-cut hopes revive, XLK snap-back, cyclical thesis mixed, USD down = FCX/XLB bid
+- **Independence Day Fri 7/3 = market closed + Mon 7/7 = SpaceX NDX inclusion volatility** — Thu entries wear NFP print + 3-day long-weekend gap + Mon SpaceX flow day risk. HALF-SIZE cushion accounts for this
+- **Wed tape character shift** — Tue "tech + cyclicals bid" → Wed "financials + defensives bid, tech + industrials sold." Rotation is chop-y, not directional; no clean leader today. Runtime gates (XLI > $184.12 STRICT / FCX > $60.53 + XLB green + copper not red) are the only defense against fake-post-NFP moves
+- **XLI's third failed-breakout attempt Wed is a real thesis-weakening signal** — the whipsaw pattern (break-fail-reclaim-new high-fail) resolving DOWN historically = distribution. STRICT reclaim required (must clear $184.12, not just $183) to trade it today. Wed cash close $183.36 makes the primary Wed setup dead
+- **FCX -3.75% Wed is the entry-improvement, NOT the thesis-break** — Materials sector (XLB) held green Wed +0.37%; copper price still bid on China PMI; UBS PT $77 unchanged from Tue. FCX's pullback within a green sector = buy-the-dip window IF the tape confirms post-NFP with XLB green + FCX bid > $60.53 + copper firm. Without those, gate-fails and we hold
+- **WTI broke $70 Wed** — Energy YTD +22% still holds but near-term rolling; supports FCX (weaker energy = weaker USD headwind = commodity bid), but weakens standalone XLE thesis
+- **Warsh hawkish tail** — already caused Wed's XLK selldown; if Warsh speaks Thu, could extend the character shift
+- **89% Dec hike priced + JOLTS-hot Tue = yields-up backdrop** — commodity/USD path key; USD strength on hot NFP = FCX headwind
+- **VIX 16.59 low pre-NFP = premium not loaded** — vol should EXPAND post-print regardless of direction; HALF-SIZE + 10% trailing = right cushion
+- **Day 14 / Week 3 of live ops / 0 P&L cushion** — 13 flat sessions + 8 missed cash-session routines. Discipline > activity; a rule-compliant HOLD is fine; a routine-executed HALF-SIZE fill on a real post-NFP qualifier is the win state
+- **Recurring cash-session market-open routine miss (8 consecutive sessions)** — if today's cash-session routine ALSO skips, this becomes 9. Fri closed = no session. Week-3 weekly review deferred to Mon 7/6 (Fri holiday). If Mon routine works, 5-day gap between routines could allow verification. Logging plan here for the routine to consume IF it runs today
+
+### Decision
+**TRADE — default per strategy, POST-NFP only, HALF-SIZE.** Thu 7/2 setup: FCX PROMOTED to primary (Materials YTD #1 intact, -3.75% pullback = better entry, XLB green Wed, UBS PT $77, copper firm). XLI DEMOTED to secondary (third failed-breakout attempt = thesis-weakening; STRICT $184.12 reclaim gate required). NFP-day + Fri holiday = HALF-SIZE for cushion. Two setups conditionally qualifying, three slots free, weekly budget 3/3 free.
+
+QUALIFICATION CALL per strategy four-test:
+- **FCX → CONDITIONALLY QUALIFIES → TRADE HALF-SIZE post-NFP** (catalyst: -3.75% pullback in a green sector Wed = buy-dip in momentum leader; UBS PT $77 + copper firm on China PMI + XLB green; sector: Materials +22% YTD #1; stop: -10% definable to ~$54.48; R:R 2:1+ to $73). ENTER AT OPEN-WINDOW post-NFP, contingent on FCX bid > $60.53 AND XLB green AND copper not red AND ES not red >0.5%.
+- **XLI → CONDITIONALLY QUALIFIES → TRADE HALF-SIZE post-NFP STRICTLY** (catalyst: reclaim of failed $184.12 breakout requires post-NFP force; three whipsaws weakened the thesis but Industrials YTD +12% keeps sector on map; stop: -10% definable to ~$167.40; R:R 2:1 to $214). ENTER AT OPEN-WINDOW post-NFP, contingent on XLI bid > $184.12 (STRICT — not just $183 reclaim) AND ES not red >0.5%.
+- **XLF / XLK → DO NOT QUALIFY** — one-day Wed catalysts on off-momentum-map sectors (YTD -5% / -3-4%).
+- **XLV / XLP → DO NOT QUALIFY** — defensives, no fresh catalyst, off momentum map (XLV) or slow bid without catalyst (XLP).
+- **XLE / XOM / CVX → DO NOT QUALIFY** — WTI broke $70, near-term rolling.
+- **GLD → DOES NOT QUALIFY** — no clean 7-10% stop, gap-up chase.
+- **XLB → REDUNDANT with FCX** (same exposure, FCX higher beta + fresh single-name -3.75% dip catalyst + UBS PT).
+
+Plan for Thu 7/2 market-open workflow (runtime, POST-NFP only, no clock-time gates):
+- **Routine runs at 09:30 ET = 1 hour after NFP print** — see the initial market reaction. Gate all entries on the post-print tape, not on pre-print quotes
+- **At routine runtime, check FCX FIRST (cleanest post-NFP qualifier — dip in the leader)**: if FCX bid > $60.53 (Wed cash close, must reclaim the -3.75% pullback) AND XLB green at runtime AND copper not red AND ES not red >0.5% → BUY ~99 sh (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$54.48 as PDT fallback.
+- **THEN check XLI (STRICT reclaim required)**: if XLI bid > $184.12 (must clear the failed breakout, NOT just reclaim $183) AND ES not red >0.5% → BUY ~32 sh (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$167.40 as PDT fallback.
+- **If both fail or tape sours** (ES red >0.5% post-NFP on hot/cold surprise, OR FCX < $60.53, OR XLB red, OR copper red, OR XLI < $184.12 STRICT) → HOLD with documented gating-failure reason. NOT "patience." Valid skip reasons: "FCX gated by XLB red post-NFP," "FCX below $60.53 = pullback continuing," "XLI below $184.12 = failed-breakout thesis extending," "ES red >0.5% on NFP shock," "copper red on China PMI reversal"
+- **If only one fires**: take it, document the other's gating-failure, hold remaining slots for post-holiday Mon 7/6 (Fri closed)
+- Budget after Thu fills: 1-2 entries used (HALF-SIZE), 1-2 slots remain for next week (max 3/week resets). Fri closed = no session. Mon 7/6 = SpaceX NDX inclusion flow day (passive bid on NDX names)
+- **Mon 7/6 plan placeholder**: if Thu fills hold through long weekend, manage stops at open (10% trailing on FCX = ~$54.48, on XLI = ~$167.40 fixed fallback); if flat, re-evaluate Mon AM with post-holiday tape + SpaceX inclusion flow
+- **Note**: Thu's cash-session market-open routine MUST run at 09:30 ET+ (post-NFP). Missed 8 consecutive sessions Tue Jun 23 → Wed Jul 1 = routine-reliability emergency. Today's cash-session run is critical — a 9th miss escalates to Week-3 weekly review item #1 (deferred to Mon 7/6, Fri holiday)
