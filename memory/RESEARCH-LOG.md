@@ -1029,3 +1029,76 @@ Plan for Mon 7/6 market-open workflow (runtime, no clock-time gates):
 - **Tue 7/7 plan placeholder**: if Mon fills XLB + one HALF, manage stops at Tue open; monitor SpaceX NDX inclusion flow PM (~15:45 ET rebalance); if only XLB filled, re-evaluate FCX/XLI Tue for 2nd HALF-SIZE fill
 - **Wed 7/8 plan placeholder**: earnings season Q2 begins ~7/14 with big banks; Q2 pre-announces begin ~7/6 week — monitor for portfolio-affecting names
 - **Note**: Mon 7/6 cash-session market-open routine MUST run at 09:30 ET+. Missed 9 consecutive sessions Tue Jun 23 → Thu Jul 2 = routine-reliability emergency; if Mon also skips = 10 consecutive = system-level failure. This is Week-3 weekly review item #1 (deferred from Fri holiday to Mon 7/6 PM combined with pre-market-plan execution)
+
+## 2026-07-06 — Pre-market Research (Monday — post-3-day-weekend gap; post-NFP soft print digested; Fed minutes Wed 7/8; XLB plan re-confirmed)
+
+### Account
+- Equity: $100,000.00 | Cash: $100,000.00 | Buying power: $400,000 (4x)
+- Daytrade count: 0 | Positions: none | Open orders: none
+- balance_asof: 2026-07-02 (Thu close mark; Fri closed → normal gap; not a sizing blocker with flat book)
+- Week trades (Week 4 opens Mon 7/6): 0/3 | Day 16 of live ops; 3 prior 0/3 weeks (Weeks 1-2-3 all flat)
+
+### Market Context (live, Mon 7/6 pre-open)
+- **Futures GREEN post-holiday gap**: ES 7,551.5 (+0.31%), NQ 29,795.0 (+0.81%) — small relief bid; tech attempting bounce off Thu -2.71% dump; no shock over 3-day gap
+- **VIX 15.81 (-2.11% today, down from Thu 16.15)** — vol CRUSHED further; premium dumped over weekend; low-vol regime persisting; permission-slip for risk-on
+- **WTI $68.83 (+0.20%) / Brent $72.08 (+0.39%)** — WTI SLIPPED under $69 again (Thu $69.20 → Mon $68.83); still sub-$70; disinflation tailwind intact; XLE marginally supportive (+0.78% Thu still holds)
+- **Sector marks (Thu 7/2 close, still last cash close pre-open Mon)**: XLB $52.01 (+1.94%), XLV $163.74 (+2.63%), XLP $84.99 (+2.03%), XLF $55.62 (+1.53%), XLE $53.22 (+0.78%), XLI $183.91 (+0.30%, still < $184.12 STRICT), XLK $180.59 (-2.71%)
+- **Character locked from Thu**: soft-NFP-yellow-card → DEFENSIVES + MATERIALS + FINANCIALS BID, TECH SOLD, INDUSTRIALS WEAK; 3-day gap did not disturb this (futures green with tech-bounce noise but no character shift)
+- **Sector momentum YTD 2026 (unchanged)**: Materials +22% (#1 confirmed post-NFP), Energy +22% (WTI sub-$70 = neutral), Staples +16% (#3, defensive bid strong Thu), Healthcare (defensive bid Thu), Industrials +12% (breakout LOST, 4 failed closes below $184.12), Financials -5% YTD (off momentum map despite 2-day rip), IT -3-4% (2-day dump, Burry MU short adds pressure), Discretionary -4%
+
+### Today's Catalysts
+- **NFP soft print +57k jobs (Thu 7/2) fully digested over 3-day gap** — market reading now "Fed no-hike Q4 more likely" (89% Dec hike priced pre-print now unwinding); this is the anchor for Mon's rotation continuation
+- **FOMC MINUTES Wed 7/8 14:00 ET** — WEEK'S KEY EVENT; hawkish tilt = XLK/tech reprieve + defensive-bid unwind; dovish tilt = Materials/Staples/Healthcare rip continues; **FOMC-1 HALF-SIZE rule activates Tue close** (no Mon-entry sizing impact)
+- **Q2 earnings season begins ~7/13** with big banks (JPM/WFC/C); pre-announcements begin THIS week; monitor for portfolio-affecting names
+- **Tesla record Q2 deliveries (Fri 7/3)** — bullish for autos + TSLA + AMZN peer read; not a direct portfolio setup (no auto exposure planned)
+- **Michael Burry short on MU (published Sat 7/4)** — reinforces AI-chip-bubble narrative; further pressure on XLK/semis; validates our XLK skip
+- **Genesis $5.6B bid for gold miner Vault** — Australian gold M&A heating; GLD theme building but we're not chasing (no clean 7-10% stop on GLD)
+- **NO US CPI/PPI/FOMC on Mon** — clean session for entries with no macro-print risk pre-lunch
+
+### Pending Issues
+- **9 CONSECUTIVE MISSED cash-session market-open routine runs (Tue Jun 23 → Thu Jul 2)** — Fri 7/3 closed → streak stands at 9. Mon 7/6 09:30 ET routine MUST RUN; if it misses that's **10 CONSECUTIVE = system-level failure**. Weekly review (Week-3 deferred to Mon 7/6 PM) item #1
+- Thu 7/2 rule-compliance verification (from Fri log): FCX/XLI triggers did NOT fire Thu → missed routine = compliant no-fill; no rule violation on the missed session
+- 3 consecutive 0/3 weeks (Weeks 1-2-3 all flat) — Week-3 review item #2
+
+### Trade Ideas (Mon 7/6 — runtime conditions for market-open routine, FULL-SIZE unlocked; FOMC-1 does NOT apply Mon AM)
+1. **XLB (Materials Select Sector SPDR) — PRIMARY.** Catalyst: Thu +1.94% post-NFP rotation into Materials on soft-jobs-rate-cut-hopes + 3-day gap did not reverse (futures green, VIX crushed); Materials YTD +22% #1 sector confirmed; XLB = cleanest sector-ETF Materials expression (FCX had 2 consecutive intra-sector underperformance days). **Runtime trigger (Mon 7/6 09:30 ET):** at routine runtime, XLB bid > $52.01 (Thu close hold, not a fade back through it) AND ES not red >0.5% AND copper/XLB-proxy not red. **Size: FULL 12% notional (~$12k, ~230 sh @ ~$52.20)** with 10% trailing stop GTC at fill. Fixed stop ~$46.80 (-10%) PDT fallback. Target $62 (+19%) → R:R 1.9:1. ENTER AT OPEN-WINDOW
+2. **XLV (Healthcare Select Sector SPDR) — SECONDARY (PROMOTED from Fri Do-Not-Qualify).** Catalyst: Thu +2.63% was SECTOR-LEADER move on soft-NFP defensive bid + Fed dovish path; if 3-day gap holds futures green tech bounce, defensive bid should extend (VIX crushed = risk-on defensive combo). **Reason for promotion vs Fri log:** Fri classified XLV as "off momentum map YTD +2-3%" but Thu +2.63% established a 2nd-consecutive-day pattern (Wed +0.55% + Thu +2.63% = +3.20% two-session) with sector-leader signature. **Runtime trigger (Mon 7/6):** at routine runtime, XLV bid > $163.74 (Thu close hold) AND ES not red >0.5%. **Size: HALF 6% notional (~$6k, ~37 sh @ ~$164)** with 10% trailing stop GTC at fill. Fixed stop ~$147.40 (-10%) PDT fallback. Target $180 (+10%) → R:R 1.6:1 = MARGINAL. If R:R < 2:1 at runtime, HOLD with "R:R gate fail" reason. ENTER AT OPEN-WINDOW conditional
+3. **XLF (Financial Select Sector SPDR) — TERTIARY (MARGINAL, off momentum map).** Catalyst: 2-day rip (Wed +2.18% + Thu +1.53% = +3.75% two-session) on curve-steepener from Warsh hawkish + soft-NFP participation-shrinkage story; XLF Thu close $55.62; big-bank earnings start 7/13 = tailwind building. **BUT SECTOR OFF MOMENTUM MAP** (YTD -5%); to trade, need Mon 3rd-day-up trend-reversal confirmation. **Runtime trigger (Mon 7/6):** at routine runtime, XLF bid > $55.62 AND ES green AND 10Y not falling >5bp (curve-steepener thesis intact). **Size: HALF 6% notional (~$6k, ~108 sh @ ~$55.75)** with 10% trailing stop GTC at fill. Fixed stop ~$50.06 (-10%) PDT fallback. Target $65 (+17%) → R:R 1.6:1 = MARGINAL. If R:R < 2:1, HOLD with "R:R gate fail" or "off momentum map + one-day-rip risk"
+4. **FCX (Freeport-McMoRan) — DEMOTED TO STANDBY.** Two consecutive underperform-vs-XLB days = idiosyncratic risk validated. Only tradable if FCX shows a decisive dip-buying signal Mon: **Runtime trigger (Mon 7/6):** at routine runtime, FCX bid > $58 (must reclaim Thu selloff level with force) AND XLB green AND copper not red AND ES not red >0.5%. **Size: HALF 6% notional (~$6k, ~103 sh @ ~$58.20)** with 10% trailing stop GTC at fill. Fixed stop ~$52.20 (-10%) PDT fallback. Target $73 (+25%) → R:R 2.5:1. ENTER AT OPEN-WINDOW only if XLB filled first AND XLV/XLF slot still open AND FCX shows leadership Mon
+5. **XLI (Industrials ETF) — DO NOT QUALIFY.** 4 consecutive closes below $184.12 breakout trigger = pattern resolving DOWN, thesis structurally broken. Only tradable Mon with a decisive gap-and-hold above $184.12 + intraday high > $184.50 for force — same STRICT gate as Fri. Given XLB is the cleaner cyclical expression and slots are limited, DE-PRIORITIZE XLI unless XLB and XLV/XLF both gate-fail
+6. **XLP (Staples ETF) — DO NOT QUALIFY.** YTD +16% keeps it on momentum map #3, and Thu +2.03% was strong. Whipsaw pattern (Tue -1.54% → Wed +0.28% → Thu +2.03%) is NOT a clean trend, defensive-bid tied to soft-NFP narrative that could unwind. Skip; XLV offers same defensive theme with stronger sector-leader signature
+7. **XLK / MAG7 / semis / MU — DO NOT QUALIFY.** 2-day dump (Wed -2.57% + Thu -2.71%) + Burry MU short published weekend + AI-chip-bubble narrative extending = compounding negatives; IT sector YTD -3-4% off momentum map. Anti-strategy to chase a bounce
+8. **XLE / XOM / CVX — DO NOT QUALIFY.** WTI $68.83 sub-$70; Iran allowance + demand fears; XLE only +0.78% Thu vs broad-market rally is weak
+9. **GLD (Gold ETF) — DOES NOT QUALIFY.** Gold M&A heating (Genesis $5.6B Vault bid) is bullish signal but GLD lacks a clean 7-10% stop trigger for us; skip
+10. **AVOID:** XLK/MAG7/MU/WDC/SNDK (Burry short + 2-day dump); XLE/XOM/CVX (sub-$70 WTI); XLI on prints below $184.12 (thesis broken); SpaceX/quantum (no defined stops)
+
+### Risk Factors
+- **3-day-weekend gap digestion at Mon 09:30 open** — any residual weekend-headline shock could reverse the futures-green setup at open; VIX crushed 15.81 = premium already dumped, so a real shock would hit hard; runtime tape-read at 09:30 is the only defense
+- **FOMC minutes Wed 7/8 14:00 ET is THE week's event** — hawkish tilt could kill defensives/materials rotation; dovish tilt extends it. FOMC-1 HALF-SIZE rule activates Tue close (Mon entries FULL-SIZE-eligible, Tue new entries would be HALF)
+- **Soft-NFP-yellow-card thesis is the anchor**: if consensus reads "labor softening → Fed cut" then Thu rotation continues; if consensus flips to "labor weakening → recession risk" then defensives + materials could split (defensives bid on recession, materials sold on growth fears). Runtime tape-read critical
+- **XLK/MU downside risk extending on Burry short + AI-bubble narrative** — could drag SPY down 0.5-1% intraday if MU sells off hard; watch for XLK-led broad rollover as a HOLD trigger even if XLB/XLV levels hold
+- **Q2 earnings pre-announcements begin this week** — single-name landmines possible; no single-name entries planned (XLB/XLV/XLF/FCX all ETF or diversified miner)
+- **FCX 2-day underperform-vs-XLB is single-name risk NOT sector risk** — Materials still leader, but FCX is not the cleanest expression; XLB preference is a discipline gate not a caution flag
+- **XLI 4 failed reclaims of $184.12 is a REAL thesis break** — the whipsaw resolving DOWN is textbook distribution; STRICT gate + de-prioritization is the correct response
+- **XLF off momentum map YTD -5%** — 2-day rip does not establish a trend; STRICT 3rd-day-up requirement + R:R ≥ 2:1 gate; if MARGINAL, HOLD
+- **Day 16 / Week 4 opens / 0 P&L cushion / 15 flat sessions** — 4th week starting flat; first fill priority = DISCIPLINED runtime execution of XLB gate, not chasing weaker qualifiers
+- **10th consecutive missed cash-session market-open routine risk** — if Mon 09:30 ET routine also skips, it's a system-level failure that Week-3 review must escalate; entering trades = also proving the routine ran
+
+### Decision
+**TRADE Mon 7/6 default per strategy, FULL-SIZE unlocked (no FOMC-1 impact until Tue close).** Setup ranks:
+- **XLB → QUALIFIES → TRADE FULL-SIZE** (catalyst: Thu +1.94% post-NFP rotation, sector-ETF preferred over FCX; sector: Materials +22% YTD #1; stop: -10% to ~$46.80; R:R ~1.9:1). ENTER AT OPEN per runtime check (XLB > $52.01 hold, ES not red >0.5%, copper not red)
+- **XLV → CONDITIONALLY QUALIFIES → TRADE HALF-SIZE STRICT** (catalyst: Thu +2.63% sector-leader defensive bid; sector: Healthcare defensive bid Thu; stop: -10% to ~$147.40; R:R ~1.6:1 = MARGINAL). ENTER AT OPEN only if XLV > $163.74 AND ES not red >0.5% AND R:R computes >= 2:1 at runtime; otherwise HOLD with "R:R gate fail"
+- **XLF → CONDITIONALLY QUALIFIES → TRADE HALF-SIZE STRICT** (catalyst: 2-day rip on curve-steepener + big-bank earnings 7/13; sector: OFF momentum map YTD -5%; stop: -10% to ~$50.06; R:R ~1.6:1 = MARGINAL). ENTER AT OPEN only if XLF > $55.62 AND ES green AND R:R computes >= 2:1 at runtime; otherwise HOLD with "R:R gate fail" or "off momentum map + one-day-rip risk"
+- **FCX → CONDITIONALLY QUALIFIES → STANDBY HALF-SIZE** (catalyst: potential dip-buy at $58 reclaim; sector: Materials leader; stop: -10% to ~$52.20; R:R 2.5:1). ENTER AT OPEN only if XLB already filled AND FCX > $58 with force AND weekly budget still allows
+- **XLI → DO NOT QUALIFY** (4 failed reclaims, thesis broken)
+- **XLP / XLV alternative / XLK / XLE / GLD / SpaceX → DO NOT QUALIFY**
+
+Plan for Mon 7/6 market-open workflow (runtime, no clock-time gates):
+- **STEP A — XLB PRIMARY (must-fire if gate holds)**: at routine runtime, XLB bid > $52.01 AND ES not red >0.5% AND copper/XLB-proxy not red → BUY ~230 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$46.80 as PDT fallback
+- **STEP B — XLV SECONDARY (defensive-leader half-size)**: at routine runtime, XLV bid > $163.74 AND ES not red >0.5% AND R:R to $180 >= 2:1 with fill price → BUY ~37 sh (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$147.40 as PDT fallback. If R:R < 2:1, HOLD with "R:R gate fail"
+- **STEP C — XLF or FCX (choose ONE, not both, weekly-budget preservation)**: XLF only if XLF > $55.62 AND ES green AND R:R >= 2:1 at runtime → BUY ~108 sh (~$6k, 6% notional, HALF-SIZE). Fixed stop ~$50.06. **OR** FCX only if XLB already filled AND FCX > $58 with force AND XLB green AND copper not red → BUY ~103 sh (~$6k, 6% notional, HALF-SIZE). Fixed stop ~$52.20
+- **If all fail or tape sours** (ES red >0.5% on gap-shock, OR XLB < $52.01, OR copper red, OR XLK-led broad rollover >1% intraday, OR unexpected macro headline) → HOLD with documented gating-failure reason (NOT "patience")
+- **Budget priority**: XLB FULL = ideal first fill; then XLV HALF (defensive-leader) OR XLF HALF (financials-reversal) OR FCX HALF (materials-single-name) as second fill; MAX 3 new trades this week (leaving room for Tue/Wed fills); target 75-85% deployed by Wed 7/8 pre-FOMC-minutes
+- **Tue 7/7 plan placeholder**: FOMC-1 HALF-SIZE rule activates AT Tue close; any Tue new entry AM = FULL, PM = HALF; if Mon fills only XLB, evaluate 2nd fill Tue AM; manage stops on Mon fills at Tue open
+- **Wed 7/8 plan placeholder**: FOMC minutes 14:00 ET; pre-minutes AM entries HALF-SIZE per FOMC-1 rule; post-minutes reaction sets Thu/Fri tone
+- **CRITICAL: Mon 7/6 cash-session market-open routine MUST run at 09:30 ET+.** 9 consecutive misses stand; 10th = system-level failure. Week-3 weekly review (deferred from Fri holiday to Mon 7/6 PM) item #1 = routine-reliability emergency with proposed fix (schedule / cron / trigger investigation)
