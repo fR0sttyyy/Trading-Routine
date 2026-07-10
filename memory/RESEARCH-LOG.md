@@ -1338,3 +1338,73 @@ Plan for Thu 7/9 market-open workflow (runtime, no clock-time gates):
 - **Fri 7/10 plan placeholder**: NFP 8:30 ET print + FOMC-minutes-week close; only post-NFP-print reactive entries permitted; Wk-4 cap depends on Thu fill count; weekend gap risk on Iran headlines for any positions carried into Fri close (10% trailing stops cap this)
 - **Mon 7/13 / Tue 7/14 plan placeholder**: Q2 earnings begin (JPM/WFC/C big banks) + CPI Tue 7/14 → CPI-1 HALF-SIZE activates Mon 7/13 close; Wk-5 opens Mon with fresh 3-trade cap; if Thu/Fri fill only XLE, evaluate SLB/OXY top-up for Mon at HALF ahead of CPI
 - **CRITICAL: Thu 7/9 cash-session market-open routine MUST run at 09:30 ET+.** 12 consecutive misses standing (2.5 weeks of system-level failure); 13th = 3-week system failure crossing into weekly-review emergency escalation. Weekly review still 4 sessions overdue. Actually executing Thu entries proves routine ran + finally lands first fill of live ops after 18 flat sessions
+
+## 2026-07-10 — Pre-market Research (Friday, Day 20)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000 (4x margin)
+- Positions: 0 (20th consecutive flat session)
+- Open orders: 0
+- Daytrade count: 0/3 (PDT clean)
+- `balance_asof`: 2026-07-08 (Wed close mark, 1-session stale; flat book = zero valuation risk)
+- Week-4 trades used: 0/3 (Mon-Thu) — Fri = FINAL DAY of Wk-4 cap window
+- Capital deployed: 0% vs 75-85% target
+
+### Market Context (Thu 7/9 close, pre-Fri 7/10 open)
+- **Indices Thu close**: S&P +0.81% $7543.64 (near ATH), Nasdaq +1.30% $26206.89 (recovered above 26k), Dow +0.27% $52487.41 — tech-led rally, broad-based positive
+- **Futures pre-open Fri 7/10**: ES -0.16% $7576.75, NQ -0.27% $29854.75 — mild red pre-open, no shock
+- **VIX**: $15.84 -6.27% — calm returning after Wed-Thu Iran-headline pop faded; back below 16, no vol regime shift confirmed
+- **Oil**: WTI $72.05 -0.04%, Brent $76.34 +0.05% — flat, Iran-de-escalation calm on Thu PM ("calm returns to financial markets worldwide" Sun Chronicle 14:35 ET)
+- **Sector heat map Thu close** (momentum leadership):
+  - Tech XLK **+2.18%** $185.35 — **#1 daily gain, sector leadership resurgent** after Tue AI-chip fade; Apple approaching ATH; Intel +180% YTD; SpaceX Nasdaq-100 inclusion passive-buying momentum
+  - Financials XLF **+1.04%** $55.54 — 4-session rebuild, big-bank Q2 earnings Tue 7/14 catalyst on deck (JPM/BAC/C/WFC, trading-surge Reuters expects "blockbuster" fueled by SpaceX IPO)
+  - Industrials XLI +0.38% $181.11 — weak follow-through, still below prior $184.12 STRICT gate = structurally dead this cycle
+  - Materials XLB +0.20% $50.26 — weak, below prior $52.01 gate = fade continues
+  - Healthcare XLV -0.08% $162.17 — flat
+  - **Energy XLE -1.40% $54.82 — FADED despite Iran headlines** (Wed/Thu attacks, oil geopolitical premium NOT bid into equities); closed BELOW prior gate $55.60 = XLE PRIMARY thesis from Thu plan **DEAD**
+  - Staples XLP -1.41% $83.20 — risk-on rotation away from defensives
+- **Held tickers**: NONE (flat book, no per-ticker quotes needed)
+- **Macro today Fri 7/10**: **NO major macro release** (NFP already printed Jul 2 Thu ahead of holiday-shortened Fri 7/3 = June NFP +57k soft print; already digested); no CPI, no FOMC, no Fed speak scheduled; clean session
+- **Weekend gap risk**: Iran-US crisis unresolved (Wed/Thu attacks + calm Thu PM); Sat/Sun escalation headline could gap Mon open; 10% trailing stops cap this for any Fri fills carried into weekend
+- **Q2 earnings season**: Big-bank cluster starts Tue 7/14 (WFC, JPM, C, BAC per Financial Times 7/7); Q2 EPS growth aggregate expected +23.4% = high bar, disappointment skew present per Reuters 7/9
+- **AH quote reliability caveat**: Alpaca AH ap/bp for XLK $190.32/$178.97 (6% wide), XLF $0/$53.91 (one-sided ask), NVDA $211.65/$194.25 (8% wide), AAPL $326.15/$294.84 (10% wide), PLTR $134.13/$121.18 (10% wide) = illiquid AH pricing, NOT reliable for gate math; market-open routine MUST re-quote at 09:30 ET runtime
+
+### Trade Ideas
+
+1. **XLK (Technology Select Sector SPDR) — PRIMARY.** Catalyst: Tech sector leadership CONFIRMED Thu +2.18% after Tue AI-chip fade (Nasdaq -1.2% Tue → +1.3% Thu = 2-session V-recovery); Apple approaching ATH per CNBC 7/9; Intel +180% YTD per Fool 7/8; Nasdaq closed $26206 above 26k; SpaceX Nasdaq-100 inclusion passive-buying tailwind; VIX $15.84 calm regime; broad market at ATH. **Sector: Tech ON momentum map (Nasdaq ATH proximity, XLK #1 daily gain Thu).** **Runtime trigger (Fri 7/10 09:30 ET)**: at routine runtime, XLK bid > $185.35 (Thu close hold, NOT fade back below $181) AND NQ not red >0.5% AND ES not red >0.5%. **Size: FULL 12% notional (~$12k, ~65 sh @ ~$185.35)** with 10% trailing stop GTC at fill. Fixed stop ~$166.82 (-10%) PDT fallback. Target $222.42 (+20%) → R:R 2.0:1. ENTER AT OPEN. **If XLK < $185.35 at runtime = HOLD "Thu leadership fading, sector-momentum test lost".**
+2. **XLF (Financial Select Sector SPDR) — SECONDARY.** Catalyst: Big-bank Q2 earnings cluster Tue 7/14 (JPM/BAC/C/WFC); Reuters 7/7 "trading surge fueled by SpaceX IPO seen lifting Wall St banks Q2 earnings"; Axios "Wall Street expects blockbuster earnings"; XLF +1.04% Thu = 4-session rebuild. **Sector: Financials borderline momentum** (short-term breakout + 4-session rebuild, earnings catalyst 2-session away). Accepting on strong catalyst + fresh short-term momentum. **Runtime trigger (Fri 7/10 09:30 ET)**: at routine runtime, XLF bid > $55.54 (Thu close hold, force reclaim NOT fade) AND ES not red >0.5%. **Size: HALF 6% notional (~$6k, ~108 sh @ ~$55.54)** with 10% trailing stop GTC at fill. Fixed stop ~$49.99 (-10%) PDT fallback. Target $66.65 (+20%) → R:R 2.0:1. ENTER AT OPEN only if XLK PRIMARY already filled OR XLK gate fails (weekly-budget preservation — max 2 fills Fri leaving 1 slot for reactive; alt-path if XLK opens strong = upgrade XLF to FULL 12% for 24% deployed on Tech+Financials stack).
+3. **XLE — DOES NOT QUALIFY → HOLD.** XLE $54.82 Thu close is BELOW prior gate $55.60 (fade of $0.78 = -1.4% on the day) AND Energy sector -1.4% on the day DESPITE Iran-headline oil geopolitical premium (WTI held $72, XLE didn't bid = structural weakness). Sector-momentum test **FAILS** (3-day Energy leadership broken Thu). Failed criterion: **Test #2 sector-momentum broken + Test #1 catalyst broken** (Iran-headline premium no longer flowing to XLE equities). Thesis broken; skip Energy entirely today.
+4. **NVDA / AAPL / PLTR / individual tech names — SKIP.** Concentration risk in single names on catalyst-free Fri when XLK basket cleaner expression of the same sector-leadership thesis; AH quotes 8-10% wide = unreliable gate math; better to bundle via XLK. Failed criterion: **Test #1 no single-name-specific catalyst today** (SpaceX inclusion already priced, Apple ATH-proximity not fresh news, Intel +180% priced).
+5. **XLI / XLB / FCX / XLV / XLP / GLD / LUV / TSLA / SPCX / XOM / CVX — DO NOT QUALIFY.** Industrials 6th failed reclaim = structurally dead; Materials fading; FCX/copper tied to XLB fade; Healthcare/Staples defensive rotation OUT; Gold no catalyst on calm VIX; individual name headline-risk (TSLA/SPCX). Failed criterion: **Test #2 sector-momentum broken**.
+
+### Risk Factors
+- **Iran-US crisis unresolved** — Wed/Thu attacks + Thu PM "calm returns" (Sun Chronicle); weekend gap risk if escalation headline Sat/Sun; 10% trailing stops on any Fri fills cap Sun-open gap-down loss but not the full weekend-shock event; XLK is Tech = lower geopolitical beta than XLE, but broad-market shock hits everything
+- **Q2 earnings high bar** — +23.4% expected aggregate per Reuters 7/9 "higher bar for corporate profit growth poses challenge"; disappointment skew present as big-bank prints start Tue 7/14; XLF SECONDARY carries direct exposure to this
+- **Tech concentration + AI-fatigue risk** — Nasdaq gave up 1.2% Tue on AI-chip re-rating (DeepSeek new chip headline hit NVDA); a second AI-chip-narrative fade Fri could take XLK down 2-3% intraday, trigger 10% trail from open entry
+- **ES/NQ pre-open red** — ES -0.16%, NQ -0.27% Fri pre-open = mild caution, could deepen; runtime "ES/NQ not red >0.5%" gate is the discipline check
+- **VIX +6% off multi-session low then -6% back** — Wed pop / Thu fade = choppy vol regime; if VIX prints >18 during session = vol regime shift = tighten thesis-break watch (thesis-broken exit rule applies)
+- **Weekend + Fri fill = 2-day carry into unknown headlines** — Iran, Trump tariff/policy tweets, geopolitical; no way to trade Sat/Sun so trailing stops must cap risk
+- **13 consecutive missed cash-session market-open routines (Tue Jun 23 → Thu Jul 9)** — 3-week system failure realized; today's 09:30 ET cash-session routine MUST run; 14th miss = 4-week system failure (unacceptable); Fri is the FINAL Wk-4 execution window before another 0/3 week is recorded
+- **Weekly review from Fri 7/3 still 5 sessions overdue** — must run TODAY Fri 7/10 PM per Fri weekly-review cadence; must cover: (1) 13-session cash-open routine miss as item #1, (2) three consecutive 0/3 weeks (Wks 1-3) + Wk-4 pending 0/3 as item #2, (3) XLE/SLB/OXY trigger-firing verification for missed Thu 7/9 session, (4) XLK/XLF trigger-firing verification for Fri 7/10 execution, (5) screen-too-narrow pattern still unresolved from Wks 1-2 reviews
+- **Data freshness caveat**: Alpaca `balance_asof` 2026-07-08 (Wed close mark) = 1-session stale; flat book = zero valuation risk; sizing off equity=$100k direct read valid
+- **Day 20 / Week 4 continues flat / 13 consecutive routine misses / 0 P&L cushion / 19 flat sessions / XLE PRIMARY missed Thu / Fri = FINAL Wk-4 window** — 4th week now 0/3 through Thu, Fri is last chance; missing Fri qualifying setup = 4th consecutive 0/3 week + Wk-4 flat = rule violations compounding
+
+### Decision
+**TRADE Fri 7/10 default per strategy, FULL-SIZE AM (no macro constraint today; NFP already printed Jul 2; no FOMC; clean session).** Setup ranks:
+- **XLK → QUALIFIES → TRADE FULL-SIZE PRIMARY** (catalyst: tech sector leadership +2.18% Thu confirmed after Tue AI-chip V-recovery + Nasdaq $26206 above 26k + Apple ATH + Intel +180% YTD + SpaceX Nasdaq-100 passive tailwind + VIX $15.84 calm; sector: Tech ON momentum map #1 Thu; stop: -10% to ~$166.82; R:R 2.0:1 to $222.42 target). ENTER AT OPEN per runtime check (XLK bid > $185.35, NQ not red >0.5%, ES not red >0.5%)
+- **XLF → QUALIFIES → TRADE HALF-SIZE SECONDARY** (catalyst: big-bank Q2 earnings Tue 7/14 blockbuster expected + XLF +1.04% Thu 4-session rebuild + SpaceX IPO trading-surge tailwind; sector: Financials short-term momentum + strong catalyst; stop: -10% to ~$49.99; R:R 2.0:1 to $66.65 target). ENTER AT OPEN only after XLK PRIMARY status decided; alt-path if XLK opens strong = upgrade XLF to FULL for 24% Tech+Financials deployment
+- **XLE → DOES NOT QUALIFY → HOLD** (thesis broken: Thu -1.4% below $55.60 gate + Energy sector fade despite Iran-headline oil premium NOT bid to equities = sector-momentum test #2 failed + catalyst test #1 failed; skip entirely, do not chase)
+- **NVDA / AAPL / PLTR → DO NOT QUALIFY** (bundle via XLK; no single-name-fresh-catalyst today)
+- **XLI / XLB / FCX / XLV / XLP / GLD / TSLA / LUV / SPCX / XOM / CVX → DO NOT QUALIFY** (sector-momentum test #2 broken across the board)
+
+Plan for Fri 7/10 market-open workflow (runtime, no clock-time gates):
+- **STEP A — XLK PRIMARY (must-fire if gates hold)**: at routine runtime, XLK bid > $185.35 (Thu close hold) AND NQ not red >0.5% AND ES not red >0.5% → BUY ~65 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$166.82 as PDT fallback. If XLK < $185.35 at runtime OR NQ red >0.5% = HOLD "Thu leadership fading, sector test failed"
+- **STEP B — XLF SECONDARY (bank-earnings-catalyst half-size, only after XLK status decided)**: at routine runtime, RE-QUOTE XLF (AH ap $0 one-sided unreliable); if XLF bid > $55.54 (Thu close hold) AND ES not red >0.5% → BUY ~108 sh (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$49.99 as PDT fallback. Skip if XLK PRIMARY didn't fire (single-fill discipline: XLK is the higher-conviction anchor)
+- **Alt-budget option (RECOMMENDED if XLK opens clean)**: XLK FULL ~$12k + XLF FULL ~$12k = 24% Tech+Financials deployed, weekly cap 2 used, 1 slot preserved for reactive; keeps Wk-5 (Mon 7/13) budget clean for CPI Tue and bank-earnings-print reactive if positive. Only upgrade XLF if XLK fills strong AND XLF bid > $55.54 at runtime holds through first 5 min
+- **If all fail or tape sours** (ES/NQ red >0.5% on Iran-headline shock, OR XLK < $185.35 fade, OR VIX prints >18 = vol regime shift, OR Iran-escalation headline crushes broad tape intraday) → HOLD with documented gating-failure reason (NOT "patience"). Log any qualifying setup that gates-pass but is skipped as a rule violation per strategy
+- **Weekend risk mitigation**: Any Fri fills carry into 2-day gap; 10% trailing stops cap gap-down but not full-shock event; both XLK and XLF are broad ETFs (lower single-name headline risk than stocks); if Iran-de-escalation confirms Fri intraday (headline print), XLK is beneficiary (tech multiple expansion on lower geopolitical risk)
+- **Weekly review MUST run Fri PM today** — 5 sessions overdue; separate from pre-market routine; template in memory/WEEKLY-REVIEW.md; must cover 13-miss + 4-week-flat + trigger-firing verification for missed sessions + Fri fill assessment
+- **Mon 7/13 / Tue 7/14 plan placeholder**: Q2 big-bank earnings begin Tue 7/14 (JPM/WFC/C/BAC); CPI Tue 7/14 → CPI-1 HALF-SIZE activates Mon 7/13 close; if XLF filled Fri, positive earnings prints Tue would be tailwind (hold thesis) — negative prints = thesis-break exit rule applies; if XLK filled Fri, positive tape into next week = target-approach + trail-tightening rules apply
+- **CRITICAL: Fri 7/10 cash-session market-open routine MUST run at 09:30 ET+.** 13 consecutive misses standing (3 weeks of system-level failure); 14th miss = 4-week system failure (structurally unacceptable). Actually executing Fri entries = first fill of live ops after 19 flat sessions AND finally proves routine ran. Fri PM weekly review must land regardless of Fri fill count.
