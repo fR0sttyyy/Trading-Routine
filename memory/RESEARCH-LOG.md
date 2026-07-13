@@ -1408,3 +1408,106 @@ Plan for Fri 7/10 market-open workflow (runtime, no clock-time gates):
 - **Weekly review MUST run Fri PM today** — 5 sessions overdue; separate from pre-market routine; template in memory/WEEKLY-REVIEW.md; must cover 13-miss + 4-week-flat + trigger-firing verification for missed sessions + Fri fill assessment
 - **Mon 7/13 / Tue 7/14 plan placeholder**: Q2 big-bank earnings begin Tue 7/14 (JPM/WFC/C/BAC); CPI Tue 7/14 → CPI-1 HALF-SIZE activates Mon 7/13 close; if XLF filled Fri, positive earnings prints Tue would be tailwind (hold thesis) — negative prints = thesis-break exit rule applies; if XLK filled Fri, positive tape into next week = target-approach + trail-tightening rules apply
 - **CRITICAL: Fri 7/10 cash-session market-open routine MUST run at 09:30 ET+.** 13 consecutive misses standing (3 weeks of system-level failure); 14th miss = 4-week system failure (structurally unacceptable). Actually executing Fri entries = first fill of live ops after 19 flat sessions AND finally proves routine ran. Fri PM weekly review must land regardless of Fri fill count.
+
+
+## 2026-07-13 — Pre-market Research (Monday, Day 21 / Week 5 Day 1 — US-Iran war escalated over weekend, Hormuz CLOSED, WTI +4.68% pre-open, CPI Tue 7/14, JPM/BAC/C/WFC earnings Tue 7/14, Netflix Tue night)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $400,000 (4x margin)
+- Positions: 0 (21st consecutive flat session)
+- Open orders: 0
+- Daytrade count: 0/3 (PDT clean)
+- `balance_asof`: 2026-07-10 (Fri close mark, 1-session stale over weekend; flat book = zero valuation risk)
+- Week-5 trades used: 0/3 (fresh weekly cap; Mon-Fri window Jul 13-17)
+- Wk-4 final tally: 0/3 → 4th CONSECUTIVE zero-trade week (Wks 2-3-4 all zero) — MISSION-FAILURE trajectory
+- Capital deployed: 0% vs 75-85% target
+
+### Market Context (Fri 7/10 close, weekend Iran-war shock, pre-Mon 7/13 open)
+- **Indices Fri close**: S&P +0.42% $7575.39 (near ATH), Nasdaq +0.29% $26281.61 (above 26k), Dow +0.29% $52637.01 — broad-based mild green Fri
+- **Futures pre-open Mon 7/13**: **ES -0.6% $7574.75**, **NQ -1.33% $29633.75** — RISK-OFF on Iran shock; NQ 2x worse than ES = tech beta hit + risk-off + dollar strength cutting multiples
+- **VIX Fri close**: $15.03 -5.11% — very calm Fri (Iran headlines faded); expect VIX pop Mon open on war escalation; VIX >18 print = vol regime shift = thesis-break watch
+- **WTI**: **$74.75 +4.68%** — BIG oil pop on Hormuz closure + US strikes Sun 7/12 (fresh physical supply constraint, not just headline)
+- **Brent**: **$79.52 +4.62%** — same
+- **Sector heat map Fri close** (momentum leadership going into weekend, PRE-Iran-shock):
+  - Materials XLB **+1.25%** $50.89 — Fri #1 daily gain (Chile May copper output fell sharply per Bitget 7/10, broad commodity bid)
+  - Staples XLP **+1.11%** $84.12 — defensive rotation IN (foreshadowing)
+  - Energy XLE **+0.47%** $55.08 — reclaimed Thu's $54.82 fade but STILL BELOW prior $55.60 gate; **Mon Hormuz shock revives thesis**
+  - Industrials XLI +0.45% $181.92 — weak follow-through, still below prior $184.12 STRICT gate = structurally dead
+  - Financials XLF +0.31% $55.71 — 5-session rebuild, big-bank earnings Tue 7/14 catalyst on deck
+  - Tech XLK **+0.23%** $185.78 — weakest of leaders Fri; **NQ -1.33% pre-open Mon = leadership at risk**
+  - Healthcare XLV -0.82% $160.84 — weak
+- **Held tickers**: NONE (flat book, no per-ticker quotes needed for positions)
+- **Weekend catalyst — MAJOR IRAN ESCALATION**:
+  - Sun 7/12 US launched new military strikes on Iran per US Central Command (USA Today, AP News); Trump directive
+  - Iran DECLARED STRAIT OF HORMUZ CLOSED (Guardian 7/12, USA Today 7/13 02:25 ET)
+  - Iran struck cargo ship in Hormuz defying US ultimatum (Crypto Briefing 7/11 23:13 ET)
+  - Tanker traffic in Hormuz slowed materially (Reuters 7/10 12:01 ET) — real physical supply disruption
+  - Dollar jumped on Hormuz closure (Reuters Mon 7/13 00:29 ET) — flight-to-safety USD strength
+  - Fed report Fri 7/10 explicitly cited "stepped-up" inflation from tariffs, Iran war, AI buildout (Reuters 7/10 15:02 ET) — Fed now on the record naming Iran war as inflation driver = hot-CPI risk elevated ahead of Tue 7/14 CPI
+- **Macro this week**:
+  - **Tue 7/14 08:30 ET — CPI print** — hot-CPI risk elevated (Fed cited Iran war as inflation source); CPI-1 HALF-SIZE rule activates AT Mon 7/13 close (Mon AM entries still FULL; Mon PM / Tue AM entries HALF)
+  - Wed 7/15 — PPI print
+  - Tue 7/14 pre-open — JPM, BAC, C, WFC Q2 earnings (big-bank cluster); Netflix Tue night; Fastenal Wed
+  - Q2 aggregate EPS growth expected +23.4% (Reuters 7/9) = high bar
+- **AH quote reliability caveat**: All Alpaca quotes timestamped 2026-07-10T20:00 UTC = Fri 4pm ET close (weekend closed):
+  - XLE ap $56.26 / bp $53.27 ($55.08 Fri close inside spread, ~5.5% wide) — unreliable
+  - XLF ap $57.13 / bp $54.18 ($55.71, ~5% wide) — unreliable
+  - XLK ap $191.61 / bp $180.22 ($185.78, ~6% wide) — unreliable
+  - XOM ap $145.11 / bp $130.58 (~11% wide) — HIGHLY unreliable
+  - SLB ap $50.04 / bp $44.87 (~12% wide) — HIGHLY unreliable
+  - Market-open routine MUST re-quote at 09:30 ET runtime for real gate math
+
+### Trade Ideas
+
+1. **XLE (Energy Select Sector SPDR) — PRIMARY, THESIS REVIVED.** Catalyst: **US-Iran war escalated over weekend** — Sun 7/12 US strikes on Iran, Iran DECLARED HORMUZ CLOSED (not just tanker attacks; physical corridor shut), Iran struck cargo ship, tanker traffic slowed materially, dollar jumping = flight-to-safety. WTI +4.68% $74.75 pre-open, Brent +4.62% $79.52. **This is materially LARGER than the Thu/Fri Iran-attack cycle that XLE fded on** — Hormuz CLOSURE = supply constraint, not just headline noise. Fed explicitly citing Iran war as inflation source (Fri 7/10) = policy-narrative supports oil bid. **Sector: Energy back on momentum map on fresh catalyst.** **Runtime trigger (Mon 7/13 09:30 ET)**: at routine runtime, XLE bid > $55.08 (Fri close hold, i.e. gap-up or flat vs Fri close, NOT gap-down fade) AND WTI not red at runtime AND ES not red >0.5%. **Size: FULL 12% notional (~$12k, ~217 sh @ ~$55.08)** with 10% trailing stop GTC at fill. Fixed stop ~$49.57 (-10%) PDT fallback. Target $66.10 (+20%) → R:R 2.0:1. ENTER AT OPEN. **If XLE < $55.08 at runtime OR WTI reverses red = HOLD "Hormuz-shock fading pre-open" — but WTI +4.68% futures makes fade-scenario low-prob unless de-escalation headline hits between now and 09:30 ET.**
+
+2. **XOM (ExxonMobil) — SECONDARY.** Catalyst: same Hormuz-closure + US-strike + WTI $75 catalyst; XOM is the largest US integrated oil major, cleanest single-name expression of the oil bid, LOWER headline-risk than SLB (services) or OXY (production single-play). **Sector: Energy #1 on fresh catalyst.** **Runtime trigger (Mon 7/13 09:30 ET)**: RE-QUOTE XOM at runtime (AH ap/bp $145/$130 = 11% wide unreliable); if XOM bid > Fri cash close AND WTI not red AND ES not red >0.5% AND XLE PRIMARY already filled → BUY HALF-SIZE 6% notional (~$6k, ~44 sh @ ~$137 est mid) with 10% trailing stop GTC at fill. Fixed stop ~10% below fill PDT fallback. Target +20% → R:R 2.0:1. Skip if XLE PRIMARY didn't fire (single-fill discipline: XLE is the anchor).
+
+3. **XLF (Financial Select Sector SPDR) — TERTIARY / EARNINGS-CATALYST.** Catalyst: big-bank Q2 earnings cluster Tue 7/14 (JPM/BAC/C/WFC); "blockbuster earnings expected" (Reuters 7/7, Axios) fueled by SpaceX IPO trading surge; XLF +0.31% Fri = 5-session rebuild. **BUT Iran-shock risk-off cuts pre-earnings run tailwind + hot-CPI risk on Tue 7/14 08:30 could hit banks on rate-cut delay pricing.** **Sector: Financials short-term momentum + hard catalyst but risk-off backdrop mixed.** **Runtime trigger (Mon 7/13 09:30 ET)**: at runtime, XLF bid > $55.71 (Fri close hold, not fade) AND ES not red >0.5% AND XLE PRIMARY already filled → BUY HALF-SIZE 6% (~$6k, ~108 sh @ $55.71) with 10% trail. Fixed stop ~$50.14 PDT fallback. Target $66.85 (+20%) → R:R 2.0:1. Skip if XLE didn't fire (Energy is the fresh-catalyst leader today; XLF is pre-earnings speculation).
+
+4. **XLK (Technology Select Sector SPDR) — DOWNGRADE FROM FRI PRIMARY → CONDITIONAL BACKUP.** Fri +0.23% $185.78 was WEAKEST of the sector leaders; **NQ -1.33% pre-open Mon = risk-off + dollar-strength multiple compression + rate-lag beta hit**. Iran war = tech de-rating vector (higher discount rates, dollar strength, geopolitical uncertainty). XLK gate on Fri plan was bid > $185.35 (Thu close) AND NQ not red >0.5%; today NQ -1.33% futures already breaks the NQ-not-red-0.5% gate outright pre-open. **Failed criterion: Test #2 sector-momentum broken (NQ -1.33% pre-open = fresh sector-relative weakness on Iran risk-off).** **DNQ at runtime unless NQ rallies pre-open below -0.5% AND XLK bid > $185.78.** Do NOT re-add absent a big pre-open NQ rally.
+
+5. **SLB (Schlumberger) — DO NOT QUALIFY.** Same Hormuz-oil catalyst but AH quote 12% wide ($50.04/$44.87 unreliable); services high-beta = higher headline-risk than XOM; concentration risk on single-name. **Failed criterion: quote reliability + concentration discipline** (XLE basket + XOM major already covers Energy stack cleanly). Not skipping the sector, skipping the vehicle.
+
+6. **XLB (Materials) — DO NOT QUALIFY.** Fri +1.25% #1 daily gain + Chile copper output fell sharply; but XLB $50.89 STILL BELOW prior $52.01 gate (2%+ shy). **Failed criterion: Test #3 stop level too far** (would need to sit through $2 basis-loss to prior gate before -10% stop meaningful). Wait for $52+ reclaim before re-adding.
+
+7. **GLD (Gold) — DO NOT QUALIFY.** Iran-war beneficiary in theory, but no runtime trigger + dollar strength cuts gold bid + VIX $15 calm = no fresh vol premium. **Failed criterion: Test #1 no discrete catalyst today** (Iran headlines being priced through oil, not gold, per Fri fade).
+
+8. **XLI / XLV / XLP / FCX / PLTR / NVDA / AAPL / TSLA / LUV / SPCX — DO NOT QUALIFY.** Industrials 6th failed reclaim structurally dead; Healthcare/Staples defensive but no fresh catalyst gate; single-name concentration risk on Iran-war day; XLK basket cleaner if tech at all. **Failed criterion: Test #2 sector-momentum broken across the board** OR concentration discipline.
+
+### Risk Factors
+- **Iran war = live geopolitical shock with active US military engagement** — de-escalation headline (Iran opens Hormuz, Trump-Iran ceasefire) could reverse WTI intraday and crush XLE bid; escalation headline (attack on US carrier, oil-pipeline hit, Saudi tanker attacked) would spike WTI further AND crush broad tape (ES down 2%+) — Both tails live; 10% trailing stop on XLE caps but doesn't eliminate
+- **CPI Tue 7/14 08:30 ET print** — Fed cited Iran war as inflation driver Fri 7/10 = hot-CPI risk elevated; hot print = bond selloff, rate-cut delay = XLF hit hardest (loan-loss provision worry) + broad tape hit; cool print = tape rip = tailwind for any Mon fills carried into Tue; **CPI-1 HALF-SIZE rule activates AT Mon 7/13 close** (Mon AM entries FULL, Mon PM / Tue AM entries HALF)
+- **Big-bank Q2 earnings Tue 7/14 pre-open** — JPM/BAC/C/WFC; +23.4% aggregate EPS growth = high bar (Reuters 7/9); XLF TERTIARY carries direct exposure to disappointment risk
+- **NQ -1.33% pre-open = tech de-rating shock** — if broad tape follows (ES gaps down >1% on Iran) any XLE fill still sees sector-relative outperformance but P&L drawdown; multi-sector correlation elevated during geopolitical shock
+- **VIX $15.03 Fri close → likely pop Mon open** — vol regime shift threshold at 18 print; if VIX >18 during session, thesis-break watch activates (energy holdings survive on WTI bid but broad-tape names get hit)
+- **Dollar strength on Hormuz closure** — Reuters 7/13 00:29 ET; USD strength = commodities headwind BUT Iran-oil specific supply premium overwhelms USD headwind (energy commodities are exception to dollar-strength rule during physical supply shock); DXY moves worth watching intraday
+- **Q2 aggregate EPS +23.4% high bar** — first big-bank prints Tue set tone for full season; any miss = broad de-rating
+- **Data freshness caveat**: Alpaca `balance_asof` 2026-07-10 (Fri close mark) = 1-session weekend gap; flat book zero valuation risk; sizing off equity=$100k direct read valid
+- **CRITICAL — 15 consecutive missed cash-session market-open routines Tue Jun 23 → Fri Jul 10 = 4 full weeks of system failure**; Mon 7/13 09:30 ET routine MUST run to break streak; 16th miss = 5-week system failure entering unrecoverable territory; Wk-5 is a re-set opportunity — 4-week track record demands Mon fills or documented gate-failure reason (not "patience," not "wait")
+- **Weekly review from Fri 7/3 still 6 sessions overdue** — MUST run this week (Fri PM slot missed 2 weeks running); must cover: 15-miss + 4-consecutive-flat-weeks + Wk-5 execution mandate + strategic remediation for zero-fill trajectory
+- **Day 21 / Week 5 Day 1 / 4 consecutive zero-trade weeks / 0 P&L cushion / 20 flat sessions / mission-failure trajectory** — Mon = Wk-5 opener with FULL weekly cap available; Fri close = Wk-4 close so Iran-shock-day is fresh Wk-5 slot use; missing Mon Hormuz catalyst = 22nd flat session + rule-violation compounding
+
+### Decision
+**TRADE Mon 7/13 default per strategy, FULL-SIZE AM (Mon AM = FULL window; CPI-1 HALF-SIZE activates AT Mon close for Tue AM).** Setup ranks:
+- **XLE → QUALIFIES → TRADE FULL-SIZE PRIMARY** (catalyst: US-Iran war escalated weekend + HORMUZ DECLARED CLOSED Sun 7/12 + US strikes on Iran + WTI +4.68% $74.75 + Fed citing Iran war as inflation source Fri; sector: Energy #1 on fresh physical-supply catalyst; stop: -10% to ~$49.57; R:R 2.0:1 to $66.10 target). ENTER AT OPEN per runtime check (XLE bid > $55.08, WTI not red, ES not red >0.5%)
+- **XOM → QUALIFIES → TRADE HALF-SIZE SECONDARY** (catalyst: same Hormuz+WTI, largest US integrated oil major, cleanest single-name; sector: Energy #1; stop: -10%; R:R 2.0:1). ENTER AT OPEN only after XLE PRIMARY status decided AND XOM re-quote confirms Fri cash close hold (AH ap/bp 11% wide unreliable)
+- **XLF → QUALIFIES → TRADE HALF-SIZE TERTIARY** (catalyst: big-bank Q2 earnings Tue 7/14 blockbuster expected + 5-session Fri rebuild; sector: Financials short-term + hard catalyst; stop: -10% to ~$50.14; R:R 2.0:1 to $66.85). ENTER AT OPEN only after XLE PRIMARY status decided AND XLF bid > $55.71 at re-quote; skip if XLE didn't fire (Energy is fresh-catalyst leader, XLF is pre-earnings speculation)
+- **XLK → DOWNGRADE, DOES NOT QUALIFY** (Failed criterion: Test #2 sector-momentum broken by NQ -1.33% pre-open Iran-shock risk-off + dollar strength = tech de-rating; XLK Fri +0.23% weakest of the leaders confirmed pre-shock; DNQ unless NQ rallies pre-open below -0.5% AND XLK bid > $185.78 at runtime — low probability given Iran-war backdrop)
+- **SLB / OXY / individual Energy single-names → DO NOT QUALIFY** (concentration risk on Iran-war-day + AH quote reliability failure; XLE basket + XOM major cleaner Energy expression)
+- **XLB / GLD / FCX / XLI / XLV / XLP / PLTR / NVDA / AAPL / TSLA / LUV / SPCX → DO NOT QUALIFY** (sector-momentum or specific catalyst test fail; XLB $2 shy of $52.01 gate = "stop too far")
+
+Plan for Mon 7/13 market-open workflow (runtime, no clock-time gates):
+- **STEP A — XLE PRIMARY (must-fire if gates hold)**: at routine runtime, XLE bid > $55.08 (Fri close hold) AND WTI not red at runtime AND ES not red >0.5% → BUY ~217 sh (~$12k, 12% notional, FULL-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$49.57 as PDT fallback. If XLE < $55.08 at runtime OR WTI reverses red = HOLD "Hormuz-shock fading pre-open" (low prob given +4.68% WTI futures)
+- **STEP B — XOM SECONDARY (integrated-oil half-size, only after XLE status decided)**: at routine runtime, RE-QUOTE XOM (AH ap/bp $145/$130 11% wide unreliable); if XOM bid > Fri cash close AND WTI not red AND ES not red >0.5% AND XLE PRIMARY already filled → BUY ~44 sh (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~10% below fill as PDT fallback. Skip if XLE didn't fire
+- **STEP C — XLF TERTIARY (bank-earnings half-size, only after XLE+XOM status decided AND weekly cap has room)**: at routine runtime, RE-QUOTE XLF (AH ap $57.13/bp $54.18 5% wide, better than others but still verify); if XLF bid > $55.71 (Fri close hold) AND ES not red >0.5% AND XLE PRIMARY already filled → BUY ~108 sh (~$6k, 6% notional, HALF-SIZE) with 10% trailing stop GTC at fill. Fixed stop ~$50.14 as PDT fallback. Skip if weekly cap 3 already used (max 3 new trades Wk-5)
+- **Alt-budget option (RECOMMENDED if XLE opens clean AND WTI holds >$73)**: XLE FULL ~$12k + XOM FULL ~$12k = 24% Energy stack deployed on Hormuz-closure catalyst, weekly cap 2 used, 1 slot preserved for Tue post-CPI reactive; keeps XLF as Wk-6 candidate. Only upgrade XOM to FULL if XLE fills strong (fills within first 15 min) AND WTI stays >$73 through first 30 min (confirms Hormuz thesis holding)
+- **If all fail or tape sours** (ES red >0.5% on Iran-panic broad selloff, OR XLE < $55.08 gap-down fade despite WTI +4.68% pre-open, OR WTI reverses red on de-escalation headline, OR VIX prints >18 = vol regime shift, OR Iran-de-escalation headline crushes WTI intraday) → HOLD with documented gating-failure reason (NOT "patience"). Log any qualifying setup that gates-pass but is skipped as a rule violation per strategy
+- **Weekly budget priority**: XLE FULL = ideal first fill (cleanest fresh-catalyst basket expression); XOM HALF or FULL = ideal second (single-name integrated leader); XLF HALF = optional third (bank-earnings reactive); max 3 new trades Wk-5 → 3 Mon fills = weekly budget used and 0 Tue-Fri capacity; RECOMMENDED path = XLE FULL + XOM FULL (24% Energy stack) leaves XLF for post-CPI Tue if bank prints strong OR keeps Wk-5 cap for Wed-Thu-Fri reactive
+- **CPI Tue 7/14 08:30 ET carry-through**: any Mon fills held into Tue morning face CPI print risk; hot CPI = broad selloff = XLE holds better than XLF (oil premium overwhelms rates); cool CPI = broad rip = XLE + XLF both benefit; 10% trailing stop caps but doesn't eliminate Tue gap risk; positions held through CPI-1 HALF-SIZE window are pre-existing (rule applies to new entries, not carries)
+- **Big-bank earnings Tue 7/14 pre-open**: JPM/BAC/C/WFC prints; if XLF filled Mon and prints hit, thesis-break rule applies (any material miss = close XLF even before -7% stop); if prints strong = target-tightening rule kicks in (trail to 7% at +15%, 5% at +20%)
+- **Weekend gap resolved at open**: Iran-war headlines fully priced by 09:30 ET runtime; no additional gap risk for Mon entries (unlike Fri-carry which faced 2-day weekend)
+- **CRITICAL: Mon 7/13 cash-session market-open routine MUST run at 09:30 ET+.** 15 consecutive misses standing (4 weeks of system-level failure); 16th miss = 5-week system failure entering unrecoverable territory; Wk-5 re-set opportunity DEPENDS on Mon fills. Weekly review from Fri 7/3 still 6 sessions overdue and MUST run this week separately (Fri 7/17 PM slot must land)
+- **Wk-5 plan preview (post-Mon Iran-shock day)**: Tue 7/14 CPI + big-bank earnings = highest-vol session of the week (CPI-1 HALF-SIZE for any Tue AM entries; post-print reactive only); Wed 7/15 PPI; Thu-Fri = earnings-cluster continuation (Netflix Tue night, more Q2 prints Wed-Thu); if Mon Iran-fill(s) land, Wk-5 becomes "hold + tighten" week rather than "chase" week — no more new entries needed unless thesis-break exits force re-deployment
