@@ -1622,3 +1622,76 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **CRITICAL: Tue 7/14 cash-session market-open routine MUST run at 09:30 ET+ POST-CPI.** 17 consecutive misses standing (5 weeks system-level failure); 18th miss = irrecoverable trajectory. Tue post-CPI + bank-earnings = single-highest-catalyst session of Wk-5; missing Tue = another 100% catalyst-day loss compounding. Weekly review from Fri 7/3 still 7 sessions overdue and MUST run Fri 7/17 PM slot separately
 - **Wk-5 plan preview (post-Tue CPI + bank earnings)**: Wed 7/15 PPI = macro reactive-only day; Thu 7/16 = earnings-cluster (more Q2 prints); Fri 7/17 PM = weekly review MANDATORY. If Tue XLE/XLF fills land, Wk-5 becomes "hold + tighten" week (thesis-break monitoring); if Tue also missed = Wk-5 becomes 6 zero-trade weeks impossible to avoid (only 3 sessions left Wed-Fri, weekly cap intact = 3 fills technically possible but no equivalent hard catalyst)
 
+
+## 2026-07-15 — Pre-market Research (Wednesday, cool-CPI carryover)
+
+### Account
+- Equity: $100,000 (fresh reset; balance_asof 2026-07-13)
+- Cash: $100,000
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: 0 | Orders: 0
+
+### Market Context
+- **WTI / Brent:** $79.69 (+0.44%) / $85.38 (+0.77%) — elevated on Iran/Hormuz but Iran exports still flowing; Trump dropped Hormuz transit fee, expanded blockade
+- **S&P 500 futures (ES):** 7607.75 (+0.22%) — flat overnight follow-through after Tue rally
+- **NQ futures:** 30011.75 (+0.74%) — tech continuing to lead
+- **VIX:** 16.5 (-3.85%) — collapsing = risk-on relief
+- **Tue 7/14 cash close:** SPX +0.38% (7543.59), NDQ +0.90% (26107), Dow +0.02%
+- **Today's catalysts:**
+  1. **Morgan Stanley (MS) Q2 pre-open** — forecast +35% YoY EPS; XLF/single-name catalyst
+  2. **Cool-CPI regime carryover** — Tue CPI 3.5% YoY vs 4.2% May; monthly -0.4%; July FOMC hike-prob 42%→17%
+  3. **Iran/Hormuz** — active but Iran exports resilient; Trump dropped transit fee; oil elevated but no fresh shock
+- **Earnings before open:** MS (banks), plus smaller-cap prints; JPM/BAC/C/WFC/GS already reported Tue
+- **Economic calendar:** PPI 8:30 ET (secondary to Tue's cool CPI); Empire State Mfg; Fed speakers scattered; new Fed Chair Warsh's first FOMC still on deck later this month
+- **Sector momentum (Tue close):** XLK +1.29% (LEAD), XLE +0.37%, XLF +0.20%, XLB +0.12%, XLI +0.04%, XLV -1.93% (defensives sold), XLP -1.38% (defensives sold). Regime = **risk-on, tech-led, defensives dumped**
+
+### Trade Ideas
+
+1. **XLK — Tech ETF — PRIMARY — QUALIFIES → TRADE FULL SIZE**
+   - Catalyst: Cool-CPI print (Tue) collapses July hike odds 42→17%; tech is direct rate-sensitive beneficiary; XLK +1.29% Tue = clear sector-momentum leader; VIX -3.85% confirms regime shift risk-on
+   - Sector: XLK LEADER (+1.29% Tue) — Test #2 passes cleanly
+   - Entry (runtime, MARKET-OPEN routine): buy ~109 sh (~$20,015 @ ref $183.62 Tue close) if **XLK bid > $183.00 AND ES not red > 0.5% at 09:30 ET**
+   - Stop: 10% trailing stop GTC (~$165.26 trigger from entry); manual -7% ceiling at ~$170.77
+   - Target: +15% ~$211.16 / +20% ~$220.34
+   - R:R: risk $12.85/sh × 109 = $1,401 (1.4% equity); reward to $211.16 = $27.54/sh → **2.14:1** ✓
+   - Size: FULL 20% ($20,015) — no macro event on Wed (CPI already past; PPI is secondary)
+
+2. **XLF — Financials ETF — SECONDARY — CONDITIONAL → TRADE HALF SIZE (event half-size)**
+   - Catalyst: MS reports pre-open Wed (only remaining big-bank print this week); if MS beats → XLF sector momentum flips from tepid (+0.20% Tue) to leader-tier
+   - Sector: **Test #2 fails at premarket open** (+0.20% Tue = not leader); the entry gates a runtime sector-momentum flip on the MS print
+   - Entry (runtime): buy ~178 sh (~$10,000 @ ref $56.18) if **MS Q2 beats consensus AND XLF bid > $56.50 AND XLF green > 0.5% AND ES not red > 0.5% at 09:30 ET**
+   - Stop: 10% trailing stop GTC (~$50.56 trigger); manual -7% ceiling at ~$52.25
+   - Target: +15% ~$64.61 / +20% ~$67.42
+   - R:R: risk $3.93/sh × 178 = $700 (0.7% equity); reward to $64.61 = $8.43/sh → **2.15:1** ✓
+   - Size: HALF 10% ($10,000) — single-bank event catalyst = event-half-size discipline; if MS misses OR XLF < $56.50 at open → SKIP (do not chase)
+
+3. **XLE — Energy — DOES NOT QUALIFY.** Iran/Hormuz thesis weakening (Iran exports resilient, Trump dropped transit fee); cool-CPI print showed energy inflation -5.7% MoM = fading tailwind; sector +0.37% Tue vs XLK +1.29% = **Test #2 fail (momentum shifted to tech)**.
+
+4. **NVDA / MSFT / AAPL single-names — DO NOT QUALIFY.** XLK already delivers concentrated tech exposure (NVDA ~22% weight of XLK, AAPL/MSFT top holdings); adding single-names Day 1 = redundant + concentration without incremental edge. **Failed criterion: no distinct catalyst beyond ETF thesis.**
+
+5. **XLV / XLP defensives — DO NOT QUALIFY.** XLV -1.93%, XLP -1.38% Tue = being SOLD in risk-on regime rotation. **Test #2 fail (negative momentum).**
+
+6. **XLI / XLB — DO NOT QUALIFY.** XLI +0.04%, XLB +0.12% Tue = flat/inert; not sector-momentum leaders. **Test #2 fail (no momentum).**
+
+### Risk Factors
+- **Iran/Hormuz tail risk live** — a fresh escalation headline (tanker strike, pipeline hit, US-carrier engagement) could spike WTI +5% and hit broad tape; XLK is not oil-hedged but 10% trailing stops cap drawdown; XLE not being taken avoids the tail-hedge argument in favor of cleaner momentum trade
+- **PPI 8:30 ET print** — secondary but a HOT PPI could partially unwind the Tue cool-CPI relief and lift yields; monitor pre-open reaction; if PPI hot enough that ES turns red > 0.5%, the XLK runtime gate blocks entry — good
+- **MS earnings binary** — miss = XLF trade doesn't fire (by design); a MASSIVE beat could ignite XLF > $57 fast, and the +$56.50 runtime gate would fire correctly
+- **Concentration Day 1** — planned 30% deployment ($20k XLK + $10k XLF) is below 75-85% target but appropriate for Day 1 out of a fresh account; leaves 70% dry powder for adds later in the week (max 3 new trades/week; 2 planned = 1 slot remaining)
+- **Kevin Warsh's first FOMC still ahead** — hawkish new chair; cool CPI just gave him cover to hold, but late-July FOMC risk is priced for a hold, so surprise = hawkish hike shock. Not today's problem but keep XLK trail live.
+
+### Decision — TRADE (2 orders queued for MARKET-OPEN routine)
+
+- **XLK PRIMARY** → TRADE FULL — ~109 sh @ market at open, then 10% trailing stop GTC. Runtime gate: XLK bid > $183.00 AND ES not red > 0.5%.
+- **XLF SECONDARY** → TRADE HALF (event half-size) — ~178 sh @ market at open, then 10% trailing stop GTC. Runtime gates: MS Q2 beat AND XLF bid > $56.50 AND XLF green > 0.5% AND ES not red > 0.5%.
+- **NO CLOCK-TIME GATES** — both triggers are conditions the MARKET-OPEN routine evaluates at 09:30 ET runtime; no "wait until 10:00" bs.
+- **RESOLVE-NOW check:** no deferrable facts remain (Iran/CPI/MS-catalyst all resolved above); no ideas parked for "verify tomorrow."
+- **Trades this week after fills:** 2 of 3 max (1 slot remaining Thu/Fri).
+- **Deployment after fills:** ~$30k / $100k = 30% (within Day-1 build cadence toward 75-85% target).
+
+### Data Freshness
+- Alpaca quotes timestamped 2026-07-14 20:00 UTC = Tue 4pm ET cash close (correct for Wed pre-market routine).
+- yfinance context reflects Tue close + Wed pre-open futures — live, not stale.
+- Account snapshot pulled live; balance_asof 2026-07-13 acceptable for pre-open Wed.
+- No stale-data block. Sizing UNBLOCKED.
