@@ -1695,3 +1695,77 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - yfinance context reflects Tue close + Wed pre-open futures — live, not stale.
 - Account snapshot pulled live; balance_asof 2026-07-13 acceptable for pre-open Wed.
 - No stale-data block. Sizing UNBLOCKED.
+
+
+## 2026-07-16 — Pre-market Research (Thursday, cool-CPI + cool-PPI carryover, Financials lead pre-open)
+
+### Account
+- Equity: $100,000 (fresh, `balance_asof` 2026-07-14 → 1-session stale; sizing UNBLOCKED off direct equity read)
+- Cash: $100,000
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: 0 | Orders: 0
+- **CRITICAL:** Book still flat. Wed 7/15 plan (XLK PRIMARY FULL + XLF SECONDARY HALF conditional on MS beat) DID NOT FILL — 0 positions Thu AM = **18th consecutive cash-session market-open routine miss** (Tue Jun 23 → Wed Jul 15, 5+ calendar weeks system failure). Wk-5 = 3 sessions down / 0 fills. If Wed routine had run: XLK gate (bid > $183.00) was very likely triggered given XLK +1.29% Tue close and NQ +0.74% Wed pre-open. Uncaught fill.
+
+### Market Context
+- **WTI / Brent:** $79.40 (-0.25%) / $84.55 (-0.47%) — oil fading, Iran/Hormuz risk unwinding as Iran exports resilient
+- **S&P 500 futures (ES):** 7618.5 (+0.05%) — flat overnight, no gap
+- **NQ futures:** 29704.5 (+0.04%) — flat / slight down (tech pause)
+- **VIX:** 15.67 (-5.03%) — collapsing further = risk-on regime deepening
+- **Wed 7/15 cash close:** SPX 7572.4 (+0.38%), Nasdaq 26269 (+0.62%), Dow 52658 (+0.29%). Two consecutive cool-inflation prints (Tue CPI -0.4% MoM, Wed PPI largest drop in 14 months) = broad rate-cut re-pricing rally continues
+- **Sector momentum pre-open Thu (Wed cash close snapshot):** XLF +0.68% (LEAD), XLP +0.06%, XLV +0.00%, XLI -0.22%, XLB -0.28%, XLE -0.79%, XLK -1.11%. **Regime shift: XLK gave back leadership Wed close → Thu pre-open, XLF NEW LEADER.** Rotation from tech to financials on rate-cut repricing thesis (bank NIM improving on curve-steepener).
+- **Today's catalysts:**
+  1. **Cool-CPI + Cool-PPI double-print carryover** — July FOMC hike-prob crushed 42% → 17% (Tue) → lower (Wed); Fed rate-cut path re-opening; direct XLF beneficiary (curve steepener + credit demand)
+  2. **ASML Q2 beat + raised forecast (Wed 15)** — European semis printed strong, AI-capex resilient carryover for tech but tech pausing after 2-day rip
+  3. **Earnings calendar THIN today** — ASML already reported (Wed), DBV Technologies only major (small-cap biotech), no big-bank/mega-cap prints Thu AM; catalyst-light day = trend-follow mode
+  4. **PayPal $53B takeover rumor** — speculative single-name; not a strategy setup
+- **Economic calendar:** No major US macro releases scheduled Thu AM (post-PPI clarity window); scattered Fed speakers throughout the day; new Fed Chair Warsh's first FOMC still ~10 days out
+- **Iran/Hormuz:** Fading — Iran exports flowing, Trump dropped Hormuz transit fee, no fresh escalation headline
+
+### Trade Ideas
+
+1. **XLF — Financials ETF — PRIMARY — QUALIFIES → TRADE FULL SIZE**
+   - Catalyst: Two consecutive cool-inflation prints (Tue CPI -0.4% MoM to 3.5% YoY + Wed PPI largest drop in 14 months) → July FOMC hike-prob crushed 42%→17% → curve steepener + rate-cut path reopens = direct Financials re-rating; XLF +0.68% Wed close = NEW sector leader displacing XLK; MS Q2 print carrying Wed rally through Thu
+   - Sector: XLF LEADER (+0.68% Wed close, pre-open bid intact) — Test #2 passes cleanly
+   - Entry (runtime, MARKET-OPEN routine): buy ~353 sh (~$19,966 @ ref $56.56 Wed close) if **XLF bid > $56.50 AND ES not red > 0.5% at 09:30 ET runtime**
+   - Stop: 10% trailing stop GTC (~$50.90 trigger); manual -7% ceiling at ~$52.60
+   - Target: +15% ~$65.04 / +20% ~$67.87
+   - R:R: risk $3.96/sh × 353 = $1,398 (1.4% equity); reward to $65.04 = $8.48/sh → **2.14:1** ✓
+   - Size: FULL 20% ($19,966) — no macro event Thu AM (post-CPI + post-PPI clarity window); FULL-SIZE reopens
+
+2. **XLK — Tech ETF — DOES NOT QUALIFY.** Wed close -1.11% + NQ futures -0.04% pre-open = **Test #2 fails today** (yesterday's leader, now flat/down; sector momentum flipped to XLF). Second-day chase without fresh catalyst = trap. Skip unless XLK reclaims $185+ intraday with fresh catalyst (unlikely today; no earnings/econ prints).
+
+3. **XLE — Energy — DOES NOT QUALIFY.** XLE -0.79% Wed close, WTI -0.25% pre-open, Iran/Hormuz thesis unwinding (Iran exports resilient, Trump dropped transit fee); **Test #1 fails** (catalyst fading fast) AND **Test #2 fails** (sector red pre-open). Clean skip.
+
+4. **XLI / XLB / XLV / XLP — DO NOT QUALIFY.** All flat-to-negative Wed close: XLI -0.22%, XLB -0.28%, XLV +0.00%, XLP +0.06%. **Test #2 fails** (no sector momentum). Defensives (XLV/XLP) also broke Wed's risk-on rotation-out story = no thesis.
+
+5. **NVDA / AAPL / MSFT single-names — DO NOT QUALIFY.** Same rationale as XLK (tech pausing pre-open); single-name concentration on non-leader sector day = no edge.
+
+6. **EM breakouts (EEM / EWZ / Robinhood mention in news) — DO NOT QUALIFY.** No specific catalyst tied to today; **Test #1 fails** (broad thematic story, no discrete trigger). Skip.
+
+7. **PayPal (PYPL) — DO NOT QUALIFY.** Takeover rumor ($53B bid) = binary event risk with poor R:R (no stop can survive rumor unwind); **Test #3 fails** (stop level undefinable on rumor news). Skip.
+
+### Risk Factors
+- **Iran/Hormuz tail risk still live** — fading but a fresh escalation headline could gap oil +5% and hit broad tape; XLF has indirect commodity exposure via loans-to-energy but low direct sensitivity; 10% trailing stop caps drawdown
+- **XLK reversal from Tue leader to Wed close red = regime volatility** — sector rotation velocity is elevated; XLF today could similarly rotate; the 10% trailing + 7% manual cut protect against fast rotation
+- **New Fed Chair Warsh late-July FOMC** — hawkish reputation; 2 cool prints give cover to hold at surprise-hike risk, but if he uses cool prints to justify a hawkish HOLD (higher-for-longer) that could unwind Financials rate-cut trade. Not today's problem
+- **Catalyst-light Thu = trend-follow day** — no US macro releases, no big-bank prints; entries rely on Wed close momentum carrying through; if ES pushes red > 0.5% at open (light-tape gap-fill), the runtime gate blocks entry — good
+- **17th → 18th consecutive market-open routine miss** — Wed 7/15 XLK PRIMARY plan almost certainly gate-passed (Tue XLK bid held $183+, ES not red) and DID NOT FILL. This is now a 5-week compounding execution crisis. Wk-5: 3 sessions burned, 2 remaining (Thu 7/16 + Fri 7/17). Missing Thu = 4th consecutive zero-trade week guaranteed
+- **Weekly review from Fri 7/3 = 9 sessions overdue** — MUST run Fri 7/17 PM slot; must cover 18-miss trend + 4-consecutive-flat-weeks + Wk-5 opener + all-remaining-week zero-fill trajectory + full challenge-window remediation
+- **Data freshness caveat:** Alpaca `balance_asof` 2026-07-14 (1 session stale over Wed 7/15); flat book zero valuation risk; sizing off equity=$100k direct read valid; yfinance context reflects Wed close + Thu pre-open futures = live
+
+### Decision — TRADE (1 order queued for MARKET-OPEN routine)
+
+- **XLF PRIMARY** → QUALIFIES → TRADE FULL 20% — ~353 sh @ market at open, then 10% trailing stop GTC. Runtime gate: **XLF bid > $56.50 AND ES not red > 0.5% at 09:30 ET.** Manual -7% ceiling ~$52.60.
+- **No SECONDARY today** — XLK (Test #2 fail today), XLE (Test #1 + Test #2 fail), all others flat/no catalyst. **Not a "flat = discipline" call** — no other setup passes all 4 tests today. Weekly cap has 3 slots remaining if Fri qualifiers appear.
+- **NO CLOCK-TIME GATES** — XLF trigger is a runtime condition the MARKET-OPEN routine evaluates at 09:30 ET; no "wait until 10:00" gate.
+- **RESOLVE-NOW check:** MS Q2 print already resolved (Wed 7/15 close reflects); no deferrable facts remain; nothing parked for "verify tomorrow."
+- **Trades this week after fill:** 1 of 3 max (2 slots remaining Fri; Wk-5 fills 1/3 after Thu).
+- **Deployment after fill:** ~$20k / $100k = 20% (well below 75-85% target — reflects real-book reality that 18-miss trend has kept book flat, not a sizing choice; if XLF fills clean, next qualifier Fri layers additional 20% toward 40% baseline)
+- **CRITICAL: Thu 7/16 cash-session MARKET-OPEN routine MUST RUN at 09:30 ET.** 18 consecutive misses is the primary execution failure of this challenge. Miss #19 today = Wk-5 becomes 4 zero-trade sessions with 1 remaining (Fri) — trajectory approaches irrecoverable.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live; equity = $100k direct read valid; `balance_asof` 2026-07-14 (1 session stale over Wed close, acceptable given flat book).
+- yfinance context timestamps reflect Wed 7/15 4pm ET cash close + Thu 7/16 pre-open futures — live, not training data.
+- Tavily news sourced with Wed 7/15 & Tue 7/14 date-stamps = current.
+- No stale-data block. Sizing UNBLOCKED.
