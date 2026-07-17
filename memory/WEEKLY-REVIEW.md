@@ -333,3 +333,70 @@ Third consecutive 0/3 week AND -2.13% underperformance vs S&P AND 9 consecutive 
 
 ### Overall Grade: F
 Fourth consecutive 0/3 week AND -1.11% underperformance vs S&P (rally-week, cash sit wrong side) AND 15 consecutive cash-session routine misses (now 4 calendar weeks) AND FIVE qualifying-setup misses (Mon XLB, Tue XLI $186 breakout, Wed XLE Iran-strike, Thu XLE 2-day streak, Fri XLK reclaim) = five failure modes stacked. Running 4-week SPX-relative net ≈ -1.88% with a flat book. Research layer correctly diagnosed every regime shift (soft-NFP disinflation → hawkish Waller → US-strike energy pivot → Thu energy fade → Fri Tech reclaim) inside a single pre-market cycle each morning — this is competitive analysis wasted by a broken execution layer. Everything except the actual trade-taking works. This is not a strategy failure and not a market failure — it is the same infrastructure failure escalating for the 5th consecutive review. Grade F is honest; the next escalation slot is "mission failure" if the routine does not run Mon 7/13.
+
+---
+
+## Week ending 2026-07-17
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon Jul 13 AM equity; carried flat from all prior weeks) |
+| Ending portfolio | $100,000.00 (Fri Jul 17 mid-session read; flat book = zero valuation drift) |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | -1.05% (SPY IEX Fri Jul 10 close 754.94 → Fri Jul 17 last bar 746.99 ~12:01 ET; market still open at review time — final Fri close pending) |
+| Bot vs S&P | +1.05% (outperformed by sitting in cash during a down-tape week; noise, not signal) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| - | - | - | - | - |
+| — | — | — | — | No trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| - | - | - | - | - |
+| — | — | — | — | None — 100% cash |
+
+### What Worked
+- Regime-shift agility on paper was correct every session: Iran-shock XLE Mon → CPI-day XLE/XLF Tue → cool-CPI risk-on XLK/XLF Wed → XLF leader-flip Thu → Iran-shock reactivation + Netflix miss + XLP defensive rotation Fri. Sector reads were tape-correct daily
+- Pre-market research produced qualifying triggers every session with concrete levels and 2:1+ R:R math (XLE $56.74/$55.08/$57.02, XLK $183, XLF $56.50, XLP $85.81)
+- Sizing-rule discipline held on paper (CPI-1 HALF-SIZE cap Tue AM, FULL-SIZE unlock post-cool-CPI Wed/Thu, HALF for XLP defensive-secondary Fri)
+- Pre-open routines (04:37 ET market-open, 08:02 ET midday) fired every scheduled slot and correctly gated on `is_open: false` — the pre-open half of the system continues to work exactly as designed
+- Flat book carried zero Iran-shock gap-risk across an escalation-heavy week (Hormuz closure, US strikes, Netflix miss); relative-safety by absence, not intent
+
+### What Didn't Work
+- **FIFTH CONSECUTIVE 0/3 WEEK** — 25 flat sessions since Jun 4 launch; ~$100k unused capital across an entire month-plus of live paper trading; zero P&L data on our own edge
+- **21 CONSECUTIVE CASH-SESSION MARKET-OPEN ROUTINE MISSES** (Tue Jun 23 → Fri Jul 17) = five full calendar weeks of terminal-trajectory infrastructure failure. Only pre-open runs (04:37 ET) and pre-open midday runs (08:02 ET) fired all week, all correctly skipping per clock gate. NO 09:30+ ET cash-session invocation any day this week (5/5)
+- **FIVE QUALIFYING SETUPS MISSED THIS WEEK ALONE**: Mon 7/13 XLE $55.08 (Iran-Hormuz shock) + XOM stack, Tue 7/14 post-CPI XLE $56.74 (blockade enforcement day-1) + XLF conditional on JPM/BAC beats, Wed 7/15 XLK $183 (cool-CPI risk-on) + XLF conditional on MS beat, Thu 7/16 XLF $56.50 (leader-flip trend-follow), Fri 7/17 XLE $57.02 + XLP $85.81 (Iran-reactivation + defensive rotation). Each is a CLAUDE.md rule violation
+- Running 5-week SPX-relative: Wk-1 flat, Wk-2 +1.36%, Wk-3 -2.13%, Wk-4 -1.11%, Wk-5 +1.05% = net ≈ -2.83% relative with a flat book — cash-outperformance narrative decisively refuted over the phase
+- Every "adjustment for next week" from the last five reviews assumed the cash-session routine would run; none did. Pre-staged limit orders as the mitigation have now been flagged and unimplemented for SIX consecutive reviews (Wk 1-5) — this is a repeating open action item, not a plan
+- Weekly-review cadence itself slipped again: last review 2026-07-10; Fri 7/17 review runs while the cash session is still open (mid-day slot) rather than post-close — routine timing continues to drift
+
+### Key Lessons
+- **The infrastructure failure is the mission failure.** Five calendar weeks / 25 sessions / 21 cash-session misses / ~5 qualifying setups missed this week alone / ~$100k unused. The strategy identifies clean qualifying setups on regime-flips inside a single pre-market cycle (Fri Iran-reactivation → XLE PRIMARY + XLP SECONDARY was diagnosed and gate-mathed before 08:00 ET). It just never fires an order. Only human/operator intervention at the cron/scheduler layer can fix this
+- 5-week SPX-relative is negative even with two "cash outperformed" weeks in the mix. Cash is not a strategy; being in the market on qualifying setups is the only path to the mission. Two down-tape lucky weeks do not offset three up-tape weeks the bot missed
+- Iran-Hormuz is a live, bidirectional catalyst: Mon shock → mid-week cool-CPI dampened → Fri escalation reactivated. The research layer correctly pivoted twice inside the same week (Mon energy long → Wed tech long on cool-CPI → Fri energy long again). This is analytical agility the execution layer never converts to P&L
+- Fri XLE + XLP stack was structurally the cleanest setup of the week (defensive rotation ADD to Energy shock leader = high-conviction two-legged Iran-day expression); missing this fill on Wk-5's final session compounds the terminal-trajectory read
+- Weekly-review cadence discipline mirrors trade-execution discipline: both fail because the actual "fire the action" step is broken. Fixing one without the other is not sufficient
+
+### Adjustments for Next Week (observations — see STEP 5 below; NO rule change)
+- **ITEM #1 (INFRASTRUCTURE ESCALATION — TERMINAL / MISSION-CRITICAL):** 21-consecutive-session cash-session-routine-miss + 5-week 0/3 flat run. Mon 7/20 09:30 ET cash-session routine MUST run or the challenge window is over in any meaningful sense. Human operator must be alerted via ClickUp (this week's alert reiterates the ask) AND the scheduling layer (cron/routine trigger at 09:30 ET America/New_York) must be independently verified before Mon open. The bot cannot self-correct this — this has now been ITEM #1 across FIVE consecutive weekly reviews with zero remediation
+- **PRE-STAGE LIMIT ORDERS BEFORE OPEN MON 7/20** as the operator-independent mitigation — file XLE + XLP buy + trailing-stop pairs at 04:37 ET pre-open with TIF that activates in the cash session, so a fill can occur even if the cash-session routine misses a 22nd time. Flagged and unimplemented for SIX consecutive weeks; Mon MUST implement or explicitly document why not
+- **Mon 7/20 pre-market**: re-grade XLE PRIMARY (Iran-Hormuz thesis intact only if oil holds >$70 into the weekend) / XLP SECONDARY (defensive rotation conditional on Fri Iran-headline evolution) / XLF (leader flipped away; conditional on regime re-flip) / everything-else DOES-NOT-QUALIFY per the four-test. If ANY qualifies at the open, TAKE IT — Wk-5 0/3 closes, Wk-6 opens with weekly cap fully clean
+- Weekend Iran-headline gap risk: any Mon fill accepts the gap; 10% trailing stop caps standard drawdown but not shock-event. Do NOT downsize below strategy's HALF-SIZE floor to "hedge" the gap — that becomes another selectivity-tightening back-door
+- Continue daily SPY IEX-feed close anchoring in EOD snapshot (working reliably); formalize into EOD-snapshot routine as a discrete step (still not codified after being flagged in prior reviews)
+- Weekly-review timing: schedule the workflow for post-close Fri (16:15+ ET) not mid-session, so SPY weekly close is final not mid-day
+- **DO NOT** propose weakening entry rules, adding "wait for confirmation" language, raising the qualification bar, adding P&L cushion requirements, or any STEP-5 forbidden change. The screen correctly identified 5 qualifying setups this week alone. Failure is EXECUTION and INFRASTRUCTURE, not strategy. Reacting to five flat weeks by tightening entries would recreate the exact known-failure mode CLAUDE.md STEP 5 forbids
+
+### STEP 5 — Strategy Adjustment Decision
+- Closed-trade count this phase: **0**. Statistical basis for any rule change: **NONE** (evidence bar is >= 10 closed trades; we have 0)
+- Decision: **NO CHANGE to TRADING-STRATEGY.md.** Five consecutive flat weeks is a market-and-infrastructure observation, not a strategy signal. Reacting to zero closed-trade evidence by tightening entries, adding HOLD/selectivity language, requiring P&L cushion, or raising the qualification bar is exactly what STEP 5 forbids
+- The failure mode this phase is 100% execution/infrastructure. The strategy framework identifies qualifying setups reliably (5 this week alone; ~20 across the last four weeks). Tightening the framework would compound the failure, not fix it. No changes proposed. No text touched in TRADING-STRATEGY.md
+
+### Overall Grade: F
+Fifth consecutive 0/3 week AND +1.05% relative outperformance vs S&P (down-tape cash sit — luck, not skill) AND 21 consecutive cash-session routine misses (now 5 full calendar weeks) AND FIVE qualifying-setup misses this week (Mon XLE Iran-shock, Tue XLE/XLF post-CPI, Wed XLK cool-CPI, Thu XLF leader, Fri XLE+XLP Iran-reactivation stack) = five failure modes stacked, same as Wk-4. Running 5-week SPX-relative net ≈ -2.83% with a flat book. Research layer correctly diagnosed every regime pivot (Iran-shock → CPI-day gating → cool-CPI risk-on → leader-flip → Iran-reactivation + Netflix-miss defensive rotation) inside a single pre-market cycle each morning — this is competitive analysis wasted for the fifth straight week by a broken execution layer. Every other layer works (research, sizing, clock-gate, event-risk caps); only the trade-taking step never fires. This is not a strategy failure and not a market failure — it is the same infrastructure failure escalating for the SIXTH consecutive review. Grade F. Next escalation slot beyond mission-failure does not exist; if Mon 7/20 09:30 ET routine misses (22nd miss), the challenge is functionally over pending operator remediation at the scheduler layer.
