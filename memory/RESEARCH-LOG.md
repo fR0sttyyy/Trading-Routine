@@ -1960,7 +1960,91 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **CRITICAL: Mon 7/20 cash-session MARKET-OPEN routine MUST RUN at 09:30 ET.** 21 consecutive misses standing through Fri 7/17; 22nd miss = Wk-6 starts 1/5 zero-trade with 5-week execution debt still uncleared. Weekly-review from Fri 7/17 = current baseline; next scheduled Fri 7/24 PM slot.
 
 ### Data Freshness
-- Alpaca account/positions/orders pulled live; equity = $100k direct read valid; `balance_asof` 2026-07-17 (Fri close = 1 weekend stale, acceptable given flat book with zero valuation risk).
+- Alpaca account/positions/orders pulled live; equity = $100k direct read valid; `balance_asof` 2026-07-17 (Fri close = 2 sessions stale over Mon 7/20 + long weekend; flat book = zero valuation risk; sizing UNBLOCKED off direct equity read).
 - yfinance context timestamps reflect Fri 7/17 4pm ET cash close + Mon 7/20 pre-open futures — live, not training data.
 - Tavily news sourced with Fri 7/17 through Mon 7/20 04:35 UTC date-stamps (AP News, Crypto Briefing, Reuters) = current.
+- No stale-data block. Sizing UNBLOCKED.
+
+
+## 2026-07-21 — Pre-market Research (Tuesday, Iran-Hormuz stress fades / oil red / risk-on futures / GM BMO earnings)
+
+### Account
+- Equity: $100,000 (`balance_asof` 2026-07-17 = Fri close → still stale over Mon 7/20; flat book = zero valuation risk; sizing UNBLOCKED off direct equity read)
+- Cash: $100,000
+- Buying power: $400,000
+- Daytrade count: 0
+- Positions: 0 | Orders: 0
+- **CRITICAL:** Book still flat entering Wk-6 Day 2. Mon 7/20 plan (XLE PRIMARY FULL ~346 sh if XLE bid > $57.68 + GLD SECONDARY HALF ~27 sh if GLD > $368 AND VIX > 17) DID NOT FILL — Mon XLE cash close $57.94 (+0.45%) = **XLE runtime gate would have triggered** but no positions materialized. This is the **22nd consecutive cash-session market-open routine miss** (Tue Jun 23 → Mon Jul 20, 22 sessions across 5.5 weeks). Wk-6 Day 1 = another 0-trade session with a QUALIFYING GATED setup missed = compounding rule violation. Weekly cap Wk-6 still fully open (0/3) after Mon.
+
+### Market Context
+- **WTI / Brent:** $82.02 (**-0.56%**) / $88.35 (**-0.98%**) — **oil FADING despite active US-Iran strikes (day 9)**; MarketWatch 7/20: "Oil prices ease as Iran keeps talks alive"; supply premium partially unwinding on diplomacy hopes; Brent slipping back below $89 (fell from $90.59 Fri close)
+- **S&P 500 futures (ES):** 7520.5 (**+0.48%**) — risk-on tone overnight into Tue open
+- **NQ futures:** 29098.5 (**+1.11%**) — strong tech-led bounce overnight; "AI stocks recover some of last week's sharp losses" (Sun Chronicle 7/20)
+- **VIX:** 18.65 (**-0.64%**) Mon close — vol regime EASING back toward 18 threshold; broke back below 19 = de-escalation partial pricing
+- **Mon 7/20 cash close:** SPX 7443.28 (-0.19%), Nasdaq 25508.07 (-0.05%), Dow 51839.26 (-0.59%). Mixed / flat tape; Dow -0.59% dragged by GM-earnings-eve caution; Nasdaq flat despite Kospi -5% Sun overnight = US tech decouples further from KR AI-swoon.
+- **Sector momentum (Mon cash close) — ENERGY still #1 but WEAKENING; TECH stabilizes:** XLE +0.45% (SOLE leader), XLK +0.07% (bounce off Fri worst -1.09%), XLP -0.39%, XLF -0.39%, XLI -0.72%, XLB -0.99%, XLV -1.14% (WORST). **Regime shift Mon→Tue: oil-shock premium unwinding; tech bounce off oversold; defensives still red.** XLE remains momentum #1 but oil-fade weakens the underlying catalyst; XLK #2 status confirming as bounce not head-fake.
+- **Today's catalysts:**
+  1. **Iran/Hormuz — day 9 of US strikes but oil MARKET FADING.** MarketWatch 7/20 07:40 UTC: "Oil prices ease as Iran keeps talks alive despite deadly weekend hostilities and fresh US strikes." Insurance Journal 7/20: "US strikes Iran for ninth day; Iran says two oil tankers were hit in Strait of Hormuz." Discovery Alert 7/19: **13.5% market probability that Hormuz traffic normalizes by Aug 31** = market pricing DE-escalation dominant. CNBC 7/20 Energy Aspects: "Hormuz slowdown CAN push oil to triple digits BUT market is still complacent" = supply-shock thesis alive but MARKET NOT PRICING IT. Iran-Hormuz catalyst still ACTIVE but MOMENTUM FADING — this weakens the XLE thesis vs Mon's plan.
+  2. **General Motors (GM) Q2 2026 earnings BMO — 06:30 ET print.** CNBC 7/21: cons EPS $3.20 (+26% YoY) / rev $47.01B (-0.2% YoY); April guidance raised to reflect $500M tariff rebate. Single-name binary; no direct sector-momentum implication vs the XLE thesis. Won't change XLE gate math but could set XLI tone at open (GM = XLI holding).
+  3. **AI/tech recovery narrative building.** Sun Chronicle 7/20 19:10: "Wall Street holds steadier as AI stocks recover some of last week's sharp losses." Investopedia 7/20: "Nasdaq/S&P rise after down week as chip stocks rebound; oil little changed despite US-Iran fighting on hopes for diplomacy." Citi 7/20: "Magnificent Seven tag obsolete in AI stock winners" = broader-AI rotation thesis emerging. NQ +1.11% overnight = confirming tech bounce, but XLK Mon +0.07% cash close is NOT yet a re-established momentum lead — one-session bounce doesn't reverse Fri -1.09% worst-sector.
+  4. **GOOGL/TSLA earnings later this week** — Wed-Thu post-close binaries; not a Tue-open input.
+- **Economic calendar:** No US macro release Tue AM (no CPI/PPI/FOMC/jobs). Quiet macro window; equity narrative driven by Iran-Hormuz fade + GM print + tech-bounce continuation. TradingView 7/19: "News by ACCESS Newswire" = light macro catalyst calendar.
+- **AH Quote reliability caveat:** Mon AH quotes wide/one-sided again. XLE bid $56.32 vs ask $0 = ONE-SIDED (unusable ask); XOM $139.08/$154.35 = 15-pt spread (unusable); CVX $180.66/$196.14 = 15-pt (unusable); XLK $171.71 bid, $0 ask = one-sided. Only GLD $367.52/$367.86 tight = usable, but GLD failed its Mon gate (below $368 threshold). **Cash-session re-quote at 09:30 ET MANDATORY for real XLE gate math.**
+
+### Trade Ideas (Tue 7/21 — runtime conditions for market-open routine, no clock-time gates)
+
+1. **XLE (Energy Select Sector SPDR) — PRIMARY — QUALIFIES → TRADE HALF SIZE (catalyst-fade sizing).**
+   - Catalyst: **Iran-Hormuz ACTIVE (US strikes day 9, tanker hits confirmed) BUT market MOMENTUM FADING** (WTI -0.56%, Brent -0.98% Mon; MarketWatch "oil eases on Iran diplomacy hopes"; CNBC Energy Aspects "market complacent"; 13.5% market-priced probability Hormuz normalizes Aug 31 = DE-escalation dominant). Test #1 passes on catalyst-existence but catalyst momentum WEAKENING.
+   - Sector: **XLE +0.45% Mon = SOLE green sector on 7-sector map**; Test #2 passes ✓ (still #1 despite oil fade — indicates supply-premium bid holds in ETF even as underlying WTI slips = institutional accumulation).
+   - Entry (runtime, MARKET-OPEN routine): buy ~172 sh (~$9,966 @ ref $57.94 Mon close) if **XLE bid > $57.94 AND WTI not red > 1.5% AND ES not red > 0.5% at 09:30 ET**.
+   - Stop: 10% trailing stop GTC (~$52.15 trigger from entry); manual -7% ceiling ~$53.88; fixed stop ~$52.15 PDT fallback.
+   - Target: +15% ~$66.63 / +20% ~$69.53
+   - R:R: risk $5.79/sh × 172 = $996 (1.0% equity); reward to $69.53 = $11.59/sh → **2.0:1** ✓
+   - Size: **HALF 10% (~$9,966)** — catalyst momentum weakening (oil red 2 days running; DE-escalation getting priced in; VIX declining); FULL-size unwarranted with fading premium. HALF-size discipline = respect fading tape while honoring the qualifying setup. Not a macro event but market treating oil as de-escalating = catalyst-fade half-size, same principle as event-half-size.
+   - **Gate failure fallback:** if XLE < $57.94 at 09:30 = HOLD "gap-open fade continues oil de-escalation pricing"; if WTI red > 1.5% = HOLD "de-escalation accelerating breaks Energy premium thesis"; if ES red > 0.5% = HOLD "risk-off overrides Energy bid despite Iran".
+
+2. **XLK (Technology ETF) — DOES NOT QUALIFY today.** Mon +0.07% cash close = flat, NOT sector leader (XLE #1); NQ +1.11% overnight is single-session bounce, needs at least 2-session confirmation to establish tech re-rating. **Test #2 fails today** (not sector momentum #1). Monitor Wed-Thu with GOOGL/TSLA prints — a GOOGL beat could ignite XLK re-rating cleanly.
+
+3. **GLD (Gold ETF) — DOES NOT QUALIFY today (catalyst fade).** Kitco 7/20 AM: "Gold softens, silver rebounds as Fed-rate risk limits metals"; Mon AH bid $367.52 vs Fri $368.07 = red = safe-haven bid UNWINDING; VIX 18.65 down = vol regime easing. **Test #1 fails** (safe-haven catalyst fading; central-bank buying-pace story = medium-term thesis, not Tue-morning tape). Only revisit if fresh Iran escalation flips vol regime.
+
+4. **XLP / XLV defensives — DO NOT QUALIFY.** Mon XLP -0.39%, XLV -1.14%; Test #2 fails (negative momentum, still being sold in risk-on rotation regime).
+
+5. **XLF (Financials) — DOES NOT QUALIFY.** Mon -0.39%; Test #2 fails; rate-cut re-pricing complicated by oil-shock inflation risk (Fed can't cut into stagflation) = XLF setup dies.
+
+6. **XLI / XLB — DO NOT QUALIFY.** Mon -0.72% / -0.99%; Test #2 fails hard. GM print Tue AM could tape-move XLI intraday but that's binary not sector-momentum thesis.
+
+7. **GM (single-name) — DOES NOT QUALIFY.** Binary earnings pre-open + no sector-momentum thesis (XLI red Mon -0.72%); regardless of print outcome, chasing a beat = gap-fill trap, missing a miss = down-limit. Skip. If GM beats HARD and XLI reclaims +1%+ intraday, revisit as reactive add.
+
+8. **XOM / CVX / COP / SLB single-names — DO NOT QUALIFY today.** Same Iran-Hormuz catalyst as XLE but: (a) XOM AH $139.08/$154.35 = 15-pt spread (unusable); CVX $180.66/$196.14 = 15-pt (unusable); quote infra unusable for runtime gate math; (b) XLE cleaner basket expression, no single-name binary risk. Skipping vehicle, not the sector.
+
+9. **NVDA / AAPL / MSFT / TSLA — DO NOT QUALIFY.** Tech bounce Mon (XLK +0.07%, NQ +1.11% overnight) is 1-session recovery, not re-established momentum. Test #2 fails (XLE #1, not tech). TSLA earnings Wed = binary avoid. Wait for GOOGL/TSLA prints Wed-Thu before reassessing single-tech-name exposure.
+
+10. **KGC / GDX gold miners — DO NOT QUALIFY.** Same catalyst-fade as GLD; miner equity-beta compounds the fading safe-haven thesis. Skip.
+
+11. **AH-only setups — none identified.** No overnight AH ripper that survives sector-momentum + R:R + gate discipline into Tue open.
+
+### Risk Factors
+- **Iran-Hormuz catalyst FADING but tail-risk asymmetric** — MarketWatch/CNBC/Investopedia all flag "diplomacy hopes" driving oil-price fade despite ongoing US strikes day 9. Two-tail live: **escalation** (US-strike Iranian oil-field, IRGC engagement, tanker sinking with US casualties) = WTI +$5-10 spike, XLE +5-8% GAP UP, VIX > 22 = HALF-size trap benefits catalyst re-rating but broad-tape crush (SPX -1.5%+) hurts XLK stabilization thesis. **De-escalation** (Trump-Iran phone call, Hormuz traffic resumes, US-Iran talks announced) = WTI -$5-10 dump, XLE -3-5% = HALF-size trap; 10% trailing stop caps but doesn't eliminate gap risk. HALF-size chosen because catalyst momentum WEAKENING = base case fade continuation, not escalation.
+- **VIX 18.65 declining but Iran-tail still active** — vol regime easing back toward 18 threshold; if fresh Iran headline spikes VIX > 20 intraday = active thesis-monitor on XLE fill (consider closing before 10% trail if broad-tape panic). Base case = VIX drifts sub-18 into GM+GOOGL prints.
+- **GM Q2 print @ 06:30 ET** — beat with strong tariff-rebate contribution ($500M April guide) = XLI reclaim through -1% loss + broad-tape lift + supports risk-on ES/NQ futures; miss = XLI extension to -1.5%+ + Dow drag continues; either way NOT a direct XLE input but sets the tape tone at open for the XLE gate ES condition.
+- **Tech-bounce head-fake risk** — Sun Chronicle 7/20 "AI recovers some losses" is single-session bounce; Investopedia notes rise is "on diplomacy hopes" not fundamental re-rating; a fresh Iran escalation OR weak GOOGL/TSLA prints Wed-Thu = XLK bounce dies fast. Not skipping XLK on Tue for chase-risk reasons; skipping because Test #2 (sector-#1 momentum) not yet met.
+- **New Fed Chair Warsh late-July FOMC ~9 days out** — Warsh hawkish; oil-fade eases stagflation risk BUT if Fed signals higher-for-longer on Aug 1 = broad-tape crush + XLE mixed (hurts multiples but ETF has supply premium). Not Tue's problem but Wk-6 tail.
+- **Data freshness caveat:** Alpaca `balance_asof` 2026-07-17 (Fri close = 2 sessions stale over Mon 7/20 + long weekend); flat book = zero valuation risk; sizing off equity=$100k direct read valid; yfinance context Mon 7/20 cash close + Tue 7/21 pre-open futures = live.
+- **CRITICAL — 22 consecutive missed cash-session market-open routines through Mon 7/20 (Tue Jun 23 → Mon Jul 20, 22 sessions across 5.5 weeks).** Mon 7/20 confirmed XLE gate would have triggered ($57.94 > $57.68) but nothing filled = compounding rule violation. Weekly cap Wk-6 still fully open (0/3) but Day 1 is a QUALIFYING GATED miss = counts as rule violation per strategy. Fri 7/17 PM weekly-review is current baseline; next Fri 7/24 PM slot mandatory.
+
+### Decision — TRADE (1 order queued for MARKET-OPEN routine, HALF-size on fading catalyst)
+
+- **XLE PRIMARY** → QUALIFIES → **TRADE HALF 10%** — ~172 sh @ market at open, then 10% trailing stop GTC. Runtime gate: **XLE bid > $57.94 AND WTI not red > 1.5% AND ES not red > 0.5% at 09:30 ET runtime.** Manual -7% ceiling ~$53.88. Target $69.53 (+20%). HALF-size because Iran-Hormuz catalyst momentum FADING (oil red 2 days; MarketWatch/CNBC/Investopedia = "diplomacy hopes" pricing; 13.5% market-implied Hormuz normalization) — this is a catalyst-fade half-size on an otherwise-qualifying setup, same discipline as event-half-size.
+- **NO OTHER QUALIFYING SETUP TODAY.** GLD Test #1 fails on safe-haven fade; XLK Test #2 fails on 1-session-bounce not re-establishing sector #1; XLP/XLV/XLF/XLI/XLB all Test #2 fail; single-names either unusable quotes (XOM/CVX/CVE) or binary risk (GM/TSLA); gold miners same catalyst fade as GLD.
+- **NO CLOCK-TIME GATES** — trigger is a runtime condition the MARKET-OPEN routine evaluates at 09:30 ET; no "wait until 10:00" gate.
+- **RESOLVE-NOW check:** Iran-Hormuz fade confirmed via 3 headlines (MarketWatch/CNBC/Investopedia dated 7/20); GM earnings expectations resolved via CNBC 7/21 04:01 UTC print of consensus; no earnings pre-open beyond GM (not in plan); no deferrable facts remain; nothing parked for "verify tomorrow."
+- **Trades this week (Wk-6) after fill:** 1 of 3 max (2 slots remaining Tue-Fri for reactive adds — reserve one for a possible XLK re-rating after GOOGL Wed / TSLA Thu prints, one for Iran escalation-reactivation).
+- **Deployment after fill:** ~$10k / $100k = 10% (below 75-85% target but reflects catalyst-fade HALF-size + Wk-6 build cadence; if XLE fills clean, plan is layered adds on any XLK re-rating post-GOOGL or fresh Iran escalation toward 40-50% by Fri).
+- **If XLE gate fails at open** (XLE < $57.94 gap-fade OR WTI red > 1.5% OR ES red > 0.5%) → HOLD with documented gating-failure reason (NOT "patience"). No secondary setup queued.
+- **CRITICAL: Tue 7/21 cash-session MARKET-OPEN routine MUST RUN at 09:30 ET.** 22 consecutive misses standing through Mon 7/20; 23rd miss = Wk-6 Day 2 zero-trade with QUALIFYING GATED miss = compounding rule violation. If the market-open routine misses again today, that's the persistent-infra story of this challenge, not the market thesis.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live; equity = $100k direct read valid; `balance_asof` 2026-07-17 (Fri close = 2 sessions stale over Mon 7/20 + long weekend; flat book = zero valuation risk).
+- yfinance context timestamps reflect Mon 7/20 4pm ET cash close + Tue 7/21 pre-open futures — live, not training data.
+- Tavily news sourced with Sun 7/19 through Tue 7/21 04:40 UTC date-stamps (MarketWatch, CNBC, Investopedia, Reuters, Kitco, CryptoBriefing) = current.
 - No stale-data block. Sizing UNBLOCKED.
