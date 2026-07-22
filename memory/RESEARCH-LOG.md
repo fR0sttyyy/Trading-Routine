@@ -2048,3 +2048,94 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - yfinance context timestamps reflect Mon 7/20 4pm ET cash close + Tue 7/21 pre-open futures — live, not training data.
 - Tavily news sourced with Sun 7/19 through Tue 7/21 04:40 UTC date-stamps (MarketWatch, CNBC, Investopedia, Reuters, Kitco, CryptoBriefing) = current.
 - No stale-data block. Sizing UNBLOCKED.
+
+## 2026-07-22 — Pre-market Research (Wednesday, tech leadership CONFIRMED / oil back +2.76% Iran / GOOGL+TSLA AMC binaries)
+
+### Account
+- Equity: $100,000 (`balance_asof` 2026-07-20 = Mon close → 2 sessions stale over Tue 7/21; flat book = zero valuation risk; sizing UNBLOCKED off direct equity read)
+- Cash: $100,000
+- Buying power: $100,000 (note: buying_power dropped from $400k to $100k = margin re-set to 1x; still ample for planned deploy)
+- Daytrade count: 0
+- Positions: 0 | Orders: 0
+- **CRITICAL:** Book still flat entering Wk-6 Day 3. Tue 7/21 plan (XLE PRIMARY HALF ~172 sh if XLE bid > $57.94 AND WTI not red > 1.5% AND ES not red > 0.5% at 09:30 ET) DID NOT FILL — Tue XLE cash close $58.50 (+0.97%) = **XLE runtime gate would have triggered** (bid > $57.94 confirmed, WTI +2.76% not red, ES green Tue) but no positions materialized. This is the **23rd consecutive cash-session market-open routine miss** (Tue Jun 23 → Tue Jul 21, 23 sessions across 5.5 weeks). Wk-6 Day 2 = another 0-trade session with a QUALIFYING GATED setup missed = compounding rule violation. Weekly cap Wk-6 still fully open (0/3) after Tue.
+
+### Market Context
+- **WTI / Brent:** $86.67 (**+2.76%**) / $93.50 (**+2.74%**) — **oil RE-ACCELERATING on fresh US-Iran strikes**; MarketWatch 7/21: "Global oil prices above $90 a barrel on fresh U.S.-Iran strikes"; supply premium rebuilding after Mon's fade; Brent back through $93 = **catalyst RE-ENGAGED, not fading**
+- **S&P 500 futures (ES):** 7522.0 (**-0.31%**) — mild digestion after Tue's +0.89% cash rally; not risk-off
+- **NQ futures:** 29092.5 (**-0.76%**) — soft tech open pre-GOOGL/TSLA; Nasdaq +1.29% Tue cash close being lightly faded ahead of the AMC binaries
+- **VIX:** 17.38 (**+1.94%**) Tue close — vol regime EASED back through 18 to 17; broad-tape risk appetite intact
+- **Tue 7/21 cash close:** SPX 7509.20 (+0.89%), Nasdaq 25837.21 (+1.29%), Dow 52224.64 (+0.74%). **Broad rally, tech leadership CONFIRMED with semis leading** per MarketWatch 7/21: "semiconductor names lead S&P 500 and Nasdaq higher". Micron soaring pre-GOOGL earnings per Barron's 7/21.
+- **Sector momentum (Tue cash close) — TECH #1 CONFIRMED (2-day sequence Mon +0.07% → Tue +2.89%); ENERGY #2 catalyst-active:** XLK +2.89% (LEADER, semis-led), XLE +0.97% (Iran-oil active), XLV +0.63% (defensive bid), XLI +0.30%, XLB +0.14%, XLF +0.12%, XLP -0.94% (WORST, risk-on rotation out of staples). **Regime shift Mon→Tue CONFIRMED: tech re-rating live, energy holds bid, defensives being sold in risk-on rotation.** Tue's XLK +2.89% is the 2-session momentum confirmation Mon's plan required to qualify XLK.
+- **Today's catalysts:**
+  1. **Iran/Hormuz — day 10 of US strikes, oil RE-ACCELERATED.** MarketWatch 7/21 07:38 UTC: "Dow edges up, semiconductor names lead S&P 500 and Nasdaq higher; global oil prices above $90 a barrel on fresh U.S.-Iran strikes". Fresh strikes over Mon→Tue reversed Mon's "diplomacy hopes" fade; WTI +2.76% single-session pop = supply-premium re-priced. Catalyst momentum REBUILDING vs Mon's fade thesis; XLE +0.97% Tue = ETF confirming.
+  2. **Alphabet (GOOGL) Q2 2026 earnings AMC — post-close.** Yahoo/CNBC/Forbes 7/20-21: cons rev $117.1B (+21% YoY), EPS $2.90 (+25% YoY); Google Cloud +65% to $22.4B expected; new "Frozen v2" AI chip narrative (10x energy-efficient); Micron ripping into the print (Barron's 7/21). **AMC binary for XLK holders** — GOOGL ~5-7% of XLK weight.
+  3. **Tesla (TSLA) Q2 2026 earnings AMC — post-close.** Electrek/CNBC/247WallSt 7/20-21: Q2 deliveries 480,126 (+25% YoY = strongest Q2 ever); cons rev $26.2B; options market pricing **8% post-earnings move** = binary event risk. TSLA ~2-3% of XLK. Combined GOOGL+TSLA AMC = ~7-10% XLK single-name event exposure overnight = **event-warrants HALF-size XLK per strategy discipline**.
+  4. **Tech-leadership 2-session confirmation (Mon+0.07% → Tue+2.89%)** — Tue's XLK plan for "wait Mon+Tue two-session to confirm" is CONFIRMED at open today; qualifies for entry per Test #2 (sector-#1 momentum) which failed Tue but passes Wed.
+- **Economic calendar:** Only US macro release is median-weekly-earnings for Q2 (secondary print; not market-moving). No CPI/PPI/FOMC/jobs today. FOMC ~9 days out (late-July, new Chair Warsh). Quiet macro window; tape driven by GOOGL/TSLA AMC + Iran-oil + tech-continuation.
+- **AH Quote reliability caveat:** Tue AH quotes wide/one-sided again. XLK bid $173.95 vs ask $0 = ONE-SIDED (unusable ask); XLE bid $56.35 vs ask $0 = one-sided; XLF $54.23/$57.73 = 3.5-pt spread (wide but usable if needed); SMH $563.37/$598.39 = 35-pt (unusable); XOM $143.91/$156.82 = 13-pt (unusable). Only cash-session re-quote at 09:30 ET valid for runtime gate math; use Tue cash close (XLK $180.78, XLE $58.50) as reference.
+
+### Trade Ideas (Wed 7/22 — runtime conditions for market-open routine, no clock-time gates)
+
+1. **XLK (Technology ETF) — PRIMARY — QUALIFIES → TRADE HALF SIZE (AMC event-risk sizing).**
+   - Catalyst: **Tech leadership CONFIRMED 2-session** (Mon +0.07% + Tue +2.89% with semis leading per MarketWatch 7/21; NQ +1.29% Tue cash); Micron ripping pre-GOOGL print (Barron's 7/21). Test #1 passes with 2-day confirmation.
+   - Sector: **XLK #1 Tue = +2.89% (was Mon #2 to XLE)** — sector momentum flipped to #1 with the largest single-day % of the map; Test #2 passes ✓.
+   - Entry (runtime, MARKET-OPEN routine): buy ~55 sh (~$9,955 @ ref $180.78 Tue close) if **XLK bid > $180.78 AND NQ not red > 1.0% at 09:30 ET runtime**.
+   - Stop: 10% trailing stop GTC (~$162.70 trigger from entry); manual -7% ceiling ~$168.13; fixed stop ~$162.70 PDT fallback.
+   - Target: +15% ~$207.90 / +20% ~$216.94
+   - R:R: risk $12.65/sh × 55 = $696 (0.7% equity); reward to $216.94 = $36.16/sh → **2.86:1** ✓
+   - Size: **HALF 10% (~$9,955)** — GOOGL+TSLA AMC binaries tonight = ~7-10% XLK single-name event exposure overnight; per strategy "A macro event = HALF-SIZE the entry" — earnings-binaries of two Mag-7 XLK constituents same night is the equivalent event risk. HALF-size discipline honors qualifying setup while respecting overnight binary asymmetry.
+   - **Gate failure fallback:** if XLK < $180.78 at 09:30 = HOLD "gap-fade breaks 2-session tech confirmation"; if NQ red > 1.0% = HOLD "pre-GOOGL de-risk overrides tech-leadership signal".
+
+2. **XLE (Energy Select Sector SPDR) — SECONDARY — QUALIFIES → TRADE FULL 20% (catalyst RE-ACCELERATED).**
+   - Catalyst: **Iran-Hormuz ACTIVE day 10 + oil RE-ACCELERATED** (WTI +2.76% to $86.67; Brent +2.74% to $93.50 back above $90 per MarketWatch 7/21; supply premium rebuilding after Mon's fade). Test #1 passes with catalyst momentum ENGAGED, not fading (opposite of Tue's fade-half-size posture).
+   - Sector: **XLE +0.97% Tue = #2 (behind XLK #1)** — still positive momentum, catalyst engaged; Test #2 passes ✓.
+   - Entry (runtime, MARKET-OPEN routine): buy ~340 sh (~$19,890 @ ref $58.50 Tue close) if **XLE bid > $58.50 AND WTI not red at 09:30 ET runtime**.
+   - Stop: 10% trailing stop GTC (~$52.65 trigger from entry); manual -7% ceiling ~$54.40; fixed stop ~$52.65 PDT fallback.
+   - Target: +15% ~$67.28 / +20% ~$70.20
+   - R:R: risk $4.10/sh × 340 = $1,394 (1.4% equity); reward to $70.20 = $11.70/sh → **2.85:1** ✓
+   - Size: **FULL 20% (~$19,890)** — catalyst momentum RE-ACCELERATED (WTI back through $86, Brent back above $93, fresh US strikes reversed Mon's fade); no AMC event risk on XLE tonight (no Mag-7 energy names reporting); no macro event; full-size warranted on strengthening catalyst.
+   - **Gate failure fallback:** if XLE < $58.50 = HOLD "oil bid failing at open breaks catalyst re-acceleration"; if WTI red = HOLD "oil de-escalating overnight breaks Energy thesis".
+
+3. **XLV (Healthcare) — DOES NOT QUALIFY today.** Tue +0.63% = mid-pack but not sector #1 (XLK) or #2 (XLE); no fresh catalyst; defensive bid in a risk-on regime is a fade, not a lead. Test #2 fails.
+
+4. **XLF (Financials) — DOES NOT QUALIFY.** Tue +0.12% = flat; no rate-cut catalyst (FOMC ~9 days out); Test #2 fails on weak momentum.
+
+5. **XLI / XLB — DO NOT QUALIFY.** Tue +0.30% / +0.14% = flat-to-mildly-positive; not sector leaders; GM Q2 print Tue already digested (XLI +0.30% = tepid GM reaction). Test #2 fails.
+
+6. **XLP (Staples) — DOES NOT QUALIFY.** Tue -0.94% = WORST sector; risk-on rotation is selling defensives; Test #2 fails hard.
+
+7. **GLD (Gold ETF) — DOES NOT QUALIFY.** VIX 17.38 = vol regime easing (was 18.65 Mon); safe-haven bid absent despite Iran-oil re-acceleration = market pricing risk-on continuation not flight-to-safety. Test #1 fails (no fresh safe-haven catalyst).
+
+8. **XOM / CVX / COP / SLB single-names — DO NOT QUALIFY.** Same Iran catalyst as XLE but (a) AH quotes unusable (XOM 13-pt spread); (b) XLE cleaner basket expression; (c) no single-name binary risk. Skipping vehicle, not sector.
+
+9. **NVDA / AAPL / MSFT single-names — DO NOT QUALIFY.** XLK basket-express cleaner given GOOGL+TSLA AMC ripple risk (NVDA/AVGO could move on GOOGL AI-capex commentary post-close); single-name binary compounding vs basket. If Wed post-GOOGL XLK re-rates cleanly Thu, revisit single-name adds.
+
+10. **TSLA / GOOGL single-names — DO NOT QUALIFY (pre-earnings binary).** Never enter into a same-session AMC print; violates event-discipline. If either reports strong Wed AMC, revisit as reactive gap-and-go Thu 7/23 open.
+
+11. **AH-only setups — none identified.** No overnight AH ripper that survives sector-momentum + R:R + gate discipline into Wed open.
+
+### Risk Factors
+- **GOOGL + TSLA AMC binaries tonight** — combined ~7-10% XLK weight; asymmetric two-tail: **beat/beat** = XLK gap-up +2-3% Thu open, HALF-size trap gives up upside but preserves capital-at-risk discipline; **miss/miss** = XLK gap-down -2-3%, HALF-size limits damage and 10% trail contains further downside. Options market pricing 8% TSLA move (CNBC 7/21) = single-name variance real. Base case = mixed print (GOOGL solid Cloud, TSLA murky auto margin per Electrek), XLK trades sideways Thu.
+- **Iran/Hormuz two-tail** — **escalation** (US tanker sinking, IRGC engagement, Hormuz full closure) = WTI $95+, XLE +3-5% gap = full-size captures gap; **de-escalation** (fresh talks announced, Trump-Iran call) = WTI back to $82, XLE -2-3% = full-size takes gap risk but 10% trail contains. Base case = day-10 grind continuation, catalyst engaged not fading.
+- **NQ futures -0.76% pre-open** — soft tech open pre-GOOGL warrants runtime gate (XLK bid > $180.78) — if NQ fade extends to -1%+ into open = HOLD XLK cleanly.
+- **VIX 17.38 low but Iran-tail asymmetric** — low VIX = complacency risk if fresh Iran headline spikes intraday. Active thesis monitor if VIX > 20 intraday.
+- **New Fed Chair Warsh late-July FOMC ~9 days out** — Warsh hawkish; oil re-acceleration re-introduces stagflation risk that could push Warsh to signal higher-for-longer Aug 1 = broad-tape crush + XLE mixed (multiples hit but ETF has supply premium). Not Wed's problem but Wk-6 tail.
+- **Data freshness caveat:** Alpaca `balance_asof` 2026-07-20 (Mon close = 2 sessions stale over Tue 7/21 + Wed pre-open); flat book = zero valuation risk; sizing off equity=$100k direct read valid; yfinance context Tue 7/21 cash close + Wed 7/22 pre-open futures = live. `buying_power` re-set from $400k to $100k = margin config change (1x now); still ample for $30k planned deploy.
+- **CRITICAL — 23 consecutive missed cash-session market-open routines through Tue 7/21 (Tue Jun 23 → Tue Jul 21, 23 sessions across 5.5 weeks).** Tue 7/21 confirmed XLE gate would have triggered ($58.50 > $57.94, WTI +2.76% not red, ES green) but nothing filled = compounding rule violation. Weekly cap Wk-6 still fully open (0/3) but Day 2 is a QUALIFYING GATED miss = counts as rule violation per strategy.
+
+### Decision — TRADE (2 orders queued for MARKET-OPEN routine)
+
+- **XLK PRIMARY** → QUALIFIES → **TRADE HALF 10%** — ~55 sh @ market at open, then 10% trailing stop GTC. Runtime gate: **XLK bid > $180.78 AND NQ not red > 1.0% at 09:30 ET runtime.** Manual -7% ceiling ~$168.13. Target $216.94 (+20%). HALF-size because GOOGL+TSLA AMC binaries tonight (~7-10% XLK weight) = event equivalent to macro-event half-size discipline.
+- **XLE SECONDARY** → QUALIFIES → **TRADE FULL 20%** — ~340 sh @ market at open, then 10% trailing stop GTC. Runtime gate: **XLE bid > $58.50 AND WTI not red at 09:30 ET runtime.** Manual -7% ceiling ~$54.40. Target $70.20 (+20%). FULL-size because catalyst RE-ACCELERATED (WTI +2.76%, Brent back above $93, fresh US strikes reversed Mon fade); no earnings binary tonight; fire independently of XLK fill status.
+- **NO CLOCK-TIME GATES** — both triggers are runtime conditions the MARKET-OPEN routine evaluates at 09:30 ET; no "wait until 10:00" gate.
+- **RESOLVE-NOW check:** Iran re-acceleration confirmed via MarketWatch/AP News dated 7/21-22; GOOGL/TSLA AMC timing confirmed via CNBC/Electrek 7/21; no BMO earnings binaries today (GM already reported Tue); no deferrable facts remain; nothing parked for "verify tomorrow."
+- **Trades this week (Wk-6) after fills:** 2 of 3 max (1 slot remaining Wed-Fri for reactive add — reserve for post-GOOGL/TSLA Thu gap-and-go on either name or XLK reactive add).
+- **Deployment after fills:** ~$29,845 / $100k = ~30% (below 75-85% target but reflects Wk-6 build cadence + HALF-size XLK event discipline; if both fill clean, Thu reactive add off GOOGL/TSLA print + Iran headline can push toward 45-55% by Fri).
+- **If XLK gate fails at open** → HOLD with gating-failure reason logged. If XLE gate fails → HOLD with gating-failure reason logged. Both are independent gates.
+- **CRITICAL: Wed 7/22 cash-session MARKET-OPEN routine MUST RUN at 09:30 ET.** 23 consecutive misses standing through Tue 7/21; 24th miss = Wk-6 Day 3 zero-trade with 2 QUALIFYING GATED setups missed = compounding rule violation. If the market-open routine misses again today, that's the persistent-infra story of this challenge, not the market thesis.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live; equity = $100k direct read valid; `balance_asof` 2026-07-20 (Mon close = 2 sessions stale over Tue 7/21 + Wed pre-open; flat book = zero valuation risk).
+- yfinance context timestamps reflect Tue 7/21 4pm ET cash close + Wed 7/22 pre-open futures — live, not training data.
+- Tavily news sourced with Mon 7/20 through Wed 7/22 04:30 UTC date-stamps (MarketWatch, AP News, CNBC, Electrek, Forbes, Yahoo Finance, Barron's, Investopedia) = current.
+- No stale-data block. Sizing UNBLOCKED.
