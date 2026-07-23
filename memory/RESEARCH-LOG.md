@@ -2139,3 +2139,99 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - yfinance context timestamps reflect Tue 7/21 4pm ET cash close + Wed 7/22 pre-open futures — live, not training data.
 - Tavily news sourced with Mon 7/20 through Wed 7/22 04:30 UTC date-stamps (MarketWatch, AP News, CNBC, Electrek, Forbes, Yahoo Finance, Barron's, Investopedia) = current.
 - No stale-data block. Sizing UNBLOCKED.
+
+## 2026-07-23 — Pre-market Research (Thursday, Iran ESCALATED / Brent 6-wk high / GOOGL capex-fade AH / TSLA EPS miss AH / IBM crash BMO)
+
+### Account
+- Equity: $100,000 (`balance_asof` 2026-07-21 = Tue close → 2 sessions stale over Wed 7/22 + Thu 7/23 pre-open; flat book = zero valuation risk; sizing UNBLOCKED off direct equity read)
+- Cash: $100,000
+- Buying power: $100,000 (1x margin config unchanged)
+- Daytrade count: 0
+- Positions: 0 | Orders: 0
+- **CRITICAL:** Book still flat entering Wk-6 Day 4. Wed 7/22 plan (XLK PRIMARY HALF ~55 sh if bid > $180.78 AND NQ not red > 1.0%; XLE SECONDARY FULL ~340 sh if bid > $58.50 AND WTI not red) did NOT fill — Wed XLK cash close $180.27 (-0.28%) = **XLK runtime gate would have FAILED** ($180.27 < $180.78 by $0.51 = clean gate rejection, not a rule miss); XLE cash close ~$59.20 (+1.2%) = **XLE runtime gate would have TRIGGERED** (bid > $58.50, WTI +3.02% not red) but nothing filled = **25th consecutive cash-session market-open routine miss** (Tue Jun 23 → Wed Jul 22, 25 sessions across 6 weeks). Wk-6 Day 3 = another 0-trade session with 1 QUALIFYING GATED setup missed (XLE) + 1 clean gate rejection (XLK) = XLE miss is compounding rule violation. Weekly cap Wk-6 still fully open (0/3) after Wed.
+
+### Market Context
+- **WTI / Brent:** $89.45 (**+3.02%**) / $97.69 (**+3.85%**) — **oil catalyst STRONGER, not fading**; Guardian 7/22: "Oil price rises above $95 mark as Middle East conflict escalates"; Reuters 7/23: "Oil prices rise to six-week high as US-Iran tensions escalate"; CNBC 7/23 00:18 UTC: "Oil extends gains as Trump threatens strikes on critical Iranian infrastructure". Brent $97.69 = **6-week high approaching $100**; supply premium building on fresh Trump-Iran infrastructure-strike threats
+- **S&P 500 futures (ES):** 7508.0 (**-0.43%**) — soft open pre-print reactions (GOOGL AH -4%, TSLA AH -3%, IBM crash pre-market)
+- **NQ futures:** 29015.75 (**-0.57%**) — tech softness extends after GOOGL capex-punished AH; NDX headed for lower open
+- **VIX:** 17.6 (**+5.77%**) Wed close — vol EXPANDING (was 17.38 Tue → 17.6 Wed = fresh +5.77% single-day jump); broad-tape starting to price Iran-tail asymmetry + tech re-rating risk
+- **Wed 7/22 cash close:** SPX 7498.96 (-0.14%), Nasdaq 25690.90 (-0.57%), Dow 52218.58 (-0.01%). Broad-tape SOFT; tech faded pre-print; energy/materials led.
+- **Sector momentum (Wed cash close) — MATERIALS #1 / ENERGY #2 (both oil-driven); TECH #4 FADED:** XLB +1.44% (LEADER, oil-inflation hedge), XLE +1.2% (Iran-oil active), XLP +0.38% (defensive bid returning), XLI +0.11%, XLF -0.11%, XLK -0.28% (pre-GOOGL de-rating), XLV -0.51% (WORST). **Regime shift Tue→Wed CONFIRMED: tech leadership FAILED (Tue XLK +2.89% → Wed -0.28% pre-GOOGL); oil-inflation trade re-took leadership with materials JOINING energy at top.**
+- **Today's catalysts:**
+  1. **Iran/Hormuz — day 11, ESCALATED with Trump infrastructure threats.** Guardian 7/22, Reuters 7/23, CNBC 7/23 confirm oil at 6-week high on fresh US-Iran escalation; Trump 7/22-23 threatening strikes on Iranian critical infrastructure = **catalyst STRONGER than Wed's already-strong setup**; WTI single-session +3.02% + Brent +3.85% = supply premium re-pricing hard, not fading. XLE +1.2% Wed = ETF confirming; XLB +1.44% Wed = materials joining the trade (oil-inflation → chemical/mining bid).
+  2. **GOOGL Q2 2026 AMC — MASSIVE fundamentals beat, stock -4% AH on capex.** MediaPost/Forbes/CNBC 7/22: revenue $119.8B (+24% YoY), EPS $9.11 (+295% YoY), Google Cloud +82% to $24.8B, Gemini 950M MAU — clean beat on ALL metrics; BUT capex $44.9B (+100% YoY) = market punishing AI-capex intensity, stock -4% AH per CNBC 7/22 21:19 UTC "raised capital expenditures forecast for 2026". Read-across NEGATIVE for XLK (mega-cap AI leaders now punished for capex, not rewarded for growth) = **thesis break for Tue-Wed's tech-leadership setup**.
+  3. **TSLA Q2 2026 AMC — EPS miss, stock -3% AH.** TradingView/CNBC 7/22: revenue $28.24B (beat), GAAP net income $1.12B, diluted GAAP EPS $0.32 / non-GAAP $0.33 (missed cons by ~$0.18 per CNBC 7/22 21:19 UTC); deliveries record 480,126 (+25% YoY) but auto margins murky per Electrek preview; Morningstar's Goldstein 7/22: "stock likely sliding on EPS miss". TSLA -3% AH compounds XLK weight-drag with GOOGL's -4%.
+  4. **IBM Q2 2026 BMO — EARNINGS WARNING + FULL-YEAR CUT.** CNBC 7/22: IBM adjusted EPS $2.93 trailed cons; **lowered full-year forecast**; 247WallSt 7/20 references "largest crash ever" post-print; revenue +1% YoY = minimal growth. Read-across NEGATIVE for enterprise-tech + old-tech; XLK secondary drag Thu open.
+  5. **Tech-leadership 1-session failure (Tue+2.89% → Wed-0.28%)** — Wed's plan for XLK PRIMARY correctly gate-rejected at ref $180.78; but AH GOOGL/TSLA/IBM triple print = XLK re-rating narrative now BROKEN, not just paused. Test #2 fails for XLK Thu.
+- **Economic calendar:** Initial jobless claims (08:30 ET, secondary), flash PMI (09:45 ET, secondary), existing home sales (10:00 ET, secondary) — no CPI/PPI/FOMC/jobs prints. FOMC ~8 days out (late-July, Chair Warsh; oil-shock stagflation risk building = potential hawkish tilt). Quiet macro day; tape driven by GOOGL/TSLA/IBM AH-print digestion + Iran-oil escalation.
+- **AH Quote reliability caveat:** Wed AH quotes wide/one-sided as usual. XLE bid $57.27 vs ask $60.98 = 3.7-pt spread (wide but usable for ref only); XLB $49.17/$52.41 = 3.2-pt (wide); XLK $174.72/$185.80 = 11-pt (unusable); GOOGL $330.01/$349.09 = 19-pt (AH earnings volatility, unusable); TSLA bid $356.57 ask $0 = one-sided (unusable); XOM ask $0 (unusable); CVX $182.83/$203.07 = 20-pt (unusable). **Only cash-session re-quote at 09:30 ET valid for runtime gate math**; use Wed cash close (XLE $59.20, XLB $50.82) as reference — pulled from research.sh context (yfinance live cash-close mark).
+
+### Trade Ideas (Thu 7/23 — runtime conditions for market-open routine, no clock-time gates)
+
+1. **XLE (Energy Select Sector SPDR) — PRIMARY — QUALIFIES → TRADE FULL 20% (catalyst ESCALATED, no event tonight).**
+   - Catalyst: **Iran-Hormuz ESCALATED day 11 + Trump infrastructure threats + Brent 6-wk high** (WTI +3.02% to $89.45; Brent +3.85% to $97.69 approaching $100 per Guardian/Reuters/CNBC 7/22-23); catalyst STRONGER than Wed. Test #1 passes with catalyst momentum RE-STRENGTHENED.
+   - Sector: **XLE +1.2% Wed = #2 (behind XLB #1)** — still positive momentum, catalyst directly engaged; oil-linked co-leader with materials. Test #2 passes ✓.
+   - Entry (runtime, MARKET-OPEN routine): buy ~338 sh (~$20,010 @ ref $59.20 Wed close) if **XLE bid > $59.20 AND WTI not red at 09:30 ET runtime**.
+   - Stop: 10% trailing stop GTC (~$53.28 trigger from entry); manual -7% ceiling ~$55.06; fixed stop ~$53.28 PDT fallback.
+   - Target: +15% ~$68.08 / +20% ~$71.04
+   - R:R: risk $5.92/sh × 338 = $2,001 (2% equity); reward to $71.04 = $11.84/sh → **2.0:1** ✓
+   - Size: **FULL 20% (~$20,000)** — catalyst ESCALATED (Trump-Iran infrastructure threats + Brent 6-wk high); no earnings binary on XLE constituents tonight (XOM/CVX/COP/SLB not reporting Thu AMC); no macro event Thu; full-size warranted on strengthening catalyst.
+   - **Gate failure fallback:** if XLE < $59.20 at 09:30 = HOLD "gap-fade breaks catalyst-escalation confirmation"; if WTI red = HOLD "oil de-escalating overnight breaks Iran-Hormuz thesis".
+
+2. **XLB (Materials Select Sector SPDR) — SECONDARY — QUALIFIES → TRADE HALF 10% (correlated with XLE, size-manage duplication).**
+   - Catalyst: **Oil-inflation hedge trade — materials/chemicals bid on Iran-shock inflation re-pricing** (XLB Wed +1.44% #1 = broke out with XLE, not by coincidence — same driver); Freeport/Dow/Nucor benefit from inflation-hedge flows. Test #1 passes but note SAME driver as XLE = correlation risk documented.
+   - Sector: **XLB #1 Wed at +1.44%** — sector leader Wed = Test #2 passes ✓.
+   - Entry (runtime, MARKET-OPEN routine): buy ~197 sh (~$10,012 @ ref $50.82 Wed close) if **XLB bid > $50.82 AND ES not red > 0.5% at 09:30 ET runtime**.
+   - Stop: 10% trailing stop GTC (~$45.74 trigger from entry); manual -7% ceiling ~$47.26; fixed stop ~$45.74 PDT fallback.
+   - Target: +15% ~$58.44 / +20% ~$61.00
+   - R:R: risk $5.08/sh × 197 = $1,001 (1% equity); reward to $61.00 = $10.18/sh → **2.0:1** ✓
+   - Size: **HALF 10% (~$10,000)** — HALVED not because setup weak but because SAME oil-driver as XLE PRIMARY = correlation risk if Iran diplomacy suddenly opens (Trump reverses threat) both puke together. Position-size discipline for correlated exposure.
+   - **Gate failure fallback:** if XLB < $50.82 at 09:30 = HOLD "materials gap-fade breaks oil-inflation hedge confirmation"; if ES red > 0.5% = HOLD "broad-tape risk-off overrides materials-inflation signal".
+
+3. **XLK (Technology ETF) — DOES NOT QUALIFY today.** GOOGL -4% AH (capex punished) + TSLA -3% AH (EPS miss) + IBM crash BMO (full-year cut) = combined ~10-12% of XLK weight negative overnight; XLK -0.28% Wed = already faded pre-print; Test #2 fails (no longer sector leader; sector-#4 Wed) AND Test #1 broken (AI-capex-punishment narrative = thesis break for tech-leadership setup, not just paused). **Skip cleanly** — thesis broken, not clean gate rejection.
+
+4. **XLV (Healthcare) — DOES NOT QUALIFY.** Wed -0.51% = WORST sector; defensive bid failing in vol-expanding regime; no fresh catalyst. Test #2 fails.
+
+5. **XLF (Financials) — DOES NOT QUALIFY.** Wed -0.11% = flat-negative; no rate-cut catalyst (FOMC 8 days out, potentially hawkish tilt from Warsh on oil-shock); Test #2 fails.
+
+6. **XLI (Industrials) — DOES NOT QUALIFY.** Wed +0.11% = flat; no fresh catalyst; not sector leader. Test #2 fails.
+
+7. **XLP (Staples) — DOES NOT QUALIFY.** Wed +0.38% = mid-pack defensive bid returning as vol expands; not sector #1/#2. Test #2 fails (marginal).
+
+8. **GLD (Gold ETF) — DOES NOT QUALIFY.** VIX 17.6 rising but no safe-haven bid yet; if VIX > 20 intraday = reconsider Thu PM. Test #1 fails (no fresh safe-haven catalyst confirmed today).
+
+9. **XOM / CVX / COP / SLB single-names — DO NOT QUALIFY.** Same Iran-oil catalyst as XLE but (a) AH quotes unusable (XOM ask $0, CVX 20-pt spread); (b) XLE basket cleaner + broader; (c) no single-name binary risk = redundant with XLE PRIMARY. Skipping vehicle, not sector.
+
+10. **Materials single-names FCX / DOW / NUE / X — DO NOT QUALIFY.** Same rationale — XLB basket-express cleaner given no explicit single-name catalyst research this session; single-name adds add binary risk without catalyst edge. Skipping vehicle, not sector.
+
+11. **GOOGL / TSLA reactive gap-and-go — DO NOT QUALIFY.** Both gapping DOWN on print (-4% / -3% AH); catalyst is NEGATIVE not positive; catching a falling AI-capex knife pre-any-support-confirmation = catching a knife, not a setup. If GOOGL bottoms + reverses Thu with clear support hold = reactive add candidate for Fri, not Thu.
+
+12. **IBM reactive — DOES NOT QUALIFY.** Full-year cut + "largest crash ever" narrative = broken company post-print; no long setup.
+
+13. **AH-only setups — none identified.** No overnight AH ripper that survives sector-momentum + R:R + gate discipline into Thu open.
+
+### Risk Factors
+- **Correlation risk (XLE + XLB both oil-driven)** — if Iran diplomacy suddenly opens (Trump reverses infrastructure threat overnight, US-Iran talks announced), WTI could gap -3-5% and BOTH XLE AND XLB puke together; 10% trails contain but correlated draw-down real. Size discipline (XLB HALF not FULL) mitigates. Base case = Trump-Iran escalation continues day 11 → day 12, catalyst intact.
+- **GOOGL capex-fade contagion** — Wed AH -4% GOOGL on $44.9B capex could trigger broader mega-cap AI re-rating Thu open (META/AMZN/MSFT sympathy); NQ pre-open -0.57% pricing this; if NQ extends to -1%+ into open = broad-tape risk-off could bleed to cyclicals including energy/materials (correlation-1 in panic tape). Runtime gates (XLB requires ES not red > 0.5%) protect against this specifically.
+- **VIX 17.6 (+5.77%) expanding** — vol regime shift building; if VIX > 20 intraday on fresh Iran headline OR mega-cap AI panic = active thesis monitor on both fills, consider tightening trails or closing before 10% trail if broad-tape panic.
+- **Warsh late-July FOMC 8 days out** — oil-shock stagflation building (Brent $97.69 = 6-week high with capex-boom overlay) increases odds Warsh signals higher-for-longer Aug 1 = broad-tape crush (real rates spike) + XLE mixed (multiples hit but supply premium dominates) + XLB DOWN (materials rate-sensitive without pure-supply premium). Not Thu's problem but Wk-6 tail — could pressure XLB more than XLE if realized.
+- **Iran two-tail** — **escalation** (Trump strikes on Iranian infrastructure realized, Hormuz-flow disruption confirmed, IRGC counter-strike): WTI $95-100, XLE gap +3-5%, XLB gap +2-3% = full/half sizes capture gap. **De-escalation** (fresh talks announced, Trump backs down): WTI back to $85, XLE -2-3%, XLB -1-2% = size discipline (full XLE + half XLB) limits combined loss to ~1.5% equity single-session before trails kick in. Base case = day-11 escalation continues into day 12 Thu, catalyst intact.
+- **Data freshness caveat:** Alpaca `balance_asof` 2026-07-21 (Tue close = 2 sessions stale over Wed 7/22 + Thu pre-open); flat book = zero valuation risk; sizing off equity=$100k direct read valid; yfinance context Wed 7/22 cash close + Thu pre-open futures = live. Buying power $100k (1x margin, unchanged from Wed); ample for $30k planned deploy.
+- **CRITICAL — 25 consecutive missed cash-session market-open routines through Wed 7/22 (Tue Jun 23 → Wed Jul 22, 25 sessions across 6 weeks).** Wed 7/22 confirmed XLE gate would have triggered ($59.20 > $58.50, WTI +3.02% not red) = XLE was a QUALIFYING GATED miss = compounding rule violation. XLK gate rejection was clean (setup failed test at gate, not routine miss). Weekly cap Wk-6 still fully open (0/3) but Day 3 = 4th consecutive Day-N gate-triggered miss in a row = system-level failure now crossing 6-week threshold = full emergency for Fri weekly review (already 6 sessions overdue).
+
+### Decision — TRADE (2 orders queued for MARKET-OPEN routine)
+
+- **XLE PRIMARY** → QUALIFIES → **TRADE FULL 20%** — ~338 sh @ market at open, then 10% trailing stop GTC. Runtime gate: **XLE bid > $59.20 AND WTI not red at 09:30 ET runtime.** Manual -7% ceiling ~$55.06. Target $71.04 (+20%). FULL-size because Iran catalyst ESCALATED (Trump infrastructure threats + Brent 6-wk high); no earnings binary on energy constituents tonight; no macro event.
+- **XLB SECONDARY** → QUALIFIES → **TRADE HALF 10%** — ~197 sh @ market at open, then 10% trailing stop GTC. Runtime gate: **XLB bid > $50.82 AND ES not red > 0.5% at 09:30 ET runtime.** Manual -7% ceiling ~$47.26. Target $61.00 (+20%). HALF-size because SAME oil-driver as XLE PRIMARY = correlation-risk discipline (not because setup weak); fire independently of XLE fill status.
+- **NO CLOCK-TIME GATES** — both triggers are runtime conditions the MARKET-OPEN routine evaluates at 09:30 ET; no "wait until 10:00" gate.
+- **RESOLVE-NOW check:** Iran escalation confirmed via Guardian/Reuters/CNBC 7/22-23; GOOGL/TSLA/IBM AH reactions confirmed via CNBC 7/22 21:19 UTC AH-movers article; economic calendar (jobless claims/PMI/existing homes) confirmed non-market-moving via Investopedia/AP context; no deferrable facts remain; nothing parked for "verify tomorrow."
+- **Trades this week (Wk-6) after fills:** 2 of 3 max (1 slot remaining Fri for reactive add — reserve for post-open XLE/XLB add on fresh Iran escalation OR GOOGL/AI reactive bottom-and-reverse Fri).
+- **Deployment after fills:** ~$30,010 / $100k = ~30% (below 75-85% target but reflects Wk-6 build cadence + correlated-exposure discipline on XLB HALF; if both fill clean, Fri reactive add can push toward 45-55% by weekend; if either gate fails, deployment stays 10-20%).
+- **If XLE gate fails at open** → HOLD with gating-failure reason logged. If XLB gate fails → HOLD with gating-failure reason logged. Both are independent gates.
+- **CRITICAL: Thu 7/23 cash-session MARKET-OPEN routine MUST RUN at 09:30 ET.** 25 consecutive misses standing through Wed 7/22; 26th miss = Wk-6 Day 4 zero-trade with 2 QUALIFYING GATED setups missed (or 1 if only XLE gate triggers) = compounding rule violation entering week-end. If the market-open routine misses again today, that's the persistent-infra story of this challenge, not the market thesis.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live; equity = $100k direct read valid; `balance_asof` 2026-07-21 (Tue close = 2 sessions stale over Wed 7/22 + Thu pre-open; flat book = zero valuation risk).
+- yfinance context timestamps reflect Wed 7/22 4pm ET cash close + Thu 7/23 pre-open futures = live, not training data.
+- Tavily news sourced with Wed 7/22 through Thu 7/23 04:40 UTC date-stamps (MediaPost, Forbes, CNBC, Guardian, Reuters, TradingView, MarketWatch, 247WallSt, Investopedia, Yahoo Finance, Electrek, Bloomberg, Seeking Alpha) = current.
+- No stale-data block. Sizing UNBLOCKED.
