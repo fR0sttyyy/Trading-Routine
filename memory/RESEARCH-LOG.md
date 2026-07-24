@@ -2235,3 +2235,69 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - yfinance context timestamps reflect Wed 7/22 4pm ET cash close + Thu 7/23 pre-open futures = live, not training data.
 - Tavily news sourced with Wed 7/22 through Thu 7/23 04:40 UTC date-stamps (MediaPost, Forbes, CNBC, Guardian, Reuters, TradingView, MarketWatch, 247WallSt, Investopedia, Yahoo Finance, Electrek, Bloomberg, Seeking Alpha) = current.
 - No stale-data block. Sizing UNBLOCKED.
+
+## 2026-07-24 — Pre-market Research (Friday, oil through $100 / Red Sea Saudi tanker attacks / big-tech capex shock rotation → industrials + energy lead)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x margin)
+- Non-marginable buying power: $100,000
+- Daytrade count: 0 (PDT slack full)
+- Positions: none | Open orders: none
+- balance_asof: 2026-07-23 (Thu cash close = fresh, 1-session, flat book = zero valuation risk)
+- Trades this week (Wk-6): 0 executed (Mon–Thu MARKET-OPEN routine missed the XLE Mon plan and every subsequent day; account stayed flat all week)
+
+### Market Context
+- WTI / Brent: WTI $90.49 (-1.84%) / Brent $98.90 (-1.78%) — modest overnight pullback but BRENT HIT $100 Thu on U.S.-Iran + Houthi Red Sea tanker attacks; 12th consecutive night of U.S. strikes on Iran/Yemen; multi-week oil supercycle intact
+- S&P 500 futures: ES +0.18%, NQ +0.06% — modest stabilization after Thu risk-off (SPX -1.21%, NDX -2.15%, DJI -0.97%)
+- VIX: 18.86 (+0.86%) — elevated but capped (below 20 "fear" threshold); risk-on has been damaged not broken
+- Today's catalysts:
+  - Oil $100/bbl (Brent) → energy inflation + geopolitical premium
+  - Big-tech capex shock: Alphabet capex hike, Tesla EPS miss (both Thu AH) → NDX/QQQ rotation OUT
+  - Rotation destination: XLI (+1.73% Thu, #1 sector) + XLV (+1.26%) + XLE (+0.30%, still #1 multi-week)
+  - GE Aerospace target hikes: JPMorgan → $400, Wells Fargo → $390; AerCap 15 Dreamliner GEnx engines + Philippine Airlines 787-10 wins
+  - European defense boom: Dassault +8% Thu on strong earnings; Thales/Indra
+  - Asia sold off overnight on AI names + $100 oil (per AP wire Fri 05:13 UTC)
+- Earnings before open: no A-tier BMO catalyst confirmed for today (Valens Aug-12 references were forward-looking, not today; Entergy is Jul-29). No known BMO earnings blocker on our target sector ETFs.
+- Economic calendar: NO CPI/PPI/FOMC print scheduled Fri 7/24. Only release surfaced was Q2 median weekly earnings (secondary, non-market-moving). FULL-SIZE window UNBLOCKED (no macro-event half-size gate today).
+- Sector momentum (Thu 7/23 cash close, ranked):
+  - LEADERS: XLI +1.73%, XLV +1.26%, XLE +0.30% (multi-week #1 still)
+  - LAGGARDS: XLK -1.01% (tech capex shock), XLB -1.04%, XLP -1.39%, XLF -0.39%
+  - Momentum map: OIL + INDUSTRIALS(defense/aerospace) = twin leadership; TECH is DEAD sector this week (Test #2 fail for all mega-cap tech)
+
+### Trade Ideas
+1. **XLE (PRIMARY, FULL-SIZE)** — Catalyst: Brent $100 + 12 consecutive nights U.S.-Iran strikes + Houthi Red Sea tanker attacks widening war risk + multi-week sector-#1 status intact. Entry: at open $59.38 (Thu close). Stop: $53.44 (-10%) fixed GTC (PDT fallback); trailing 10% GTC preferred. Manual -7% ceiling: $55.22. Target: $71.26 (+20%). R:R: 2.00:1. Size: 336 sh × $59.38 ≈ $19,952 (20% notional, FULL). QUALIFIES: catalyst (fresh war escalation Thu) ✓, sector (multi-week #1) ✓, definable 10% stop ✓, R:R 2.00:1 ✓, Buy-Side Gate (0/6 pos, 0/3 trades wk, 20% cap, cash-covered, PDT clear, stock) ✓.
+2. **XLI (SECONDARY, FULL-SIZE)** — Catalyst: Thu #1 sector (+1.73%) + GE Aerospace analyst target hikes ($400/$390) + AerCap Dreamliner engine wins + European defense boom (Dassault +8%) + rotation-safe-haven from tech capex shock. Entry: at open $181.94 (Thu close). Stop: $163.75 (-10%) fixed GTC (PDT fallback); trailing 10% GTC preferred. Manual -7% ceiling: $169.20. Target: $218.33 (+20%). R:R: 2.00:1. Size: 109 sh × $181.94 ≈ $19,831 (20% notional, FULL). QUALIFIES: catalyst (GE + defense + rotation Thu) ✓, sector (Thu #1) ✓, definable 10% stop ✓, R:R 2.00:1 ✓, Buy-Side Gate (1/6 pos after XLE fill, 1/3 trades wk, 20% cap, cash-covered, PDT clear, stock) ✓.
+3. **XLV DOES NOT QUALIFY** — Test #2 marginal: one-day defensive bounce (+1.26% Thu) not sustained momentum; XLV has been range-bound multi-week per prior logs. HOLD.
+4. **XLK / NVDA / GOOGL / TSLA / MSFT / AAPL / AVGO DO NOT QUALIFY** — Test #2 hard fail: tech is the SOLD sector this week (capex shock, XLK -1.01% Thu, Asia AI overnight sell). HOLD until momentum re-establishes (need +2 consecutive up days OR a clean tech green session vs XLI/XLE red).
+5. **XLF / XLP / XLB DO NOT QUALIFY** — Test #2 fail: all laggard sectors Thu (-0.39% / -1.39% / -1.04%). HOLD.
+6. **XOM / CVX single-names DO NOT QUALIFY** — redundant to XLE (sector ETF chosen for cleaner spread and lower single-name binary risk given wide overnight alpaca quotes on XOM/CVX in prior sessions). HOLD.
+
+### Risk Factors
+- Fri end-of-week de-risking / short-covering unwind — 09:30 tape could gap down if overnight ES fade materializes
+- $100 oil is a double-edged sword: bullish XLE but bearish broad market (inflation + margin pressure) — if SPX gaps down > 1% at open, XLE gate holds but XLI gate should skip
+- U.S.-Iran headline risk into the weekend (Saturday-Sunday news vacuum) — GTC trailing stops mitigate
+- Big-tech capex-shock contagion could broaden if AAPL/AMZN AH prints next week (not today's risk but 2-day forward)
+- Alpaca sector-ETF ask/bid overnight spread was $10 wide on XLI/XLV — trust Yahoo close as working price, market-open routine should re-quote at 09:30 ET after book tightens
+- balance_asof is Thu 7/23 (fresh, 1-session) but confirm live quote at 09:30 ET before pulling triggers
+- 22+ MARKET-OPEN routine misses through Thu 7/23 = if today's routine also misses, Wk-6 closes 0-trade with 2 qualifying setups documented = compounding rule violation (persistent-infra story remains the challenge's #1 risk, not the market thesis)
+
+### Decision
+**TRADE — both XLE and XLI qualify FULL-SIZE (no macro event today, no half-size gate).**
+
+- **XLE PRIMARY:** ENTER AT OPEN — BUY 336 sh if XLE > $58.00 at 09:30 ET AND ES not red > 1% AND WTI not red > 3%. At fill: submit 10% trailing-stop GTC (sell 336 sh, trail_percent="10"); if PDT/trailing rejected, fallback fixed stop $53.44 GTC. Manual close if unrealized ≤ -7% ($55.22). Target $71.26 (+20%) — at +15% ($68.29) tighten trail to 7%; at +20% ($71.26) tighten trail to 5%.
+- **XLI SECONDARY:** ENTER AT OPEN — BUY 109 sh if XLI > $178.00 at 09:30 ET AND ES not red > 1%. At fill: 10% trailing-stop GTC (sell 109 sh, trail_percent="10"); PDT fallback fixed stop $163.75 GTC. Manual close if unrealized ≤ -7% ($169.20). Target $218.33 (+20%) — at +15% ($209.23) tighten to 7%; at +20% ($218.33) tighten to 5%.
+- **If both fill:** deployment = ~$39,783 = 40% (below 75-85% target but consistent with Wk-6 zero-baseline build cadence; leaves 1 weekly trade slot AND 4 open-slots for Mon reactive add on any XLE follow-through or defense-name conviction). If only one fires, the other is DROPPED (not re-queued to Mon — Mon runs its own qualification pass on Mon's tape, not Fri's).
+- **If XLE gate fails at open** (XLE ≤ $58.00 gap-fade OR ES red > 1% OR WTI red > 3%) → SKIP XLE with named test failure logged (NOT "patience"). Same for XLI (≤ $178.00 gap-fade OR ES red > 1%).
+- **NO CLOCK-TIME GATES** — both triggers evaluate at MARKET-OPEN routine runtime (09:30 ET), no "wait until 10:00" or intraday clock condition.
+- **NO OTHER QUALIFYING SETUP TODAY.** XLV Test #2 marginal, XLK/mega-tech Test #2 hard fail (sold sector), XLF/XLP/XLB Test #2 fail (laggards), XOM/CVX redundant + wide-spread illiquid.
+- **RESOLVE-NOW check:** No BMO earnings on target ETFs (verified). No macro release blocking today (verified). No halts. No deferrable facts remain; nothing parked for "verify tomorrow."
+- **Trades this week (Wk-6) after both fills:** 2 of 3 (Fri last session; slot resets Mon = fresh 3). No PDT concern (0/3).
+- **CRITICAL — MARKET-OPEN routine MUST FIRE at 09:30 ET Fri 7/24.** 22+ consecutive misses standing; today = Wk-6 last chance. If routine misses again with 2 qualifying gated setups, the persistent-infra failure is the story of this challenge — escalate as rule violation in Fri weekly-review.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live at pre-market Fri 7/24; equity = $100k direct read valid; `balance_asof` 2026-07-23 (Thu close = 1 session stale = fresh).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes timestamped Thu 7/23 4pm ET cash close = 1-session fresh.
+- Tavily news dated Wed 7/22 through Fri 7/24 05:13 UTC (AP, CNBC, Reuters, MarketWatch, NYT, WaPo, Barron's, IBD, Seeking Alpha) = current.
+- No stale-data block. Sizing UNBLOCKED. FULL-SIZE authorized.
