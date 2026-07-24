@@ -400,3 +400,71 @@ Fourth consecutive 0/3 week AND -1.11% underperformance vs S&P (rally-week, cash
 
 ### Overall Grade: F
 Fifth consecutive 0/3 week AND +1.05% relative outperformance vs S&P (down-tape cash sit — luck, not skill) AND 21 consecutive cash-session routine misses (now 5 full calendar weeks) AND FIVE qualifying-setup misses this week (Mon XLE Iran-shock, Tue XLE/XLF post-CPI, Wed XLK cool-CPI, Thu XLF leader, Fri XLE+XLP Iran-reactivation stack) = five failure modes stacked, same as Wk-4. Running 5-week SPX-relative net ≈ -2.83% with a flat book. Research layer correctly diagnosed every regime pivot (Iran-shock → CPI-day gating → cool-CPI risk-on → leader-flip → Iran-reactivation + Netflix-miss defensive rotation) inside a single pre-market cycle each morning — this is competitive analysis wasted for the fifth straight week by a broken execution layer. Every other layer works (research, sizing, clock-gate, event-risk caps); only the trade-taking step never fires. This is not a strategy failure and not a market failure — it is the same infrastructure failure escalating for the SIXTH consecutive review. Grade F. Next escalation slot beyond mission-failure does not exist; if Mon 7/20 09:30 ET routine misses (22nd miss), the challenge is functionally over pending operator remediation at the scheduler layer.
+
+---
+
+## Week ending 2026-07-24
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,000.00 (Mon Jul 20 AM equity; carried flat from all prior weeks) |
+| Ending portfolio | $100,000.00 (Fri Jul 24 mid-session read; flat book = zero valuation drift) |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | -0.07% (SPY IEX Fri Jul 17 close 743.28 → Fri Jul 24 last bar 742.80 ~11:32 ET; market still open at review time — final Fri close pending) |
+| Bot vs S&P | +0.07% (essentially flat; noise, not signal) |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| - | - | - | - | - |
+| — | — | — | — | No trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| - | - | - | - | - |
+| — | — | — | — | None — 100% cash |
+
+### What Worked
+- Regime-shift diagnosis was tape-correct every session: Mon Iran-Hormuz intensification XLE PRIMARY + GLD → Tue Iran stress-fade / risk-on / XLE PRIMARY HALF re-grade → Wed tech-leadership confirmation XLK PRIMARY HALF + XLE SECONDARY FULL → Thu Iran ESCALATED / GOOGL+TSLA AH capex-fade → Fri big-tech capex shock rotation to XLI+XLE. Every day's sector-momentum map was pre-open-correct
+- Pre-market research produced qualifying triggers every session with concrete numeric gates and 2:1+ R:R math (XLE $57.68/$57.94/$58.50/$59.20/$58.00, XLK $180.78, XLI $178.00, XLB $50.82)
+- Sizing-rule discipline held on paper (FULL Mon on unblocked window, HALF Tue on regime uncertainty, HALF Wed pre-GOOGL/TSLA AMC binaries, FULL Thu no earnings-in-book, FULL Fri no macro block)
+- Pre-open routines (04:36-04:38 ET market-open, 05:39-07:04 ET midday-scan) fired every scheduled slot and correctly gated on `is_open: false` — the pre-open half of the system continues to work exactly as designed
+- Weekly review workflow finally ran on-cadence Fri 7/24 for the first time in 3 weeks (Fri 7/3 skipped for Independence Day, Fri 7/10 ran 1 week late, Fri 7/17 mid-session; Fri 7/24 mid-session but before close = weekly cadence restored)
+
+### What Didn't Work
+- **SIXTH CONSECUTIVE 0/3 WEEK** — 30 flat sessions since Jun 4 launch; ~$100k unused capital across ~6+ calendar weeks of live paper trading; zero P&L data on our own edge
+- **26 CONSECUTIVE CASH-SESSION MARKET-OPEN ROUTINE MISSES** (Tue Jun 23 → Fri Jul 24) = six full calendar weeks of terminal-trajectory infrastructure failure. NO 09:30+ ET cash-session invocation any day this week (0/5). Only pre-open (04:36-04:38 ET) and pre-open midday (05:39-07:04 ET) invocations fired, all correctly clock-gate-skipped
+- **SIX QUALIFYING SETUPS MISSED THIS WEEK ALONE**: Mon 7/20 XLE PRIMARY FULL (close $57.955 > $57.68 gate = triggered), Tue 7/21 XLE PRIMARY HALF (close $58.52 > $57.94 gate = triggered), Wed 7/22 XLE SECONDARY FULL (close $59.18 > $58.50 gate = triggered; XLK PRIMARY HALF clean-gate-rejected at $180.27 < $180.78 = NOT counted), Thu 7/23 XLE PRIMARY FULL (close $59.40 > $59.20 gate = triggered; XLB SECONDARY HALF clean-gate-rejected at $50.32 < $50.82 = NOT counted), Fri 7/24 XLE PRIMARY FULL (intraday $59.72 > $58.00 gate = triggered) + XLI SECONDARY FULL (intraday $183.57 > $178.00 gate = triggered). Per CLAUDE.md, each = rule VIOLATION. Six violations logged this week
+- **XLE ran +3.03% Mon→Fri intraday** (Mon $57.955 → Fri $59.71) — a Mon 7/20 XLE FULL fill (~$20k notional, 20% equity) would have delivered ~+$610 by Fri mid-day = +0.61% portfolio-week. XLI ran +3.04% Mon→Fri (Mon $178.14 → Fri $183.57) — the Fri XLI SECONDARY FULL alone would still be intact. Cost of Wk-6 misses is measurable: at minimum ~$600 of foregone P&L on XLE alone assuming Mon fill and held to Fri; possibly $1,000+ if XLI Fri fill and both held into next week
+- Running 6-week SPX-relative: Wk-1 flat, Wk-2 +1.36%, Wk-3 -2.13%, Wk-4 -1.11%, Wk-5 +1.05%, Wk-6 +0.07% = net ≈ -2.76% relative with a flat book. "Cash outperforms in down weeks" thesis fully refuted over the phase; +0.07% this week is coin-flip noise, not signal
+- Every "adjustment for next week" from the last six reviews assumed the cash-session routine would run; none did. Pre-staged limit orders as the mitigation have been flagged in Wk-1, Wk-2, Wk-3, Wk-4, Wk-5 reviews and NEVER IMPLEMENTED — this is a SEVEN-consecutive-review repeating open action item
+- Weekly-review cadence itself continues to drift: this review runs Fri 7/24 mid-session at ~11:35 ET rather than post-close ≥16:15 ET — SPY weekly close is last mid-day bar not final settle, and Fri intraday XLE/XLI reads are used as "close" proxies
+
+### Key Lessons
+- **The infrastructure failure is the mission failure — now for six consecutive weeks.** Six full calendar weeks / 30 sessions / 26 cash-session misses / 6 qualifying setups missed this week alone / ~$100k unused / measurably ≥$600 in foregone P&L on XLE alone this week. The strategy identifies clean qualifying setups on every regime pivot inside a single pre-market cycle (Fri capex-shock → XLI PRIMARY + XLE SECONDARY was diagnosed and gate-mathed before 08:00 ET). It just never fires an order. Only human/operator intervention at the cron/scheduler/hardware layer can fix this — the bot cannot fix its own scheduling and demonstrably has not for 26 sessions
+- 6-week SPX-relative net -2.76% is now definitively negative. Cash is not a strategy. Two "down-tape lucky" weeks (+1.36% and +1.05%) do not offset four up- and flat-tape weeks the bot missed
+- XLE is a persistent multi-week setup (5-of-5 gates triggered this week; Iran-Hormuz shock intact from Wk-4 Wed → Wk-6 Fri = 3 weeks). The bot's pattern of re-diagnosing XLE PRIMARY every morning and never placing the order is not "waiting for confirmation" — it's a scheduler ghost. A single Mon fill would have carried the entire week's P&L
+- Regime agility on paper is REAL: Wed 7/22 tech-leadership pivot on Tue XLK +2.89% → Wed pre-open GOOGL AH -4% forced clean re-grade to XLE SECONDARY within one pre-market cycle. Analytic layer competitive. Execution layer nonexistent
+- The Wk-5 review's grade of F called Mon 7/20 the "next escalation slot beyond mission-failure does not exist; if Mon 7/20 09:30 ET routine misses (22nd miss), the challenge is functionally over pending operator remediation." Mon 7/20 09:30 ET routine missed. The prediction verified. Wk-6 is now the fourth week of operating post-that-threshold with no operator intervention
+
+### Adjustments for Next Week (observations — see STEP 5 below; NO rule change)
+- **ITEM #1 (INFRASTRUCTURE ESCALATION — TERMINAL / MISSION UNRECOVERABLE ABSENT OPERATOR):** 26-consecutive-session cash-session-routine-miss + 6-week 0/3 flat run. Mon 7/27 09:30 ET cash-session routine MUST run or the challenge is over in any meaningful sense. Human operator must be alerted via ClickUp (Fri 7/24 EOD alert will reiterate the ask for the SEVENTH consecutive review) AND the scheduling layer (cron/webhook/hardware trigger at 09:30 ET America/New_York) must be independently verified before Mon open. The bot cannot self-correct this — this has now been ITEM #1 across SIX consecutive weekly reviews with zero remediation
+- **PRE-STAGE LIMIT ORDERS BEFORE OPEN MON 7/27** as the operator-independent mitigation — file XLE + XLI buy + trailing-stop pairs at 04:37 ET pre-open with TIF that activates in the cash session, so a fill can occur even if the cash-session routine misses a 27th time. Flagged and unimplemented for SEVEN consecutive weeks; Mon MUST implement or explicitly document why not. NOTE: strategy file states "trailing stops only work during market hours" — if pre-market buy limit fills before cash-session opens, trailing-stop attach must happen at 09:30 ET (which needs the same routine); alternative is a fixed stop instead of trailing, at cost of the mechanical trail-tighten rules
+- **Mon 7/27 pre-market**: re-grade XLE PRIMARY (Iran-Hormuz thesis intact if Brent holds >$95 into the weekend) / XLI SECONDARY (rotation-safe-haven from big-tech capex shock intact if XLI holds Fri gains) / XLB TERTIARY (oil-inflation hedge; conditional on materials joining rotation) / everything-else DOES-NOT-QUALIFY per the four-test. If ANY qualifies at the open, TAKE IT — Wk-6 0/3 closes, Wk-7 opens with weekly cap fully clean
+- Weekend Iran-headline gap risk: any Mon fill accepts the gap; Brent hit $100 Thu on U.S.-Iran + Houthi Red Sea tanker attacks; 10% trailing stop caps standard drawdown but not shock-event. Do NOT downsize below strategy's HALF-SIZE floor to "hedge" the gap — that becomes another selectivity-tightening back-door
+- Weekly-review timing: schedule the workflow for post-close Fri (16:15+ ET) not mid-session, so SPY weekly close is final settle and Fri intraday gates resolve to actual close prints. This has been flagged in Wk-5 review and not implemented — likely a scheduler-layer fix same as the cash-session routine
+- Continue daily SPY IEX-feed close anchoring in EOD snapshot (working reliably every day this week); formalize into EOD-snapshot routine as a discrete step (still not codified after being flagged in prior reviews)
+- **DO NOT** propose weakening entry rules, adding "wait for confirmation" language, raising the qualification bar, adding P&L cushion requirements, or any STEP-5 forbidden change. The screen correctly identified 6 qualifying setups this week alone. Failure is EXECUTION and INFRASTRUCTURE, not strategy. Reacting to six flat weeks by tightening entries would recreate the exact known-failure mode CLAUDE.md STEP 5 forbids
+
+### STEP 5 — Strategy Adjustment Decision
+- Closed-trade count this phase: **0**. Statistical basis for any rule change: **NONE** (evidence bar is >= 10 closed trades; we have 0)
+- Decision: **NO CHANGE to TRADING-STRATEGY.md.** Six consecutive flat weeks is a market-and-infrastructure observation, not a strategy signal. Reacting to zero closed-trade evidence by tightening entries, adding HOLD/selectivity language, requiring P&L cushion, or raising the qualification bar is exactly what STEP 5 forbids
+- The failure mode this phase is 100% execution/infrastructure. The strategy framework identifies qualifying setups reliably (6 this week alone; ~26 across the last five weeks). Tightening the framework would compound the failure, not fix it. No changes proposed. No text touched in TRADING-STRATEGY.md
+
+### Overall Grade: F
+Sixth consecutive 0/3 week AND +0.07% relative to SPX (coin-flip flat-tape noise, not signal) AND 26 consecutive cash-session routine misses (now 6 full calendar weeks) AND SIX qualifying-setup misses this week (Mon XLE Iran-shock, Tue XLE stress-fade re-grade, Wed XLE Iran-reactivation, Thu XLE Iran-escalation, Fri XLE + Fri XLI capex-shock rotation) = five failure modes stacked, same as Wk-4 / Wk-5. Running 6-week SPX-relative net ≈ -2.76% with a flat book. Foregone P&L this week measurably ≥$600 on XLE alone assuming Mon fill (+3.03% intra-week move × $20k FULL notional). Research layer correctly diagnosed every regime pivot (Iran-shock → stress-fade → tech-confirm → Iran-escalation → capex-shock rotation) inside a single pre-market cycle each morning — this is competitive analysis wasted for the sixth straight week by a broken execution layer. Every other layer works (research, sizing, clock-gate, event-risk caps, pre-open scheduling); only the trade-taking step never fires. This is not a strategy failure and not a market failure — it is the same infrastructure failure escalating for the SEVENTH consecutive review. Grade F. Wk-5 review predicted "mission unrecoverable absent operator intervention" if Mon 7/20 missed — Mon 7/20 missed, Wk-6 confirms the prediction. If Mon 7/27 09:30 ET routine misses (27th consecutive), the challenge is functionally over.
