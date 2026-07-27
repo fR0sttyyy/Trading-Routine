@@ -2301,3 +2301,99 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - research.sh context (Yahoo) sector/index/VIX/oil quotes timestamped Thu 7/23 4pm ET cash close = 1-session fresh.
 - Tavily news dated Wed 7/22 through Fri 7/24 05:13 UTC (AP, CNBC, Reuters, MarketWatch, NYT, WaPo, Barron's, IBD, Seeking Alpha) = current.
 - No stale-data block. Sizing UNBLOCKED. FULL-SIZE authorized.
+
+## 2026-07-27 — Pre-market Research (Monday, oil COLLAPSE on Iran de-escalation / FOMC 1pm with 37.9% HIKE tail / prior XLE+XLB oil-inflation regime BROKEN overnight → tech futures bounce but sector rank unconfirmed pre-open)
+
+### Account
+- Equity: $100,000.00
+- Cash: $100,000.00
+- Buying power: $400,000 (4x margin)
+- Non-marginable buying power: $100,000
+- Daytrade count: 0 (PDT slack full)
+- Positions: 0 | Open orders: 0
+- balance_asof: 2026-07-24 (Fri cash close = 1-session stale over weekend + Mon pre-open; flat book = zero valuation risk)
+- Wk-7 (Mon 7/27 – Fri 7/31): 0 executed / 3 slot budget (fresh weekly cap; Wk-6 closed 0-trade Fri per market-open routine miss on qualifying XLE/XLI Fri setups = infra failure logged)
+
+### Market Context
+- **WTI / Brent:** WTI $83.86 (**-6.10%**) / Brent $90.43 (**-6.56%**) Fri cash close — **OIL COLLAPSE Fri on Iran/Gulf CEASE-FIRE / de-escalation** per Reuters 7/27 "Shares, bonds bounce as oil skid offers inflation relief" + AP 7/27 05:35 UTC "Oil prices sink 4% while Asian shares gain" (+ further -4% overnight into Mon = cumulative -10% Fri+overnight from ~$90 → ~$80 WTI). **Iran/Hormuz thesis DEAD** — multi-week oil-inflation regime that drove XLE/XLB Wk-4-6 leadership broke overnight; Test #1 hard fail for any oil-driven long today.
+- **S&P 500 futures (ES):** 7515.25 (**+0.91%**) — broad-tape RISK-ON on oil-relief + disinflation re-pricing
+- **NQ futures:** 28717.0 (**+1.54%**) — TECH BOUNCE HARD overnight on oil-de-escalation multiples expansion + Apple/megacap earnings week + China CXMT chipmaker Shanghai IPO surge (AI-cycle bid returning per AP wire)
+- **VIX:** 17.64 (**-5.06%**) Fri close — vol contracting into risk-on regime; below 20 "fear" threshold
+- **Fri 7/24 cash close:** SPX 7411.98 (+0.05%), Nasdaq 24975.82 (-0.64%), Dow 51947.25 (+0.46%). Broad-tape flat-mixed Fri; tech faded pre-weekend on oil-crash rate-cut re-pricing (paradoxically), industrials/staples/materials led defensively.
+- **Sector momentum (Fri 7/24 cash close — regime-shift context: rankings PRE-DATE overnight oil crash + FOMC preview + Mon risk-on futures; multi-day trend under NEW regime UNCONFIRMED pre-open):**
+  - XLB **+1.93%** (Fri #1 — but oil-inflation catalyst BROKEN overnight = Fri #1 read likely fades Mon)
+  - XLP +1.11% (Fri #2 defensive bid — Mon risk-on futures = counter-trend fade risk)
+  - XLF +0.86% (Fri #3 — modest bid, no multi-day trend; Thu -0.39% Wed -0.11% = single-day pop, not momentum)
+  - XLV +0.7% (Fri #4 mid-pack)
+  - XLI +0.4% / XLE +0.4% (Fri #5 tied — XLI mid, XLE topping under oil collapse)
+  - XLK **-1.44%** (Fri #7 WORST — but NQ +1.54% overnight = reversal signal, sector rank Mon TBD)
+- **Today's catalysts:**
+  1. **Iran/Hormuz cease-fire / de-escalation → oil crashed** (Reuters 7/27 00:41 UTC + AP 7/27 05:35 UTC + TradingView 7/27 06:00 UTC "pause in fighting in the Gulf") — **regime-defining catalyst**: multi-week oil-inflation trade DEAD; disinflation re-pricing = rate-cut path re-opens = tech-multiples expansion + broad-tape risk-on; XLE/XLB oil-catalyst thesis BROKEN.
+  2. **FOMC decision + statement 1pm ET Mon 7/27 + Chair press conference ~2:30pm** — **major macro binary**: consensus = HOLD at 3.5-3.75% BUT CME FedWatch shows **37.9% HIKE probability** (Kitco 7/25 + Bloomberg 7/26 "Fed Faces Growing Pressure to Hike Rates as Price Risks Rebound"); tail-risk is HAWKISH not dovish. Bloomberg/CNBC "why the Fed SHOULD hike" op-eds = sell-side prepping for hawkish surprise. **Half-size gate active per strategy line 35** for any qualifying setup today.
+  3. **Big earnings week — Apple + megacaps** (CNBC 7/26 "earnings playbook: Apple + other megacaps lead busiest week of the season" + Forbes 7/26 "Big Earnings Week Tests Wall Street's AI Spending Fears" + CNBC 7/27 04:33 UTC "Apple emerges as megacap hedge against the AI spending binge") — MSFT/META/AAPL/AMZN print this week (Tue-Thu AMC = binary catalysts Wed/Thu/Fri opens); NO A-tier BMO Mon on our candidate ETFs (Coca-Cola KO BMO Mon +5% EPS growth expected = staples idiosyncratic, not sector-moving for our momentum candidates).
+  4. **China CXMT chipmaker Shanghai IPO surge** (AP 7/27) — AI-cycle bid returning globally; supportive of XLK/QQQ reversal narrative but Fri sector-#7 rank keeps Test #2 failing today.
+- **Economic calendar:** Durable goods for June (secondary, non-market-moving), USDA NASS weekly crop progress (secondary). **FOMC 1pm dominates all other prints.** No CPI/PPI (already released prior weeks — cool CPI Wk-4 + cool PPI Wk-5 = why HIKE-tail is 37.9% not 60%+; but oil-crash disinflation + Fed-pressure narrative pulls both ways).
+- **Alpaca AH quote reliability caveat:** Fri 20:00 UTC (4pm ET Fri close) AH quotes wide/unreliable per usual — XLF bp $54.66 / ap $57.68 = 3-pt spread (unusable for gate math); XLK bp $170.57 / ap $181.43 = 11-pt (unusable); QQQ tight bp $684.28 / ap $684.37 = 9-cent (Fri close proxy usable); SPY bp $716.44 / ap $760.82 = 44-pt (unusable). **Use Fri Yahoo cash-close marks as reference** (XLF $56.31, XLK $175.88, XLB $51.26, XLP $84.13, XLI $182.66, XLV $162.57, XLE $59.62, QQQ ~$684, SPY ~$760); **cash-session re-quote at 09:30 ET runtime REQUIRED** for gate math.
+
+### Trade Ideas (Mon 7/27 — regime-shift session, FOMC binary at 1pm; runtime conditions for market-open routine, no clock-time gates)
+
+1. **XLE (Energy Select Sector SPDR) — DOES NOT QUALIFY today. Test #1 hard FAIL.** Oil -6.1% Fri + further ~-4% overnight = cumulative -10% oil crash on Iran/Gulf **CEASE-FIRE / de-escalation** (Reuters 7/27 + AP 7/27 confirm). Multi-week Iran/Hormuz thesis that drove XLE Wk-4-6 leadership BROKEN — this is not a paused catalyst, this is a broken thesis. **Skip cleanly.** Do NOT chase XLE reactive short either (not our vehicle; ETFs long-only per strategy).
+
+2. **XLB (Materials Select Sector SPDR) — DOES NOT QUALIFY today. Test #1 FAIL.** Fri #1 (+1.93%) driven by oil-inflation hedge (chemicals/mining/copper on inflation re-pricing); with oil -10% cumulative and disinflation re-pricing, oil-inflation hedge thesis BROKEN → XLB Fri #1 rank likely fades Mon. Not clean-#1 under new regime; skip until Mon cash close confirms a fresh materials-specific catalyst (industrial demand / rare-earths / defense-metals) or re-leadership.
+
+3. **XLK (Technology ETF) — DOES NOT QUALIFY today. Test #2 FAIL.** Fri -1.44% = sector #7 (WORST) = zero multi-day momentum coming in. NQ +1.54% overnight is a FUTURES signal, not sector momentum; Test #2 strictly reads Fri cash-close sector rank. Broader thesis (oil-de-escalation → disinflation → rate-cut path → tech multiples expansion + Apple/megacap earnings week) is strong, but sector-momentum test explicitly fails for today. If XLK closes Mon +1.5%+ with NQ leading = re-evaluate Tue as a QUALIFIED setup. Skip Mon.
+
+4. **QQQ (Nasdaq-100 ETF) — DOES NOT QUALIFY today. Test #2 FAIL.** Same rationale as XLK — Fri weak, sector momentum absent; NQ futures bounce is not sector momentum. Skip Mon.
+
+5. **XLF (Financials Select Sector SPDR) — DOES NOT QUALIFY today. Test #2 FAIL.** Fri +0.86% (#3 sector) is a modest single-day pop, not multi-day momentum (Thu -0.39%, Wed -0.11% per prior logs = flat-to-down 3-session trend into Fri bid). FOMC-day structural asymmetry exists (both dovish + hawkish tails favor XLF via NIM or steepener) but sector-momentum test explicitly requires multi-day trend, which XLF lacks. Skip Mon — reconsider if XLF prints +1%+ Mon on FOMC to confirm multi-day emergence.
+
+6. **XLP (Consumer Staples) — DOES NOT QUALIFY today. Test #2 FAIL.** Fri +1.11% (#2) is defensive bid on vol-expansion Wed-Thu; Mon risk-on futures (NQ +1.54%, ES +0.91%) = defensive counter-trend = Fri +1.11% likely fades Mon. No multi-day defensive-leadership trend confirmed. Skip.
+
+7. **XLI (Industrials) — DOES NOT QUALIFY today. Test #2 FAIL.** Fri +0.4% mid-pack, no leader status. Prior log Thu 7/23 XLI +1.73% #1 = one-day pop on GE Aerospace + defense catalysts, not confirmed multi-week trend. Skip Mon; reconsider if XLI reclaims leader rank Mon.
+
+8. **XLV (Healthcare) — DOES NOT QUALIFY. Test #2 FAIL.** Fri +0.7% mid-pack; no fresh catalyst; multi-week range-bound. Skip.
+
+9. **GOOGL / TSLA / MSFT / META / AAPL / AMZN / NVDA single-name reactive setups — DO NOT QUALIFY today.** MSFT/META print Tue AMC (Wed open reactive); AAPL/AMZN Thu AMC (Fri reactive); no BMO print Mon on any of these = catalyst is DEFERRED not present today. XLK sector momentum fails Test #2 for all mega-cap tech names Mon. Skip Mon; re-evaluate reactive setups post-print Wed/Thu/Fri open.
+
+10. **KO (Coca-Cola) BMO Mon 7/27 — DOES NOT QUALIFY.** Expected +5% EPS growth is modest, not a momentum-driver; KO is a defensive single-name in XLP sector (which itself Test #2 fails Mon). Not a sector-momentum vehicle; skip.
+
+11. **GLD (Gold) — DOES NOT QUALIFY.** VIX 17.64 -5.06% Fri = vol CONTRACTING not expanding; no safe-haven bid Mon. Skip.
+
+12. **AH-only reactive setups — none identified.** No overnight AH ripper with catalyst + sector-momentum confirmation.
+
+### Risk Factors
+- **FOMC 1pm ET Mon 7/27 with 37.9% HIKE tail (CME FedWatch per Kitco 7/25 + Bloomberg 7/26 "Fed Faces Growing Pressure to Hike Rates").** Consensus HOLD but hawkish-surprise = broad-tape crush -2-3% intraday on rate-hike delivery; Warsh presser hawkish tone = compounding sell. Any long entered pre-1pm carries binary asymmetric downside. **HALF-SIZE gate mandatory** per strategy if any setup did qualify. HIKE-tail direction confirmed asymmetric via Bloomberg/CNBC op-eds ("why Fed SHOULD hike").
+- **Regime shift completeness UNCONFIRMED.** Oil crash + Iran de-escalation is a MEGA-catalyst that broke multi-week XLE/XLB leadership; but new leadership (tech reassertion? financials? defensive rotation?) hasn't printed a cash close yet. Entering Mon open with pre-open thesis = guessing which sector wins the regime shift = low-conviction lottery ticket. Wait for Mon cash close data before Tue commits.
+- **Big earnings week = binary contagion risk.** MSFT/META Tue AMC, AAPL/AMZN Thu AMC = every mega-cap print is a broad-tape mover; sector-catalyst confidence low mid-week. Multi-day trend confirmation this week highly disrupted.
+- **Apple "megacap hedge against AI spending binge" (CNBC 7/27)** — sell-side positioning AAPL as capex-lite alternative to GOOGL's $44.9B capex punishment; if AAPL Thu print confirms this narrative = XLK/QQQ leadership resumption Fri; if AAPL missed = tech re-crush. Not Mon's risk but Wk-7 tail bomb.
+- **China AI/CXMT bid** — supportive of AI-cycle globally but Shanghai/US decoupling in cross-border AI hardware exports = mixed signal for XLK/QQQ; not enough to override Test #2 fail Mon.
+- **Data freshness caveat:** Alpaca `balance_asof` 2026-07-24 (Fri close = 1 session stale over weekend + Mon pre-open); flat book = zero valuation risk; sizing off equity=$100k valid.  yfinance context Fri 4pm ET cash close + Mon pre-open futures = live.
+- **CRITICAL — 25+ CONSECUTIVE MARKET-OPEN routine misses through Fri 7/24** (Tue Jun 23 → Fri Jul 24 = 6+ calendar weeks system failure per prior logs). Fri 7/24 confirmed XLE + XLI both qualifying gated setups = 0-trade Wk-6 close with 2 gated qualifying misses = compounding rule violation. **Wk-7 Mon 7/27 is a HOLD-legitimate session per Test #2 failure across all candidates (not a routine-miss violation if HOLD is the correct action).** But if Mon opens with a QUALIFYING cash-session sector leader emerging, market-open routine must fire — the persistent-infra failure remains this challenge's #1 risk beyond thesis quality.
+
+### Decision — HOLD (no sector passes Test #2 under Mon 7/27's fresh regime)
+
+- **NO ORDERS QUEUED for MARKET-OPEN routine Mon 7/27.**
+- **HOLD justification by candidate (named test failure per strategy rule 33-34):**
+  - XLE / XLB: **Test #1 FAIL** (oil-inflation catalyst BROKEN overnight by Iran/Gulf cease-fire + oil -10% cumulative → prior XLE/XLB multi-week leadership thesis dead)
+  - XLK / QQQ: **Test #2 FAIL** (Fri sector #7 -1.44% = worst-sector; NQ futures bounce is not sector momentum per strategy line 27)
+  - XLF: **Test #2 FAIL** (Fri +0.86% single-day pop after Thu -0.39% + Wed -0.11% = no multi-day trend)
+  - XLP: **Test #2 FAIL** (Fri +1.11% defensive one-day; risk-on Mon futures counter-trend)
+  - XLI / XLV: **Test #2 FAIL** (mid-pack Fri, no leader status)
+  - Mega-cap tech single names: **Test #2 FAIL** (XLK sector momentum absent; earnings deferred to Tue-Thu AMC)
+- **This is NOT "patience," "wait for confirmation," or "protect cash."** This is documented Test #1 (thesis broken for XLE/XLB) and Test #2 (no confirmed multi-day sector-momentum leader under new regime for XLK/QQQ/XLF/XLP/XLI/XLV) failures per strategy line 27 & 33-34. FOMC binary is a SIZING input (half-size), not a HOLD reason — but half-size of a Test-#2-failing setup is still a Test-#2-failing setup that should not be traded.
+- **CONTINGENT MARKET-OPEN plan** — if Mon 09:30 ET cash session opens with a **sector printing +1.5%+ gap-up AND leading peers by >1% AND ES not red > 0.5% at 09:30 runtime**, market-open routine may evaluate that sector as a fresh QUALIFYING setup on the intraday tape (Test #2 momentum confirming intra-day, not overnight). Specifically:
+  - **If XLK gaps +1.5%+ at open with QQQ leading = XLK conditional-qualifying setup**, HALF-SIZE (~$10k, ~57 sh @ ~$176 ref) with 10% trailing stop GTC (~$158 trigger), manual -7% ceiling $164, target +20% $211 (2:1 R:R), FOMC-day half-size gate active. Runtime gate: XLK bid > $178 AND NQ up > 0.5% AND VIX < 18 AND SPY not red > 0.5%.
+  - **If XLF gaps +1%+ at open with financials leading = XLF conditional-qualifying setup**, HALF-SIZE (~$10k, ~178 sh @ $56.31 ref) with 10% trailing stop GTC (~$50.68 trigger), manual -7% ceiling $52.37, target +20% $67.57 (2:1 R:R), FOMC-day half-size gate active. Runtime gate: XLF bid > $56.75 AND ES not red > 0.5% AND VIX < 18.
+  - **If NO sector prints +1.5% gap-up leading peers at open = HOLD cleanly Mon, re-evaluate Tue pre-market.**
+- **NO CLOCK-TIME GATES** — all triggers are runtime conditions at 09:30 ET cash open.
+- **NO FOMC-day speculation entries pre-1pm.** Only clean sector-leader gap-ups at cash open. If nothing qualifies at 09:30, do NOT re-enter mid-day speculating on FOMC direction. Even a strong intraday setup post-2pm carries hangover asymmetry from Warsh presser.
+- **RESOLVE-NOW check:** Iran de-escalation + oil crash confirmed via Reuters/AP/TradingView 7/27 wire; FOMC hike-tail confirmed via CME FedWatch (37.9%) per Kitco/Bloomberg 7/24-26; earnings BMO Mon confirmed KO only (not sector-driver); no BMO on candidate ETF constituents; no halts. **All checkable facts resolved this session; nothing parked for "verify tomorrow."**
+- **Trades this week (Wk-7 fresh cap) after Mon:** 0 of 3 (Tue-Fri available; Tue/Wed/Thu/Fri each carry mega-cap earnings binaries = high catalyst-density week, protect weekly cap for post-print reactive setups Wed-Fri).
+- **Deployment target Wk-7:** 30-50% by Fri if post-print reactive setups qualify (AAPL/MSFT/META/AMZN reactive gap-and-go's Wed-Fri opens); Mon flat = zero deployment cost, protects capital for higher-conviction Tue-Fri setups where catalyst + sector-momentum align post-print.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live at pre-market Mon 7/27; equity = $100k direct read valid; `balance_asof` 2026-07-24 (Fri close = 1 session stale, flat book = zero valuation risk).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes timestamped Fri 7/24 4pm ET cash close = 1-session fresh; overnight futures snapshot Mon pre-open = live.
+- Tavily news dated Fri 7/24 through Mon 7/27 07:07 UTC (Reuters, AP, TradingView, CNBC, Forbes, Bloomberg, Kitco, USA Today, LatestLY, The Daily Star, DTN Progressive Farmer) = current.
+- Alpaca AH quotes 20:00 UTC (Fri close) unreliable per usual (11-pt XLK spread, 44-pt SPY spread, 3-pt XLF); Fri Yahoo cash-close marks used as reference; cash-session re-quote at 09:30 ET runtime REQUIRED.
+- No stale-data block. Sizing UNBLOCKED (but no orders queued per HOLD decision).
