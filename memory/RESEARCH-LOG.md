@@ -2487,3 +2487,101 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - Alpaca AH quotes Mon 20:00 UTC unreliable single-side (XLP ap=0, XLV ap=0); XLF usable (bp $56.86 / ap $56.92); Yahoo Mon cash-close marks used as reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
 - No stale-data block. Sizing UNBLOCKED for both contingent HALF-SIZE FOMC-eve gates.
 
+
+### Jul 29 — Pre-Market (Wednesday — Wk-7 Day 3 / FOMC decision day)
+**Runtime:** ~04:35 ET pre-open (market opens 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Cash:** $100,000 | **Equity:** $100,000 | **Buying Power:** $400,000 | **Daytrade Count:** 0/3 | **balance_asof:** 2026-07-28
+
+### Account Snapshot
+- Cash $100,000.00 / Equity $100,000.00 / Portfolio value $100,000.00 / Buying power $400,000 (4x day-margin) / Non-marginable BP $100,000
+- Long market value $0 / Short market value $0 / Positions [] / Open orders [] / Daytrade count 0/3 (PDT fully open)
+- `balance_asof` 2026-07-28 (Tue cash close mark) — flat book = zero valuation stale-risk
+- 33rd consecutive flat session (no positions taken since phase start Jun 4). 100% cash vs 75-85% deployed target.
+
+### Market Context (Tue 7/28 cash close + Wed pre-open futures)
+- SPX 7428.78 +0.21% / ES=F 7477.75 +0.17% (Wed pre-open) — flat-marginal green absorbing Kospi shock so far
+- NDX 24876.9 -0.22% / NQ=F 27918.5 -0.01% — AI panic pressure but futures containing
+- DJI 52747.32 +1.03% — value/defensive/Dow-heavy rotation extending
+- VIX 18.26 +0.27% — below 20 breakout threshold
+- WTI 82.18 +3.68% / Brent 87.20 +3.7% — sharp overnight bid on US-Iran Iraq strikes / missile attack renewed (Reuters 7/29 06:00)
+- Sector momentum map (Tue 7/28 cash close, ranked): XLV +2.36% #1, XLP +1.99% #2, XLB +1.85% #3, XLF +1.27% #4, XLE -1.35%, XLI -0.39%, XLK -1.84%
+- Alpaca AH quotes Tue 20:00 UTC: XLP bp $84.39/ap $91.26 wide (use Yahoo close $87.06); XLV bp $162.09/ap $0 unusable single-side; XLF bp $55.40/ap $58.99 wide; XLK bp $170.01/ap $180.14 wide. Yahoo cash-close marks are the reference; cash-session 09:30 ET re-quote mandatory for gate math.
+- **Today's calendar:** FOMC decision 2:00 PM ET (Warsh chair, consensus HOLD but Citadel/hike-tail ~35%), Powell/Warsh presser 2:30 PM ET, MSFT + META earnings AMC (post-close binary), no major macro release (jobless claims 7/29 Thu, GDP Q2 Thu, PCE Fri).
+- **Overnight risk-off catalyst:** Kospi 2nd circuit breaker in 2 days — Wed session -6-8% (after Tue -10.84%), 40% off June high; SK Hynix / Kioxia leading chip rout. Reuters 7/29 01:25 "Asian stock rout deepens on AI worries ahead of tech earnings". AI/semi contagion INTENSIFYING → risk-off catalyst for XLV/XLP defensive rotation, negative catalyst for XLK/QQQ/semis longs.
+- **Oil catalyst re-igniting:** US-Iran tension escalates after Iraq strikes + missile attack (Reuters 7/29 06:00). WTI +3.7% overnight. Note XLE Tue -1.35% despite oil bid = sector still broken (energy-equity/oil-price divergence persists post-June ceasefire → skip XLE regardless of crude tape).
+
+### Momentum Map (Mon 7/27 + Tue 7/28 two-session confirmation)
+- **XLV — TOP #1 CONFIRMED.** Tue +2.36% cash close leader. Mon rank top-3. Two-session extension. Catalyst present (defensive rotation + AI-panic contagion + biopharma funding rebound "128% forward EPS growth" per Seeking Alpha 7/24).
+- **XLP — #2 EXTENDING.** Tue +1.99% cash close. Mon +1.06% / Fri #2 = three-session extension. Catalyst present (defensive + FOMC-day + Kospi contagion).
+- **XLF — #4 marginal.** Tue +1.27%. Mon top-3. But Wed = FOMC-day binary directly = catalyst DIRECTIONALLY AMBIGUOUS (hike = NIM bid, hold = flat-curve fade).
+- **XLB #3, XLI mid-pack, XLE broken, XLK/mega-tech = short-side catalyst present but no shorting per strategy.**
+
+### Trade Ideas
+
+1. **XLV (Healthcare SPDR ETF) — QUALIFIES → TRADE HALF-SIZE**
+   - Test #1 catalyst: DEFENSIVE ROTATION + AI-panic contagion (Kospi 2 circuit breakers, chip rout) + FOMC-day hedge + biopharma funding rebound. Fresh, dated 7/24-7/29 sources. ✓
+   - Test #2 sector momentum: #1 leader Tue +2.36%, two-session confirmed. ✓
+   - Test #3 stop level definable: 10% trail GTC ($150.53 initial) / -7% manual $155.55. ✓
+   - Test #4 R:R ≥ 2:1: entry ~$167.30, stop $155.55 (risk $11.75), target $200.76 (+20% reward $33.46) → R:R 2.85:1. ✓
+   - QUALIFIES → TRADE HALF-SIZE ~60 sh × $167.30 = $10,038 = 10% notional (FOMC-day HALF-SIZE gate per strategy line 35).
+
+2. **XLP (Consumer Staples SPDR ETF) — QUALIFIES → TRADE HALF-SIZE**
+   - Test #1 catalyst: Defensive rotation + Kospi risk-off contagion + FOMC-day hedge, three-session extension (Fri+Mon+Tue). ✓
+   - Test #2 sector momentum: #2 Tue +1.99%, top-2 both Mon+Tue. ✓
+   - Test #3 stop: 10% trail GTC ($78.35 initial) / -7% manual $81.00. ✓
+   - Test #4 R:R: entry ~$87.10, stop $81.00 (risk $6.10), target $104.52 (+20% reward $17.42) → R:R 2.86:1. ✓
+   - QUALIFIES → TRADE HALF-SIZE ~115 sh × $87.10 = $10,017 = 10% notional.
+
+3. **XLF (Financials) — DOES NOT QUALIFY today. Test #1 FAIL.** FOMC-day binary directly = catalyst directionally ambiguous (hike = NIM bid, hold = flat-curve fade). Test #1 requires "specific catalyst" — a coin-flip binary is not a specific bullish catalyst. Reconsider Thu 7/30 post-FOMC based on hike-vs-hold reveal + dot-plot.
+
+4. **XLB (Materials) — DOES NOT QUALIFY. Test #2 FAIL.** Tue #3 +1.85% but only 1-session strength; not sector-leader multi-session confirmation.
+
+5. **XLE (Energy) — DOES NOT QUALIFY. Test #1 vehicle-broken.** WTI +3.7% overnight on US-Iran Iraq strikes but XLE Tue -1.35% = catalyst present, vehicle NOT responding. Post-ceasefire energy-equity/oil divergence structural (June ceasefire reset regime). Skip regardless of crude tape.
+
+6. **XLK / mega-tech / semis — Test #1 fresh-NEGATIVE catalyst.** Kospi 2 circuit breakers, SK Hynix / Kioxia AI panic. Long-side hard skip. No shorting per strategy.
+
+7. **MSFT / META (AMC binary Wed) — CATALYST DEFERRED to Thu open.** Reactive setups belong to Thu pre-market not Wed. Skip today; reserve Wk-7 slot #3 for Thu/Fri post-print reactive.
+
+8. **XLI (Industrials) — Test #2 FAIL.** Tue -0.39% mid-pack.
+
+9. **KO / PFE / MMM / UPS / single-name earnings — Test #2 FAIL.** Idiosyncratic, not sector-momentum vehicles.
+
+10. **GLD / gold — Test #1 vehicle-broken.** VIX 18.26 below fear threshold; safe-haven catalyst present (Iran + AI panic) but gold not responding per prior 7/28 read.
+
+11. **Reactive AH setups — none identified.** No overnight ripper with catalyst + sector-momentum confirmation.
+
+### Risk Factors
+- **FOMC binary 2pm ET.** Consensus HOLD, tail 35% HIKE (Warsh unpredictable + Citadel call). Hawkish-surprise = broad-tape -2-3% intraday + hawkish dot-plot; dovish-hold = risk-on relief bid. XLV/XLP defensive-rotation entries carry mid-session binary but 10% trail contains directional damage; -7% manual ceiling caps loss to $701 XLV / $701 XLP = $1,402 total worst-case (0.7% of equity per name, 1.4% combined). Both HALF-SIZE per strategy line 35 = correct posture into event day.
+- **Kospi 2nd circuit breaker + AI panic INTENSIFYING.** Chip rout Wed session (-6-8%) after Tue -10.84% = fresh negative contagion pressure at US open. XLV/XLP defensive-rotation catalyst REINFORCED by chip/AI panic (safe-haven bid extension). But if ES gaps down >0.5% at 09:30 = broad-tape risk-off panic overwhelms defensive rotation = gate FAILS on both.
+- **MSFT + META AMC Wed post-close.** XLV/XLP not tech-heavy = idiosyncratic post-print not direct hit. But if MSFT/META miss + broad-tape gap-down Thu, defensive names could soften. 10% trail + -7% manual manage that.
+- **Oil catalyst re-igniting (US-Iran Iraq strikes overnight, WTI +3.68%).** Positive for XLE THESIS but XLE-vehicle broken (Tue -1.35% despite oil bid). Not a play. Watch for spillover risk-off from Iran escalation intensifying.
+- **VIX 18.26 approaching 20.** Runtime gate = VIX < 20 at 09:30 ET; if VIX crosses 20 = both XLV+XLP gates FAIL (broader panic → trend-day not stable defensive-rotation extension).
+- **Data freshness:** Alpaca account/positions/orders live 07:37 UTC Wed 7/29; equity $100k direct read valid; `balance_asof` 2026-07-28 (Tue close mark = fresh). yfinance context Tue 4pm ET cash close = 1-session fresh + Wed overnight futures live. Tavily news dated 7/25-7/29 06:00 UTC (CNBC, Bloomberg, Reuters, Motley Fool, Investopedia, tradingkey, ts2.tech, EBC, Investing.com, PropertyCasualty360) = current. Alpaca AH quotes wide/single-side — cash-session re-quote at 09:30 ET runtime REQUIRED for gate math. No stale-data block. Sizing UNBLOCKED for both HALF-SIZE FOMC-day gates.
+- **CRITICAL — 28+ CONSECUTIVE MARKET-OPEN routine misses through Tue 7/28** (Tue Jun 23 → Tue Jul 28 = 28 sessions across 6+ calendar weeks). Tue 7/28 had 2 QUALIFYING CONTINGENT setups (XLP + XLF) which went unexecuted at 09:30 ET fire AND remained qualifying at 12:05 ET midday re-quote per Tue 7/28 midday scan log = compounding rule violation. **Today Wed 7/29 has 2 QUALIFYING setups (XLV + XLP HALF-SIZE FOMC-day) requiring cash-session routine execution** — a 29th consecutive miss with both gates triggering at 09:30 ET = compounding violation on FOMC-day session (highest-signal binary of Wk-7). Hardware-level (cron/webhook/scheduler) fix remains the singular structural risk beyond thesis quality. Weekly review from Fri 7/3 = 17 sessions overdue; MUST run Fri 7/31 PM slot to close backlog + Wk-7 tally.
+
+### Decision — TRADE (2 QUALIFIED setups, HALF-SIZE per FOMC-day gate)
+
+- **PRIMARY: XLV HALF-SIZE ~60 sh (~$10,038, 10% notional) if runtime gate met at 09:30 ET** (XLV bid > $166.00 AND ES not red > 0.5% AND VIX < 20). Catalyst: defensive rotation + AI-panic contagion + biopharma-funding rebound, Mon+Tue two-session #1 confirmed. Stop 10% trail GTC (fixed stop $150.57 PDT fallback) / -7% manual $155.55 / target $200.76 (+20%) / R:R 2.85:1. At +15% ($192.40) tighten trail to 7%; at +20% ($200.76) tighten to 5%.
+- **SECONDARY: XLP HALF-SIZE ~115 sh (~$10,017, 10% notional) if runtime gate met at 09:30 ET** (XLP bid > $86.00 AND ES not red > 0.5% AND VIX < 20). Catalyst: defensive rotation + Kospi risk-off + FOMC-day hedge, Fri+Mon+Tue three-session extension. Stop 10% trail GTC (fixed $78.39 PDT fallback) / -7% manual $81.00 / target $104.52 (+20%) / R:R 2.86:1. Independent gate from XLV.
+- **Both gates fire = ~$20,055 deployed (20% notional). Wk-7 cap 2/3 used** (1 slot reserved for Thu/Fri post-MSFT/META/AAPL/AMZN reactive setups).
+- **Both gates fail = HOLD Wed** with named Test-fail logged (ES gap-down >0.5% = defensive rotation vehicle FAILS on broad-tape panic, or VIX ≥ 20 = fear regime not stable rotation). Re-evaluate Thu 7/30 pre-market post-FOMC + post-MSFT/META prints.
+- **HOLD by candidate (specific test failure named):**
+  - XLF: Test #1 FAIL (FOMC-day binary directionally ambiguous, not specific bullish catalyst) — reconsider Thu post-decision
+  - XLB: Test #2 FAIL (1-session strength only)
+  - XLE: Test #1 vehicle-broken (oil +3.7%, ETF -1.35% divergence)
+  - XLI: Test #2 FAIL (Tue mid-pack)
+  - XLK / mega-tech / semis: Test #1 fresh-NEGATIVE catalyst (Kospi 2 circuit breakers, chip rout)
+  - MSFT / META AMC binary: catalyst DEFERRED to Thu open, reserve Wk-7 slot #3
+  - KO / PFE / MMM / UPS: Test #2 FAIL (single-name, not sector-vehicle)
+  - GLD: Test #1 vehicle-broken (VIX below fear threshold, gold not responding)
+- **This is NOT "patience," "wait for confirmation," "protect cash," or "wait for FOMC clarity."** This is documented Test-fail per each candidate + 2 QUALIFYING setups with runtime gates set for market-open routine.
+- **FOMC = SIZING gate (HALF-SIZE), not blocker.** Both entries deliberately sized to 10% notional to survive worst-case hawkish surprise + Kospi contagion via -7% manual ceiling + 10% trailing GTC.
+- **RESOLVE-NOW check:** FOMC date Wed 7/29 2pm ET confirmed (multiple 7/28 sources). Kospi Wed session -6-8% confirmed (tradingkey/koreaherald/investing.com 7/29). MSFT AMC 7/29 confirmed (Motley Fool 7/26 + Benzinga 7/28). Iran Iraq strikes overnight WTI +3.7% confirmed (Reuters 7/29 05:00). Alpaca quotes wide/single-side but Yahoo Tue cash-close marks reliable reference. No BMO earnings on target ETFs. All checkable facts resolved this session; nothing parked for "verify tomorrow."
+- **Trades this week (Wk-7) after Wed:** 0-2 of 3 depending on which gates fire (0 if both fail, 1 if one, 2 if both). Thu/Fri reserved for post-MSFT/META (Wed AMC) + post-AAPL/AMZN (Thu AMC) reactive.
+- **Deployment target Wk-7:** 20-40% by Fri depending on Wed contingent fires + Thu/Fri reactive qualifiers.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live 07:37 UTC Wed 7/29; equity $100k direct read valid; `balance_asof` 2026-07-28 (Tue close mark, flat book zero valuation risk).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Tue 7/28 4pm ET cash close + Wed pre-open overnight futures = live.
+- Tavily news dated 7/24 through 7/29 07:00 UTC (CNBC, Bloomberg, Reuters, Motley Fool, Investopedia, tradingkey, ts2.tech, EBC, Investing.com, koreaherald, Yahoo Finance, PropertyCasualty360, Seeking Alpha, forexfactory) = current.
+- Alpaca AH quotes Tue 20:00 UTC wide/single-side unreliable across XLP/XLV/XLF/XLK; Yahoo Tue cash-close marks used as reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
+- No stale-data block. Sizing UNBLOCKED for both contingent HALF-SIZE FOMC-day gates.
