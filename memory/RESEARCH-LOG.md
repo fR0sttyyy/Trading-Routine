@@ -2585,3 +2585,10 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - Tavily news dated 7/24 through 7/29 07:00 UTC (CNBC, Bloomberg, Reuters, Motley Fool, Investopedia, tradingkey, ts2.tech, EBC, Investing.com, koreaherald, Yahoo Finance, PropertyCasualty360, Seeking Alpha, forexfactory) = current.
 - Alpaca AH quotes Tue 20:00 UTC wide/single-side unreliable across XLP/XLV/XLF/XLK; Yahoo Tue cash-close marks used as reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
 - No stale-data block. Sizing UNBLOCKED for both contingent HALF-SIZE FOMC-day gates.
+
+### Jul 29 — Midday Scan Addendum (12:03 ET, pre-FOMC)
+- **Runtime state:** `clock is_open=true`; `positions []`; `orders []`; cash $100k / equity $100k / daytrade 0/3; `balance_asof` 2026-07-28. Book flat live at midday.
+- **STEP 3-5 no-op:** no positions to cut, tighten, or thesis-check. Nothing acted; no ClickUp alert.
+- **29th CONSECUTIVE MARKET-OPEN MISS confirmed.** Both XLV HALF-SIZE + XLP HALF-SIZE 09:30 ET contingent gates went UNEXECUTED per pre-market plan. Wk-7 slot count still 0/3; deployment 0% vs 75-85% target. Compounding hardware/scheduler violation (cron/webhook not firing 09:30 ET routine) — Fri 7/31 weekly review MUST address structural root cause. Thesis-quality is NOT the failure mode; execution layer is.
+- **12:03 ET pre-FOMC posture:** ~2h to Powell/Warsh 2:00 PM decision + 2:30 PM presser. Midday-scan routine is position-management only, not authorized for new entries; the XLV/XLP gates were opening-print gates with 09:30 ET runtime resolution — not re-armable at midday against a live FOMC binary in ~2h. Skip re-entry attempt: entering into a 2h-out FOMC coin-flip with no morning-session confirmation = worse setup than the missed 09:30 ET fire, and would burn a Wk-7 slot on a fresh binary rather than the confirmed defensive-rotation catalyst. Thu 7/30 post-FOMC + post-MSFT/META reactive setups now carry the Wk-7 slot budget.
+- **No commit-relevant P&L, no order-book changes.** Committing this addendum only for audit trail continuity.
