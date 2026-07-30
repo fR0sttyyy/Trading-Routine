@@ -2592,3 +2592,110 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **29th CONSECUTIVE MARKET-OPEN MISS confirmed.** Both XLV HALF-SIZE + XLP HALF-SIZE 09:30 ET contingent gates went UNEXECUTED per pre-market plan. Wk-7 slot count still 0/3; deployment 0% vs 75-85% target. Compounding hardware/scheduler violation (cron/webhook not firing 09:30 ET routine) — Fri 7/31 weekly review MUST address structural root cause. Thesis-quality is NOT the failure mode; execution layer is.
 - **12:03 ET pre-FOMC posture:** ~2h to Powell/Warsh 2:00 PM decision + 2:30 PM presser. Midday-scan routine is position-management only, not authorized for new entries; the XLV/XLP gates were opening-print gates with 09:30 ET runtime resolution — not re-armable at midday against a live FOMC binary in ~2h. Skip re-entry attempt: entering into a 2h-out FOMC coin-flip with no morning-session confirmation = worse setup than the missed 09:30 ET fire, and would burn a Wk-7 slot on a fresh binary rather than the confirmed defensive-rotation catalyst. Thu 7/30 post-FOMC + post-MSFT/META reactive setups now carry the Wk-7 slot budget.
 - **No commit-relevant P&L, no order-book changes.** Committing this addendum only for audit trail continuity.
+
+
+### Jul 30 — Pre-Market (Thursday — Wk-7 Day 4 / post-FOMC + AAPL/AMZN AMC)
+**Runtime:** ~03:35 ET pre-open (market opens 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Cash:** $100,000 | **Equity:** $100,000 | **Buying Power:** $400,000 | **Daytrade Count:** 0/3 | **balance_asof:** 2026-07-28
+
+### Account Snapshot
+- Cash $100,000.00 / Equity $100,000.00 / Portfolio value $100,000.00 / Buying power $400,000 (4x day-margin) / Non-marginable BP $100,000
+- Long market value $0 / Short market value $0 / Positions [] / Open orders [] / Daytrade count 0/3 (PDT fully open)
+- `balance_asof` 2026-07-28 (stale — Wed close mark not yet posted; flat book = zero valuation risk)
+- 34th consecutive flat session (no positions taken since phase start Jun 4). 100% cash vs 75-85% deployed target.
+
+### Market Context (Wed 7/29 cash close + Thu pre-open futures)
+- SPX 7316.15 -1.52% / ES=F 7368.75 +0.24% (Thu pre-open) — post-FOMC 9-3 hawkish-dissent sell-off, futures attempting modest bounce
+- NDX 24442.94 -1.74% / NQ=F 27437.0 +0.35% — MSFT AH lift (+8%) offset by META AH drop (-11%); net small green futures
+- DJI 51594.14 -2.19% — value/cyclical crush post-FOMC on hawkish-dissent
+- VIX 19.74 -4.45% — post-FOMC vol-crush despite tape sell-off (event-vol unwind mechanical)
+- WTI 85.01 +0.65% cash close (Thu pre-open $83.90 slight fade after Wed +8% Iran-strikes spike) / Brent 92.27 +1.69% (Thu pre-open $89.45)
+- Sector momentum map (Wed 7/29 cash close, ranked): **XLE +1.88% #1**, XLP +0.34% #2, XLV -0.61% #3, XLB -1.15%, XLF -1.60%, XLK -2.64%, XLI -3.19%
+- Alpaca AH quotes Wed 20:00 UTC: XLE bp $58.43/ap $0 single-side (use Wed close $58.65); XLP bp $87.01/ap $0 single-side; XOM bp $149.28/ap $165.88 wide; CVX bp $181.59/ap $202.20 wide. Cash-session 09:30 ET re-quote mandatory for gate math.
+- **Today's calendar:** GDP Q2 advance + Core PCE (June) + Initial Jobless Claims ALL at 8:30 AM ET pre-open (GDPNow tracking 1.6%; PCE consensus +0.18% M/M / +3.3% Y/Y; claims est 200k vs prior 187k). AAPL + AMZN earnings AMC (Tim Cook's last report as CEO for AAPL; AMZN focus on $200B AI capex + AWS growth). No mid-session macro event.
+- **FOMC recap (Wed 2pm ET):** Fed HELD 3.50-3.75%, 9-3 vote with 3 dissenters PRESSING FOR HIKE (Warsh dissent bloc). Fifth consecutive hold. Broad-tape read hawkish-dissent > dovish-hold = SPX -1.52% / NDX -1.74% / DJI -2.19% intraday collapse. Missed pre-market plan XLV+XLP HALF-SIZE gates = 30th consecutive market-open miss.
+- **MSFT Q4 AMC (Wed):** Beat significantly — Rev $90B (+18% YoY vs $87.7B est), EPS $4.81 vs $4.24 est, Azure strong, Copilot 30M seats. Stock +8% AH (some reports +3% on lower-than-expected capex framing). Tech-tape bullish for Thu open.
+- **META Q2 AMC (Wed):** Rev $60.8B (+28% YoY vs $58.7B est) BEAT but stock -11% AH on $2.4B legal charge + $1.18B severance + guidance disappointment. Ad-tech tape ambiguous.
+- **Overnight Iran catalyst REACCELERATING.** US-Iran Iraq strikes + missile attack Wed drove WTI +8% intraday cash-session; Thu pre-open modest fade ($83.90 WTI, $89.45 Brent) but oil holding $83+/$89+ vs pre-strike ~$78. NDTV: "Brent at $90 on fresh Iran strikes, US crude stockpiles hit multi-year low." Trump warning fresh strikes. Energy-equity FINALLY responding to oil (XLE +1.88% Wed vs Tue -1.35% = divergence broken, sector reactivating post-June ceasefire dormancy).
+- **Kospi tape:** Stabilizing after Tue -10.84% + Wed -6-8%; not fresh contagion catalyst Thu (chip rout absorbed).
+
+### Momentum Map (Tue 7/28 + Wed 7/29 two-session confirmation)
+- **XLE — #1 LEADER CONFIRMED.** Wed +1.88% cash close, RELATIVE STRENGTH vs SPX -1.52% (outperformed by 340bps in a broad-tape rout). Tue was -1.35% (divergence session) but Wed +1.88% = REACTIVATION as oil/equity linkage restored on Iran escalation + Fed-hold-supports-inflation-trade narrative. Catalyst: Iran strikes (WTI +8% Wed / holding $83+ Thu overnight), US crude stockpiles multi-year low (NDTV 7/30 01:16), Trump warning fresh strikes. Fed-HOLD narrative also supportive (real-rate compression = commodity bid).
+- **XLP — #2 marginal +0.34%.** Faded from Tue +1.99% strong lead. Defensive rotation losing momentum as vol-crush post-FOMC removes fear-bid. Test #2 borderline weak; not multi-session leadership extension.
+- **XLV — #3 -0.61% Wed.** Was yesterday's PRIMARY; faded to red Wed after Tue +2.36% pop. Test #2 FAILS (no multi-session leadership, reversed sign).
+- **XLF — #6 -1.60%.** FOMC HOLD + hawkish-dissent = flat-curve fade delivered. Test #2 fails.
+- **XLK — #7 -2.64%.** Broad tech crush pre-MSFT/META AMC prints. Post-print MSFT+ / META- = mixed setup Thu open; not clean momentum.
+- **XLI/XLB — mid-pack red.** No leadership.
+
+### Trade Ideas
+
+1. **XLE (Energy SPDR ETF) — QUALIFIES → TRADE FULL-SIZE**
+   - Test #1 catalyst: US-Iran ESCALATION (Iraq strikes + missile attack Wed, Trump warning fresh strikes) driving WTI +8% Wed with hold $83+ Thu overnight + US crude stockpiles multi-year low (NDTV 7/30 01:16) + Fed HOLD real-rate compression bullish commodities. Fresh, dated 7/29-7/30 sources (Reuters, NDTV, TheVibes, RBC Ukraine, ETMarkets). ✓
+   - Test #2 sector momentum: **#1 leader Wed +1.88% with RELATIVE STRENGTH vs SPX -1.52% (outperformance 340bps in broad rout).** Divergence session Tue absorbed, sector reactivated. Not multi-session pure #1 but the relative-strength-in-a-rout signal is arguably stronger than 2-session extension in a flat tape. ✓
+   - Test #3 stop level definable: 10% trail GTC (~$52.79 initial) / -7% manual $54.54. ✓
+   - Test #4 R:R ≥ 2:1: entry ~$58.65 (Wed close ref), risk $5.87 (10%), reward $11.73 (20%) → R:R 2.0:1. ✓ (exactly at floor)
+   - QUALIFIES → TRADE FULL-SIZE ~340 sh × $58.65 = $19,941 = ~20% notional. No AAPL/AMZN AMC exposure (energy-decoupled from AMC binaries). No mid-session macro event Thu after 8:30 AM data prints (open absorbs the data). Full-size justified.
+
+2. **XLP (Consumer Staples) — DOES NOT QUALIFY. Test #2 FAIL.** Only +0.34% Wed = faded from Tue +1.99% lead. Post-FOMC vol-crush removed the fear-bid defensive-rotation was riding. Two-session momentum extension test = broken (Tue leader, Wed fader). Skip.
+
+3. **XLV (Healthcare) — DOES NOT QUALIFY. Test #2 FAIL.** Wed -0.61% after Tue +2.36% = single-session pop reversed. Post-FOMC defensive-unwind. Skip.
+
+4. **XLF (Financials) — DOES NOT QUALIFY. Test #1 delivered NEGATIVE.** FOMC HOLD (rather than surprise HIKE) = flat-curve = -1.60% Wed. Catalyst present but vehicle responded down. Skip. Reconsider only if next-week yield curve steepens.
+
+5. **XLK / QQQ / mega-tech basket — DOES NOT QUALIFY. Test #2 FAIL + Test #1 mixed.** XLK -2.64% Wed cash close. Post-print MSFT +8% AH vs META -11% AH = split reaction; futures +0.35% NQ marginal green not multi-session confirmation. AAPL + AMZN AMC binaries TONIGHT = direct event risk on any XLK entry Thu. Skip; reactive setup budgeting AAPL/AMZN Fri open.
+
+6. **AAPL / AMZN (AMC binary tonight) — CATALYST DEFERRED to Fri open.** Same discipline as MSFT/META Wed → Thu reactive was DEFERRED. Reserve Wk-7 slot #3 for Fri post-print reactive setup after known AH-move + gap gate at Fri open.
+
+7. **XLI / XLB (Industrials/Materials) — Test #2 FAIL.** -3.19% / -1.15% Wed.
+
+8. **GLD / gold — Test #2 FAIL.** VIX post-FOMC vol-crush (-4.45%) = safe-haven premium unwinding; gold not the vehicle Thu.
+
+9. **XOM / CVX (integrated oil singles) — QUALIFY THEMATICALLY under XLE thesis but ETF is superior vehicle.** ETF captures 24% XOM + 18% CVX + diversified other integrateds (SLB/COP/EOG/OXY/PSX) without single-name earnings idiosyncratic (XOM reports Fri 8/1, CVX reports Fri 8/1 — BOTH single-name earnings binary Fri = additional risk not in ETF). Prefer XLE over singles for cleaner sector-momentum expression + earnings-diversification. Skip singles.
+
+10. **Reactive AH setups — none identified beyond AAPL/AMZN which are deferred to Fri.**
+
+### Risk Factors
+- **AAPL + AMZN AMC binary Thu 4pm ET.** Neither is XLE constituent; XLE-decoupled from AMC event risk. But broad-tape crush on double-miss = XLE would fade with broad-market on gap-down Fri open — 10% trailing stop GTC contains directional damage; -7% manual ceiling caps to $1,395 worst-case (0.7% of $100k equity). Fully within risk tolerance.
+- **8:30 AM ET data cluster (GDP Q2 + PCE + jobless claims).** Any hawkish PCE surprise (>0.20% M/M vs 0.18% est or >3.4% Y/Y vs 3.3% est) = broad-tape sell-off, though XLE partially insulated (inflation prints reinforce commodity/energy bid). Weak GDP < 1.0% = growth-scare = mixed for XLE (oil demand concerns vs Fed-cut-repricing bid). Runtime gate ES > -1.0% at open handles panic prints.
+- **Iran escalation MODULATION risk.** WTI already faded from Wed +8% intraday to Thu pre-open -1.3% ($83.90 vs $85.01). Reuters 7/30 00:35 "Oil prices slip as tankers continue to ply Middle East conflict zones" = evidence supply-disruption fear ebbing without US strike escalation. Runtime gate WTI not red > 2% (i.e. WTI > ~$83.30) required — if WTI red > 2% at 09:30 ET = Iran catalyst deteriorating = XLE gate FAILS.
+- **XLE-relative-strength interpretation fragility.** Wed +1.88% vs SPX -1.52% is genuine outperformance but built on one-session Iran spike. If Thu opens with WTI fade + broad-tape bounce (short-cover in tech) = XLE relative-strength fades as beta-rotation reverses; entry gate handles by requiring XLE bid > $58.65 (i.e. holding Wed cash close = catalyst intact) rather than blindly at open.
+- **Fed 9-3 dissent implications.** 3 hike-dissenters means hawkish-drift risk into next Sep meeting = real-rate rise possible = commodity bid over-extended. But near-term (2-3 week horizon on 10% trail), Iran + stockpile-low + real-rate-compression-from-hold dominates; hawkish-drift risk is a Sep story, not a Thu-trade risk.
+- **VIX 19.74 post-crush.** Below 20 breakout threshold. Runtime gate VIX < 22 (widened from 20 given post-event mechanical crush leaves VIX already elevated for next week) = safe-harbor still available for trend-day rather than panic-vol regime.
+- **Data freshness:** Alpaca account/positions/orders live 03:35 ET Thu 7/30; equity $100k direct read valid; `balance_asof` 2026-07-28 (2-day-stale, flat book = zero valuation risk from stale mark). yfinance context Wed 7/29 4pm ET cash close + Thu pre-open overnight futures = live. Tavily news dated 7/27 through 7/30 07:00 UTC (advisorperspectives/goldsilver/kraken/realtor/yahoo/CNBC/stocktwits/Reuters/investing/xtb/seekingalpha/NDTV/TheVibes/RBC-Ukraine/ETMarkets/factcheck/moomoo/topstep/AA/CFI/TradingView) = current. Alpaca AH quotes single-side/wide (XLE/XLP one-sided, XOM/CVX wide); cash-session 09:30 ET re-quote MANDATORY for gate math. No stale-data block. Sizing UNBLOCKED for XLE FULL-SIZE gate.
+- **CRITICAL — 30+ CONSECUTIVE MARKET-OPEN routine misses through Wed 7/29** (Tue Jun 23 → Wed Jul 29 = 30 sessions across 6.5+ calendar weeks). Wed 7/29 had 2 QUALIFYING setups (XLV + XLP HALF-SIZE FOMC-day) which went unexecuted 09:30 ET AND unexecutable at midday scan (2h to FOMC binary) = compounding rule violation on FOMC-day session. Today Thu 7/30 has **1 QUALIFYING FULL-SIZE XLE setup** requiring cash-session routine execution. Hardware-level (cron/webhook/scheduler) fix REMAINS singular structural risk beyond thesis quality. Fri 7/31 weekly review from 7/3 (18 sessions overdue) MUST close backlog + Wk-7 tally + structural-execution-root-cause post-mortem.
+
+### Decision — TRADE (1 QUALIFIED FULL-SIZE setup)
+
+- **PRIMARY: XLE FULL-SIZE ~340 sh (~$19,941, 20% notional) — ENTER AT OPEN if runtime gate met at 09:30 ET**
+  - Runtime condition: XLE bid > $58.65 AND ES not red > 1.0% AND WTI not red > 2.0% AND VIX < 22
+  - Catalyst: US-Iran escalation (Iraq strikes + Trump fresh-strike warning) + US crude stockpiles multi-year low + Fed HOLD real-rate compression + XLE relative-strength Wed +1.88% vs SPX -1.52% (340bps outperformance in broad rout)
+  - Stop: 10% trailing stop GTC ($52.79 initial) submitted immediately post-fill; fixed stop $52.79 PDT fallback
+  - Manual ceiling: -7% ($54.54) — cut if breached before trail catches up
+  - Target: $70.38 (+20%); at +15% ($67.45) tighten trail to 7%; at +20% ($70.38) tighten to 5%
+  - R:R 2.0:1 (at strategy floor)
+  - FULL-SIZE justified: no AAPL/AMZN AMC exposure in XLE, no mid-session macro-event Thu (8:30 AM data absorbed at open), Iran-catalyst is TAILWIND not headwind
+- **Gate failure fallback (specific test named):**
+  - XLE bid ≤ $58.65 at 09:30 ET → HOLD "energy-relative-strength catalyst not confirming at cash open, one-session outperformance failed to extend"
+  - ES red > 1.0% at 09:30 ET → HOLD "broad-tape panic overwhelms sector-momentum signal (bad GDP/PCE surprise or hostile Middle East overnight print)"
+  - WTI red > 2.0% at 09:30 ET → HOLD "Iran de-escalation overnight breaks energy-equity catalyst"
+  - VIX ≥ 22 at 09:30 ET → HOLD "post-FOMC vol regime re-expanding, sector-momentum thesis inoperative in panic-vol"
+- **HOLD by candidate (specific test failure named — NOT patience, NOT protect-cash, NOT wait-for-confirmation):**
+  - XLP: Test #2 FAIL (single-session lead Tue, faded Wed +0.34%)
+  - XLV: Test #2 FAIL (Wed reversed to -0.61% after Tue +2.36% pop)
+  - XLF: Test #1 delivered negative (FOMC HOLD = flat-curve, -1.60% Wed)
+  - XLK/mega-tech: Test #2 FAIL (-2.64% Wed) + AAPL/AMZN AMC direct event risk
+  - AAPL/AMZN: catalyst DEFERRED to Fri open post-print (same discipline as MSFT/META Wed→Thu deferral)
+  - XLI/XLB: Test #2 FAIL (red Wed)
+  - GLD: Test #2 FAIL (VIX vol-crush removed safe-haven bid)
+  - XOM/CVX singles: qualifying thesis but ETF superior vehicle (single-name earnings binaries Fri 8/1 add uncompensated risk)
+- **This is NOT "patience," "wait for confirmation," "protect cash," or "post-FOMC digestion."** This is documented Test-fail per each non-qualifying candidate + 1 QUALIFYING FULL-SIZE XLE setup with runtime gate set for market-open routine.
+- **No macro-event mid-session Thu (8:30 AM data absorbed by 09:30 open, not a live event blocker).** Full-size XLE is correct sizing; no HALF-SIZE gate applies.
+- **RESOLVE-NOW check:** FOMC 9-3 hold confirmed (advisorperspectives/realtor/goldsilver/kraken 7/29). MSFT +8% AH beat confirmed (CNBC/Reuters/stocktwits 7/29). META -11% AH miss/guide confirmed (CNBC/Variety 7/29). AAPL/AMZN AMC Thu 7/30 confirmed (moomoo/tastylive/appleinsider/fool 7/27-29). GDP/PCE/claims 8:30 AM confirmed (investing/xtb/seekingalpha 7/29-30). Iran strikes overnight + WTI $83.90 confirmed (Reuters/NDTV/TheVibes/RBC-Ukraine/ETMarkets 7/30). All checkable facts resolved; nothing parked for later.
+- **Trades this week (Wk-7) after Thu:** 0-1 of 3 depending on XLE gate fire. Slot #2 reserved for Fri post-AAPL/AMZN reactive. Slot #3 open for late-week discretionary.
+- **Deployment target Wk-7:** 20% by Thu close (XLE fires) + potential 10-20% Fri post-print = 30-40% by Fri close vs 75-85% Wk-7 target. Cash surplus continues to fund next-week deployment.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live 03:35 ET Thu 7/30; equity $100k direct read valid; `balance_asof` 2026-07-28 (Tue close mark 2-day stale; flat book zero valuation risk).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Wed 7/29 4pm ET cash close + Thu pre-open overnight futures = live.
+- Tavily news dated 7/27 through 7/30 07:00 UTC across 20+ sources = current.
+- Alpaca AH quotes Wed 20:00 UTC single-side/wide (XLE/XLP one-sided, XOM/CVX wide bid-ask); Wed cash-close marks used as reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
+- No stale-data block. Sizing UNBLOCKED for XLE FULL-SIZE gate.
