@@ -2699,3 +2699,116 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - Tavily news dated 7/27 through 7/30 07:00 UTC across 20+ sources = current.
 - Alpaca AH quotes Wed 20:00 UTC single-side/wide (XLE/XLP one-sided, XOM/CVX wide bid-ask); Wed cash-close marks used as reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
 - No stale-data block. Sizing UNBLOCKED for XLE FULL-SIZE gate.
+
+
+### Jul 31 — Pre-Market (Friday — Wk-7 Day 5 / post-AAPL+AMZN AMC + Kospi chip surge)
+**Runtime:** ~03:40 ET pre-open (market opens 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Cash:** $100,000 | **Equity:** $100,000 | **Buying Power:** $400,000 | **Daytrade Count:** 0/3 | **balance_asof:** 2026-07-29
+
+### Account Snapshot
+- Cash $100,000.00 / Equity $100,000.00 / Portfolio value $100,000.00 / Buying power $400,000 (4x day-margin) / Non-marginable BP $100,000
+- Long market value $0 / Short market value $0 / Positions [] / Open orders [] / Daytrade count 0/3 (PDT fully open)
+- `balance_asof` 2026-07-29 (Wed close mark, 2-day stale; flat book = zero valuation risk)
+- 35th consecutive flat session (no positions since phase start Jun 4). 100% cash vs 75-85% deployed target. Wk-7 slots used 0/3. **31st CONSECUTIVE MARKET-OPEN MISS** (Tue Jun 23 → Thu Jul 30) — Thu 7/30 XLE FULL-SIZE gate went unexecuted at 09:30 ET; compounding structural-execution violation, weekly-review Fri PM MUST address.
+
+### Market Context (Thu 7/30 cash close + Fri pre-open futures/overnight)
+- SPX 7437.63 +1.66% / ES=F 7504.5 +0.43% (Fri pre-open) — post-FOMC hawkish-dissent sell-off Wed FULLY RECOVERED Thu on MSFT beat, Fri extending on AAPL+AMZN AMC beats
+- NDX/Nasdaq 25122.18 +2.78% / NQ=F 28541.25 +1.07% — tech-tape ripping post-MSFT+AAPL+AMZN triple-beat + Kospi +15-18% overnight chip surge
+- DJI 52208.06 +1.19% — broad-tape green
+- VIX 16.82 -1.58% — vol crushed further post-FOMC (Wed 19.74 → Thu 16.82), clean risk-on regime
+- WTI 82.45 -1.36% / Brent 88.08 -1.07% (Fri pre-open) — oil FADING as Iran-de-escalation narrative wins (Reuters "tankers continue to ply Middle East conflict zones"); Wed +8% Iran-strike spike unwinding
+- Sector momentum map (Thu 7/30 cash close, ranked): **XLK +5.5% #1 CRUSHING**, XLI +0.98% #2, XLF +0.56% #3, XLE +0.53%, XLB -0.19%, XLV -1.64%, XLP -2.16%
+- Alpaca AH quotes Thu 20:00 UTC: XLK bp $170.80/ap $0 single-side; XLE bp $56.85/ap $0 single-side; QQQ bp $686.28/ap $686.38 clean two-sided (Yahoo Thu close XLK $175.73 authoritative reference). Cash-session 09:30 ET re-quote mandatory for gate math.
+- **Today's calendar:** XOM + CVX Q2 earnings BMO (analyst ests XOM Rev $95.8B / EPS $3.87; CVX Rev $57.5B / EPS $5.81 — "best results in 15 quarters" per Benzinga). Eurozone CPI Flash + China NBS Manufacturing PMI overnight (already printed, minor). Month-end July 31 = rebalancing flow into leading tech.
+- **AAPL Q3 AMC (Thu):** Beat — Rev $109.42B (+16% YoY vs $108.65B est), Net Income $29.79B (+27%), China rev $18.82B (+22% but vs $19.6B est = slight China miss). Stock +4.37% AH initially, mixed later reports of -4% AH from China-miss framing. Net: modest beat, no gap disaster.
+- **AMZN Q2 AMC (Thu):** MASSIVE beat — Rev $201B (+20% YoY vs $196.5B est), EPS $5.75 vs $1.82 est ($53B non-op from Anthropic mark), AWS +37% YoY (fastest since 2021), 2026 capex guided $220B. Stock +7-8% AH. Clean bullish.
+- **Kospi Fri +15-18% overnight** — record chip rally on SK Hynix +18-20% + Samsung +15-20% + SK Group Chairman Chey personal buy + US semi rally spillover. Fresh MASSIVE tech/semi tailwind for Fri US open.
+- **Iran/oil catalyst DETERIORATING.** Reuters/Seeking Alpha 7/30: "tankers continue to ply Middle East conflict zones" = supply-disruption fear fading without US strike escalation. WTI -1.36% Fri pre-open, Brent -1.07%. Wed spike unwinding; energy-equity catalyst broken.
+- **Fed backdrop:** FOMC HOLD Wed 9-3 hawkish-dissent absorbed; tape re-priced hawkish-drift concern in one session then reversed on MSFT+earnings-super-cycle narrative dominance.
+
+### Momentum Map (Wed 7/29 + Thu 7/30 two-session confirmation)
+- **XLK — #1 LEADER CONFIRMED.** Thu +5.5% cash close (SPX +1.66%, 384bps outperformance) after Wed -2.64%. Two-session net = essentially flat, BUT the Thu rip on MSFT-beat absorption + Fri pre-open NQ +1.07% + Kospi +15-18% overnight = catalyst-driven 2-session momentum EXTENSION into Fri open. Semi weight (NVDA ~20% XLK) directly benefits from Kospi chip surge. Fresh AAPL beat + AMZN beat = MSFT-tier confirmation across 3 mega-cap tech names in 48h.
+- **XLI — #2 +0.98% Thu.** Broad-tape green participant, no specific catalyst driver. Test #1 FAIL (no documented catalyst).
+- **XLF — #3 +0.56% Thu.** Post-FOMC tape recovery participation, hawkish-dissent supported net-interest-margin narrative. Multi-session mixed (Wed -1.60% Thu +0.56%). Test #2 FAIL (no leadership extension).
+- **XLE — #4 +0.53% Thu, +0.53% Fri pre-open.** Faded from Wed +1.88% peak as Iran de-escalation dominates + oil -1.36% Fri pre-open. Thu XLE gate went unexecuted (31st market-open miss) but catalyst has since DETERIORATED — thesis no longer intact for Fri re-entry. XOM+CVX BMO earnings binary Fri = additional idiosyncratic risk in ETF. Test #1 catalyst-broken.
+- **XLB — #5 -0.19%.** No leadership.
+- **XLV — #6 -1.64%.** Defensive rotation fully unwound; post-FOMC vol-crush + risk-on regime = defensive vehicles bleeding. Test #2 FAIL.
+- **XLP — #7 -2.16%.** Same as XLV; defensive-rotation vehicle broken.
+
+### Trade Ideas
+
+1. **XLK (Technology Select Sector SPDR) — QUALIFIES → TRADE FULL-SIZE**
+   - Test #1 catalyst: MSFT Q4 beat (+8% AH Wed absorbed Thu) + AAPL Q3 beat (+4.37% AH Thu) + AMZN Q2 blowout beat AWS +37% (+7-8% AH Thu) + Kospi +15-18% overnight chip rally SK Hynix +20% Samsung +18% + US semi spillover (Bloomingbit/Aju Press/Seoul Economic Daily 7/31) = FRESH, MULTI-SOURCE, DATED 7/30-7/31. ✓
+   - Test #2 sector momentum: **#1 leader Thu +5.5% (SPX +1.66%, 384bps outperformance) + Fri NQ +1.07% pre-open extending + Kospi chip surge = 2-session catalyst-driven momentum EXTENSION.** ✓
+   - Test #3 stop level definable: 10% trail GTC ($158.16 initial) / -7% manual $163.43. ✓
+   - Test #4 R:R ≥ 2:1: entry ~$175.73 (Thu close ref), risk $17.57 (10%), reward $35.15 (20%) → R:R 2.0:1. ✓ (at floor)
+   - QUALIFIES → TRADE FULL-SIZE ~114 sh × $175.73 = $20,033 = ~20% notional. No mid-session macro event Fri; XOM/CVX BMO earnings not XLK-holdings. Month-end rebalancing = tailwind for leading sector.
+
+2. **QQQ (Nasdaq-100 ETF, alternative vehicle) — QUALIFIES thematically but XLK preferred.** QQQ carries AMZN direct exposure (~5-6% weight) which is the standout AH beat, but XLK's concentrated semi weight (NVDA/AVGO/AMD) captures the Kospi chip catalyst more purely. Both work; picking XLK for cleanest sector-momentum expression. Skip.
+
+3. **AMZN single — DOES NOT QUALIFY. Test-fail: post-print gap-chase risk.** +7-8% AH already priced in; entering at cash-open = chasing post-print gap without base-building. Sector exposure captured via QQQ/XLK. Skip.
+
+4. **AAPL single — DOES NOT QUALIFY. Test-fail: mixed reaction (China miss).** +4.37% AH but conflicting -4% reports = uncertain print. Prefer XLK ETF vehicle for tech exposure without single-name China-headline risk. Skip.
+
+5. **NVDA / semi singles — DOES NOT QUALIFY. Vehicle preference.** Direct Kospi chip catalyst but ETF vehicle (XLK ~20% NVDA + AVGO + AMD + MU + INTC diversification) superior to single-name for sector-momentum expression. Skip singles.
+
+6. **XLE (Energy) — DOES NOT QUALIFY. Test #1 CATALYST BROKEN.** Iran de-escalation narrative dominant (Reuters "tankers continue to ply"), WTI -1.36% / Brent -1.07% Fri pre-open, XLE faded from Wed +1.88% peak to +0.53% Thu +0.53% Fri pre-open. Wed spike unwinding without US strike escalation. + XOM+CVX BMO earnings binary Fri adds idiosyncratic risk. Skip; thesis no longer intact.
+
+7. **XOM / CVX singles — DOES NOT QUALIFY. Earnings binary BMO Fri.** Reporting before open Fri = pre-open blackout on the primary buying window. Even if beat, XLE-vehicle-broken thesis means single-name earnings-reaction is unhedged binary. Skip.
+
+8. **XLF (Financials) — DOES NOT QUALIFY. Test #2 FAIL.** Mixed 2-session (Wed -1.60%, Thu +0.56%). No leadership extension.
+
+9. **XLI (Industrials) — DOES NOT QUALIFY. Test #1 FAIL.** +0.98% Thu green but no documented catalyst driver; participatory tape not leading momentum.
+
+10. **XLV / XLP / GLD — Test #2 FAIL.** Defensive rotation fully unwound in post-FOMC vol-crush + risk-on regime; XLV -1.64% XLP -2.16%. Skip.
+
+11. **META single — DOES NOT QUALIFY.** Wed -11% AH miss/guide, not recovering into Fri, still under pressure. Skip.
+
+### Risk Factors
+- **Month-end July 31 = rebalancing flow.** Distortion possible in first hour + last hour (index pension rebalance). Tech leadership = tailwind, but if institutional rebalancers TRIM winners (locking July gains) = late-day fade risk. 10% trail GTC + -7% manual ceiling handles; -7% worst-case = $1,402 (0.7% equity). Within risk tolerance.
+- **XOM / CVX BMO earnings 8:30 AM-ish.** Not XLK holdings, no direct risk. But if both miss materially → energy tape crushed → risk-off spillover into broad-tape → XLK fades on rotation. Runtime gate ES not red > 0.5% at open handles.
+- **Post-print gap-chase risk on XLK.** XLK Thu +5.5% already absorbed MSFT+; Fri pre-open NQ +1.07% suggests further extension not yet priced fully. But if XLK gaps up > 2% at open then fades = classic "sell the news" pattern. Gate: XLK bid > $175.00 (Thu close $175.73 minus 0.4%) required = catalyst intact at open; if bid < $175 = gap-and-fade in progress = SKIP.
+- **AAPL China-miss framing risk.** Mixed AH reaction (+4% then -4%) = if morning re-rate emphasizes China weakness, AAPL fades and drags XLK ~15% weight. Runtime gate NQ not red > 0.5% at open handles.
+- **Kospi rally sustainability.** +15-18% single-session = massive one-shot; if profit-taking hits US semis at open = XLK NVDA-weight fades. But 2-session catalyst extension (Thu MSFT + Fri AAPL/AMZN/Kospi) = multi-source not single-catalyst dependent.
+- **Weekend gap risk.** Fri entry carries Mon overnight gap; Middle East (Iran) could re-escalate over weekend re-igniting oil / risk-off. 10% trail GTC does NOT protect over weekend gap-down; -7% manual ceiling would trip at Mon open if gapped. Sizing at 20% = worst-case $1,402 = tolerable.
+- **VIX 16.82 low-vol regime.** Below 18 = comfortable trend regime; not a blocker but complacency risk if a Middle East headline hits over weekend.
+- **Data freshness:** Alpaca account/positions/orders live 03:40 ET Fri 7/31; equity $100k direct read valid; `balance_asof` 2026-07-29 (Wed close, 2-day stale; flat book zero valuation risk). Yahoo context Thu 7/30 4pm ET cash close + Fri pre-open overnight futures = live. Tavily news dated 7/26-7/31 06:00 UTC across 20+ sources (Bloomingbit, Aju Press, Seoul Economic Daily, The Sun Chronicle, markets.com, Reuters, CNBC, Seeking Alpha, TradingView, Techmeme, 9to5Mac, 24/7 Wall St, Motley Fool, Benzinga, FXLeaders, tipranks, 247wallst) = current. Alpaca AH quotes 20:00 UTC Thu single-side (XLK/XLE one-sided, QQQ clean); cash-session 09:30 ET re-quote MANDATORY. No stale-data block. Sizing UNBLOCKED for XLK FULL-SIZE gate.
+- **CRITICAL — 31+ CONSECUTIVE MARKET-OPEN MISSES through Thu 7/30** (Tue Jun 23 → Thu Jul 30 = 31 sessions across 6.5+ calendar weeks). Thu 7/30 XLE FULL-SIZE gate went unexecuted (catalyst has since deteriorated so miss is fortunate this time, but structural failure identical). Today Fri 7/31 has **1 QUALIFYING FULL-SIZE XLK setup** requiring cash-session routine execution — a 32nd miss with XLK gate triggering at 09:30 ET = compounding violation on final Wk-7 session with #1 sector-leader catalyst. **Fri 7/31 PM weekly review MUST close from Fri 7/3 (18 sessions overdue) + address structural cron/webhook/scheduler root-cause fix as blocking priority.**
+
+### Decision — TRADE (1 QUALIFIED FULL-SIZE setup)
+
+- **PRIMARY: XLK FULL-SIZE ~114 sh (~$20,033, 20% notional) — ENTER AT OPEN if runtime gate met at 09:30 ET**
+  - Runtime condition: XLK bid > $175.00 AND ES not red > 0.5% AND NQ not red > 1.0% AND VIX < 20
+  - Catalyst: MSFT+AAPL+AMZN triple-beat (48h earnings super-cycle) + Kospi +15-18% overnight chip rally (SK Hynix +18-20%, Samsung +15-20%) + US semi spillover + Thu XLK +5.5% relative-strength (SPX +1.66%, 384bps outperformance)
+  - Stop: 10% trailing stop GTC ($158.16 initial) submitted immediately post-fill; fixed stop $158.16 PDT fallback
+  - Manual ceiling: -7% ($163.43) — cut if breached before trail catches up
+  - Target: $210.88 (+20%); at +15% ($202.09) tighten trail to 7%; at +20% ($210.88) tighten to 5%
+  - R:R 2.0:1 (at strategy floor)
+  - FULL-SIZE justified: no mid-session macro event Fri, XOM/CVX BMO not XLK holdings, catalyst multi-source not single-dependent, month-end rebalancing = tailwind for leaders
+- **Gate failure fallback (specific test named):**
+  - XLK bid ≤ $175.00 at 09:30 ET → HOLD "tech-leader catalyst not confirming at open, gap-and-fade in progress"
+  - ES red > 0.5% at 09:30 ET → HOLD "broad-tape sell-off overwhelms sector-momentum (XOM/CVX miss spillover or overnight Middle East print)"
+  - NQ red > 1.0% at 09:30 ET → HOLD "tech-specific unwind (AAPL China-miss reprice or Kospi profit-taking spillover) overwhelms 2-session catalyst"
+  - VIX ≥ 20 at 09:30 ET → HOLD "vol regime re-expanding, sector-momentum inoperative in panic-vol"
+- **HOLD by candidate (specific test failure named — NOT patience, NOT protect-cash, NOT wait-for-confirmation):**
+  - XLE: Test #1 CATALYST-BROKEN (Iran de-escalation, oil -1.36% Fri pre-open, XLE faded from Wed +1.88%) + XOM/CVX BMO binary
+  - XOM/CVX: earnings-binary BMO Fri unhedged in vehicle-broken thesis
+  - QQQ: valid alternative vehicle, XLK preferred for chip-catalyst purity
+  - AMZN/AAPL/NVDA singles: ETF vehicle superior + AMZN gap-chase risk / AAPL China-miss risk
+  - META: Wed -11% AH not recovering
+  - XLF: Test #2 FAIL (mixed 2-session, no leadership extension)
+  - XLI: Test #1 FAIL (no documented catalyst, participatory only)
+  - XLV/XLP: Test #2 FAIL (defensive rotation fully unwound in risk-on regime)
+  - GLD: Test #2 FAIL (VIX 16.82, safe-haven bid absent)
+  - XLB: Test #2 FAIL (Thu red)
+- **This is NOT "patience," "wait for confirmation," "protect cash," or "wait for stability."** This is documented Test-fail per each candidate + 1 QUALIFYING FULL-SIZE XLK setup with runtime gate for market-open routine.
+- **No macro-event mid-session Fri.** No HALF-SIZE gate applies; XLK Full-Size correct.
+- **RESOLVE-NOW check:** AAPL Q3 beat confirmed (Techmeme/9to5Mac/247wallst 7/30). AMZN Q2 blowout confirmed (TradingView/CNBC/247wallst/Motley Fool 7/30). Kospi +15-18% Fri confirmed (Bloomingbit/Aju Press/Seoul Economic Daily/The Sun Chronicle 7/31). XOM/CVX BMO 7/31 confirmed (Benzinga/Zacks/Seeking Alpha 7/28-30). Iran de-escalation confirmed (Reuters/Seeking Alpha 7/30). Month-end rebalancing = standard July 31 mechanics. All checkable facts resolved; nothing parked for later.
+- **Trades this week (Wk-7) after Fri:** 0-1 of 3 depending on XLK gate fire. Slots #2/#3 unused for Wk-7 (Fri is final session).
+- **Deployment target Wk-7:** 0% (both Wed FOMC gates missed + Thu XLE gate missed + Fri XLK gate pending) vs 75-85% Wk-7 target = massive Wk-7 execution shortfall. Weekly-review Fri PM MUST address structural scheduler root cause.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live 03:40 ET Fri 7/31; equity $100k direct read valid; `balance_asof` 2026-07-29 (Wed close mark, 2-day stale; flat book zero valuation risk).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Thu 7/30 4pm ET cash close + Fri pre-open overnight futures = live.
+- Tavily news dated 7/26-7/31 07:00 UTC across 20+ sources = current.
+- Alpaca AH quotes Thu 20:00 UTC single-side (XLK bp $170.80/ap $0, XLE bp $56.85/ap $0), QQQ clean bp $686.28/ap $686.38; Yahoo Thu cash close XLK $175.73 authoritative reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
+- No stale-data block. Sizing UNBLOCKED for XLK FULL-SIZE gate.
