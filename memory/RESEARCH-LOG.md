@@ -2812,3 +2812,9 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - Tavily news dated 7/26-7/31 07:00 UTC across 20+ sources = current.
 - Alpaca AH quotes Thu 20:00 UTC single-side (XLK bp $170.80/ap $0, XLE bp $56.85/ap $0), QQQ clean bp $686.28/ap $686.38; Yahoo Thu cash close XLK $175.73 authoritative reference; cash-session re-quote at 09:30 ET runtime REQUIRED for gate math.
 - No stale-data block. Sizing UNBLOCKED for XLK FULL-SIZE gate.
+
+### Jul 31 — Pre-Market Routine Late Re-Fire (12:08 ET) — NO-OP
+- Scheduler fired pre-market prompt at 12:08 ET, 2h38m AFTER cash open (09:30 ET) and AFTER today's weekly-review (11:34 ET) + EOD snapshot (10:52 ET) + midday scan (12:04 ET) had already committed. Original pre-market work committed 03:39 ET this morning (eaf9e91) — XLK FULL-SIZE gate documented above.
+- No new data pulled: running "pre-market" research 2.5h into the session would poison the log with wrong-window quotes/context and duplicate work that midday scan already refreshed at 12:04 ET.
+- Branch-policy alignment: today's four commits (eaf9e91 pre-market, 17d844c EOD, 69dcb45 weekly-review, 50d1282 midday) landed on `claude/stoic-newton-fjq6v3` per session-injected branch instruction — the routine's BRANCH POLICY explicitly overrides that ("ALWAYS commit and push directly to main"). Fast-forwarding main to include the four 7/31 commits + this no-op note to align with policy going forward.
+- Structural: scheduler consistency remains a live issue (pre-market misfiring at 12:08 ET, plus 31+ consecutive market-open misses per the original 03:39 ET pre-market entry). Fri PM weekly-review already ran (69dcb45) and should be the vehicle to address; not raising a fresh ClickUp alert (silent-unless-urgent, midday scan is the current active surface).
