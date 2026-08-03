@@ -2818,3 +2818,114 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - No new data pulled: running "pre-market" research 2.5h into the session would poison the log with wrong-window quotes/context and duplicate work that midday scan already refreshed at 12:04 ET.
 - Branch-policy alignment: today's four commits (eaf9e91 pre-market, 17d844c EOD, 69dcb45 weekly-review, 50d1282 midday) landed on `claude/stoic-newton-fjq6v3` per session-injected branch instruction — the routine's BRANCH POLICY explicitly overrides that ("ALWAYS commit and push directly to main"). Fast-forwarding main to include the four 7/31 commits + this no-op note to align with policy going forward.
 - Structural: scheduler consistency remains a live issue (pre-market misfiring at 12:08 ET, plus 31+ consecutive market-open misses per the original 03:39 ET pre-market entry). Fri PM weekly-review already ran (69dcb45) and should be the vehicle to address; not raising a fresh ClickUp alert (silent-unless-urgent, midday scan is the current active surface).
+
+### Aug 3 — Pre-Market (Monday — Wk-8 Day 1 / post-weekend Iran de-escalation + ISM Manufacturing PMI mid-session)
+**Runtime:** ~pre-open Mon 8/3 (market opens 09:30 ET) | **Positions:** 0 | **Orders:** 0 | **Cash:** $100,000 | **Equity:** $100,000 | **Buying Power:** $400,000 | **Daytrade Count:** 0/3 | **balance_asof:** 2026-07-31
+
+### Account Snapshot
+- Cash $100,000.00 / Equity $100,000.00 / Portfolio value $100,000.00 / Buying power $400,000 (4x day-margin) / Non-marginable BP $100,000
+- Long market value $0 / Short market value $0 / Positions [] / Open orders [] / Daytrade count 0/3 (PDT fully open)
+- `balance_asof` 2026-07-31 (Fri close mark; flat book zero valuation risk)
+- 36th consecutive flat session (no positions since phase start Jun 4). 100% cash vs 75-85% deployed target. Wk-8 slots used 0/3, Wk-8 slots remaining 3. **32nd CONSECUTIVE MARKET-OPEN MISS** (Tue Jun 23 → Fri Jul 31) — Fri 7/31 XLK FULL-SIZE gate went unexecuted at 09:30 ET; compounding structural-execution violation continues into Wk-8.
+
+### Market Context (Fri 7/31 cash close + Mon pre-open futures/overnight)
+- SPX 7489.72 +0.7% / ES=F 7555.0 +0.48% (Mon pre-open) — Fri closed strong on AAPL+AMZN earnings absorption, futures extending
+- Nasdaq 25373.85 +1.0% / NQ=F 28438.5 +0.12% — Fri tech tape strong, Mon pre-open marginally green
+- DJI 52485.03 +0.53% — broad-tape green Fri
+- VIX 16.10 +0.69% — low-vol regime intact (below 18 comfortable trend)
+- WTI 79.13 -6.54% / Brent 83.08 -5.52% (Mon pre-open) — **OIL CRASHING** on Iran de-escalation catalyst (US-Iran peace talks set to resume Mon per AA/Yenisafak/Fortune 8/3); Reuters/Elpaso reports Iran DISPUTES Trump talks-claim; net effect = oil -5-6.5% overnight
+- Sector momentum map (Fri 7/31 cash close, ranked): **XLE +1.0% #1**, XLI +0.81% #2, XLF -0.11%, XLK -0.22%, XLP -0.49%, XLV -0.59%, XLB -2.34%
+- Two-session cumulative (Thu 7/30 + Fri 7/31): **XLK +5.3% (Thu +5.5% Fri -0.22%) = LEADER by wide margin**, XLI +1.8%, XLE +1.5% (broken today), XLF +0.4%, XLB -2.5%
+- Alpaca AH quotes Fri 20:00 UTC: XLK bp $170.10/ap $181.13 wide (Yahoo Fri close $175.35 authoritative), QQQ bp $685.42/ap $685.86 clean two-sided, XLE bp $57.74/ap $0 single-side (Yahoo $59.55), XLI $174.46 bp only (Yahoo $179.84). Cash-session 09:30 ET re-quote mandatory.
+- **Today's calendar:** ISM Manufacturing PMI Jul release 10:00 ET (consensus 54.0 vs Jun 53.3 = expansionary improving per klsescreener 8/3). No BMO earnings of scale. PLTR AMC Q2 (Wall St $0.35 EPS / $1.81B rev per marketsday 8/1). Week ahead: CAT+LLY BMO Tue 8/4, VST AMC Wed 8/5, NFP Fri 8/7.
+- **Iran/oil catalyst FULLY BROKEN.** Overnight peace-talks news (AA 8/3 09:35 UTC "Oil prices fall over 5% as US-Iran talks set to resume", Yenisafak 8/3 07:59 "Oil prices plunge 5% as US-Iran peace talks resume", Fortune 8/3 10:00) drove WTI/Brent -5-6.5%. Even with Iran-disputes-talks headline (Elpaso 8/3 12:07), damage done. XLE thesis dead.
+- **Tech catalyst FRESH into Mon.** MSFT+AAPL+AMZN triple-beat (48h earnings super-cycle Wed-Thu 7/29-7/30) + Kospi Fri +15-18% chip rally + Fri Nasdaq futures rally on chip strength (Barchart 7/31). Cybersecurity subsector (FTNT +102% YTD, PANW +79%, CRWD +61%, NET +40% per Investing.com 8/3) structural bid intact.
+- **Fed backdrop:** FOMC HOLD Wed 7/29 9-3 hawkish-dissent fully absorbed. Jackson Hole Aug policy symposium ahead per intellectia 8/3.
+
+### Momentum Map (Thu 7/30 + Fri 7/31 two-session confirmation)
+- **XLK — #1 LEADER by 2-session cumulative +5.3%.** Thu +5.5% (SPX +1.66%, 384bps outperformance) → Fri -0.22% orderly month-end profit-taking (SPX +0.7% Fri, XLK held). Not "extension" per se but massive cumulative lead vs #2 XLI at +1.8%. Catalyst multi-source (MSFT+AAPL+AMZN + Kospi + Fri semi rally + cyber subsector +40-100% YTD). Mon pre-open NQ +0.12% not fading tech.
+- **XLI — #2 +1.8% cumulative.** Two-session consistency (+0.98% Thu, +0.81% Fri). Test #1 FAIL (no specific catalyst, participatory tape).
+- **XLE — #3 +1.5% cumulative but CATALYST BROKEN Mon.** Fri #1 sector but overnight oil -5-6.5% on US-Iran peace talks = thesis dead. Even if resilient Mon open, catalyst inversion is documented. Skip.
+- **XLF — #4 +0.4% cumulative.** Mixed 2-session, no leadership extension. Test #2 FAIL.
+- **XLB — -2.5% cumulative.** Broken. Skip.
+- **XLV / XLP — defensive continues to bleed** (post-FOMC vol-crush + risk-on regime dominant). Test #2 FAIL.
+
+### Trade Ideas
+
+1. **XLK (Technology Select Sector SPDR) — QUALIFIES → TRADE HALF-SIZE (ISM PMI 10am ET macro-event gate)**
+   - Test #1 catalyst: MSFT (7/29 AMC beat) + AAPL (7/30 AMC beat) + AMZN (7/30 AMC blowout AWS +37%) + Kospi Fri +15-18% chip rally (SK Hynix +18-20%, Samsung +15-20%) + Fri Nasdaq futures rally on chip strength (Barchart 7/31) + cyber subsector structural bid (FTNT/PANW/CRWD/NET +40-100% YTD per Investing.com 8/3). Multi-source, dated 7/29-8/3. ✓
+   - Test #2 sector momentum: **#1 leader by 2-session cumulative +5.3% vs #2 XLI +1.8%** (Thu +5.5% #1 crushing, Fri -0.22% orderly month-end consolidation). Mon pre-open NQ +0.12% not fading. ✓
+   - Test #3 stop level definable: 10% trail GTC ($157.82 initial) / -7% manual $163.08. ✓
+   - Test #4 R:R ≥ 2:1: entry ~$175.35 (Fri close ref), risk $17.54 (10%), reward $35.07 (20%) → R:R 2.0:1. ✓ (at floor)
+   - QUALIFIES → TRADE HALF-SIZE ~57 sh × $175.35 = $9,995 = ~10% notional (HALF-SIZE per ISM Manufacturing PMI 10:00 ET macro-event 30min post-open). FULL-SIZE upgrade path: if ISM prints in-line to modestly-hot (54.0-55.0 = risk-on confirmation without inflation-fear reprice) AND XLK holds >$175 through 10:15 ET, midday scan can add second HALF-SIZE lot to reach FULL 20% notional.
+
+2. **QQQ (Nasdaq-100 ETF, alternative vehicle) — QUALIFIES thematically, XLK preferred.** QQQ has AMZN direct weight (~5-6%) but XLK's concentrated semi weight (NVDA/AVGO/AMD) captures Kospi chip catalyst more purely. Both valid; picking XLK. Skip.
+
+3. **XLE (Energy) — DOES NOT QUALIFY. Test #1 CATALYST FULLY BROKEN.** WTI -6.54% / Brent -5.52% Mon pre-open on US-Iran peace-talks resumption. Even with Iran-disputes headline, damage done overnight. Fri +1.0% #1 sector position will invert at Mon open. Skip.
+
+4. **Cybersecurity singles (FTNT/PANW/CRWD/NET) — DOES NOT QUALIFY. Vehicle preference + chase risk.** Structural thematic bid (+40-100% YTD per Investing.com 8/3) but XLK captures at diversified weight without single-name chase risk on names already up 60-100% YTD. Prefer ETF vehicle for sector-momentum expression. Skip singles.
+
+5. **PLTR (AMC Q2 tonight) — DOES NOT QUALIFY. Pre-print earnings binary.** Reports AMC tonight ($0.35 EPS / $1.81B rev consensus). Same discipline as MSFT/AAPL/AMZN pre-print DEFERRAL. Reserve reactive slot for Tue open post-print if beat + gate confirms.
+
+6. **CAT / LLY (BMO Tue 8/4) — pre-print earnings binary.** Not vehicles for today; reactive-only Tue.
+
+7. **XLI (Industrials) — DOES NOT QUALIFY. Test #1 FAIL.** +1.8% cumulative 2-session but no documented catalyst driver; participatory tape not leading momentum.
+
+8. **XLF (Financials) — DOES NOT QUALIFY. Test #2 FAIL.** Mixed 2-session (+0.56% Thu, -0.11% Fri), no leadership extension.
+
+9. **XLV / XLP / GLD — Test #2 FAIL.** Defensive rotation unwound in risk-on / low-VIX (16.10) regime. Skip.
+
+10. **XLB — Test #2 FAIL.** Fri -2.34% worst-sector. Skip.
+
+### Risk Factors
+- **ISM Manufacturing PMI Jul 10:00 ET macro event.** Consensus 54.0 vs Jun 53.3 = expansionary improving. Hot print (>55.0) = growth-and-inflation reprice = mixed for tech (real-rate rise offsets growth beat); cold print (<52.0) = growth-scare = tech sells off on Fed-cut-repricing insufficient to offset growth fear. HALF-SIZE at open handles binary; -7% manual ceiling caps to $700 worst-case (0.7% of $100k equity). Runtime gate at 09:30 ET pre-print entry accepts the binary in return for capturing catalyst-still-fresh momentum.
+- **Post-print gap-chase risk on XLK diminished.** Thu +5.5% pop fully absorbed by Fri close ($175.73 → $175.35 = -0.22% orderly consolidation, not fade). Mon entry captures continuation, not chase.
+- **Weekend gap risk contained.** Mon pre-open ES +0.48% NQ +0.12% = no adverse weekend headline. Only weekend event = Iran de-escalation (oil crash) which is neutral-to-mild-positive for tech (lower oil = lower input costs, no direct offset).
+- **Oil crash spillover to tech.** WTI/Brent -5-6.5% overnight is a NEGATIVE for XLE holdings but a MILD POSITIVE for tech (input-cost relief + real-rate compression from disinflation). No negative spillover expected.
+- **Cyber-subsector YTD run** (+40-100% names) suggests structural bid intact but also warns of over-extension in singles; ETF exposure diversifies vs single-name reversion risk.
+- **Kospi rally sustainability.** +15-18% Fri single-session massive; Mon pre-open NQ +0.12% (not +1%+ follow-through) suggests some absorption already. Not a fade signal, but Kospi-tail-catalyst is weaker Mon than Fri.
+- **PLTR AMC tonight** — not a held name, no direct risk. Post-print reactive Tue if beat + gate confirms.
+- **VIX 16.10 low-vol regime.** Complacency risk if ISM prints hostile; runtime gate VIX < 20 handles panic-vol regime shift.
+- **Weekly cadence Wk-8:** Mon = day 1 of 5. NFP Fri 8/7 is the week's dominant macro event. CAT+LLY Tue AMC, VST Wed AMC. XLK HALF-SIZE Mon leaves budget: Wk-8 slots after Mon = 2 of 3 (one for Tue post-PLTR reactive, one for post-NFP or CAT-reactive).
+- **Data freshness:** Alpaca account/positions/orders live pre-open Mon 8/3; equity $100k direct read valid; `balance_asof` 2026-07-31 (Fri close mark; flat book zero valuation risk). Yahoo context Fri 7/31 4pm ET cash close + Mon pre-open overnight futures = live. Tavily news dated 7/31-8/3 12:07 UTC across 15+ sources (intellectia, tradingkey, moneymorning, Yahoo Finance, Barchart, ts2.tech, Fortune, Zacks, marketsday X, digrin, Investing.com, klsescreener, Yenisafak, AA, Elpaso, Reuters) = current. Alpaca AH quotes Fri 20:00 UTC wide/single-side (XLK bp $170.10/ap $181.13, XLE bp $57.74/ap $0), QQQ clean bp $685.42/ap $685.86; Yahoo Fri cash close XLK $175.35 authoritative reference. Cash-session re-quote at 09:30 ET runtime REQUIRED for gate math. No stale-data block. Sizing UNBLOCKED for XLK HALF-SIZE gate.
+- **CRITICAL — 32nd CONSECUTIVE MARKET-OPEN MISS** through Fri 7/31 (Tue Jun 23 → Fri Jul 31 = 32 sessions across 6.5+ calendar weeks including 7/31 XLK FULL-SIZE gate that went unexecuted). Fri 7/31 PM weekly review (52c11d3) addressed backlog + structural root cause but did NOT resolve the scheduler execution. Mon 8/3 has **1 QUALIFYING HALF-SIZE XLK setup** requiring cash-session routine execution — a 33rd miss would be the Wk-8 opening compounding violation. Structural cron/webhook/scheduler fix REMAINS blocking priority independent of thesis quality.
+
+### Decision — TRADE (1 QUALIFIED HALF-SIZE setup)
+
+- **PRIMARY: XLK HALF-SIZE ~57 sh (~$9,995, 10% notional) — ENTER AT OPEN if runtime gate met at 09:30 ET**
+  - Runtime condition: XLK bid > $175.00 AND ES not red > 0.5% AND NQ not red > 1.0% AND VIX < 20
+  - Catalyst: MSFT+AAPL+AMZN triple-beat (48h earnings super-cycle Wed-Thu) + Kospi Fri +15-18% chip rally (SK Hynix +18-20%, Samsung +15-20%) + Fri Nasdaq futures rally on chip strength + cybersecurity subsector +40-100% YTD structural bid + XLK #1 sector by 2-session cumulative +5.3% (Thu +5.5% Fri -0.22%)
+  - Stop: 10% trailing stop GTC ($157.82 initial) submitted immediately post-fill; fixed stop $157.82 PDT fallback
+  - Manual ceiling: -7% ($163.08) — cut if breached before trail catches up
+  - Target: $210.42 (+20%); at +15% ($201.65) tighten trail to 7%; at +20% ($210.42) tighten to 5%
+  - R:R 2.0:1 (at strategy floor)
+  - HALF-SIZE justified: ISM Manufacturing PMI Jul 10:00 ET macro-event 30min post-open (consensus 54.0 vs Jun 53.3). No FOMC/CPI-level event. Upgrade path: midday scan can add second HALF-SIZE lot to FULL 20% if ISM 54.0-55.0 in-line-to-modest AND XLK holds >$175 through 10:15 ET.
+- **Gate failure fallback (specific test named):**
+  - XLK bid ≤ $175.00 at 09:30 ET → HOLD "tech-leader catalyst not confirming at Mon open, gap-and-fade in progress"
+  - ES red > 0.5% at 09:30 ET → HOLD "broad-tape sell-off (weekend headline reprice or ISM anticipation) overwhelms sector-momentum"
+  - NQ red > 1.0% at 09:30 ET → HOLD "tech-specific unwind (Kospi Fri profit-taking spillover) overwhelms 2-session catalyst"
+  - VIX ≥ 20 at 09:30 ET → HOLD "vol regime re-expanding, sector-momentum inoperative"
+- **HOLD by candidate (specific test failure named — NOT patience, NOT protect-cash, NOT wait-for-confirmation):**
+  - XLE: Test #1 CATALYST FULLY BROKEN (WTI -6.54% / Brent -5.52% Mon pre-open on US-Iran peace-talks resumption)
+  - XOM/CVX singles: XLE thesis dead + Fri XOM/CVX earnings already released
+  - QQQ: valid alternative vehicle, XLK preferred for chip-catalyst purity
+  - Cyber singles (FTNT/PANW/CRWD/NET): thematic but ETF vehicle superior + YTD chase risk
+  - PLTR: AMC binary tonight, pre-print entry deferred to Tue reactive
+  - CAT/LLY: BMO Tue 8/4, pre-print binary
+  - XLF: Test #2 FAIL (mixed 2-session)
+  - XLI: Test #1 FAIL (no documented catalyst, participatory only)
+  - XLV/XLP: Test #2 FAIL (defensive rotation unwound in risk-on/low-VIX regime)
+  - XLB: Test #2 FAIL (Fri -2.34% worst)
+  - GLD: Test #2 FAIL (VIX 16.10 safe-haven absent)
+- **This is NOT "patience," "wait for confirmation," "protect cash," or "wait for ISM print."** This is documented Test-fail per each candidate + 1 QUALIFYING HALF-SIZE XLK setup with runtime gate for market-open routine.
+- **ISM 10:00 ET = HALF-SIZE.** Per strategy: macro event = sizing input, not blocker. Entry pre-ISM at HALF-SIZE captures still-fresh catalyst; upgrade at midday if in-line print.
+- **RESOLVE-NOW check:** MSFT/AAPL/AMZN beats confirmed (prior log entries + Barchart 7/31). Kospi Fri +15-18% confirmed. Cyber YTD +40-100% confirmed (Investing.com 8/3). ISM PMI consensus 54.0 confirmed (klsescreener 8/3). Oil crash confirmed (AA/Yenisafak/Fortune 8/3). US-Iran peace-talks resumption confirmed (multiple 8/3 sources). PLTR AMC confirmed (marketsday 8/1, Zacks 8/3). No unresolved checkable facts.
+- **Trades this week (Wk-8) after Mon:** 0-1 of 3 depending on XLK gate fire. Slots #2/#3 open for Tue PLTR-reactive or CAT-reactive, Fri post-NFP-reactive.
+- **Deployment target Wk-8:** 10% by Mon close (XLK HALF fires) potentially → 20% by midday if upgrade path taken → target 75-85% by Fri close via Tue + Wed + Fri reactive adds.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live pre-open Mon 8/3; equity $100k direct read valid; `balance_asof` 2026-07-31 (Fri close mark; flat book zero valuation risk).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Fri 7/31 4pm ET cash close + Mon pre-open overnight futures = live.
+- Tavily news dated 7/31-8/3 12:07 UTC across 15+ sources = current.
+- Alpaca AH quotes Fri 20:00 UTC wide/single-side (XLK bp $170.10/ap $181.13, XLE bp $57.74/ap $0, XLI bp $174.46 only), QQQ clean bp $685.42/ap $685.86; Yahoo Fri cash close XLK $175.35 authoritative reference; cash-session 09:30 ET re-quote MANDATORY for gate math.
+- No stale-data block. Sizing UNBLOCKED for XLK HALF-SIZE gate.
