@@ -3062,3 +3062,136 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - Tavily news dated 7/29-8/4 12:00 UTC across 15+ sources = current.
 - Alpaca AH quotes Mon 20:00 UTC single-side wide (XLK bp $172.18/ap $182.91, XLI bp $176.56/ap $188.64, XLE bp $56.79/ap $60.47), QQQ Mon 20:55 UTC clean bp $700.53/ap $700.64, SPY Tue 08:37 ET clean bp $760.32/ap $760.42; Yahoo Mon cash close XLK $178.04, XLI $183.16 authoritative; cash-session 09:30 ET re-quote MANDATORY for gate math.
 - No stale-data block. Sizing UNBLOCKED for XLI HALF + XLK HALF gates.
+
+### Aug 5 — Pre-Market (Wednesday — Wk-8 Day 3 / post-AMD AMC + ADP 8:15 ET + ISM Services 10:00 ET / LLY BMO + VST AMC)
+**Runtime:** ~pre-open Wed 8/5 (market opens 09:30 ET) | **Positions:** 2 (XLI + XLK) | **Orders:** 2 (trail stops both) | **Cash:** $80,149.21 | **Equity:** $100,317.58 | **Buying Power:** $377,068.27 | **Daytrade Count:** 0/3 | **balance_asof:** 2026-08-04
+
+### Account Snapshot
+- Cash $80,149.21 / Equity $100,317.58 / Portfolio value $100,317.58 / Buying power $377,068.27 (4x day-margin) / Non-marginable BP $90,233.39
+- Long market value $20,168.37 (~20.1% deployed) / Short $0 / Daytrade count 0/3 (PDT open)
+- **Positions:**
+  - XLI 54 sh @ avg $184.077 / current $186.70 / MV $10,081.80 / unrealized +$141.64 (+1.42%) / trail GTC stop $168.183 hwm $186.87
+  - XLK 54 sh @ avg $183.530 / current $186.79 / MV $10,086.57 / unrealized +$175.95 (+1.78%) / trail GTC stop $168.935 hwm $187.71
+- `balance_asof` 2026-08-04 (Tue close mark; live positions with unrealized gains marking accurately)
+- Wk-8 slots used 2/3 (both Tue 8/4 fires), Wk-8 slots remaining **1**. Book at 20% deployed vs 75-85% target; slot #3 available for HALF or FULL add.
+
+### Market Context (Tue 8/4 cash close + Wed pre-open futures/overnight)
+- SPX 7736.52 +1.79% Tue (Mon 7600.5 → Tue 7736.52) / ES=F 7802.75 +0.48% Wed pre-open — SPX ripped fresh cycle high on JOLTS-cool + PLTR-blowout + broad AI tape, futures extending
+- Nasdaq 26584.99 +2.59% Tue / NQ=F 29924.25 +0.20% Wed pre-open — NDX +2.59% biggest daily gain in 2 weeks; NQ futures GREEN despite AMD -7.8% AH = market digesting single-name miss without basket unwind
+- DJI 54085.88 +1.71% Tue — broad-tape confirming; industrials + tech dual-leadership
+- VIX 16.78 +1.7% Tue (from 15.65 Mon) — vol modestly re-expanding but still deep in risk-on band <20; not a panic signal
+- WTI 76.01 +0.32% / Brent 79.99 +0.79% (Wed pre-open) — oil STABILIZING after 2-day crash (WTI $85→$76 ≈ -10.5% cumulative); disinflation tailwind still intact, no re-escalation
+- Sector momentum map (Tue 8/4 cash close, ranked): **XLK +4.98% #1**, XLB +1.94% #2, XLI +1.77% #3, XLF +0.87% #4, XLP +0.60%, XLE -0.46%, XLV -0.09% (both weak) — tech extension + broad cyclical, defensives + energy inverting
+- Two-session cumulative (Mon 8/3 + Tue 8/4): **XLK +6.51% (Mon +1.53% Tue +4.98%) #1 by wide margin**, XLI +3.62% (Mon +1.85% Tue +1.77%) #2, **XLB +3.09% (Mon +1.15% Tue +1.94%) #3 NEWLY QUALIFYING**, XLF +1.64%, XLE -1.74% (broken continuing)
+- Three-session cumulative (Fri 7/31 + Mon 8/3 + Tue 8/4): XLK +6.29% (Fri -0.22%), XLI +4.43% (Fri +0.81%), XLB +0.75% (Fri -2.34% dragging), XLE -0.74%
+- Alpaca AH quotes Tue 20:00 UTC single-side (XLI bp $179.96/ap $191.63 wide, XLK bp $180.23/ap $191.69 wide, XLB bp $50.13/ap $0 no-ask, XLF bp $57.84/ap $57.96 clean $57.90 mid); Yahoo Tue cash close XLK $186.90, XLI $186.40, XLB $52.00, XLF $57.88 authoritative; cash-session 09:30 ET re-quote MANDATORY.
+- **Today's calendar:**
+  - ADP Non-Farm Employment Change 08:15 ET (medium-impact; pre-NFP Fri read; consensus varies)
+  - ISM Services PMI Jul 10:00 ET (**HIGH-IMPACT** — consensus 54.2 vs prior 54.0; expansionary confirmation = cyclical + tech tailwind; contractionary <50 = growth-scare)
+  - LLY BMO Wed 8/5 (Eli Lilly Q2 — GLP-1 franchise binary; XLV vehicle reactive read)
+  - VST AMC Wed 8/5 (Vistra Corp — utility + AI-power datacenter narrative)
+  - SanDisk AMC Wed 8/5 (Sandisk earnings; XLK indirect read)
+- **AMD Q2 print Tue AMC:** Rev $11.5B +50% YoY, EPS $1.66 beat, data-center rev $6.7B doubled. Stock -7.8% AH on "beat but expected more" (140% YTD ran expectations too high). AMD ~3% XLK weight = ~-0.24% XLK drag from AMD alone; NQ futures +0.20% shows market ABSORBING single-name miss without basket contagion. XLK 2-session +6.51% leadership intact.
+- **PLTR Q2 blowout absorption:** Post-print +14.97% AH → intraday Tue absorbed fully into XLK/QQQ; +$498M FY guide raise still resonating into Wed tape as AI-enterprise catalyst.
+- **JOLTS Jun cool print retrospective:** Fed-cut dovish tilt confirmed; NQ +2.59% cash Tue on real-rate compression; Jackson Hole (late Aug) + Sep FOMC positioning intact.
+- **SPCX (SpaceX) -11% pre-market Wed** on first-ever public earnings lockup-spending fears (CoinDesk 8/5). Novelty single-name; not investable directly (private ticker structure), not a tape-mover for XLK basket.
+- **Fed backdrop:** FOMC HOLD Wed 7/29 fully absorbed. NFP Fri 8/7 = week's dominant macro (post-JOLTS-cool = Fed-cut narrative in play).
+
+### Momentum Map (Mon 8/3 + Tue 8/4 two-session confirmation)
+- **XLK — #1 by 2-session cumulative +6.51%.** Mon +1.53% + Tue +4.98% = accelerating leadership with PLTR-blowout absorbed intraday Tue. Catalyst: PLTR guide-raise + MSFT/AAPL/AMZN super-cycle carryover + JOLTS-cool dovish tilt + AI-basket structural bid. AMD -7.8% AH = single-name drag (~0.24% XLK weight) but NQ +0.20% pre-open shows basket resilient. Test #1 catalyst INTACT + LAYERED. Test #2 momentum #1 wide. Position ALREADY HELD at HALF (~10% notional).
+- **XLI — #2 by 2-session cumulative +3.62%.** Mon +1.85% + Tue +1.77% = consistent multi-session leadership. Catalyst: CAT print absorbed Tue + oil-crash disinflation input-cost tailwind + ISM Services 10:00 ET reactive (services expansion supports industrial-services chain). Position ALREADY HELD at HALF (~10% notional).
+- **XLB — #3 by 2-session cumulative +3.09%. NEWLY QUALIFYING (was Test #2 FAIL Tue).** Mon +1.15% + Tue +1.94% = 2-session confirmation NOW established (previously Fri -2.34% + Mon +1.15% failed). Catalyst: (a) broad-cyclical rotation with XLK/XLI leading = materials-basket dragged higher on chemicals/copper/AI-datacenter-inputs demand, (b) oil-crash disinflation = raw-materials-input cost relief for chemical constituents, (c) ISM Services 10:00 ET expansion read = downstream materials-demand confirmation. Fresh 2-session confirmation = valid new entry.
+- **XLF — #4 by 2-session +1.64%.** Mon +0.77% + Tue +0.87% = participatory NOT leader. Test #2 marginal — sector present in rally but not accelerating. Marginal FAIL vs XLB clearly accelerating.
+- **XLE — #7 by 2-session -1.74%.** Mon -1.28% + Tue -0.46% = confirmed broken. Test #1 CATALYST INVERTED continuing.
+- **XLV / XLP — Test #2 FAIL.** XLV -0.28% + XLP marginal +0.38% 2-session in low-VIX 16.78 risk-on regime. Defensive continues bleeding. LLY BMO print = pre-print binary skip regardless.
+
+### Trade Ideas
+
+1. **XLB (Materials Select Sector SPDR) — QUALIFIES → TRADE HALF-SIZE (ISM Services 10:00 ET macro-event)**
+   - Test #1 catalyst: (a) NEWLY-CONFIRMED 2-session materials-basket bid on broad-cyclical extension (Mon +1.15% Tue +1.94%), (b) chemicals/copper/AI-datacenter-inputs demand from XLK+XLI leadership spillover, (c) oil-crash disinflation input-cost tailwind for chemical constituents (WTI -10.5% cumulative), (d) ISM Services 10:00 ET expansionary read = downstream materials-demand confirmation. Multi-source, dated 8/3-8/5. ✓
+   - Test #2 sector momentum: **#3 sector by 2-session cumulative +3.09% NEWLY QUALIFYING**, Tue +1.94% #2 daily, Mon +1.15% #3 daily = 2-session cumulative confirmation established (previously fail). ✓
+   - Test #3 stop level definable: 10% trail GTC ($46.80 initial off Tue close $52.00) / -7% manual $48.36. ✓
+   - Test #4 R:R ≥ 2:1: entry ~$52.00 (Tue close ref), risk $5.20 (10%), reward $10.40 (20%) → R:R 2.0:1. ✓ (at floor)
+   - QUALIFIES → TRADE HALF-SIZE ~192 sh × $52.00 = $9,984 = ~9.95% notional (HALF-SIZE per ISM Services 10:00 ET macro-event 30min post-open). FULL-SIZE upgrade path: if ISM Services prints in-band 54.0-55.0 (expansion confirmed w/o overheating) AND XLB holds >$51.50 through 10:15 ET, midday scan can add — BUT weekly slot budget consumed by this fire (2→3), so upgrade DEFERRED to next week.
+
+2. **XLK ADD-to-FULL (upgrade from HALF) — DOES NOT QUALIFY.** Aug 4 plan explicitly reserved slot #3 for "Wed post-AMD-print reactive XLK upgrade to FULL" — but AMD -7.8% AH = HOSTILE print (beat but disappointed on peak-expectations). Test #1 catalyst PARTIALLY WEAKENED (basket still bid but AMD-specific drag adds gap-fade risk); adding at $186-187 on hostile-AMD morning = anti-momentum. Prefer XLB fresh diversification over doubling a leader on a single-name-negative morning. Skip upgrade. Position remains HALF ~10% with trail GTC $168.94 hwm $187.71.
+
+3. **XLI ADD — DOES NOT QUALIFY. Vehicle-concentration risk.** Currently HALF ~10% with trail GTC $168.18 hwm $186.87. Adding at $186 = concentration into single vehicle when XLB fresh 2-session qualifier offers diversification into adjacent cyclical sector. XLB > XLI incremental. Skip.
+
+4. **XLF (Financials) — DOES NOT QUALIFY. Test #2 FAIL (marginal).** Mon +0.77% + Tue +0.87% = 2-session +1.64% but NOT accelerating vs XLB +3.09% or XLI/XLK stronger. Participatory-only in rally, not leader. Skip.
+
+5. **LLY (Eli Lilly) single — DOES NOT QUALIFY. Pre-print BMO Wed 8/5.** Same pre-print discipline (MSFT/AAPL/AMZN/PLTR/CAT/AMD prior deferrals). Reserve reactive to post-print if XLV vehicle re-tests momentum (currently sector-broken so unlikely). Skip.
+
+6. **VST (Vistra) single — DOES NOT QUALIFY. Pre-print AMC Wed 8/5 + vehicle preference.** AI-power datacenter narrative interesting but single-name pre-print binary + no XLU sector-momentum-basket vehicle for it in current momentum map. Skip.
+
+7. **AMD single (post-print rebound play) — DOES NOT QUALIFY.** -7.8% AH gap-fade risk = catch-a-falling-knife. XLK captures AMD at 3% weight diversified. If AMD stabilizes and rebounds >2% intraday, XLK-vehicle already captures. Skip single.
+
+8. **PLTR (post-blowout continuation) — DOES NOT QUALIFY. Vehicle preference + gap-chase.** Already +14.97% AH Mon absorbed intraday Tue; further chase at $145+ = late entry. XLK captures indirectly. Skip.
+
+9. **XLE (Energy) — DOES NOT QUALIFY. Test #1 CATALYST INVERTED continuing.** 2-session -1.74% confirmed broken. Oil stabilizing not reversing. Skip.
+
+10. **XOM / CVX / oil singles — DOES NOT QUALIFY.** XLE thesis-broken extends. Skip.
+
+11. **XLV / XLP defensives — DOES NOT QUALIFY. Test #2 FAIL.** Low-VIX 16.78 risk-on regime keeps defensive bleeding. LLY BMO = pre-print skip regardless. Skip.
+
+12. **GLD / TLT / bonds — Test #1 vehicle-broken.** VIX 16.78 = safe-haven bid absent; equity risk-on regime = wrong-side vehicles. Skip.
+
+13. **QQQ / SPY broad ETFs — thematically valid but XLK captures tech-purity, no need to double.** Skip.
+
+14. **SPCX (SpaceX) reactive — NOT INVESTABLE / DOES NOT QUALIFY.** -11% pre-market on lockup fears = novelty single-name, tape-mover for narrative but not a momentum-basket vehicle. Skip.
+
+### Risk Factors
+- **ISM Services PMI 10:00 ET macro event (HIGH-IMPACT).** Consensus 54.2 vs prior 54.0. In-band print (53.5-55.5, expansionary confirmation) = cyclical + tech continuation, XLB entry validated. Hot print (>56 = growth overheating) = Fed-cut probability reduced = tech + cyclical mixed reaction (industrials/materials mild positive on demand, tech mild negative on real-rate reprice). Cold print (<52 = growth-scare) = both risk-off, XLB gap-and-fade risk. HALF-SIZE at open handles binary; -7% manual ceiling caps XLB position to $700 worst-case (0.7% equity). Combined book -7% worst = $2,100 (2.1% equity) = within tolerance.
+- **ADP 08:15 ET pre-NFP read.** Medium-impact. Consensus varies (~150-180K typical). Hot >250K = labor still strong = Fed-cut narrative complicated = mild tech-negative. Cool <100K = growth-scare early read = risk-off. In-band 100-200K = pre-NFP Fri neutral read. Pre-market print (before 09:30 open) = will show in open-print gates; if gates fail, HOLD reason documented.
+- **AMD -7.8% AH gap-open risk for XLK held position.** ~3% weight = ~0.24% direct drag; NQ +0.20% pre-open suggests market absorbing. 10% trail GTC ($168.94, hwm $187.71) protects intraday; -7% manual ceiling ($170.68 vs $183.53 avg) trips only on -7% from AVG entry not gap-open. Position sized HALF ~10% = worst-case -7% = $700 (0.7% equity) tolerable.
+- **XLK gap-and-fade risk on AMD-hostile print.** If XLK opens flat/green then fades on AMD-drag = trail GTC catches at $168.94 or higher (trail follows hwm as price moves). If XLK gaps down >2% at open = manual re-assess vs -7% ceiling.
+- **XLB new position + ISM Services concurrent.** Entry at 09:30 ET with ISM 10:00 ET = 30-min sub-macro-event window. HALF-SIZE handles per strategy line 35 (macro = sizing not blocker). Runtime gate at open requires XLB bid > $51.50 AND ES not red > 0.5% = filters pre-ISM sell-off scenarios.
+- **LLY BMO Wed 8/5 = XLV volatility potential.** Not held (XLV sector-broken), no direct impact on XLI/XLK/XLB entries. If LLY blowout = XLV catches bid = defensive-rotation reverse = risk to XLK+XLI cyclical-leadership. Weekly slot #3 consumption by XLB fires means no reactive to Wed XLV upgrade — accepted trade-off (XLB fresh 2-session qualifier > XLV single-print reactive on broken sector).
+- **VST AMC Wed 8/5 = utility + AI-power narrative binary.** Not held, no vehicle. If blowout = XLU catch-bid = late-cycle rotation signal (positive read-through to XLB materials-adjacent). If miss = mild negative for AI-datacenter narrative bleeding into XLK.
+- **NFP Fri 8/7 = week's dominant macro.** Wed positioning: 20% deployed (XLI+XLK) → 30% post-XLB fire. Reserves cash for post-NFP reactive if NFP-cool = Fed-cut confirm = additional deployment slot Wk-9.
+- **VIX 16.78 (+1.7% Tue).** Modest vol re-expansion but still deep in risk-on band <20. Not a panic signal; supports trend continuation. Runtime gate VIX < 20 handles panic-vol regime shift.
+- **Weekly cadence Wk-8:** Wed = day 3 of 5. Slot #3 (last) consumed by XLB fire = fully committed Wk-8. NFP Fri 8/7 reactive = must wait for Wk-9 slot reset (Mon 8/10).
+- **Data freshness:** Alpaca account/positions/orders pulled live Wed pre-open; equity $100,317.58 direct read valid; `balance_asof` 2026-08-04 (Tue close mark; live positions with unrealized gains marking accurately at current prices). Yahoo context Tue 8/4 4pm cash close + Wed pre-open overnight futures = live. Tavily news dated 7/29-8/5 12:00 UTC across 15+ sources = current. Alpaca AH quotes Tue 20:00 UTC single-side wide (unusable for gate math); Yahoo Tue cash close XLK $186.90, XLI $186.40, XLB $52.00, XLF $57.88 authoritative reference; cash-session 09:30 ET re-quote MANDATORY. No stale-data block. Sizing UNBLOCKED for XLB HALF gate.
+
+### Decision — TRADE (1 QUALIFIED HALF-SIZE setup)
+
+- **PRIMARY: XLB HALF-SIZE ~192 sh (~$9,984, 9.95% notional) — ENTER AT OPEN if runtime gate met at 09:30 ET**
+  - Runtime condition: XLB bid > $51.50 AND ES not red > 0.5% AND VIX < 20 at market-open routine runtime
+  - Catalyst: NEWLY-CONFIRMED 2-session materials leadership (Mon +1.15% Tue +1.94% = +3.09% cumulative) + broad-cyclical XLK+XLI spillover + oil-crash disinflation input-cost tailwind (WTI -10.5% cumulative) + ISM Services 10:00 ET expansionary reactive
+  - Stop: 10% trailing stop GTC ($46.80 initial) submitted immediately post-fill; fixed stop $46.80 PDT fallback
+  - Manual ceiling: -7% ($48.36) — cut if breached before trail catches up
+  - Target: $62.40 (+20%); at +15% ($59.80) tighten trail to 7%; at +20% ($62.40) tighten to 5%
+  - R:R 2.0:1 (at strategy floor)
+  - HALF-SIZE justified: ISM Services 10:00 ET macro-event 30min post-open. FULL-SIZE upgrade path DEFERRED to Wk-9 (Wk-8 slot budget fully consumed after this fire).
+
+- **HOLD-EXISTING (no action, monitor):**
+  - XLI 54 sh @ $184.08 avg / trail GTC $168.18 hwm $186.87 — let trail work; +1.42% unrealized, not near +15% tighten
+  - XLK 54 sh @ $183.53 avg / trail GTC $168.94 hwm $187.71 — let trail work; +1.78% unrealized, not near +15% tighten
+  - Manual sell trigger for either: -7% from avg (XLI $171.19, XLK $170.68), or thesis-break event (sector 2 consecutive fails, catalyst inversion)
+
+- **Gate failure fallback (specific test named per candidate):**
+  - XLB bid ≤ $51.50 at 09:30 ET → HOLD "materials 2-session confirmation not extending at open, XLB gap-fade in progress (possibly ISM-anticipation reprice or ADP-hot reaction)"
+  - ES red > 0.5% at 09:30 ET → HOLD "broad-tape sell-off (ADP-hot or ISM-anticipation) overwhelms sector-momentum thesis"
+  - VIX ≥ 20 at 09:30 ET → HOLD "vol regime re-expanding beyond risk-on band, sector-momentum inoperative in panic-vol"
+
+- **HOLD by candidate (specific test failure named — NOT patience, NOT protect-cash, NOT wait-for-confirmation):**
+  - XLK ADD-to-FULL: Test #1 catalyst PARTIALLY WEAKENED by AMD -7.8% AH hostile print (adding leader on single-name-negative morning = anti-momentum)
+  - XLI ADD: vehicle-concentration risk (XLB fresh diversification > XLI double-down)
+  - XLF: Test #2 FAIL (marginal 2-session +1.64%, participatory not leader)
+  - LLY / VST / AMD / PLTR singles: pre-print binary or vehicle-preference or gap-chase
+  - XLE / XOM / CVX: Test #1 CATALYST INVERTED continuing (2-session -1.74%)
+  - XLV / XLP: Test #2 FAIL (defensive bleeding in low-VIX 16.78)
+  - GLD / TLT: Test #1 vehicle-broken (safe-haven bid absent in risk-on regime)
+  - QQQ / SPY / SPCX: vehicle-preference or not-investable
+- **This is NOT "patience," "wait for confirmation," "protect cash," or "wait for ISM print."** This is documented Test-fail per each candidate + 1 QUALIFYING HALF-SIZE setup with runtime gate for market-open routine.
+- **ISM Services 10:00 ET = HALF-SIZE per strategy line 35 (macro event = sizing input not blocker).** Entry pre-ISM at HALF captures 2-session catalyst-still-fresh momentum; post-ISM reactive upgrade DEFERRED to Wk-9 (weekly slot budget consumed).
+- **RESOLVE-NOW check:** AMD Q2 print result confirmed (Rev $11.5B +50% YoY, EPS $1.66 beat, -7.8% AH per stocktitan/beincrypto/inkl 8/4). ISM Services Jul consensus 54.2 vs prior 54.0 confirmed (fxstreet 8/5). ADP timing 08:15 ET pre-market print will show pre-open. LLY BMO / VST AMC / SanDisk AMC confirmed. Oil stabilization at $76 confirmed (research.sh context Wed pre-open). XLB 2-session cumulative +3.09% confirmed from research.sh context Tue +1.94% + prior-day Mon +1.15% per benzinga sector roundup 8/3. No unresolved checkable facts.
+- **Trades this week (Wk-8) after Wed:** 2/3 → 3/3 if XLB fires. Slot fully consumed; no Wk-8 reactive available Thu/Fri (thesis-break exits still allowed independent of new-fire budget).
+- **Deployment target Wk-8:** 20% currently → 30% by Wed close if XLB fires; target 75-85% by Fri close requires Wk-9 slot cycle (Mon 8/10 reset). Post-NFP reactive Fri = flat-week deployment ceiling reached; further sizing paces Wk-9 forward.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live Wed pre-open; equity $100,317.58 direct read valid; `balance_asof` 2026-08-04 (Tue close mark; live positions marking accurately with current-price fields for XLI $186.70 XLK $186.79).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Tue 8/4 4pm ET cash close + Wed pre-open overnight futures = live.
+- Tavily news dated 7/29-8/5 12:12 UTC across 15+ sources (fxstreet, tradingeconomics, stocktitan, bloomberg, benzinga, reuters, coindesk, yahoo, timothysykes, intellectia, 247wallst, kucoin, evrimagaci, beincrypto, ig, goldsilver, tradingkey) = current.
+- Alpaca AH quotes Tue 20:00 UTC single-side wide (XLI bp $179.96/ap $191.63, XLK bp $180.23/ap $191.69, XLB bp $50.13/ap $0 no-ask), XLF Tue 20:02 UTC two-sided clean bp $57.84/ap $57.96; Yahoo Tue cash close XLK $186.90, XLI $186.40, XLB $52.00, XLF $57.88 authoritative reference; cash-session 09:30 ET re-quote MANDATORY for XLB gate math.
+- No stale-data block. Sizing UNBLOCKED for XLB HALF gate.
