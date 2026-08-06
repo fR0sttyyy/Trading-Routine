@@ -3203,3 +3203,80 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - STEP 5 thesis check: intact. Cyclical + tech + materials leadership persists intraday; no sector rollover, no catalyst inversion, no adverse guidance headline observed. XLB entry fill absorbed cleanly at ~$52.63 (mid vs Tue close $52.00 = expected ISM-anticipatory bid). XLI hwm $188.19 vs Tue close $186.40 = cyclical extension. XLK hwm $188.62 vs Tue close $186.90 = tech extension despite AMD -7.8% AH digestion.
 - No intraday research invoked (nothing anomalous; no single-position sharp move). Weekly slot fully consumed (3/3). Deployment ~30% (three HALF positions, $30.3k of $100k), on plan; Wk-9 reset Mon 8/10 for balance-of-week ramp toward 75-85%.
 - No action taken → no ClickUp notification per STEP 7 rule.
+
+## 2026-08-06 (Thu) — Pre-Market Research — Wk-8 Day 4
+
+### Account Snapshot (live 08:36 ET pre-open)
+- **Equity:** $100,245.30 | **Cash:** $70,044.24 (69.87%) | **Buying Power:** $364,739.93 | **Deployed:** $30,201.06 (30.13%)
+- **Positions:** 3 (XLB 192 @ $52.63 → $52.90, +$51.84 / +0.51%; XLI 54 @ $184.08 → $187.00, +$157.84 / +1.59%; XLK 54 @ $183.53 → $184.19, +$35.64 / +0.36%)
+- **Open orders:** 3 trailing-stop GTC (XLB $47.664 hwm $52.96 / XLI $169.3665 hwm $188.185 / XLK $169.758 hwm $188.62)
+- **Daytrade count:** 0/3 | **Wk-8 trades used:** 3/3 (Wk cap FULLY CONSUMED Mon-Wed)
+- **balance_asof:** 2026-08-05 (Wed close mark, T-1) — live pre-open Thu 8/6 read. Fresh, sizing UNBLOCKED for hold/exit decisions (NEW ENTRIES BLOCKED by Wk cap independently).
+
+### Market Context (Wed 8/5 close + Thu 8/6 pre-open)
+- **Indices Wed close:** SPX 7723.55 (-0.17%), NDX 26363.44 (-0.83%), Dow 54349.12 (+0.49% — FRESH RECORD HIGH), VIX 16.01 (+1.27%, normal regime)
+- **Futures Thu pre-open:** ES 7759.5 (+0.13%), NQ 29444.25 (-0.58% — memory-chip drag)
+- **Oil:** WTI $76.21 (+1.32%), Brent $80.56 (+1.4%) — mild rebound after 2-week crash but structurally still -8% cumulative
+- **Sectors Wed close:** XLB +1.94% (Newmont/gold catalyst — gold $4,300), XLV +1.27%, XLF +0.21%, XLI -0.03%, XLP -0.05%, XLK -0.53% (AMD pre-print de-risking), XLE -2.07%
+- **Today's macro (all 08:30 ET):** Initial jobless claims (exp 204K vs prior ~204K), continuing claims (exp 1.799M), Q2 prelim nonfarm productivity (exp +0.6%), Q2 prelim unit labor costs (exp +2.2%)
+
+### Overnight Catalysts (into Thu open)
+- **AMD -8.8% AH post-print Wed** despite Q2 revenue+EPS+data-center+Q3-guide BEATS — sell-the-news on premium valuation + Helios platform expectations gap. XLK vehicle spillover risk = negative for our XLK hold.
+- **SanDisk -10%+ / Western Digital -14%+ pre-market Thu** on guidance misses — memory-chip rout spilling across APAC into US NQ futures (NQ -0.58% pre-open). AI-capex growth-story cracks.
+- **Nvidia framing negative:** headline reads "market betting growth stops" despite Rev +71% at 21x fwd — tech-tape sentiment risk into open.
+- **Fed's Cook (Wed 20:00 UTC):** "ready to raise rates if inflation doesn't ease" — hawkish counter to FOMC minutes' internal-divergence read (also released Wed).
+- **Manufacturing PMI hits 4-year high (Jul):** aerospace, defense, machinery, electronics, AI infrastructure demand — STRUCTURAL TAILWIND for XLI hold.
+- **Dow record high + gold $4,300** — bifurcated tape (cyclical/materials strong, tech/memory weak).
+- **NO major BMO earnings that move sectors:** Driven Brands (small-cap consumer), Tejon Ranch (small-cap real estate), Somnigroup (small-cap consumer) — none impact XLB/XLI/XLK.
+
+### Position-by-Position Read
+- **XLB $52.90 (+0.51% from $52.63 entry, +$52 P&L):** Materials (Newmont/Freeport weighted) buoyed by gold $4,300 approach. Sector +1.94% Wed. Stop $47.664 = 9.9% below current. -7% ceiling $48.94 = 7.5% below. Wed close $52.64 per Yahoo, +1.23% day. Thesis INTACT (2-session sector leadership + gold-catalyst structural).
+- **XLI $187.00 (+1.59% from $184.08 entry, +$158 P&L):** Industrials cyclical, backed by manufacturing PMI 4-year high (fresh Thu AM AKA today's tailwind), cushioned from tech memory rout. Stop $169.37 = 9.4% below. -7% ceiling $171.19 = 8.5% below. Thesis INTACT (structural PMI + CAT earnings support already in tape).
+- **XLK $184.19 (+0.36% from $183.53 entry, +$36 P&L):** Tech vehicle facing 2 overnight headwinds: (a) AMD -8.8% AH, (b) SanDisk/WDC memory rout -10%/-14% pre-market. Wed already -0.53% on AMD pre-print de-risk. NQ -0.58% pre-open implies XLK ~$182-183 open (-0.5 to -1%). Stop $169.76 = 7.8% below current. -7% ceiling $170.68 = 7.3% below. Even -3% gap = ~$178.65 = still 4.7% above -7% ceiling. Thesis PRESSURED not BROKEN (XLK is broad tech, not memory-concentrated; AMD is ~2% of XLK weight; Apple/MSFT/NVDA together ~35%+ weight = ballast). Monitor.
+
+### Trade Ideas — DECISION FRAMEWORK
+- **Wk-8 cap 3/3 CONSUMED Mon-Wed (XLI + XLK Tue, XLB Wed).**
+- **NEW ENTRIES BLOCKED Thu-Fri by Buy-Side Gate line 2 ("Trades this week <= 3").** This is a specific named gate failure, NOT patience/protect-cash/wait-for-confirmation.
+- **Sell-side actions AUTHORIZED and independent of weekly cap:** thesis-break exits, -7% manual cuts, trail ratchets.
+
+### Idea Register (evaluated for completeness — all HOLD by named gate failure)
+- **Any new long (SPY/QQQ/XLE/XLF/XLV/etc):** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL** (Wk-8 trades 3/3, cap consumed until Mon 8/10 Wk-9 reset). Not test-fail on setup — gate-fail on budget.
+- **XLK ADD-to-FULL (upgrade HALF → 20% full-size):** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL** (upgrade = new fill = weekly slot); ALSO test-fail — AMD -8.8% AH + memory rout = tech-momentum inverting overnight, anti-momentum thesis. DEFER to Wk-9 reactive contingent on Thu-Fri close read.
+- **XLI ADD-to-FULL:** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL**. XLI thesis strengthening (PMI 4-yr high) but cap consumed. Wk-9 reactive candidate.
+- **XLB ADD-to-FULL:** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL**. Wk-9 reactive candidate contingent on gold-catalyst continuation.
+- **New position (any ticker):** DOES NOT QUALIFY → Buy-Side Gate line 2 FAIL. Wk-9 reset Mon 8/10.
+
+### Actionable Plan for Market-Open Routine (09:30 ET)
+- **NO NEW ENTRIES.** Weekly cap 3/3 consumed. Any fresh buy = weekly cap violation → rule violation to log.
+- **XLK stop-pressure watch:** If XLK gaps down > 3% at open (below ~$178.65) OR touches -7% ceiling $170.68 (would require -7.4% gap = catastrophic), execute manual cut. Current trailing-stop $169.76 already covers -7.8% intraday move.
+- **XLI / XLB hold:** No thesis break; stops live GTC and well positioned. No action expected.
+- **Trail ratchet check:** None triggerable — max winner XLI +1.59% is far below +15% tighten threshold.
+- **Runtime gate:** N/A (no entries pending). Structural monitor: verify market-open routine FIRES at 09:30 ET (3rd-consecutive-fire = moderate-recovery signal; miss = structural-failure re-confirmed).
+
+### Risk Factors — Thu 8/6
+- **Tech-tape unwind risk:** AMD -8.8% AH + WDC -14% + SNDK -10% memory rout → NQ -0.58% pre-open. XLK gap-down 0.5-2% likely at open; -3-5% tail if AI-capex-fear widens beyond memory to AI infra. Ballast (AAPL/MSFT/NVDA weights) limits full-tape contagion. Trailing stop $169.76 GTC + -7% ceiling $170.68 cover.
+- **Jobless claims 08:30 ET:** In-line (200-210K) = neutral. Cool (<195K) = hot-labor / Fed-hawkish reprice = additional tech pressure. Hot (>215K) = growth-scare = broad-tape weakness (impacts XLI too).
+- **Productivity/ULC 08:30 ET:** ULC HOT (>2.5%) = wage-inflation hawkish = tech-sensitive to real-rate reprice.
+- **Fed-hawkish drift:** Cook's "ready to raise" comment counter to consensus dovish-cut narrative — if morning tape reads more Fed speakers similar, XLK vulnerable.
+- **Gold $4,300 catalyst / Dow record:** OFFSETS — XLB direct tailwind; XLI record-high cyclical extension.
+- **Wk-8 tape asymmetry:** Cyclical/materials/defensive HAVE catalyst; tech/AI DE-RATING. XLK is the exposed leg; XLI/XLB well-positioned into the day.
+
+### Decision — HOLD BOOK, NO NEW ENTRIES
+- **ALL 3 held positions:** HOLD (thesis intact for XLB/XLI, pressured-not-broken for XLK; stops live).
+- **All potential new ideas:** DOES NOT QUALIFY per Buy-Side Gate line 2 (Wk-8 cap 3/3 consumed). Named gate failure = correct decision, not rule violation.
+- **This is NOT "patience," NOT "protect cash," NOT "wait for confirmation."** This is a specific documented gate failure (weekly-trade budget cap 3/3) that blocks entries mechanically until Mon 8/10 Wk-9 reset.
+- **A flat entries session Thu 8/6 with cap-consumed = CORRECT rule-following, not violation.** Rule violation would be executing a 4th weekly trade.
+- **Wk-9 kickoff plan (Mon 8/10):** Fresh 3 slots. Priority queue: (a) XLI ADD-to-FULL if PMI-tailwind + momentum extends, (b) XLB ADD-to-FULL if gold-catalyst extends, (c) XLK ADD-to-FULL contingent on tech-recovery post-AMD/memory digestion, (d) new-sector diversifier (XLV or XLF if 2-session leadership emerges by Fri close).
+
+### Data Freshness
+- Alpaca account/positions/orders/clock pulled live 08:36 ET Thu 8/6; equity $100,245.30 direct read valid; `balance_asof` 2026-08-05 (Wed cash-close mark, T-1) with live current_price marks on 3 positions.
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Wed 8/5 4pm ET cash close + Thu pre-open overnight futures = live.
+- Tavily news dated 7/30-8/6 11:00 UTC across 15+ sources (bitget, 247wallst, euronews, stocktitan, indmoney, benzinga, yahoo, cnbc, cnn, biggo, futunn, barchart, tradingkey, ts2, tradingeconomics, sequalfx, snad, thetradingpit, zacks, stockanalysis, buttondown, seekingalpha, invezz, gurufocus, kfgo, chase, mba newslink, wtvbam, aol, blog.kraken, mediapost, moomoo, live.euronext, forex.com) = current.
+- Alpaca AH quotes Wed 20:00 UTC single-side wide (XLB bp $51.35/ap $54.24, XLI bp $180.80/ap $192.72, XLK bp $181.46/ap $193.02); Yahoo Wed cash close XLB $52.64, XLI $186.35, XLK $185.91 authoritative reference; live Alpaca current_price fields $52.90/$187.00/$184.19 = fresher marks matching Wed EOD roll.
+- No stale-data block. Sizing UNBLOCKED for hold/exit decisions (new entries BLOCKED by Wk-8 cap independently).
+
+### Structural Routine Health
+- **Pre-market routine FIRED live Thu 8/6 pre-open ~08:36 ET** — this entry. Continuing recovery signal from 33-miss cash-session streak.
+- **Market-open routine 09:30 ET slot is next structural test:** 3rd-consecutive-fire (Tue 8/4 → Wed 8/5 → Thu 8/6) would upgrade signal from "weak recovery" to "moderate recovery." Miss = structural failure re-confirmed. Note: no new entries authorized regardless — but confirming stop discipline + XLK gap-risk monitor still requires the run.
+- **Midday-scan routine MISSED Wed 8/5** (blast-radius contained by trailing stops); Thu 12:00 ET midday slot pending — need it to fire for XLK tech-tape read + trail ratchet re-check.
+- **Weekly review due Fri 8/7 PM** — Wk-8 close review with 3 filled positions (first non-flat Wk in 7 weeks).
