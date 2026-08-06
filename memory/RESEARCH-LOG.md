@@ -3280,3 +3280,15 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Market-open routine 09:30 ET slot is next structural test:** 3rd-consecutive-fire (Tue 8/4 → Wed 8/5 → Thu 8/6) would upgrade signal from "weak recovery" to "moderate recovery." Miss = structural failure re-confirmed. Note: no new entries authorized regardless — but confirming stop discipline + XLK gap-risk monitor still requires the run.
 - **Midday-scan routine MISSED Wed 8/5** (blast-radius contained by trailing stops); Thu 12:00 ET midday slot pending — need it to fire for XLK tech-tape read + trail ratchet re-check.
 - **Weekly review due Fri 8/7 PM** — Wk-8 close review with 3 filled positions (first non-flat Wk in 7 weeks).
+
+### Midday Scan Addendum — Thu 8/6 12:04 ET
+- Market OPEN (next_close 16:00 ET). **Midday-scan routine FIRED live** (structural recovery — previous Wed 8/5 midday miss reversed).
+- Positions live: XLB 192@$52.63 → $52.245 (-0.73%, P&L -$74); XLI 54@$184.08 → $185.31 (+0.67%, P&L +$67); XLK 54@$183.53 → $185.36 (+1.00%, P&L +$99). Book P&L +$92 net. Deployed $30,047 ≈ 30% (unchanged).
+- Stops all live GTC: XLB trail 10% $47.664 hwm $52.96 (id 9f98f565); XLI trail 10% $169.3665 hwm $188.185 (id 53fa7e9e); XLK trail 10% $169.758 hwm $188.62 (id f2c0dace). All hwm unchanged from pre-open = no upside extension intraday.
+- **STEP 3 losers cut: NONE.** Worst position XLB -0.73%, far above -7% ceiling ($48.94). No thesis-break exit trigger.
+- **STEP 4 winner tighten: NONE.** Max unrealized +1.00% (XLK) — well below +15% first-tighten threshold.
+- **STEP 5 thesis check: INTACT across all 3 positions.** XLB tape flat vs Wed close $52.64 (mild fade -0.75% intraday; gold catalyst still active with $4,300 area). XLI holding at $185.31 (mild -0.56% vs Wed close $186.35; manufacturing PMI 4-yr high structural tailwind unchanged). XLK $185.36 (mild -0.30% vs Wed close $185.91; AMD/memory rout digested cleaner than feared — Apple/MSFT/NVDA ballast working). NO catalyst inversion, NO sector rollover, NO adverse guidance.
+- **STEP 6 intraday research:** Not invoked (no anomalous sharp moves; all positions within routine intraday drift).
+- **Wk-8 cap 3/3 CONSUMED** — no new entries authorized Thu-Fri regardless of setup quality. Wk-9 reset Mon 8/10.
+- No action taken → **no ClickUp notification** per STEP 7 rule.
+- Next routine: EOD close review + Fri 8/7 pre-market → weekly-review Fri PM.
