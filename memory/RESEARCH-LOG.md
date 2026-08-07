@@ -3292,3 +3292,89 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Wk-8 cap 3/3 CONSUMED** — no new entries authorized Thu-Fri regardless of setup quality. Wk-9 reset Mon 8/10.
 - No action taken → **no ClickUp notification** per STEP 7 rule.
 - Next routine: EOD close review + Fri 8/7 pre-market → weekly-review Fri PM.
+
+## 2026-08-07 (Fri) — Pre-Market Research — Wk-8 Day 5 / NFP DAY / WEEKLY CAP CONSUMED
+
+### Account Snapshot (live 08:46 ET pre-open)
+- **Equity:** $100,307.64 | **Cash:** $70,044.24 (69.83%) | **Buying Power:** $364,914.48 | **Deployed:** $30,263.40 (30.17%)
+- **Positions:** 3 (XLB 192 @ $52.63 → $52.35, -$53.76 / -0.53%; XLI 54 @ $184.077 → $185.90, +$98.44 / +0.99%; XLK 54 @ $183.53 → $188.40, +$262.98 / +2.65%)
+- **Open orders:** 3 trailing-stop GTC (XLB $47.664 hwm $52.96 / XLI $169.3665 hwm $188.185 / XLK $169.758 hwm $188.62)
+- **Daytrade count:** 0/3 | **Wk-8 trades used:** 3/3 (Wk cap CONSUMED Mon-Wed — no new entries authorized Thu-Fri)
+- **balance_asof:** 2026-08-06 (Thu close mark rolled forward — live current_price fields fresh on all 3 positions). Sizing UNBLOCKED for hold/exit decisions; NEW ENTRIES BLOCKED by Wk cap independently.
+
+### Market Context (Thu 8/6 close + Fri 8/7 pre-open)
+- **Indices Thu close:** SPX 7709.96 (-0.18%), NDX 26348.35 (-0.06%), Dow 53885.10 (-0.85% — Dow gave back record-high extension), VIX 15.14 (-0.07%, low-vol regime)
+- **Futures Fri pre-open:** ES 7760.75 (+0.34%), NQ 29714.50 (+0.77% — AI-chip rebound bid)
+- **Oil:** WTI $76.98 (-0.40%), Brent $81.87 (-0.75%) — Fitch published $70 Q4 Brent forecast (bearish oil = XLE headwind but XLB/XLI disinflation tailwind extends)
+- **Sectors Thu close (Yahoo):** XLE +1.48%, XLV +0.18%, XLK -0.31%, XLP -0.26%, XLF -0.33%, XLI -0.85%, XLB -0.89% (broad-tape modest pullback led by cyclicals; our 3 holds all red on the day but small)
+- **Gold: $4,300 area** — new highs, materials/miners tailwind persistent
+- **Congo copper export ban forecast (CITIC Securities):** copper to $15,000/ton = XLB Freeport/copper-miner ballast tailwind fresh
+
+### NFP PRINT — RESOLVED 08:30 ET (16 min before this research entry)
+- **Print:** -23,000 jobs (LOSS) vs +80,000 consensus / +83,000 Dow consensus. Prior June revised down to +20,000.
+- **Unemployment:** 4.1% (slipped from 4.0%)
+- **Labor force participation:** 61.4% — 5-year low
+- **Read:** Cold-miss, growth-scare band. However, pre-market REACTION is Fed-dovish not risk-off: NQ futures +0.77%, gold $4,300, AI chips rebounding, treasury yields steady (not spiking on flight-to-safety). Market is reading "Fed cut probability jumps" > "recession imminent." Bifurcated: long-duration tech/AI + gold/materials BID; cyclicals mixed (Dow -0.85% Thu carries into Fri open).
+- **Regime shift:** Dovish-cold NFP flips the 2-week hawkish Fed drift (Cook comment Wed + FOMC minutes divergence). Tech/materials/gold winners; industrials neutral-to-mild-headwind if growth-scare narrative takes over intraday.
+
+### Overnight Catalysts (into Fri open)
+- **Alphabet -1.29% Thu on AI leadership shakeup + rising infra costs** — GOOGL is ~4% XLK weight, mild drag but AI-capex-cracks narrative (WDC/SNDK Thu, GOOGL Fri) is a repeating pattern. Watch for spillover.
+- **AI chip rebound pre-market Fri** (per tradingkey) — AMD/NVDA/AVGO bounce = XLK tailwind offsetting GOOGL drag.
+- **Airbnb Q2 earnings** overnight (mentioned in CNBC morning squawk) — small consumer read-through, not sector-moving.
+- **Cloudflare / Sezzle earnings movers** (Investors.com Thu PM) — small-caps, not sector-moving.
+- **Oil BEARISH outlook Fitch $70 Q4 Brent** — XLE tape headwind but XLB/XLI disinflation-input-cost tailwind extends. Not a catalyst to trade on today.
+- **Congo copper ban → copper $15K/ton (CITIC)** — XLB structural tailwind fresh into Fri (Freeport ~13% XLB weight).
+- **NO major BMO earnings that move our sectors:** Rapid Micro Biosystems (small biotech), INmune Bio (small biotech). None impact XLB/XLI/XLK.
+
+### Position-by-Position Read
+- **XLB $52.35 pre-open (-0.53% from $52.63 entry, -$54 P&L):** Materials modestly red at open reference vs entry. Thu closed $52.17 -0.89%. Gold $4,300 + Congo copper ban = 2 fresh structural tailwinds. NFP dovish-read = dollar-weakness supportive of commodity ETF. Stop $47.664 = 8.9% below current. -7% ceiling $48.94 = 6.5% below. Thesis INTACT and STRENGTHENING (2 fresh commodity catalysts overnight).
+- **XLI $185.90 pre-open (+0.99% from $184.077 entry, +$98 P&L):** Industrials the neutral-to-mild-headwind read on cold NFP (growth-scare vs Fed-cut cross-currents). Thu closed $184.76 -0.85%. Manufacturing PMI 4-yr high still structural tailwind. Stop $169.3665 = 8.9% below. -7% ceiling $171.19 = 7.9% below. Thesis INTACT but PRESSURED by growth-scare narrative if unemployment print takes over intraday.
+- **XLK $188.40 pre-open (+2.65% from $183.53 entry, +$263 P&L):** Tech position at STRONGEST P&L. Fed-dovish NFP + AI-chip rebound pre-market = direct tailwind despite GOOGL drag. NQ +0.77% futures = ~$189-190 XLK open. Stop $169.758 = 9.9% below. -7% ceiling $170.68 = 9.4% below. Trail-to-7% tighten trigger at +15% = $211.06 (still +12.0% away). Thesis INTACT and STRENGTHENING (dovish rate-cut tape supportive of long-duration tech).
+
+### Trade Ideas — DECISION FRAMEWORK
+- **Wk-8 cap 3/3 CONSUMED Mon-Wed (XLI + XLK Tue, XLB Wed).**
+- **NEW ENTRIES BLOCKED Fri by Buy-Side Gate line 2 ("Trades this week <= 3").** This is a specific named gate failure per strategy, NOT patience/protect-cash/wait-for-confirmation.
+- **Sell-side actions AUTHORIZED and independent of weekly cap:** thesis-break exits, -7% manual cuts, trail ratchets.
+
+### Idea Register (evaluated for completeness — all HOLD by named gate failure)
+- **Any new long (SPY/QQQ/XLE/XLF/XLV/XME/GDX/etc):** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL** (Wk-8 trades 3/3, cap consumed until Mon 8/10 Wk-9 reset). Not test-fail on setup — gate-fail on budget.
+- **XLK ADD-to-FULL (upgrade HALF → 20% full-size):** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL**; thesis actually strengthening on dovish NFP + AI-chip rebound, so this becomes PRIORITY-1 for Wk-9 Mon 8/10 reactive slot IF tech extension holds through Fri close.
+- **XLB ADD-to-FULL:** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL**. Congo copper + gold $4,300 = strengthening thesis, PRIORITY-2 for Wk-9 reactive if XLB closes green Fri.
+- **XLI ADD-to-FULL:** DOES NOT QUALIFY → **Buy-Side Gate line 2 FAIL**. Growth-scare cross-current makes XLI less compelling for Wk-9 add; consider a fresh diversifier (XME miners? XLV defensive?) instead of XLI concentration.
+- **GDX / XME (gold miners / metals miners):** DOES NOT QUALIFY → Buy-Side Gate line 2 FAIL. But GDX +7.2% Wed on gold catalyst = clear 2-session momentum leader; log for Wk-9 candidate.
+
+### Actionable Plan for Market-Open Routine (09:30 ET)
+- **NO NEW ENTRIES.** Weekly cap 3/3 consumed. Any fresh buy = weekly cap violation → rule violation to log.
+- **XLB monitor:** small red -0.53%, watch for gold/copper catalyst extension keeping the vehicle bid; no action expected. Stop covers -8.9%.
+- **XLI monitor:** cyclical growth-scare cross-current — if XLI gaps down >2% at open (below ~$181.60) and holds red through 10:15 ET, flag for potential thesis review (not automatic exit — stop at $169.37 covers -8.9%).
+- **XLK hold with tailwind:** dovish NFP + AI chip rebound = positive read. If XLK opens +1%+ ($190+), just hold and let stops ratchet. No trail-tighten trigger yet (+15% needed = $211.06, +12% away).
+- **Trail ratchet check:** None triggerable — max winner XLK +2.65% far below +15% tighten threshold.
+- **Runtime gate:** N/A (no entries pending). Structural monitor: verify market-open routine FIRES at 09:30 ET (4th-consecutive-fire = STRONG recovery signal after 33-miss streak; miss = failure re-confirmed).
+
+### Risk Factors — Fri 8/7
+- **NFP dovish-read reversal risk:** if 09:30-11:00 ET price action reads "growth-scare" instead of "Fed cut jubilation" (bond yields collapse hard, USD spikes on flight-to-safety, VIX spikes above 18), then all 3 positions face broad-tape risk. Current pre-market signal is dovish-tailwind, not growth-scare, but binary within first 90 min.
+- **AI-capex cracks pattern (WDC/SNDK Thu + GOOGL Fri):** third consecutive session with an AI-infra cost/capex negative read = compounding tape headwind for XLK. GOOGL -1.29% Thu was contained (broader XLK -0.31%) but if pattern extends into Fri open with AMZN/META/MSFT capex jitter, XLK vulnerable.
+- **Weekend gap risk into 2 days:** flat book would be zero, but 3 positions carry weekend Iran-Hormuz/geopolitics/earnings-week-end risk. All 3 stops GTC and covering 8.9-9.9% below entry — worst-case Monday gap-down to stops = ~$3,000 (3% equity) loss cap on $30k exposure. Manageable.
+- **Wk-8 close = weekly-review production pending Fri PM.** Fri 8/7 EOD → weekly-review Fri PM required per routine cadence. First non-flat week in 7 weeks; review should assess execution quality on live fills (Tue XLI+XLK, Wed XLB) + structural recovery of routine (2-of-3 fires so far).
+- **Deployment gap 30% vs 75-85% target:** Wk-9 must prioritize either HALF→FULL promotions on best-performing holds OR fresh diversifier entries to close gap. Current book performance ranking XLK > XLI > XLB is the natural Wk-9 add priority.
+
+### Decision — HOLD BOOK, NO NEW ENTRIES
+- **ALL 3 held positions:** HOLD (thesis intact/strengthening for XLK+XLB, pressured-but-intact for XLI; stops live).
+- **All potential new ideas:** DOES NOT QUALIFY per Buy-Side Gate line 2 (Wk-8 cap 3/3 consumed). Named gate failure = correct decision, not rule violation.
+- **This is NOT "patience," NOT "protect cash," NOT "wait for confirmation."** This is a specific documented gate failure (weekly-trade budget cap 3/3) that blocks entries mechanically until Mon 8/10 Wk-9 reset.
+- **A flat entries session Fri 8/7 with cap-consumed = CORRECT rule-following, not violation.** Rule violation would be executing a 4th weekly trade.
+- **Wk-9 kickoff plan (Mon 8/10):** Fresh 3 slots. Priority queue: (a) XLK ADD-to-FULL if dovish-tape + AI-chip recovery extends through Fri close (STRONGEST P&L, catalyst-fresh), (b) XLB ADD-to-FULL if gold $4,300 + Congo copper ban extends into Mon, (c) fresh diversifier (GDX or XME on gold-miners 2-session momentum; XLV if defensive rotation kicks in on growth-scare confirmation), (d) XLI ADD deferred pending growth-scare vs Fed-cut resolution over weekend.
+
+### Data Freshness
+- Alpaca account/positions/orders pulled live 08:37 ET Fri 8/7; equity $100,307.64 direct read valid; `balance_asof` 2026-08-06 (Thu cash-close mark, T-1) with live current_price marks on 3 positions ($52.35/$185.90/$188.40 vs Thu close $52.17/$184.76/$185.33 = mild pre-open extension).
+- research.sh context (Yahoo) sector/index/VIX/oil quotes = Thu 8/6 4pm ET cash close + Fri pre-open overnight futures = live.
+- NFP print CNBC 2026-08-07 12:31 UTC = 08:31 ET real-time reporting on 08:30 ET release = live.
+- Tavily news dated 7/31-8/7 12:04 UTC across 15+ sources (cnbc, tradingkey, biggo, ts2, kraken, benzinga, stocktitan, seekingalpha, xtb, digitaltoday, 247wallst, yahoo, interactivecrypto, fool, reuters, investors) = current.
+- Alpaca AH quotes Thu 20:00 UTC single-side wide (XLB no ask, XLI bp $179.19/ap $191.06, XLK bp $179.45/ap $190.87); Yahoo Thu cash close authoritative reference; live Alpaca current_price fields = fresher pre-open marks reflecting overnight session.
+- No stale-data block. Sizing UNBLOCKED for hold/exit decisions (new entries BLOCKED by Wk-8 cap independently).
+
+### Structural Routine Health
+- **Pre-market routine FIRED live Fri 8/7 pre-open ~08:37 ET** — this entry. Continuing recovery signal.
+- **Market-open routine 09:30 ET slot is next structural test:** 4th-consecutive-fire (Tue 8/4 → Wed 8/5 → Thu 8/6 → Fri 8/7) would upgrade signal from "moderate recovery" to "strong recovery." Miss = structural failure re-confirmed. Note: no new entries authorized regardless — but confirming stop discipline + NFP dovish-vs-growth-scare read still requires the run.
+- **Midday-scan routine FIRED Thu 8/6** (12:04 ET) — reversed Wed 8/5 miss; Fri 12:00 ET slot pending.
+- **Weekly review DUE Fri 8/7 PM** — Wk-8 close review with 3 filled positions (first non-flat Wk in 7 weeks); required weekly cadence.
