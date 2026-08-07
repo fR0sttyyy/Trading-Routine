@@ -618,3 +618,24 @@ No positions yet. Bot launches tomorrow.
 | XLK | 54 | $183.53 | $185.46 | -0.24% | +$104.22 | $169.758 (trail 10%) |
 
 **Notes:** Snapshot fired 15:51 ET Thu — ~9 min before cash close, market still OPEN (next_close 2026-08-06 16:00 ET); marks essentially at-close. Day P&L baseline Wed Aug 05 → Thu Aug 06 = clean 1-trading-day span (no gap). Book: 3 positions, all three red on the day (XLB -1.11%, XLI -0.94%, XLK -0.24%) — broad-market/sector pullback session. XLK still green on the position (+1.05%), XLI barely green (+0.28%), XLB flipped to modest red (-1.09%). No new fills today, no orders modified. Trades today: none. Trades this week (Mon-Thu): 3 (Tue XLK+XLI, Wed XLB HALF) → Wk-8 cap fully CONSUMED at 3/3, no additional trades allowed Fri Aug 07 regardless of setup quality. Capital deployed: 29.97% vs 75-85% target — three sector ETFs at ~$10k notional each; XLB is HALF-size slot #3 by design. All three GTC 10% trailing stops live and unchanged (XLB $47.664 HWM $52.96, XLI $169.367 HWM $188.185, XLK $169.758 HWM $188.62); none within 3% of price. First red day of Wk-8. Tomorrow (Fri Aug 07): pre-market scan for stop-tighten triggers only (no new adds — weekly cap locked); monitor XLB (weakest today, closest to entry) and confirm 10% trails hold on any further sector rotation.
+
+### Aug 07 — Market-Open Routine (Friday, 09:48 ET, market OPEN — Wk-8 Day 5 / NFP DAY / WEEKLY CAP CONSUMED)
+**Market:** OPEN (`is_open: true`, next_close 2026-08-07 16:00 ET) | **Equity:** $100,268.23 | **Cash:** $70,044.24 (69.86%) | **Positions:** 3 | **Trades placed:** 0 | **Wk-8 trades:** 3/3 (CAP CONSUMED)
+
+| Ticker | Shares | Entry | Live | Chg | Unrealized P&L | Stop | HWM |
+| - | - | - | - | - | - | - | - |
+| XLB | 192 | $52.63 | $52.545 | +0.72% (day) | -$16.32 (-0.16%) | $47.664 (trail 10%) | $52.96 |
+| XLI | 54 | $184.077 | $185.13 | +0.20% (day) | +$56.86 (+0.57%) | $169.3665 (trail 10%) | $188.185 |
+| XLK | 54 | $183.53 | $187.767 | +1.32% (day) | +$228.79 (+2.31%) | $169.857 (trail 10%) | $188.73 |
+
+**Notes:** Market-open routine FIRED LIVE at 09:48 ET Fri — **4th consecutive live 09:30 ET slot fire** (Tue 8/4 → Wed 8/5 → Thu 8/6 → Fri 8/7); structural recovery signal upgraded from "moderate recovery" to **"strong recovery"** per pre-market plan. 33-miss streak Jun 23 → Aug 3 now decisively broken with 4 consecutive fires. Clock confirmed `is_open: true`. **NO ENTRIES PLACED** per pre-market plan / strategy Buy-Side Gate line 2: Wk-8 trades this week = 3/3 CONSUMED (Tue XLI+XLK, Wed XLB HALF). Any 4th weekly trade = rule violation. This is a *specific documented gate failure* (weekly-trade budget), NOT patience/protect-cash/wait-for-confirmation. Idea register per RESEARCH-LOG (XLK ADD-to-FULL, XLB ADD-to-FULL, XME/GDX, XLV) all fail Buy-Side Gate line 2 identically — parked as PRIORITY queue for Wk-9 Mon 8/10 reset.
+
+**Live snapshot at 09:48 ET:** all 3 positions GREEN on the day (XLB +0.72%, XLI +0.20%, XLK +1.32%) — dovish-NFP tape reading as Fed-cut-tailwind not growth-scare (per pre-market thesis). XLK leading (+2.31% position P&L / +1.32% intraday) confirms tech leadership on rate-cut probability jump; XLI positive despite growth-scare cross-current (defensive-rotation risk not confirmed); XLB fractionally green (-0.16% position but +0.72% intraday) with gold $4,300 + Congo copper ban tailwinds still fresh. **Stops all live GTC + XLK hwm ratcheted overnight $188.62 → $188.73** (stop $169.758 → $169.857, +0.06% ratchet) — trailing-stop mechanism working as designed on the mild extension. XLB hwm $52.96, XLI hwm $188.185 unchanged (neither exceeded HWM today so far).
+
+**No orders modified, no manual actions taken, no trades placed.** Trail-to-7% tighten triggers still distant (XLK +12% away at $211.06, XLI +13.3% away at $211.69, XLB +14.7% away at $60.52). Manual -7% cut lines all well clear (XLB -6.3% below $48.94, XLI -8.4% below $171.19, XLK -9.6% below $170.68). Combined unrealized P&L: +$269.33 on $29,955.74 cost basis (+0.90% on deployed).
+
+**Data freshness:** Alpaca clock/account/positions/orders pulled live 09:48 ET, all fields fresh (current_price live intraday, balance_asof 2026-08-06 T-1 daily-mark stamp normal until 16:00 ET roll). No stale-data block.
+
+**Structural routine health:** 4/4 market-open fires this week = strong recovery. Midday-scan slot 12:00 ET Fri pending (Thu 8/6 fired; Wed 8/5 missed); EOD-snapshot slot 15:45-16:00 ET pending; weekly-review Fri PM slot pending (first non-flat Wk in 7 = high-value review). Next checkpoint: midday scan at 12:00 ET (management-only — book fully hedged, no entries authorized).
+
+No ClickUp alert per STEP 7 (no trade placed).
