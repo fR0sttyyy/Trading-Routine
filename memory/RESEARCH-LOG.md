@@ -3378,3 +3378,126 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Market-open routine 09:30 ET slot is next structural test:** 4th-consecutive-fire (Tue 8/4 → Wed 8/5 → Thu 8/6 → Fri 8/7) would upgrade signal from "moderate recovery" to "strong recovery." Miss = structural failure re-confirmed. Note: no new entries authorized regardless — but confirming stop discipline + NFP dovish-vs-growth-scare read still requires the run.
 - **Midday-scan routine FIRED Thu 8/6** (12:04 ET) — reversed Wed 8/5 miss; Fri 12:00 ET slot pending.
 - **Weekly review DUE Fri 8/7 PM** — Wk-8 close review with 3 filled positions (first non-flat Wk in 7 weeks); required weekly cadence.
+
+## 2026-08-10 (Mon) — Pre-Market Research — Wk-9 Day 1 / KICKOFF / CPI WEEK
+
+### Account Snapshot (live 08:42 ET pre-open)
+- **Equity:** $100,316.58 | **Cash:** $70,044.24 (69.82%) | **Buying Power:** $364,939.51 | **Deployed:** $30,272.34 (30.18%)
+- **Positions:** 3 (XLB 192 @ $52.63 → $52.90, +$52 / +0.51%; XLI 54 @ $184.077 → $185.01, +$50 / +0.51%; XLK 54 @ $183.53 → $187.50, +$214 / +2.16%)
+- **Open orders:** 3 trailing-stop GTC (XLB $47.664 hwm $52.96 / XLI $169.3665 hwm $188.185 / XLK $169.857 hwm $188.73)
+- **Daytrade count:** 0/3 | **Wk-9 trades used:** 0/3 (FRESH CAP — Wk-8 closed 3/3)
+- **balance_asof:** 2026-08-07 (Fri close mark rolled forward — live current_price fields fresh on all 3 positions). Sizing UNBLOCKED.
+
+### Market Context (Fri 8/7 close + Mon 8/10 pre-open)
+- **Indices Fri close:** SPX 7757.64 (+0.62%), NDX 26690.62 (+1.30%), Dow 54036.93 (+0.28%), VIX 15.40 (+3.36%, still low-vol regime <20)
+- **Futures Mon pre-open:** ES 7776.50 (-0.04%), NQ 29814.75 (-0.07%) — essentially flat overnight
+- **Oil:** WTI $79.39 (+1.55%), Brent $84.79 (+1.48%) — oil bouncing despite Fitch's $70 Q4 forecast (Iran negotiations tension per morning squawk)
+- **Sectors Fri close (Yahoo):** XLK +1.42%, XLB +1.32%, XLV +0.75%, XLI +0.23%, XLP +0.01%, XLF -0.36%, XLE -1.13%
+  - **Wk-9 momentum leader deck:** XLK / XLB / XLV / XLI (all 4 green Fri; top 2 are held; XLV is the fresh diversifier candidate)
+- **Gold:** $4,371/oz (up 7% weekly, approaching $4,500 with CPI Wed as decision point)
+- **Silver:** $64.1/oz (up 10% weekly — silver joining gold rally)
+- **Copper:** $14,128/ton (approaching CITIC's $15,000 forecast on Congo export ban)
+- **TSMC July revenue +44.7% MoM to record NT$467.58B** — massive AI-chip demand confirmation into Mon open, direct XLK ballast tailwind
+
+### Wk-9 Macro Calendar
+- **Wed 8/12 08:30 ET — CPI July:** consensus +0.1% MoM headline / +0.2% MoM core / 3.4% YoY headline / 2.5% YoY core. **BINARY event of the week.** Cool = risk-on continues, dovish tape, XLK/XLB/gold bid. Hot = hawkish reprice, tech vulnerable, real-yield pressure on long-duration.
+- **Thu 8/13 08:30 ET — PPI July + jobless claims:** secondary inflation read + labor.
+- **Fri 8/14 — Retail sales:** consumer spending gauge.
+- **Fed-cut probability:** market flipped post-cold-NFP; September hike odds dropped 67% → 44%, cut-or-pause at 56%. CPI Wed decides whether the flip stabilizes or reverses.
+
+### Overnight Catalysts (into Mon open)
+- **TSMC record July revenue** (see above) — dominant tech-tape bullish read
+- **Iran negotiations tension** (per morning squawk) — oil bid, Hormuz risk premium
+- **Berkshire stock purchases** disclosed — value/financials read-through, not sector-moving for us
+- **Rocket Lab reports AMC tonight** — small-cap, not moving XLK
+- **AbCellera Biologics +29.58% pre-open** on Vertex deal — small biotech pop, not sector-moving
+- **NO major BMO earnings** in our 3 held sectors (XLB/XLI/XLK) — clean tape into open
+
+### Position-by-Position Read
+- **XLB 192 @ $52.63 → $52.90 (+0.51% pos, +$52 P&L):** Gold $4,371 + silver +10% weekly + copper $14K/ton approaching CITIC $15K forecast = 3 fresh commodity tailwinds. Fri sector +1.32% = 2nd-best sector Fri. Stop $47.664 = -9.9% below current. -7% ceiling $48.94 = -7.5% below. Thesis INTACT and STRENGTHENING (commodity trifecta).
+- **XLI 54 @ $184.077 → $185.01 (+0.51% pos, +$50 P&L):** Industrials mild-strength Fri (+0.23% sector) after Thu weakness. Growth-scare narrative from Fri NFP still a cross-current, but oil-bounce + Iran-tension supports capex names. Stop $169.3665 = -8.5% below. -7% ceiling $171.19 = -7.5% below. Thesis INTACT but PRESSURED (weakest of held book, less compelling for ADD).
+- **XLK 54 @ $183.53 → $187.50 (+2.16% pos, +$214 P&L):** Strongest position, Fri sector +1.42% = leader. TSMC +44.7% July revenue confirms AI-chip demand supercycle intact (offsets AMD/NVDA China share erosion concern). Dovish rate-cut tape supports long-duration tech. Stop $169.857 = -9.4% below. -7% ceiling $170.68 = -9.0% below. Trail-to-7% tighten at +15% = $211.06 (still +12.6% away). Thesis INTACT and STRENGTHENING.
+
+### Trade Ideas — DECISION FRAMEWORK
+- **Wk-9 cap 0/3 — FULL BUDGET AVAILABLE.**
+- **Deployment gap:** 30.18% actual vs 75-85% target = 45-55 pt gap. Closing to ~60% today via 3 HALF-size adds is aggressive but justified.
+- **CPI Wed 8/12 = binary macro event this week → all Mon entries HALF-SIZE per strategy rule ("macro event = half-size, not skip").**
+- **Priority queue per Fri plan:** (a) XLK ADD-to-FULL, (b) XLB ADD-to-FULL, (c) GDX/XME fresh diversifier, (d) XLI ADD deferred.
+
+### Idea Register — QUALIFICATION TESTS
+1. **XLK ADD (~50 sh HALF-size, brings position toward 20% cap):**
+   - Catalyst: TSMC +44.7% July revenue + dovish NFP + AI-chip rebound + Fri sector leader +1.42% — YES
+   - Sector momentum: XLK #1 sector Fri, rotation report shows +2.01% momentum — YES
+   - Stop 7-10%: existing 10% trailing stop applies to combined qty after cancel-and-replace
+   - R:R: at $187.50, +20% target $225, -7% ceiling $174.375 → +37.5 vs -13.1 = **2.86:1** — YES
+   - Buy-Side Gate: positions after = 3 (add, no new name), Wk-9 trades 0→1, add cost ~$9,375 = 9.35% equity + existing XLK 9.87% = 19.22% (under 20% cap), cash $70k >> $9.4k, PDT 0/3, catalyst docd, stock — ALL PASS
+   - **QUALIFIES → TRADE ~50 sh HALF at 09:30 open**
+2. **XLB ADD (~185 sh HALF-size, brings position toward 20% cap):**
+   - Catalyst: gold $4,371 + silver +10% wk + copper $14K/$15K target + Fri sector +1.32% — YES
+   - Sector momentum: XLB #2 sector Fri, rotation report +0.33% momentum (modest but positive) — YES
+   - Stop 7-10%: existing 10% trailing stop applies to combined qty after cancel-and-replace
+   - R:R: at $52.90, +20% target $63.48, -7% ceiling $49.20 → +10.58 vs -3.70 = **2.86:1** — YES
+   - Gate: positions after 3, Wk-9 trades 1→2, add cost ~$9,787 = 9.75% + existing 10.07% = 19.82% (under cap), cash ok, PDT ok, catalyst docd, stock — ALL PASS
+   - **QUALIFIES → TRADE ~185 sh HALF at 09:30 open**
+3. **GDX FRESH (~105 sh HALF-size, new position):**
+   - Catalyst: gold miners +21.31% recent momentum + gold $4,371 approaching $4,500 + silver +10% wk + dovish rate tape supporting precious metals — YES
+   - Sector momentum: gold-miner subsector #1 momentum leader per rotation report — YES
+   - Stop 7-10%: fresh 10% trailing stop on entry
+   - R:R: at $89.50 est entry, +20% target $107.40, -7% ceiling $83.24 → +17.90 vs -6.26 = **2.86:1** — YES
+   - Gate: positions after 4/6, Wk-9 trades 2→3 (cap reached), cost ~$9,398 = 9.37% equity < 20% cap, cash ok, PDT ok, catalyst docd here, stock — ALL PASS
+   - **QUALIFIES → TRADE ~105 sh HALF at 09:30 open**
+4. **XLI ADD:**
+   - Catalyst: PMI 4-yr high (stale from Wk-8 Wed), Iran-tension oil bid (indirect), Fri sector +0.23% (tepid) — MARGINAL
+   - Sector momentum: XLI #4 sector Fri, +1.25% momentum reading (behind XLK/XLB) — **FAILS** sector-momentum test #2 relative to alternatives
+   - **DOES NOT QUALIFY** → **Failed test:** sector-momentum tepid vs XLK/XLB/GDX alternatives. HOLD existing, no add. Reconsider Wk-10 if XLI reclaims leader deck.
+5. **XME (metals & mining fresh):**
+   - Same catalyst as GDX (commodity), but GDX is +21% momentum vs XME +4.88% — XME QUALIFIES but GDX has stronger catalyst-momentum combo; only 1 slot for miner exposure → prefer GDX.
+   - **DOES NOT QUALIFY today** → **Failed test:** relative-momentum weaker than GDX in same commodity sleeve; only 1 slot available for miner diversifier and GDX wins. Not a HOLD-by-patience — a HOLD-by-slot-allocation vs stronger alternative.
+6. **XLV (healthcare fresh):**
+   - Catalyst: 3-month sector strength per morning brief, Fri +0.75% sector, ABCL +29% biotech pop today — YES on catalyst
+   - Sector momentum: XLV #3 sector Fri, but no fresh multi-session leadership vs XLK/XLB/GDX — **FAILS** relative-momentum test today
+   - **DOES NOT QUALIFY today** → **Failed test:** sector-momentum tepid vs 3 stronger alternatives (XLK/XLB/GDX). Wk-10 reactive candidate if defensive rotation kicks in post-CPI hot print.
+
+### Actionable Plan for Market-Open Routine (09:30 ET)
+- **ENTER AT OPEN — 3 orders, HALF-size each, in this order:**
+  1. **XLK ADD 50 sh market buy** (runtime gate: XLK bid > $184.00 AND ES not red > 0.5%). After fill: CANCEL existing XLK trailing stop (id f2c0dace-06da-4e16-a43b-e35066763724) and REPLACE with new 10% trailing stop on combined 104 sh GTC.
+  2. **XLB ADD 185 sh market buy** (runtime gate: XLB bid > $52.30 AND ES not red > 0.5%). After fill: CANCEL existing XLB trailing stop (id 9f98f565-79e4-449b-a5cd-4db13c19a9ba) and REPLACE with new 10% trailing stop on combined 377 sh GTC.
+  3. **GDX FRESH 105 sh market buy** (runtime gate: GDX bid > $88.00 AND ES not red > 0.5%). After fill: place fresh 10% trailing stop 105 sh GTC.
+- **Estimated total capital deployment on 3 fills:** ~$28,560 → post-fill deployed ~$58,832 (58.6%). Closes ~half the gap to 75-85% target in one session.
+- **Post-fill book:** 4 positions (XLB FULL, XLI HALF, XLK FULL, GDX HALF), 4 trailing stops live, Wk-9 cap 3/3 CONSUMED. Any 4th trade Tue-Fri = weekly cap violation.
+- **XLI hold:** No add, no exit. Existing stop $169.3665 stands.
+- **Trail ratchet check on holds:** None triggerable — max winner XLK +2.16% far below +15% first tighten ($211.06).
+- **Runtime kill switch:** if ES=F red > 0.5% at 09:30 ET, HALF-SIZE further to ~25 sh XLK / ~90 sh XLB / ~50 sh GDX (quarter-size each). If ES red > 1.0%, HOLD all 3 entries and reassess at 10:00 ET. If VIX > 20 at 09:30, HOLD all entries.
+- **Structural monitor:** verify market-open routine FIRES at 09:30 ET — 5th-consecutive-fire test would confirm structural recovery from 33-miss streak.
+
+### Risk Factors — Mon 8/10 & week
+- **CPI Wed 8/12 08:30 ET binary:** hot print (headline > +0.2% MoM or core > +0.3%) = hawkish reprice → XLK -2 to -4% intraday risk, XLB/GDX mixed (gold benefits from stagflation, miners hurt by dollar-strength), XLI negative (real-yield pressure on capex names). HALF-size discipline pre-CPI + 10% trailing stops cover this. Combined worst-case gap-to-stop across 4 post-fill positions × 10% cushion ≈ $5,900 = 5.9% equity — manageable.
+- **AI-chip China share erosion narrative:** NVDA/AMD losing to Huawei is a slow-drip headwind on XLK but TSMC +44.7% July revenue is a fresh bullish counter. Net: XLK thesis still holds; monitor for AMD/NVDA-specific pressure days that pull XLK -3%+ intraday.
+- **Iran negotiations / Hormuz oil risk:** oil-spike scenario supports XLE (which we don't hold) but hurts XLI margins and pressures airline/consumer tape. Watch WTI $85+ as escalation threshold.
+- **Weekend gap risk realized:** Sat-Sun no adverse gap materialized (all 3 held positions ~flat to Fri close in pre-open). Wk-9 opens clean.
+- **Slot-consumed Tue-Fri risk:** with 3/3 used Mon, cannot add defensive rotation post-CPI hot print. Reactive playbook Tue-Fri = manage-only (stops, thesis-break exits, tighten-trails). This is an accepted tradeoff for closing the deployment gap on Day 1.
+- **Deployment 58.6% post-fill:** still below 75-85% target. Full closing requires Wk-10 slots (Mon 8/17 reset). If Wk-9 fills perform, Wk-10 candidates = XLI ADD (if defensive rotation stalls), XLV, XLF (if financials 2-session breakout).
+
+### Decision — TRADE 3 QUALIFYING SETUPS AT HALF SIZE
+- **XLK ADD 50 sh at 09:30 open** — dovish tape + TSMC blowout + Fri leadership, HALF-size ahead of CPI.
+- **XLB ADD 185 sh at 09:30 open** — commodity trifecta (gold $4,371 + silver +10% wk + copper $14K), HALF-size ahead of CPI.
+- **GDX FRESH 105 sh at 09:30 open** — gold-miner +21% momentum + $4,500 gold target, HALF-size ahead of CPI.
+- **XLI HOLD, no add** — sector-momentum test fails vs alternatives (named gate failure, not patience).
+- **XME / XLV parked** — Wk-10 reactive candidates; slot budget allocated to stronger alternatives today.
+- **Wk-9 cap 3/3 consumed after Mon fills; Tue-Fri = manage-only.**
+- **Rule compliance:** 3 qualifying setups → 3 trades executed = **default-to-trade** rule respected. HALF-size = **macro-event discipline** respected. XLI/XME/XLV skipped with named-gate reasons = **NOT patience/protect-cash**.
+
+### Data Freshness
+- Alpaca account/positions/orders/clock pulled live 08:42 ET Mon 8/10; equity $100,316.58 direct read; `balance_asof` 2026-08-07 (Fri close, T-1) with live current_price marks on 3 positions (XLB $52.90 / XLI $185.01 / XLK $187.50) essentially flat vs Fri close ($52.86 / $185.18 / $187.97 — mild -0.09%/-0.25% overnight drift).
+- research.sh context (Yahoo) Fri 8/7 4pm ET cash close + Mon overnight futures = live.
+- GDX Alpaca quote 12:41 UTC (08:41 ET) live pre-open two-sided ($89.10 x $89.65) — good fresh mark.
+- XLK/XLB/XLI/XLV/XLE/XLF Alpaca quotes stamped Fri 20:00 UTC (single-side wide, e.g. XLB bp $51.21 no ap) — Yahoo Fri cash close authoritative; live pre-open current_price fields on Alpaca positions confirm marks.
+- Tavily news dated 8/3-8/10 12:41 UTC across 20+ sources (livetradingnews, investing, cryptorank, seekingalpha, wccftech, marketscale, qz, buttondown, tradingview, share-talk, hdfcsky, ts2, cnbc, fool, stockstotrade, benzinga, alpharvestpro, rotationalinvesting, yahoo, beincrypto) = current.
+- No stale-data block. Sizing UNBLOCKED across all decisions.
+
+### Structural Routine Health
+- **Pre-market routine FIRED live Mon 8/10 pre-open 08:42 ET** — this entry. 5th consecutive pre-market fire (Tue 8/4 → Wed 8/5 → Thu 8/6 → Fri 8/7 → Mon 8/10).
+- **Market-open routine 09:30 ET slot is next structural test:** 5th-consecutive-fire would push recovery signal from "strong recovery" to "full recovery" from the 33-miss streak. This is the critical fire because 3 orders are queued to execute.
+- **Fri 8/7 EOD slot MISSED** (only pre-market + market-open + midday logged); weekly-review Fri PM slot also MISSED. Backfill weekly-review is a Wk-9 task if bandwidth permits (Fri 8/14 PM slot most natural).
+- **Weekend Sun 8/9 EOD-snapshot entry logged** as gap-filler for Fri close data.
+- **Wk-9 slot targets:** 5 pre-market + 5 open + 5 midday + 5 EOD + 1 weekly = 21 slots (vs 25 nominal Mon-Fri). Full-coverage target: hit all 5 open-slot fires + all 5 EOD-slot fires this week.
