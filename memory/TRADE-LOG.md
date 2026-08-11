@@ -816,3 +816,33 @@ No ClickUp alert per STEP 7 (no trade placed).
 **Overnight gap risk into Wed open (CPI 08:30 ET binary):** 4 positions × 10% trail cushion = ~$5,899 max gap-to-stop loss on $58,989 exposure = -5.86% equity worst-case. HALF-size sizing on Mon's 3 fills was the pre-emptive discipline layer for this event — no reactive de-risking authorized.
 
 **Structural routine health:** midday-scan slot fires live 5th consecutive time (Tue 8/4 → Thu 8/6 → Fri 8/7 → Mon 8/10 → Tue 8/11; Wed 8/5 missed). Wk-9 slot coverage now 7/7 (Mon 4/4 + Tue pre-market ✓ + open ✓ + midday ✓). Full-recovery signal from 33-miss streak extends. Next checkpoint: EOD snapshot 15:45-16:00 ET slot.
+
+### Aug 11 — EOD Snapshot (Day 44, Tuesday — Wk-9 Day 2 / MANAGE-ONLY / T-1 CPI Wed / CAP CONSUMED)
+**Portfolio:** $100,532.77 | **Cash:** $41,658.13 (41.44%) | **Day P&L:** -$69.49 (-0.069%) | **Phase P&L:** +$532.77 (+0.533%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| GDX | 105 | $87.96 | $89.96 | -0.59% | +$210.00 (+2.27%) | $81.846 (trail 10%, hwm $90.94) |
+| XLB | 377 | $52.684 | $53.215 | +0.07% | +$200.19 (+1.01%) | $48.2355 (trail 10%, hwm $53.595) |
+| XLI | 54 | $184.077 | $185.79 | +0.65% | +$92.50 (+0.93%) | $169.3665 (trail 10%, hwm $188.185) |
+| XLK | 104 | $185.616 | $185.905 | -0.22% | +$30.10 (+0.16%) | $169.956 (trail 10%, hwm $188.84) |
+
+**Notes:** Prior EOD snapshot Mon 8/10 close = $100,602.26 → today Tue 8/11 close = $100,532.77 = clean single-trading-day span (Mon close → Tue close), Day P&L label valid. Day P&L -$69.49 (-0.069%), effectively flat. Phase P&L +$532.77 (+0.533%) after 44 phase days — first daily loss in the new Wk-9 phase, mild and inside noise. Alpaca fields confirm: `balance_asof` 2026-08-10 (T-1 daily-mark stamp, EOD roll to 8/11 close pending), equity $100,532.77 vs last_equity $100,554.12 (-$21.35 intraday change from Mon close-mark), long_market_value $58,874.64, cash $41,658.13, buying_power $331,481.50, sma $86,211.90, daytrade_count 0/3.
+
+**Trades today: NONE** — Wk-9 trades this week (Mon 8/10 → today) unchanged at **3/3 CAP CONSUMED on Day 1** by design to close 45-55 pt deployment gap. Buy-Side Gate line 2 mechanically blocked all pre-market XLE/XLV FRESH candidates. Correct rule-compliant manage-only session; Wk-10 reset Mon 8/17 = 3 fresh slots.
+
+**Intraday P&L trajectory:** open 09:42 $844.55 → midday 12:07 $639.33 → EOD $532.79 = steady mild pullback through the session (-$312 open→close), consistent with pre-CPI de-risking / low-conviction chop. Nothing thesis-breaking; all 4 positions still GREEN at close. Combined unrealized +$532.79 on $58,874.64 deployed (+0.905%). Deployment 58.56% ($58,874.64 mv / $100,532.77 equity), unchanged from open — no fills, no add/trim activity.
+
+**Intraday trail-ratchet activity (midday → EOD flat):** GDX hwm held $90.94 (ratcheted earlier in session $90.75 → $90.94, stop $81.675 → $81.846); XLB both legs hwm held $53.595 (stop $48.195 → $48.2355, 185 sh new + 192 sh legacy converged identical); XLI hwm unchanged $188.185 (close $185.79 below hwm); XLK hwm unchanged $188.84 (close $185.905 below hwm). **All 6 trailing stops live GTC, no stops moved down, no manual intervention required.**
+
+**Winners/losers split intraday:** 2 up (XLI +0.65% best, XLB +0.07% flat-green); 2 down (GDX -0.59% mild pullback from Mon +3.06%, XLK -0.22% pre-CPI chop). Position-level all still GREEN (GDX +2.27%, XLB +1.01%, XLI +0.93%, XLK +0.16%). GDX pullback after Mon best-in-book +3.06% = normal profit-taking not thesis break (gold still approaching $4,500, dovish rate tape into CPI intact). XLI intraday leader flip = beneficiary of dovish-CPI positioning / cyclical rotation on soft-inflation whisper — no thesis breakdown across book.
+
+**Cut-loser gate NO-OP:** all 4 positions GREEN (min XLK +0.16%, max GDX +2.27%) — far clear of -7% cut lines (GDX $81.80 = -9.1% below $89.96; XLB $48.99 = -7.9% below $53.215; XLI $171.19 = -7.9% below $185.79; XLK $172.62 = -7.1% below $185.905).
+
+**Tighten-trail triggers NO-OP:** max winner GDX +2.27% vs +15% first-tighten trigger — 12.5% away from $101.15 threshold (XLB +1.01% = 13.9% from $60.59, XLI +0.93% = 14.0% from $211.69, XLK +0.16% = 14.8% from $213.46). All triggers >12% away.
+
+**Overnight gap risk into Wed open (CPI 08:30 ET binary):** 4 positions × 10% trail cushion = ~$5,887 max gap-to-stop loss on $58,875 exposure = -5.86% equity worst-case. HALF-size sizing on Mon's 3 fills was the pre-emptive discipline layer for this event — no reactive de-risking authorized on rules (sizing not gate). Trailing stops set the auto-exit floor; no manual overrides.
+
+**Structural routine health:** EOD snapshot slot fires live at 15:51 ET — 4/4 daily slots covered today (pre-market ✓, market-open ✓ [6th consecutive live 09:30 ET fire], midday ✓ [5th consecutive], EOD ✓; weekly-review N/A Tue). Full-recovery signal from 33-miss streak intact. Wk-9 slot coverage now 8/8.
+
+**Tomorrow (Wed 8/12 — CPI DAY):** manage-only session (Wk-9 cap consumed 3/3, no new entries authorized until Wk-10 reset Mon 8/17). CPI release 08:30 ET = binary event driving open direction. Priorities: (1) pre-market read of CPI print vs consensus/whisper — determine whether book benefits (soft print = dovish → GDX/XLB commodity tailwind, cyclical rotation continues) or hurts (hot print = hawkish → precious metals under pressure, XLK growth de-rate risk), (2) 09:30 open trail-ratchet & thesis-break scans on all 4 positions, (3) -7% cut-line watch tightens if any position gaps against stop cushion (worst-case GDX -9.1% cushion could compress fast on hot CPI), (4) no manual stop adjustments unless a position hits +15% tighten trigger (currently >12% away for all 4). Pre-market routine Wed 04:36 ET must ingest CPI release timing and set up 09:30 tactical framework.
