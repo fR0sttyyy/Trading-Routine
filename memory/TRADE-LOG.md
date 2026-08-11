@@ -754,3 +754,33 @@ No ClickUp alert per STEP 7 (no trade placed).
 **Structural routine health:** EOD snapshot slot fires live — 4/5 daily slots covered today (pre-market ✓, market-open ✓ [5th consecutive live 09:30 ET fire], midday ✓ [4th consecutive], EOD ✓; weekly-review N/A Mon). No missed slots today = clean Wk-9 Day 1 execution. Full-recovery signal from 33-miss streak intact and extending.
 
 **Tomorrow (Tue 8/11):** manage-only session (Wk-9 cap consumed 3/3, no new entries authorized until Wk-10 reset). Priorities: (1) trail-ratchet monitoring on GDX/XLB continuation (currently the two green legs), (2) -7% cut-line watch on any position that breaks thesis, (3) pre-CPI positioning — no reactive de-risking (HALF-sizing was the pre-emptive layer), (4) evaluate whether to place XME/XLV as Wk-10 candidates for Mon 8/17 slot budget. Pre-market routine Tue 04:36 ET must confirm no overnight gap surprises and refresh CPI Wed setup (consensus, whisper, positioning) for midday briefing.
+
+### Aug 11 — Market-Open Routine (Tuesday, 09:42 ET, market OPEN — Wk-9 Day 2 / MANAGE-ONLY / T-1 CPI / CAP CONSUMED)
+**Market:** OPEN (`is_open: true`, next_close 2026-08-11 16:00 ET) | **Positions:** 4 (GDX, XLB, XLI, XLK) | **Orders:** 6 trailing-stop GTC | **Wk-9 trades used:** 3/3 CAP CONSUMED | **Daytrade count:** 0/3 | **Action:** none (manage-only, no new entries)
+
+| Ticker | Shares | Entry (wtd) | Live 09:42 | Day Chg | Pos P&L | Stop | HWM |
+| - | - | - | - | - | - | - | - |
+| GDX | 105 | $87.96 | $90.66 | +0.19% | +$283.50 (+3.07%) | $81.675 (trail 10%) | $90.75 |
+| XLB | 377 | $52.684 | $53.545 | +0.69% | +$324.60 (+1.63%) | $48.195 (trail 10%) | $53.55 |
+| XLI | 54 | $184.077 | $186.425 | +0.99% | +$126.79 (+1.28%) | $169.3665 (trail 10%) | $188.185 |
+| XLK | 104 | $185.616 | $186.67 | +0.19% | +$109.66 (+0.57%) | $169.956 (trail 10%) | $188.84 |
+
+**Notes:** Market-open routine FIRED LIVE at 09:42 ET Tue 8/11 — **6th consecutive live 09:30 ET slot fire** (Tue 8/4 → Wed 8/5 → Thu 8/6 → Fri 8/7 → Mon 8/10 → Tue 8/11); structural full-recovery signal from 33-miss streak extends further. Clock confirmed `is_open: true` (next_close 16:00 ET). All 4 positions confirmed intact, all GREEN intraday, all 6 trailing stops live GTC.
+
+**STEP 3 hard-check — new entries BLOCKED (named gate failure):** Buy-Side Gate line 2 (Wk-9 trades ≤ 3) MECHANICALLY BLOCKS any 4th trade — Mon 8/10 fills consumed the weekly cap 3/3 by design (aggressive Day-1 deployment to close the 45-55 pt gap). Per pre-market RESEARCH-LOG 8/11 decision framework: XLE FRESH (2.86:1 R:R, XLE +4.66% Mon leader) and XLV FRESH candidates both DOES NOT QUALIFY — **failed test: Wk-9 cap 3/3 consumed**. Not "patience" / "protect cash" / "wait for confirmation" — this is the correct rule-compliant outcome of a documented planned deployment structure. Wk-10 reset Mon 8/17 = 3 fresh slots for reactive priority queue.
+
+**Live-quote confirmation (09:42-09:43 ET):** GDX bid $90.60 / ask $90.65 tight (2-sided ✓); XLB bid $53.51 / ask $53.52 tight (✓); XLI bid $186.40 / ask $186.45 tight (✓); XLK bid $186.58 / ask $186.61 tight (✓). All 4 quotable, no halt, no wide-spread flag. Data fresh.
+
+**Trail-ratchet activity intraday (server-side auto-advance):** XLB hwm advanced overnight/pre-open from $53.20 → $53.55 (stop $47.88 → $48.195; both XLB legs, 185 sh new + 192 sh legacy, converged to identical stop $48.195/hwm $53.55). GDX/XLI/XLK stops unchanged (all trading below prior hwm at open). No manual action required — server-side trailing mechanism functioning as designed.
+
+**Cut-loser gate NO-OP:** all 4 positions GREEN (min GDX +0.19% intraday / +3.07% position, max XLI +0.99% intraday / +1.28% position). -7% cut ceilings: GDX $81.80 (-9.8% below current $90.66), XLB $48.99 (-8.5% below $53.545), XLI $171.19 (-8.2% below $186.425), XLK $172.62 (-7.5% below $186.67). All well clear.
+
+**Tighten-trail triggers NO-OP:** GDX +3.07% vs +15% first-tighten trigger — 11.6% away from $101.15. XLB +1.63% = 13.2% from $60.59. XLI +1.28% = 13.5% from $211.69. XLK +0.57% = 14.4% from $213.46. All triggers >11% away.
+
+**Thesis-break NO-OP:** GDX thesis strengthening (Rubner 5-catalyst precious-metals setup, gold approaching $4,500). XLB commodity-trifecta intact (gold/silver/copper). XLI intact but tepid (flagged pre-market as weakest of book, no add). XLK intact (CoreWeave BMO 8/11 = potential intraday catalyst, TSMC +44.7% July revenue tailwind fresh). No exits triggered.
+
+**Equity update:** $100,844.53 (up $122 vs pre-open $100,722.81, up $290 vs Mon-close last_equity $100,554.12). Deployed 58.7% ($59,186 mv), unchanged from Mon-close baseline. Cash $41,658.13. All 4 legs incremental green at open.
+
+**STEP 7 ClickUp NOT sent** (no trades placed this routine). STEP 8: no trades = no memory/TRADE-LOG mutations required for fill records, but appending this routine-run entry for structural coverage and continuity. Next checkpoint: midday scan 12:04 ET (trail-ratchet re-check, thesis-break monitor, CoreWeave BMO reaction read).
+
+**Structural routine health:** market-open slot fires live 6th consecutive time confirming full recovery from the 33-miss streak. Wk-9 slot coverage now 6/6 (Mon 4/4 + Tue pre-market ✓ + open ✓). Weekly-review 8/7 backfill still pending — Fri 8/14 PM slot remains best natural production window.
