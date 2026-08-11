@@ -3501,3 +3501,113 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Fri 8/7 EOD slot MISSED** (only pre-market + market-open + midday logged); weekly-review Fri PM slot also MISSED. Backfill weekly-review is a Wk-9 task if bandwidth permits (Fri 8/14 PM slot most natural).
 - **Weekend Sun 8/9 EOD-snapshot entry logged** as gap-filler for Fri close data.
 - **Wk-9 slot targets:** 5 pre-market + 5 open + 5 midday + 5 EOD + 1 weekly = 21 slots (vs 25 nominal Mon-Fri). Full-coverage target: hit all 5 open-slot fires + all 5 EOD-slot fires this week.
+
+## 2026-08-11 (Tue) — Pre-Market Research — Wk-9 Day 2 / MANAGE-ONLY / T-1 CPI
+
+### Account Snapshot (live 08:43 ET pre-open)
+- **Equity:** $100,722.81 | **Cash:** $41,658.13 (41.36%) | **Buying Power:** $332,013.62 | **Deployed:** $59,064.68 (58.64%)
+- **Positions (4):**
+  - GDX 105 @ $87.96 → $89.88 (+$201.36 / +2.18%, intraday-mark -0.68%)
+  - XLB 377 @ $52.684 → $53.44 (+$285.02 / +1.44%, intraday-mark +0.49%)
+  - XLI 54 @ $184.077 → $185.00 (+$49.84 / +0.50%, intraday-mark +0.22%)
+  - XLK 104 @ $185.616 → $187.41 (+$186.62 / +0.97%, intraday-mark +0.59%)
+- **Combined unrealized: +$722.84 (+1.24%) on $58,341.86 cost basis**
+- **Open orders:** 6 trailing-stop GTC (GDX $81.675 hwm $90.75, XLB×2 both $47.88 hwm $53.20, XLI $169.3665 hwm $188.185, XLK×2 both $169.956 hwm $188.84)
+- **Daytrade count:** 0/3 | **Wk-9 trades used:** 3/3 **CAP CONSUMED** (Mon 8/10 fills: XLK+50, XLB+185, GDX+105)
+- **balance_asof:** 2026-08-10 (Mon close, T-1 daily-mark stamp) with live `current_price` marks on all 4 positions. last_equity $100,554.12 → equity $100,722.81 = +$168.69 pre-open drift. Sizing WOULD-BE UNBLOCKED, but Wk-9 cap blocks new entries mechanically.
+
+### Market Context (Mon 8/10 close + Tue 8/11 pre-open, 08:43 ET)
+- **Indices Mon close:** SPX 7753.11 (-0.06%), NDX 26605.36 (-0.32%), Dow 53975.98 (-0.11%), VIX 15.55 (+0.58%, still low-vol regime <20)
+- **Futures Tue pre-open:** ES 7788.00 (+0.14%), NQ 29833.00 (+0.32%) — mildly green overnight
+- **Oil:** WTI $82.46 (+0.40%), Brent $87.89 (+0.19%) — oil elevated on US-Iran impasse (Reuters headline "Wall St futures muted as US-Iran impasse lifts oil prices")
+- **Sectors Mon close (Yahoo):** XLE +4.66% (breakout on oil/Iran), XLV +1.67% (defensive rotation), XLB +0.61%, XLF +0.36%, XLP -0.20%, XLI -0.31%, XLK -0.88%
+  - **Sector shift Mon:** XLE + XLV led (energy Iran-bid + healthcare defensive), XLK/XLI/XLB gave back some Fri gains ahead of CPI Wed
+  - **Wk-9 relative-momentum deck (2-session Fri+Mon):** XLE (+3.5% cum), XLV (+2.4%), XLB (+1.9%), XLK (+0.5%), XLI (-0.1%), XLF (0), XLP (-0.2%) — energy + healthcare leadership emerging
+- **Gold:** ~$4,370-4,400 range (Citadel's Rubner "five catalysts converging → compelling upside setup for precious metals" via Kitco 8/10 — supports GDX/XLB commodity thesis)
+- **CoreWeave Q2 earnings BMO 8/11** — AI-infra backlog math tested; direct XLK read-through (positive → tailwind for AI-chip narrative, negative → could pressure XLK)
+
+### Wk-9 Macro Calendar (remaining)
+- **TODAY Tue 8/11 — no top-tier US macro release** (NFIB small biz optimism 06:00 ET secondary); positioning session pre-CPI
+- **Wed 8/12 08:30 ET — CPI July: BINARY event of the week** (consensus +0.1% headline MoM / +0.2% core / 3.4% headline YoY / 2.5% core YoY). Cool = risk-on continues, dovish tape, XLK/XLB/GDX bid. Hot = hawkish reprice, tech vulnerable, real-yield pressure on long-duration; gold direction mixed (stagflation supports, dollar-strength hurts miners)
+- **Thu 8/13 08:30 ET — PPI July + jobless claims** (PPI consensus rebound from -0.3% to +0.1% per news pull)
+- **Fri 8/14 — Retail sales:** consumer spending read
+- **Fed-cut probability:** flipped post-cold-NFP; September cut/pause 56% vs hike 44%. CPI Wed decides stabilization vs reversal
+
+### Overnight Catalysts (into Tue open)
+- **US-Iran impasse lifting oil** (Reuters 10:25 UTC) — WTI +0.4%, XLE +4.66% Mon; Hormuz-premium narrative reactivated
+- **Citadel Securities' Rubner: 5-catalyst precious-metals setup** (Kitco 8/10) — direct tailwind for GDX + XLB (metals sleeve)
+- **B2Gold +23% Fri** on Mali Menankoto permit → confirms GDX weekly +7.1%/+21.3% since 7/31 leadership
+- **CoreWeave Q2 BMO 8/11** — AI-infra backlog test; XLK read-through
+- **Cardinal Health Q4 BMO** (healthcare, not held) — sector-mover for XLV if beat/miss surprises
+- **Super Micro + Cisco + Tapestry + Rocket Lab this week** per Barron's — XLK read-through from SMCI (AI hardware) + CSCO (enterprise tech)
+- **NO major BMO earnings in our 4 held names' sectors that move the ETFs directly** — clean tape into open for GDX/XLB/XLI/XLK
+
+### Position-by-Position Read
+- **GDX 105 @ $87.96 → $89.88 (+2.18%, mv $9,437):** Rubner 5-catalyst thesis strengthens; gold approaching $4,500; B2Gold Mali permit confirms miner leverage. Stop $81.675 = -9.1% below current. -7% cut ceiling $81.80 = -9.0% below current. Trail-to-7% tighten at +15% = $101.15 (+12.5% away). Thesis INTACT and STRENGTHENING.
+- **XLB 377 @ $52.684 → $53.44 (+1.44%, mv $20,147):** Commodity trifecta thesis intact (Rubner precious-metals catalyst overlay + copper $14K/ton). Fri +1.32% + Mon +0.61% = ~1.94% cumulative Wk-9. Stop $47.88 = -10.4% below current (both trailing stops converged to same hwm $53.20). -7% cut ceiling $48.99 = -8.3% below. Trail-tighten +15% = $60.59 (+13.4% away). Thesis INTACT.
+- **XLI 54 @ $184.077 → $185.00 (+0.50%, mv $9,990):** Sector -0.31% Mon (weakest held); flagged pre-market as tepid vs alternatives (which is why not added). Oil-bounce + Iran-tension supports defense/capex (Elbit Systems +2.66% Mon). Stop $169.3665 = -8.5% below. -7% cut ceiling $171.19 = -7.5% below. Thesis INTACT but WEAKEST OF BOOK.
+- **XLK 104 @ $185.616 → $187.41 (+0.97%, mv $19,491):** Sector -0.88% Mon (weakest, pre-CPI de-risking + AMD/NVDA China share erosion drip); TSMC +44.7% July revenue tailwind still fresh. CoreWeave BMO could shift narrative either way. Stop $169.956 = -9.3% below current (both trailing stops converged to same hwm $188.84). -7% cut ceiling $172.62 = -7.9% below. Trail-tighten +15% = $213.46 (+13.9% away). Thesis INTACT.
+
+### Trade Ideas — DECISION FRAMEWORK
+- **Wk-9 cap 3/3 CONSUMED on Mon 8/10 by design.** Buy-Side Gate line 2 (max 3 Wk-9 trades) MECHANICALLY BLOCKS any 4th trade today regardless of setup quality.
+- **This is a named specific gate failure**, not "patience" or "protect cash" — it is the correct rule-compliant outcome of the aggressive Day-1 deployment plan.
+- **Manage-only session** — trail-ratchet monitoring, -7% cut-line watch, thesis-break exits, NO new entries.
+- **NO CLOCK-TIME GATES** — no clock-time-gated setups authored today.
+
+### Idea Register — QUALIFICATION TESTS (all fail gate-line-2 mechanically)
+1. **XLE FRESH (energy, +4.66% Mon breakout on Iran-oil):**
+   - Catalyst: US-Iran impasse lifting oil (Reuters), XLE +4.66% Mon Wk-9 relative-momentum leader — YES
+   - Sector momentum: XLE #1 sector Mon by margin — YES
+   - Stop 7-10%: fresh 10% trailing stop possible on entry
+   - R:R: at $60.18, +20% $72.22, -7% $55.97 → +12.04 vs -4.21 = **2.86:1** — YES
+   - Buy-Side Gate: positions after 5/6 ✓, **Wk-9 trades 3→4 FAILS cap-line-2**, cost ~$9k = 9% ≤20% ✓, cash ✓, PDT 0/3 ✓, catalyst docd ✓, stock ✓
+   - **DOES NOT QUALIFY** → **Failed test: Buy-Side Gate line 2 (Wk-9 trades cap 3/3 consumed)**. Reactive Wk-10 candidate if energy leadership extends (Mon 8/17 slot budget reset).
+2. **XLV ADD-or-FRESH (healthcare, +1.67% Mon defensive rotation):**
+   - Catalyst: Sector +1.67% Mon (2nd-strongest), Cardinal Health Q4 BMO potential mover, defensive rotation pre-CPI — MARGINAL
+   - Sector momentum: XLV #2 sector Mon; Wk-9 cum +2.4% — YES
+   - Stop / R:R viable
+   - Gate: **Wk-9 cap-line-2 FAILS** (3/3 consumed)
+   - **DOES NOT QUALIFY** → **Failed test: Wk-9 cap 3/3 consumed**. Wk-10 reactive candidate if CPI hot print triggers defensive rotation confirmation.
+3. **XLK / XLB / GDX ADD-more:**
+   - All at or near 20% position-cap already (XLK 19.35% of equity, XLB 20.00%, GDX 9.37% — GDX has room).
+   - Even if position-cap allows GDX add: **Wk-9 cap-line-2 FAILS** (3/3 consumed)
+   - **DOES NOT QUALIFY** → **Failed test: Wk-9 cap 3/3 consumed**. GDX would be first Wk-10 candidate for size-up if precious-metals thesis holds through CPI.
+
+### Actionable Plan for Market-Open Routine (09:30 ET Tue 8/11)
+- **NO NEW ENTRIES** — Wk-9 cap 3/3 consumed. Any market-open entry = weekly cap violation.
+- **HOLD ALL 4 POSITIONS** — no thesis breaks, all green, all stops live.
+- **STOP DISCIPLINE:** verify all 6 GTC trailing stops remain live at 09:30 ET after quotes refresh; log any hwm advances vs current levels (GDX $90.75, XLB $53.20, XLI $188.185, XLK $188.84).
+- **TRAIL-RATCHET CHECK:** max winner GDX +2.18% vs +15% first-tighten trigger — 12.5% away from $101.15 threshold. All 4 positions >12% away from first-tighten. NO-OP expected.
+- **-7% CUT-LOSER CHECK:** all 4 positions GREEN. Ceilings: GDX $81.80 (-9.0% below current), XLB $48.99 (-8.3%), XLI $171.19 (-7.5%), XLK $172.62 (-7.9%). NO-OP expected.
+- **STRUCTURAL MONITOR:** verify market-open routine FIRES at 09:30 ET — 6th-consecutive-fire test would extend "full recovery" signal from the 33-miss streak.
+
+### Risk Factors — Tue 8/11 & week
+- **CPI Wed 8/12 T-1 positioning risk:** if institutions de-risk Tue afternoon → intraday drift lower on XLK/XLI most vulnerable, GDX/XLB may hedge on gold-strength. HALF-size sizing on Mon fills was pre-emptive discipline; combined worst-case gap-to-stop across 4 positions × 10% cushion ≈ $5,900 = 5.9% equity — manageable.
+- **CoreWeave BMO earnings 8/11:** AI-infra backlog test — miss = XLK -1 to -2% risk (AI-capex crack narrative extends), beat = tailwind confirms TSMC-style read-through. Positional cost is 19.35% of equity so a -2% XLK day = -$390 = -0.4% equity impact. Manageable.
+- **US-Iran impasse escalation risk:** WTI $82+ (+0.4% today) with XLE +4.66% Mon signals market pricing supply disruption. If Hormuz kinetic event → oil-spike scenario benefits GDX (safe-haven) + XLE (which we don't hold), hurts XLK/XLI (real-yield + margin pressure). Watch WTI $85+ as escalation threshold.
+- **AI-chip narrative fracture risk:** AMD/NVDA China share erosion drip continues (multi-session pattern). TSMC +44.7% July revenue is fresh counter, but if CoreWeave prints backlog reset or SMCI/Cisco this week confirm AI-capex cooling → XLK -3%+ single-day risk. Trailing stop $169.956 = -9.3% below current gives adequate cushion.
+- **Slot-consumed reactive limit:** with Wk-9 3/3 already used, cannot react to CPI hot-print / Iran-escalation with defensive rotation entries this week. Reactive playbook constrained to manage-only. This is accepted trade-off from Mon Day-1 aggressive-deployment plan.
+- **Deployment 58.6% vs 75-85% target:** still ~17-27 pts below target. Full close requires Wk-10 slots (Mon 8/17 reset). Wk-10 candidate priority queue: XLE FRESH (if energy leadership holds post-CPI), XLV FRESH (if defensive rotation confirms), GDX ADD-to-FULL (if precious-metals thesis holds), XLI ADD (if sector reclaims leader deck) or XLI EXIT (if remains weakest through week).
+- **Weekly-review 8/7 MISSED backfill still pending:** first-non-flat Wk-8 review not produced; Fri 8/14 PM slot best natural production window.
+
+### Decision — HOLD BOOK, NO NEW ENTRIES (manage-only)
+- **ALL 4 held positions:** HOLD (thesis intact/strengthening on GDX+XLB, intact on XLK, intact-but-weakest on XLI; all stops live and no thesis-break triggers).
+- **All potential new ideas (XLE, XLV, further ADDs):** DOES NOT QUALIFY per Buy-Side Gate line 2 (Wk-9 cap 3/3 consumed). Named gate failure = correct rule-compliant decision, not violation.
+- **This is NOT "patience," NOT "protect cash," NOT "wait for confirmation."** This is a specific documented gate failure (weekly-trade budget cap 3/3) that mechanically blocks entries until Mon 8/17 Wk-10 reset.
+- **A flat-entries session Tue 8/11 with cap-consumed = CORRECT rule-following, not violation.** Rule violation would be executing a 4th weekly trade.
+- **Wk-10 kickoff plan (Mon 8/17):** Fresh 3 slots. Priority queue subject to CPI outcome + energy/defensive rotation continuation: (a) XLE FRESH if Iran/oil bid holds and XLE breakout extends, (b) XLV FRESH if defensive rotation continues post-CPI, (c) GDX ADD-to-FULL if precious-metals thesis holds through CPI, (d) XLI EXIT + reallocate if XLI remains weakest 2 more sessions (sector exit-after-2-consecutive-fails rule inapplicable since single-position hold, but thesis-weakest reallocation candidate). Post-CPI reassessment critical.
+
+### Data Freshness
+- Alpaca account/positions/orders/clock pulled live 08:43 ET Tue 8/11; equity $100,722.81 direct read; `balance_asof` 2026-08-10 (Mon close, T-1) with live `current_price` marks on 4 positions (GDX $89.88 / XLB $53.44 / XLI $185.00 / XLK $187.41).
+- research.sh context (Yahoo) Mon 8/10 4pm ET cash close + Tue pre-open overnight futures = live.
+- GDX Alpaca quote 12:35 UTC (08:35 ET) live pre-open two-sided ($89.62 x $89.86) — good fresh mark.
+- XLB/XLI/XLK Alpaca quotes stamped Mon 20:00 UTC single-side wide (XLB no ask; XLI bp $179.45 ap $191.58; XLK bp $182.03 ap $193.60) — Yahoo Mon cash close authoritative; live Alpaca `current_price` fields on positions confirm marks (XLB $53.44, XLI $185.00, XLK $187.41).
+- Tavily news dated 8/6-8/11 12:35 UTC across 15+ sources (reuters, barron's, kitco, ts2, 247wallst, stocktitan, marketbeat, alphastreet, phemex, buttondown, stockstotrade, newsfilecorp, perplexity, yahoo, etfdb, eltoromarketinsights, investing.com, mshale, instagram) = current.
+- No stale-data block. Sizing UNBLOCKED for hold/exit decisions (new entries blocked by Wk-9 cap independently).
+
+### Structural Routine Health
+- **Pre-market routine FIRED live Tue 8/11 pre-open 08:43 ET** — this entry. 6th consecutive pre-market fire (Tue 8/4 → Wed 8/5 → Thu 8/6 → Fri 8/7 → Mon 8/10 → Tue 8/11).
+- **Market-open routine 09:30 ET slot is next structural test:** 6th-consecutive-fire would extend "full recovery" signal from 33-miss streak. No new orders queued (manage-only) but confirming stop discipline + intraday CPI-eve positioning read still requires the run.
+- **Mon 8/10 all 4 slots fired (pre-market ✓, open ✓, midday ✓, EOD ✓)** — clean coverage day.
+- **Wk-9 slot coverage running 5/5 so far** (Mon 4/4 + Tue pre-market 1/1). Full-coverage target: hit all 5 open + all 5 EOD fires this week.
+- **Weekly-review 8/7 backfill still pending** — Fri 8/14 PM slot most natural production window.
