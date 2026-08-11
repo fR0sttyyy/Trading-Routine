@@ -784,3 +784,35 @@ No ClickUp alert per STEP 7 (no trade placed).
 **STEP 7 ClickUp NOT sent** (no trades placed this routine). STEP 8: no trades = no memory/TRADE-LOG mutations required for fill records, but appending this routine-run entry for structural coverage and continuity. Next checkpoint: midday scan 12:04 ET (trail-ratchet re-check, thesis-break monitor, CoreWeave BMO reaction read).
 
 **Structural routine health:** market-open slot fires live 6th consecutive time confirming full recovery from the 33-miss streak. Wk-9 slot coverage now 6/6 (Mon 4/4 + Tue pre-market ✓ + open ✓). Weekly-review 8/7 backfill still pending — Fri 8/14 PM slot remains best natural production window.
+
+### Aug 11 — Midday-Scan (Tuesday, 12:07 ET, market OPEN — Wk-9 Day 2 / MANAGE-ONLY / T-1 CPI / CAP CONSUMED)
+**Market:** OPEN (`is_open: true`, next_close 2026-08-11 16:00 ET) | **Positions:** 4 (GDX, XLB, XLI, XLK) | **Orders:** 6 trailing-stop GTC | **Wk-9 trades used:** 3/3 CAP CONSUMED | **Daytrade count:** 0/3 | **Action:** none
+
+| Ticker | Shares | Entry (wtd) | Live 12:07 | Day Chg | Pos P&L | Stop | HWM |
+| - | - | - | - | - | - | - | - |
+| GDX | 105 | $87.96 | $90.02 | -0.52% | +$216.30 (+2.34%) | $81.846 (trail 10%) | $90.94 |
+| XLB | 377 | $52.684 | $53.335 | +0.29% | +$245.43 (+1.24%) | $48.2355 (trail 10%) | $53.595 |
+| XLI | 54 | $184.077 | $185.99 | +0.75% | +$103.30 (+1.04%) | $169.3665 (trail 10%) | $188.185 |
+| XLK | 104 | $185.616 | $186.33 | +0.005% | +$74.30 (+0.39%) | $169.956 (trail 10%) | $188.84 |
+
+**Notes:** Midday scan fired 12:07 ET Tue — ~2h37m into cash session, ~3h53m before close. STEP 2 clock gate OPEN. Positions/orders pulled live; stop-order-id map: GDX→15bc0d92 (105 sh), XLB→164fe1fa (185 sh) + 9f98f565 (192 sh), XLI→53fa7e9e (54 sh), XLK→5451fa24 (50 sh) + f2c0dace (54 sh). All 6 stops live GTC, full coverage across all 4 positions. Data fresh (`current_price` live intraday, `balance_asof` 2026-08-10 T-1 daily-mark stamp normal until 16:00 ET roll).
+
+**STEP 3 cut-losers NO-OP:** all 4 positions GREEN (min XLK +0.39%, max GDX +2.34%) — far clear of -7% cut lines (GDX $81.80 = -9.1% below live $90.02; XLB $48.99 = -8.1% below; XLI $171.19 = -8.0% below; XLK $172.62 = -7.4% below). Intraday chop mild: GDX -0.52%, XLB +0.29%, XLI +0.75%, XLK +0.005% from Mon close — no downside momentum against any thesis.
+
+**STEP 4 tighten-trails NO-OP:** max winner GDX +2.34% vs +15% first-tighten trigger — 12.4% away from $101.15 threshold. XLB +1.24% = 13.5% from $60.59, XLI +1.04% = 13.9% from $211.69, XLK +0.39% = 14.6% from $213.46. All triggers >12% away.
+
+**Trail-ratchet activity since 09:42 open routine:** GDX hwm advanced $90.75 → $90.94 (+$0.19, stop $81.675 → $81.846). XLB both legs advanced hwm $53.55 → $53.595 (+$0.045, stop $48.195 → $48.2355, converged identical). XLI/XLK hwms unchanged (both trading below prior hwm). Server-side trailing mechanism functioning as designed, no manual action required.
+
+**STEP 5 thesis-break NO-OP:** **GDX** thesis intact — gold approaching $4,500, dovish rate tape ahead of CPI, best-in-book +2.34%. **XLB** commodity-trifecta intact (gold/silver/copper), +1.24% modest continuation. **XLI** thesis intact but tepid — +0.75% intraday, still weakest sector-momentum but no breakdown. **XLK** thesis intact — TSMC +44.7% July revenue tailwind fresh, CoreWeave BMO already digested (per open routine), pre-CPI positioning chop = normal not breakdown. No exits triggered.
+
+**STEP 6 optional research NO-OP:** no position moving sharply against thesis, no unexplained gap moves warranting news pull; pre-market RESEARCH-LOG 8/11 already covered CPI-Wed setup + manage-only decision framework.
+
+**STEP 7 ClickUp alert NOT sent** (no action taken this scan, per rule "only if action was taken").
+
+**No new entries authorized:** Wk-9 cap 3/3 CONSUMED (all on Day 1 by design to close 45-55 pt deployment gap). Buy-Side Gate line 2 mechanically blocks any 4th trade regardless of setup quality until Wk-10 reset Mon 8/17. XLE/XLV FRESH candidates from pre-market DOES NOT QUALIFY on named gate-line-2 test — not "patience" / "protect cash".
+
+**Combined unrealized P&L: +$639.33 on $58,988.69 deployed (+1.08%)** — modest positive vs 09:42 open-routine mark ($844.55 → $639.33 = -$205 mid-morning mild pullback, expected pre-CPI chop). Deployment 58.6% ($58,988.69 mv / $100,646.82 equity), unchanged from open. Equity $100,646.82 vs last_equity $100,554.12 (+$92.70 = intraday change from Mon close).
+
+**Overnight gap risk into Wed open (CPI 08:30 ET binary):** 4 positions × 10% trail cushion = ~$5,899 max gap-to-stop loss on $58,989 exposure = -5.86% equity worst-case. HALF-size sizing on Mon's 3 fills was the pre-emptive discipline layer for this event — no reactive de-risking authorized.
+
+**Structural routine health:** midday-scan slot fires live 5th consecutive time (Tue 8/4 → Thu 8/6 → Fri 8/7 → Mon 8/10 → Tue 8/11; Wed 8/5 missed). Wk-9 slot coverage now 7/7 (Mon 4/4 + Tue pre-market ✓ + open ✓ + midday ✓). Full-recovery signal from 33-miss streak extends. Next checkpoint: EOD snapshot 15:45-16:00 ET slot.
