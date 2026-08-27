@@ -3611,3 +3611,113 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Mon 8/10 all 4 slots fired (pre-market ✓, open ✓, midday ✓, EOD ✓)** — clean coverage day.
 - **Wk-9 slot coverage running 5/5 so far** (Mon 4/4 + Tue pre-market 1/1). Full-coverage target: hit all 5 open + all 5 EOD fires this week.
 - **Weekly-review 8/7 backfill still pending** — Fri 8/14 PM slot most natural production window.
+
+## 2026-08-27 (Thu) — Pre-Market Research (LATE FIRE 13:40 ET, market OPEN) — Wk-11 Day 4 / NVDA-BINARY / ACTION-REQUIRED: GDX RATCHET
+
+### Slot & Data Freshness
+- **Routine fired 13:40 ET** — market ALREADY OPEN (`is_open: true`, next_close 2026-08-27T16:00 ET). Pre-market slot late-fire; STEP 4/5/6 still valid.
+- Alpaca account/positions/orders pulled live 13:41 ET; `balance_asof` 2026-08-26 (T-1 daily-mark normal). Live `current_price` marks on all 4 positions two-sided (GDX bp $103.91 / ap $103.92, XLB $53.39/$53.41, XLI $179.17/$179.19, XLK $187.97/$188.00). All quotes tight, no halts. Data FRESH — sizing UNBLOCKED.
+- Gap since last log entry: Tue 8/11 EOD → today Thu 8/27 = 16 calendar days (structural miss stretch on pre-market/EOD slots; positions unchanged since 8/10 fills confirm no trades in gap window).
+
+### Account Snapshot (live 13:41 ET)
+- **Equity:** $101,931.64 | **Cash:** $41,658.13 (40.87%) | **Buying Power:** $335,398.33 | **Deployed:** $60,273.51 (59.13%)
+- **last_equity:** $101,399.54 → today intraday +$532.10 (+0.52%)
+- **Positions (4, unchanged since 8/10):**
+  - GDX 105 @ $87.96 → $103.95 (+$1,678.95 / **+18.18%** ⚠️ TRIGGER, intraday +1.49%)
+  - XLB 377 @ $52.684 → $53.395 (+$268.05 / +1.35%, intraday -0.51%)
+  - XLI 54 @ $184.077 → $179.22 (-$262.28 / **-2.64%**, intraday -0.62%)
+  - XLK 104 @ $185.616 → $187.99 (+$246.94 / +1.28%, intraday +2.82%)
+- **Combined unrealized: +$1,931.66 (+3.30%) on cost $58,341.86**
+- **Open orders (6 trailing-stop GTC):**
+  - GDX 105: stop $95.103, hwm $105.67 (trail 10%)
+  - XLB 185+192: stop $48.771, hwm $54.19 (trail 10%, converged)
+  - XLI 54: stop $169.3665, hwm $188.185 (trail 10%)
+  - XLK 50+54: stop $172.575, hwm $191.75 (trail 10%, converged)
+- **Wk-11 trades used: 0/3** (positions/qty unchanged since Mon 8/10 fills — no new entries in 16-day gap)
+
+### ⚠️ ACTION-REQUIRED (Strategy Rule 6): GDX RATCHET-TO-7% TRIGGERED
+- **GDX +18.18% > +15% threshold** — Strategy rule "Tighten trail: 7% at +15%" is LIVE.
+- Current: 10% trail, stop $95.103 vs current $103.95 = -8.51% cushion (roomier than 10% due to hwm $105.67 pullback).
+- Required action: CANCEL existing GDX trailing-stop id `15bc0d92-a122-42d2-b319-dc26fbab01db` (qty 105, trail 10%) and REPLACE with new 7% trailing-stop GTC (qty 105).
+- **Not executed this routine** (pre-market scope = research/log only; order execution belongs to market-open/midday routines). Flagged for the NEXT open management routine to execute — DO NOT DEFER further. STEP 5 ClickUp URGENT sent.
+- +20% tighten-to-5% next threshold at $105.55 — GDX hwm $105.67 already brushed this; if intraday GDX closes >$105.55 the 5% ratchet also triggers. Manage-routine must check both rungs.
+
+### Market Context (live 13:40 ET)
+- **Indices intraday:** SPX 7735.76 (+0.78%), NDX 26521.7 (+1.5%), Dow 53664.21 (+0.37%), VIX 14.69 (-3.42%, low-vol regime intact)
+- **Futures:** ES 7750.25 (+0.78%), NQ 29644.5 (+1.21%) — matches cash tape (already trading)
+- **Oil:** WTI $82.85 (+0.75%), Brent $87.69 (+0.86%) — mild bid
+- **Sectors intraday (SPDRs):** XLK **+2.80%** (NVDA-earnings-eve chase), XLE -0.23%, XLV -0.50%, XLB -0.51%, XLF -0.45%, XLI -0.64%, XLP -0.99%
+  - **Momentum deck today:** XLK dominant (+2.80% alone on a mildly green tape) = pre-NVDA AI-chip crowded chase; all other sectors red on the day = risk-narrow.
+
+### Catalysts (from Tavily + context)
+- **NVDA Q2 earnings TONIGHT AMC** — options pricing $280B market-cap swing (per Yahoo/Reuters). Direct XLK read-through (XLK ~9-11% NVDA weight). Beat = XLK/NDX extension. Miss = XLK -3 to -6% single-day risk.
+- **PCE inflation print 8/26 came in "slightly hot"** (Investopedia headline) → gold pulled back, Barrick -3.8% on 8/26. Kitco commentator warned GDX 10-20% short-term pullback risk. **GDX ratcheted to +18.18% BEFORE this warning is important context — the mandatory 7% ratchet is now protective, not optional.**
+- **Bessent/Warsh diverge on rate-setting** (Reuters 8/27 05:03 UTC) — political/policy overhang, not immediate market catalyst.
+- **No CPI/PPI/FOMC/NFP today.** Fed calendar clean into NVDA close.
+- **No earnings before open** move-the-needle names in our sectors today.
+
+### Position-by-Position Read
+- **GDX 105 @ $87.96 → $103.95 (+18.18%, mv $10,915):** Runaway winner. Gold-strong tape through Wk-10 pushed hwm to $105.67. PCE hot-print 8/26 = sector pullback risk (Barrick -3.8%, GDX intraday +1.49% today = mean-revert bounce from 8/26 dip). **RATCHET-TO-7% MANDATORY.** Thesis intact but momentum peak signal (Rubner 5-catalyst has largely played through — from $87.96 entry).
+- **XLB 377 @ $52.684 → $53.395 (+1.35%, mv $20,130):** Flat continuation, near 20% cap. Sector -0.51% intraday, no thesis breakdown. Trail-tighten 12.7% away from $60.59 (+15% threshold). Cushion vs stop 8.66%.
+- **XLI 54 @ $184.077 → $179.22 (-2.64%, mv $9,678):** Only red position book-wide. Sector -0.64% today, cumulative underperformer since entry. -7% cut ceiling $171.19 = -4.5% below current $179.22 — cushion narrowing but not triggered. Flagged pre-market 8/11 as weakest of book; that call held. **Watch: if XLI hits -7% cut line (below $171.19) at midday scan or EOD, MANUAL CLOSE.** Sector-2-consecutive-fails rule inapplicable (single position, no repeated fresh XLI entries).
+- **XLK 104 @ $185.616 → $187.99 (+1.28%, mv $19,551):** NVDA-eve chase driving XLK +2.80% today. Position at $19,551 = 19.18% of equity. Thesis intact but binary event tonight — no adds pre-NVDA (asymmetric downside on miss).
+
+### Trade Ideas — DECISION FRAMEWORK (default = TRADE when QUALIFIES)
+
+**Idea 1: XLK ADD-more (NVDA-eve momentum).**
+- Catalyst: XLK +2.80% today alone on a mildly green tape, sector-leader gap — YES
+- Sector momentum: XLK #1 intraday by wide margin — YES
+- Stop 7-10%: definable, 10% below entry — YES
+- R:R: entry ~$188, target NVDA-beat gap to $205 (+9%), stop $169.20 (-10%) → +$17 vs -$18.80 = 0.9:1 — **FAILS R:R test (below 2:1).**
+- Also: position already 19.18% of equity, adding pushes to/over 20% cap.
+- **DOES NOT QUALIFY** → Failed test: R:R <2:1 (asymmetric downside pre-NVDA-binary swamps upside gap). Also position-cap risk. NOT "wait for confirmation" — this is a specific R:R gate failure.
+
+**Idea 2: XLE FRESH (energy, oil +0.75% today, Wk-9 leader).**
+- Catalyst: WTI $82.85 (+0.75%), oil bid intact but XLE -0.23% today = NOT confirming as leader intraday — MARGINAL
+- Sector momentum: XLE red on the day, not leading — NO
+- **DOES NOT QUALIFY** → Failed test: sector-in-momentum (XLE red intraday, no fresh breakout signal today).
+
+**Idea 3: XLV FRESH (healthcare defensive).**
+- Catalyst: none specific today; XLV -0.50% intraday — NO
+- Sector momentum: red today — NO
+- **DOES NOT QUALIFY** → Failed test: no catalyst, sector red today.
+
+**Idea 4: GDX ADD-more (only room-to-add position, 9.37% weight).**
+- Catalyst: gold thesis playing through, but just triggered ratchet — momentum peak signal — NO fresh trigger. PCE hot-print 8/26 introduces pullback risk (10-20% per Kitco commentator).
+- Sector momentum: GDX intraday +1.49% is bounce from 8/26 dip, not fresh breakout — MARGINAL
+- R:R: entry $103.95, target $115 (+10.6%), stop $93.55 (-10%) → +$11.05 vs -$10.40 = 1.06:1 — **FAILS R:R.**
+- **DOES NOT QUALIFY** → Failed test: R:R <2:1 (late-cycle add after +18.18% run, no fresh catalyst, pullback risk in Kitco commentary). Not "protect cash" — specific R:R + no-fresh-catalyst gate failure.
+
+**Idea 5: XLI TRIM/EXIT (loss-cut candidate at -2.64%).**
+- Not a fresh entry — a manage/exit consideration. Rule: cut at -7% (currently -2.64%, not triggered). Thesis not broken (industrials tepid but no sector-fail cascade). NO EXIT triggered. HOLD.
+
+### Actionable Plan for Next Management Routine (Market-Open Fri 8/28 or Midday Today if slot fires)
+1. **EXECUTE GDX RATCHET-TO-7% MANDATORY** — cancel `15bc0d92-a122-42d2-b319-dc26fbab01db`, submit new trailing_stop qty=105 trail_percent=7 GTC. NON-NEGOTIABLE Strategy Rule 6.
+2. **Check GDX +20% threshold** — if intraday close/high >$105.55 (+20% = $105.552), ratchet to 5% (skip the 7% rung, go straight to 5%).
+3. **XLI cut-line watch** — if XLI < $171.19 at any check, MANUAL CLOSE (-7% rule).
+4. **Post-NVDA XLK read** — Fri 8/28 pre-market: if NVDA gaps <-3% AMC, XLK -3 to -5% gap risk on open; trailing stop $172.575 = -8.20% below current $187.99 = adequate cushion but tight if a full -5% gap opens.
+5. **No new entries qualify TODAY** (R:R fails on XLK, sector-momentum fails on XLE/XLV, R:R+no-fresh-catalyst fails on GDX-add). Wk-11 slot budget 3/3 remains for post-NVDA setups if tape shifts (best candidate: XLE FRESH if oil breaks $85 on Iran-escalation or NVDA-beat re-risk trade).
+
+### Risk Factors (Thu 8/27 & window)
+- **NVDA earnings tonight AMC = BINARY EVENT of week.** Options $280B swing = XLK -3 to -6% single-day risk on miss (position -$780 to -$1,170). Current cushion vs stop $15.42 = -8.20%. A -5% gap open would still be above stop but eats most of the buffer.
+- **GDX momentum-peak / mean-revert risk:** PCE hot 8/26, Barrick -3.8%, Kitco warning 10-20% short-term pullback. Ratchet-to-7% converts this from equity risk to lock-in-gains (7% below $105.67 hwm = $98.27 exit floor, locking +11.72% vs entry).
+- **XLI cut-line proximity:** -2.64% today, -4.36% away from -7% cut ceiling. If Fri sector-red day extends, real risk of triggering cut.
+- **Deployment 59.13% vs 75-85% target:** 15.9-25.9 pts below target. Post-NVDA + Wk-11 slot budget (3/3 available) = window to close gap IF setups qualify. Not a reason to force trades that fail R:R or catalyst tests.
+- **Structural routine health:** 16-day slot-miss stretch since Tue 8/11 EOD (last log entry). This is the first fire in that stretch. Recovery signal reset — next test = Fri 8/28 pre-market fire. Weekly-review 8/7 backfill still pending.
+
+### Decision — HOLD BOOK, EXECUTE GDX RATCHET AT NEXT MANAGE SLOT, NO NEW ENTRIES TODAY
+- **All 4 positions:** HOLD (no thesis breaks, XLI cushion still 4.36 pts above cut line, XLK cushion 8.20% above stop pre-NVDA).
+- **GDX ratchet-to-7%:** MANDATORY execution at next management routine — this is a rule action, not discretionary.
+- **All FRESH ideas today:** DOES NOT QUALIFY per specific R:R or sector-momentum tests. Not "patience" — named gate failures. Flat-entries today with no qualifying setup = correct rule-compliant outcome.
+- **Post-NVDA Fri 8/28 pre-market:** re-assess XLK / whole tape. If NVDA beat + AI-re-risk = XLE/XLB/GDX-continuation opportunities. If NVDA miss + AI-de-risk = defensive rotation (XLV/XLP setups) or de-gross XLK trim.
+
+
+### 8/27 addendum — Order-state correction (pre-market log wrote at 13:41 ET; midday scan concurrently executed GDX ratchet by 13:43 ET)
+- **GDX ratchet already DONE by midday-scan routine** (log-committed to main at 13:41 ET before this entry ran STEP 6). Reviewing live orders at 13:43 ET post-scan action:
+  - GDX order `15bc0d92` (trail 10%) CANCELED.
+  - New GDX order `57e357e8` — **FIXED stop @ $100.39** GTC (not trailing 7% as midday-scan log states). Stop is 3.42% below current $103.95 (outside 3% guardrail ✓), locks +14.13% profit vs $87.96 entry.
+  - Effective protection now TIGHTER than a 7% trail would give (which would sit at ~$96.65 vs hwm $103.92). Fine — Strategy rule floor is satisfied.
+- **Action-required flag from earlier in this entry is now MOOT.** Ratchet has been executed. No pending management action required into Fri 8/28.
+- **Live order snapshot post-scan:** GDX 105 → fixed stop $100.39 (id 57e357e8); XLB 185+192 → trail 10% stop $48.771 (ids 164fe1fa, 9f98f565); XLI 54 → trail 10% stop $169.3665 (id 53fa7e9e); XLK 50+54 → trail 10% stop $172.575 (ids 5451fa24, f2c0dace). All 6 stops live GTC. Full coverage.
+- **Structural note:** two routines fired ~simultaneously today (midday-scan 13:41 ET + pre-market 13:40 ET). The scheduled slots overlap on this late-fire pre-market. Pre-market is scoped to research/log; midday owned the trade action — correct division of labor even if concurrent.
+
