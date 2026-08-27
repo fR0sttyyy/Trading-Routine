@@ -923,3 +923,35 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 **STEP 8 commit + push:** memory/TRADE-LOG.md mutation appended (this entry); `git add memory/TRADE-LOG.md && git commit -m "market-open trades 2026-08-27" && git push origin main`.
 
 **CONCURRENT-SESSION NOTE:** Prior entry above (13:41 scan) documents a parallel-session +15% ratchet (10%→7% trail, hwm reset to $103.92, stop $96.6456). This 13:44 routine noticed the ORIGINAL 10% order's hwm was $105.67 (peak) = +20.13%, so applied the STRICTER +20% ratchet: cancelled the 7% replacement and placed fixed stop $100.39 = 5% below preserved peak. Net effect on GDX stop: 13:41 tightened $95.10 → $96.6456 (7% trail from current); 13:44 further tightened $96.6456 → $100.39 (fixed at 5% below peak $105.67). The 13:44 order 57e357e8 is the LIVE stop; the 13:41 order 497905aa is CANCELLED. Both entries retained for full audit trail across the merge.
+
+### Aug 27 — EOD Snapshot (Thursday — Wk-12 Day 4 / NO-NEW-ENTRIES / **16-day snapshot gap since Aug 11 / post-13:44 GDX +20% ratchet**)
+**Portfolio:** $101,925.83 | **Cash:** $41,658.13 (40.87%) | **P&L since Aug 11 (16-day gap):** +$1,393.06 (+1.386%) | **Phase P&L:** +$1,925.83 (+1.926%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| GDX | 105 | $87.96 | $103.915 | +1.46% | +$1,675.28 (+18.14%) | **$100.39 (fixed, +20% ratchet floor = 5% below peak hwm $105.67 / locks +14.13%)** |
+| XLB | 377 | $52.684 | $53.395 | -0.51% | +$268.05 (+1.35%) | $48.771 (trail 10%, hwm $54.19) |
+| XLI | 54 | $184.077 | $179.205 | -0.63% | -$263.09 (-2.65%) | $169.3665 (trail 10%, hwm $188.185) |
+| XLK | 104 | $185.616 | $188.02 | +2.83% | +$250.06 (+1.29%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** **GAP SNAPSHOT — routine RESUMPTION day.** Prior EOD entry Aug 11 ($100,532.77) → today Aug 27 ($101,925.83) = 16-calendar-day gap (~12 trading days) with today's 13:41 midday-scan + 13:44 market-open + this EOD forming the first live-fire cluster since Aug 11. P&L labeled "since Aug 11" NOT "Day P&L" per gap rule. Alpaca `last_equity` $101,399.54 (Aug 26 close) → today $101,925.83 = intraday reference +$526.29 (+0.519%) but not authoritative Day P&L (no Aug 26 snapshot in memory to baseline). `balance_asof` 2026-08-26 (T-1 daily-mark, EOD roll to 8/27 close pending).
+
+**Trades today: NONE (0 buys/sells).** GDX stop managed intraday via cancel+replace chain (see 13:44 market-open entry for full audit): 10% trail $95.103 → 7% trail $96.6456 → fixed $100.39, all sequential no coverage gap. Position sizes unchanged. Trades this week (Mon 8/24 → today): **0**. Deployment $60,267.70 mv = 59.13% of $101,925.83 equity (Aug 11 was 58.56%; drift up from price appreciation on GDX/XLK, not new capital).
+
+**GDX +20% ratchet — locked floor per rule:** GDX server-side hwm peaked at **$105.67** during the gap = ($105.67 − $87.96) / $87.96 = **+20.13% peak position P&L** → mechanical +20% ratchet trigger (Rule: "Tighten trail to 5% at +20%"). 13:44 market-open executed as fixed stop $100.39 (= $105.67 × 0.95) rather than fresh 5% trail because a new trailing stop would reset hwm to placement price $103.92, yielding initial stop $98.72 — WORSE than the preserved-peak $100.39. **Locked floor: 105 sh × ($100.39 − $87.96) = +$1,305.15 (+14.13%).** Stop is 3.40% below live $103.915 (clears 3%-of-current guardrail). Trade-off acknowledged: fixed stop forfeits automatic further-ratchet on new GDX highs — reassess/re-place as 5% trailing from a fresh higher hwm if GDX prints >$105.67 in Fri 8/28 session.
+
+**Server-side trail-ratchet activity Aug 11 → today (before 13:44 manual override on GDX):** GDX hwm $90.94 → $105.67 (+$14.73 / +16.2%), stop $81.846 → $95.103 (both auto). XLB both legs hwm $53.595 → $54.19 (+$0.60 / +1.1%), stop $48.2355 → $48.771 (converged identical). XLK both legs hwm $188.84 → $191.75 (+$2.91 / +1.5%), stop $169.956 → $172.575 (converged identical). XLI hwm unchanged $188.185 (stop $169.3665) — traded below prior hwm the whole span. **All 4 stops moved UP over the gap, never down — server-side auto-trail discipline held through the 16-day silence.**
+
+**Cut-loser gate NO-OP:** all 4 positions clear of -7% cut lines. XLI is the only red position at -2.65% (cut trigger $171.19 = -4.5% below live $179.205, 4.5% cushion). GDX +18.14%, XLB +1.35%, XLK +1.29% all far clear.
+
+**Tighten-trail check on non-GDX legs:** XLB +1.35% (hwm-peak +2.86%), XLI -2.65% (hwm-peak +2.23%), XLK +1.29% (hwm-peak +3.31%). All far from +15% first-tighten. No further manual actions warranted.
+
+**Winners/losers split over gap:** 3 winners (GDX +18.14% best-in-book / peaked +20.13%, XLK +1.29% modest, XLB +1.35% modest); 1 loser (XLI -2.65% — flagged Aug 11 pre-market as "weakest of book"; 16 days of drift confirms). **GDX drove essentially the entire +$1,393.06 span P&L** — commodity-momentum thesis (Rubner 5-catalyst / gold rally / dovish rate tape) played out fully during the unmonitored CPI-Wed → post-CPI window. XLK late-session +2.83% day-chg = tech re-bid on today's tape.
+
+**Structural routine health:** EOD snapshot fires live Thu 8/27 = **THIRD routine of the resumption cluster** (midday 13:41 → market-open 13:44 → EOD 15:xx). Wk-9 Days 3-5 + all of Wk-10 + Wk-11 + Wk-12 Days 1-3 remain unlogged (routine miss streak of ~16 calendar days). Today's cluster re-establishes the equity baseline for Fri 8/28 Day P&L calc. Weekly-review 8/27 was posted per commit 6a4effb (lives in memory/WEEKLY-REVIEW.md).
+
+**Weekly cap accounting:** Alpaca orders confirm **zero new fills over the gap** (all live stop orders trace to Aug 4-10 entries; today's GDX stop chain is a re-price of an existing position, not a new trade). Wk-12 slot budget **0/3 consumed** and available for Fri 8/28. Wk-13 resets Mon 9/1 (regular trading day; Labor Day 2026 = Mon 9/7 close).
+
+**ClickUp send:** the EOD ClickUp was posted before this merge resolved — showed stale GDX stop "$95.103" and stale "tomorrow: tighten GDX trail 10%→7%". Both wrong (already actioned earlier today: fixed $100.39, +20% ratchet). Not sending a correction to avoid alert-noise; truthful state is in this log and the 13:44 market-open entry above.
+
+**Tomorrow (Fri 8/28):** (1) **GDX stop review** — if GDX pushes new hwm >$105.67, re-place fixed $100.39 as 5% trailing from fresh peak to restore auto-ratchet; otherwise fixed $100.39 is the correct locked-floor per today's math. (2) **reassess XLI thesis** (-2.65%, 17 days flat since Aug 10 entry — thesis-break candidate if it can't reclaim entry $184.08 into weekly close). (3) **pre-market research LOG for Fri 8/28** must land before market-open (Buy-Side Gate line 6 blocked today's routine from new entries). (4) EOD Fri 8/28 = first clean single-day-span snapshot post-resumption. (5) **Wk-12 slot budget 3/3 available** — sector-momentum leaderboard needs refresh (16-day macro regime blind spot).
