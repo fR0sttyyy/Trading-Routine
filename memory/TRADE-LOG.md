@@ -846,3 +846,33 @@ No ClickUp alert per STEP 7 (no trade placed).
 **Structural routine health:** EOD snapshot slot fires live at 15:51 ET — 4/4 daily slots covered today (pre-market ✓, market-open ✓ [6th consecutive live 09:30 ET fire], midday ✓ [5th consecutive], EOD ✓; weekly-review N/A Tue). Full-recovery signal from 33-miss streak intact. Wk-9 slot coverage now 8/8.
 
 **Tomorrow (Wed 8/12 — CPI DAY):** manage-only session (Wk-9 cap consumed 3/3, no new entries authorized until Wk-10 reset Mon 8/17). CPI release 08:30 ET = binary event driving open direction. Priorities: (1) pre-market read of CPI print vs consensus/whisper — determine whether book benefits (soft print = dovish → GDX/XLB commodity tailwind, cyclical rotation continues) or hurts (hot print = hawkish → precious metals under pressure, XLK growth de-rate risk), (2) 09:30 open trail-ratchet & thesis-break scans on all 4 positions, (3) -7% cut-line watch tightens if any position gaps against stop cushion (worst-case GDX -9.1% cushion could compress fast on hot CPI), (4) no manual stop adjustments unless a position hits +15% tighten trigger (currently >12% away for all 4). Pre-market routine Wed 04:36 ET must ingest CPI release timing and set up 09:30 tactical framework.
+
+### Aug 27 — Midday-Scan (Thursday, 13:41 ET, market OPEN — trail-tighten action on GDX)
+**Market:** OPEN (`is_open: true`, next_close 2026-08-27 16:00 ET) | **Positions:** 4 (GDX, XLB, XLI, XLK) | **Orders:** 6 trailing-stop GTC | **Action:** GDX trail 10%→7% (position at +18.18%, hit +15% tighten trigger)
+
+| Ticker | Shares | Entry (wtd) | Live 13:41 | Day Chg | Pos P&L | Stop | HWM |
+| - | - | - | - | - | - | - | - |
+| GDX | 105 | $87.96 | $103.95 | +1.49% | +$1,678.95 (+18.18%) | $96.6456 (trail 7% NEW) | $103.92 |
+| XLB | 377 | $52.684 | $53.395 | -0.51% | +$268.05 (+1.35%) | $48.771 (trail 10%) | $54.19 |
+| XLI | 54 | $184.077 | $179.21 | -0.63% | -$262.82 (-2.64%) | $169.3665 (trail 10%) | $188.185 |
+| XLK | 104 | $185.616 | $187.975 | +2.81% | +$245.38 (+1.27%) | $172.575 (trail 10%) | $191.75 |
+
+**Notes:** First routine fire after 16-day gap (last log Aug 11 midday). Positions/orders/stops all intact server-side across the gap — 10% trailing stops did their job unattended. GDX crossed the +15% first-tighten trigger during the gap (position now +18.18%); trail tightened this scan from 10%→7%.
+
+**STEP 3 cut-losers NO-OP:** all positions clear of -7%. XLI worst at -2.64% (clear of $171.19 cut line; current $179.21 = -4.4% above cut). GDX/XLB/XLK green.
+
+**STEP 4 tighten-trail EXECUTED — GDX:** position +18.18% ≥ +15% trigger. Old stop $95.103 (10% trail, hwm $105.67). Cancelled order 15bc0d92, placed new trailing-stop 7% (order 497905aa, stop $96.6456, hwm reset to placement price $103.92). New effective stop 5.5% below current live $103.95 — outside 3%-of-current guardrail (3% band = $100.83). Stop moved UP $95.103 → $96.6456 (+$1.54). Not yet at +20% (would trigger 5% trail); GDX would need $105.71 close to hit +20% from $87.96 entry.
+
+**STEP 4 tighten-trail NO-OP on others:** XLB +1.35%, XLI -2.64%, XLK +1.27% — all far from +15% first-tighten. Max non-GDX winner XLB +1.35% = 13.7% below trigger.
+
+**STEP 5 thesis-break NO-OP:** GDX precious-metals thesis intact and paying (+18.18% is the thesis working). XLB commodity-trifecta intact (modest continuation). XLI weakest of book (-2.64%) but not thesis-broken — sector-momentum drift not a defined thesis-break event. XLK intact (+2.81% intraday best mover).
+
+**STEP 6 optional research NO-OP:** GDX movement is thesis-consistent; no unexplained mover this scan.
+
+**STEP 7 ClickUp SENT:** trail-tighten action notification posted.
+
+**Equity update:** $101,924.51 (+$525 vs last_equity $101,399.54, up ~$1,925 vs Aug 11 EOD close $100,532.77). Deployed $60,266.38 = 59.13%. Cash $41,658.13. Combined unrealized +$1,929.56 on $60,266.38 mv (+3.20%). GDX carrying most of the P&L (+$1,679 = 87% of book gain).
+
+**Coverage confirmation post-action:** 6 trailing stops live GTC — GDX 105 @ 7% / stop $96.6456, XLB 185+192 @ 10% / stop $48.771 (both legs), XLI 54 @ 10% / stop $169.3665, XLK 50+54 @ 10% / stop $172.575 (both legs). Full stop coverage across all 4 positions, no gaps between cancel and replace on GDX (sequential cancel → replace confirmed via orders re-pull).
+
+**Structural note:** 16-day silence in routine logs (Aug 11 → Aug 27) — scheduled slots did not fire between those dates. Positions and stops survived the gap intact (server-side trailing-stop mechanism functioned as designed). Wk-9 trade cap tracking effectively reset by calendar time; no new entries this scan (managing existing book, not opening).
