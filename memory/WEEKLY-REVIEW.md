@@ -611,3 +611,72 @@ Seventh consecutive 0/3 week AND **-1.07% relative to SPX post-close** (mid-sess
 
 ### Overall Grade: B
 First live-fill week of the phase — 33-session structural failure broken, 3 clean HALF-SIZE fills across Tue/Wed at their pre-market gates, 3 positions green at week close, +$325 phase P&L, +0.33% week. Every layer of the system now firing: research → sector-momentum map → gate math → market-open routine fires live at 09:36-09:48 ET → fill → trailing stop accepted GTC → thesis-integrity checks at midday → EOD close read → post-close weekly review. Not an A because (a) 3.20% relative underperformance vs SPX in a rally week (deployment lag: ~30% deployed vs 75-85% target = capital-inefficiency drag, not thesis error), (b) Mon 8/3 XLK HALF miss was the 33rd and final structural violation with ~$100-150 opportunity cost forgone, (c) Wed 8/5 midday-scan slot missed reintroduces marginal scheduler-layer concern, (d) deployment ramp will take Wk-9 + Wk-10 to close remaining ~50pt gap to target. Grade B recognizes the recovery landed decisively (4 consecutive market-open fires, 3 fills, all green) while flagging that "recovered" ≠ "fully deployed" — full-A grade earned when book reaches 75-85% deployed AND continues green sector-momentum selection through a second full week. Wk-9 Mon 8/10 priority: XLK HALF→FULL upgrade first, then XLB HALF→FULL, then a fresh Wk-9 HALF (XME/GDX/XLV) to consume the 3-slot budget efficiently. First non-flat week in 8 = high-value review; the phase now has a P&L baseline to grow from.
+
+---
+
+## Week ending 2026-08-28
+
+*Review runs Thu 2026-08-27 mid-session (routine fired one day early per schedule); Fri 8/28 marks pending. Wk-9, Wk-10 reviews were never produced — TRADE-LOG / RESEARCH-LOG have no entries past Tue 8/11 EOD despite continued position management (hwm ratchets on all 4 legs, phase P&L +$1,928 as of Thu 8/27). This entry is a Wk-11 review only, computed from live Alpaca state (portfolio history, positions, orders) — not a 3-week backfill.*
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $101,437.60 (Fri 8/21 close = Mon 8/24 AM anchor) |
+| Ending portfolio | $101,928.45 (Thu 8/27 intraday ~13:41 ET; Fri 8/28 pending) |
+| Week return | +$490.85 (+0.484%) |
+| S&P 500 week | +0.806% (SPY IEX Fri 8/21 close 765.64 → Thu 8/27 intraday 771.81) |
+| Bot vs S&P | -0.322pp (mild lag; deployment 59% vs target 75-85% + XLI drag) |
+| Trades | 0 (W:0 / L:0 / open:4 carried from Wk-9) |
+| Win rate | N/A (no closed trades this week; still 0 closed for phase) |
+| Best trade | GDX +18.17% (position, since 8/10 entry) |
+| Worst trade | XLI -2.65% (position, since 8/10 entry) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| - | - | - | - | - |
+| — | — | — | — | No closed trades this week; 4 positions from Wk-9 (Mon 8/10) still open |
+
+### Open Positions at Week End
+| Ticker | Entry | Close (Thu 8/27) | Unrealized | Stop |
+| - | - | - | - | - |
+| GDX | $87.96 | $103.945 | +$1,678.43 (+18.17%) | $96.646 (trail 7% NEW, hwm $103.92; tightened this session 13:41 ET) |
+| XLB | $52.684 | $53.395 | +$268.05 (+1.35%) | $48.771 (trail 10%, hwm $54.19) |
+| XLI | $184.077 | $179.19 | -$263.90 (-2.65%) | $169.367 (trail 10%, hwm $188.185) |
+| XLK | $185.616 | $187.98 | +$245.90 (+1.27%) | $172.575 (trail 10%, hwm $191.75) |
+
+### What Worked
+- **GDX rocketed +18.17%** since Wk-9 8/10 entry, hwm $105.67 (trail 10% has ratcheted stop up to $95.103 = a locked-in +$743 vs $87.96 entry). Precious-metals thesis (Rubner 5-catalyst / gold approaching $4,500 / dovish rate tape) delivered as diagnosed. Best-in-book by wide margin
+- All 4 trailing-stops still live GTC; server-side ratchet has moved every leg's stop higher, no manual intervention required through the week
+- Book weathered a -1.11% Tue 8/18 draw ($99,736 intraday low) with no stops triggered and full recovery by Fri 8/21 ($101,437 close) — 10% trail cushion held, no reactive de-risking
+- Phase P&L held +$1,928 (+1.93%) with only 59% deployed — deployed-book effective return +3.26% since 8/10 fills, competitive with SPY's move over the same window
+
+### What Didn't Work
+- **UNDERPERFORMED SPX by 0.32pp this week** (bot +0.48% vs SPX +0.81%) — 41% cash drag + XLI's -2.65% underweight rotation are the two identifiable causes
+- **GDX rule-6 tighten was DELAYED but got RESOLVED this session:** GDX crossed the +15% first-tighten trigger at some point during the 3-week log-silence gap (Aug 12 → Aug 26). Trail sat at 10% past the trigger until a Thu 8/27 13:41 ET midday-scan tightened it to 7% (cancel 15bc0d92, replace 497905aa, new stop $96.6456). Not a Wk-11 violation per se — the action fired inside this review window — but the fact that the trigger was crossed and unactioned for potentially days points to the same daily-log/routine-fire gap covered next
+- **TRADE-LOG was silent for 16 calendar days (Aug 11 → Aug 27) with a resumption entry today.** No daily research/midday/EOD entries between Tue 8/11 EOD and Thu 8/27 midday even though the account was clearly managed (server-side trail ratchets confirmed live activity; a scheduled routine did fire Thu 8/27 13:41 ET and executed the GDX rule-6 tighten + logged it). Weekly reviews for 8/14 (Wk-9) + 8/21 (Wk-10) never fired at all. Mirrors the Wk-8 review's "recovered ≠ fully deployed" caveat: some slots fire, some do not, and the pattern is invisible until reviewed
+- **DEPLOYMENT STUCK AT 59.13%** ($60,270 mv / $101,928 equity) vs 75-85% target — the Wk-8 review projected Wk-9 + Wk-10 to close the ~50pt gap via HALF→FULL promotions on XLI/XLK/XLB + a fresh HALF (XME/XLV). With no logs and no new fills since 8/10, that plan visibly did not execute. Wk-11 stayed flat at 4 positions with no adds and no rotations
+- **XLI position -2.65% and stuck as book laggard** for the 3rd week running — Wk-8 review flagged XLI as "intact but tepid," Wk-9 pre-market on 8/11 flagged it as candidate for EXIT + reallocate if it remained weakest. No exit was taken; no reallocation happened; XLI drifted -2.65% while the other 3 legs held or gained. Sector-momentum exit path not executed
+
+### Key Lessons
+- **The failure mode has shifted from EXECUTION (Wk-1 through Wk-7) to LOGGING + FOLLOW-THROUGH (Wk-9 through Wk-11).** Positions get taken, stops get placed, book gets carried — but the daily research/trade-log entries stop, weekly reviews miss, and manage-book actions (rule-6 tighten on GDX, XLI reallocate) don't execute. Same scheduler-layer signature as the Wk-1-Wk-7 09:30 ET failure, different slot classes now
+- **GDX is the entire phase's alpha so far** — +$1,678 on GDX vs +$250 combined across XLB+XLK vs -$264 on XLI. The single Wk-9 addition (GDX HALF at $87.96) is carrying the book. This validates the sector-momentum + specific-catalyst framework: the pick was concentrated on the highest-conviction commodity/precious-metals rotation and it delivered. Also underscores position-sizing risk: GDX is now ~11% of equity (~$10,914) — a FULL-size upgrade at Wk-9 or Wk-10 (which the pre-market 8/11 research flagged as a candidate) would have doubled the phase P&L
+- **Rule-6 trail tighten is a mechanical rule, not a judgment call.** GDX +18.17% has been sitting above the +15% threshold with no trail-tighten for an unknown number of sessions (last log 8/11 the position was +2.27%; hwm ratcheted to $105.67 = +20.14% from $87.96 entry at some point). This is a manage-book action that requires the market-open or midday routine to fire AND the review-book step to include a "compare position P&L to tighten thresholds and adjust `trail_percent`" check. Neither happened
+- **Wk-9 8/10 3-fill kickoff was correct calibration** — all 3 fills opened at HALF, deployment jumped 30% → 60%, and 6 weeks later (Wk-9 to Wk-11), 3 of the 4 legs are green and the phase is +$1,928. Nothing about the entries needs revising. What was missed was FULL-SIZE promotion opportunities in Wk-10 (once CPI cleared and GDX ran +5-10%) — no logs = no explicit HOLD-vs-PROMOTE decision recorded
+
+### Adjustments for Next Week (observations — see STEP 5 below; NO rule change)
+- **ITEM #1 — MONITOR GDX FOR +20% SECOND-TIGHTEN (Fri 8/28 + Wk-12).** GDX first-tighten to 7% executed this session (Thu 8/27 13:41 ET). Next threshold: at +20% position (entry-basis $105.55) tighten to 5% per rule 6. Currently $103.95 = +18.18%; a ~$1.60/sh move gets there. Every subsequent market-open and midday routine must re-check this — do not let another 16-day gap swallow the +20% action the way the +15% action nearly was swallowed
+- **ITEM #2 — RE-INSTATE DAILY LOG DISCIPLINE.** Every pre-market, market-open, midday, and EOD routine that fires MUST append its snapshot to memory/RESEARCH-LOG.md or memory/TRADE-LOG.md AND git commit + push. The 3-week silent gap (Aug 12 → Aug 27) is invisible to review until a Fri review runs — same failure signature as the Wk-1-Wk-7 09:30 ET miss but at the log-persist layer. This is not a strategy change; it's a routine-integrity requirement
+- **ITEM #3 — RE-EVALUATE XLI HOLD/EXIT MON 8/31.** XLI position -2.65% and consistently the weakest leg for 3 weeks. If XLI is still red at Mon 8/31 open and the pre-market map shows industrials outside the top-3 sector-momentum rankings, EXIT XLI and reallocate the ~$9,676 into (a) GDX FULL (position-size room: currently 10.7% of equity → 20% cap allows +$9,486 add), or (b) a fresh Wk-12 HALF in a new leader. This is a Buy-Side-Gate-compliant single-slot action; does not require adding to the weekly cap unless the reallocation is a NEW position rather than an add
+- **ITEM #4 — DEPLOYMENT RAMP TO 75-85% TARGET.** 59% → 75-85% requires ~$15-25k additional deployment. Path forward: XLK HALF→FULL (add ~$9-10k on continuation), GDX HALF→FULL (add ~$9k if precious-metals thesis intact into Sept), + 1 fresh HALF (XLE / XLF / XLV depending on Wk-12 sector map). All three would consume all 3 Wk-12 slots — mechanical, not discretionary
+- **ITEM #5 — WEEKLY REVIEW CADENCE.** This review runs Thu 8/27 mid-session because the routine fired one day early; Fri 8/28 post-close slot should still fire per Wk-7 review's cadence fix. If Fri 8/28 review also fires, defer to Fri as the authoritative Wk-11 snapshot; this Thu entry stands as the mid-cycle mark. Wk-9 (8/14) + Wk-10 (8/21) reviews are permanently missed — the account state that would have populated them is captured here via portfolio history
+- Continue daily SPY IEX-feed close anchoring (working reliably today using `feed=iex`); this remains uncodified into the EOD-snapshot routine after being flagged for 5+ consecutive reviews
+- **DO NOT** propose weakening entry rules, adding "wait for confirmation" language, raising the qualification bar, adding P&L cushion requirements, adding HOLD-by-default language, or any STEP-5 forbidden change. Wk-11 was a manage-book week, not an entry-decision week; nothing about the current book's construction contradicts the strategy
+
+### STEP 5 — Strategy Adjustment Decision
+- Closed-trade count this phase: **0** (4 positions opened Wk-9 8/10, all still open at Thu 8/27). Statistical basis for any rule change: **NONE** (evidence bar is >= 10 closed trades; we have 0)
+- Decision: **NO CHANGE to TRADING-STRATEGY.md.** The Wk-11 gap is 100% logging + manage-book follow-through, not strategy. The framework identified GDX as a Wk-9 kickoff pick and it is +18.17%; the framework mandates a 7% trail at +15% and the manage-book routine simply did not apply it. Reacting to that by adding rules would not fix a routine that isn't running the existing rule
+- No changes proposed. No text touched in TRADING-STRATEGY.md
+
+### Overall Grade: C+
+Wk-11 held phase P&L at +$1,928 (+1.93% since 6/4 launch) with only 59% deployed; underperformed SPX by 0.32pp this week (mild cash drag) and by a rounding error over Wk-9 + Wk-10 + Wk-11 combined (bot ~+1.6% vs SPY ~+1.7% from 8/10 → 8/27). Grade C+ (not B) because (a) TRADE-LOG + RESEARCH-LOG went silent for 16 calendar days (Aug 11 → 27) with no operator alert or self-diagnosis until the Thu 8/27 midday scan resumed, (b) deployment stayed stuck at 59% vs target 75-85% despite ideal conditions (GDX ripping, CPI window cleared, no positions in cut-line trouble), (c) XLI's -2.65% weakest-leg pattern was flagged for exit-reallocation in the 8/11 pre-market notes and never actioned, (d) GDX crossed the +15% first-tighten trigger sometime inside the log-silence gap — the action fired eventually (Thu 8/27 13:41 ET, trail 10%→7%, stop $95.103→$96.646) but was overdue relative to the trigger date. What kept it above D: the actual trade selection is working (GDX is a +$1,679 winner from a clean sector-momentum + catalyst thesis), stops are live and did their job unattended for 16 days, the +15% tighten did land this session, and the phase is net positive relative to Wk-7's -3.83% SPX-relative pit. Priorities for Fri 8/28 + Wk-12: (1) monitor GDX for +20% second-tighten (needs ~$1.60 more), (2) re-instate daily-log commit discipline, (3) re-evaluate XLI hold/exit Mon 8/31, (4) push deployment to 75-85% via the 3-slot Wk-12 budget. First graded review post-Wk-8 recovery; the phase is in shape to move from "carrying winners" to "compounding them" if the manage-book routine catches up to the entry routine.
