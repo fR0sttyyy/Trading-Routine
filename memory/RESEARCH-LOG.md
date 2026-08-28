@@ -3721,3 +3721,60 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Live order snapshot post-scan:** GDX 105 → fixed stop $100.39 (id 57e357e8); XLB 185+192 → trail 10% stop $48.771 (ids 164fe1fa, 9f98f565); XLI 54 → trail 10% stop $169.3665 (id 53fa7e9e); XLK 50+54 → trail 10% stop $172.575 (ids 5451fa24, f2c0dace). All 6 stops live GTC. Full coverage.
 - **Structural note:** two routines fired ~simultaneously today (midday-scan 13:41 ET + pre-market 13:40 ET). The scheduled slots overlap on this late-fire pre-market. Pre-market is scoped to research/log; midday owned the trade action — correct division of labor even if concurrent.
 
+
+## 2026-08-28 — Pre-market Research (Friday, Wk-12 Day 5, 08:38 ET fire)
+
+### Account
+- Equity: $102,076.60 (last_equity Thu 8/27 close $101,883.93, +$192.67)
+- Cash: $41,658.13 (40.81%)
+- Buying power: $335,804.24 | non-marginable BP $71,867.36 | SMA $101,399.54
+- Long market value: $60,418.47 (59.19% deployed) | Maint margin $18,125.54
+- Daytrade count: 0/3 (per Aug 11 confirm; no fills in 16-day gap)
+- balance_asof: 2026-08-27 (T-1 daily-mark, EOD roll pending)
+- Wk-12 trades used: 0/3 (Mon 8/24 → today, no fills over resumption cluster)
+- Positions (4): GDX 105 @ $87.96 (+18.24%, fixed stop $100.39, +14.13% locked floor), XLB 377 @ $52.68 (+2.18%, trail 10% $48.771, hwm $54.19), XLI 54 @ $184.08 (-2.74%, trail 10% $169.3665, hwm $188.185), XLK 104 @ $185.62 (+1.20%, trail 10% $172.575, hwm $191.75)
+- Open orders: 6 GTC stops (all 4 positions covered, XLB & XLK dual-leg converged, GDX fixed post-+20% ratchet, XLI/XLB/XLK trail 10%)
+
+### Market Context (08:38 ET pre-market snapshot)
+- Indices Thu close: S&P 7730.99 (+0.72%), Nasdaq 26541.35 (+1.57% — NVDA-driven), Dow 53569.44 (+0.20%)
+- Futures Fri pre: ES +0.08%, NQ -0.15% (mixed, mild consolidation post-NVDA rally)
+- VIX: 14.41 (-0.69%) — benign / calm
+- WTI/Brent: WTI $82.79 (-0.89%), Brent $87.86 (-0.75%) — oil soft
+- Gold: **$4,614.31/oz** (spot 09:00 ET) — up from $4,371 Aug 10 pre-market (+5.6% span); silver $75.50
+- Today's catalysts:
+  - **NVDA Q2 blowout (Wed AMC)** — revenue $96.2B (+106% YoY), FY next guide +70%; NVDA +7% premarket Thu → drove XLK +3.16% Thu single-day
+  - **MRVL -8% premarket Fri** — Q2 record rev $2.74B + AI 46% YoY but Q3 guide $3.15B ±5% underwhelmed expectations
+  - Sticky-inflation tape: PCE July headline 3.7% (65th month above target), core 3.3%, Fed hinting hike risk if no CPI improvement
+- Earnings before open: light BMO Fri (Marvell already reported AMC Thu, dragging pre); Harmony Gold AMC Thu +record profit
+- Economic calendar: no first-tier macro today (PCE already 8/26 Wed, GDP Q2 revision +1.5% Wed); nothing tier-1 scheduled 8/28
+- Sector momentum Thu 8/27 close: **XLK +3.16% (dominant)** | XLE -0.22% | XLF -0.65% | XLB -0.82% | XLI -0.85% | XLV -1.13% | XLP -1.38% — ONLY XLK green; broad tape red away from tech
+
+### Trade Ideas — Qualification Table
+1. **XLK ADD ~5 shares (~$940) to top off toward 20% cap** — Catalyst NVDA blowout + XLK #1 sector; sector momentum YES; 10% trail applies; existing cost basis $19,304 = 18.91% equity, 20% cap = $20,415 → room only $1,110. **DOES NOT QUALIFY** on Buy-Side Gate "Position cost <= 20% of equity" (add negligible relative to cap; not a meaningful sizing).
+2. **NVDA FRESH ~$5,000 half-size (post-earnings direct AI play)** — Catalyst YES (blockbuster); sector momentum YES (XLK #1); stop 10% definable; **R:R < 2:1** on post-+7%-gap entry — Thu close ~$234, 10% stop $210 = -$24/-10%; near-term target capped by profit-taking resistance ~$250-260 = +$20/+8-11% = ~1:1 base R:R (2:1 only on stretched +20% new-high target). **DOES NOT QUALIFY** on Test 4 (R:R >= 2:1 at extended entry).
+3. **SMH FRESH ~$10,000 half-size (diversified semis ETF)** — Catalyst YES (NVDA + AI capex + Marvell AI bookings robust); sector YES; stop 10% definable; wide bid/ask $552-587 pre-open indicates illiquid tick, Thu close ~$570 est → 10% stop $513, +20% target $684, near-term resistance $600 = +$30/+5% vs -$57/-10% = **0.5:1 base R:R**. **DOES NOT QUALIFY** on Test 4 (extended post-NVDA entry).
+4. **AVGO FRESH** — Catalyst YES (AI networking / semi tailwind); sector YES; R:R at ~$369 Thu-close-approx post-NVDA-drift = similar extended-chase profile as SMH/NVDA. **DOES NOT QUALIFY** on Test 4.
+5. **GDX ADD ~50 sh (~$5,200 to top up existing +18% winner)** — Catalyst YES (gold $4,614 breaking, silver $75.50); sector precious metals in momentum; adding at extended entry: current price $104, 10% stop $93.60 (below existing fixed $100.39 floor = would only apply to new shares), target +20% $124.80 vs risk -$10.40 = 2:1 nominal. **DOES NOT QUALIFY** on chase-into-extended-winner: adding to a +18% position at premium price locks worse cost basis without improving thesis exposure (thesis already captured); Wk-12 slot better preserved for a fresh setup than a redundant add.
+6. **XLE / XLB add / XLV / XLF / XLP FRESH** — **DOES NOT QUALIFY** on Test 2 (sector momentum) — all non-tech sectors red Thu 8/27; none passing sector-momentum test.
+7. **XLI ADD (existing loser -2.74%)** — **DOES NOT QUALIFY** on Test 2 (XLI -0.85% Thu, weakest of book, 18 days flat since Aug 10 entry).
+
+### Management Priorities for Market-Open Routine (Fri 09:30 ET)
+- **GDX auto-ratchet monitor:** if intraday hwm breaks $105.67 (prior peak), CANCEL fixed stop $100.39 (id 57e357e8) + PLACE 5% trailing from fresh hwm. Restores auto-ratchet on further upside. Condition to check at 09:30: is GDX quote > $105.67?
+- **XLI thesis reassess:** 18 days flat since Aug 10, -2.74%, cut cushion 4.2% ($171.19 cut vs live $179.04). Not at auto-cut trigger. Thesis-break candidate if XLI cannot reclaim entry $184.08 into weekly close. Reassess at 09:30 quote; log full thesis-break decision at midday if XLI < $178.
+- **XLK ratchet monitor:** currently +1.20% (hwm-peak +3.31%). Far from +15% first-tighten trigger ($213.46). No action today.
+- **XLB ratchet monitor:** +2.18% (hwm-peak +2.86%). No action today.
+
+### Risk Factors (Fri 8/28)
+- **Sell-the-news Fri after NVDA blowout Wed AMC** — mixed futures + MRVL -8% pre = potential fade day; XLK book +1.20% at risk of intraday pullback (though 10% trail cushion 8.24% buffered)
+- **Sticky PCE / Fed-hawkish tilt = gold pullback risk on GDX** — Kitco warning of 10-20% short-term correction potential; GDX fixed stop $100.39 locks +14.13% floor if correction hits
+- **Weekend gap risk into Sun/Mon** — no macro-defined event but geopolitics/China semi de-rating headline risk always live over weekends
+- **Deployment 59.19% vs 75-85% target** — 15.8-25.8 pts below target; not a reason to force chases that fail R:R gate; Wk-12 slot budget (3/3 available) preserved for Mon 8/31 fresh sector-momentum read post-Fri consolidation
+- **Routine health:** first pre-market fire since Aug 11 (16-day gap). Second live-fire day in a row after Thu 8/27 resumption cluster (3 slots covered). Structural signal: recovery holds if Fri 9:30 open + midday + EOD all fire live.
+
+### Decision — NO NEW ENTRIES QUALIFY, MANAGE-ONLY DAY, GDX RATCHET WATCH LIVE
+- **All 4 fresh ideas DO NOT QUALIFY** on specific named tests: XLK ADD fails 20%-cap gate; NVDA/SMH/AVGO fresh fail R:R at extended entry post-NVDA gap; GDX ADD fails on redundant-add-to-extended-winner; non-tech sectors fail momentum test; XLI add fails momentum test. Not "patience" / "protect cash" — specific-test failures logged.
+- **HOLD BOOK** — all 4 positions above cut lines, stops live GTC covering full exposure.
+- **GDX ratchet watch:** if GDX prints new hwm >$105.67 Fri intraday, market-open routine executes fixed→5% trailing swap. Condition-based, no clock-time gate.
+- **XLI thesis-break watch:** decision deferred to intraday routines (09:30 open + midday) with concrete price condition (< $178 = deteriorating; > $184 = reclaim thesis).
+- **Wk-12 slot budget 3/3 preserved** for Mon 8/31 post-Fri consolidation setup. This is not "waiting for confirmation" — this is 3 back-to-back rejection of setups on defined tests (R:R + gate cap + sector momentum), which is rule-compliant clean-no-trade.
+
