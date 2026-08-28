@@ -992,3 +992,42 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **XLI thesis reassess** — -2.90% at close, 17 days flat since Aug 10 entry, weakest of book; candidate for thesis-break exit if it can't reclaim entry $184.08 into weekly close.
 4. **Sector-momentum leaderboard refresh** — 16-day macro regime blind spot needs closing; Wk-12 slot budget 3/3 available.
 5. **First clean single-day-span P&L basis** — this 15:52 EOD entry ($101,850.90) is the Fri 8/28 baseline.
+
+### Aug 28 — Market-Open Snapshot (Friday, 09:36 ET — Wk-12 Day 5 / MANAGE-ONLY / NO NEW ENTRIES QUALIFY)
+**Portfolio:** $101,975.47 | **Cash:** $41,658.13 (40.85%) | **Day P&L (Aug 27 → intraday):** +$91.54 (+0.090%) | **Phase P&L:** +$1,975.47 (+1.975%)
+
+| Ticker | Shares | Entry (wtd) | Live (09:36 ET) | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| GDX | 105 | $87.96 | $103.665 | -0.02% | +$1,649.03 (+17.86%) | $100.39 (fixed, +20% ratchet floor) |
+| XLB | 377 | $52.684 | $53.710 | +0.90% | +$386.81 (+1.95%) | $48.771 (trail 10%, hwm $54.19) |
+| XLI | 54 | $184.077 | $179.080 | +0.16% | -$269.84 (-2.72%) | $169.3665 (trail 10%, hwm $188.185) |
+| XLK | 104 | $185.616 | $187.690 | -0.49% | +$215.74 (+1.12%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Trades today: NONE (0 buys/sells).** Wk-12 slot budget: **0/3 used**. Deployment $60,317.34 mv = 59.15% (below 75-85% target — held per pre-market plan rejecting fresh setups on defined tests).
+
+**Pre-market plan execution:** All 7 fresh ideas evaluated in RESEARCH-LOG Fri 8/28 08:38 ET entry DID NOT QUALIFY on named tests — XLK ADD fails 20%-cap gate; NVDA/SMH/AVGO fresh fail R:R at extended entry post-NVDA gap; GDX ADD fails redundant-add-to-extended-winner; non-tech sectors (XLE/XLB add/XLV/XLF/XLP) fail sector-momentum test (only XLK green Thu 8/27); XLI add fails sector-momentum test. Rule-compliant no-trade day, not "patience".
+
+**Ratchet & thesis checks at open:**
+- **GDX ratchet watch:** live $103.665 < peak hwm $105.67 (delta -$2.005 / -1.90% below trigger). No auto-ratchet swap needed. Fixed stop $100.39 remains correct locked-floor. Re-check at midday.
+- **XLI thesis-break watch:** live $179.08 > $178 threshold (per pre-market plan). No thesis-break flag today. Defer full reassess to midday routine (< $178 = deteriorate; > $184 = reclaim thesis).
+- **XLK ratchet:** +1.12% (hwm-peak +3.31%), far below +15% first-tighten trigger $213.46. No action.
+- **XLB ratchet:** +1.95% (hwm-peak +2.86%), far below +15% trigger. No action.
+
+**Cut-loser gate NO-OP:** all 4 clear of -7% cuts. XLI worst at -2.72% (cut trigger $171.19 = 4.4% cushion below live). GDX +17.86%, XLB +1.95%, XLK +1.12% all clear.
+
+**Live-quote confirmation (09:36 ET):** GDX bid $103.70 / ask $103.74 tight ✓; XLB bid $53.71 / ask $53.72 tight ✓; XLI bid $179.11 / ask $179.14 tight ✓; XLK bid $187.68 / ask $187.72 tight ✓. All 4 quotable, no halt, no wide-spread flag. Data fresh.
+
+**Stops verified live (all 6 GTC covering all 4 positions):**
+- GDX: fixed stop $100.39 (57e357e8, 105 sh) — +14.13% floor
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh converged)
+- XLI: trail 10% $169.3665 hwm $188.185 (53fa7e9e 54 sh)
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh converged)
+
+**PDT:** daytrade_count 0/3, full PDT room preserved (moot on no-trade day). No ClickUp send (no trade fired).
+
+**Structural routine health:** Fri 8/28 market-open fires live — second live-fire day in a row after Thu 8/27 resumption cluster (3 slots covered). If Fri midday + EOD also fire, that confirms recovery holds.
+
+**Next checkpoints (today):**
+1. **Midday scan** — XLI thesis-break decision (<$178 = deteriorate); GDX ratchet re-check (>$105.67 = swap fixed→5% trail from fresh peak); sector-momentum leaderboard refresh for Mon 8/31 planning.
+2. **EOD** — first clean single-day P&L snapshot post-resumption (baseline Aug 27 $101,850.90).
+3. **Weekend gap risk** — 4-position book flat into Sat/Sun/Mon; all stops GTC live, no unprotected exposure.
