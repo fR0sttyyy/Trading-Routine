@@ -1031,3 +1031,45 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 1. **Midday scan** — XLI thesis-break decision (<$178 = deteriorate); GDX ratchet re-check (>$105.67 = swap fixed→5% trail from fresh peak); sector-momentum leaderboard refresh for Mon 8/31 planning.
 2. **EOD** — first clean single-day P&L snapshot post-resumption (baseline Aug 27 $101,850.90).
 3. **Weekend gap risk** — 4-position book flat into Sat/Sun/Mon; all stops GTC live, no unprotected exposure.
+
+### Aug 28 — Midday Scan (Friday, 12:04 ET — Wk-12 Day 5 / 2 ACTIONS EXECUTED)
+**Portfolio:** $101,116.67 | **Cash:** $61,755.01 (61.07%) | **Day P&L (Aug 27 → intraday):** -$767.26 (-0.753%) | **Phase P&L:** +$1,116.67 (+1.117%)
+
+| Ticker | Shares | Entry (wtd) | Live (12:04 ET) | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $53.020 | -0.40% | +$126.68 (+0.64%) | $48.771 (trail 10%, hwm $54.19) |
+| XLK | 104 | $185.616 | $186.250 | -1.25% | +$65.98 (+0.34%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Trades today: 2 (1 stop-fill exit + 1 manual thesis-break exit).**
+
+**Trade 1 — GDX EXIT (protective stop filled, 10:29 ET):** Fixed stop $100.39 (id 57e357e8, placed 8/27 as +20% ratchet locked floor) filled 105 sh @ **$100.396 avg**. Realized P&L = ($100.396 − $87.96) × 105 = **+$1,305.78 (+14.14%)**. Locked-floor math from 8/27 ratchet decision executed exactly as designed: peak hwm $105.67 × 0.95 = $100.39 → captured +14.13% floor when GDX gapped through. Log as "stop already filled, no manual cancel-then-close needed" per protection-model rule. Position fully closed; no orphan stop.
+
+**Trade 2 — XLI EXIT (manual thesis-break, 12:04 ET):** Cancelled trail 10% stop $169.3665 (id 53fa7e9e) → sold 54 sh @ **$176.95 avg**. Realized P&L = ($176.95 − $184.077037) × 54 = **-$384.86 (-3.87%)**. **Rule invoked:** thesis-break per pre-committed pre-market condition (RESEARCH-LOG:3763,3778): "XLI < $178 = deteriorating". Live $176.98 at scan start, quote bid $176.94/ask $176.96 tight (no halt/wide-spread flag). Weekly close context: 18 trading days flat since Aug 10 entry, weakest of book, sector momentum negative (XLI -0.85% Thu 8/27), unable to reclaim entry $184.08. This is the "cut on thesis break even if not at -7%" path, not the -7% auto-cut ($171.19 was still 3.4% below live). Cancel-then-close order preserved (no coverage gap during cancel window). Note: 54 sh sold today was originally bought 8/4 → NOT a day trade; daytrade_count remains 0/3.
+
+**Realized P&L today: +$1,305.78 (GDX) − $384.86 (XLI) = +$920.92 net realized.** Day equity change -$767.26 reflects the intraday drift on remaining positions (XLK -$245 intraday, XLB -$79 intraday) plus GDX gap-down between Thu close $103.60 and stop-trigger $100.39 (-$3.20 × 105 = -$336 lost vs T-1 mark before the stop fired).
+
+**Wk-12 trade count:** 0 → 2 (both were EXITS, not new opens). Wk-12 new-entry slot budget: **0/3 used** (rule cap counts new opens; exits don't consume the budget). Slots remain 3/3 open for Mon 8/31.
+
+**Cut-loser gate NO-OP on remaining book:** XLB +0.64%, XLK +0.34% — both above cut lines by wide margin. XLB cut trigger $48.99 (7.6% cushion below live $53.02); XLK cut trigger $172.62 (7.3% cushion below live $186.25).
+
+**Tighten-trail check on winners:** XLB +0.64% (hwm-peak +2.86%), XLK +0.34% (hwm-peak +3.31%). Both far from +15% first-tighten trigger. **No ratchet action warranted.**
+
+**Stops verified live post-actions (4 GTC orders, both remaining positions fully covered):**
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh converged = 377 sh)
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh converged = 104 sh)
+- XLI stop 53fa7e9e = canceled 12:04:47 ET (pre-close-order timestamp; cancelled 4s before market-sell submitted → no coverage on flat position)
+- GDX stop 57e357e8 = filled 10:29:03 ET (self-terminated, no cancel needed)
+
+**Deployment collapse:** $60,317.34 mv @ 09:36 → $39,361.66 mv @ 12:04 = **38.93% deployed** (-20.2 pts intraday from GDX exit + XLI exit + slight mark-down on XLB/XLK). Cash $41,658.13 → $61,755.01 (+$20,097 = GDX $10,542 + XLI $9,555). Well below 75-85% target — cash reserve rebuild for Wk-13 fresh setups.
+
+**Structural signal:** GDX stop-fill = **fixed-stop rule EXECUTED CORRECTLY** — the +20% ratchet locked-floor logic from Thu 8/27 delivered the intended outcome (+14.13% captured floor on a gap-through move that a fresh 5% trail from placement price $103.92 would have exited at $98.72, worse by $1.67/sh × 105 = $175.35 more given up). Fixed-stop rule vindicated on the specific gap-down move it was designed for.
+
+**XLI thesis validation:** pre-market plan's decision framework (concrete price condition, not "feel") is the correct discipline pattern. XLI hit the exact price the plan pre-committed to. No ambiguity, no waffling — mechanical execution of pre-defined test. Loss -$384.86 (-3.87%) is well inside -7% max risk envelope. Sector-momentum rule + weakness-of-book flag correctly identified 3+ weeks before this exit.
+
+**Tomorrow / next-week priorities (Fri 8/28 EOD + Mon 8/31 pre-market):**
+1. **EOD Fri 8/28** — capture first clean single-day-span P&L snapshot post-resumption; account for both realized exits today.
+2. **Weekly review Fri 8/28 PM** — Wk-12 recap: 0 new opens, 2 exits (1 stop-fill winner +$1,305.78 GDX; 1 thesis-break loser -$384.86 XLI); phase P&L +$1,116.67; deployment now 38.93% (Wk-13 setup opportunity).
+3. **Sector-momentum leaderboard refresh Mon pre-market** — 2 exits opened room to redeploy; XLK/XLB remain in book; scan XLE/XLF/materials for Mon 8/31 fresh candidate.
+4. **Sector 2-fails tracking:** GDX exit was a stop-fill winner (NOT a fail) — precious metals sector still counts 1 winner, 0 fails; XLI exit was thesis-break loss — industrials sector now 1 fail (out of 1 trade). No sector at 2-fails yet. Precious metals viable for redeploy; industrials on 1-strike warning.
+5. **Weekend gap risk** — 2-position book (XLB, XLK) into Sat/Sun/Mon; stops GTC live; total exposure $39,362 = 38.93% (safer than 60% carry).
+6. **ClickUp send:** posting concise action recap (both exits, realized P&Ls, book flat to 2 positions).
