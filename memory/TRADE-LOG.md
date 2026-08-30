@@ -1073,3 +1073,32 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 4. **Sector 2-fails tracking:** GDX exit was a stop-fill winner (NOT a fail) — precious metals sector still counts 1 winner, 0 fails; XLI exit was thesis-break loss — industrials sector now 1 fail (out of 1 trade). No sector at 2-fails yet. Precious metals viable for redeploy; industrials on 1-strike warning.
 5. **Weekend gap risk** — 2-position book (XLB, XLK) into Sat/Sun/Mon; stops GTC live; total exposure $39,362 = 38.93% (safer than 60% carry).
 6. **ClickUp send:** posting concise action recap (both exits, realized P&Ls, book flat to 2 positions).
+
+### Aug 30 — EOD Snapshot (Sunday — WEEKEND / captures Fri Aug 28 close marks / Fri EOD-slot MISSED / Wk-12 close)
+**Portfolio:** $101,115.16 | **Cash:** $61,754.54 (61.07%) | **Day P&L (Aug 27 → Aug 28):** -$735.74 (-0.722%) | **Phase P&L:** +$1,115.16 (+1.115%)
+
+| Ticker | Shares | Entry (wtd) | Fri Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $53.18 | -0.12% | +$187.00 (+0.94%) | $48.771 (trail 10%, hwm $54.19) |
+| XLK | 104 | $185.616 | $185.69 | -1.42% | +$7.74 (+0.04%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Sunday capture of Fri 8/28 close marks — Fri EOD-slot did not fire, so this weekend snapshot backfills using Alpaca `balance_asof: 2026-08-28` (authoritative Fri close). Day P&L span Aug 27 EOD ($101,850.90) → Aug 28 close ($101,115.16) = single consecutive trading-day span, "Day P&L" label valid. Phase P&L +$1,115.16 (+1.115%) after redeploying Wk-12 with 2 exits (GDX +$1,305.78 stop-fill winner / XLI -$384.86 thesis-break loser). Book collapsed to 2 positions (XLB + XLK); deployment 38.93% (well below 75-85% target, cash rebuild for Wk-13 fresh setups). Alpaca fields: equity $101,115.16 = last_equity $101,115.16 (weekend flat, no fills Fri close → Sun), long_market_value $39,360.62, cash $61,754.54, buying_power $357,227.90, sma $101,883.93, `change_today: 0` on both positions confirming weekend flat.
+
+**Trades today (Sunday): NONE.** Trades Fri 8/28: 2 exits (GDX stop-fill 10:29 ET $100.396 = +$1,305.78; XLI thesis-break 12:04 ET $176.95 = -$384.86). Realized Fri net: +$920.92. Wk-12 (Mon 8/24 → Fri 8/28) trade count: **2 exits, 0 new opens** — Wk-12 new-entry slot budget: **0/3 used**. Wk-13 resets Mon 8/31 (regular trading day, Labor Day 9/7).
+
+**Weekend gap verification:** Fri close → Sun Alpaca pull shows XLB $53.18 unchanged, XLK $185.69 unchanged, both `change_today: 0`, `unrealized_intraday_pl: 0`. No positions have moved. All GTC stops still live: XLB stop $48.771 (164fe1fa 185 sh + 9f98f565 192 sh), XLK stop $172.575 (5451fa24 50 sh + f2c0dace 54 sh). No orphan orders. `qty_available: 0` on both = the trailing stops correctly reserve full share count (protection intact).
+
+**Cut-loser gate NO-OP:** both positions GREEN. XLB +0.94% (cut trigger $48.99 = 7.9% cushion below $53.18). XLK +0.04% (cut trigger $172.62 = 7.0% cushion below $185.69). Neither near -7% cut.
+
+**Tighten-trail check:** XLB hwm-peak +2.86% (cushion to +15% trigger = 12.14 pts). XLK hwm-peak +3.31% (cushion to +15% trigger = 11.69 pts). Neither near first-tighten. No manual action warranted.
+
+**Sector-momentum posture into Mon 8/31:** book now 1 materials (XLB) + 1 tech (XLK). Precious metals cashed out but sector NOT at 2-fails (1 winner, 0 fails — viable for redeploy on fresh setup). Industrials on 1-strike warning (XLI thesis-break loss, 1 fail). Wk-13 budget 3/3 fresh opens — pre-market Mon 8/31 needs sector-leaderboard refresh and fresh candidate scan (XLE / XLF / SMH / semis / GDX re-add on new base) to close 38.93 → 75-85% deployment gap.
+
+**Structural routine health:** Fri 8/28 EOD-slot missed (this Sunday capture backfills). Sat/Sun no scheduled fires (normal). Aug 28 slots fired: pre-market ✓, market-open ✓, midday ✓, EOD ✗ (backfilled today). Weekly-review Fri 8/28 PM slot status unknown — check WEEKLY-REVIEW.md for Wk-12 entry; add if missing (Wk-12 recap: +$1,115.16 phase, 2 exits, 0 opens, deployment collapse to 38.93%, sector-momentum re-alignment).
+
+**Tomorrow (Mon 8/31 — Wk-13 Day 1):**
+1. **Pre-market research LOG must land** — Wk-13 fresh 3/3 slots authorized; sector-momentum leaderboard refresh (17-day macro regime blind spot since Aug 11 pre-market last full analysis).
+2. **Fresh-candidate scan** — target 1-2 opens to bring deployment 38.93 → 60%+ (each 20% position = $20,223 = ~$20K notional; 2 opens takes deployment to ~78%).
+3. **Existing book management** — XLB/XLK trailing stops server-side, no manual actions unless +15% first-tighten or -7% cut lines hit. Both quiet.
+4. **Sector 2-fails tracking** — industrials (XLI) at 1 fail / 1 trade = do NOT re-enter industrials this week (2nd fail would trigger sector exclusion). Precious metals + materials + tech + energy + financials all clear for consideration.
+5. **Weekly-review Wk-12** — verify posted; if missing, backfill Mon evening.
