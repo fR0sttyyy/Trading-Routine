@@ -1156,3 +1156,36 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 1. **Midday scan** — GDX re-quote (retrigger if > $99.00 = potential Wk-13 slot 2); XLE thesis check (WTI intraday hold > $85, XLE hold > entry).
 2. **EOD Mon 8/31** — first Day P&L snapshot for Wk-13 baseline.
 3. **XLE ratchet monitoring** — hwm auto-advances server-side; manual +15% first-tighten trigger = $73.92; +20% = $77.20.
+
+### Aug 31 — Midday Scan (Monday, 12:04 ET — Wk-13 Day 1 / NO ACTION)
+**Portfolio:** $100,671.95 | **Cash:** $46,765.65 (46.45%) | **Deployed:** $53,920.00 (53.55%) | **Positions:** 3 | **Wk-13 trades:** 1/3 used | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Live | Unreal P&L | -7% Cut | Cushion | Stop (hwm) |
+| - | - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.815 | +$49.39 (+0.25%) | $48.996 | +7.79% | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $63.22 | -$258.63 (-1.73%) | $59.826 | +5.68% | $57.892 (trail 10%, hwm $64.325) |
+| XLK | 104 | $185.616 | $185.37 | -$25.54 (-0.13%) | $172.623 | +7.36% | $172.575 (trail 10%, hwm $191.75) |
+
+**Cut-loser gate NO-OP:** all 3 positions inside -7% envelope. XLB green (+0.25%), XLE mild red (-1.73%, cushion 5.68% to cut), XLK ~flat (-0.13%). No manual cuts.
+
+**Tighten-trail check NO-OP:** XLB hwm peak +2.86% from entry; XLE hwm peak +0.007% (essentially fresh, entry-day); XLK hwm peak +3.31%. None near +15% first-tighten trigger. Stops server-side, no manual action.
+
+**Thesis check — all HOLDING:**
+- **XLE:** oil catalyst intact (WTI premium regime post-Hormuz sustained per pre-market); intraday drift -1.73% is normal chop within envelope, NOT thesis break (no oil catalyst reversal, no sector rotation flag, no OPEC/Iran de-escalation news). HOLD.
+- **XLB:** materials sector momentum holding; flat-to-green day. HOLD.
+- **XLK:** tech sector holding; near-flat. HOLD.
+
+**GDX re-entry trigger CHECK — FAILED:**
+- Pre-market plan conditional: "if GDX > $99.00 at midday, re-eval for Wk-13 slot 2".
+- Live 12:04 ET: bid $97.93 / ask $97.95 = **BELOW $99 by $1.05 (-1.06%)**.
+- Trigger NOT met → **NO GDX re-entry**. Wk-13 slot 2 preserved for mid-week catalyst (Fed speakers, oil dev, or GDX re-trigger later this week).
+- NOT a rule violation — this is the pre-committed price-tape gate documented in RESEARCH-LOG 2026-08-31.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE) + 1 materials (XLB) + 1 tech (XLK); precious metals slot deferred (GDX trigger fail); industrials excluded (XLI 1-strike warning).
+
+**No orders placed. No cancels. No fills. No memory-of-trade change.** ClickUp send SKIPPED (STEP 7: only if action taken). Commit still proceeds to persist this scan record.
+
+**Next checkpoints:**
+1. **EOD Mon 8/31 (16:00 ET)** — first Wk-13 Day P&L snapshot; assess if GDX re-triggers or fresh mid-week candidate emerges.
+2. **Tue 9/1 pre-market** — re-scan sector leaderboard, XLE thesis re-validate, GDX re-check on quote.
+3. **XLE ratchet monitoring** — no action until +15% ($73.92) or -7% ($59.83); currently mid-envelope.
