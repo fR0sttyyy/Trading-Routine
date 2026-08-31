@@ -1102,3 +1102,57 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **Existing book management** — XLB/XLK trailing stops server-side, no manual actions unless +15% first-tighten or -7% cut lines hit. Both quiet.
 4. **Sector 2-fails tracking** — industrials (XLI) at 1 fail / 1 trade = do NOT re-enter industrials this week (2nd fail would trigger sector exclusion). Precious metals + materials + tech + energy + financials all clear for consideration.
 5. **Weekly-review Wk-12** — verify posted; if missing, backfill Mon evening.
+
+### Aug 31 — Market-Open Routine (Monday, 09:37 ET — Wk-13 Day 1 / 1 FRESH OPEN / GDX SKIPPED ON TRIGGER)
+**Portfolio:** $101,110.61 | **Cash:** $61,754.54 (61.08%) pre-fill | **Positions:** 2 → 3 (add XLE) | **Wk-13 trades:** 0 → 1/3 used | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| XLE | BUY | 233 | $64.33 | $14,988.89 | $57.852 (trail 10% GTC, hwm $64.28, id 2cae6815) | Hormuz-oil catalyst return Sun eve (WTI +3.78% to $86.55); XLE +0.63% Fri = only true green sector; half-size hedge into FOMC 9/16 binary | $76 (+18%, prior peaks + 6-mo Iran-war premium) | 1.97 ≈ 2:1 |
+
+**Pre-market plan execution:**
+- **XLE FRESH ✓ QUALIFIED + TRIGGER MET** — pre-market conditional trigger "WTI > $85 AND XLE opens > $62.00" satisfied: XLE gapped $62.68 (Fri close) → $64.32 ask at 09:37 = +2.62% gap-up confirms oil catalyst absorbed. WTI holding ~$86+ per Sun eve print (Saxo Quick Take). Half-size 233 sh × $64.33 = $14,988.89 = 14.82% of equity (< 20% cap ✓). Buy-Side Gate all 7 lines pass: positions 3/6, Wk-13 1/3, cost ≤ 20%, cash covers, PDT 0/3, catalyst logged (RESEARCH-LOG:3812), stock ✓.
+- **GDX RE-ENTER ✗ TRIGGER FAILED** — pre-market conditional "GDX opens > $99.00" NOT met: quote 09:37 ET bid $98.45 / ask $98.48 = below $99.00 by $0.52. Per pre-market plan explicit instruction: "if GDX opens < $99, skip today and re-evaluate midday". NOT a rule violation — this is a pre-committed price-tape gate documented in today's RESEARCH-LOG (line 3830). Wk-13 slot preserved (2 slots remain for midday GDX re-eval + mid-week catalyst).
+- **XLK ADD / XLF FRESH / XLB ADD / XLI RE-ENTER / XLV/XLP FRESH:** 5 alternatives already flagged DO NOT QUALIFY in pre-market — no action.
+
+**Hard-check gates on XLE entry (all pass):**
+- Total positions after fill 3/6 ✓
+- Wk-13 trades 1/3 ✓
+- Cost $14,988.89 = 14.82% of $101,110.61 equity (≤ 20%) ✓
+- Cost ≤ cash $61,754.54 ✓
+- Catalyst documented (RESEARCH-LOG 2026-08-31 Idea 1) ✓
+- PDT room for both legs: daytrade_count 0/3, entry + same-day protective exit = 1 daytrade needed → 2 room remain ✓
+- Stock instrument ✓
+
+**Execution audit (13:37-13:38 UTC / 09:37-09:38 ET):**
+1. 09:37:41 ET — Submitted market buy 233 sh XLE (order 337f1e81, client_order_id bot-20260831-XLE-133741-16228)
+2. 09:37:46 ET — Filled 233 sh @ **$64.33 avg** (cost basis $14,988.89, market value $14,977.24 @ current $64.28, unrealized -$11.65 = normal slippage)
+3. 09:38:15 ET — Submitted trail 10% GTC sell 233 sh (order 2cae6815, stop $57.852 hwm $64.28)
+4. Both orders confirmed live via `orders` and `positions` refetch — no coverage gap on new position.
+
+**Cut-loser gate NO-OP on existing book:**
+- XLB 377 sh @ $52.684, live $53.19 = +$190.77 (+0.96%). Cut trigger $48.996 (-7.9% cushion below live). No action.
+- XLK 104 sh @ $185.616, live $185.60 = -$1.62 (-0.01%). Cut trigger $172.62 (-7.0% cushion). No action.
+- XLE 233 sh @ $64.33, live $64.28 = -$11.65 (-0.08%). Cut trigger $59.83 (-6.9% cushion). No action.
+
+**Tighten-trail check:** XLB hwm-peak +2.86% (cushion 12.14 pts to +15%); XLK hwm-peak +3.31% (cushion 11.69 pts); XLE fresh (hwm = entry $64.28). None near first-tighten.
+
+**Live-quote confirmation:** XLE bid $64.30 / ask $64.32 tight ✓; GDX bid $98.45 / ask $98.48 tight ✓ (skipped on trigger); XLB $53.19 tight ✓; XLK $185.60 tight ✓. All quotable, no halts.
+
+**Post-action order state (5 GTC stops covering all 3 positions):**
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh converged)
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh converged)
+- XLE: trail 10% $57.852 hwm $64.28 (2cae6815 233 sh) — NEW
+
+**Deployment:** $39,356.07 mv pre-fill → ~$54,344 post-fill = **~53.7% deployed** (still below 75-85% target; 1 more mid-week opportunity to close gap). Cash $61,754.54 → ~$46,766.
+
+**Sector momentum posture:** Book now 1 energy (XLE, fresh) + 1 materials (XLB) + 1 tech (XLK) = 3 different sector families. Precious metals slot deferred to midday re-eval on GDX trigger. Industrials remain excluded (1-strike warning).
+
+**Wk-13 slot budget:** 1/3 used (XLE fresh). 2 slots preserved for midday GDX re-eval + mid-week catalyst (Fed speakers, oil development).
+
+**STEP 7 ClickUp send:** posting concise recap (XLE 233 sh @ $64.33, trail 10% stop $57.852, GDX skipped on trigger).
+
+**Next checkpoints:**
+1. **Midday scan** — GDX re-quote (retrigger if > $99.00 = potential Wk-13 slot 2); XLE thesis check (WTI intraday hold > $85, XLE hold > entry).
+2. **EOD Mon 8/31** — first Day P&L snapshot for Wk-13 baseline.
+3. **XLE ratchet monitoring** — hwm auto-advances server-side; manual +15% first-tighten trigger = $73.92; +20% = $77.20.
