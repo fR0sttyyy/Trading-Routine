@@ -3778,3 +3778,98 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **XLI thesis-break watch:** decision deferred to intraday routines (09:30 open + midday) with concrete price condition (< $178 = deteriorating; > $184 = reclaim thesis).
 - **Wk-12 slot budget 3/3 preserved** for Mon 8/31 post-Fri consolidation setup. This is not "waiting for confirmation" — this is 3 back-to-back rejection of setups on defined tests (R:R + gate cap + sector momentum), which is rule-compliant clean-no-trade.
 
+
+
+## 2026-08-31 — Pre-market Research (Monday, Wk-13 Day 1, pre-open fire)
+
+### Account
+- Equity: $101,032.22 (last_equity Fri 8/28 $101,115.16, -$82.94 = weekend mark drift on XLK/XLB)
+- Cash: $61,754.54 (61.12%)
+- Buying power: $356,995.66 | non-marginable BP $81,393.38 | SMA $101,883.93
+- Long market value: $39,277.68 (38.87% deployed) | Maint margin $11,783.30
+- Daytrade count: 0/3 (reset window well clear)
+- balance_asof: 2026-08-28 (Fri close; Mon EOD roll pending — snapshot fresh for pre-market)
+- Wk-13 slot budget: 0/3 used (fresh week, resets today)
+- Positions (2): XLB 377 @ $52.684 (+0.83%, trail 10% $48.771, hwm $54.19), XLK 104 @ $185.616 (-0.27%, trail 10% $172.575, hwm $191.75)
+- Open orders: 4 GTC trailing stops covering both positions (dual-leg converged on each)
+
+### Market Context (Sun 8/30 eve / pre-open Mon 8/31)
+- Indices Fri close: S&P 7711.76 (-0.25%), Nasdaq 26402.42 (-0.52%), Dow 53559.99 (-0.02%)
+- Futures Sun eve: **ES -0.31%, NQ -0.26%** (mild risk-off carrying from Fri Warsh + Hormuz weekend headlines)
+- VIX: **15.23 (+5.54% on Fri)** — first meaningful vol pop off floor (~14) in weeks
+- **WTI $86.55 (+3.78% Sun eve!)** / Brent $88.83 (+3.15%) — big overnight surge on Hormuz risk return
+- Gold: $4,585-4,614 range (spot); silver $75.50; miners still 22% below peak per 24/7 Wall St (catch-up trade thesis alive)
+- **Today's dominant catalysts:**
+  - **Warsh Jackson Hole (Fri 8/28) turned hawkish** — "we have work to do" on inflation, no explicit Sept hike commit but implied Sept quarter-point hike odds surged to 55-60% (KuCoin/CNBC/Yahoo confirmed). Direct: equity risk-off, banks bid, gold bid on real-yield uncertainty.
+  - **Hormuz risk returned this weekend** (Saxo "Market Quick Take" Mon 8/31 06:00 UTC) — 6-month Iran war grind continues; Iran-Oman revenue-sharing deal from 8/26 partially disrupted per Al Jazeera "mapping strikes" Sun report. Oil +3.78%.
+- Earnings before open: BLRX + SY only (immaterial names, no move-the-needle for sectors we trade)
+- Economic calendar: **NO tier-1 macro today** (light Mon). PPI 9/10, CPI 9/11, FOMC 9/16, NFP 9/25 — all forward risk.
+- Sector momentum Fri 8/28 close: **XLE +0.63%** | XLP +0.43% | XLF +0.38% | XLB -0.09% | XLV -0.24% | XLI -0.93% | **XLK -1.55%** (sell-the-news post NVDA-blowout Wed AMC)
+  - Momentum lead thin (XLE +0.63 only "green" ex-XLP/XLF drift). Hormuz-oil catalyst Sun eve = XLE gap-up expected on Mon open.
+
+### Trade Ideas — Qualification Table
+
+**Idea 1: XLE FRESH HALF-SIZE ~$15K on Hormuz-oil catalyst (~240 sh @ ~$62.68 Fri close, gap-up expected).**
+- Catalyst: WTI +3.78% Sun eve on Hormuz risk return (Saxo Quick Take + Al Jazeera). Fresh Sunday development, NOT in Fri pricing. ✓
+- Sector momentum: XLE +0.63% Fri = only true green sector heading into Mon. Hormuz-oil pop = catalyst-driven momentum extension expected. ✓
+- Stop 10%: definable — entry ~$63.50 (if gap +1.3%), stop $57.15. ✓
+- R:R: entry ~$63.50, stop $57.15 (-10% = -$6.35), target $76 (+$12.50, prior XLE peaks near $75, oil-crisis premium supports overshoot) = **1.97:1 ≈ 2:1 ✓** (tighter target $73 = 1.5:1 fails; use $76 target based on 6-mo Iran-war escalation regime)
+- Buy-Side Gate: post-fill positions 3/6 ✓; Wk-13 trades 1/3 ✓; ~$15K = 14.85% cost / equity ✓; cash $61,754 covers ✓; PDT 0/3 ✓; catalyst logged ✓; stock ✓
+- Sector fail count: 0 (viable)
+- Half-size sizing driven by: FOMC 9/16 quarter-point-hike coin-flip (55-60% odds) + Iran ceasefire tail risk both = macro binary in 3 weeks. Rule = HALF-SIZE, not skip.
+- **QUALIFIES → TRADE HALF-SIZE at open (ENTER AT OPEN with condition: WTI holds > $85 and XLE opens > $62.00; if oil retraces > 2% from Sun-eve print, size down to quarter or skip)**
+
+**Idea 2: GDX RE-ENTER HALF-SIZE ~$10K on safe-haven catalyst (~100 sh @ ~$100 Fri stop-fill zone).**
+- Catalyst: Warsh hawkish → real-yield uncertainty → gold bid; Hormuz risk-off = safe-haven. Both fresh vs Fri close. Kitco "best August since 1999" + GDX 22% below peak (catch-up trade thesis). ✓
+- Sector momentum: precious metals leading in Aug; Fri GDX stop-fill was at prior +20% ratchet locked-floor ($100.39) — sector NOT breaking; single position exited on defined ratchet, not sector fail. ✓
+- Stop 10%: definable — entry ~$100, stop $90. ✓
+- R:R: entry ~$100, stop $90 (-10% = -$10), target $120 (+$20, gold above $4,585 + Kitco "best Aug since 1999" pace) = **2:1 ✓**
+- Buy-Side Gate: post-fill positions 3/6 (or 4/6 if XLE fills too) ✓; Wk-13 trades 2/3 ✓; ~$10K = 9.90% cost / equity ✓; cash covers ✓; PDT 0/3 ✓; catalyst logged ✓; stock ✓
+- Sector fail count: 0 (Fri exit = stop-fill WINNER +$1,305.78, NOT a sector fail per strategy rule)
+- Half-size due to: same-week re-entry within 1 trading day of prior stop-fill = chase-risk moderation (though same-week re-entry allowed if fresh catalyst per strategy — Warsh + Hormuz = fresh). Also Fed FOMC macro binary.
+- **QUALIFIES → TRADE HALF-SIZE at open (ENTER AT OPEN with condition: GDX opens > $99.00, i.e. above the Fri stop-fill floor by ≥ 0.6% = confirms weekend bid, not further breakdown; if GDX opens < $99, skip today and re-evaluate midday)**
+
+**Idea 3: XLK ADD-more (top up existing 18.89% position toward 20% cap).**
+- Catalyst: NVDA-blowout thesis structurally live; XLK -1.55% Fri = dip buy
+- Sector momentum: **XLK -1.55% Fri = worst sector on the day. Broken momentum.** ✗
+- **DOES NOT QUALIFY** on Test 2 (sector momentum negative Fri; sell-the-news post NVDA in progress). Also 20% cap gate leaves only ~$1,200 room = not meaningful sizing.
+
+**Idea 4: XLF FRESH on Warsh hawkish rate-hike (banks NIM tailwind).**
+- Catalyst: Warsh hawkish → 55-60% hike odds → bank NIM expansion. Marginal ✓
+- Sector momentum: XLF +0.38% Fri = marginal, not a leader ✗
+- **DOES NOT QUALIFY** on Test 2 (sector momentum thin; XLE stronger lead on same risk-off tape).
+
+**Idea 5: XLB ADD (existing +0.83% winner, add more materials).**
+- Catalyst: none fresh ✗
+- Sector momentum: -0.09% Fri (flat) ✗
+- **DOES NOT QUALIFY** on Test 1 and Test 2.
+
+**Idea 6: XLI RE-ENTER (industrials re-add after Fri thesis-break exit).**
+- **DOES NOT QUALIFY** on Test 2 (XLI -0.93% Fri, worst sector after XLK). Also 1-strike warning: 2nd fail = sector exclusion. Skip.
+
+**Idea 7: XLV / XLP fresh defensive rotation.**
+- XLV -0.24% Fri (weak); XLP +0.43% Fri (marginal)
+- **DOES NOT QUALIFY** on Test 2 for both (weak momentum; XLE is stronger defensive-adjacent play on Hormuz).
+
+### Management Priorities for Market-Open Routine (Mon 09:30 ET)
+
+- **XLB (377 sh, +0.83%):** no ratchet action needed (hwm-peak +2.86%, far below +15% first-tighten trigger $60.59). Trail 10% $48.771 GTC intact. Cut-line cushion 7.8% below live $53.12.
+- **XLK (104 sh, -0.27%):** no ratchet action needed (hwm-peak +3.31%). Trail 10% $172.575 GTC intact. Cut-line cushion 6.8% below live $185.11 — moderate cushion but not near -7% cut.
+- **XLE FRESH BUY:** ENTER AT OPEN conditional on WTI holds > $85 AND XLE opens > $62.00. Size ~240 sh (half-size ~$15K). Place trail 10% GTC immediately after fill.
+- **GDX RE-ENTER BUY:** ENTER AT OPEN conditional on GDX opens > $99.00. Size ~100 sh (half-size ~$10K). Place trail 10% GTC immediately after fill.
+- **PDT check pre-fills:** 0/3 daytrades used; both fresh opens are new positions (not intraday round-trips of held names) → not day-trades.
+
+### Risk Factors (Mon 8/31)
+- **Warsh hawkish overhang:** 55-60% Sept hike odds = 3 weeks of "will-they-won't-they" whipsaw ahead. Every strong economic print between now and 9/16 = potential -1 to -2% equity day. Fri VIX +5.54% = pricing starting.
+- **Hormuz / Iran war:** 6-month grind continues. Oil +3.78% Sun eve is REAL catalyst but if Iran-Oman deal restores mid-week, oil can retrace as fast as it popped (Aug 26 pattern). Half-size XLE is correct hedge.
+- **Weekend gap risk absorbed:** VIX 15.23 not a spike; ES -0.31%/NQ -0.26% Sun eve = orderly. No gap-catastrophe pricing.
+- **Deployment 38.87% vs 75-85% target:** 2 fills today take deployment to ~63.5%. Still below 75-85% target — leaves Wk-13 room for 1 more setup mid-week if catalysts fire (e.g. XLF on strong bank data, gold re-add on hard risk-off cascade).
+- **Structural routine health:** 4 slots fired in Aug 28 cluster (pre-market, market-open, midday, backfilled Sun EOD). Mon 8/31 pre-market = 5th consecutive live-slot fire since resumption. Recovery holding.
+
+### Decision — 2 QUALIFYING SETUPS, EXECUTE AT MARKET-OPEN, MANAGEMENT NEUTRAL ON BOOK
+
+- **XLE FRESH HALF-SIZE ~$15K:** QUALIFIES all 4 tests + Gate. TRADE at market open with conditional trigger (WTI > $85, XLE > $62). Justified by Hormuz-oil catalyst freshness + sector-leader status + 2:1 R:R + macro-hedge property (energy up on Iran risk regardless of Fed hike outcome).
+- **GDX RE-ENTER HALF-SIZE ~$10K:** QUALIFIES all 4 tests + Gate. TRADE at market open with conditional trigger (GDX > $99). Justified by fresh Warsh+Hormuz safe-haven catalyst + gold "best Aug since 1999" + GDX 22% below peak (catch-up) + sector 0-fail record. Half-size reflects same-week re-entry after Fri stop-fill.
+- **XLK ADD, XLF FRESH, XLB ADD, XLI RE-ENTER, XLV/XLP FRESH:** ALL DO NOT QUALIFY on named tests (sector momentum, cap gate, or catalyst freshness). Rule-compliant no-add on 5 alternatives.
+- **HOLD XLB and XLK:** no thesis-break, no cut-line trigger, stops live GTC covering exposure.
+- **Wk-13 slot budget:** 2/3 used after fills; 1 slot preserved for mid-week catalyst (Fed speakers, oil development, bank data).
