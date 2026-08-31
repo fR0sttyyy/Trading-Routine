@@ -1189,3 +1189,33 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 1. **EOD Mon 8/31 (16:00 ET)** — first Wk-13 Day P&L snapshot; assess if GDX re-triggers or fresh mid-week candidate emerges.
 2. **Tue 9/1 pre-market** — re-scan sector leaderboard, XLE thesis re-validate, GDX re-check on quote.
 3. **XLE ratchet monitoring** — no action until +15% ($73.92) or -7% ($59.83); currently mid-envelope.
+
+### Aug 31 — EOD Snapshot (Day 58, Monday — Wk-13 Day 1 / 1 fresh open XLE / GDX skipped on trigger)
+**Portfolio:** $100,895.02 | **Cash:** $46,765.65 (46.35%) | **Day P&L:** -$220.14 (-0.218%) | **Phase P&L:** +$895.02 (+0.895%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.645 | -1.01% | -$14.70 (-0.07%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $63.935 | +2.00% (vs Fri close) | -$92.04 (-0.61%) | $57.892 (trail 10%, hwm $64.325) |
+| XLK | 104 | $185.616 | $186.42 | +0.39% | +$83.66 (+0.43%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Wk-13 Day 1 opens with 1 fresh entry (XLE 233 sh @ $64.33, oil/Hormuz catalyst). Day P&L span Aug 28 → Aug 31 = single consecutive trading-day (Fri → Mon, weekend flat) — "Day P&L" label valid. Baseline $101,115.16 from Aug 30 Sunday snapshot (which captured authoritative Fri Aug 28 close via `balance_asof: 2026-08-28`). Today's -0.218% is normal chop: XLE gap-up +2.00% off Fri close but small intraday give-back from fill ($64.33 → $63.935 = -0.61%); XLB -1.01% intraday (materials rotation); XLK +0.39% (tech firm). GDX re-entry skipped on trigger (pre-market rule: only if > $99, opened $98.48, midday $97.95). Deployment restored 38.93% → 53.65%; still below 75-85% target — 2 Wk-13 slots preserved for mid-week catalyst / GDX retrigger.
+
+**Alpaca fields verification:** equity $100,895.02 = last_equity $101,115.16 - $220.14 (Fri → today). long_market_value $54,129.37 matches sum(mv): XLB $19,847.17 + XLE $14,896.86 + XLK $19,387.68 = $54,131.71 (small $2.34 rounding delta on API mark aggregation, non-material). Cash $46,765.65 = pre-fill $61,754.54 - $14,988.89 XLE cost. buying_power $338,624.84, sma $101,883.93, `change_today`: XLB -0.01006, XLE +0.02002, XLK +0.00393.
+
+**Trades today (Mon 8/31):** 1 open — **XLE BUY 233 sh @ $64.33** (order 337f1e81, filled 09:37:46 ET, cost $14,988.89 = 14.85% of equity, thesis: Hormuz-oil catalyst, target $76, R:R 1.97). Protective trail 10% GTC stop placed same slot (order 2cae6815, stop $57.892, hwm $64.325). GDX re-entry NOT taken (pre-committed price-tape gate documented in RESEARCH-LOG, quote failed both open + midday). **Wk-13 count: 1/3 used.**
+
+**Cut-loser gate NO-OP:** all 3 positions inside -7% envelope. XLB cushion +7.51% (cut $48.996), XLE cushion +6.86% (cut $59.827), XLK cushion +8.04% (cut $172.623). No manual cuts.
+
+**Tighten-trail check NO-OP:** XLB hwm-peak +2.86% (cushion to +15% first-tighten = 12.14 pts to $60.59), XLE hwm-peak essentially flat (+0.007%, tighten trigger $73.98), XLK hwm-peak +3.31% (cushion 11.69 pts to $213.46). None near first-tighten. Stops server-side.
+
+**Sector-momentum posture:** book = 1 energy (XLE, fresh) + 1 materials (XLB) + 1 tech (XLK). Precious metals slot deferred (GDX 2 trigger failures). Industrials excluded (XLI 1-strike). Wk-13 slot budget: 1/3 used, 2 preserved for Fed speakers / oil dev / GDX retrigger.
+
+**Structural routine health:** Mon 8/31 slots fired — pre-market ✓, market-open ✓, midday ✓, EOD ✓ (this entry, captured 15:51 ET / 9 min pre-close per scheduler; positions and stops locked-in for the day, no material end-of-day auction risk given trailing-stop protection). Wk-12 weekly-review status unverified — should backfill Mon evening if missing.
+
+**Tomorrow (Tue 9/1 — Wk-13 Day 2):**
+1. **Pre-market re-scan** — sector leaderboard update, XLE thesis re-validate (WTI hold > $85, no OPEC/Iran de-escalation), GDX re-quote (re-trigger if > $99 or new base forms).
+2. **Fresh-candidate scan** — 2 Wk-13 slots preserved; target 1 mid-week open to bring deployment 53.65 → 70%+ (semis/SMH, XLF, or GDX re-add on trigger).
+3. **Existing book management** — XLB/XLE/XLK trailing stops server-side, no manual actions unless +15% first-tighten or -7% cut lines hit. All quiet mid-envelope.
+4. **Sector 2-fails tracking** — industrials still excluded (1-strike). All others clear.
+5. **FOMC 9/16 T-15 days** — XLE half-size sizing already accounts for event-vol; no defensive rebalance yet.
