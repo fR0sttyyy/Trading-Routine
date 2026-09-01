@@ -1219,3 +1219,41 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **Existing book management** — XLB/XLE/XLK trailing stops server-side, no manual actions unless +15% first-tighten or -7% cut lines hit. All quiet mid-envelope.
 4. **Sector 2-fails tracking** — industrials still excluded (1-strike). All others clear.
 5. **FOMC 9/16 T-15 days** — XLE half-size sizing already accounts for event-vol; no defensive rebalance yet.
+
+### Sep 1 — Market-Open Routine (Tuesday, 09:36 ET — Wk-13 Day 2 / MANAGE-ONLY / NO NEW ENTRIES QUALIFY)
+**Portfolio:** $100,605.32 | **Cash:** $46,765.64 (46.48%) | **Day P&L (Mon 8/31 close → live):** -$323.13 (-0.320%) | **Phase P&L:** +$605.32 (+0.605%)
+
+| Ticker | Shares | Entry (wtd) | Live (09:36 ET) | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.27 | -0.80% | -$156.07 (-0.79%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.52 | +0.95% | +$55.92 (+0.37%) | $58.446 (trail 10%, hwm $64.94 auto-adv) |
+| XLK | 104 | $185.616 | $183.60 | -1.58% | -$213.78 (-1.11%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Trades today: NONE (0 buys/sells).** Wk-13 slot budget: **1/3 used** (XLE Mon 8/31 opener). Deployment $53,839.68 mv = 53.51% (below 75-85% target — held per pre-market plan rejecting all 8 fresh setups on defined tests).
+
+**Pre-market plan execution:** All 8 fresh ideas evaluated in RESEARCH-LOG Tue 9/1 08:00-11:00 UTC DID NOT QUALIFY on named tests — XLE ADD / XOP fresh fail Test 4 R:R < 2:1 at chased entries post-oil-pop ($65+); GDX re-enter fails Test 2 sector momentum (news evidence gold not moving on Iran) plus pre-committed $99 price gate ($98.34); XLF fresh fails Test 2 (-0.67% Mon); XLV / XLP fresh fail Test 2 (both red); XLK add fails Test 2 forward-momentum (NQ -1.17% Tue reversing Mon's +0.44%); XLB add fails Tests 1+2 (no fresh catalyst, -0.92% Mon); XLI re-enter fails Test 2 + 1-strike warning. Rule-compliant no-trade day.
+
+**Ratchet & thesis checks at open:**
+- **XLE (233 sh, +0.37%):** thesis EXTENDING (Trump fresh Iran warning overnight, WTI $87.87 breakout, NQ -1.17% signals rotation OUT of tech INTO energy). Server-side hwm auto-advanced $64.325 → $64.94 (stop $57.892 → $58.446). Live $64.52 vs +15% first-tighten trigger $73.98 = 14.7% cushion — no manual ratchet action. Cut-cushion 9.42% below live.
+- **XLK (104 sh, -1.11%):** live $183.60 > $180 thesis-break flag — no thesis-break decision today. Cushion to flag = -1.96% (tight); watch at midday. Cut-cushion 5.98% below live.
+- **XLB (377 sh, -0.79%):** hwm-peak +2.86%, first-tighten trigger $60.59 = 14.8% cushion. Trail $48.771 GTC intact. Cut-cushion 6.26% below live.
+
+**Cut-loser gate NO-OP:** all 3 positions clear of -7% cuts. XLK worst at -1.11% (cut trigger $172.62 = 5.98% cushion below live). XLB -0.79% (cushion 6.26%). XLE +0.37% (cushion 7.28%). No manual cuts.
+
+**Live-quote confirmation (09:36 ET):** XLE bid $64.51 / ask $64.52 tight ✓; XLK bid $183.60 / ask $183.63 tight ✓; XLB bid $52.19 / ask $52.20 tight ✓. All 3 quotable, no halt, no wide-spread flag. Data fresh (13:36 UTC = 09:36 ET).
+
+**Stops verified live (all 5 GTC covering all 3 positions):**
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh converged)
+- XLE: trail 10% $58.446 hwm $64.94 (2cae6815 233 sh) — hwm auto-advanced from $64.325 overnight/early-open
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh converged)
+
+**PDT:** daytrade_count 0/3, full PDT room preserved (moot on no-trade day). No ClickUp send (no trade fired per STEP 7).
+
+**Structural routine health:** Tue 9/1 market-open fires live — 6th consecutive live-slot fire since Aug 27 resumption cluster. Recovery holding. Pre-market ✓ / market-open ✓ (this entry) / midday pending / EOD pending.
+
+**Next checkpoints (today):**
+1. **Midday scan (~12:00 ET)** — XLK thesis-break decision if breaks below $180; XLE hwm-advance monitoring on WTI trajectory; sector-momentum leaderboard refresh for potential mid-week fresh candidate.
+2. **EOD** — Wk-13 Day 2 P&L snapshot, first read on Iran-oil sustain vs tech drawdown balance.
+3. **NFP Fri 9/4 T-3 days** — mid-week fresh-open candidate evaluation must accept T-2/T-3 event-vol sizing.
+4. **XLE +15% first-tighten trigger** = $73.98 (hwm-advance monitor, server-side auto).
+5. **Deployment 53.51% vs 75-85% target** — 22-32 pts gap; 2 Wk-13 slots preserved for mid-week qualifying setup (energy pullback for XLE-add at better R:R, or precious-metals confirm re-trigger).
