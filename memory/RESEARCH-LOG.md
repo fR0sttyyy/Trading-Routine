@@ -3873,3 +3873,106 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **XLK ADD, XLF FRESH, XLB ADD, XLI RE-ENTER, XLV/XLP FRESH:** ALL DO NOT QUALIFY on named tests (sector momentum, cap gate, or catalyst freshness). Rule-compliant no-add on 5 alternatives.
 - **HOLD XLB and XLK:** no thesis-break, no cut-line trigger, stops live GTC covering exposure.
 - **Wk-13 slot budget:** 2/3 used after fills; 1 slot preserved for mid-week catalyst (Fed speakers, oil development, bank data).
+
+
+## 2026-09-01 — Pre-market Research (Tuesday, Wk-13 Day 2, pre-open fire)
+
+### Account
+- Equity: $100,721.81 (last_equity Mon 8/31 close $100,928.45, -$206.64 = XLK/XLB mark drift Mon EOD roll)
+- Cash: $46,765.64 (46.43%)
+- Buying power: $338,139.83 | non-marginable BP $73,743.72 | SMA $93,620.72
+- Long market value: $53,956.17 (53.57% deployed) | Maint margin $16,186.85
+- Daytrade count: 0/3 (reset window well clear)
+- balance_asof: 2026-08-31 (Mon close; Tue EOD roll pending — snapshot fresh for pre-market)
+- Wk-13 slot budget: 1/3 used (XLE Mon 8/31 open)
+- Positions (3): XLB 377 @ $52.684 (-0.50%, trail 10% $48.771, hwm $54.19), XLE 233 @ $64.33 (+0.78%, trail 10% $57.8925, hwm $64.325), XLK 104 @ $185.616 (-1.12%, trail 10% $172.575, hwm $191.75)
+- Open orders: 5 GTC trailing stops covering all 3 positions (XLB & XLK dual-leg converged, XLE single-leg)
+
+### Market Context (pre-open Tue 9/1, 08:00-11:00 UTC)
+- Indices Mon 8/31 close: S&P 7686.14 (-0.33%), Nasdaq 26370.89 (-0.12%), Dow 53185.90 (-0.70%) — Dow -380 pts driven by rate-hike + Iran risk
+- Futures Tue pre: **ES -0.62%, NQ -1.17%** (real risk-off tape, tech leading down)
+- VIX: **15.86 (+9.91% Mon!)** — meaningful vol pop, 2nd consecutive day of expansion off ~14 floor
+- **WTI $87.87 (+2.46%) / Brent $92.31 (+2.01%)** — oil rally extending Mon into Tue premarket on Trump fresh Iran warning (Channels TV, ts2.tech Tue 08:02-12:16 UTC)
+- Gold: $4,451/oz (Warsh-lifted Sep hike odds 58%) — up modestly but "did NOT significantly rise as safe haven during Iran-related tensions" per Trading News direct quote
+- **Today's dominant catalysts:**
+  - **Trump fresh Iran warning overnight** (Tue 08:02 UTC) — oil extends past Mon's Hormuz-return pop; supply-disruption thesis intensifying, not resolving
+  - **Nasdaq Futures -1% on oil surge** (ts2.tech Tue 10:12 UTC) — direct sector rotation OUT of tech INTO energy signaled
+  - **NFP Fri 9/4 T-3 days** — 1st-tier macro sizing input this week; deployment-add candidates must accept event-vol
+  - **Rate-hike odds 58% for Sep 17 FOMC** — Dow -380 pts Mon = pricing in more restrictive tilt; equity broad weakness continues
+- Earnings before open: NONE material (UNFI is 9/8 not today; Heidmar Maritime Q2 = micro-cap immaterial)
+- Economic calendar Tue 9/1: NO tier-1 macro today. Fwd: NFP Fri 9/4 08:30 ET, Jobless Claims 9/8 15:00 ET, CPI + PPI 9/11 08:30 ET, FOMC 9/17 08:30 ET.
+- Sector momentum Mon 8/31 close: **XLE +2.04%** | XLK +0.44% | XLV -0.36% | XLP -0.55% | XLF -0.67% | XLB -0.92% | XLI -1.13% — only XLE meaningfully green; XLK modest green, all others red. Tue premarket implies XLE extends, XLK reverses on NQ -1.17%.
+
+### Trade Ideas — Qualification Table
+
+**Idea 1: XLE ADD ~$5K to top up existing position toward 20% cap.**
+- Catalyst: fresh Trump Iran warning overnight, WTI $88 breakout, oil-crisis regime extending ✓
+- Sector momentum: XLE +2.04% Mon, energy #1 sector, sector rotation OUT of tech INTO energy signaled Tue premarket ✓
+- Stop 10%: definable — entry ~$65 (Tue premarket +2% off $63.96 close), stop $58.50 ✓
+- R:R: entry ~$65, stop $58.50 (-$6.50), target $76 (+$11, prior thesis unchanged) = **1.69:1 — FAILS Test 4 (< 2:1)**
+- Buy-Side Gate: existing $14,988 cost basis / equity = 14.88%; +$5K = 19.85% ✓ under 20% cap
+- **DOES NOT QUALIFY** on Test 4 — R:R shrinks below 2:1 at post-gap chase entry. Original XLE entry Mon @ $64.33 with $76 target was 1.97:1 (barely passing); adding at $65+ pushes R:R below threshold.
+- Correct action: let existing 233 sh XLE ratchet auto-advance with the oil-crisis thesis rather than chase at premium.
+
+**Idea 2: XOP FRESH ~$10K (broader oil E&P play, direct oil beta).**
+- Catalyst: same Trump/Hormuz oil surge ✓
+- Sector momentum: energy leading ✓
+- Stop 10%: definable ~$170 from $188 entry ✓
+- R:R: entry ~$190 premarket (illiquid quote $181.99/$193.97), target $210 (+10%), stop $171 (-10%) = **1:1 — FAILS Test 4**
+- Also: energy sector concentration risk — book already 15% XLE; adding 10% XOP = 25% single-sector concentration (materially exceeds prudent per-sector exposure even if under per-position cap)
+- **DOES NOT QUALIFY** on Test 4 + sector-concentration prudence
+
+**Idea 3: GDX RE-ENTER ~$10K (safe-haven / miners catch-up thesis).**
+- Catalyst: Iran escalation + Warsh 58% Sep hike odds ✓ (nominal)
+- BUT news source explicitly flags "gold did not significantly rise as safe haven during Iran-related tensions" (Trading News Mon 8/31 16:00 UTC) — the risk-off flow this cycle is NOT going to gold, likely because Warsh-hawkish real-yield uncertainty caps gold upside
+- Sector momentum: precious metals mixed; gold stuck near $4,270-4,451; NOT a leading sector on tape Mon
+- GDX Mon EOD bid $98.34 — **BELOW $99 pre-committed re-trigger** documented in Mon 8/31 pre-market log
+- **DOES NOT QUALIFY** on Test 2 (sector momentum thin/failing per direct news evidence) + fails pre-committed price-tape gate ($99)
+
+**Idea 4: XLF FRESH on Warsh hawkish (banks NIM).**
+- Catalyst: 58% Sep hike odds ✓ marginal
+- Sector momentum: XLF -0.67% Mon = broken. **DOES NOT QUALIFY** on Test 2.
+
+**Idea 5: XLV / XLP defensive rotation.**
+- Both red Mon (XLV -0.36%, XLP -0.55%). No sector momentum lead. **DOES NOT QUALIFY** on Test 2 for both.
+
+**Idea 6: XLK ADD (existing -1.12% loser, dip-buy).**
+- Sector momentum: XLK Mon +0.44% but NQ futures Tue -1.17% signals reversal. Sector rotation OUT of tech in progress. **DOES NOT QUALIFY** on Test 2 (forward momentum failing).
+
+**Idea 7: XLB ADD (existing -0.50% winner-turned-flat).**
+- Materials -0.92% Mon. No catalyst fresh. **DOES NOT QUALIFY** on Test 1 + Test 2.
+
+**Idea 8: XLI RE-ENTER.**
+- XLI -1.13% Mon = worst sector; still 1-strike warning. **DOES NOT QUALIFY** on Test 2.
+
+### Management Priorities for Market-Open Routine (Tue 09:30 ET)
+
+- **XLE (233 sh, +0.78%):** thesis EXTENDING (Trump warning, WTI $88 breakout). Trail 10% $57.8925 GTC intact, hwm $64.325 will auto-advance intraday as XLE prints new highs. NO manual action unless hwm breaks +15% first-tighten trigger $73.98 (currently 15.7% away). Cut-cushion 10.7% below live ~$64.83.
+- **XLB (377 sh, -0.50%):** no ratchet action needed (hwm-peak +2.86%, first-tighten trigger $60.59 = 14.8% cushion). Trail 10% $48.771 GTC intact. Cut-cushion 7.5% below live $52.42.
+- **XLK (104 sh, -1.12%):** WATCH — NQ futures -1.17% Tue premarket suggests tech drawdown day. Trail 10% $172.575 GTC intact. Cut-cushion 6.3% below live $183.54 (moderate cushion). If XLK breaks below $180 intraday, review at midday for thesis-break flag (NVDA-driven momentum fading confirms). NOT at cut yet, no manual action pre-open.
+- **NO NEW ENTRIES:** all 8 fresh ideas DO NOT QUALIFY on specific named tests (R:R Test 4 on XLE-add/XOP; sector-momentum Test 2 on GDX/XLF/XLK-add/XLB-add/XLI/XLV/XLP; pre-committed price gate on GDX $99). Wk-13 slot 2/3 preserved for mid-week catalyst if setup emerges.
+- **PDT check:** 0/3 daytrades used; no new entries planned, no risk to intraday limit.
+
+### Risk Factors (Tue 9/1)
+- **NQ -1.17% futures = tech drawdown day setting up.** XLK -1.12% unrealized already; if today's tape sustains -1% NQ, XLK could print -3% intraday = book -$580 impact on position. Trail 10% $172.575 gives 6.3% cushion at live — meaningful buffer but a real drawdown day scenario.
+- **Iran/Trump escalation open-ended.** Oil could pop another $5-10 on further headlines (positive for XLE) but also could retrace as fast if Trump/Iran de-escalates via posturing-only (whipsaw risk on XLE +0.78% cushion — trail 10% + hwm $64.325 protects but new-high hwm-advance is the goal).
+- **Warsh 58% Sep hike odds.** 2nd meaningful macro overhang after Iran. Every economic print between now and 9/17 FOMC = potential -1 to -2% tape day. NFP Fri 9/4 is next test (T-3 days).
+- **VIX 15.86 (+9.91%) = pricing regime shift.** 2 consecutive days of vol expansion off ~14 floor. Meaningful signal that consolidation from Aug is over; September could be the trend-change month.
+- **Deployment 53.57% vs 75-85% target.** 21-31 pts below target. 2 Wk-13 slots preserved. Rule-compliant NO-CHASE stance requires patience for a mid-week qualifying setup (energy pullback for XLE-add at better R:R, or precious-metals confirm re-trigger).
+- **Structural routine health:** Mon 8/31 slots fired 4/4 (pre-market ✓, market-open ✓, midday ✓, EOD ✓). Tue 9/1 pre-market = 6th consecutive live-slot fire since Aug 27 resumption. Recovery holding.
+
+### Decision — MANAGE-ONLY DAY, NO NEW ENTRIES QUALIFY, XLE RATCHET WATCH LIVE
+
+- **All 8 fresh ideas DO NOT QUALIFY** on specific named tests:
+  - XLE-add / XOP fresh: **Test 4 R:R < 2:1** at chased/extended entries post-oil-pop
+  - GDX re-enter: **Test 2 sector momentum failing** (news evidence gold not moving on Iran) + fails pre-committed $99 price gate
+  - XLF fresh: **Test 2 sector momentum** (-0.67% Mon)
+  - XLV / XLP fresh: **Test 2 sector momentum** (both red)
+  - XLK add: **Test 2 forward momentum** (NQ -1.17% Tue reversing Mon's +0.44%)
+  - XLB add: **Test 1 + Test 2** (no fresh catalyst, -0.92% Mon)
+  - XLI re-enter: **Test 2 + 1-strike warning**
+  - All named-test failures = rule-compliant no-trade. NOT "patience," NOT "protect cash."
+- **HOLD XLB, XLE, XLK:** no thesis-break, no cut-line trigger. XLE thesis actively extending — server-side hwm auto-advances on oil-driven rally.
+- **XLE ratchet watch live:** if XLE hwm breaks $73.98 intraday (+15% from entry $64.33), MARKET-OPEN or MIDDAY routine executes first-tighten (cancel 10% trail id 2cae6815, place 7% trail from fresh hwm). Currently 15.7% cushion — not near this week.
+- **XLK watch live:** if XLK breaks below $180 intraday (thesis-break signal on tech rotation), MIDDAY routine reassesses full thesis-break decision. Currently -1.12% unrealized, live $183.54, cushion to $180 = -1.9%.
+- **Wk-13 slot budget:** 1/3 used, 2 preserved. Target 1 mid-week setup to close deployment gap (energy pullback for XLE-add at better R:R, precious-metals confirm re-trigger, or fresh sector rotation off Fed-hike positioning).
