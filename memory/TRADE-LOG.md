@@ -1257,3 +1257,36 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **NFP Fri 9/4 T-3 days** — mid-week fresh-open candidate evaluation must accept T-2/T-3 event-vol sizing.
 4. **XLE +15% first-tighten trigger** = $73.98 (hwm-advance monitor, server-side auto).
 5. **Deployment 53.51% vs 75-85% target** — 22-32 pts gap; 2 Wk-13 slots preserved for mid-week qualifying setup (energy pullback for XLE-add at better R:R, or precious-metals confirm re-trigger).
+
+### Sep 1 — Midday Scan (Tuesday, 12:03 ET — Wk-13 Day 2 / NO-OP / all envelopes intact)
+**Portfolio:** $100,620.75 | **Cash:** $46,765.64 (46.48%) | **Day P&L (Mon close → live):** -$308.05 (-0.305%) | **Phase P&L:** +$620.75 (+0.621%)
+
+| Ticker | Shares | Entry (wtd) | Live (12:03 ET) | Day Chg | Unrealized P&L | Cut ($) / Cushion | Tighten +15% ($) / Cushion | Stop |
+| - | - | - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.25 | -0.84% | -$163.61 (-0.82%) | $48.996 / 6.23% | $60.59 / 15.96% | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.21 | +0.39% | -$27.96 (-0.19%) | $59.827 / 6.83% | $73.98 / 15.19% | $58.446 (trail 10%, hwm $64.94) |
+| XLK | 104 | $185.616 | $184.56 | -1.04% | -$109.78 (-0.57%) | $172.62 / 6.47% | $213.46 / 15.66% | $172.575 (trail 10%, hwm $191.75) |
+
+**STEP 3 (cut losers) NO-OP:** worst position XLK at -0.57%, all 3 well inside -7% envelope. No cancel-then-close.
+
+**STEP 4 (tighten trailing stops) NO-OP:** XLE closest to first-tighten trigger, still 15.19% cushion to $73.98. No cancel-then-replace.
+
+**STEP 5 (thesis-break check) NO-OP:** XLK live $184.56 > $180 thesis-break flag (cushion +2.53%) — flag NOT tripped. XLE thesis (Iran/oil) still active per WTI hold, hwm auto-advanced overnight $64.325 → $64.94. XLB thesis holding (materials rotation, no fresh break). No manual cuts.
+
+**Live-quote confirmation (12:03 ET):** XLE bid $64.21 / ask $64.22 tight ✓; XLK bid $184.56 / ask $184.57 tight ✓; XLB bid $52.25 / ask $52.26 tight ✓. All quotable, none halted, spreads normal. Data fresh (16:03 UTC = 12:03 ET).
+
+**Stops verified live (all 5 GTC intact):** XLB $48.771 hwm $54.19 (164fe1fa + 9f98f565); XLE $58.446 hwm $64.94 (2cae6815); XLK $172.575 hwm $191.75 (5451fa24 + f2c0dace). No cancels this scan.
+
+**Trades: 0** (Wk-13 count unchanged 1/3). **Deployment:** 53.52% (no change). **Cash:** $46,765.64. **PDT:** 0/3.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE) + 1 materials (XLB) + 1 tech (XLK). No fresh setup emerged in the 09:36 → 12:03 window per pre-market plan (all 8 ideas fail specific tests).
+
+**STEP 6 research NO-OP:** no position moving sharply without cause — biggest mover XLK -1.04% is in line with NQ tech-drawdown thesis already documented. No news lookup fired.
+
+**STEP 7 ClickUp send SKIPPED:** no action taken this scan.
+
+**Next checkpoints:**
+1. **EOD (15:50 ET)** — Wk-13 Day 2 snapshot; check for XLK sustain below $180 (thesis-break re-evaluation).
+2. **XLE +15% first-tighten** at hwm $73.98 (server-side auto-ratchet monitor).
+3. **XLK cut line** $172.62 (6.47% cushion live) — monitor if NQ afternoon deteriorates.
+4. **Wk-13 slot budget:** 1/3 used, 2 preserved for mid-week qualifying setup.
