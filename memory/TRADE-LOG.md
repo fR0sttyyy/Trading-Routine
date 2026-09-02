@@ -1360,3 +1360,36 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **XLK cut line** $172.62 (5.97% cushion live) — monitor if NQ afternoon deteriorates.
 4. **AVGO earnings after Wed close** — XLK Thu AM binary catalyst; pre-market Thu re-evaluates XLK thesis-break decision post-print.
 5. **Wk-13 slot budget:** 1/3 used, 2 preserved for Thu/Fri qualifying setup or NFP-day event-vol trade at half-size.
+
+### Sep 2 — EOD Snapshot (Day 60, Wednesday — Wk-13 Day 3 / no-trade)
+**Portfolio:** $101,033.46 | **Cash:** $46,765.64 (46.29%) | **Day P&L:** +$460.47 (+0.458%) | **Phase P&L:** +$1,033.46 (+1.033%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $53.05 | +1.88% | +$137.99 (+0.69%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $65.165 | +0.61% | +$194.56 (+1.30%) | $58.8105 (trail 10%, hwm $65.345 auto-adv) |
+| XLK | 104 | $185.616 | $183.51 | -0.07% | -$218.98 (-1.13%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Wk-13 Day 3 closes green on materials/energy rebound, tech flat holding above $180 flag. Day P&L span Sep 1 → Sep 2 = single consecutive trading-day, "Day P&L" label valid. Baseline $100,572.99 from Tue 9/1 EOD snapshot. Today's +0.458% driven by XLB +1.88% (materials rebound after Tue -1.18%), XLE +0.61% (Iran/oil thesis extending, WTI hold, hwm auto-advanced $65.06 → $65.345), XLK -0.07% flat (close $183.51 still above $180 thesis-break flag, cushion +1.95%). Deployment 53.71% (mv $54,267.82), essentially unchanged vs Tue 53.50%; 2 Wk-13 slots preserved. Cash $46,765.64.
+
+**Trades today (Wed 9/2):** NONE. All 9 pre-market fresh setups rejected on specific tests per RESEARCH-LOG. Midday scan (12:03 ET) confirmed no-op — no fresh setup emerged in AM window. Rule-compliant no-trade day. **Wk-13 count: 1/3 used.**
+
+**Alpaca fields verification:** equity $101,033.46 = last_equity $100,586 + $447.46 (Alpaca's last_equity $100,586 vs local baseline $100,572.99 = +$13.01 minor delta reflects after-hours re-mark of Tue snapshot; using local snapshot for Day P&L consistency = +$460.47). long_market_value $54,267.82 matches sum(mv): XLB $19,999.85 + XLE $15,183.45 + XLK $19,085.04 = $54,268.34 (small $0.52 rounding delta, non-material). Cash $46,765.64 unchanged (0 trades). buying_power $339,012.44, sma $100,928.45. `change_today`: XLB +0.01882, XLE +0.0061, XLK -0.00071.
+
+**Cut-loser gate NO-OP:** all 3 positions inside -7% envelope. Worst XLK at -1.13% (cut trigger $172.62, cushion 5.94%). XLB +0.69% (cut $48.996, cushion 8.24%). XLE +1.30% (cut $59.827, cushion 8.93%). No manual cuts.
+
+**Tighten-trail check NO-OP:** all 3 positions below first-tighten trigger. XLE closest at hwm $65.345 vs $73.98 first-tighten (13.21% cushion). XLB hwm $54.19 vs $60.59 (13.4%). XLK hwm $191.75 vs $213.46 (11.3%). Stops server-side; XLE auto-advanced during session ($64.94 → $65.345 hwm, stop $58.446 → $58.8105).
+
+**Thesis-break check NO-OP:** XLK close $183.51 > $180 thesis-break flag (cushion +1.95%, TIGHT — AVGO earnings after close = Thu binary catalyst). XLE thesis extending (WTI/Iran, hwm auto-advancing). XLB thesis reversing green (+1.88% today, materials rebound). No manual cuts.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, extending +0.61%) + 1 materials (XLB, rebounding +1.88%) + 1 tech (XLK, flat, near $180 flag). Precious metals slot deferred (GDX 2 trigger failures). Industrials excluded (XLI 1-strike). Wk-13 slot budget: 1/3 used, 2 preserved for Thu/Fri qualifying setup or NFP-day event-vol trade at half-size.
+
+**Structural routine health:** Wed 9/2 slots fired — pre-market ✓, market-open ✓ (09:36 ET), midday ✓ (12:03 ET), EOD ✓ (this entry). Recovery holding, 7th consecutive full-slate trading day since Aug 27 resumption.
+
+**Tomorrow (Thu 9/3 — Wk-13 Day 4):**
+1. **Pre-market re-scan** — AVGO print reaction key for XLK thesis-break re-eval; if AVGO gaps down and XLK opens < $180, cushion negative, thesis-break cut activates. If AVGO beats and XLK gaps up, thesis extends.
+2. **Fresh-candidate scan** — 2 Wk-13 slots preserved; target 1 mid-week open to bring deployment 53.71 → 70%+ (semis/SMH on AVGO strength, XLF, XOP if pullback, GDX on re-trigger).
+3. **Existing book management** — XLB/XLE/XLK trailing stops server-side, no manual actions unless -7% cut or +15% first-tighten hit. XLK $180 flag remains tight watch.
+4. **Sector 2-fails tracking** — industrials still excluded (1-strike). All others clear.
+5. **NFP Fri 9/4 T-2 days** — any Thu open must accept half-size event-vol sizing; Fri NFP itself = no new opens unless truly qualifying.
+6. **FOMC 9/16 T-14 days** — XLE half-size sizing already accounts for event-vol; no defensive rebalance yet.
