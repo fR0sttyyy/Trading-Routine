@@ -1432,3 +1432,33 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **XLB +15% first-tighten** at hwm $60.59 (14.94% cushion, closest of the three).
 4. **NFP Fri 9/4 T-1 day** — no new opens Fri unless truly qualifying setup post-print; Thu remainder = half-size only if qualifying.
 5. **Wk-13 slot budget:** 1/3 used, 2 preserved for Fri post-NFP qualifying setup or Mon 9/8 post-OPEC quota-hold confirm.
+
+### Sep 3 — EOD Snapshot (Day 61, Thursday — Wk-13 Day 4 / no-trade / XLK thesis-break watch CLEARED)
+**Portfolio:** $101,061.15 | **Cash:** $46,765.64 (46.27%) | **Day P&L:** +$27.69 (+0.027%) | **Phase P&L:** +$1,061.15 (+1.061%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.675 | -0.52% | -$3.39 (-0.02%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.835 | -0.41% | +$117.67 (+0.79%) | $58.968 (trail 10%, hwm $65.52) |
+| XLK | 104 | $185.616 | $185.87 | +1.24% | +$26.46 (+0.14%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Wk-13 Day 4 (Thu 9/3) closes barely green — XLK's post-AVGO +1.24% relief rally offsets modest XLB/XLE fades (-0.52% / -0.41%). Day P&L span Sep 2 → Sep 3 = single consecutive trading-day, "Day P&L" label valid. Baseline $101,033.46 from Wed 9/2 EOD snapshot. Today's +$27.69 net of position moves: XLK +$236.08 (post-AVGO thesis extension, cushion widened to $180 flag at +$5.87 / +3.26%), XLB -$103.68 (chop, no fresh catalyst), XLE -$61.75 (mild pullback from Wed high). Alpaca last_equity $100,990.49 vs local baseline $101,033.46 = -$42.97 delta (after-hours re-mark of Wed snapshot); using local snapshot for Day P&L consistency (+$27.69). Alpaca-native span last_equity → equity = +$70.66 matches sum(position moves) exactly. Deployment 53.73% (mv $54,295.51), unchanged vs Wed 53.71%; 2 Wk-13 slots preserved. Cash $46,765.64.
+
+**Trades today (Thu 9/3):** NONE. Pre-market rejected all fresh setups on specific tests per RESEARCH-LOG. Midday scan (12:03 ET) confirmed no-op — no fresh setup emerged. Rule-compliant no-trade day. **Wk-13 count: 1/3 used.**
+
+**XLK thesis-break watch CLEARED intraday and held into close:** feared AVGO gap-down did not materialize. XLK close $185.87 = +$5.87 cushion (+3.26%) above $180 flag, widest since Fri 8/28. Watch downgraded from tight to routine. Thesis intact; HOLD 104 sh.
+
+**Cut-loser gate NO-OP:** all 3 positions inside -7% envelope. Worst XLB -0.02% (cut $48.996, cushion 7.32%). XLE +0.79%, XLK +0.14%. No manual cuts.
+
+**Tighten-trail check NO-OP:** all 3 positions below first-tighten trigger. XLE closest at hwm $65.52 vs $73.98 first-tighten (12.91% cushion). XLB hwm $54.19 vs $60.59 (13.4%). XLK hwm $191.75 vs $213.46 (11.3%). Stops server-side; XLE hwm auto-advanced intraday to $65.52 (stop $58.968).
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, mild pullback -0.41%) + 1 materials (XLB, chop -0.52%) + 1 tech (XLK, recovering +1.24% post-AVGO). Precious metals slot deferred (GDX 2 trigger failures). Industrials excluded (XLI 1-strike). Wk-13 slot budget: 1/3 used, 2 preserved for Fri post-NFP qualifying setup or Mon 9/8 post-OPEC quota-hold confirm.
+
+**Structural routine health:** Thu 9/3 slots fired — pre-market ✓, market-open ✓, midday ✓ (12:03 ET), EOD ✓ (this entry). Recovery holding, 8th consecutive full-slate trading day since Aug 27 resumption.
+
+**Tomorrow (Fri 9/4 — Wk-13 Day 5 / NFP day):**
+1. **Pre-market re-scan** — NFP print at 08:30 ET is macro event; per Decision Rule, event = SIZING input (half-size), not blocker.
+2. **Fresh-candidate scan** — 2 Wk-13 slots preserved. Post-NFP window may reveal energy/rate-sensitive setups.
+3. **Existing book management** — XLB/XLE/XLK trailing stops server-side, no manual actions unless -7% cut or +15% first-tighten hit. XLK $180 flag watch downgraded to routine (cushion +3.26%).
+4. **Sector 2-fails tracking** — industrials still excluded (1-strike). All others clear.
+5. **Weekly review** — Friday afternoon = /weekly-review workflow; log Wk-13 outcome (currently 1 open trade, +1.06% phase, flat vs SPY TBD).
