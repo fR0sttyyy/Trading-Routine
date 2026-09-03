@@ -1393,3 +1393,42 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 4. **Sector 2-fails tracking** — industrials still excluded (1-strike). All others clear.
 5. **NFP Fri 9/4 T-2 days** — any Thu open must accept half-size event-vol sizing; Fri NFP itself = no new opens unless truly qualifying.
 6. **FOMC 9/16 T-14 days** — XLE half-size sizing already accounts for event-vol; no defensive rebalance yet.
+
+### Sep 3 — Midday Scan (Thursday, 12:03 ET — Wk-13 Day 4 / NO-OP / XLK thesis-break watch CLEARED)
+**Portfolio:** $101,136.98 | **Cash:** $46,765.64 (46.24%) | **Day P&L (Wed close → live):** +$103.52 (+0.103%) | **Phase P&L:** +$1,136.98 (+1.137%)
+
+| Ticker | Shares | Entry (wtd) | Live (12:03 ET) | Day Chg | Unrealized P&L | Cut ($) / Cushion | Tighten +15% ($) / Cushion | Stop |
+| - | - | - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.74 | -0.40% | +$21.12 (+0.11%) | $48.996 / 7.09% | $60.59 / 14.94% | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $65.145 | +0.07% | +$189.90 (+1.27%) | $59.827 / 8.16% | $73.98 / 13.57% | $58.968 (trail 10%, hwm $65.52 auto-adv) |
+| XLK | 104 | $185.616 | $185.79 | +1.19% | +$18.14 (+0.09%) | $172.62 / 7.09% | $213.46 / 14.90% | $172.575 (trail 10%, hwm $191.75) |
+
+**XLK THESIS-BREAK WATCH CLEARED:** XLK opened $185.79 (+1.19% vs Wed close $183.51), NOT the feared AVGO gap-down. Live $185.79 vs $180 thesis-break flag = +$5.79 cushion (+3.22%), widest since Fri 8/28. AVGO post-earnings reaction absorbed by semis complex without dragging XLK sub-$180. Thesis intact; HOLD 104 sh; trailing stop $172.575 GTC covers full 104 sh.
+
+**STEP 3 (cut losers) NO-OP:** all 3 positions positive. Worst XLB at +0.11% (cushion 7.09% to cut $48.996). XLE +1.27%, XLK +0.09%. Zero cuts.
+
+**STEP 4 (tighten trailing stops) NO-OP:** XLB closest to first-tighten at 14.94% cushion to $60.59. XLK 14.90% cushion to $213.46. XLE 13.57% cushion to $73.98. XLE hwm auto-advanced $65.345 → $65.52 (stop $58.8105 → $58.968) intraday. No manual cancel-then-replace.
+
+**STEP 5 (thesis-break check) NO-OP:** XLK live $185.79 well above $180 flag (+3.22% cushion, widened from Wed's +1.95%). XLE thesis extending (WTI hold, hwm auto-advancing). XLB thesis holding (materials, no fresh catalyst either direction). No manual cuts.
+
+**Live-quote confirmation (12:03 ET):** XLB bid $52.73 / ask $52.74 tight ✓; XLE bid $65.13 / ask $65.14 tight ✓; XLK bid $185.71 / ask $185.73 tight ✓. All quotable, none halted, spreads normal. Data fresh (16:03 UTC = 12:03 ET).
+
+**Stops verified live (all 5 GTC intact, mapped to positions):**
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh converged)
+- XLE: trail 10% $58.968 hwm $65.52 (2cae6815 233 sh) — server auto-advanced from $58.8105/$65.345
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh converged)
+
+**Trades: 0** (Wk-13 count unchanged 1/3). **Deployment:** 53.76% (mv $54,371.34). **PDT:** 0/3.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, extending +0.07%) + 1 materials (XLB, chop -0.40%) + 1 tech (XLK, recovering +1.19% post-AVGO). No fresh setup emerged in AM window per pre-market plan (all 9 ideas failed specific tests).
+
+**STEP 6 research NO-OP:** no position moving sharply without cause — biggest mover XLK +1.19% is post-AVGO relief, matches pre-market prediction that beat-and-guide-miss would not drag XLK sub-$180.
+
+**STEP 7 ClickUp send SKIPPED:** no action taken this scan.
+
+**Next checkpoints:**
+1. **EOD (15:50 ET)** — Wk-13 Day 4 snapshot; XLK close vs $180 flag (cushion widened to +3.22%, watch downgraded from tight to routine).
+2. **XLE +15% first-tighten** at hwm $73.98 (server-side auto-ratchet monitor).
+3. **XLB +15% first-tighten** at hwm $60.59 (14.94% cushion, closest of the three).
+4. **NFP Fri 9/4 T-1 day** — no new opens Fri unless truly qualifying setup post-print; Thu remainder = half-size only if qualifying.
+5. **Wk-13 slot budget:** 1/3 used, 2 preserved for Fri post-NFP qualifying setup or Mon 9/8 post-OPEC quota-hold confirm.
