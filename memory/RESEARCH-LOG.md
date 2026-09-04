@@ -4225,3 +4225,136 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **XLB ratchet watch live:** if XLB hwm breaks $60.59 intraday (+15% from entry $52.684), first-tighten to 7% trail from fresh hwm. Currently $54.19 hwm = 11.82% cushion, not near.
 - **GDX conditional re-open trigger:** if GDX opens > $99.00 Thu AM AND R:R passes 2:1, MARKET-OPEN routine re-evaluates for half-size fill (NFP T-1 event-vol sizing).
 - **Wk-13 slot budget:** 1/3 used, 2 preserved. Target 1 mid-week setup Fri post-NFP if soft print re-opens re-rally window, or Mon 9/8 post-OPEC on quota-hold confirm.
+
+
+## 2026-09-04 — Pre-market Research (Friday, Wk-13 Day 5, NFP day, pre-open fire)
+
+### Account
+- Equity: $100,857.71 (last_equity Thu 9/3 close $101,000.72, -$143.01 after-hours mark drift = -0.14%)
+- Cash: $46,765.64 (46.37%)
+- Buying power: $338,520.36 | non-marginable BP $73,811.67 | SMA $100,990.49
+- Long market value: $54,092.07 (53.63% deployed) | Maint margin $16,227.62
+- Daytrade count: 0/3 (no round-trips this week)
+- balance_asof: 2026-09-03 (Thu close; Fri pre-market read valid)
+- Wk-13 slot budget: 1/3 used (XLE Mon 8/31 open)
+- Positions (3): XLB 377 @ $52.684 (-0.56%, trail 10% $48.771, hwm $54.19), XLE 233 @ $64.33 (-0.14%, trail 10% $58.968, hwm $65.52 server-advanced), XLK 104 @ $185.616 (+0.36%, trail 10% $172.575, hwm $191.75)
+- Open orders: 5 GTC trailing stops covering all 3 positions (XLB & XLK dual-leg converged, XLE single-leg)
+
+### Market Context (pre-open Fri 9/4, NFP day, ~08:00-13:00 UTC)
+- Indices Thu 9/3 close: **S&P 7747.71 (+1.06%), Nasdaq 26584.06 (+1.40%), Dow 53686.11 (+1.18%)** — strong broad risk-on session; Wall St extends Wed rebound
+- Futures Fri pre: **ES 7755 (+0%, flat), NQ 29666.25 (+0.48%)** — slightly firm ahead of 08:30 ET NFP
+- VIX: **14.25 (-0.49%)** — sub-15 regime holds despite NFP-day; event-vol muted
+- **WTI $90.29 (-1.11%), Brent $94.69 (-0.87%)** — oil softens pre-NFP + pre-OPEC weekend; sub-$91 WTI = first time this week
+- **NFP consensus:** +65k jobs, unemp 4.2% (ABC/Reuters/CNBC). Fed hike odds coin-flip; miss → dovish re-rally, beat → hawkish/hikes seal Sep 9/17. BofA notes "jobs report is appetizer for next Fed meeting."
+- **OPEC+ Sunday 9/6 meeting** — consensus quota-hold; surprise = XLE tape-mover Mon 9/8 open.
+- Gold: no fresh confirmed Fri quote; GDX assumed still < $99 pre-committed re-trigger.
+- Campbell's (CPB) Q4 FY26 pre-open: **cut dividend 36% to $0.25/sh** (first cut since 2001), snack-aisle weakness. XLP -0.32% Thu already pricing in staples softness; no read-through to held book.
+- **Today's dominant catalysts:**
+  - **NFP 08:30 ET = macro event, event = SIZING input (HALF-SIZE), not blocker** (strategy rule).
+  - **Rotation Thu = financials + tech + industrials up; energy + materials down.** XLF +1.56% (leader), XLK +1.29%, XLI +1.03%, XLV +0.18%, XLP -0.32%, XLE -0.74%, XLB -0.62%. Clear risk-on tape.
+  - **XLK thesis-break watch CLEARED** — post-AVGO absorbed at Thu close $185.87 (+3.26% cushion above $180 flag); watch downgraded to routine.
+  - **XLE weakening pre-OPEC weekend** — WTI -1.11% Thu → -0.74% XLE Thu close. Iran/US tension narrative fading vs. pre-NFP positioning.
+  - **G20 finance ministers meetings (NC) headline risk** — coordinated FX / tariff signal = tape-mover.
+- Earnings before open Fri: CPB (Campbell's, staples), no held-book relevance.
+- Economic calendar Fri 9/4: **08:30 ET NFP** (primary). Fwd: OPEC+ Sun 9/6, CPI 9/11 08:30 ET, FOMC 9/17.
+- **Sector momentum Thu 9/3 close: XLF +1.56% (leader) | XLK +1.29% | XLI +1.03% | XLV +0.18% | XLP -0.32% | XLB -0.62% | XLE -0.74%.** Financials + growth (tech) + industrials leading; defensives mixed; energy + materials pulling back on soft oil + pre-NFP de-risking.
+
+### Trade Ideas — Qualification Table
+
+**Idea 1: XLF FRESH ~$5K half-size (Fed-hike NIM + Thu #1 sector leader).**
+- Catalyst: XLF +1.56% Thu = confirmed #1 sector leader ✓; 3-day trend Tue -0.88% → Wed +0.80% → Thu +1.56% = base + rally ✓
+- Sector momentum: XLF #1 sector Thu ✓
+- Stop 10%: definable — entry ~$58.56, stop $52.70 ✓
+- R:R: entry $58.56, stop $52.70 (-$5.86), realistic 4-6wk target on Fed-hike theme = $67 (+14.4%) → 1.46:1 → **FAILS Test 4**. Stretch target $70 (+19.5%) = 1.95:1 still shy; $71 (+21%) = 2.13:1 but +21% in 4-6wk on broad-financial ETF = unrealistic.
+- **DOES NOT QUALIFY** on Test 4 — structural low-beta ETF R:R mismatch with 10% mandatory trail.
+
+**Idea 2: XLK ADD ~$5K half-size (post-AVGO recovery + Thu +1.29%).**
+- Catalyst: AVGO absorbed, thesis-break watch cleared, XLK +1.29% Thu ✓
+- Sector momentum: XLK #2 Thu ✓
+- Stop 10%: definable — entry ~$186.28, stop $167.65 ✓
+- **Buy-Side Gate FAILS: existing XLK position 19.21% of equity ($19,373/$100,858). ADD $5K → 24.17% > 20% cap.**
+- **DOES NOT QUALIFY** on Buy-Side Gate (20% per-position cap breach).
+
+**Idea 3: XLI FRESH ~$5K half-size (Thu +1.03% breakout).**
+- Catalyst: XLI +1.03% Thu, cyclical rotation participation ✓
+- Sector momentum: XLI #3 Thu (not leader) ~✓; 1-strike warning still active from prior XLI cut
+- Stop 10%: definable — entry ~$174.56, stop $157.10 ✓
+- R:R: entry $174.56, stop $157.10 (-$17.46), realistic 4-6wk target $195 (+11.7%) → 1.17:1; stretch $205 (+17.4%) → 1.74:1 → **FAILS Test 4**
+- **DOES NOT QUALIFY** on Test 4 (structural low-beta ETF R:R) + 1-strike sector warning.
+
+**Idea 4: XLB ADD (existing -0.56% mild-loser, position at 19.58% cap).**
+- Catalyst: NONE Fri; XLB -0.62% Thu = weakness continuation, no fresh bull catalyst
+- Sector momentum: XLB #6/7 Thu (weakest sector) ✗
+- **Buy-Side Gate FAILS: XLB 19.58% of equity, ADD breaches 20% cap.**
+- **DOES NOT QUALIFY** on Test 2 (broken momentum) + Buy-Side Gate (20% cap).
+
+**Idea 5: XLE ADD (energy pre-OPEC).**
+- Catalyst: OPEC+ Sun 9/6 consensus quota-hold ✓ (soft; priced in)
+- Sector momentum: XLE #7 Thu (last sector, -0.74%) ✗
+- **DOES NOT QUALIFY** on Test 2 (broken sector momentum Thu); let existing 233 sh ratchet server-side.
+
+**Idea 6: SMH FRESH ~$5K half-size (post-AVGO relief semis).**
+- Catalyst: XLK +1.29% Thu + AVGO absorbed ✓
+- Sector momentum: XLK #2 Thu ✓; semis complex specifically = SOXX news reports weakness ("SOXX -2.60%") ✗
+- Stop 10%: definable ✓
+- R:R: SMH higher beta than XLK, target 2:1 plausible (e.g. entry $298, stop $268.20 -$29.80, target $358 +20% = 2:1)
+- **BUT: NFP-day event-vol peak + weekend OPEC + AVGO -3% Wed AH residual pressure = timing chase-risk on binary event day**
+- **DOES NOT QUALIFY** on Test 1 (mixed catalyst — XLK positive but semis-specific SOXX report negative) + NFP event-vol context.
+
+**Idea 7: GDX RE-ENTER (rising-yields safe-haven).**
+- Catalyst: risk-off narrative ✓, but Thu tape = risk-on ✗ (S&P +1.06%, VIX 14.25)
+- Pre-committed $99 price gate: no fresh Fri quote overturning $95-96 range
+- **DOES NOT QUALIFY** on pre-committed price gate + Thu risk-on tape contradicts thesis.
+
+**Idea 8: XLV FRESH (defensive).**
+- Sector momentum: XLV +0.18% Thu = lagging Thu risk-on ✗
+- R:R: structural low-beta ETF fails 2:1 with 10% trail
+- **DOES NOT QUALIFY** on Test 2 + Test 4.
+
+**Idea 9: XLP FRESH (staples).**
+- Catalyst: CPB dividend cut = negative catalyst for staples ✗
+- Sector momentum: XLP -0.32% Thu ✗
+- **DOES NOT QUALIFY** on Test 1 (negative catalyst) + Test 2.
+
+### Management Priorities for Market-Open Routine (Fri 09:30 ET)
+
+- **NFP print 08:30 ET absorbed by open.** Cash-open reaction is primary tape driver Fri 9/4. Watch for gap direction:
+  - **Hot NFP (>80k) → hawkish → yields up → XLK vulnerable to compression again** (watch $180 flag, cushion +3.26% at Thu close, would tighten if tape drops 3-4%)
+  - **Soft NFP (<50k) → dovish → re-rally window → XLB/XLE catch-up bid, XLK/XLF extension**
+  - **In-line (60-70k) → chop → managed positions coast**
+- **XLK (104 sh, +0.36%) — thesis-break watch ROUTINE.** Cushion +3.26% to $180 flag at Thu close $185.87. Hot NFP + XLK -3% cash-open = re-tightening flag. If tape breaks < $180 intraday, MIDDAY routine executes thesis-break manual close (cancel 5451fa24 50 sh + f2c0dace 54 sh, market sell 104 sh). Trailing stop $172.575 GTC covers full 104 sh regardless.
+- **XLE (233 sh, -0.14%) — thesis softening.** WTI -1.11% Thu, pre-OPEC de-risking. Trail 10% $58.968 GTC intact, hwm $65.52 server-advanced Thu. First-tighten +15% trigger $73.98 = 12.91% cushion (unchanged, not near). NO manual action unless -7% cut trigger $59.827 or +15% first-tighten hit. Sun 9/6 OPEC quota-hold consensus = Mon 9/8 open binary event.
+- **XLB (377 sh, -0.56%) — thesis softening.** Materials -0.62% Thu = weakest Thu sector. Trail 10% $48.771 GTC intact, hwm $54.19. First-tighten +15% trigger $60.59 = 11.53% cushion. Position at 19.58% cap = no ADD. NO manual action unless -7% cut trigger $48.996 hit.
+- **NO NEW ENTRIES:** all 9 fresh ideas DO NOT QUALIFY on specific named tests:
+  - XLF: **Test 4 R:R** (structural low-beta ETF with 10% mandatory trail)
+  - XLK-add: **Buy-Side Gate 20% cap breach**
+  - XLI: **Test 4 R:R + 1-strike sector warning**
+  - XLB-add: **Test 2 broken momentum + Buy-Side Gate 20% cap**
+  - XLE-add: **Test 2 broken momentum (weakest Thu sector)**
+  - SMH: **Test 1 mixed/negative catalyst + NFP event-vol timing**
+  - GDX: **pre-committed $99 price gate**
+  - XLV: **Test 2 + Test 4**
+  - XLP: **Test 1 (CPB dividend cut) + Test 2**
+- Wk-13 slot 2/3 preserved for Mon 9/8 post-OPEC quota-hold confirm (XLE ADD if oil stabilizes + sector rotates back to leader) or Tue 9/9 post-NFP-digest qualifying setup.
+- **PDT check:** 0/3 daytrades used; no new entries planned, no risk to intraday limit.
+
+### Risk Factors (Fri 9/4)
+- **NFP 08:30 ET = event-vol peak.** Hot print (>80k) = hawkish → XLK re-tightens $180 flag; soft print (<50k) = dovish → re-rally + rotation back to cyclicals. In-line = chop. Per strategy, event = HALF-SIZE input, not blocker; no qualifying setup here to size.
+- **Weekend gap risk = OPEC+ Sun 9/6.** Consensus quota-hold priced in; surprise (cut, hike, prod. war rumor) = XLE Mon 9/8 tape-mover. XLE half-size already accounts for this via trail 10%.
+- **Sector rotation Thu = risk-on but excludes held book (materials + energy both weakest).** XLB + XLE positions underperformed sector-leader XLF/XLK by 200+ bps Thu. If Fri extends Thu rotation, held-book relative underperformance widens; still cushion-in-tact absolute-P&L wise (XLB -0.56%, XLE -0.14%, both inside -7% envelope with 7.32% + 8.16% cushion respectively).
+- **Fed hike-odds cascade.** Warsh + Goolsbee + Wellington coherent hawkish narrative persists; NFP = pivot; FOMC 9/17 T-13 days. Rising yields multi-decade high = ongoing XLK multiple-compression driver (Thu absorbed post-AVGO but pattern persists).
+- **G20 finance ministers meetings (NC) headline risk** — coordinated FX / tariff signal = tape-mover.
+- **Campbell's (CPB) dividend cut** — first since 2001, staples-consumer signal; no direct read-through to held book but confirms staples softness backdrop.
+- **Deployment 53.63% vs 75-85% target.** 21-31 pts gap; 2 Wk-13 slots preserved. Rule-compliant NO-CHASE stance: all 9 fresh ideas fail specific tests. Zero qualifying setups Fri 9/4.
+- **Structural routine health:** Thu 9/3 slots fired 4/4 (pre-market ✓, market-open ✓, midday ✓, EOD ✓). Fri 9/4 pre-market = 9th consecutive live-slot fire since Aug 27 resumption. Recovery holding.
+
+### Decision — MANAGE-ONLY DAY, NO NEW ENTRIES QUALIFY, NFP EVENT-VOL PEAK
+
+- **All 9 fresh ideas DO NOT QUALIFY** on specific named tests (Test 4 R:R structural, Test 2 broken momentum, Buy-Side Gate 20% cap, pre-committed price gate, 1-strike sector). Rule-compliant no-trade default. Not a rule violation: no idea passed all four qualification tests, so nothing to "half-size for NFP" — half-size applies to *qualifying* setups on event days, not to fabricate a trade absent qualification.
+- **HOLD XLB, XLE, XLK.** All 3 positions inside -7% envelope, no thesis-break confirmed. XLK thesis-break watch downgraded to routine (cushion +3.26%). XLE + XLB thesis softening but not broken (both within 1% of flat).
+- **XLK thesis-break watch — ROUTINE (was TIGHT Wed, downgraded Thu):** MIDDAY / EOD routine executes manual close of 104 sh IF hot NFP → XLK breaks < $180 intraday. Cancel-first sequence: cancel 5451fa24 (50 sh) + f2c0dace (54 sh) GTC trailing stops, then market sell 104 sh. Do NOT wait for -7% cut trigger $172.62 if tape confirms $180 breach.
+- **XLE ratchet watch live:** if XLE hwm breaks $73.98 intraday (+15% from entry $64.33), MIDDAY routine executes first-tighten (cancel 10% trail 2cae6815, place 7% trail from fresh hwm). Currently $65.52 hwm = 12.91% cushion, not near.
+- **XLB ratchet watch live:** if XLB hwm breaks $60.59 intraday (+15% from entry $52.684), first-tighten to 7% trail from fresh hwm. Currently $54.19 hwm = 11.53% cushion, not near.
+- **GDX conditional re-open trigger:** if GDX opens > $99.00 Fri AM AND R:R passes 2:1, MARKET-OPEN routine re-evaluates for half-size fill (NFP event-vol sizing).
+- **Weekly review:** Friday afternoon = /weekly-review workflow; log Wk-13 outcome (1 open trade Wk-13, phase +0.86% at pre-market, vs SPY TBD by EOD).
+- **Wk-13 slot budget:** 1/3 used, 2 preserved. Target 1 mid-week setup Mon 9/8 post-OPEC on quota-hold confirm (XLE ADD if sector rotates back) or Tue 9/9 post-NFP-digest qualifying setup.
