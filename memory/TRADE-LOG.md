@@ -1462,3 +1462,42 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **Existing book management** — XLB/XLE/XLK trailing stops server-side, no manual actions unless -7% cut or +15% first-tighten hit. XLK $180 flag watch downgraded to routine (cushion +3.26%).
 4. **Sector 2-fails tracking** — industrials still excluded (1-strike). All others clear.
 5. **Weekly review** — Friday afternoon = /weekly-review workflow; log Wk-13 outcome (currently 1 open trade, +1.06% phase, flat vs SPY TBD).
+
+### Sep 4 — Midday Scan (Friday, 12:03 ET — Wk-13 Day 5 / NFP day / NO-OP)
+**Portfolio:** $100,966.92 | **Cash:** $46,765.64 (46.32%) | **Day P&L (Thu close → live):** -$94.23 (-0.093%) | **Phase P&L:** +$966.92 (+0.967%)
+
+| Ticker | Shares | Entry (wtd) | Live (12:03 ET) | Day Chg | Unrealized P&L | Cut ($) / Cushion | Tighten +15% ($) / Cushion | Stop |
+| - | - | - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.545 | -0.14% | -$52.40 (-0.26%) | $48.996 / 6.76% | $60.59 / 15.31% | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.17 | -0.70% | -$37.28 (-0.25%) | $59.827 / 6.77% | $73.98 / 15.28% | $58.968 (trail 10%, hwm $65.52) |
+| XLK | 104 | $185.616 | $186.925 | +0.51% | +$136.18 (+0.71%) | $172.62 / 7.65% | $213.46 / 14.19% | $172.575 (trail 10%, hwm $191.75) |
+
+**NFP absorbed by open — tape is choppy/mixed intraday.** XLK extending +0.51% (post-AVGO relief holds, cushion to $180 flag now +$6.925 / +3.85%, widest since 8/28). XLE -0.70% (WTI weakness continues pre-OPEC, thesis softening but no break). XLB -0.14% (materials chop, no fresh catalyst). All 3 positions inside all rule envelopes.
+
+**STEP 3 (cut losers) NO-OP:** all 3 positions inside -7% envelope. Worst XLB at -0.26% (cushion 6.76% to cut $48.996). XLE -0.25% (cushion 6.77% to $59.827). XLK +0.71% (cushion 7.65%). Zero cuts.
+
+**STEP 4 (tighten trailing stops) NO-OP:** all 3 below first-tighten trigger. XLK closest at 14.19% cushion to $213.46. XLB 15.31% to $60.59. XLE 15.28% to $73.98. XLE hwm $65.52 unchanged intraday (live $64.17 below hwm, no auto-advance). No manual cancel-then-replace.
+
+**STEP 5 (thesis-break check) NO-OP:** XLK live $186.925 well above $180 flag (+$6.925 / +3.85% cushion, widest of week). XLE thesis softening but not broken (233 sh, -0.70%, WTI -1.11% Thu extending, OPEC Sun 9/6 binary). XLB thesis holding (materials chop, no directional catalyst). No manual cuts.
+
+**Live-quote confirmation (12:03 ET):** all 3 quotable, spreads normal, none halted. NFP print absorbed 08:30 ET; cash-open reaction moderate (no gap-shock either direction).
+
+**Stops verified live (all 5 GTC intact, mapped to positions):**
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh = 377 sh)
+- XLE: trail 10% $58.968 hwm $65.52 (2cae6815 233 sh)
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh = 104 sh)
+
+**Trades: 0** (Wk-13 count unchanged 1/3). **Deployment:** 53.68% (mv $54,201.28). **PDT:** 0/3.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, softening -0.70%) + 1 materials (XLB, chop -0.14%) + 1 tech (XLK, extending +0.51%). Per pre-market: all 9 fresh setups DO NOT QUALIFY on specific tests (Test 4 R:R, Test 2 momentum, Buy-Side Gate 20% cap, pre-committed price gate). No mid-day setup emerged post-NFP.
+
+**STEP 6 research NO-OP:** no position moving sharply without cause. XLE -0.70% biggest mover but matches pre-NFP softening thesis (WTI-linked, pre-OPEC de-risking). XLK +0.51% is post-AVGO extension per plan.
+
+**STEP 7 ClickUp send SKIPPED:** no action taken this scan.
+
+**Next checkpoints:**
+1. **EOD (15:50 ET)** — Wk-13 Day 5 snapshot; weekly review workflow.
+2. **XLK $180 thesis-break flag** — watch remains ROUTINE (cushion +$6.925 / +3.85%, widest of week). No action unless intraday breach.
+3. **XLE OPEC Sun 9/6** — quota-hold consensus priced in; Mon 9/8 open = binary tape event. Trail 10% $58.968 GTC safety net intact.
+4. **Weekly review Fri afternoon** — /weekly-review workflow; log Wk-13 (1 open trade, phase +0.97%, vs SPY TBD).
+5. **Wk-13 slot budget:** 1/3 used, 2 preserved. Mon 9/8 post-OPEC + Tue 9/9 post-NFP-digest = next qualifying setup windows.

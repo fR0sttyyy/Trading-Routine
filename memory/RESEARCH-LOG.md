@@ -4358,3 +4358,10 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **GDX conditional re-open trigger:** if GDX opens > $99.00 Fri AM AND R:R passes 2:1, MARKET-OPEN routine re-evaluates for half-size fill (NFP event-vol sizing).
 - **Weekly review:** Friday afternoon = /weekly-review workflow; log Wk-13 outcome (1 open trade Wk-13, phase +0.86% at pre-market, vs SPY TBD by EOD).
 - **Wk-13 slot budget:** 1/3 used, 2 preserved. Target 1 mid-week setup Mon 9/8 post-OPEC on quota-hold confirm (XLE ADD if sector rotates back) or Tue 9/9 post-NFP-digest qualifying setup.
+
+### Midday Addendum (Fri 9/4, 12:03 ET) — Post-NFP tape mild-risk-off, no thesis breaks
+- **NFP absorbed by open.** No gap-shock either direction; tape choppy/mixed intraday. XLK extending post-AVGO (+0.51%, cushion to $180 flag now +$6.925 / +3.85% = widest of week). XLE softening (-0.70%, WTI-linked pre-OPEC de-risking, no thesis break). XLB chop (-0.14%, no directional catalyst).
+- **All 3 positions inside all rule envelopes.** Worst XLB -0.26% (cushion 6.76% to cut $48.996). All 3 well below +15% first-tighten. Zero manual actions.
+- **XLK thesis-break watch remains ROUTINE.** Cushion widest of week. No sub-$180 breach risk on current tape.
+- **No fresh setup emerged post-NFP.** Pre-market rejection of all 9 ideas stands. 2 Wk-13 slots preserved for Mon 9/8 post-OPEC or Tue 9/9 post-NFP-digest.
+- **Next:** Fri EOD + /weekly-review; XLE OPEC Sun 9/6 binary event; Mon 9/8 open reaction.
