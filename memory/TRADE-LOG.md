@@ -1501,3 +1501,38 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 3. **XLE OPEC Sun 9/6** — quota-hold consensus priced in; Mon 9/8 open = binary tape event. Trail 10% $58.968 GTC safety net intact.
 4. **Weekly review Fri afternoon** — /weekly-review workflow; log Wk-13 (1 open trade, phase +0.97%, vs SPY TBD).
 5. **Wk-13 slot budget:** 1/3 used, 2 preserved. Mon 9/8 post-OPEC + Tue 9/9 post-NFP-digest = next qualifying setup windows.
+
+### Sep 4 — EOD Snapshot (Day 62, Friday — Wk-13 Day 5 / no-trade / BACKFILLED Sun 9/6)
+**Portfolio:** $100,938.62 | **Cash:** $46,765.64 (46.33%) | **Day P&L:** -$122.53 (-0.121%) | **Phase P&L:** +$938.62 (+0.939%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.44 | -0.45% | -$91.98 (-0.46%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.06 | -1.20% | -$62.91 (-0.42%) | $58.968 (trail 10%, hwm $65.52) |
+| XLK | 104 | $185.616 | $187.28 | +0.76% | +$173.10 (+0.90%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** BACKFILLED Sun 9/6 — Fri 9/4 EOD routine was displaced by the /weekly-review workflow and no standard EOD entry was appended at the time; this reconstructs from Alpaca closing marks (balance_asof 2026-09-04, equity = last_equity = $100,938.62). Day P&L span Sep 3 → Sep 4 = single consecutive trading day, "Day P&L" label valid. Baseline $101,061.15 from Thu 9/3 EOD snapshot. Position moves Fri: XLE -$180.58 (-1.20% on WTI weakness extension pre-OPEC), XLB -$88.60 (-0.45% chop), XLK +$146.64 (+0.76% post-AVGO relief holding). Sum -$122.54 ≈ Day P&L -$122.53 ✓. Cash unchanged $46,765.64; deployment 53.67% (mv $54,172.98), 21-31pt below 75-85% target 3rd consecutive week. Weekly review already published for Wk-13: Grade B, -0.34pp SPX lag, 1/3 slots used (XLE fresh 8/31), 0 closed trades.
+
+**Trades today (Fri 9/4):** NONE. Pre-market rejected 9 fresh setups on specific tests (Test 4 R:R, Test 2 momentum, pre-committed price gates); post-NFP tape did not surface a qualifying setup. Rule-compliant no-trade day. **Wk-13 count: 1/3 used (XLE Mon 8/31 only).**
+
+**Cut-loser gate NO-OP:** all 3 positions inside -7% envelope. Worst XLB -0.46% (cushion 6.55% to cut $48.996). XLE -0.42% (cushion 6.56% to $59.827). XLK +0.90% (cushion 7.90%). No manual cuts.
+
+**Tighten-trail check NO-OP:** all 3 below first-tighten trigger. XLE closest at hwm $65.52 vs $73.98 first-tighten (12.91% cushion). XLB hwm $54.19 vs $60.59 (13.4%). XLK hwm $191.75 vs $213.46 (11.3%). All stops server-side GTC.
+
+**XLK thesis-break flag holds ROUTINE:** Fri close $187.28 = +$7.28 cushion (+4.04%) above $180 flag, widest of the week. Post-AVGO relief thesis extended cleanly into weekend.
+
+**XLE OPEC Sun 9/6 = today.** Consensus quota-hold priced in; Mon 9/8 open = binary tape event on any surprise cut/raise. Mon 9/8 pre-market must document OPEC outcome and pre-commit XLE HOLD/ADD/EXIT thresholds ($66+ ADD if room / $62-$66 HOLD / <$62 EXIT). Trail 10% $58.968 covers full 233 sh regardless.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, softening -1.20% Fri) + 1 materials (XLB, chop -0.45%) + 1 tech (XLK, extending +0.76%). Wk-13 slot budget expired 1/3 used; Wk-14 budget resets Mon 9/8 (but Mon 9/7 = Labor Day, US market CLOSED — first Wk-14 trading day is Tue 9/8... correction: Labor Day 2026 = Mon 9/7, first Wk-14 trading day is Tue 9/8).
+
+**Structural routine health note:** Fri 9/4 EOD slot displaced by weekly-review; recovery scheduler layer should ensure EOD + weekly-review both fire Fri post-close (weekly-review does NOT substitute the standard EOD snapshot table). Add to Wk-14 items for scheduler-layer follow-up.
+
+**Weekend + Mon 9/7 Labor Day = US market closed Sat 9/5 / Sun 9/6 / Mon 9/7.** Next trading day: **Tue 9/8**. Portfolio state frozen at Fri Sep 4 close through the long weekend.
+
+**Tomorrow / next trading day (Tue 9/8 — Wk-14 Day 1 post-Labor-Day):**
+1. **Pre-market re-scan** — 3-day gap news absorption (OPEC Sun 9/6, weekend geopolitics, Asian session Mon).
+2. **XLE OPEC decision execution** — pre-commit HOLD/ADD/EXIT thresholds at defined open levels.
+3. **XLB exit-or-compound decision** — 24 trading days flat, pre-committed thresholds per Wk-13 review ($52.00 exit / $53.50 add).
+4. **GDX re-entry gate refresh** — 5 sessions failed $99 trigger, refresh to current tape or retire slot per Wk-13 review.
+5. **Watchlist breadth expansion** — 15 → 20-25 names to feed 4-test funnel per Wk-13 review.
+6. **FOMC 9/16 T-6 days** — any Wk-14 fresh entries HALF-SIZE per event-vol rule.
