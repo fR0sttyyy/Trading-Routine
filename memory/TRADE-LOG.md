@@ -1536,3 +1536,33 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 4. **GDX re-entry gate refresh** — 5 sessions failed $99 trigger, refresh to current tape or retire slot per Wk-13 review.
 5. **Watchlist breadth expansion** — 15 → 20-25 names to feed 4-test funnel per Wk-13 review.
 6. **FOMC 9/16 T-6 days** — any Wk-14 fresh entries HALF-SIZE per event-vol rule.
+
+### Sep 7 — EOD Snapshot (Day 63, Monday — Wk-14 Day 1 / LABOR DAY / US MARKET CLOSED)
+**Portfolio:** $100,938.62 | **Cash:** $46,765.64 (46.33%) | **Day P&L:** $0.00 (0.000%) | **Phase P&L:** +$938.62 (+0.939%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.44 | 0.00% | -$91.98 (-0.46%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.06 | 0.00% | -$62.91 (-0.42%) | $58.968 (trail 10%, hwm $65.52) |
+| XLK | 104 | $185.616 | $187.28 | 0.00% | +$173.10 (+0.90%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Labor Day 2026 = Mon 9/7, US equity market CLOSED. Alpaca `balance_asof: 2026-09-04` confirms no re-mark since Fri close — equity, cash, positions all frozen at Fri EOD values. Day P&L span Sep 4 → Sep 7 = 3 calendar days but 0 trading days; label is $0.00 by construction (no market open). Baseline $100,938.62 from Fri 9/4 EOD (backfilled Sun 9/6). Position `change_today` = 0 on all 3 tickers per Alpaca. Cash unchanged $46,765.64; deployment 53.67% (mv $54,172.98), unchanged. Phase P&L +$938.62 (+0.939%), Wk-13 grade B holds.
+
+**Trades today (Mon 9/7):** NONE (market closed). **Wk-14 count: 0/3 used** (fresh 3-trade budget resets Tue 9/8, first Wk-14 trading day).
+
+**Cut-loser / Tighten-trail / Thesis-break checks:** ALL NO-OP (no market data). Server-side GTC stops intact for all 5 legs (XLE 233 sh @ $58.968; XLB 185+192 sh @ $48.771; XLK 50+54 sh @ $172.575). No manual actions possible or warranted.
+
+**OPEC Sun 9/6 outcome pending:** consensus quota-hold priced in pre-weekend; actual decision will manifest in Tue 9/8 XLE open tape (pre-committed thresholds: $66+ ADD if slot / $62-$66 HOLD / <$62 EXIT). Trail 10% $58.968 GTC safety net covers full 233 sh.
+
+**Weekend/holiday news window:** OPEC 9/6 + Asian session Mon 9/7 = 3-day news accumulation absorbed at Tue 9/8 US open. Pre-market Tue 9/8 must document (1) OPEC quota decision, (2) any geopolitical spikes, (3) Asian/European overnight tape context, (4) XLE gap direction vs pre-committed thresholds.
+
+**Structural routine health:** Mon 9/7 EOD firing on market-closed day per scheduler; placeholder snapshot appended for continuity (tomorrow's Day P&L baseline = today's $100,938.62 = same as Fri close). 9th consecutive full-slate day since Aug 27 resumption. Recovery holds.
+
+**Tomorrow (Tue 9/8 — Wk-14 Day 1 first trading day):**
+1. **Pre-market re-scan** — 3-day gap news absorption (OPEC 9/6, weekend geopolitics, overnight Asia/Europe).
+2. **XLE OPEC decision execution** — pre-commit HOLD/ADD/EXIT thresholds ($66+ ADD / $62-$66 HOLD / <$62 EXIT); size at HALF if OPEC surprise → high-vol tape.
+3. **XLB exit-or-compound** — 25 trading days flat, pre-committed thresholds per Wk-13 review ($52.00 exit / $53.50 add).
+4. **GDX re-entry gate refresh** — 5 sessions failed $99 trigger, refresh to current tape or retire slot.
+5. **Watchlist breadth expansion** — 15 → 20-25 names to feed 4-test funnel per Wk-13 review.
+6. **FOMC 9/16 T-5 days (was T-6)** — any Wk-14 fresh entries HALF-SIZE per event-vol rule.
+7. **Wk-14 slot budget resets to 3/3** available at Tue 9/8 open.
