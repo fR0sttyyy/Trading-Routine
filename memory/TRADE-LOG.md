@@ -1612,3 +1612,36 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **CPI Fri 9/11 08:30 ET** — inflation double-print completion; hot prints = XLK/XLF vulnerable, XLE cyclical resilience.
 6. **ORCL Thu 9/10 AH** — XLK read-through binary catalyst T-2 days.
 7. **Wk-14 slot budget:** 0/3 used, 3 preserved. XLE ADD gate re-arms if $65.50 breach on any Wk-14 session (rotation-confirmation still valid conditional).
+
+### Sep 8 — EOD Snapshot (Day 64, Tuesday — Wk-14 Day 2, first Wk-14 trading day)
+**Portfolio:** $101,046.95 | **Cash:** $46,765.64 (46.28%) | **Day P&L:** +$108.33 (+0.107%) | **Phase P&L:** +$1,046.95 (+1.047%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.075 | -0.70% | -$229.59 (-1.16%) | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.87 | +1.26% | +$125.82 (+0.84%) | $58.968 (trail 10%, hwm $65.52) |
+| XLK | 104 | $185.616 | $187.83 | +0.29% | +$230.30 (+1.19%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Post-Labor-Day cash-open session — book gained +$108.33 (+0.107% day) on OPEC quota-hold rotation + AVGO-driven tech extension. Day P&L baseline = Sep 7 placeholder $100,938.62 (= Fri Sep 4 close; Mon 9/7 Labor Day CLOSED). One trading-day span since prior EOD (Sep 4→Sep 8 = 4 calendar days but 1 trading day post-holiday); labeling as Day P&L is valid — Sep 7 placeholder mid-holiday equity was frozen and Sep 8 = first Wk-14 trading day. Phase P&L +$1,046.95 (+1.047%). Deployment 53.72% ($54,281.31 mv). Cash unchanged $46,765.64 (no trades). SPX beat: (need to verify tomorrow — placeholder).
+
+**Trades today (Tue 9/8):** NONE. Pre-committed XLE ADD gate ($65.50 cash-open) NOT TRIGGERED (opened <$65.50, closed $64.87). FANG FRESH gate (mutex to XLE ADD) NOT TRIGGERED. XLB thesis-break EXIT gate ($52.00) NOT TRIGGERED (close $52.075 = +$0.075 cushion, TIGHT but holding). Idea 3 XLK ADD failed R:R + 20% cap in pre-market. Idea 4 GDX retired. **Wk-14 count: 0/3 used** (3 preserved).
+
+**Cut-loser gate NO-OP:** all 3 positions inside -7% envelope. Worst XLB at -1.16% (cushion 6.34% to cut $48.996). XLE +0.84% (cushion 9.10% to $59.827 rebased). XLK +1.19% (cushion 8.12% to $172.622 rebased). Zero manual cuts.
+
+**Tighten-trail check NO-OP:** all 3 below first-tighten trigger (+15%). XLE closest at +0.84% cushion vs +15% (14.16% to trigger). XLK +1.19% vs +15% (13.81% to trigger). XLB negative. All HWMs unchanged today. No cancel-then-replace.
+
+**Thesis-break monitor — XLB TIGHT:** XLB close $52.075 = +$0.075 cushion (+0.14%) above $52.00 exit-flag. Held above intraday but closed within 15 cents. Wed 9/9 open below $52.00 or 30-min bar close below → manual cancel 164fe1fa + 9f98f565, market sell 377 sh (thesis-break; do NOT wait for -7% cut). XLK $187.83 = +$7.83 cushion (+4.35%) above $180 flag ROUTINE. XLE thesis strengthening on OPEC hold + WTI $93+ (no break).
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, strengthening +1.26% post-OPEC) + 1 materials (XLB, chop -0.70%, exit-flag TIGHT) + 1 tech (XLK, extending +0.29% post-AVGO). No sector exits triggered (no 2-fail streaks). Wk-14 slot budget 0/3 used, 3 preserved. FOMC 9/16 T-8 days = HALF-SIZE rule active for any Wk-14 fresh entries.
+
+**Structural routine health:** Post-Labor-Day full slate (pre-market → midday → EOD) fired on Wk-14 Day 2 first trading day. 10th consecutive full-slate day since Aug 27 resumption. Recovery holds.
+
+**Tomorrow (Wed 9/9 — Wk-14 Day 3):**
+1. **Pre-market re-scan** — refresh setup universe; monitor XLB open vs $52.00 exit-flag (TIGHT proximity, +0.14%).
+2. **XLB thesis-break gate ARMED** — Wed 9/9 open <$52.00 or 30-min bar close <$52.00 → manual EXIT 377 sh (do NOT defer to -7% cut).
+3. **XLE ADD gate re-arm** — if Wed cash-open ≥$65.50, evaluate ADD ~$5K (Wk-14 slot 1 of 3).
+4. **XLK $180 thesis-break flag** — ROUTINE (cushion +$7.83 / +4.35%).
+5. **PPI Thu 9/10 08:30 ET T-1 day** — inflation double-print first half; any Wk-14 fresh entry HALF-SIZE per event-vol rule.
+6. **CPI Fri 9/11 08:30 ET T-2 days** — inflation double-print completion.
+7. **ORCL Thu 9/10 AH T-1 day** — XLK read-through binary catalyst.
+8. **Wk-14 slot budget:** 0/3 used.
