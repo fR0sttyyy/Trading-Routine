@@ -1566,3 +1566,49 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **Watchlist breadth expansion** — 15 → 20-25 names to feed 4-test funnel per Wk-13 review.
 6. **FOMC 9/16 T-5 days (was T-6)** — any Wk-14 fresh entries HALF-SIZE per event-vol rule.
 7. **Wk-14 slot budget resets to 3/3** available at Tue 9/8 open.
+
+### Sep 8 — Midday Scan (Tuesday, 12:04 ET — Wk-14 Day 1 post-Labor-Day / NO-OP)
+**Portfolio:** $101,098.43 | **Cash:** $46,765.64 (46.26%) | **Day P&L:** +$159.81 (+0.158% vs Fri close $100,938.62) | **Phase P&L:** +$1,098.43 (+1.098%)
+
+| Ticker | Shares | Entry (wtd) | Live (12:04 ET) | Day Chg | Unrealized P&L | Cut ($) / Cushion | Tighten +15% ($) / Cushion | Stop |
+| - | - | - | - | - | - | - | - | - |
+| XLB | 377 | $52.684 | $52.1378 | -0.58% | -$205.91 (-1.04%) | $48.996 / 6.02% | $60.59 / 16.19% | $48.771 (trail 10%, hwm $54.19) |
+| XLE | 233 | $64.33 | $64.745 | +1.07% | +$96.70 (+0.65%) | $59.827 / 7.60% | $73.98 / 14.26% | $58.968 (trail 10%, hwm $65.52) |
+| XLK | 104 | $185.616 | $188.45 | +0.63% | +$294.78 (+1.53%) | $172.622 / 8.40% | $213.46 / 13.27% | $172.575 (trail 10%, hwm $191.75) |
+
+**Post-Labor-Day cash open absorbed — book gaining modestly (+$159.81, +0.158% day).** XLE +1.07% intraday leads on OPEC quota-hold + WTI $93.77 (+2.5%). XLK +0.63% (post-AVGO extension holds). XLB -0.58% intraday (materials chop; TIGHT to $52 flag but not broken). All 3 positions inside all rule envelopes.
+
+**Conditional gates from pre-market — status at midday:**
+- **XLE ADD gate ($65.50 cash-open) → NOT TRIGGERED.** XLE opened below $65.50 and current $64.745 remains below the pre-committed trigger. Idea 1 (XLE ADD ~$5K) NOT executed. Wk-14 slot count unchanged 0/3.
+- **FANG FRESH gate (mutually exclusive to XLE ADD) → NOT TRIGGERED.** XLE > $65.50 pre-req not met. FANG not evaluated for entry. Idea 2 NOT executed.
+- **XLB thesis-break EXIT gate (< $52.00 open or 30-min bar) → NOT TRIGGERED.** XLB opened above $52.00 and current $52.1378 = +$0.14 cushion (+0.26%) above flag. Gate remains armed intraday; TIGHT proximity requires ongoing watch.
+
+**STEP 3 (cut losers) NO-OP:** all 3 positions inside -7% envelope. Worst XLB at -1.04% (cushion 6.02% to cut $48.996). XLE +0.65% (cushion 7.60% to $59.827). XLK +1.53% (cushion 8.40% to $172.622). Zero cuts.
+
+**STEP 4 (tighten trailing stops) NO-OP:** all 3 below first-tighten trigger (+15%). XLE closest at 14.26% cushion to $73.98. XLK 13.27% to $213.46. XLB 16.19% to $60.59. All HWMs unchanged intraday (XLE hwm $65.52 vs live $64.745 = below; XLK hwm $191.75 vs $188.45 = below; XLB hwm $54.19 vs $52.14 = below). No cancel-then-replace.
+
+**STEP 5 (thesis-break check) — XLB TIGHT but NOT BROKEN:** XLB $52.1378 = +$0.14 cushion (+0.26%) above $52.00 exit-flag. Hold; gate remains ROUTINE-armed for the balance of the session. XLK $188.45 = +$8.45 cushion (+4.69%) above $180 flag (widest of week). XLE thesis strengthening on OPEC hold + WTI $93.77 (no break). No manual cuts.
+
+**Live-quote confirmation (12:04 ET):** all 3 quotable (XLB 52.13/52.14, XLE 64.72/64.73, XLK 188.44/188.46), spreads $0.01-$0.02 tight, none halted. Post-Labor-Day session normal-volume open absorbed.
+
+**Stops verified live (all 5 GTC intact, mapped to positions):**
+- XLB: trail 10% $48.771 hwm $54.19 (164fe1fa 185 sh + 9f98f565 192 sh = 377 sh)
+- XLE: trail 10% $58.968 hwm $65.52 (2cae6815 233 sh)
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh = 104 sh)
+
+**Trades: 0** (Wk-14 count unchanged 0/3). **Deployment:** 53.74% (mv $54,332.79). **PDT:** 0/3.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, strengthening +1.07% post-OPEC) + 1 materials (XLB, chop -0.58%, exit-flag TIGHT) + 1 tech (XLK, extending +0.63% post-AVGO). Pre-market: Idea 3 XLK ADD failed Test 4 R:R + 20% cap; Idea 4 GDX retired (6th failed session, no fresh gold-bullish catalyst). No mid-day setup emerged post-cash-open.
+
+**STEP 6 research NO-OP:** no position moving sharply without cause. XLE +1.07% biggest mover but matches OPEC hold + WTI +2.5% thesis (rotation-back signal from pre-mkt confirmed intraday, though not to $65.50 ADD-gate level). XLK +0.63% is post-AVGO extension per plan. XLB -0.58% is materials chop within pre-committed thesis-break threshold. No addendum research needed.
+
+**STEP 7 ClickUp send SKIPPED:** no action taken this scan.
+
+**Next checkpoints:**
+1. **EOD (15:50 ET)** — Wk-14 Day 1 snapshot; XLB $52.00 flag status close; XLE ADD-gate re-eval if $65.50 cash-close breach.
+2. **XLB $52.00 exit-flag** — ROUTINE-armed (cushion $0.14 / +0.26% only). Single-bar break intraday → manual cancel 164fe1fa + 9f98f565, market sell 377 sh (thesis-break; do NOT wait for -7% cut $48.996).
+3. **XLK $180 thesis-break flag** — ROUTINE (cushion +$8.45 / +4.69%, widest of week extending).
+4. **PPI Thu 9/10 08:30 ET** — inflation double-print half of FOMC pivot; any Wk-14 fresh entry HALF-SIZE per event-vol rule (FOMC 9/16 T-8 days).
+5. **CPI Fri 9/11 08:30 ET** — inflation double-print completion; hot prints = XLK/XLF vulnerable, XLE cyclical resilience.
+6. **ORCL Thu 9/10 AH** — XLK read-through binary catalyst T-2 days.
+7. **Wk-14 slot budget:** 0/3 used, 3 preserved. XLE ADD gate re-arms if $65.50 breach on any Wk-14 session (rotation-confirmation still valid conditional).
