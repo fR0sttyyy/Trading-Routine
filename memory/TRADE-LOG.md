@@ -1645,3 +1645,68 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **CPI Fri 9/11 08:30 ET T-2 days** — inflation double-print completion.
 7. **ORCL Thu 9/10 AH T-1 day** — XLK read-through binary catalyst.
 8. **Wk-14 slot budget:** 0/3 used.
+
+### Sep 9 — Market-Open Routine (Wednesday, 09:37 ET — Wk-14 Day 3 / 2 ACTIONS: XLB THESIS-BREAK EXIT + XLE ADD)
+**Portfolio:** $101,296.55 | **Cash:** $46,765.64 → $66,343.73 → $61,475.31 (60.69% post-fill) | **Positions:** 3 → 2 (XLB exited, XLE added — no new symbol) | **Wk-14 trades:** 0 → 1/3 used (XLE ADD; XLB exit ≠ fresh slot) | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost/Proceeds | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| XLB | SELL | 377 | $51.9313 | +$19,578.09 proceeds (realized -$283.77, -1.43%) | n/a (position closed) | Pre-committed thesis-break EXIT (Tue close $51.94 < $52.00 flag; Wed open $51.97 confirms; 25+ trading days flat + materials sector #5 rotation) | n/a | n/a |
+| XLE | BUY (ADD) | 74 | $65.7895 | $4,868.42 | $59.247 (trail 10% GTC, hwm $65.83, id 442df295) | Gulf strikes → Brent $100.72 (+2.86%), WTI $95.62 (+2.78%); XLE #1 sector Tue (+1.11%); ADD gate $65.50 MET at cash-open (live $65.69/70) | $73 (+11.0% from add) / stretch $78.53 (+19.4%) | 1.77 base / 2.0 stretch |
+
+**Pre-market plan execution:**
+- **XLB EXIT ✓ PRE-COMMITTED trigger MET** — Tue close $51.94 < $52.00 flag; Wed 09:36 ET quote $51.97 < flag confirms. Executed sequence: (1) cancel GTC 164fe1fa (185 sh trail 10% $48.771); (2) cancel GTC 9f98f565 (192 sh trail 10% $48.771); (3) market sell 377 sh XLB. Fill @ $51.9313 avg (proceeds $19,578.09, realized loss -$283.77 / -1.43%). Position closed. Rule-execution, NOT discretionary. Frees $19,578 cash. Positions 3→2. Does NOT consume Wk-14 fresh slot (exit ≠ fresh trade).
+- **XLE ADD ✓ QUALIFIED + GATE MET** — cash-open XLE bid $65.68 / ask $65.70 = ABOVE $65.50 gate ✓; energy #1 sector confirmed; ES pre-mkt -0.43% within < -0.5% gate ✓. Half-size 74 sh × $65.7895 = $4,868.42 = 4.81% of equity fresh; combined with existing 233 sh @ $64.33 → weighted avg $64.6818 for 307 sh, total XLE cost basis $19,857.31 = 19.60% of equity (< 20% cap ✓). Wk-14 slot 0→1/3 consumed.
+- **FANG FRESH ✗ SKIPPED on quote quality** — pre-market plan MUTEX with XLE ADD; quote at 09:36 ET showed bid $191.34 / ask $214.73 = $23.39 spread (10.8% wide) = dirty/illiquid quote per Alpaca gotcha "wide spread = halted/illiquid, skip". XLE tape clean ($0.02 spread), stronger tape signal → XLE picked as the single energy fill. FANG skip is a data-quality skip, not a rules skip.
+- **XLK ADD ✗ DOES NOT QUALIFY** — Test 4 (R:R) fails on broad-ETF stretch + Buy-Side Gate 20% cap breach (existing 19.23% + $5K ADD = 24.18%). Not evaluated at open.
+- **CEG FRESH ✗ DOES NOT QUALIFY** — Test 2 (sector momentum) fails: utilities XLU not in top-3 (XLE/XLK/XLI). Watchlist for Wk-15 if XLU rotates.
+
+**Hard-check gates (all pass on XLE ADD):**
+- Total positions after fills: 2 (XLE, XLK) ≤ 6 ✓
+- Wk-14 trades after fill: 1/3 ≤ 3 ✓
+- XLE cost after ADD $19,857.31 = 19.60% of $101,296.55 equity (≤ 20%) ✓
+- ADD cost $4,868.42 ≤ cash $66,343.73 (post-XLB proceeds) ✓
+- Catalyst documented (RESEARCH-LOG 2026-09-09 Idea 2) ✓
+- PDT room: daytrade_count 0/3; XLB exit + XLE ADD are different symbols, no round-trip = 0 daytrades used, 3/3 preserved ✓
+- Stock instrument ✓
+
+**Execution audit (13:37-13:38 UTC / 09:37-09:38 ET):**
+1. 09:37:00 ET — Cancel 164fe1fa (185 sh XLB GTC trail 10% $48.771) ✓
+2. 09:37:00 ET — Cancel 9f98f565 (192 sh XLB GTC trail 10% $48.771) ✓
+3. 09:37:22 ET — Submitted market sell 377 sh XLB (order f96ffdb2, client_order_id bot-20260909-XLB-133721-26042). Fill 377 sh @ $51.9313 (proceeds $19,578.09).
+4. 09:37:49 ET — Submitted market buy 74 sh XLE (order 4b6c0f22, client_order_id bot-20260909-XLE-133748-6005). Fill 74 sh @ $65.7895 (cost $4,868.42).
+5. 09:38:03 ET — Submitted trail 10% GTC sell 74 sh XLE (order 442df295, stop $59.247 hwm $65.83). ADD leg protected.
+6. All orders confirmed via `positions` + `orders` refetch. Existing 233-sh XLE stop (2cae6815, trail 10% $59.202 hwm $65.78) intact. Zero coverage gap.
+
+**Cut-loser gate NO-OP on remaining book:**
+- XLE 307 sh wtd $64.6818, live $65.90 = +$373.99 (+1.88%). Cut trigger $60.14 (-8.7% cushion). No action.
+- XLK 104 sh @ $185.616, live $188.31 = +$280.22 (+1.45%). Cut trigger $172.62 (-8.3% cushion). No action.
+
+**Tighten-trail check NO-OP:** XLE 233-sh leg hwm $65.78 vs first-tighten $73.98 = 12.5% cushion; XLE 74-sh ADD hwm $65.83 vs $75.66 first-tighten = 14.9% cushion; XLK hwm $191.75 vs $213.46 = 11.3% cushion. None near.
+
+**Live-quote confirmation:** XLB $51.95/$51.97 tight ✓ (exit context); XLE $65.68/$65.70 tight ✓; FANG $191.34/$214.73 WIDE 10.8% ✗ (skip); XLK $188.14/$188.18 tight ✓. All non-FANG quotable, no halts.
+
+**Post-action order state (3 GTC stops covering 2 positions, 4 legs):**
+- XLE 233 sh: trail 10% $59.202 hwm $65.78 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.247 hwm $65.83 (442df295) — NEW
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+
+**Deployment:** $54,281.31 mv pre-fill (53.72%) → ~$39,821.24 mv post-fill (39.31%). XLB exit + XLE ADD net = $14,460 less deployed. Below 75-85% target by 36-46pp. Wk-14 remaining 2 slots + Wk-15 fills needed to close gap. Do not FORCE fills below qualification bar.
+
+**Sector momentum posture:** Book now 1 energy (XLE, strengthening on Gulf-strikes Brent $100) + 1 tech (XLK, ORCL AH catalyst pending). Materials slot EXITED (2nd sector-family exit this phase; not consecutive failed trades, so no sector ban). GDX slot retired per pre-market. FANG data-quality skip preserves E&P alt watchlist for Thu/Fri if re-quotable.
+
+**Wk-14 slot budget:** 1/3 used (XLE ADD). 2 slots preserved for Thu (post-PPI) / Fri (post-CPI) qualifying setups. FOMC 9/16 T-7 days = HALF-SIZE rule active on all Wk-14 fresh entries.
+
+**Realized P&L this trade:** XLB -$283.77 (-1.43% on cost basis $19,861.86). Cumulative phase P&L now $101,296.55 - $100,000 = +$1,296.55 (+1.30% including realization).
+
+**STEP 7 ClickUp send:** posting concise recap (XLB exit + XLE add, stops set, thesis-break + Gulf-strikes ADD).
+
+**Next checkpoints:**
+1. **Midday scan** — XLE thesis check (WTI hold > $90 / Brent > $95); XLK $180 flag routine (cushion ~+4.4%); no fresh setups expected mid-session with FOMC T-7 + PPI T-1.
+2. **EOD Wed 9/9** — Day P&L including realized XLB loss + XLE fresh MTM.
+3. **PPI Thu 9/10 08:30 ET T-1 day** — inflation double-print half; hot print = XLK/XLF vulnerable, XLE cyclical resilience; any Thu fresh entry HALF-SIZE.
+4. **CPI Fri 9/11 08:30 ET T-2 days** — completion of inflation double-print.
+5. **ORCL Thu 9/10 AH T-1 day** — XLK read-through binary catalyst.
+6. **XLE ratchet monitoring** — first-tighten trigger ~$74.38 wtd (weighted-avg based); server hwm ratchets both legs auto.
+7. **Wk-14 slot budget:** 1/3 used, 2 preserved.
