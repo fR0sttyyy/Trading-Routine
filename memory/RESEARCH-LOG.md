@@ -4589,3 +4589,120 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Wk-14 slot budget 0/3 fresh.** Target 1 fill Tue open on conditional gate; 2 slots preserved for Wed pre-CPI window (any qualifying setup HALF-SIZE per FOMC event-vol rule).
 - **FOMC 9/16 T-8 days.** All Wk-14 fresh entries HALF-SIZE per event-vol strategy rule.
 - **PDT check:** 0/3 daytrades; no risk to intraday limit even with XLE ADD + XLB conditional exit sequence (different symbols = no round-trip).
+
+
+## 2026-09-09 — Pre-market Research (Wednesday, Wk-14 Day 3)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-08)
+- Equity: $101,034.09 (+$57.18 vs last_equity $100,976.91; positions marked pre-mkt)
+- Cash: $46,765.64 (46.29%) | last_equity $100,976.91
+- Buying power: $339,014.22 | non-marginable BP $73,899.86 | SMA $100,938.62
+- Long market value: $54,268.45 (53.72% deployed) | Maint margin $16,280.54
+- Daytrade count: 0/3 (PDT clear)
+- Wk-14 slot budget: 0/3 (Wed 9/9 = Day 3, 3 preserved)
+- Positions (3):
+  - XLB 377 @ $52.684 (mtm $51.97, -1.36% unrl -$269.17; trail 10% $48.771 hwm $54.19)
+  - XLE 233 @ $64.33 (mtm $65.44, +1.72% unrl +$258.63; trail 10% $58.968 hwm $65.52)
+  - XLK 104 @ $185.616 (mtm $186.81, +0.64% unrl +$124.22; trail 10% $172.575 hwm $191.75)
+- Open orders: 5 GTC trailing stops covering all 3 positions (verified live, all `status: new`)
+- **Data freshness ✓:** balance_asof 2026-09-08 (previous session); positions endpoint intraday_pl (XLB +$11.31, XLE +$156.11, XLK -$110.24 = +$57.18) matches equity delta. Pre-market marks LIVE via position endpoint.
+
+### Market Context (Wed 9/9 pre-market)
+- Indices Tue 9/8 close context: **S&P 7673.52 (-0.58%), Nasdaq 26421.41 (-0.32%), Dow 52786.07 (-1.18%)** — Dow leading red on healthcare drag
+- Futures Wed pre-mkt: **ES 7647.75 (-0.43%), NQ 29357.5 (-0.61%)** — mild soft open (within ES < -0.5% gate for entries)
+- VIX: **16.53 (+5.15% from prior)** — mild elevation, choppy tape
+- **WTI $95.62 (+2.78%). Brent $100.72 (+2.86%).** OIL NEAR $100 on GULF STRIKES — major geopolitical bid (Iran/Strait of Hormuz overhang intensified)
+- **BIG NEWS:** "Oil nears USD 100 after Gulf strikes and health care drags shares lower" (Saxo 9/9); "A 2-Story Market: AI Optimism and Iran Fear Power US Stocks" (Investing.com 9/9). Two-thesis tape = ENERGY + TECH LEADERS, healthcare/broad-market weaker
+- **Sector momentum (Tue close):** XLE #1 (+1.11%), XLK #2 (+0.32%); XLI #3 (-0.48%), XLP #4 (-0.66%); XLB #5 (-0.95%), XLF #6 (-1.38%), XLV #7 LAST (-2.52% - HEAVY RED)
+- **XLB Tue close $51.94 CONFIRMS BREAK BELOW $52.00 thesis-break exit-flag.** Pre-mkt $51.97 remains below. Trigger MET. 25+ trading days flat + materials sector #5 rotation = pre-committed EXIT armed.
+- **XLE Tue close $64.77 vs $65.50 ADD gate.** Pre-mkt $65.44 = essentially AT gate but not above. Cash-open behavior determines fill.
+- **Semi rally:** Intel +9%, AMD +6% on AI market growth (Nvidia slipping) — XLK breadth expanding beyond mega-caps, but XLK +0.32% Tue = modest ETF-level move
+- **This week's macro calendar (Wk-14):**
+  - Wed 9/9 (today): no top-tier release; ORCL Q1 FY27 earnings AH catalyst (some sources say today, others Thu — binary XLK read-through either way)
+  - Thu 9/10: **PPI 08:30 ET** (consensus +0.4% MoM after 0.0%); if ORCL Thu AH also
+  - Fri 9/11: **CPI 08:30 ET** (consensus +0.4% MoM after +0.1%; core +0.2% MoM easing to 2.4% YoY)
+  - Wk-15: **FOMC Wed 9/16 decision** (T-7 days)
+- **Fed hike odds:** post-NFP + this week's PPI/CPI double-print = pivot for FOMC 9/16
+- BMO earnings Wed 9/9: Korn Ferry KFY (no held-book read-through); CooperCompanies COO (medical products, XLV-adj); Academy Sports ASO (retail)
+
+### Trade Ideas — Qualification Table (Wed 9/9 open)
+
+**Idea 1 [ACTION]: XLB THESIS-BREAK EXIT 377 sh (pre-committed trigger MET).**
+- Not a fresh trade — pre-committed thesis-break EXIT from Tue EOD plan
+- Tue close $51.94 < $52.00 flag ✓; pre-mkt $51.97 remains below ✓
+- 25+ trading days flat + materials sector #5 rotation (XLB -0.95% Tue, broader materials weakness continuing) ✓
+- **EXECUTE AT OPEN:** cancel 164fe1fa (185 sh) + 9f98f565 (192 sh) GTC trailing stops → market sell 377 sh
+- Frees ~$19,588 cash (mtm), reduces position count 3→2, does NOT consume Wk-14 fresh slot (exit ≠ fresh)
+- Do NOT wait for -7% cut trigger $48.996 or trail stop $48.771
+
+**Idea 2: XLE ADD ~$5K half-size (Gulf strikes catalyst STRONGER than OPEC hold; energy #1 sector).**
+- Catalyst: Gulf strikes → Brent $100.72 (+2.86%), WTI $95.62 (+2.78%) ✓ — STRONGER than yesterday's OPEC-hold-only thesis
+- Sector momentum: XLE #1 sector Tue (+1.11%) ✓; energy leadership confirmed
+- Stop 10%: definable — entry ~$65.44, stop $58.90 ✓ (widen to $58.968 to align with existing GTC trail)
+- R:R: entry $65.44, stop $58.90 (-$6.54), target $73 (+11.6%) = 1.77:1; stretch $78.53 (+20%) = 2.0:1 achievable on WTI $100+ sustained rally + Iran-shock premium
+- Buy-Side Gate: XLE 15.09% ($15,247.52/$101,034.09); ADD $5K → 20.04% marginally over 20% cap ✗ — SIZE at $4,900 max to stay under (~74 sh @ $65.44 = $4,842)
+- Slot count after XLB exit + XLE ADD = 2 positions after fill; Wk-14 count 0→1/3 ✓
+- **QUALIFIES conditional on cash-open confirmation.** ENTER AT OPEN if: cash-open XLE > $65.50 AND energy top-3 sector at open AND ES not red > 0.5% → half-size ADD ~74 sh (~$4,842 to stay under 20% cap after ADD). Place trail 10% GTC on ADD leg. Wk-14 slot 1/3.
+
+**Idea 3: FANG (Diamondback) FRESH ~$5K half-size (higher-beta E&P alt on Gulf-strikes tape).**
+- Catalyst: same Gulf strikes + Brent $100 = bullish E&P ✓
+- Sector momentum: XLE #1 = confirmed ✓
+- Stop 10%: definable — entry ~$200, stop $180 ✓
+- R:R: entry $200, stop $180 (-$20), target $240 (+20%) = 2:1 ✓; individual E&P higher beta captures more of Iran-premium than broad ETF
+- Buy-Side Gate: FRESH position — after XLB exit position count 2→3 (under 6 cap ✓); Wk-14 count 0→1 ✓; ~$5K cost = 4.95% << 20% cap ✓; cash sufficient ✓; PDT clear ✓
+- **QUALIFIES conditional on FANG > $200 open.** ENTER AT OPEN if: FANG opens > $200 AND XLE > $65.50 (Idea 2 pre-req satisfied confirming energy rotation).
+- **MUTUALLY-EXCLUSIVE with Idea 2:** only ONE energy add per session to preserve Wk-14 slot budget. MARKET-OPEN routine picks STRONGER-momentum name (higher gap %, cleaner tape).
+
+**Idea 4: XLK ADD ~$5K half-size (semi rally Intel/AMD + AI-optimism tape).**
+- Catalyst: Intel +9%, AMD +6% on AI market growth Tue ✓; ORCL AH binary catalyst pending
+- Sector momentum: XLK #2 sector Tue (+0.32%) ✓ (borderline momentum, mega-cap participation modest despite semi rally)
+- Stop 10%: definable — entry ~$187, stop $168.30 ✓
+- R:R: broad-ETF Test 4 stretch; realistic 4-6wk target $205 (+9.6%) = 0.96:1; +20% target $224.40 unrealistic on 4-6wk with FOMC + CPI headwinds ✗
+- Buy-Side Gate: existing XLK 19.23% ($19,428.24/$101,034.09); ADD $5K → 24.18% breaches 20% cap ✗
+- **DOES NOT QUALIFY on Test 4 (R:R math) + Buy-Side Gate 20% cap breach.** Semi rally is single-name (INTC/AMD) not ETF-level breakout.
+
+**Idea 5: CEG (Constellation Energy) FRESH ~$5K half-size (nuclear/energy-security theme).**
+- Catalyst: Multiple sources cite Constellation + GE Vernova as top nuclear plays on oil-driven inflation + power supply concerns; nuclear as energy-security theme aligns with Gulf-strikes tape
+- Sector momentum: technically utilities (XLU), not currently in top-3 rotation confirmation ✗ (XLE #1, XLK #2, XLI #3)
+- Stop 10%: definable if entry near $300 pre-mkt (need current quote)
+- R:R: would need concrete entry; no pre-committed level or catalyst-specific gate
+- **DOES NOT QUALIFY on Test 2 (utilities not in top-3 rotation).** Interesting narrative but no specific level/gate; add to watchlist for Wk-15 if XLU rotates in.
+
+### Management Priorities for Market-Open Routine (Wed 9/9 09:30 ET)
+
+- **XLB (377 sh, mtm $51.97) — THESIS-BREAK EXIT ARMED, PRE-COMMITTED (top priority).** Tue close $51.94 < $52.00 flag = trigger MET. Pre-mkt $51.97 confirms. **EXECUTE AT OPEN:** (1) cancel GTC 164fe1fa (185 sh trail 10% $48.771), (2) cancel GTC 9f98f565 (192 sh trail 10% $48.771), (3) market sell 377 sh XLB at market. Do NOT defer to -7% cut $48.996. Frees ~$19,588 cash, reduces positions 3→2. Log as thesis-break exit (25+ days flat + materials weakness), NOT a fresh trade.
+- **XLE (233 sh, mtm $65.44 pre-mkt +1.72%) — CONDITIONAL ADD armed (Gulf strikes + Brent $100).** Thesis MUCH STRONGER today than yesterday (Iran-shock premium on top of OPEC hold). Trail 10% $58.968 GTC intact (hwm $65.52). First-tighten trigger $73.98 = 13.06% cushion. Thesis-break floor $62 (below → manual EXIT). **CONDITIONAL ENTER AT OPEN:** if cash-open XLE > $65.50 AND energy top-3 sector AND ES not red > 0.5% → half-size ADD ~74 sh at market (~$4,842 to stay under 20% cap after fill); place trail 10% GTC on ADD leg. NOTE: pre-mkt $65.44 is FRACTIONALLY below gate — do not front-run; wait for cash-session confirmation.
+- **FANG FRESH ~$5K half-size (25 sh @ ~$200)** — MUTEX with XLE ADD; MARKET-OPEN routine picks stronger-momentum name if both gates trigger. Gate: FANG > $200 open AND XLE > $65.50 rotation confirmed.
+- **XLK (104 sh, mtm $186.81 pre-mkt +0.64%) — thesis-break watch ROUTINE.** Pre-mkt $186.81 = +$6.81 cushion (+3.78%) above $180 flag. ORCL AH catalyst (Wed or Thu depending on source) = binary read-through. Trail 10% $172.575 GTC covers full 104 sh. First-tighten trigger $213.46 = 14.24% cushion. NO manual action unless < $180 intraday breach OR hwm > $213.46.
+- **XLE ratchet watch live:** hwm $65.52 vs first-tighten trigger $73.98 = 12.91% cushion, not near.
+- **XLB ratchet check:** N/A after exit.
+- **GDX slot RETIRED effective Wk-14** — no re-entry gate refresh.
+- **CEG watchlist add for Wk-15** if XLU rotates into top-3.
+- **NEW ENTRIES: 1 conditional ADD armed (XLE) + 1 conditional FRESH alternative (FANG) — MUTUALLY EXCLUSIVE.** Wk-14 slot budget usage after fill = 1/3.
+
+### Risk Factors (Wed 9/9)
+
+- **Gulf strikes / Iran-shock premium = event-driven, mean-reverting risk.** WTI $95+ / Brent $100 could spike further OR fade fast on de-escalation news. XLE entry with tight trail 10% GTC required for protection.
+- **VIX 16.53 (+5.15%)** = mild elevation, choppy tape. Not a blocker but expect wider intraday ranges.
+- **ES -0.43% pre-mkt = within gate** (< 0.5% red) but headline-driven tape can flip fast. Cash-open behavior determines XLE ADD fill.
+- **XLB thesis-break EXIT execution risk:** manual cancel-first sequence exposes brief window without protective stop. Cancel + market sell should execute within 1-2 minutes at open; minimal window risk given XLB pre-mkt near flag ($51.97), not gapping down sharply.
+- **XLK ORCL AH catalyst T-0 or T-1 day** — binary; cushion +3.78% vs $180 flag = buffered but not immune.
+- **PPI Thu 9/10 T-1 day + CPI Fri 9/11 T-2 days.** Hot prints seal FOMC 9/16 hike (XLK/XLF vulnerable, XLE cyclical resilience), soft prints re-open rate-cut window.
+- **FOMC 9/16 T-7 days = event-vol pre-window active.** ALL Wk-14 fresh entries HALF-SIZE per strategy rule (applied to Ideas 2 and 3).
+- **Healthcare XLV -2.52% drag** — sector rotation confirmed away from defensives; not a book position risk.
+- **Deployment post-XLB exit + XLE ADD = ($54,268 - $19,588 + $4,842) / $101,034 = 39.1% deployed** = significant under-deployment vs 75-85% target (36-46pt gap). Wk-14 remaining 2 slots + Wk-15 fills needed to close gap. Do not FORCE fills below qualification bar to close gap.
+- **Structural routine health:** 11th consecutive full-slate day since Aug 27 resumption. Recovery holding.
+
+### Decision — XLB THESIS-BREAK EXIT (PRE-COMMITTED), XLE ADD CONDITIONAL, HOLD XLE/XLK
+
+- **EXIT XLB 377 sh AT OPEN — pre-committed thesis-break (Tue close $51.94 < $52.00 flag).** Cancel 164fe1fa + 9f98f565 GTC trails, market sell 377 sh. This is a rule-execution, not a discretionary decision. Frees ~$19,588 cash. Positions 3→2. Does NOT consume Wk-14 fresh slot.
+- **HOLD XLE, XLK.** Both inside -7% envelope; XLE thesis strengthening on Gulf strikes / Brent $100; XLK cushion +3.78% widest of week above $180.
+- **CONDITIONAL ENTER AT OPEN — MUTUALLY EXCLUSIVE (max 1 fill):**
+  1. **XLE ADD ~$4,842 half-size (~74 sh @ ~$65.44):** IF cash-open XLE > $65.50 AND energy top-3 sector on cash-session gap AND ES not red > 0.5% at MARKET-OPEN routine runtime → execute ADD at market; place trail 10% GTC on ADD leg. Wk-14 slot 1/3.
+  2. **FANG FRESH ~$5K half-size (~25 sh @ ~$200):** IF FANG opens > $200 AND XLE > $65.50 (rotation confirmation via Idea 2 pre-req) → execute FRESH at market; place trail 10% GTC on 25 sh. Wk-14 slot 1/3.
+  - MARKET-OPEN routine picks the STRONGER-momentum name (higher gap %, cleaner tape) if both trigger. Only ONE energy fill per session. Skip both if XLE < $65.50 at cash open OR energy sector fades from top-3 within first 30 min.
+- **XLK thesis-break watch — ROUTINE:** cushion +3.78% to $180 flag. NO manual action unless < $180 intraday breach OR hwm > $213.46 first-tighten trigger. Monitor ORCL AH catalyst (today or Thu).
+- **GDX slot RETIRED, CEG on Wk-15 watchlist** if XLU rotates into top-3.
+- **Wk-14 slot budget after Wed:** 0/3 → potentially 1/3 (XLE ADD or FANG FRESH) → 2 slots preserved for Thu (post-PPI) / Fri (post-CPI). Any Thu/Fri fresh entries HALF-SIZE per event-vol.
+- **FOMC 9/16 T-7 days.** All Wk-14 fresh entries HALF-SIZE per event-vol strategy rule.
+- **PDT check:** 0/3 daytrades; XLB exit + XLE ADD = different symbols, no round-trip; PDT unaffected.
