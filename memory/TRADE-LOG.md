@@ -1710,3 +1710,42 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **ORCL Thu 9/10 AH T-1 day** — XLK read-through binary catalyst.
 6. **XLE ratchet monitoring** — first-tighten trigger ~$74.38 wtd (weighted-avg based); server hwm ratchets both legs auto.
 7. **Wk-14 slot budget:** 1/3 used, 2 preserved.
+
+### Sep 9 — Midday Scan (Wednesday, 12:02 ET — Wk-14 Day 3 / NO-OP post-open-actions)
+**Portfolio:** $101,041.48 | **Cash:** $61,475.31 (60.84%) | **Day P&L:** +$64.57 (+0.064% vs Tue close $100,976.91; includes realized XLB -$283.77) | **Phase P&L:** +$1,041.48 (+1.04%)
+
+| Ticker | Shares | Entry (wtd) | Live (12:02 ET) | Day Chg | Unrealized P&L | Cut ($) / Cushion | Tighten +15% ($) / Cushion | Stop |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $65.215 | +0.69% | +$163.69 (+0.82%) | $60.155 / 7.76% | $74.38 / 14.06% | $59.3235 (trail 10%, hwm $65.915) |
+| XLK | 104 | $185.616 | $187.935 | +0.03% | +$241.22 (+1.25%) | $172.62 / 8.15% | $213.46 / 13.58% | $172.575 (trail 10%, hwm $191.75) |
+
+**Post-open-action steady state — book flat mid-session (+$64.57 day incl. realized XLB -$283.77; unrealized side +$404.91 = XLE $163.69 + XLK $241.22).** XLE server hwm ratcheted $65.78/$65.83 → $65.915 (both legs unified); stop rebased $59.3235. XLK hwm unchanged $191.75, stop $172.575. Both positions inside all rule envelopes.
+
+**STEP 3 (cut losers) NO-OP:** both positions positive. XLE +0.82% (cushion 7.76% to cut $60.155). XLK +1.25% (cushion 8.15% to $172.62). Zero cuts.
+
+**STEP 4 (tighten trailing stops) NO-OP:** both below first-tighten trigger (+15%). XLE 14.06% cushion to $74.38 wtd. XLK 13.58% cushion to $213.46. No cancel-then-replace.
+
+**STEP 5 (thesis-break check) — BOTH INTACT:** XLE thesis strengthening on Gulf strikes + Brent $100 / WTI $95+ (energy #1 sector). XLK $187.935 = +$7.94 cushion (+4.41%) above $180 flag ROUTINE; ORCL AH catalyst T-1 day binary read-through pending Thu 9/10. No manual cuts.
+
+**Live-quote confirmation (12:02 ET):** both quotable at tight spreads (XLE current $65.215 — post-open $65.79 fill leg holding gains; XLK $187.935 — extending post-AVGO). No halts.
+
+**Stops verified live (all 4 GTC intact, mapped to positions):**
+- XLE: trail 10% $59.3235 hwm $65.915 (442df295 74 sh + 2cae6815 233 sh = 307 sh)
+- XLK: trail 10% $172.575 hwm $191.75 (5451fa24 50 sh + f2c0dace 54 sh = 104 sh)
+
+**Trades: 0 mid-session** (Wk-14 count unchanged 1/3 used — XLE ADD at open only). **Deployment:** 39.16% (mv $39,566.17) — below 75-85% target by 36-46pp, unchanged from open-post-fill posture. **PDT:** 0/3.
+
+**Sector-momentum posture unchanged:** book = 1 energy (XLE, strengthening on Gulf strikes) + 1 tech (XLK, ORCL AH catalyst pending). Materials slot exited at open (XLB thesis-break). No fresh mid-session setup emerged post-cash-open; FOMC 9/16 T-7 + PPI Thu T-1 keeps 2 remaining Wk-14 slots on HALF-SIZE rule if triggered.
+
+**STEP 6 research NO-OP:** no position moving sharply without cause. XLE +0.82% matches sustained Gulf-strikes / Brent $100 thesis. XLK +1.25% is continuation of post-AVGO extension into ORCL AH catalyst. No addendum research needed.
+
+**STEP 7 ClickUp send SKIPPED:** no action taken this scan (open-routine ClickUp already sent 09:39 ET recap).
+
+**Next checkpoints:**
+1. **EOD Wed 9/9 (15:50 ET)** — Wk-14 Day 3 snapshot including realized XLB loss + XLE/XLK MTM close.
+2. **PPI Thu 9/10 08:30 ET T-1 day** — inflation double-print half; any Thu fresh entry HALF-SIZE per event-vol rule (FOMC 9/16 T-7 days).
+3. **ORCL Thu 9/10 AH T-1 day** — XLK read-through binary catalyst; monitor overnight tape.
+4. **CPI Fri 9/11 08:30 ET T-2 days** — completion of inflation double-print.
+5. **XLE ratchet monitoring** — first-tighten trigger ~$74.38 wtd; server hwm auto-ratchets both legs.
+6. **XLK $180 thesis-break flag** — ROUTINE (cushion +$7.94 / +4.41%).
+7. **Wk-14 slot budget:** 1/3 used, 2 preserved.
