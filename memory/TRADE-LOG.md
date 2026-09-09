@@ -1749,3 +1749,35 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLE ratchet monitoring** — first-tighten trigger ~$74.38 wtd; server hwm auto-ratchets both legs.
 6. **XLK $180 thesis-break flag** — ROUTINE (cushion +$7.94 / +4.41%).
 7. **Wk-14 slot budget:** 1/3 used, 2 preserved.
+
+### Sep 9 — EOD Snapshot (Day 65, Wednesday — Wk-14 Day 3 / 2 trades today: XLB EXIT + XLE ADD)
+**Portfolio:** $101,067.35 | **Cash:** $61,475.31 (60.83%) | **Day P&L:** +$20.40 (+0.020%) | **Phase P&L:** +$1,067.35 (+1.067%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $65.36 | +0.91% | +$208.21 (+1.05%) | $59.3235 (trail 10%, hwm $65.915) |
+| XLK | 104 | $185.616 | $187.755 | -0.06% | +$222.50 (+1.15%) | $172.575 (trail 10%, hwm $191.75) |
+
+**Notes:** Two-trade day executed at cash-open per pre-committed gates. XLB thesis-break EXIT (377 sh @ $51.9313, realized -$283.77 / -1.43%) triggered by Tue close $51.94 < $52.00 flag + Wed 09:37 confirm quote $51.97. XLE ADD (74 sh @ $65.7895, cost $4,868.42) triggered by ≥$65.50 cash-open gate + Gulf strikes → Brent $100.72 / WTI $95.62 catalyst. XLE weighted avg 307 sh $64.6818, XLK unchanged 104 sh @ $185.616. Book gained +$20.40 day = realized XLB -$283.77 + open-fill positioning + XLE MTM +$181.13 + XLK MTM -$11.96 + XLE ADD leg MTM ($65.7895→$65.36 = -$31.80 on 74 sh); net includes realization drag offset by unrealized gains. Phase P&L +$1,067.35 (+1.067%). Deployment 39.17% ($39,592.04 mv) — below 75-85% target by 36-46pp; Wk-14 has 2 slots remaining Thu/Fri if qualifying setups emerge post-PPI/CPI (HALF-SIZE per FOMC 9/16 T-7 event-vol rule). Both remaining positions inside all rule envelopes (cut, tighten, thesis-break). Day P&L baseline = Sep 8 EOD $101,046.95 (one trading-day span, no gap).
+
+**Trades today (Wed 9/9):** 2 total — **XLB SELL 377 sh @ $51.9313** (pre-committed thesis-break exit, realized -$283.77); **XLE BUY 74 sh @ $65.7895** (Wk-14 slot 1/3 used, ADD to 307 sh cost basis 19.60%). Cancels: 164fe1fa + 9f98f565 (both XLB trail stops). New GTC: 442df295 XLE 74-sh trail 10% $59.247 hwm $65.83 (post-add re-armed; hwm now unified $65.915 for both XLE legs). No daytrade round-trips (different symbols) → daytrade_count 0/3 preserved.
+
+**Cut-loser gate NO-OP:** both positions positive. XLE +1.05% (cushion 8.05% to cut $60.15 wtd). XLK +1.15% (cushion 8.15% to $172.622 rebased). Zero manual cuts.
+
+**Tighten-trail check NO-OP:** both below first-tighten trigger (+15%). XLE +1.05% cushion 13.95% to +15% ($74.38 wtd). XLK +1.15% cushion 13.85% to +15% ($213.46). No cancel-then-replace.
+
+**Thesis-break monitor — INTACT:** XLE strengthening on Gulf-strikes + Brent $100 / WTI $95+ (energy #1 sector). XLK $187.755 = +$7.755 cushion (+4.31%) above $180 flag ROUTINE; ORCL AH catalyst T-1 day pending Thu 9/10.
+
+**Sector-momentum posture:** book = 1 energy (XLE, sustained Gulf-strikes catalyst) + 1 tech (XLK, ORCL AH catalyst T-1). Materials slot EXITED at open (2nd sector-family exit this phase; not consecutive failed trades → no sector ban). Wk-14 slot budget 1/3 used (XLE ADD), 2 slots preserved for Thu (post-PPI) / Fri (post-CPI) qualifying setups. FOMC 9/16 T-7 days = HALF-SIZE rule active on all Wk-14 fresh entries.
+
+**Structural routine health:** 11th consecutive full-slate day since Aug 27 resumption. Recovery holds. Pre-market → open-actions → midday → EOD complete.
+
+**Tomorrow (Thu 9/10 — Wk-14 Day 4 / PPI 08:30 ET T-day):**
+1. **Pre-market re-scan** — refresh setup universe post-PPI; digest print for hot/cool vs consensus.
+2. **PPI Thu 9/10 08:30 ET** — hot print = XLK/XLF vulnerable, XLE cyclical resilience. Any Thu fresh entry HALF-SIZE (FOMC T-6).
+3. **XLE ratchet monitoring** — first-tighten trigger ~$74.38 wtd (cushion 13.95%); server hwm $65.915 auto-ratchets both legs.
+4. **XLK $180 thesis-break flag** — ROUTINE (cushion +$7.755 / +4.31%).
+5. **ORCL Thu 9/10 AH T-day** — XLK read-through binary catalyst; monitor overnight tape.
+6. **CPI Fri 9/11 08:30 ET T-1 day** — inflation double-print completion.
+7. **FANG re-quote check** — if quote clean (< 1% spread), qualifying E&P alt watchlist for Thu/Fri.
+8. **Wk-14 slot budget:** 1/3 used, 2 preserved.
