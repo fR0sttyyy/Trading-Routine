@@ -4706,3 +4706,122 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **Wk-14 slot budget after Wed:** 0/3 → potentially 1/3 (XLE ADD or FANG FRESH) → 2 slots preserved for Thu (post-PPI) / Fri (post-CPI). Any Thu/Fri fresh entries HALF-SIZE per event-vol.
 - **FOMC 9/16 T-7 days.** All Wk-14 fresh entries HALF-SIZE per event-vol strategy rule.
 - **PDT check:** 0/3 daytrades; XLB exit + XLE ADD = different symbols, no round-trip; PDT unaffected.
+
+
+## 2026-09-10 — Pre-market Research (Thursday, Wk-14 Day 4 / PPI T-DAY + ORCL AH T-DAY + ECB DAY)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-09)
+- Equity: $101,074.36 (+$10.90 vs last_equity $101,063.46; positions marked pre-mkt)
+- Cash: $61,474.81 (60.82%) | last_equity $101,063.46
+- Buying power: $356,777.98 | non-marginable BP $81,274.58 | SMA $98,583.68
+- Long market value: $39,599.55 (39.18% deployed) | Maint margin $11,879.87
+- Daytrade count: 0/3 (PDT clear)
+- Wk-14 slot budget: 1/3 used (XLE ADD Wed 9/9); 2 slots preserved for Thu/Fri
+- Positions (2):
+  - XLE 307 @ $64.681792 (mtm $66.25 pre-mkt, +1.44% intraday, unrl +$481.44 / +2.42%; trail 10% $59.3235 hwm $65.915)
+  - XLK 104 @ $185.615577 (mtm $185.20 pre-mkt, -1.42% intraday, unrl -$43.22 / -0.22%; trail 10% $172.575 hwm $191.75)
+- Open orders: 4 GTC trailing stops covering both positions (verified live, all `status: new`)
+- **Cost-basis vs 20% cap:** XLE $19,857.31 = 19.65% (headroom $355 before breach); XLK $19,304.02 = 19.10% (headroom $911 before breach). **BOTH near 20% cap — ADD BLOCKED on both.**
+- **Data freshness ✓:** balance_asof 2026-09-09 (previous session close, normal for pre-mkt session); positions intraday_pl (XLE +$288.58, XLK -$277.68 = +$10.90) matches equity delta. Pre-market marks LIVE via position endpoint. Named-stock quotes (FANG/CVX/XOM) STALE post-Wed close with 10%+ spreads — cash-open re-quote required for FRESH.
+
+### Market Context (Thu 9/10 pre-market)
+- Indices Wed 9/9 close: **S&P 7636.36 (-0.48%), Nasdaq 26253.34 (-0.64%), Dow 52380.66 (-0.77%)** — DOW -400 PTS on oil > $100 + Treasury yields at 2023 high
+- Futures Thu pre-mkt: **ES 7626.75 (-0.22%), NQ 29221.25 (-0.77%)** — mild soft open (within ES < -0.5% gate)
+- VIX: **17.03 (+8.33%)** — elevated pre-PPI/ORCL, choppy tape expected
+- **WTI $99.43 (+3.52%). Brent $104.56 (+3.31%). OIL > $100 CONFIRMED.** Gulf strikes / Iran-shock premium sustained.
+- **BIG NEWS:** "Dow falls 400 pts as oil tops $100 and treasury yields hit 2023 high" (Invezz 9/9); "The $100 Oil Tipping Point: The Economy Is Running Out of Shock Absorbers" (Benzinga 9/10); "ECB set to hike as Iran war fuels fresh inflation fears" (Reuters 9/9). Oil > $100 = major macro pivot; ECB confirmed 25bp hike (2.50% deposit) 9/10 morning — done deal.
+- **Sector momentum (Wed close):** XLE #1 (+0.83%), XLK #2 (+0%); XLF #3 (-0.42%); XLV #4 (-0.33%); XLB #5 (-1.06%); XLP #6 (-1.15%); XLI #7 LAST (-1.51%) — INDUSTRIALS FLIPPED TO LAST on rate-hike/oil headwind
+- **XLE pre-mkt $66.25 vs Wed close $65.31 = +1.44% pre-mkt.** Energy leadership continues on oil > $100 catalyst.
+- **XLK pre-mkt $185.20 vs Wed close $187.87 = -1.42% pre-mkt.** Weakening pre-PPI; cushion to $180 flag +$5.20 = +2.89% (TIGHTENING).
+- **This week's macro calendar (Wk-14):**
+  - **Thu 9/10 (TODAY):** PPI 08:30 ET (consensus 5.3% YY from 4.8%, 0.4% MoM from 0%; core 4.6% from 4.2% YY) — HOT EXPECTED. ECB 25bp hike 9/10 morning (confirmed). **ORCL Q1 FY27 earnings AH — 83.5% probability beat per Polymarket; $47.8B swing potential.**
+  - Fri 9/11: CPI 08:30 ET (consensus +0.4% MoM after +0.1%; core +0.2% MoM easing to 2.4% YoY)
+  - Wk-15: **FOMC Wed 9/16 decision (T-6 days) — HALF-SIZE rule active on ALL Wk-14 fresh entries.**
+- **Fed hike odds:** PPI hot + CPI hot + oil > $100 = pivot for FOMC 9/16 hawkish surprise risk.
+
+### Trade Ideas — Qualification Table (Thu 9/10 open)
+
+**Idea 1: XLE ADD ~$355 max — DOES NOT QUALIFY (Buy-Side Gate: 20% cost cap).**
+- Sector momentum XLE #1 ✓; catalyst oil > $100 / Gulf strikes ✓; stop 10% definable ✓; R:R 2:1 achievable ✓
+- **FAILED Test:** Buy-Side Gate — Position cost $19,857.31 = 19.65%; ADD > $355 breaches 20% cap. $355 add is not a meaningful position.
+- **DOES NOT QUALIFY on 20% cap gate.** No action.
+
+**Idea 2: XLK ADD ~$911 max — DOES NOT QUALIFY (Buy-Side Gate: 20% cost cap).**
+- Sector momentum XLK #2 borderline (0% Wed) ✗; catalyst ORCL AH T-0 binary + semi rally ✓
+- **FAILED Test:** Buy-Side Gate — Position cost $19,304.02 = 19.10%; ADD > $911 breaches 20% cap. Plus PPI-hot vulnerability + rising yields = tech headwind.
+- **DOES NOT QUALIFY on 20% cap gate + Test 2 (sector momentum borderline post-PPI).** No action.
+
+**Idea 3: FANG (Diamondback Energy) FRESH ~$5K half-size (E&P higher-beta on oil > $100).**
+- Catalyst: WTI $99.43 (+3.52%) / Brent $104.56 (+3.31%) — Gulf strikes intensifying; Zacks 9/9 flagged Permian stocks (FANG/XOM/CVX) as bull-of-the-day watch ✓
+- Sector momentum: XLE #1 sector ✓; sustained leadership on Iran-shock premium
+- Stop 10%: definable — entry ~$201 (Wed close mid), stop $180.90 ✓
+- R:R: entry $201, stop $180.90 (-$20.10), target 1 $221.10 (+10%) = 1:1; target 2 $241.20 (+20%) = 2:1 ✓ — achievable on WTI $105+ sustained + Iran premium
+- Buy-Side Gate: FRESH position count 2→3 (under 6 cap ✓); Wk-14 count 1→2/3 ✓; $5K cost = 4.95% << 20% cap ✓; cash $61,474.81 sufficient ✓; PDT 0/3 ✓
+- **STALE QUOTE BLOCKER:** ap $210.70 / bp $191.34 = 10.1% spread (Wed 20:00 UTC after-hours). Cash-open re-quote required for entry.
+- **QUALIFIES conditional on cash-open re-quote < 1% spread AND rotation confirmation.** ENTER AT OPEN if: FANG spread < 1% at cash open (09:30 ET) AND FANG > $200 AND XLE > $65.50 (energy leadership persists post-PPI print) AND ES not red > 0.5% at MARKET-OPEN routine runtime → half-size FRESH ~25 sh @ ~$201 (~$5,025). Place trail 10% GTC on 25 sh. Wk-14 slot 2/3 after fill.
+
+**Idea 4: CVX (Chevron) FRESH ~$5K half-size — MUTUALLY EXCLUSIVE FALLBACK to FANG.**
+- Catalyst: same oil > $100 / Gulf strikes ✓; Permian bull-of-the-day (Zacks 9/9) ✓
+- Sector momentum: XLE #1 ✓
+- Stop 10%: definable — entry ~$213 (Wed close mid), stop $191.70 ✓
+- R:R: entry $213, stop $191.70 (-$21.30), target $255.60 (+20%) = 2:1 ✓; mega-cap lower beta = 2:1 stretch on 4-6wk timeframe LESS likely than FANG
+- Buy-Side Gate: same as FANG (all pass) ✓
+- **STALE QUOTE BLOCKER:** ap $223.60 / bp $201.92 = 10.7% spread.
+- **QUALIFIES conditional on cash-open re-quote < 1% spread + FANG unavailable.** Same gates as FANG; ~24 sh @ ~$213 (~$5,112). Use ONLY if FANG spread > 1% at cash open.
+
+**Idea 5: XOM (ExxonMobil) FRESH ~$5K half-size — MUTUALLY EXCLUSIVE FALLBACK to FANG/CVX.**
+- Catalyst: same oil > $100 / Permian ✓
+- Sector momentum: XLE #1 ✓
+- Stop 10%: definable — entry ~$163, stop $146.70 ✓
+- R:R: entry $163, stop $146.70 (-$16.30), target $195.60 (+20%) = 2:1 ✓; mega-cap lower beta
+- Buy-Side Gate: all pass ✓
+- **STALE QUOTE BLOCKER:** ap $171.41 / bp $154.37 = 11.0% spread.
+- **QUALIFIES conditional on cash-open re-quote + FANG/CVX unavailable.** ~31 sh @ ~$163 (~$5,053). Third-choice fallback.
+
+**Idea 6: SLB / semi-basket FRESH — DOES NOT QUALIFY.**
+- SLB energy services high-beta: same theme, no priority over FANG (higher-beta E&P is cleaner catalyst-to-name link)
+- Semi basket (INTC, AMD, TSMC): sector XLK #2 borderline post-PPI risk; PPI hot = rising yields = tech vulnerable Thu → **DOES NOT QUALIFY on Test 2 (momentum) post-PPI**
+
+### Management Priorities for Market-Open Routine (Thu 9/10 09:30 ET)
+
+- **PPI PRINT 08:30 ET — TAPE-SHAPING EVENT.** Read print, then decide:
+  - **HOT (5.3%+ YY confirmed):** energy leadership reinforced (cyclical resilience); tech/rate-sensitive vulnerable; FANG/CVX/XOM FRESH gate active
+  - **IN-LINE / COOL:** broad relief rally; energy edge dilutes; consider SKIPPING FRESH (fresh entry needs specific edge, broad rally offers none for E&P)
+- **XLE (307 sh, mtm $66.25 pre-mkt +1.44%) — HOLD, ratchet auto.** Cushion to first-tighten $74.38 (+15% wtd) = 12.27%; cushion to -7% cut $60.15 = 9.21%. Trail 10% $59.3235 hwm $65.915 GTC intact (both legs unified 442df295 74sh + 2cae6815 233sh). Server hwm ratchets automatically. NO MANUAL ACTION unless XLE < $62 thesis-break OR hwm > $74.38.
+- **XLK (104 sh, mtm $185.20 pre-mkt -1.42%) — HOLD, thesis-break flag TIGHTENING.** Pre-mkt $185.20 = cushion to $180 flag +$5.20 (+2.89%; DOWN from Wed +4.31%). Trail 10% $172.575 hwm $191.75 GTC covers full 104 sh (5451fa24 50sh + f2c0dace 54sh). First-tighten trigger $213.46 = 15.26% cushion. **ORCL AH TONIGHT** = binary catalyst; 83.5% beat probability per Polymarket + $47.8B swing = mostly upside skew, but tail risk of PPI hot + ORCL miss = XLK breach $180 tomorrow. **CONDITIONAL EXIT trigger armed:** if XLK intraday breaches $180 → thesis-break EXIT 104 sh (cancel 5451fa24 + f2c0dace, market sell). Do NOT wait for -7% cut trigger $172.62.
+- **FRESH FANG ~$5K half-size (25 sh @ ~$201) — CONDITIONAL ENTER AT OPEN.** Gate stack: PPI print HOT AND FANG cash-open spread < 1% AND FANG > $200 AND XLE > $65.50 AND ES not red > 0.5% → market buy 25 sh; place trail 10% GTC on 25 sh. HALF-SIZE per FOMC 9/16 T-6 event-vol rule. Wk-14 slot 1→2/3.
+- **FALLBACK CVX 24 sh @ ~$213 (~$5,112) OR XOM 31 sh @ ~$163 (~$5,053)** — same gates as FANG; use if FANG spread > 1% at cash open. MARKET-OPEN routine picks first-available with tight spread. **ONE E&P NAME MAX per session.**
+- **NO XLE/XLK ADD** — 20% cost cap blocks both. Confirmed BLOCKED.
+- **Cost-basis re-check before FRESH order fires:** re-verify XLE 19.65% + XLK 19.10% still under 20% at moment of fill (equity may drift with pre-mkt marks). FRESH FANG/CVX/XOM cost ~5% << 20% ✓.
+
+### Risk Factors (Thu 9/10)
+
+- **PPI 08:30 ET = tape-shaping binary.** Consensus 5.3% YY hot expected. Hot print = XLK/XLF vulnerable, XLE cyclical resilience. Very hot print (>5.5%) = sharp rate-hike repricing = broad-index selloff, energy relatively insulated but not immune.
+- **Oil > $100 = macro pivot.** WTI $99.43 / Brent $104.56 crossed $100 threshold. Benzinga notes "economy running out of shock absorbers." Dow fell 400pts Wed on this + yields. Sustained > $100 = inflation feedback loop + demand destruction risk 4-6wk out.
+- **ORCL AH earnings T-0 = binary XLK read-through.** 83.5% beat probability per Polymarket ($47.8B swing potential) = mostly upside skew, but miss = XLK potentially breaches $180 flag tomorrow. XLK pre-mkt cushion +2.89% is TIGHTEST of past two weeks.
+- **ECB 25bp hike confirmed 9/10 morning** — 2.50% deposit rate. Euro yields multi-year high. Priced-in but adds to global rate-tightening tape.
+- **VIX 17.03 (+8.33%)** = meaningful vol pickup pre-PPI. Wider intraday ranges expected. Not a blocker but re-affirms HALF-SIZE prudence.
+- **XLE ADD blocked at 20% cost cap.** Cannot lean further into strongest-momentum sector. Only path to increased energy exposure is FRESH single-name E&P (FANG/CVX/XOM).
+- **XLK $180 flag TIGHTENING** (+2.89% cushion vs +4.31% Wed). Pre-committed EXIT threshold armed for intraday breach.
+- **Stale-quote data risk for FRESH names.** FANG/CVX/XOM Wed 20:00 UTC quotes all 10%+ spreads = after-hours illiquid book. Cash-open confirmation MANDATORY; wide spread at open = SKIP FRESH.
+- **FOMC 9/16 T-6 days = event-vol pre-window active.** HALF-SIZE rule on ALL Wk-14 fresh entries (applied to Ideas 3-5).
+- **CPI Fri 9/11 T-1 day** = second inflation print completes double-print pivot. If both hot → high-conviction FOMC 9/16 hawkish surprise.
+- **Deployment 39.18% vs 75-85% target = 36-46pt gap.** FRESH FANG ~$5K → 44.15% deployed, still 31-41pt gap. Not forcing fills below qualification bar.
+- **Structural routine health:** 12th consecutive full-slate day since Aug 27 resumption. Recovery holding.
+
+### Decision — DEFAULT TRADE (FANG FRESH conditional), HOLD XLE/XLK, NO ADD (20% cap)
+
+- **HOLD XLE (307 sh), XLK (104 sh).** Both inside -7% envelope. XLE thesis strengthening on oil > $100. XLK thesis-flag TIGHTENING pre-PPI/ORCL — conditional intraday EXIT armed on $180 breach.
+- **NO XLE ADD, NO XLK ADD** — 20% cost cap gate BLOCKS both (XLE 19.65%, XLK 19.10% cost basis).
+- **CONDITIONAL FRESH AT OPEN — MUTUALLY EXCLUSIVE (max 1 fill), HALF-SIZE per FOMC T-6:**
+  1. **FANG 25 sh @ ~$201 (~$5,025)** — IF PPI HOT (≥5.3% YY) AND FANG cash-open spread < 1% AND FANG > $200 AND XLE > $65.50 AND ES not red > 0.5% → market buy 25 sh; trail 10% GTC.
+  2. **CVX 24 sh @ ~$213 (~$5,112)** — fallback if FANG spread > 1% at open; same rotation/PPI gates.
+  3. **XOM 31 sh @ ~$163 (~$5,053)** — fallback if FANG/CVX both unavailable; same gates.
+  - MARKET-OPEN routine picks FIRST-AVAILABLE with tight spread + tape confirmation. Only ONE E&P name per session. Wk-14 slot 1→2/3 after fill.
+  - **SKIP FRESH entirely if:** PPI comes in ≤ consensus (broad relief rally = no specific E&P edge) OR ES red > 0.5% (macro-risk-off overrides sector edge) OR all three FRESH names still show > 1% spread 15 min into cash session (data-quality skip).
+- **XLK CONDITIONAL EXIT — armed on $180 intraday breach.** If XLK trades < $180 intraday → cancel 5451fa24 (50 sh) + f2c0dace (54 sh) GTC trails, market sell 104 sh. Thesis-break exit (flag pre-committed from prior sessions).
+- **XLE ratchet monitoring** — server hwm $65.915 auto-ratchets both legs. First-tighten trigger $74.38 wtd (cushion 12.27%).
+- **Wk-14 slot budget:** 1/3 used → potentially 2/3 (FANG/CVX/XOM FRESH); 1 slot preserved for Fri (post-CPI) if qualifying setup emerges.
+- **FOMC 9/16 T-6 days.** All Wk-14 fresh entries HALF-SIZE per event-vol strategy rule.
+- **PDT check:** 0/3 daytrades; FRESH FANG/CVX/XOM + potential XLK EXIT = different symbols, no round-trip; PDT unaffected.
+- **QUALIFIES → TRADE (conditional on PPI print + cash-open confirmation).** Not a flat-week violation IF PPI in-line/cool triggers legitimate SKIP (Test 1 catalyst fails). IS a violation if PPI hot + FANG tight spread + XLE > $65.50 + ES green and we fail to fill.
