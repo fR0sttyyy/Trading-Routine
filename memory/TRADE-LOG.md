@@ -1781,3 +1781,66 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **CPI Fri 9/11 08:30 ET T-1 day** — inflation double-print completion.
 7. **FANG re-quote check** — if quote clean (< 1% spread), qualifying E&P alt watchlist for Thu/Fri.
 8. **Wk-14 slot budget:** 1/3 used, 2 preserved.
+
+### Sep 10 — Market-Open Routine (Thursday, 09:38 ET — Wk-14 Day 4 / 1 ACTION: FANG FRESH half-size on PPI hot + oil > $100)
+**Portfolio:** $100,783.99 | **Cash:** $61,474.81 → $56,340.33 (55.90% post-fill) | **Positions:** 2 → 3 (XLE + XLK + FANG) | **Wk-14 trades:** 1 → 2/3 used | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost/Proceeds | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| FANG | BUY | 25 | $205.3792 | $5,134.48 | $184.5225 (trail 10% GTC, hwm $205.025, id 3ba2c504) | PPI hot 5.4% YY (>consensus 5.3%) reinforces energy cyclical resilience; oil > $100 confirmed (WTI $99.43 / Brent $104.56 Gulf strikes catalyst); XLE #1 sector; Zacks Permian bull-of-the-day (FANG/XOM/CVX); higher-beta E&P vs mega-cap peers | $225.92 (+10%) / stretch $246.46 (+20%) | 1:1 base / 2:1 stretch |
+
+**Pre-market plan execution:**
+- **FANG FRESH ✓ ALL GATES MET.** PPI HOT 5.4% YY (>5.3% consensus) ✓; FANG cash-open spread $206.28/$205.11 = 0.57% < 1% ✓; FANG > $200 (mid $205.70) ✓; XLE fractionally at gate ($65.48-$65.50, energy leadership persists +0.26% intraday vs XLK -1.46%) ✓; ES pre-mkt +0.13% not red > 0.5% ✓. Market-open pick vs CVX/XOM fallbacks: FANG picked (clean spread + higher-beta E&P + Wed pre-market first-choice). CVX spread 10.86% ✗ dirty; XOM spread 1.98% ✗ borderline. Half-size 25 sh × $205.3792 = $5,134.48 = 5.09% of $100,833.76 equity. Trail 10% GTC placed (id 3ba2c504, stop $184.5225, hwm $205.025). Wk-14 slot 1→2/3 consumed.
+- **XLK $180 flag INTACT — NO EXIT.** Live $185.13 = +$5.13 cushion (+2.85%) above $180 flag; TIGHTENING but NOT breached. Conditional EXIT remains armed for intraday breach; no action this routine.
+- **XLE / XLK NO ADD** — 20% cost cap gate BLOCKS both (XLE 19.65% cost basis, XLK 19.14%). Confirmed unchanged.
+
+**Hard-check gates (all pass on FANG FRESH):**
+- Total positions after fill: 3 (XLE, XLK, FANG) ≤ 6 ✓
+- Wk-14 trades after fill: 2/3 ≤ 3 ✓
+- FANG cost $5,134.48 = 5.09% of $100,833.76 equity (≤ 20%) ✓
+- FANG cost $5,134.48 ≤ cash $61,474.81 ✓
+- Catalyst documented (RESEARCH-LOG 2026-09-10 Idea 3) ✓
+- PDT room: daytrade_count 0/3; FANG buy + potential same-day protective exit = 1 daytrade if needed, 2 remaining ✓
+- Stock instrument ✓
+
+**Execution audit (13:38-13:39 UTC / 09:38-09:39 ET):**
+1. 09:36:35 ET — Live quote FANG ap $206.28 / bp $205.11 (spread 0.57%) ✓ gate met
+2. 09:38:33 ET — Submitted market buy 25 sh FANG (order ccd77c39, client_order_id bot-20260910-FANG-133833-19842). Fill 25 sh @ $205.3792 avg (cost $5,134.48).
+3. 09:38:55 ET — Submitted trail 10% GTC sell 25 sh FANG (order 3ba2c504, stop $184.5225 hwm $205.025). Position protected.
+4. All orders confirmed via positions refetch. Zero coverage gap.
+
+**Cut-loser gate NO-OP on book:**
+- XLE 307 sh wtd $64.6818, live $65.48 = +$245.05 (+1.23%). Cut trigger $60.15 wtd (-8.15% cushion). No action.
+- XLK 104 sh @ $185.616, live $185.13 = -$50.50 (-0.26%). Cut trigger $172.62 (-6.75% cushion). No action.
+- FANG 25 sh @ $205.3792, live $205.04 = -$8.48 (-0.17%). Just filled. No action.
+
+**Tighten-trail check NO-OP:** all three below first-tighten (+15%). XLE cushion 13.60% to $74.38 wtd; XLK cushion 15.30% to $213.46; FANG cushion 12.94% to $236.19 (+15% from $205.38). None near.
+
+**Live-quote confirmation (09:36 ET):** XLE $65.49/$65.50 tight ✓; XLK $185.35/$185.40 tight ✓; FANG $205.11/$206.28 clean 0.57% ✓; CVX $205.91/$228.27 WIDE 10.86% ✗ (fallback skipped); XOM $165.72/$169.00 wide 1.98% ✗ (fallback skipped). SPY $758.37/$758.89 tight. No halts.
+
+**Post-action order state (4 GTC stops covering 3 positions, 5 legs):**
+- XLE 233 sh: trail 10% $59.3235 hwm $65.915 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.3235 hwm $65.915 (442df295) — unchanged
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+- FANG 25 sh: trail 10% $184.5225 hwm $205.025 (3ba2c504) — NEW
+
+**Deployment:** $39,358.95 mv pre-fill (39.03%) → $44,443.66 mv post-fill (44.10%). FANG add net +5.1pp. Below 75-85% target by 31-41pp; Wk-14 slot 3 remaining preserved for Fri post-CPI qualifying setup (HALF-SIZE per FOMC T-6).
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE) + 1 energy single-name (FANG) + 1 tech ETF (XLK). Energy concentration = $25,236 mv (25% of equity) — heavy energy weighting on sustained Gulf-strikes / oil > $100 catalyst. Not a rule breach; individual position caps intact (XLE 19.94% mv, FANG 5.08% mv, XLK 19.09% mv). Materials slot EXITED at Wed open. Wk-14 slot budget 2/3 used, 1 preserved for Fri.
+
+**Wk-14 slot budget:** 2/3 used (XLE ADD Wed + FANG FRESH Thu). 1 slot preserved for Fri (post-CPI). FOMC 9/16 T-6 days = HALF-SIZE rule active on any remaining Wk-14 fresh entry.
+
+**Realized P&L this trade:** $0 (fresh entry). Cumulative phase P&L $100,833.76 - $100,000 = +$833.76 (+0.83%; day P&L -$229.70 vs Tue baseline includes XLK -$285 pre-PPI weakness offset by XLE +$245).
+
+**STEP 7 ClickUp send:** posting concise recap (FANG FRESH, stop set, PPI hot + oil > $100 catalyst).
+
+**Next checkpoints:**
+1. **Midday scan** — FANG thesis check (oil > $100 hold); XLE ratchet monitoring; XLK $180 flag TIGHTENING (cushion +2.85%); ORCL AH catalyst T-0.
+2. **EOD Thu 9/10** — Wk-14 Day 4 snapshot including FANG fresh MTM + ORCL AH earnings binary.
+3. **ORCL AH earnings T-0** — XLK read-through binary; 83.5% Polymarket beat probability but tail risk XLK breach $180 tomorrow.
+4. **CPI Fri 9/11 08:30 ET T-1 day** — inflation double-print completion; hot CPI + hot PPI = high-conviction FOMC 9/16 hawkish surprise.
+5. **XLK conditional EXIT armed** — intraday breach of $180 → thesis-break EXIT 104 sh (cancel 5451fa24 + f2c0dace, market sell). No manual action unless breached.
+6. **XLE ratchet monitoring** — first-tighten trigger $74.38 wtd (cushion 13.60%); server hwm $65.915 auto-ratchets both legs.
+7. **FANG ratchet monitoring** — first-tighten trigger $236.19 (cushion 12.94%); trail 10% $184.5225 GTC covers 25 sh.
+8. **Wk-14 slot budget:** 2/3 used, 1 preserved for Fri.
