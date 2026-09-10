@@ -1886,3 +1886,26 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLE ratchet monitoring** — server hwm $66.17 (up from $65.915). First-tighten trigger $74.38 wtd (cushion 14.18%).
 6. **FANG ratchet monitoring** — first-tighten trigger $236.19 (cushion 15.25%); trail 10% $184.5225 GTC covers 25 sh.
 7. **Wk-14 slot budget:** 2/3 used, 1 preserved for Fri.
+
+### Sep 10 — EOD Snapshot (Day 66, Thursday — Wk-14 Day 4 / 1 trade today: FANG FRESH half-size)
+**Portfolio:** $100,707.26 | **Cash:** $56,340.33 (55.94%) | **Day P&L:** -$360.09 (-0.356%) | **Phase P&L:** +$707.26 (+0.707%)
+
+| Ticker | Shares | Entry (wtd) | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $65.035 | -0.42% | +$108.43 (+0.55%) | $59.553 (trail 10%, hwm $66.17) |
+| XLK | 104 | $185.616 | $185.36 | -1.34% | -$26.58 (-0.14%) | $172.575 (trail 10%, hwm $191.75) |
+| FANG | 25 | $205.3792 | $204.93 | +1.14% | -$11.23 (-0.22%) | $185.166 (trail 10%, hwm $205.74) |
+
+**Notes:** PPI hot-print day executed to plan. FANG FRESH filled at 09:38 ET (25 sh @ $205.3792, cost $5,134.48 = 5.09%) half-size per FOMC 9/16 T-6 rule; trail 10% GTC armed and server-ratcheted intraday (stop $184.5225 → $185.166, hwm $205.025 → $205.74). Book softened into close: XLK -1.34% (ORCL AH earnings T-0 binary weighing) drove -$261 intraday drag on tech; XLE -0.42% mild giveback despite Gulf-strikes catalyst persistence; FANG +1.14% off entry but slightly red MTM. Net day P&L -$360.09 (-0.356%) vs Sep 9 EOD $101,067.35 baseline (one trading-day span, no gap). Phase P&L +$707.26 (+0.707%). Deployment 44.06% ($44,366.93 mv) — below 75-85% target by 31-41pp; Wk-14 slot 3 preserved for Fri post-CPI qualifying setup (HALF-SIZE per FOMC T-5). All three positions inside cut/tighten envelopes. XLK $180 thesis-break flag ROUTINE cushion +$5.36 (+2.98%); conditional EXIT armed for intraday breach. ORCL AH earnings binary catalyst tonight — 83.5% Polymarket beat probability but tail-risk XLK breach $180 tomorrow.
+
+**Trades today (Thu 9/10):** 1 total — **FANG BUY 25 sh @ $205.3792** (Wk-14 slot 2/3 used, PPI hot 5.4% YY + oil > $100 Gulf-strikes catalyst, half-size FOMC T-6). New GTC: 3ba2c504 FANG 25-sh trail 10% $184.5225 hwm $205.025 (intraday ratcheted to $185.166 / $205.74). No daytrade round-trips → daytrade_count 0/3 preserved.
+
+**Wk-14 trades running total:** 3 raw actions (XLB EXIT 9/9 + XLE ADD 9/9 + FANG FRESH 9/10) / 2 slot-consuming fresh-entry-or-add (XLE ADD + FANG FRESH). 1 Wk-14 slot preserved for Fri.
+
+**Tomorrow (Fri 9/11 — Wk-14 Day 5 / CPI 08:30 ET T-day):**
+1. **Pre-market re-scan** — refresh setup universe post-CPI; digest print for hot/cool vs consensus. Any Fri fresh entry HALF-SIZE (FOMC T-5).
+2. **ORCL AH earnings overnight** — XLK read-through binary; monitor Thu AH tape for XLK re-open direction Fri.
+3. **XLK conditional EXIT armed** — intraday breach of $180 → thesis-break EXIT 104 sh (cancel 5451fa24 + f2c0dace, market sell). Cushion tightened to +2.98%.
+4. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.6%).
+5. **FANG ratchet monitoring** — server hwm $205.74; first-tighten trigger $236.19 (cushion 15.3%).
+6. **Wk-14 slot budget:** 2/3 used, 1 preserved for Fri post-CPI qualifying setup.
