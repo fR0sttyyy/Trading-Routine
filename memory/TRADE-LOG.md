@@ -1909,3 +1909,44 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 4. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.6%).
 5. **FANG ratchet monitoring** — server hwm $205.74; first-tighten trigger $236.19 (cushion 15.3%).
 6. **Wk-14 slot budget:** 2/3 used, 1 preserved for Fri post-CPI qualifying setup.
+
+### Sep 11 — Midday Scan (Friday, 12:03 ET — Wk-14 Day 5 / NO-OP)
+**Portfolio (live marks):** $101,039.64 equity | 3 positions (XLE + XLK + FANG) | Cash $56,340.32 (55.76%) | Deployment $44,699.32 (44.24%) | Day P&L +$368.18 (+0.366% vs Thu close $100,671.46) | daytrade_count 0/3
+
+| Ticker | Shares | Entry (wtd) | Live | Unrealized P&L | Cushion to Cut | Cushion to +15% |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $65.255 | +$175.97 (+0.89%) | 7.82% ($60.15) | 13.98% ($74.38) |
+| XLK | 104 | $185.6156 | $188.30 | +$279.18 (+1.45%) | 8.35% ($172.62) | 13.36% ($213.46) |
+| FANG | 25 | $205.3792 | $203.59 | -$44.73 (-0.87%) | 6.19% ($190.85) | 13.79% ($236.19) |
+
+**STEP 3 — Cut losers NO-OP.** All three inside -7% envelope; nearest FANG -0.87% (cushion 6.19% to cut). Zero manual cuts.
+
+**STEP 4 — Tighten-trail NO-OP.** All below first-tighten +15% trigger. XLE cushion 13.98%, XLK 13.36%, FANG 13.79%. No cancel-then-replace.
+
+**STEP 5 — Thesis check ALL INTACT.**
+- **XLE:** Live $65.255 above $65.50 gate zone; Gulf-strikes / oil > $100 catalyst persistent post-CPI. HOLD.
+- **XLK:** Live $188.30 = +$8.30 cushion (+4.61%) above $180 flag — WIDENING vs Thu close +2.98%. ORCL AH beat +7% tailwind delivered; sector re-rating in progress post-CPI. Conditional EXIT remains armed on $180 breach but probability sharply reduced.
+- **FANG:** Live $203.59 above $200 entry gate (-0.87% MTM). Higher-beta E&P thesis intact; energy leadership persistent. HOLD.
+
+**Order book state (5 GTC stops covering 3 positions, unchanged from Thu close):**
+- XLE 233 sh (2cae6815): trail 10% $59.553 hwm $66.17
+- XLE 74 sh (442df295): trail 10% $59.553 hwm $66.17
+- XLK 50 sh (5451fa24): trail 10% $172.575 hwm $191.75
+- XLK 54 sh (f2c0dace): trail 10% $172.575 hwm $191.75
+- FANG 25 sh (3ba2c504): trail 10% $185.1795 hwm $205.755
+
+**Deployment:** $44,699.32 mv / $101,039.64 equity = 44.24%. Below 75-85% target by 31-41pp; Wk-14 slot 3 unused at midday.
+
+**STEP 6 — Intraday research: SKIP.** Nothing moving sharply without cause; all three positions within ±1.5% intraday.
+
+**STEP 7 — ClickUp: SKIP (no action taken).**
+
+**Wk-14 slot budget:** 2/3 used, 1 remaining for Fri afternoon setup if qualifies.
+
+**Next checkpoints:**
+1. **EOD Fri 9/11** — Wk-14 close snapshot; CPI print outcome digest; FOMC 9/16 T-5 posture confirmed.
+2. **XLK $180 conditional EXIT** — armed but probability sharply reduced post-ORCL beat + XLK +1.66% intraday.
+3. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.98%).
+4. **FANG ratchet monitoring** — server hwm $205.755; first-tighten trigger $236.19 (cushion 13.79%).
+5. **Wk-14 slot budget:** 2/3 used, 1 remaining.
+6. **FOMC 9/16 T-5** — HALF-SIZE rule active on any remaining fresh entry.
