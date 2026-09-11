@@ -4825,3 +4825,120 @@ Plan for Tue 7/14 market-open workflow (runtime, post-CPI, no clock-time gates):
 - **FOMC 9/16 T-6 days.** All Wk-14 fresh entries HALF-SIZE per event-vol strategy rule.
 - **PDT check:** 0/3 daytrades; FRESH FANG/CVX/XOM + potential XLK EXIT = different symbols, no round-trip; PDT unaffected.
 - **QUALIFIES → TRADE (conditional on PPI print + cash-open confirmation).** Not a flat-week violation IF PPI in-line/cool triggers legitimate SKIP (Test 1 catalyst fails). IS a violation if PPI hot + FANG tight spread + XLE > $65.50 + ES green and we fail to fill.
+
+
+## 2026-09-11 — Pre-market Research (Friday, Wk-14 Day 5 / CPI T-DAY + ORCL BEAT +7% AH + MU AH)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-10)
+- Equity: $100,671.95 (+$0.49 vs last_equity $100,671.46; positions marked pre-mkt)
+- Cash: $56,340.32 (55.97%) | Buying power: $349,489.84 | non-marginable BP $78,506.13 | SMA $98,496.22
+- Long market value: $44,331.63 (44.04% deployed) | Maint margin $13,299.49
+- Daytrade count: 0/3 assumed (field absent from response; last confirmed 0/3 Thu EOD, no round-trips since)
+- Wk-14 slot budget: 2/3 used (XLE ADD Wed 9/9 + FANG FRESH Thu 9/10); **1 slot preserved for Fri = TODAY**
+- Positions (3):
+  - FANG 25 @ $205.3792 (mtm $203.00 pre-mkt, -1.16% intraday, unrl -$59.48 / -1.16%; trail 10% $185.1795 hwm $205.755)
+  - XLE 307 @ $64.681792 (mtm $64.53 pre-mkt, -0.62% intraday, unrl -$46.60 / -0.23%; trail 10% $59.553 hwm $66.17)
+  - XLK 104 @ $185.615577 (mtm $186.98 pre-mkt, +0.95% intraday, unrl +$141.90 / +0.74%; trail 10% $172.575 hwm $191.75)
+- Open orders: 5 GTC trailing stops covering all 3 positions (verified live, all `status: new`)
+- **Cost-basis vs 20% cap:** XLE $19,857.31 = 19.72% (headroom $278 → ADD BLOCKED); XLK $19,304.02 = 19.18% (headroom $830 → ADD BLOCKED); FANG $5,134.48 = 5.10% (headroom $15,000 → ADD POSSIBLE).
+- **Data freshness ✓:** balance_asof 2026-09-10 (previous session close, normal for pre-mkt session); position intraday_pl matches equity delta. Named-stock quotes (FANG/XLE/XLK) STALE post-Thu 20:00 UTC close (ap=0 illiquid AH book) — cash-open re-quote required for any FRESH order. Position endpoint pre-mkt marks LIVE.
+
+### Market Context (Fri 9/11 pre-market)
+- Indices Thu 9/10 close: **S&P 7591.7 (-0.58%), Nasdaq 26081.7 (-0.65%), Dow 52064.1 (-0.60%)** — third straight red session on rate-hike / oil > $100 headwinds
+- Futures Fri pre-mkt: **ES 7643.0 (+0.59%), NQ 29328.5 (+0.66%)** — GREEN pre-mkt on ORCL beat AH tailwind
+- VIX: **16.99 (+3.22%)** — elevated but tame ahead of CPI 08:30 ET
+- **WTI $99.15 (-3.25%). Brent $104.25 (-3.14%). Oil PULLBACK today** off Thu spike ($102.60/$107.60 peaks). Brent > $100 sustained = Gulf premium intact; WTI kissing $100 line = watch for reclaim.
+- **BIG NEWS OVERNIGHT:**
+  - **ORCL Q1 FY27 BEAT +7% AH:** revenue $19.35B (+30% YoY), NI $4.68B ($1.56 EPS), cloud infra $7.4B (+121%), raised FY27 guidance to $90B / $8.10 EPS. Record AI backlog. XLK read-through STRONGLY POSITIVE.
+  - **MU Q4 FY26 earnings AH TONIGHT:** analyst expectations elevated (HBM demand + DRAM pricing).
+  - **CPI 08:30 ET consensus 3.4% YY** (Kalshi/market prediction), core easing to 2.4% YoY per FXStreet; hot print (>3.5%) reinforces FOMC 9/16 hawkish surprise; in-line (~3.4%) = tape-neutral; cool (<3.3%) = relief rally + tech re-rating up.
+  - **Brent settled $108.68 / WTI $103.45 Thu** — first week over $100 in ~4 months; pullback pre-mkt Fri is normal profit-take, thesis still active.
+- **Sector momentum (Thu 9/10 close):** XLP #1 (+0.05%; only green defensive); XLF #2 (-0.33%); XLV #3 (-0.55%); XLE #4 (-0.58%); XLI #5 (-0.72%); XLB #6 (-1.23%); **XLK #7 LAST (-1.41%)** — TECH LAST on rate-hike vulnerability pre-ORCL. ORCL beat AH should FLIP XLK back to leadership Fri.
+- **XLE pre-mkt $64.53 vs Thu close $64.93 = -0.62%.** Oil pullback pressuring; Brent > $104 = thesis intact but sector momentum softening.
+- **XLK pre-mkt $186.98 vs Thu close $185.22 = +0.95%.** ORCL beat AH reverses Thu weakness; cushion to $180 flag +$6.98 (+3.87%; WIDENING vs Thu +2.98%).
+- **FANG pre-mkt $203.00 vs Thu close $204.93 = -0.94%.** Oil pullback pressuring E&P; cushion to trail-stop $185.18 = +8.76%.
+- **Wk-14 macro calendar (Fri 9/11):**
+  - **08:30 ET CPI (TODAY)** — 3.4% YoY consensus; tape-shaping binary
+  - **AH TONIGHT: MU Q4 FY26 earnings** — semis binary
+  - Wk-15: **FOMC Wed 9/16 decision (T-5 days) — HALF-SIZE rule ACTIVE on any Wk-14 fresh entry.**
+
+### Trade Ideas — Qualification Table (Fri 9/11 open)
+
+**Idea 1: ORCL FRESH ~$5K half-size (post-earnings continuation, cloud/AI catalyst).**
+- Catalyst: Q1 FY27 blowout beat +7% AH — revenue $19.35B (+30% YoY), cloud +121%, record AI backlog, raised FY27 guide to $90B/$8.10 EPS ✓
+- Sector momentum: XLK -1.41% Thu (#7 last) BUT ORCL beat AH = expected XLK reversal Fri; ORCL itself has specific-name catalyst independent of sector ✓ (name-catalyst beats sector-weakness signal when catalyst is idiosyncratic)
+- Stop 10%: definable — assume entry ~$315-325 post-gap (last close ~$298 + 7% AH ≈ $319), stop ~$286 ✓
+- R:R: entry $319, stop $287.10 (-$31.90), target 1 $351 (+10%) = 1:1; target 2 $383 (+20%) = 2:1 ✓; post-earnings drift on 30%+ revenue + record backlog historically extends multiple weeks
+- Buy-Side Gate: positions 3→4 (< 6 ✓); Wk-14 count 2→3/3 (last slot) ✓; ~$5K cost = ~5% << 20% cap ✓; cash $56,340 sufficient ✓; PDT 0/3 ✓
+- **STALE QUOTE BLOCKER:** ap=0/bp=0 pre-mkt (20:00 UTC Thu close). Cash-open re-quote MANDATORY for entry.
+- **QUALIFIES conditional on cash-open spread + CPI print not extreme-hot.** ENTER AT OPEN if: ORCL cash-open spread < 1% AND ORCL trades within ±3% of pre-mkt gap ($309-329 band, avoids chasing/panic) AND CPI print not >3.7% YoY (extreme hot = broad risk-off dominates specific-name catalyst) AND ES not red > 0.5% at MARKET-OPEN routine runtime → market buy ~15 sh @ ~$320 (~$4,800). Trail 10% GTC. Wk-14 slot 2→3/3 (LAST SLOT USED).
+
+**Idea 2: FANG ADD ~$5K half-size (energy leadership continuation).**
+- Catalyst: Brent > $104 sustained, Gulf premium intact; oil pulled back Fri pre-mkt but WTI defending $99 = normal profit-take not thesis-break; Iran-Gulf tensions persist ✓
+- Sector momentum: XLE #4 Thu (-0.58%, softest since Aug lead); relative to defensives XLE still #1 among cyclicals ✓ (borderline)
+- Stop 10%: definable — entry ~$203, stop $182.70 ✓
+- R:R: entry $203, stop $182.70 (-$20.30), target $243.60 (+20%) = 2:1 ✓
+- Buy-Side Gate: FANG existing 25 sh + ADD 25 sh → 50 sh cost basis $10,134 = 10.07% (< 20% cap ✓); positions 3 (no change ✓); Wk-14 count 2→3/3 ✓; cash $56,340 sufficient ✓; PDT 0/3 ✓
+- **STALE QUOTE BLOCKER:** ap=0/bp=195.25 pre-mkt. Cash-open re-quote required.
+- **QUALIFIES conditional on cash-open spread + energy sector confirmation.** ENTER AT OPEN if: FANG cash-open spread < 1% AND FANG > $200 AND WTI reclaims $99 (not < $97 which would signal oil breakdown) AND XLE > $64.50 AND ES not red > 0.5% → market buy ~25 sh @ ~$203 (~$5,075). Trail 10% GTC on ADD leg. Wk-14 slot 2→3/3.
+
+**Idea 3: XLE ADD / XLK ADD — DOES NOT QUALIFY (Buy-Side Gate 20% cost cap).**
+- XLE ADD > $278 breaches 20% cap; XLK ADD > $830 breaches 20% cap.
+- **DOES NOT QUALIFY on Buy-Side Gate 20% cost cap.** No action either.
+
+**Idea 4: MU (Micron) FRESH pre-earnings — DOES NOT QUALIFY.**
+- Catalyst: Q4 FY26 earnings AH tonight = binary event risk; entering FRESH pre-earnings = gambling on earnings direction not a documented setup ✗
+- **DOES NOT QUALIFY on Test 1 (specific catalyst = pre-earnings binary, not a directional catalyst).** SKIP.
+
+**Idea 5: CVX / XOM FRESH — DOES NOT QUALIFY (mutually exclusive with FANG ADD).**
+- Same sector, lower beta than FANG. If leaning further into energy on Fri, FANG ADD is cleaner (already-held name, position size <20% cap).
+- **DOES NOT QUALIFY on preference ordering** — FANG ADD is same-sector cleaner allocation. SKIP.
+
+### Ideas 1 vs 2 — mutually exclusive (max 1 fresh action Fri, last Wk-14 slot)
+
+Order of preference at MARKET-OPEN routine runtime:
+1. **ORCL FRESH** — if XLK sector CONFIRMS reversal cash-open (XLK > $187) AND ORCL cash-open spread < 1% AND ORCL in $309-329 band AND CPI print not >3.7% → **PRIORITIZE ORCL**. Post-earnings drift + record backlog + AI catalyst = strongest specific-name catalyst Wk-14. Diversifies from energy concentration (25% currently) into tech leadership reversal.
+2. **FANG ADD (fallback)** — if ORCL cash-open gate FAILS (spread wide, gap chase, or XLK sector fails to confirm) BUT WTI reclaims $99 AND XLE > $64.50 AND FANG > $200 → execute FANG ADD ~$5K half-size.
+3. **SKIP BOTH** — if CPI >3.7% (extreme hot, broad risk-off) OR ES red > 0.5% at open OR both idea 1 & 2 gates fail. Log SKIP with specific gate cited (not "patience" / "wait").
+
+### Management Priorities for Market-Open Routine (Fri 9/11 09:30 ET)
+
+- **CPI PRINT 08:30 ET — TAPE-SHAPING EVENT.** Read print, then decide:
+  - **COOL (<3.3%):** broad tape rally + tech re-rating up → **ORCL FRESH high probability trigger** (idiosyncratic beat + macro relief); FANG ADD lower probability (oil-thesis fades on rate-cut re-pricing)
+  - **IN-LINE (3.3-3.5%):** modest tape moves; ORCL fresh triggers on gap-and-drift; FANG ADD conditional on WTI $99 hold
+  - **HOT (3.5-3.7%):** energy leadership reinforced; **FANG ADD HIGHER probability** than ORCL (rate-hike headwind for tech, oil premium sustained); ORCL still viable on idiosyncratic strength but risk higher
+  - **EXTREME HOT (>3.7%):** broad risk-off dominates → **SKIP BOTH fresh entries**; no valid Wk-14 fresh setup on macro shock day; log SKIP citing Test 1 = catalyst-vs-macro-shock failure
+- **FANG (25 sh, mtm $203 pre-mkt -1.16%) — HOLD, ratchet auto.** Cushion to first-tighten $236.19 (+15% wtd) = 16.35%; cushion to trail-stop $185.18 = 8.76%. Server hwm $205.755 auto-ratchets. NO MANUAL ACTION unless FANG < $195 thesis-break OR hwm > $236.19.
+- **XLE (307 sh, mtm $64.53 pre-mkt -0.62%) — HOLD, ratchet auto.** Cushion to first-tighten $74.38 (+15% wtd) = 15.26%; cushion to -7% cut $60.15 = 6.79%. Server hwm $66.17 auto-ratchets both legs. NO MANUAL ACTION unless XLE < $62 thesis-break OR hwm > $74.38. Oil pullback -3% today = pressure but Brent > $104 = thesis intact.
+- **XLK (104 sh, mtm $186.98 pre-mkt +0.95%) — HOLD, thesis-break flag WIDENING.** ORCL beat +7% AH = XLK tailwind Fri; cushion to $180 flag +$6.98 (+3.87%; UP from Thu +2.98%). Trail 10% $172.575 hwm $191.75 GTC covers full 104 sh. First-tighten trigger $213.46 = 15.26% cushion. Conditional EXIT armed on $180 breach REMAINS but probability dropped sharply post-ORCL. NO MANUAL ACTION unless XLK < $180 (would require -3.7% intraday reversal — unlikely on ORCL day).
+- **Cost-basis re-check before any FRESH order fires:** re-verify XLE 19.72% + XLK 19.18% still under 20% at moment of fill. FRESH ORCL cost ~5% << 20% ✓; FANG ADD cost basis 10.07% << 20% ✓.
+
+### Risk Factors (Fri 9/11)
+
+- **CPI 08:30 ET = tape-shaping binary.** Consensus 3.4% YoY; range 3.3-3.5% market-pricing. >3.5% = risk-off tech pain; <3.3% = relief rally. Extreme-hot (>3.7%) = broad selloff, no valid fresh setup on macro-shock day.
+- **Oil pullback Fri pre-mkt** (-3.25% WTI, -3.14% Brent). Brent > $100 still intact but WTI $99.15 kissing key psychological line; break < $97 = thesis-break signal for E&P names (FANG/CVX/XOM).
+- **ORCL post-earnings gap risk.** +7% AH translation to cash open uncertain (post-earnings gaps often fade 2-3% early). Half-size + 3% pre-mkt band gate protects against chase.
+- **XLK sector rotation UNCERTAIN pre-open.** Thu XLK -1.41% = last sector; ORCL beat AH should reverse but rate-hike backdrop + CPI print risk could dampen. Cash-open XLK price is the confirmation signal.
+- **VIX 16.99 (+3.22%)** = mild elevation pre-CPI. Wider ranges expected. Not a blocker but re-affirms HALF-SIZE prudence.
+- **FOMC 9/16 T-5 days = event-vol pre-window active.** HALF-SIZE rule mandatory on any Wk-14 fresh entry (applied to Ideas 1 and 2).
+- **MU Q4 FY26 earnings AH tonight** — semis binary. Not a Fri-session concern for our book (no MU exposure) but shapes semi tape at cash open.
+- **Stale-quote data risk for FRESH names.** ORCL/FANG Thu 20:00 UTC quotes ap=0 illiquid AH book. Cash-open confirmation MANDATORY.
+- **Wk-14 slot budget: 2/3 used, 1 preserved for TODAY (last slot).** If both Ideas 1 & 2 gate-fail AND CPI not extreme-hot → flat Fri would be borderline violation IF a qualifying setup emerged during cash session that we missed. Log any skip with specific test failure.
+- **Deployment 44.04% vs 75-85% target = 31-41pt gap.** ORCL FRESH or FANG ADD closes gap to ~49% (still 26-36pt under). No forced fills below qualification bar.
+- **Structural routine health:** 13th consecutive full-slate day since Aug 27 resumption.
+
+### Decision — DEFAULT TRADE (ORCL FRESH priority, FANG ADD fallback), HOLD FANG/XLE/XLK
+
+- **HOLD FANG (25 sh), XLE (307 sh), XLK (104 sh).** All inside -7% envelope. XLK $180 conditional EXIT remains armed but ORCL tailwind pushes probability sharply lower.
+- **NO XLE ADD, NO XLK ADD** — 20% cost cap gate BLOCKS both.
+- **CONDITIONAL FRESH AT OPEN — MUTUALLY EXCLUSIVE (max 1 fill), HALF-SIZE per FOMC T-5:**
+  1. **ORCL 15 sh @ ~$320 (~$4,800)** — IF CPI ≤ 3.7% YoY AND ORCL cash-open spread < 1% AND ORCL in $309-329 band (±3% of pre-mkt gap) AND XLK > $187 (sector reversal confirmation) AND ES not red > 0.5% → market buy 15 sh; trail 10% GTC. **PRIORITY 1.**
+  2. **FANG ADD 25 sh @ ~$203 (~$5,075)** — fallback if ORCL gate FAILS (spread wide, gap chase, or XLK sector fails) AND WTI reclaims $99 AND XLE > $64.50 AND FANG > $200 AND ES not red > 0.5% → market buy 25 sh; trail 10% GTC on ADD leg. **PRIORITY 2.**
+  - MARKET-OPEN routine evaluates in order (ORCL first, FANG ADD only if ORCL fails). ONE FILL MAX Fri. Wk-14 slot 2→3/3 (LAST SLOT).
+  - **SKIP BOTH if:** CPI print > 3.7% YoY (extreme hot = broad risk-off dominates) OR ES red > 0.5% at MARKET-OPEN runtime OR both idea-specific gates fail. Log SKIP with specific gate cited.
+- **XLK CONDITIONAL EXIT — armed on $180 intraday breach** (retained but probability sharply reduced post-ORCL). If XLK trades < $180 intraday → cancel 5451fa24 + f2c0dace GTC trails, market sell 104 sh.
+- **XLE / FANG ratchet monitoring** — server hwm $66.17 (XLE) / $205.755 (FANG) auto-ratchets. First-tighten triggers $74.38 / $236.19.
+- **Wk-14 slot budget:** 2/3 used → potentially 3/3 (ORCL or FANG ADD) → 0 preserved for weekend (Wk-15 fresh entries reset Mon). Any weekend qualifying-setup carryover = Wk-15 slot.
+- **FOMC 9/16 T-5 days.** All Wk-14 fresh entries HALF-SIZE per event-vol strategy rule.
+- **PDT check:** 0/3 daytrades assumed; ORCL FRESH or FANG ADD = no round-trip; PDT unaffected.
+- **QUALIFIES → TRADE (conditional on CPI print + cash-open confirmation).** Not a flat-week violation IF CPI > 3.7% triggers legitimate SKIP (Test 1 catalyst-vs-macro-shock fails). IS a violation if CPI in-line/cool + ORCL tight-spread + XLK sector confirms and we fail to fill.
