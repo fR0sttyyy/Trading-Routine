@@ -1950,3 +1950,27 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 4. **FANG ratchet monitoring** — server hwm $205.755; first-tighten trigger $236.19 (cushion 13.79%).
 5. **Wk-14 slot budget:** 2/3 used, 1 remaining.
 6. **FOMC 9/16 T-5** — HALF-SIZE rule active on any remaining fresh entry.
+
+### Sep 13 — EOD Snapshot (Sunday — WEEKEND / captures Fri Sep 11 close marks / Fri EOD-slot MISSED / Wk-14 close)
+**Portfolio:** $100,980.23 | **Cash:** $56,340.32 (55.79%) | **P&L since Sep 10:** +$272.97 (+0.271%) | **Phase P&L:** +$980.23 (+0.980%)
+
+| Ticker | Shares | Entry (wtd) | Close (Fri 9/11) | Day Chg (vs Thu) | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $65.14 | +0.16% | +$140.67 (+0.71%) | $59.553 (trail 10%, hwm $66.17) |
+| XLK | 104 | $185.6156 | $187.67 | +1.25% | +$213.66 (+1.11%) | $172.575 (trail 10%, hwm $191.75) |
+| FANG | 25 | $205.3792 | $204.97 | +0.02% | -$10.23 (-0.20%) | $185.1795 (trail 10%, hwm $205.755) |
+
+**Notes:** Weekend snapshot captures Fri Sep 11 close marks (Alpaca balance_asof 2026-09-11); Fri EOD-slot was MISSED so change spans one trading day (Fri Sep 11 post-CPI): +$272.97 (+0.271%) net. Do NOT read as a single "Day P&L" — labeled explicitly as **P&L since Sep 10**; the calendar gap is Fri + weekend, but the equity move is Fri-only (markets closed Sat/Sun). CPI digested cleanly Fri: XLK +1.25% led on ORCL AH beat +7% follow-through and post-CPI sector re-rating (cushion above $180 thesis-break flag now +$7.67, +4.09%); XLE +0.16% marginal on Gulf-strikes catalyst persistence; FANG flat +0.02% (still slightly red MTM -$10.23). All three positions comfortably inside cut/tighten envelopes; nearest to cut is FANG at -0.20% (cushion 6.80% to -7% manual cut). Server ratcheted FANG intraday Fri (hwm $205.74→$205.755, stop $185.166→$185.1795). Order book unchanged from Thu close otherwise: 5 GTC trail-stops covering 3 positions. Deployment $44,639.91 / $100,980.23 = 44.21% — below 75-85% target by 31-41pp; Wk-14 closed at 2/3 slots used (XLE ADD 9/9 + FANG FRESH 9/10 slot-consuming; XLB EXIT 9/9 non-slot), 1 slot preserved but unused into Fri close. Wk-14 net phase P&L +$980.23 (+0.98%). FOMC 9/16 (Wednesday) T-3 posture: HALF-SIZE rule remains active on any Mon/Tue fresh entry pre-FOMC. XLK $180 conditional EXIT remains armed (probability sharply reduced with +4.09% cushion post-CPI + post-ORCL).
+
+**Trades today (Sun 9/13):** none (weekend / non-trading day).
+
+**Wk-14 trades running total (FINAL, week closed):** 3 raw actions (XLB EXIT 9/9 + XLE ADD 9/9 + FANG FRESH 9/10) / 2 slot-consuming (XLE ADD + FANG FRESH). Wk-14 cap 2/3 used, 1 slot unused.
+
+**Tomorrow (Mon 9/14 — Wk-15 Day 1 / pre-market open / FOMC 9/16 T-2):**
+1. **Pre-market re-scan** — refresh setup universe; check overnight ES/CL/DXY tape and any weekend geopolitical/oil-supply headlines. Wk-15 slot budget resets to 3.
+2. **FOMC 9/16 T-2 posture** — HALF-SIZE rule ACTIVE on any Mon/Tue fresh entry pre-FOMC (Wed 14:00 ET presser).
+3. **XLK $180 conditional EXIT** — remains armed but probability low with cushion +4.09%.
+4. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 12.42% at $65.14 close).
+5. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 12.14% at $187.67 close).
+6. **FANG ratchet monitoring** — server hwm $205.755; first-tighten trigger $236.19 (cushion 13.24% at $204.97 close).
+7. **Wk-15 slot budget:** 0/3 used, 3 available (HALF-SIZE constraint active Mon+Tue).
