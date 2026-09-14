@@ -2016,3 +2016,27 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 15.61%).
 6. **FOMC 9/16 T-2** — HALF-SIZE rule ACTIVE on Mon/Tue Wk-15 fresh entries.
 7. **Wk-15 slot budget:** 0/3 used, 3 remaining.
+
+### Sep 14 — EOD Snapshot (Day 1, Monday — Wk-15 Day 1 / FOMC T-2)
+**Portfolio:** $100,422.69 | **Cash:** $56,340.32 (56.10%) | **Day P&L:** -$557.54 (-0.552%) | **Phase P&L:** +$422.69 (+0.423%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.325 | -1.251% | -$109.54 (-0.55%) | $59.553 (trail 10%, hwm $66.17) |
+| XLK | 104 | $185.6156 | $184.71 | -1.577% | -$94.18 (-0.49%) | $172.575 (trail 10%, hwm $191.75) |
+| FANG | 25 | $205.3792 | $204.99 | +0.010% | -$9.73 (-0.19%) | $189.801 (trail 10%, hwm $210.89) |
+
+**Notes:** Wk-15 Day 1 opens red on broad chip-fade + oil pullback ahead of FOMC (Wed 9/16 T-2). XLK -1.58% led losses (chip-complex profit-take post-Fri ORCL beat +7% follow-through); XLE -1.25% on modest crude retracement (WTI settled below $100 for first time in 3 sessions); FANG flat +0.01% — E&P name held up on higher-beta oil catalyst persistence + server-ratchet hwm intact at $210.89. All three positions comfortably inside cut/tighten envelopes; nearest to cut is XLE at -0.55% (cushion 6.45% to -7% manual cut). XLK $180 conditional EXIT remains armed — cushion narrowed to +$4.71 (+2.62%) at close vs Fri close +$7.67 (+4.09%); no breach today. FANG stop server-ratcheted intraday from $185.18 → $189.801 on hwm $205.755 → $210.89 (confirmed in Alpaca order book, id 3ba2c504 updated 13:44:45 UTC). Order book unchanged otherwise: 5 GTC trail-stops covering 3 positions. Deployment $44,082.37 / $100,422.69 = 43.90% — below 75-85% target by 31-41pp; Wk-15 slot budget 0/3 used at Day 1 close. FANG ADD skipped at cash-open on stale-book gate (spread 5.48% > 1% gate); no other setups qualified intraday. FOMC 9/16 (Wednesday) T-2 posture: HALF-SIZE rule ACTIVE on any Mon/Tue Wk-15 fresh entry pre-FOMC presser. No trades today; no manual cuts; no tighten-trail actions.
+
+**Trades today (Mon 9/14):** none.
+
+**Wk-15 trades running total:** 0 raw / 0 slot-consuming. Cap 3/week; 3 slots remain.
+
+**Tomorrow (Tue 9/15 — Wk-15 Day 2 / FOMC T-1):**
+1. **Pre-market re-scan** — refresh setup universe; check overnight ES/CL/DXY tape + any pre-FOMC positioning shifts.
+2. **FOMC 9/16 T-1 posture** — HALF-SIZE rule ACTIVE on any Tue fresh entry; NO fresh entries Wed intraday pre-presser.
+3. **XLK $180 conditional EXIT** — armed; cushion +2.62% (tighter than Fri +4.09%). Intraday breach triggers cancel 5451fa24 + f2c0dace + market sell 104 sh.
+4. **FANG ratchet monitoring** — server hwm $210.89; first-tighten trigger $236.19 (cushion 13.16%).
+5. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.55% at $64.325 close).
+6. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 13.44% at $184.71 close).
+7. **Wk-15 slot budget:** 0/3 used, 3 remaining. Half-size constraint active Tue.
