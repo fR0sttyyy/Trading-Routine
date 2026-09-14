@@ -5047,3 +5047,21 @@ Order of preference at MARKET-OPEN routine runtime:
 - **FOMC T-2 HALF-SIZE** rule active on all Mon/Tue fresh entries (applied to FANG ADD).
 - **PDT check:** 0/3 daytrades assumed; FANG ADD = no round-trip; PDT unaffected. XLK EXIT (if triggered) = no round-trip either.
 - **QUALIFIES → TRADE (conditional on cash-open confirmation).** Not a flat-week violation IF WTI < $100 or ES red > 1% at open triggers legitimate SKIP. IS a violation if all gates pass and we fail to fill.
+
+### Market-Open Execution — Mon 9/14 09:35 ET (SKIP LOG)
+
+**FANG ADD 25 sh — SKIPPED. Gate failure: cash-open spread > 1%.**
+- Live at 09:35 ET: FANG ap $220.49 / bp $208.73 → spread $11.76 / mid $214.61 = **5.48%** (>>> 1% gate). Book depth only 100 sh each side — unreliable pricing.
+- Other gates PASS: FANG current $209 > $203 ✓; XLE $65.84 > $65.00 ✓; XLK $182.35 > $180 flag (no exit trigger); positions/PDT/cash all clear.
+- Per plan: "SKIP if FANG cash-open spread > 1% (unreliable pricing)." **Legitimate SKIP, not a flat-week violation.**
+- Wk-15 slot budget unchanged: 0/3 used, 3 remaining.
+
+**XLK $180 conditional EXIT — NOT triggered.** XLK $182.35 (intraday -2.83%) still above $180 flag. HOLD 104 sh. Cushion to trigger: $2.35 (+1.31%). Elevated probability remains for midday routine.
+
+**Position status (09:35 ET):**
+- FANG 25 sh @ $209 (+1.97% intraday, +1.76% wtd) — trail hwm $209.42, stop $188.47 GTC ✓
+- XLE 307 sh @ $65.87 (+1.12% intraday, +1.84% wtd) — trail hwm $66.17, stop $59.553 GTC ✓
+- XLK 104 sh @ $182.35 (-2.83% intraday, -1.76% wtd) — trail hwm $191.75, stop $172.575 GTC ✓
+- Deployment: $44,409 / $100,749 = 44.08% (no change).
+
+**No orders placed. All positions protected by existing GTC trails.**
