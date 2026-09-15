@@ -2148,3 +2148,27 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 15.91%).
 6. **FOMC 9/16 14:00 ET decision + 14:30 ET presser T-0** — NO fresh entries Wed intraday pre-presser; ratchet/exit management only.
 7. **Wk-15 slot budget:** 1/3 used, 2 remaining for Thu/Fri post-FOMC (XOM/CVX FRESH queued).
+
+### Sep 15 — EOD Snapshot (Day 2, Tuesday — Wk-15 Day 2 / FOMC T-1 / 1 trade today: FANG ADD half-size)
+**Portfolio:** $100,969.71 | **Cash:** $51,091.07 (50.60%) | **Day P&L:** +$547.02 (+0.545%) | **Phase P&L:** +$969.71 (+0.970%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $65.81 | +1.984% | +$346.36 (+1.74%) | $59.553 (trail 10%, hwm $66.17) |
+| XLK | 104 | $185.6156 | $183.555 | -0.393% | -$214.30 (-1.11%) | $172.575 (trail 10%, hwm $191.75) |
+| FANG | 50 | $207.6746 | $211.65 | +2.883% | +$198.77 (+1.91%) | $191.978 (trail 10%, hwm $213.309) |
+
+**Notes:** Wk-15 Day 2 / FOMC T-1 closes green +$547.02 (+0.545%) on energy leadership (XLE +1.98%, FANG +2.88%) as Chevron fuel-crisis + Saudi East-West pipeline shutdown catalyst + WTI holding above $100 extend into Tuesday. XLK modestly softened -0.39% on continued semi-index digestion but $180 flag intact (close $183.555 = +$3.555 cushion +1.98% vs open +2.61%; conditional EXIT remains armed). One trade today: FANG ADD half-size 25 sh @ $209.97 at 09:37 ET (order 3c99036d + trail-stop ac89627b), consuming Wk-15 slot 1/3; ALL gates passed on re-quote (cash-open book settled from 10.7% spread → 0.31%). Combined FANG position now 50 sh wtd $207.6746, closed $211.65 = +1.91% unrealized. FANG server-ratcheted intraday: hwm $210.89 → $213.3089 (both 25-sh legs synced by Alpaca), stops now $191.978 on both legs (up from $189.801/$188.73 open). XLE hwm unchanged at $66.17 (close $65.81 = 0.54% below hwm, no new intraday high). XLK hwm unchanged at $191.75. All positions comfortably inside cut/tighten envelopes; nearest to cut is XLK at -1.11% (cushion 5.89% to -7% manual cut). None near +15% first-tighten trigger (FANG combined cushion 12.83% to $238.83, XLE 13.03% to $74.38, XLK 16.24% to $213.46). Deployment $49,878.64 / $100,969.71 = 49.40% — below 75-85% target by 26-36pp; Wk-15 slot budget 1/3 used with 2 preserved for Thu/Fri post-FOMC. FOMC 9/16 (Wednesday) T-0 posture: NO fresh entries Wed intraday pre-presser; ratchet/exit management only.
+
+**Trades today (Tue 9/15):** 1 — FANG BUY ADD 25 sh @ $209.97 (09:37 ET, slot-consuming, half-size FOMC T-1).
+
+**Wk-15 trades running total:** 1 raw / 1 slot-consuming (Tue FANG ADD). Cap 3/week; 2 slots remain.
+
+**Tomorrow (Wed 9/16 — Wk-15 Day 3 / FOMC T-0):**
+1. **Pre-market re-scan** — refresh setup universe; check overnight ES/CL/DXY tape + any pre-FOMC positioning shifts. NO fresh entries pre-presser.
+2. **FOMC 14:00 ET decision + 14:30 ET presser T-0** — ratchet/exit management only; NO fresh entries Wed intraday.
+3. **XLK $180 conditional EXIT** — armed; cushion +1.98% at close (tighter than open +2.61%). Intraday breach triggers cancel 5451fa24 + f2c0dace + market sell 104 sh.
+4. **FANG combined ratchet monitoring** — server hwm $213.3089 (both legs synced), stop $191.978; first-tighten trigger $238.83 wtd (cushion 12.83%).
+5. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.03% at $65.81 close).
+6. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 16.24% at $183.555 close).
+7. **Wk-15 slot budget:** 1/3 used, 2 remaining for Thu/Fri post-FOMC (XOM/CVX FRESH queued).
