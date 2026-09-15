@@ -2040,3 +2040,68 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.55% at $64.325 close).
 6. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 13.44% at $184.71 close).
 7. **Wk-15 slot budget:** 0/3 used, 3 remaining. Half-size constraint active Tue.
+
+### Sep 15 — Market-Open Routine (Tuesday, 09:37 ET — Wk-15 Day 2 / FOMC T-1 / 1 ACTION: FANG ADD half-size on Chevron fuel-crisis + oil > $100)
+**Portfolio:** $100,815.81 → $100,815.81 (post-fill mtm) | **Cash:** $56,340.32 → $51,091.07 (50.68% post-fill) | **Positions:** 3 (XLE + XLK + FANG@50) | **Wk-15 trades:** 0 → 1/3 used | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost/Proceeds | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| FANG | BUY (ADD) | 25 | $209.97 | $5,249.25 | $188.73 (trail 10% GTC, hwm $209.70, id ac89627b) | Chevron CEO Wirth "global fuel crisis has arrived" 9/14 PM + Saudi East-West pipeline shutdown catalyst + WTI $102.93 (+1.52%) sustained > $100 ~5 months + energy captured 50.5% of prior-week equity inflows + FANG technical breakout carryover (Chartmill 9/12 perfect scores); higher-beta E&P (added to existing 25 sh @ $205.3792 → combined 50 sh wtd $207.6746) | $251.96 (+20% from add) / combined 50 sh target $249.21 | 2:1 |
+
+**Pre-market plan execution:**
+- **FANG ADD ✓ ALL GATES MET (after cash-open book settled).** 09:36 initial quote FANG ap $219.44 / bp $197 spread 10.7% ✗ single-venue V thin AH residue; 09:36:43 re-quote FANG ap $209.88 / bp $209.23 = 0.31% < 1% cash-open gate ✓; FANG mid $209.55 > $203 gate ✓; XLE live $65.31 > $63.50 gate ✓ (+1.15% intraday); SPY $759.58 vs Mon close $761.99 = -0.32% not red > 1% gate ✓; WTI pre-mkt $102.93 (+1.52%) > $100 gate ✓ (Chevron warning + pipeline shutdown catalyst extending overnight). Half-size 25 sh × $209.97 = $5,249.25 = 5.21% of $100,815.81 equity. Trail 10% GTC placed (id ac89627b, stop $188.73, hwm $209.70). Wk-15 slot 0→1/3 consumed.
+- **XLK $180 flag INTACT — NO EXIT.** Live $184.69 = +$4.69 cushion (+2.61%) above $180 flag; pre-market expected sub-$180 open on Philadelphia Semi -6% AI-safety catalyst DID NOT materialize (XLK opened +0.22% intraday, semi-index rebound overnight). Conditional EXIT remains armed for intraday breach; no action this routine.
+- **XLE / XLK NO ADD** — 20% cost cap gate BLOCKS both (XLE 19.75% cost basis, XLK 19.20%). Confirmed unchanged.
+- **XOM / CVX / XLV FRESH DEFERRED** — same-sector preference-ordering favored FANG ADD (Priority 1); XOM/CVX queued for Thu post-FOMC; XLV awaits multi-day defensive rotation confirmation.
+
+**Hard-check gates (all pass on FANG ADD):**
+- Total positions after fill: 3 (XLE, XLK, FANG) ≤ 6 ✓
+- Wk-15 trades after fill: 1/3 ≤ 3 ✓
+- FANG combined cost $10,383.73 = 10.30% of $100,815.81 equity (≤ 20%) ✓
+- FANG ADD cost $5,249.25 ≤ cash $56,340.32 ✓
+- Catalyst documented (RESEARCH-LOG 2026-09-15 Idea 1) ✓
+- PDT room: daytrade_count 0/3; FANG buy + potential same-day protective exit = 1 daytrade if needed, 2 remaining ✓
+- Stock instrument ✓
+
+**Execution audit (13:37-13:38 UTC / 09:37-09:38 ET):**
+1. 09:36:05 ET — Initial quote FANG ap $219.44 / bp $197 spread 10.7% ✗ single-venue V thin book. Re-quote required.
+2. 09:36:43 ET — Live quote FANG ap $209.88 / bp $209.23 (spread 0.31%) ✓ gate met.
+3. 09:37:13 ET — Submitted market buy 25 sh FANG (order 3c99036d, client_order_id bot-20260915-FANG-133713-10756). Fill 25 sh @ $209.97 avg (cost $5,249.25).
+4. 09:37:43 ET — Submitted trail 10% GTC sell 25 sh FANG (order ac89627b, stop $188.73 hwm $209.70). ADD leg protected.
+5. All orders confirmed via orders refetch. Zero coverage gap. Existing 25 sh FANG trail (3ba2c504, stop $189.801 hwm $210.89) unchanged; both legs stack on same 50-sh position.
+
+**Cut-loser gate NO-OP on book:**
+- XLE 307 sh wtd $64.6818, live $65.27 = +$180.58 (+0.91%). Cut trigger $60.15 wtd (-6.84% cushion). No action.
+- XLK 104 sh @ $185.616, live $184.69 = -$96.26 (-0.50%). Cut trigger $172.62 (-6.53% cushion). No action.
+- FANG combined 50 sh wtd $207.6746, live $209.97 = +$114.77 (+1.11%). Cut trigger $193.14 wtd (-7.99% cushion). No action.
+
+**Tighten-trail check NO-OP:** all positions below first-tighten (+15%). XLE cushion 13.95% to $74.38 wtd; XLK cushion 15.55% to $213.46; FANG combined cushion 13.68% to $238.83 (+15% from wtd $207.6746). None near.
+
+**Live-quote confirmation (09:36-09:37 ET):** XLE $65.30/$65.31 tight ✓; XLK $184.73/$184.75 tight ✓; FANG $209.23/$209.88 clean 0.31% ✓ (post-settlement); SPY $759.55/$759.58 tight; USO $153.58/$163.14 wide 6.23% ✗ (proxy noise; WTI pre-mkt read authoritative per Chevron catalyst). No halts.
+
+**Post-action order state (6 GTC stops covering 3 positions, 6 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+- FANG 25 sh: trail 10% $189.801 hwm $210.89 (3ba2c504) — unchanged (existing leg)
+- FANG 25 sh: trail 10% $188.73 hwm $209.70 (ac89627b) — NEW (ADD leg)
+
+**Deployment:** $44,475.49 mv pre-fill (44.12%) → ~$49,724.74 mv post-fill (~49.32%). FANG add net +5.2pp. Below 75-85% target by 26-36pp; Wk-15 slots 2 remaining preserved for Thu/Fri post-FOMC qualifying setups.
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE) + 1 energy single-name (FANG@50) + 1 tech ETF (XLK). Energy concentration = $30,538 mv (30.3% of equity) — heavier energy weighting on sustained Chevron fuel-crisis / oil > $100 catalyst. Not a rule breach; individual position caps intact (XLE 19.87% mv, FANG combined 10.42% mv, XLK 19.05% mv).
+
+**Wk-15 slot budget:** 1/3 used (FANG ADD Tue). 2 slots preserved for Thu/Fri post-FOMC. FOMC 9/16 T-1 = HALF-SIZE rule applied (25 sh half of standard 50-sh full-size).
+
+**Realized P&L this trade:** $0 (add-to-position). Combined FANG P&L +$114.77 (+1.11% wtd basis) immediately post-fill. Cumulative phase P&L $100,815.81 - $100,000 = +$815.81 (+0.82%).
+
+**STEP 7 ClickUp send:** posting concise recap (FANG ADD, stop set, Chevron fuel-crisis + oil > $100 catalyst).
+
+**Next checkpoints:**
+1. **Midday scan** — FANG combined MTM check; XLK $180 flag proximity update; XLE ratchet monitoring; FANG ADD leg ratchet monitoring.
+2. **XLK $180 conditional EXIT** — armed; cushion +2.61% at open (tighter than Mon close +2.62%). Intraday breach triggers cancel 5451fa24 + f2c0dace + market sell 104 sh.
+3. **FANG combined ratchet monitoring** — existing leg hwm $210.89 stop $189.801; ADD leg hwm $209.70 stop $188.73. First-tighten trigger $238.83 wtd (cushion 13.68%).
+4. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.94%).
+5. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 15.55%).
+6. **FOMC 9/16 14:00 ET decision + 14:30 ET presser T-0** — NO fresh entries Wed intraday pre-presser; ratchet/exit management only.
+7. **Wk-15 slot budget:** 1/3 used, 2 remaining for Thu/Fri post-FOMC.
