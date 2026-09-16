@@ -2172,3 +2172,72 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLE ratchet monitoring** — server hwm $66.17; first-tighten trigger $74.38 wtd (cushion 13.03% at $65.81 close).
 6. **XLK ratchet monitoring** — server hwm $191.75; first-tighten trigger $213.46 wtd (cushion 16.24% at $183.555 close).
 7. **Wk-15 slot budget:** 1/3 used, 2 remaining for Thu/Fri post-FOMC (XOM/CVX FRESH queued).
+
+### Sep 16 — Market-Open Routine (Wednesday, 09:45 ET — Wk-15 Day 3 / FOMC T-0 / 1 ACTION: XOM FRESH half-size on Saudi supply catalyst + WTI > $100)
+**Portfolio:** $100,213.51 → $100,213.51 (post-fill mtm ~unchanged) | **Cash:** $51,091.07 → $46,115.87 (46.02% post-fill) | **Positions:** 3 → 4 (XLE + XLK + FANG@50 + XOM) | **Wk-15 trades:** 1 → 2/3 used | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost/Proceeds | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| XOM | BUY (FRESH) | 30 | $165.84 | $4,975.20 | $149.193 (trail 10% GTC, hwm $165.77, id 5afbbb78) | Saudi East-West pipeline shutdown + Saudi crude loading slowdown + European cargo cancellations (multi-source overnight 9/15-9/16); WTI $103.63 (-2.08% overnight but still > $100 for ~5 months); Chevron CEO fuel-crisis warning narrative persists; XLE +45.67% YTD sector leader; integrated major = sub-FANG beta reduces single-name concentration risk | $199.01 (+20%) | 2:1 |
+
+**Pre-market plan execution:**
+- **XOM FRESH ✓ ALL GATES MET (after 2 cash-open re-quote polls, book flickered).** 09:35 initial quote XOM ap $166.77 / bp $158.92 spread 4.94% ✗ single-venue V thin book; 09:43:35 poll 1 XOM ap $165.80 / bp $165.58 spread 0.13% ✓ ephemeral cross; 09:44:40 poll 2 confirmation XOM ap $165.80 / bp $165.73 spread 0.04% ✓ gate met; XOM > $165 ✓ (both ap and bp); XLE $64.51 > $64.00 gate ✓ (marginal, -2.15% intraday); SPY $758.80 vs Tue close ~$758.57 → +0.03% not red > 1% gate ✓; WTI pre-mkt $103.63 (-2.08% but still > $100 for ~5 months). Half-size 30 sh × $165.84 = $4,975.20 = 4.96% of $100,213.51 equity. Trail 10% GTC placed (id 5afbbb78, stop $149.193, hwm $165.77). Wk-15 slot 1→2/3 consumed.
+- **FANG MANUAL-CUT NO-OP — HOLD.** Pre-mkt $198.465 = 5.14% cushion to trail stop $191.978; live $195.185 mid at 09:43 = 1.66% cushion to trail stop, +1.06% cushion to manual-cut $193.14. Per plan: HOLD, let trail stops fire passively if breached; no manual action unless gap-down open < $190 (did not occur, opened $198.465).
+- **XLK $180 conditional EXIT NO-OP — HOLD.** Live $185.09 = +$5.09 cushion (+2.83%) above $180 flag; conditional EXIT remains armed for intraday breach.
+- **XLE / XLK NO ADD** — 20% cost cap gate BLOCKS both (XLE 19.77% cost basis, XLK 19.22%). Confirmed unchanged.
+- **FANG ADD DEFERRED / CVX/XLV NO ACTION** — same-name concentration preference-ordering favored XOM (cleaner integrated major); FANG down -6.17% intraday made ADD-on-loser inadvisable.
+
+**Hard-check gates (all pass on XOM FRESH):**
+- Total positions after fill: 4 (XLE, XLK, FANG, XOM) ≤ 6 ✓
+- Wk-15 trades after fill: 2/3 ≤ 3 ✓
+- XOM cost $4,975.20 = 4.96% of $100,213.51 equity (≤ 20%) ✓
+- XOM cost $4,975.20 ≤ cash $51,091.07 ✓
+- Catalyst documented (RESEARCH-LOG 2026-09-16 Idea 1) ✓
+- PDT room: daytrade_count 0/3; XOM buy + potential same-day protective exit = 1 daytrade if needed, 2 remaining ✓
+- Stock instrument ✓
+
+**Execution audit (13:45:00-13:45:30 UTC / 09:45:00-09:45:30 ET):**
+1. 09:35 ET — Initial quote XOM ap $166.77 / bp $158.92 spread 4.94% ✗ single-venue V thin AH residue. Re-quote required.
+2. 09:37-09:44 ET — Polled XOM every 15-45s; venue V bid stuck at $158.92 (stale IEX-only bid). Intermittent tight prints as trades crossed V: 09:43:35 spread 0.13%, 09:44:40 spread 0.04%.
+3. 09:44:40 ET — 2nd confirmation tight (0.04%) with ap $165.80 / bp $165.73 → GATE MET.
+4. 09:45:00 ET — Submitted market buy 30 sh XOM (order defd012a, client_order_id bot-20260916-XOM-134500-12590). Fill 30 sh @ $165.84 avg (cost $4,975.20).
+5. 09:45:30 ET — Submitted trail 10% GTC sell 30 sh XOM (order 5afbbb78, stop $149.193 hwm $165.77). Position protected.
+6. All orders confirmed via orders refetch. Zero coverage gap.
+
+**Cut-loser gate NO-OP on existing book at open:**
+- XLE 307 sh wtd $64.6818, live $64.985 = +$93.08 (+0.47%). Cut trigger $60.15 wtd (-7.44% cushion). No action.
+- XLK 104 sh @ $185.616, live $185.09 = -$54.66 (-0.28%). Cut trigger $172.62 (-6.75% cushion). No action.
+- FANG 50 sh wtd $207.6746, live $198.465 = -$460.48 (-4.43%). Cut trigger $193.14 wtd (-2.68% cushion). No manual action per plan — trail stop $191.978 (1.24% below live) will fire passively if breach.
+- XOM 30 sh @ $165.84 (new), live $165.77 mid = -$2.10 (-0.04%). Cut trigger $154.23 (-6.96% cushion). No action.
+
+**Tighten-trail check NO-OP:** all positions below first-tighten (+15%). FANG combined cushion 20.34% to $238.83 (position now DEEP below +15% due to intraday drop), XLE 14.46% to $74.38, XLK 15.32% to $213.46, XOM 20.00% to $199.01. None near.
+
+**Live-quote confirmation (09:35-09:44 ET):** XLE $64.94/$64.95 tight ✓; XLK $185.10/$185.13 tight ✓; SPY $759.36/$759.76 tight; FANG $194.67/$195.70 spread 0.53% clean ✓ (post-open settled); XOM eventually settled 0.04% (see audit).
+
+**Post-action order state (7 GTC stops covering 4 positions, 7 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+- FANG 25 sh: trail 10% $191.978 hwm $213.3089 (3ba2c504) — unchanged
+- FANG 25 sh: trail 10% $191.978 hwm $213.3089 (ac89627b) — unchanged
+- XOM 30 sh: trail 10% $149.193 hwm $165.77 (5afbbb78) — NEW
+
+**Deployment:** $49,122.44 mv pre-fill (49.02%) → ~$54,097.64 mv post-fill (~53.98%). XOM net +4.96pp. Below 75-85% target by 21-31pp; Wk-15 slot budget 2/3 used with 1 preserved for Thu/Fri post-FOMC.
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE) + 2 energy single-names (FANG@50 + XOM@30) + 1 tech ETF (XLK). Energy concentration = $34,848.99 mv (34.77% of equity) — heavier energy weighting on sustained Saudi supply catalyst + oil > $100 backdrop. Not a rule breach; individual position caps intact (XLE 19.91% mv, FANG 9.90% mv, XOM 4.96% mv, XLK 19.21% mv).
+
+**Wk-15 slot budget:** 2/3 used (Tue FANG ADD + Wed XOM FRESH). 1 slot preserved for Thu/Fri post-FOMC. FOMC 9/16 T-0 = HALF-SIZE rule applied (30 sh half-ish; XOM cost $4,975 vs standard full-size ~$10,000).
+
+**Realized P&L this trade:** $0 (opening entry). XOM immediate P&L ~$0 (fill $165.84 vs mid $165.77). Cumulative phase P&L $100,213.51 - $100,000 = +$213.51 (+0.21%).
+
+**STEP 7 ClickUp send:** posting concise recap (XOM FRESH, stop set, Saudi supply catalyst + WTI > $100).
+
+**Next checkpoints:**
+1. **Midday scan** — XOM MTM check + FANG cushion (elevated cut probability); XLK $180 flag proximity; XLE / FANG / XOM ratchet monitoring.
+2. **FANG manual-cut monitoring** — cushion +1.06% to $193.14 at 09:44 quote; trail stop $191.978 handles passive fire. Watch for gap-below-$190 event.
+3. **XLK $180 conditional EXIT** — armed; cushion +2.83% at open. Intraday breach triggers cancel 5451fa24 + f2c0dace + market sell 104 sh.
+4. **XOM ratchet monitoring** — server hwm $165.77 stop $149.193; first-tighten trigger $199.01 (+15% from entry $165.84).
+5. **XLE / FANG / XLK ratchet monitoring** — unchanged from Tue EOD.
+6. **FOMC 14:00 ET decision + 14:30 ET Warsh presser T-0** — ratchet/exit management only during/post-presser; no additional fresh entries today.
+7. **Wk-15 slot budget:** 2/3 used, 1 remaining for Thu/Fri post-FOMC.
