@@ -5177,3 +5177,115 @@ Order of preference at MARKET-OPEN routine runtime:
 - **FOMC T-1 HALF-SIZE** rule active (applied to FANG ADD).
 - **PDT check:** 0/3 daytrades; FANG ADD = no round-trip; XLK EXIT (if triggered) = no round-trip.
 - **QUALIFIES → TRADE (conditional on cash-open confirmation).** If XLK $180 EXIT triggers, log as protective exit on thesis-break, not sector-fail cascade (need 2 consec fails on same catalyst to fail sector; XLK is single-cause thesis break, not sector fail).
+
+
+## 2026-09-16 (Wed) — Pre-Market Research (Wk-15 Day 3 / FOMC T-0)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-15)
+- Equity: $100,459.57 (-$557.22 vs last_equity $101,016.79 = -0.552% Tue mark)
+- Cash: $51,091.07 (50.86%) | Buying power: $342,596.08 | non-marginable BP $75,775.31 | SMA $97,863.22
+- Long market value: $49,368.50 (49.14% deployed) | Maint margin $14,810.55
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Tue 9/15)
+- Wk-15 slot budget: **1/3 used, 2 remaining** (Tue FANG ADD)
+- Positions (3, pre-mkt marks via position endpoint):
+  - FANG 50 @ $207.6746 wtd (mtm $201.995, **unrl -$283.98 / -2.73%; change_today -4.51%**; trail 10% $191.978 hwm $213.3089)
+  - XLE 307 @ $64.681792 (mtm $65.2741, unrl +$181.84 / +0.92%; change_today -0.99%; trail 10% $59.553 hwm $66.17)
+  - XLK 104 @ $185.615577 (mtm $184.90, unrl -$74.42 / -0.39%; change_today +0.63%; trail 10% $172.575 hwm $191.75)
+- Open orders: 6 GTC trailing stops covering all 3 positions (verified live, all `status: new`, FANG both legs synced to hwm $213.3089 stop $191.978)
+- **Cost-basis vs 20% cap:** XLE $19,857.31 = 19.77% (headroom $235 → ADD BLOCKED); XLK $19,304.02 = 19.22% (headroom $788 → ADD BLOCKED); FANG $10,383.73 = 10.34% (headroom $9,708 → ADD POSSIBLE).
+- **Data freshness ✓:** balance_asof 2026-09-15 (Tue close, normal for pre-mkt Wed). Named-stock quotes STALE from Tue 20:00 UTC close (FANG ap $223.71 / bp $201.23 spread 10.05%; XLK ap $0 / bp $178.79 illiquid AH; XOM ap $177.53 / bp $160.26 spread 10.2%; CVX ap $228.67 / bp $205.73 spread 10.6%). XLE quote fresh 2026-09-16 12:03 UTC (~08:03 ET) at $65.30/$65.21 spread 0.14% ✓. **Cash-open re-quote MANDATORY for any FRESH order.**
+
+### Market Context (Wed 9/16 pre-market)
+- Indices Tue 9/15 close: **S&P 7585.73 (-0.45%), Nasdaq 25981.57 (-0.78%), Dow 52093.11 (-0.63%)** — Tue fade on continued chip-fade + FOMC T-1 defensive positioning
+- Futures Wed pre-mkt: **ES 7679.75 (+0.31%), NQ 29424.0 (+0.61%)** — modestly green, contained
+- VIX: **16.77 (-2.5%)** — DOWN further as event-vol discharges into FOMC decision day
+- **WTI $103.63 (-2.08% Wed pre-mkt). Brent $107.26 (-1.37%). OIL PULLBACK OVERNIGHT.** US crude inventories rise catalyst (Reuters 9/16 00:58 UTC) offset earlier Saudi Arabia crude loading slowdown (upstreamonline 9/16 01:00 UTC) + Saudi cancels European cargoes (SeekingAlpha 9/15 23:45 UTC). **Both WTI and Brent remain > $100 = structural bid intact ~5 months.** Directional -2% pullback = normal noise, not thesis break.
+- **BIG NEWS OVERNIGHT:**
+  - **FOMC decision 14:00 ET + Warsh presser 14:30 ET.** New Fed Chair Kevin Warsh (per forex.com 9/15 preview). 25bp hike ~90% priced. Sticky Aug CPI + PPI backdrop; Aug retail sales expected +0.8% released this morning pre-FOMC (potential intraday market-mover ahead of 2pm decision).
+  - **Sticky inflation setup:** Aug CPI + PPI both firmed per pennmutualam 9/15. Hawkish surprise = broad risk-off cascade; dovish surprise (pause/25bp only) = short squeeze tech/growth.
+  - **Saudi Arabia oil supply disruption catalyst intact:** East-West pipeline shutdown (forex.com 9/13), crude loading slowdown (upstreamonline 9/16), European cargo cancellations (SeekingAlpha 9/15). Balanced overnight by US crude inventory build (Reuters 9/16). Net: WTI $104-105 range persists.
+  - **FANG pre-mkt indicated -4.51%** (from Tue close $211.525 to $201.995) — high-beta E&P name giving back Tue's +2.88% gain plus more. Broader energy pre-mkt mixed (XLE Alpaca mark -0.99%, Yahoo +2.17% divergence; cash-open will clarify). No FANG-specific news catalyst.
+- **Sector momentum (Tue 9/15 close, YTD via news 9/16):** **XLE +45.67% YTD leader** vs **XLK +33.60% YTD** #2 (multi-month energy > tech leadership intact, gap 12pp). Single-day Tue: XLE +1.98% #1, FANG +2.88% single-name leader. XLK -0.39% Tue = softening but $180 flag intact ($183.555 close). Defensives (XLV/XLP) rotation from Mon faded Tue.
+- **Sector context Wed pre-mkt:** FOMC T-0 = event-driven risk-off/risk-on pivot at 2pm. Pre-presser posture typically flattish-to-defensive. Retail sales release pre-FOMC (8:30 ET) is intraday mover. Energy catalyst persists but with overnight crude softness (-2%) and FANG-specific -4.51% pre-mkt weakness, XLE sector Test 2 is BORDERLINE Wed morning.
+- **Wk-15 macro calendar (remaining):**
+  - **Wed 9/16 08:30 ET Aug retail sales** (+0.8% consensus)
+  - **Wed 9/16 14:00 ET FOMC decision + 14:30 ET Warsh presser** — 90% hike odds
+  - **Thu 9/17 initial jobless claims + Philly Fed**
+  - **Fri 9/19 quad witching**
+  - **T-0 posture: HALF-SIZE rule applies to any Wed fresh entry per Strategy §Entry Trigger. NO fresh entries deferred to post-presser is a self-imposed convention violating strategy — half-size allowed pre-presser if setup qualifies.**
+
+### Trade Ideas — Qualification Table (Wed 9/16 open)
+
+**Idea 1: XOM FRESH 30 sh @ ~$168-170 (~$5,100) half-size — PRIORITY 1 (energy diversification, integrated major, same Saudi supply catalyst, sub-FANG beta reduces single-name concentration risk).**
+- Catalyst: Saudi East-West pipeline shutdown + crude loading slowdown + European cargo cancellations (multi-source overnight 9/15-9/16); WTI $103.63 (-2.08% overnight but still > $100 for 5 months); Chevron CEO fuel-crisis warning Mon 9/14 PM narrative persists ✓
+- Sector momentum: XLE +45.67% YTD leader; multi-month XLE > XLK by 12pp ✓ (Test 2). Overnight -2% oil pullback + FANG -4.51% pre-mkt indication introduces BORDERLINE risk on Wed intraday — RESOLVE at cash-open with XLE > $64.00 gate.
+- Stop 10%: definable — entry ~$170, stop $153 ✓
+- R:R: entry $170, stop $153 (-$17), target $204 (+20%) = 2:1 ✓
+- Buy-Side Gate: XOM cost ~$5,100 = 5.08% (< 20% ✓); positions 3→4 (< 6 ✓); Wk-15 count 1→2/3 ✓; cash $51,091 sufficient ✓; PDT 0/3 ✓; **earnings check ✓** (Q2 already reported Aug; next late-Oct = no blocker)
+- **STALE QUOTE BLOCKER:** ap $177.53 / bp $160.26 spread 10.2% (illiquid AH book). Cash-open re-quote MANDATORY.
+- **QUALIFIES → TRADE at open (HALF-SIZE per FOMC T-0).** ENTER AT OPEN if: XOM cash-open spread < 1% AND XOM > $165 (rough Tue close proxy) AND WTI > $100 AND XLE > $64.00 AND ES not red > 1% at MARKET-OPEN routine runtime → market buy 30 sh @ ~$170 (~$5,100). Trail 10% GTC on entry. Wk-15 slot 1→2/3.
+
+**Idea 2: FANG ADD 25 sh @ ~$202 (~$5,050) half-size — DEFERRED / DOES NOT QUALIFY today.**
+- Catalyst: Same energy sector catalyst ✓
+- Sector: same ✓
+- Stop/R:R: definable, 2:1 ✓
+- **BUY-SIDE GATE INSUFFICIENT:** FANG existing $10,383.73 = 10.34%; ADD 25 sh @ $202 = $5,050 → combined $15,434 = 15.36% (< 20% ✓ per raw cap). BUT: **same-name concentration risk with position -2.73% unrl and -4.51% pre-mkt** = adding to a losing position pre-FOMC on top of oil-vol is aggressive; XOM cleaner allocation preserves diversification. Not a rule-blocking gate failure, but preference-ordering favors XOM FRESH for Wk-15 slot 2/3.
+- **DOES NOT QUALIFY on same-name concentration + preference-ordering vs XOM PRIORITY 1.** (Not a rule violation — same-sector preference queue is a valid convention documented Mon 9/14 for XOM/CVX vs FANG ADD priority-ordering.)
+
+**Idea 3: CVX FRESH — same catalyst as XOM.**
+- Same profile as Idea 1; Chevron CEO the ONE issuing fuel-crisis warning = idiosyncratic messenger risk (if CVX guides down mid-day, catalyst message could reverse).
+- Prefer XOM: cleaner integrated major exposure, less idiosyncratic risk.
+- **DOES NOT QUALIFY for TODAY on preference-ordering** (XOM cleaner Priority 1). Queued Thu post-FOMC alongside FANG-ADD-if-XOM-fires-Wed.
+
+**Idea 4: XLV FRESH 30 sh @ ~$170 (~$5,100) half-size — Defensive rotation.**
+- Catalyst: Mon +1.45% #1 sector defensives rotation faded Tue -0.05%; no fresh Wed defensive catalyst; FOMC T-0 defensive positioning may or may not materialize.
+- Sector momentum: single-day catalyst only; NOT multi-week momentum leader. **Test 2 FAIL** ✗ (single-day rotation without multi-week confirmation).
+- **DOES NOT QUALIFY on Test 2 (sector momentum multi-week test).** SKIP; revisit if XLV +1%+ sustains Wed/Thu.
+
+**Idea 5: XLE ADD / XLK ADD — DOES NOT QUALIFY (Buy-Side Gate 20% cost cap).**
+- XLE headroom $235; XLK headroom $788 AND sector momentum against (XLK #7 Mon, -0.39% Tue).
+- **DOES NOT QUALIFY on Buy-Side Gate 20% cost cap** (XLK also fails Test 2). No action.
+
+**Idea 6: MU / NVDA / semi FRESH — DOES NOT QUALIFY.**
+- Chip-complex has been in fade mode Mon (-6% semi-index on AI-safety) and Tue continuation; XLK +0.63% pre-mkt indication is a mild bounce, not a momentum reversal.
+- **DOES NOT QUALIFY on Test 2 (sector momentum against).** SKIP.
+
+### Management Priorities for Market-Open Routine (Wed 9/16 09:30 ET)
+
+- **FANG MANUAL-CUT MONITORING — ELEVATED PROBABILITY.** Pre-mkt indication $201.995 vs wtd $207.6746 = -2.73% unrl. Manual-cut trigger at $193.14 (-7% from wtd = -6.94% cushion at pre-mkt indication). If FANG opens sub-$193 at MARKET-OPEN routine or trades sub-$193 intraday BEFORE trail stops trigger at $191.978 (0.6% below) → per Strategy §Sell-Side Rules "Unrealized loss <= -7%: close immediately" MANUAL CUT: cancel both trail stops (ac89627b + 3ba2c504), market sell 50 sh. Alternate: LET TRAIL STOPS FIRE at $191.978 — nearly identical outcome (-7.55% vs -6.94%), avoids manual round-trip risk. **Prefer trail-stop passive fire unless FANG opens < $190 gap-down (below trail-stop = trail stop becomes market order at open anyway).**
+- **XLK $180 CONDITIONAL EXIT — ARMED.** Pre-mkt indication $184.90 = +$4.90 cushion (+2.72%) above $180 flag. AI-safety chip-fade catalyst persistent Tue but XLK +0.63% pre-mkt = mild bounce. If XLK trades < $180 intraday → cancel 5451fa24 + f2c0dace GTC, market sell 104 sh (thesis-break protective exit).
+- **XLE (307 sh, mtm $65.2741) — HOLD, ratchet auto.** Cushion to first-tighten $74.38 (+15% wtd) = 13.94%; cushion to -7% cut $60.15 = 7.87%. Server hwm $66.17 auto-ratchets. Overnight oil -2% + XLE pre-mkt -0.99% = mild pullback, catalyst intact.
+- **FANG ratchet monitoring** — server hwm $213.3089 stop $191.978 (both legs synced). First-tighten trigger $238.83 wtd; cushion 12.09% at pre-mkt mtm (only 5.14% to stop).
+- **XLK ratchet monitoring** — server hwm $191.75 stop $172.575. First-tighten trigger $213.46 wtd; cushion 15.44% at pre-mkt mtm.
+- **Cost-basis re-check before any FRESH order fires:** re-verify XLE 19.77% + XLK 19.22% + FANG 10.34% still under 20% at moment of XOM fill (XOM 5.08% safely << 20%).
+- **NO NEW XLK exposure** — AI-safety catalyst is thesis-breaking, not a dip-buy signal.
+
+### Risk Factors (Wed 9/16)
+
+- **FOMC 9/16 T-0 = event-vol PEAK today.** HALF-SIZE mandatory on any Wed Wk-15 fresh entry (applied to XOM). 90% hike odds priced Mon; hawkish surprise (50bp or hawkish dot plot) = broad risk-off cascade -2-3% intraday; dovish surprise (pause/25bp with dovish presser) = short squeeze tech/growth (adverse XLE relative bid, adverse XOM entry post-fill).
+- **FANG manual-cut probability ELEVATED** — pre-mkt $201.995 = 5.14% cushion to trail stop; a broad risk-off cascade on FOMC hawkish surprise = FANG can breach $191.98 intraday. Trail stops will fire passively as market order at breach; no manual intervention required unless gap-down open < $190.
+- **Aug retail sales 08:30 ET** — pre-FOMC intraday mover. +0.8% consensus. Beat = risk-on / higher yields; miss = risk-off / lower yields but weaker growth. Sizes XOM entry timing risk (if retail sales beat pushes yields higher / oil bid → XOM entry favorable; miss → sag).
+- **XLK $180 conditional EXIT probability MODERATE** — pre-mkt +2.72% cushion, up from Tue close +1.98%. AI-safety catalyst still cascading but XLK stabilizing. If FOMC hawkish surprise → tech drawdown 2-4% intraday → XLK $180 breach possible.
+- **Oil supply catalyst persistence** — Saudi loading slowdown + European cargo cancellations catalyst intact; balanced by US crude inventory build. Risk: diplomatic de-escalation or bigger inventory print could sag XLE/FANG 2-3% intraday.
+- **Stale-quote data risk for FRESH orders** — XOM ap-bp $17.27 (10.2%) spread pre-mkt = unreliable; cash-open confirmation MANDATORY.
+- **VIX 16.77 (-2.5%)** — event-vol discharging = supportive for adding risk today (below 18 threshold). Not a blocker.
+- **Wk-15 slot budget: 1/3 used, 2 remaining.** Deployment 49.14% vs 75-85% target = 26-36pt gap. XOM ADD closes to ~54%. If FANG trail fires + XLK EXIT triggers, deployment could drop to ~20% (opens Thu-Fri ADD budget).
+- **Fed Chair transition:** new Chair Warsh (per news) delivers first presser 14:30 ET; unpredictable communication style vs prior Fed regime = elevated intraday-vol risk during presser.
+- **Structural routine health:** 16th consecutive full-slate day since Aug 27 resumption.
+
+### Decision — DEFAULT TRADE (XOM FRESH half-size), HOLD XLE, MONITOR FANG for manual-cut, EXIT XLK IF $180 BREACHED
+
+- **HOLD FANG (50 sh), XLE (307 sh), XLK (104 sh).** All inside cut/tighten envelopes at pre-mkt marks; catalyst intact.
+- **FANG MANUAL-CUT monitoring — pre-mkt $201.995 = 5.14% cushion to trail stop.** If FANG gap-down opens < $190 → trail stops passively fire; no manual action needed. If FANG opens $190-$194 → HOLD (inside envelope) and let trail track. If FANG opens sub-$193 intraday and continues falling → allow trail stops to fire at $191.978 (passive). MANUAL CUT only if gap-down open causes trail stops to fill materially below $191.978 (e.g., open $185 = -1.6% below stop).
+- **HOLD XLK (104 sh) UNLESS $180 INTRADAY BREACH** — pre-mkt $184.90 with +2.72% cushion. On breach: cancel 5451fa24 + f2c0dace GTC, market sell 104 sh. Thesis-break protective exit.
+- **NO XLE ADD, NO XLK ADD, NO FANG ADD** — XLE/XLK 20% cost cap gate BLOCKS; FANG ADD deferred on same-name concentration preference-ordering (XOM cleaner Priority 1).
+- **CONDITIONAL FRESH AT OPEN — XOM FRESH 30 sh half-size:**
+  - **XOM FRESH 30 sh @ ~$170 (~$5,100)** — IF XOM cash-open spread < 1% AND XOM > $165 AND WTI > $100 AND XLE > $64.00 AND ES not red > 1% at MARKET-OPEN routine runtime → market buy 30 sh; trail 10% GTC. **PRIORITY 1.** Wk-15 slot 1→2/3 (HALF-SIZE per FOMC T-0).
+  - **SKIP if:** WTI < $100 (oil-thesis breakdown) OR XLE red > 1% at runtime (sector momentum failing Wed) OR ES red > 1% at runtime OR XOM cash-open spread > 1%. Log SKIP with specific gate cited (not "patience" / "FOMC caution" / "wait for presser").
+- **XLE / FANG / XLK ratchet monitoring** — server auto-ratchets on hwm advances. No manual ratchet actions today (all below +15% first-tighten triggers).
+- **CVX / XLV / FANG-ADD deferred to Thu 9/17** — mutually exclusive with XOM for Wed slot 2/3; queue for Thu-Fri if oil catalyst + slot budget permits (1 slot remains after XOM fills).
+- **Wk-15 slot budget:** 1/3 used → potentially 2/3 (XOM FRESH) → 1 slot remaining for Thu/Fri post-FOMC.
+- **FOMC T-0 HALF-SIZE** rule active (applied to XOM). **NO clock-time gates**: entry condition checkable at MARKET-OPEN runtime, not gated on 10:00 ET or post-presser.
+- **PDT check:** 0/3 daytrades; XOM FRESH = no round-trip; FANG trail-stop fire (if triggers) = no round-trip; XLK EXIT (if triggered) = no round-trip.
+- **QUALIFIES → TRADE (conditional on cash-open confirmation).** Not a flat-week violation IF one of the four gate conditions fails at open (legit SKIP with named gate). IS a violation if all gates pass and XOM entry fails to fill without cause. FOMC event-vol is a SIZING input (half-size) not a SKIP reason.
+
