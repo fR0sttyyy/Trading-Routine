@@ -5289,3 +5289,10 @@ Order of preference at MARKET-OPEN routine runtime:
 - **PDT check:** 0/3 daytrades; XOM FRESH = no round-trip; FANG trail-stop fire (if triggers) = no round-trip; XLK EXIT (if triggered) = no round-trip.
 - **QUALIFIES → TRADE (conditional on cash-open confirmation).** Not a flat-week violation IF one of the four gate conditions fails at open (legit SKIP with named gate). IS a violation if all gates pass and XOM entry fails to fill without cause. FOMC event-vol is a SIZING input (half-size) not a SKIP reason.
 
+
+### Sep 16 (Wed) — Midday Addendum (12:04 ET / FOMC T-0)
+- **FANG trail stop fired 11:14 ET @ $191.81** — combined 50 sh position exited at -7.64% realized (-$793.23). Cause: FANG failed to hold post-open $198.465 bounce; sold through $191.978 trail stop as sector-name AI/oil rotation continued mid-morning. Consistent with pre-mkt monitored risk (cushion +1.06% to manual-cut $193.14 at 09:44). No thesis change on Saudi supply catalyst — pure name-specific momentum failure vs XOM (major integrated) which held better (-2.83% intraday). FANG re-entry NOT considered Wed pre-presser (FOMC T-0 rule); reassess Thu with clean chart.
+- **WTI ~$102 (est intraday from XOM/XLE moves)** — pre-FOMC softening but still > $100 backdrop intact. Saudi East-West pipeline shutdown catalyst persists (48+ hr).
+- **SPY $760.40** = +0.24% vs prior close $758.57; pre-FOMC drift positive with sector rotation (tech flat, energy soft, financials/industrials leading per XLK/XLE relative).
+- **Book intact:** XLE, XLK, XOM all inside cut envelopes. XLK $180 flag cushion +3.06% (widened from open +2.83%).
+- **FOMC 14:00 ET decision + 14:30 ET Warsh presser** — no fresh entries Wed pre/post-presser per plan. Manage existing book only.

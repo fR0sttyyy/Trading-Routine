@@ -2241,3 +2241,60 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLE / FANG / XLK ratchet monitoring** — unchanged from Tue EOD.
 6. **FOMC 14:00 ET decision + 14:30 ET Warsh presser T-0** — ratchet/exit management only during/post-presser; no additional fresh entries today.
 7. **Wk-15 slot budget:** 2/3 used, 1 remaining for Thu/Fri post-FOMC.
+
+### Sep 16 — Midday Scan (Wednesday, 12:04 ET — Wk-15 Day 3 / FOMC T-0 / FANG STOPPED OUT)
+**Portfolio:** $99,760.56 | **Cash:** $55,706.37 (55.84%) | **Long MV:** $44,054.19 (44.16%) | **Day P&L (mtm):** -$1,209.15 (-1.20%) | **Phase P&L:** -$239.44 (-0.24%)
+
+| Ticker | Shares | Entry | Mid | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.585 | -2.07% | -$35.86 (-0.18%) | $59.553 (trail 10%, hwm $66.17) |
+| XLK | 104 | $185.6156 | $185.50 | +0.99% | -$6.82 (-0.04%) | $172.575 (trail 10%, hwm $191.75) |
+| XOM | 30 | $165.84 | $164.685 | -2.83% | -$39.30 (-0.79%) | $149.625 (trail 10%, hwm $166.25 ratcheted from $165.77) |
+
+**FANG stop-out (auto-fill 11:14:11 ET):**
+- Both trail-stop legs filled at $191.81 (3ba2c504 leg 1 + ac89627b leg 2, 25 sh each).
+- Gap-down failed to hold post-open bounce; FANG traded from $198.465 open through $191.978 trail stop by 11:14 ET.
+- Combined position 50 sh wtd $207.6746 → proceeds $9,590.50 → **realized -$793.23 (-7.64%)**.
+- No manual intervention (rule-compliant): trail stop is the overnight/gap safety net and fired cleanly at -7.64% vs weighted entry; matches -7% manual-cut envelope. FANG combined trade CLOSED.
+- FANG live mid at 12:04 ET is $193.98 (below stop-out $191.81 → recovering slightly but position already flat; no re-entry Wed pre-presser per FOMC T-0 rule).
+
+**Cut-loser check NO-OP on remaining book (all inside envelope):**
+- XLE -0.18% unreal (cushion 6.82% to -7% manual cut) — no action
+- XLK -0.04% unreal (cushion 6.96%) — no action
+- XOM -0.79% unreal (cushion 6.21%) — no action
+
+**Tighten-trail check NO-OP:** all positions well below +15% first-tighten. XOM +15% trigger = $199.01 (cushion 20.85%); XLE = $74.38 (cushion 15.17%); XLK = $213.46 (cushion 15.07%). None near.
+
+**XOM ratchet:** server hwm ratcheted intraday from $165.77 → $166.25 (order 5afbbb78, stop $149.625 up from $149.193). No action needed; server-managed.
+
+**XLK $180 conditional EXIT NO-OP — HOLD.** Live $185.50 = +$5.50 cushion (+3.06%) above $180 flag. Conditional EXIT remains armed for intraday breach.
+
+**Thesis check NO-OP on remaining book:**
+- XOM: Saudi East-West pipeline shutdown catalyst intact; WTI still > $100 backdrop. Intraday -2.83% is macro-pullback (SPY +0.24%; energy softening as WTI eased pre-FOMC), not thesis break. HOLD.
+- XLE: energy sector leader intact (+45.67% YTD). -2.07% intraday matches sector-wide oil pullback. HOLD.
+- XLK: tech ETF above $180 flag; conditional EXIT armed. HOLD.
+
+**Post-action order state (5 GTC stops covering 3 positions, 5 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — server-ratcheted +$0.48
+
+**Deployment:** $44,054.19 mv / $99,760.56 = 44.16% (was 53.98% post-XOM fill; -9.82pp on FANG exit). Below 75-85% target by 31-41pp. Cash freed $9,590.50 from FANG exit. **NO fresh entries Wed intraday pre-presser** per FOMC T-0 rule.
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE 19.87% mv) + 1 energy single-name (XOM 4.95% mv) + 1 tech ETF (XLK 19.34% mv). Energy concentration reduced to $24,757.36 mv (24.81% of equity) from 34.77% pre-FANG-exit. Not a rule breach.
+
+**Wk-15 slot budget:** 2/3 used (Tue FANG ADD + Wed XOM FRESH). 1 slot preserved for Thu/Fri post-FOMC.
+
+**Trades today (Wed 9/16) — additional:** FANG SELL 50 sh @ $191.81 (11:14 ET, trail-stop auto-fire, realized -$793.23). NOT slot-consuming (exit).
+
+**STEP 7 ClickUp send:** posted concise recap (FANG stop-out at $191.81, -$793.23 realized).
+
+**Next checkpoints:**
+1. **FOMC 14:00 ET decision + 14:30 ET presser T-0** — ratchet/exit management only during/post-presser; no fresh entries today.
+2. **XLK $180 conditional EXIT** — armed; cushion +3.06% at midday (loosened from +2.83% at open). Intraday breach triggers cancel 5451fa24 + f2c0dace + market sell 104 sh.
+3. **XOM ratchet monitoring** — server hwm $166.25 stop $149.625; first-tighten trigger $199.01 (+15% from entry).
+4. **XLE ratchet monitoring** — server hwm $66.17 stop $59.553; first-tighten trigger $74.38.
+5. **XLK ratchet monitoring** — server hwm $191.75 stop $172.575; first-tighten trigger $213.46.
+6. **Wk-15 slot budget:** 2/3 used, 1 remaining for Thu/Fri post-FOMC.
