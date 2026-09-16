@@ -2298,3 +2298,36 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 4. **XLE ratchet monitoring** — server hwm $66.17 stop $59.553; first-tighten trigger $74.38.
 5. **XLK ratchet monitoring** — server hwm $191.75 stop $172.575; first-tighten trigger $213.46.
 6. **Wk-15 slot budget:** 2/3 used, 1 remaining for Thu/Fri post-FOMC.
+
+### Sep 16 — EOD Snapshot (Day 3, Wednesday — Wk-15 Day 3 / FOMC T-0 / 2 trades today: XOM FRESH + FANG stop-out auto)
+**Portfolio:** $99,402.79 | **Cash:** $55,706.37 (56.04%) | **Day P&L:** -$1,566.92 (-1.552%) | **Phase P&L:** -$597.21 (-0.597%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.085 | -2.798% | -$183.22 (-0.92%) | $59.553 (trail 10%, hwm $66.17) |
+| XLK | 104 | $185.6156 | $183.90 | +0.087% | -$178.42 (-0.92%) | $172.575 (trail 10%, hwm $191.75) |
+| XOM | 30 | $165.84 | $163.31 | -3.549% | -$75.90 (-1.53%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Wk-15 Day 3 / FOMC T-0 closes red -$1,566.92 (-1.552%) as energy softens into Fed decision — XLE -2.80% and XOM -3.55% on WTI pullback (WTI eased pre-presser after 5-month > $100 run); XLK modestly +0.09% held above $180 flag intact (close $183.90 = +$3.90 cushion +2.12% vs $180). FANG stop-out fired auto at 11:14 ET both legs @ $191.81 realizing -$793.23 (-7.64% vs wtd entry $207.6746) — trail stop performed exactly as designed on gap-down failure. XOM FRESH entered 09:45 ET 30 sh @ $165.84 (half-size FOMC T-0, slot 2/3 Wk-15) on Saudi East-West pipeline shutdown catalyst + WTI > $100 backdrop; server-ratcheted intraday from hwm $165.77→$166.25 (stop $149.193→$149.625). XLE hwm unchanged $66.17 (close $64.085 = -3.15% below hwm, no new intraday high); XLK hwm unchanged $191.75 (close $183.90 = -4.10% below hwm). Cut-loser envelope INTACT on all remaining positions (nearest XLK at -0.92%, cushion 6.08%). None near +15% first-tighten trigger. Deployment $43,696.42 / $99,402.79 = 43.96% — below 75-85% target by 31-41pp; Wk-15 slot budget 2/3 used with 1 preserved for Thu/Fri post-FOMC (FANG exit not slot-consuming). Sector concentration reduced: 1 energy ETF (XLE 19.79% mv) + 1 energy single-name (XOM 4.93% mv) + 1 tech ETF (XLK 19.24% mv) = 43.96% total mv. Realized P&L today: -$793.23 (FANG combined close-out). Post-presser tape absorbed decision — no fresh entries pre-presser rule honored.
+
+**Trades today (Wed 9/16):** 2 —
+1. XOM BUY FRESH 30 sh @ $165.84 (09:45 ET, slot-consuming, half-size FOMC T-0).
+2. FANG SELL STOP 50 sh @ $191.81 (11:14 ET, trail-stop auto-fire, NOT slot-consuming, realized -$793.23).
+
+**Wk-15 trades running total:** 2 raw / 2 slot-consuming (Tue FANG ADD + Wed XOM FRESH). Cap 3/week; 1 slot remains for Thu/Fri.
+
+**Post-action order state (5 GTC stops covering 3 positions, 5 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815)
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295)
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24)
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78, server-ratcheted +$0.48 intraday)
+
+**Tomorrow (Thu 9/17 — Wk-15 Day 4 / FOMC T+1):**
+1. **Pre-market re-scan** — refresh setup universe; digest FOMC-decision reaction (rates path, dot-plot, presser tone); check overnight ES/CL/DXY tape + post-Fed positioning shifts. 1 slot remains for Thu/Fri fresh entry.
+2. **Post-FOMC fresh-entry window OPEN** — Wk-15 slot 3/3 available for a qualifying setup; prefer non-energy diversification given FANG exit + XOM softness, but energy still permitted if catalyst intact and WTI holds > $100.
+3. **XLK $180 conditional EXIT** — armed; cushion +2.12% at close (tightest of the day). Intraday breach triggers cancel 5451fa24 + f2c0dace + market sell 104 sh.
+4. **XOM ratchet monitoring** — server hwm $166.25 stop $149.625; first-tighten trigger $199.01 (+15% from entry).
+5. **XLE ratchet monitoring** — server hwm $66.17 stop $59.553; first-tighten trigger $74.38.
+6. **XLK ratchet monitoring** — server hwm $191.75 stop $172.575; first-tighten trigger $213.46.
+7. **Wk-15 slot budget:** 2/3 used, 1 remaining for Thu/Fri post-FOMC.
