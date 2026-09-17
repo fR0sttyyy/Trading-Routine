@@ -5296,3 +5296,117 @@ Order of preference at MARKET-OPEN routine runtime:
 - **SPY $760.40** = +0.24% vs prior close $758.57; pre-FOMC drift positive with sector rotation (tech flat, energy soft, financials/industrials leading per XLK/XLE relative).
 - **Book intact:** XLE, XLK, XOM all inside cut envelopes. XLK $180 flag cushion +3.06% (widened from open +2.83%).
 - **FOMC 14:00 ET decision + 14:30 ET Warsh presser** — no fresh entries Wed pre/post-presser per plan. Manage existing book only.
+
+
+## 2026-09-17 (Thu) — Pre-Market Research (Wk-15 Day 4 / FOMC T+1)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-16)
+- Equity: $99,575.16 (+$183.26 vs last_equity $99,391.90 = +0.184% Wed mark)
+- Cash: $55,706.37 (55.94%) | Buying power: $345,658.09 | non-marginable BP $77,640.76 | SMA $98,529.19
+- Long market value: $43,868.79 (44.05% deployed) | Maint margin $13,160.64
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Wed — XOM FRESH + FANG trail-fire = no PDT hits)
+- Wk-15 slot budget: **2/3 used, 1 remaining** (Tue FANG ADD + Wed XOM FRESH)
+- Positions (3, live marks via position endpoint):
+  - XLE 307 @ $64.6818 wtd (mtm $63.57, **unrl -$341.32 / -1.72%; change_today -0.72%**; trail 10% $59.553 hwm $66.17)
+  - XLK 104 @ $185.6156 (mtm $187.50, **unrl +$195.98 / +1.01%; change_today +1.94%**; trail 10% $172.575 hwm $191.75)
+  - XOM 30 @ $165.84 (mtm $161.76, **unrl -$122.40 / -2.46%; change_today -0.96%**; trail 10% $149.625 hwm $166.25)
+- Open orders: 5 GTC trailing stops covering all 3 positions (2 XLE legs, 2 XLK legs, 1 XOM leg — all status new)
+- **Cost-basis vs 20% cap:** XLE $19,857.31 = 19.94% (headroom $58 → ADD BLOCKED); XLK $19,304.02 = 19.39% (headroom $611 → ADD BLOCKED); XOM $4,975.20 = 5.00% (headroom $14,940 → ADD POSSIBLE).
+- **Data freshness ✓:** balance_asof 2026-09-16 (Wed close, normal for pre-mkt Thu). Named-stock quotes STALE from Wed 20:00 UTC close (XLE ap $65.77 / bp $61.76 spread 6.5%; XLK ap $188.72 / bp $177.31 spread 6.4%; XOM ap $172.99 / bp $155.63 spread 11.2%; XLF ap $57.55 / bp $53.97 spread 6.6%; XLV ap $173.22 / bp $162.63 spread 6.5%). **Cash-open re-quote MANDATORY for any FRESH order.**
+
+### Market Context (Thu 9/17 pre-market — FOMC T+1)
+- Indices Wed 9/16 close: **S&P 7551.81 (-0.45%), Nasdaq 25978.42 (-0.01%), Dow 51461.90 (-1.21%)** — Wed defensive close post-25bp hike; Dow led red (banks/industrials); tech held flat
+- Futures Thu pre-mkt: **ES 7710.75 (+1.15%), NQ 29695.25 (+1.5%)** — POST-FOMC RELIEF RALLY; risk-on despite 25bp hike (presser tone digestible, no larger-than-priced surprise)
+- SPY $759.78 (+0.76% pre-mkt) per Benzinga 09:07 GMT — futures-consistent
+- VIX: **15.62 (-9.19%)** — event-vol CRUSHED post-decision; risk-on tape
+- **WTI $99.39 (-2.97% Thu pre-mkt). Brent $98.23 (-2.51%). CRUDE BROKE $100 OVERNIGHT.** Saudi Arabia re-diversifying exports via Oman (SeekingAlpha 9/16 23:51 UTC) = East-West-pipeline supply catalyst partially MITIGATED. This is meaningful — the "5-month structural bid > $100" narrative CRACKED at ~$99. Not yet thesis-broken (single-day print), but energy re-tests support.
+- **BIG NEWS OVERNIGHT:**
+  - **Fed hiked 25bp Wed as ~90% priced.** Warsh presser digestible; futures RALLY Thu = relief/no-hawkish-surprise. "The Fed Isn't Done Hiking" narrative (SeekingAlpha 9/17) = more hikes ahead, path-dependent.
+  - **Saudi Oman workaround softens energy supply catalyst.** Oil pulls back from 4-month highs on Saudi export re-routing (SeekingAlpha 9/16). Smaller-than-expected US crude withdrawal. Cooler-weather = softer nat-gas demand.
+  - **AI chip fade partially reversing:** Server DRAM prices +5.5x YoY (Sedaily 9/17); NBIS/SNAP/NVDA in focus (Stocktwits 9/17). But telecom/software > chips defensive-AI rotation continues (Zacks 9/17).
+  - **Economic calendar Thu:** initial jobless claims + Philly Fed Manufacturing Index + building permits + pending home sales.
+- **Sector momentum (QTD, per Barchart 9/13 aggregate):** **Energy #1 QTD +10.82%** (leader; Wed -2.88% single-day pullback = orderly consolidation on oil softness) vs **Financials #2 QTD +8.62%** (Wed XLF -1.62% pullback = pre-FOMC risk-off; post-hike bull-flattener supports thesis) vs **Industrials #12 QTD -4.73%** (bottom). Tech (XLK QTD) softer but Wed flat +0.10%; XLK QTD leadership unwound in Aug-Sep chip-fade. Defensives XLV/XLP unchanged Wed.
+- **Sector context Thu pre-mkt:** FOMC T+1 = post-event risk-on bounce; energy softening on Saudi mitigation; financials should bid on bull-flattener; tech mixed (server-DRAM boom vs continued chip-fade). Multi-sector leadership: Energy #1 QTD (fragile), Financials #2 QTD (post-hike catalyst tailwind).
+- **Wk-15 macro calendar (remaining):**
+  - **Thu 9/17 08:30 ET initial jobless claims + Philly Fed** (intraday pre-open mover)
+  - **Fri 9/19 quad witching** — options expiry, elevated intraday vol; no fresh entries typically Fri PM
+  - **T+1 posture: no HALF-SIZE penalty** (event has passed). Standard sizing allowed on qualifying setups.
+
+### Trade Ideas — Qualification Table (Thu 9/17 open)
+
+**Idea 1: XLF FRESH 90 sh @ ~$56 (~$5,040, ~5.1% cost) — PRIORITY 1 (financials #2 QTD momentum, post-FOMC bull-flattener catalyst, non-energy diversification vs concentrated book).**
+- Catalyst: FOMC 25bp hike Wed absorbed with digestible presser tone → post-decision bull-flattener supports bank NIMs; XLF QTD +8.62% #2 sector momentum; Wed -1.62% XLF pullback = pre-decision risk-off unwind, not thesis break; futures ES +1.15% Thu confirms tape-wide risk-on rotation. Diversifies away from energy concentration (currently 24.94% mv in XLE+XOM).
+- Sector momentum: XLF #2 QTD +8.62% multi-week ✓ (Test 2 PASS multi-week; single-day -1.62% Wed = orderly).
+- Stop 10%: definable — entry ~$56, stop $50.40 ✓
+- R:R: entry $56, stop $50.40 (-$5.60), target $67.20 (+20%) = 2:1 ✓
+- Buy-Side Gate: XLF cost ~$5,040 = 5.06% (< 20% ✓); positions 3→4 (< 6 ✓); Wk-15 count 2→3/3 ✓ (last slot); cash $55,706 sufficient ✓; PDT 0/3 ✓; **earnings check ✓** (XLF is ETF; sector-average earnings not concentrated in single event).
+- **STALE QUOTE BLOCKER:** ap $57.55 / bp $53.97 spread 6.6% (illiquid AH book). Cash-open re-quote MANDATORY.
+- **QUALIFIES → TRADE at open.** ENTER AT OPEN if: XLF cash-open spread < 1% AND XLF > $55.50 (rough Wed close proxy $55.93) AND ES not red > 0.5% at MARKET-OPEN routine runtime → market buy 90 sh @ ~$56 (~$5,040). Trail 10% GTC on entry. Wk-15 slot 2→3/3.
+
+**Idea 2: XOM ADD 30 sh @ ~$162 (~$4,860) — DEFERRED / DOES NOT QUALIFY today.**
+- Catalyst: Saudi supply catalyst PARTIALLY MITIGATED via Oman re-routing (single overnight print); WTI broke $100 to $99.39 = structural-bid narrative WEAKENED (not yet thesis-broken).
+- Sector: Energy #1 QTD ✓ but single-day -2.88% Wed pullback plus catalyst mitigation = elevated intraday drawdown risk.
+- Stop/R:R: definable, 2:1 ✓
+- **BUY-SIDE GATE + CATALYST WEAKENING:** XOM existing $4,975 = 5.00%; ADD 30 sh @ $162 = $4,860 → combined $9,835 = 9.88% (< 20% ✓). But: **adding to energy on catalyst-mitigation day (WTI < $100, Saudi Oman workaround) is anti-cyclical**; also same-name concentration builds on losing position (-2.46% unrl).
+- **DOES NOT QUALIFY on Test 2 (single-day sector-catalyst mitigation weakens multi-day momentum thesis).** Wait for WTI to reclaim $100 OR fresh disruption before ADDing energy.
+
+**Idea 3: CVX FRESH — DOES NOT QUALIFY (same Idea 2 issue amplified by messenger risk).**
+- Same catalyst weakening as XOM; CVX CEO fuel-crisis narrative fading. Prefer non-energy diversification.
+- **DOES NOT QUALIFY on Test 2 (sector catalyst mitigation).** SKIP.
+
+**Idea 4: FANG re-entry — DOES NOT QUALIFY.**
+- Stopped out Wed at $191.81 for -7.64% realized. Re-entry needs stabilization + fresh catalyst; neither present Thu (WTI down, Saudi mitigation, single-name momentum broken).
+- **DOES NOT QUALIFY on Test 1 (no fresh catalyst for re-entry).** SKIP.
+
+**Idea 5: XLV FRESH 30 sh @ ~$168 (~$5,040) — Defensive rotation, DOES NOT QUALIFY.**
+- Catalyst: post-FOMC defensives may bid; XLV flat Wed +0.07%.
+- Sector momentum: single-day unchanged, NOT multi-week leader (Barchart QTD ranks XLV mid-pack). **Test 2 FAIL** ✗.
+- **DOES NOT QUALIFY on Test 2 (sector momentum multi-week test).** SKIP.
+
+**Idea 6: XLE ADD / XLK ADD — DOES NOT QUALIFY (Buy-Side Gate 20% cost cap).**
+- XLE headroom $58; XLK headroom $611. XLE also fails on catalyst-mitigation grounds; XLK QTD not top-tier.
+- **DOES NOT QUALIFY on Buy-Side Gate 20% cost cap.** No action.
+
+**Idea 7: NVDA / semi FRESH — DOES NOT QUALIFY.**
+- Server DRAM boom (+5.5x YoY) supportive but chip-fade catalyst still active in cash tape; XLK QTD not multi-week #1/#2 leader.
+- **DOES NOT QUALIFY on Test 2 (sector momentum test).** SKIP.
+
+### Management Priorities for Market-Open Routine (Thu 9/17 09:30 ET)
+
+- **XLE cushion check — CATALYST-WEAKENING WATCH.** XLE mtm $63.57 = -1.72% unrl; cushion to -7% cut $60.15 = 5.28% below current; cushion to trail-stop $59.553 = 6.32%. WTI broke $100 + Saudi Oman diversification = catalyst thesis weakening. If XLE trades < $60.15 intraday → MANUAL CUT per Sell-Side §7% rule (cancel 2cae6815 + 442df295 trail stops, market sell 307 sh). Otherwise HOLD and let trail auto-manage.
+- **XOM cushion check.** XOM mtm $161.76 = -2.46% unrl; cushion to -7% cut $154.23 = 4.65% below current; cushion to trail-stop $149.625 = 7.51%. Same catalyst weakening. If XOM < $154.23 intraday → MANUAL CUT (cancel 5afbbb78, market sell 30 sh).
+- **XLK $180 CONDITIONAL EXIT — ARMED.** XLK mtm $187.50 = +$7.50 cushion (+4.17%) above $180 flag. Chip-fade catalyst mixed with server-DRAM boom bullish; futures NQ +1.5% Thu supportive. If XLK trades < $180 intraday → cancel 5451fa24 + f2c0dace GTC, market sell 104 sh (thesis-break protective exit).
+- **XOM ratchet monitoring** — server hwm $166.25 stop $149.625. First-tighten trigger $199.01 (+20% wtd); far from trigger.
+- **XLE ratchet monitoring** — server hwm $66.17 stop $59.553. First-tighten trigger $74.38 (+15% wtd); far from trigger.
+- **XLK ratchet monitoring** — server hwm $191.75 stop $172.575. First-tighten trigger $213.46 (+15% wtd); XLK $187.50 = -2.22% below hwm, no new intraday high needed for ratchet at this level.
+- **Cost-basis re-check before XLF FRESH fires:** XLE 19.94% + XLK 19.39% + XOM 5.00% = 44.33% pre-fill; +XLF 5.06% = 49.39% total cost basis (well under aggregate limits).
+- **NO XLE ADD / XLK ADD / XOM ADD** — energy catalyst weakening, XLK 20% cap.
+
+### Risk Factors (Thu 9/17)
+
+- **WTI cracked $100 support ($99.39 -2.97%) + Saudi Oman diversification = ENERGY THESIS WEAKENING.** XLE and XOM both softened -0.72%/-0.96% Wed, deeper pullback likely Thu. Cushion to manual-cut envelopes: XLE 5.28%, XOM 4.65% (both tight). Monitor for potential intraday cuts if crude continues down.
+- **Post-FOMC relief rally may fade.** Futures ES +1.15% pre-mkt; if presser re-interpretation shifts hawkish intraday, tape reverses. XLF entry timing risk.
+- **Initial jobless claims + Philly Fed 08:30 ET** — pre-open intraday mover. Weak claims / hot Philly Fed = risk-off; strong claims / cool Philly Fed = risk-on (paradoxical: weak growth good post-hike).
+- **XLK $180 conditional EXIT probability LOW** — cushion +4.17% at pre-mkt mtm; unless tech reverses hard on Fed re-pricing, cushion sustains.
+- **Fri 9/19 quad witching** — elevated intraday vol expected Fri; avoid new entries Fri PM if XLF fires Thu (position seasoning through expiry).
+- **Wk-15 slot budget: 2/3 used, 1 remaining.** XLF FRESH consumes last slot Thu; no more fresh entries this week (Fri could see mgmt actions only).
+- **Deployment 44.05% vs 75-85% target = 31-41pt gap.** XLF ADD closes to ~49%. Still below target; will need continued additions Wk-16 to close gap.
+- **Sector concentration:** currently 24.94% mv in energy (XLE 19.60% + XOM 4.87%). XLF ADD reduces energy relative % to ~22.5% (still concentrated, but adding financials diversifies within cyclical bucket).
+- **Structural routine health:** 17th consecutive full-slate day since Aug 27 resumption.
+
+### Decision — DEFAULT TRADE (XLF FRESH), HOLD XLE/XLK/XOM, MONITOR XLE/XOM for cuts on continued oil weakness
+
+- **HOLD XLE (307 sh), XLK (104 sh), XOM (30 sh).** All inside cut envelopes at pre-mkt marks; catalysts intact (energy weakening but not broken).
+- **XLE MANUAL-CUT monitoring** — cushion 5.28% to $60.15 (-7%). If breached intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+- **XOM MANUAL-CUT monitoring** — cushion 4.65% to $154.23 (-7%). If breached intraday → cancel 5afbbb78, market sell 30 sh.
+- **XLK $180 CONDITIONAL EXIT** — armed; cushion +4.17%. On breach → cancel 5451fa24 + f2c0dace GTC, market sell 104 sh.
+- **NO XLE ADD, NO XLK ADD, NO XOM ADD** — energy catalyst weakening (Saudi Oman + WTI < $100); XLK 20% cap blocks; XOM ADD anti-cyclical on oil-down day.
+- **CONDITIONAL FRESH AT OPEN — XLF FRESH 90 sh full-size (T+1, no halving required):**
+  - **XLF FRESH 90 sh @ ~$56 (~$5,040)** — IF XLF cash-open spread < 1% AND XLF > $55.50 AND ES not red > 0.5% at MARKET-OPEN routine runtime → market buy 90 sh; trail 10% GTC. **PRIORITY 1.** Wk-15 slot 2→3/3.
+  - **SKIP if:** ES red > 0.5% at runtime (post-FOMC bounce failing) OR XLF cash-open spread > 1% OR XLF < $55.50 at runtime (deeper Wed sell-through). Log SKIP with specific gate cited.
+- **CVX / FANG re-entry / XLV / XLE-ADD / XOM-ADD / semi-FRESH deferred** — none qualify Thu.
+- **Wk-15 slot budget:** 2/3 used → potentially 3/3 (XLF FRESH) → 0 slots remaining for Fri.
+- **FOMC T+1: no halving.** Standard sizing on qualifying setups.
+- **NO clock-time gates**: entry condition checkable at MARKET-OPEN runtime.
+- **PDT check:** 0/3 daytrades; XLF FRESH = no round-trip.
+- **QUALIFIES → TRADE (conditional on cash-open confirmation).** Not a flat-week violation IF one gate condition fails at open (legit SKIP with named gate).
