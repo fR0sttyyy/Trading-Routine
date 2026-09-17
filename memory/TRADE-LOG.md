@@ -2434,3 +2434,38 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 **Notes:** Post-FOMC T+1 tape orderly — XLK leads +2.26% intraday (tech risk-on on server-DRAM tailwind + bull-flattener), XOM lagging -0.97% on continued oil softness (WTI ~$99). XLF flat post-entry (+0.13%) — expected AM absorption. No thesis breaks, no cushion breach, no ratchet action needed. Passive management wins the midday.
 
 **Afternoon watch:** XOM if it drifts toward $154.23 (cushion +4.64% only), XLK $180 flag (+4.49% cushion), WTI $100 handle for energy sentiment.
+
+### Sep 17 — EOD Snapshot (Day 4, Thursday — Wk-15 Day 4 / FOMC T+1 / 1 trade today: XLF FRESH full-size)
+**Portfolio:** $99,934.02 | **Cash:** $50,661.87 (50.70%) | **Day P&L:** +$531.23 (+0.534%) | **Phase P&L:** -$65.98 (-0.066%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.405 | +0.586% | -$84.98 (-0.43%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 90 | $56.05 | $55.89 | -0.072% | -$14.40 (-0.29%) | $50.5035 (trail 10%, hwm $56.115) |
+| XLK | 104 | $185.6156 | $188.30 | +2.376% | +$279.18 (+1.45%) | $172.575 (trail 10%, hwm $191.75) |
+| XOM | 30 | $165.84 | $162.95 | -0.227% | -$86.70 (-1.74%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Wk-15 Day 4 / FOMC T+1 closes green +$531.23 (+0.534%) as post-decision bull-flattener held into the bell — XLK led +2.38% on tech risk-on (server-DRAM tailwind + rate-path digestion), pulling portfolio back into near-flat phase territory (-0.07% from $100k). XLF FRESH entered 09:36 ET 90 sh @ $56.05 (full-size, financials #2 QTD momentum + post-FOMC NIM tailwind) closes -0.29% first-day (expected AM absorption chop; hwm $56.115 held), diversifying away from prior concentrated energy book. XLE recovered mildly +0.59% on WTI $99 stabilization; XOM lagged -0.23% on continued oil softness but held cushion +5.09% to cut trigger $154.23. FANG stop-out from Wed absorbed, book now 4-name (XLE + XLF + XLK + XOM). All cut-loser envelopes intact (tightest XOM at -1.74%, cushion +5.09%); XLK $180 flag armed with $8.30 cushion (+4.61%); no first-tighten triggers hit (XLK best at +1.45%, well below +15%). Deployment $49,272.15 / $99,934.02 = 49.31% — below 75-85% target by 26-36pp, but Wk-15 slot budget is 3/3 FULL so no more fresh entries this week (Fri = mgmt-only + quad-witching elevated vol). Realized P&L today: $0. Order state stable: 6 GTC trail stops covering 4 positions (5451fa24, f2c0dace, 2cae6815, 442df295, 5afbbb78, 8bd5213b).
+
+**Trades today (Thu 9/17):** 1 —
+1. XLF BUY FRESH 90 sh @ $56.05 (09:36 ET, slot-consuming, full-size, trail 10% GTC stop $50.463 → server-ratcheted $50.5035).
+
+**Wk-15 trades running total:** 3/3 slot-consuming (Tue FANG ADD + Wed XOM FRESH + Thu XLF FRESH). Cap 3/week FULL — no fresh entries Fri.
+
+**Post-EOD order state (6 GTC stops covering 4 positions, 6 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815)
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295)
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24)
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78)
+- XLF 90 sh: trail 10% $50.5035 hwm $56.115 (8bd5213b)
+
+**Tomorrow (Fri 9/19 — Wk-15 Day 5 / quad-witching / MGMT-ONLY):**
+1. **Pre-market re-scan** — refresh setup universe; no fresh entries permitted (Wk-15 slot 3/3 FULL). Watch overnight ES/CL/DXY into quad-witching open.
+2. **Quad-witching vol posture** — expect elevated intraday range; passive management preferred, cut/tighten actions only on rule triggers.
+3. **XLK $180 conditional EXIT** — armed; cushion +4.61% at close ($188.30 vs $180 flag). Intraday breach → cancel 5451fa24 + f2c0dace + market sell 104 sh.
+4. **XOM MANUAL-CUT monitoring** — live cushion +5.09% to $154.23; continued oil weakness could trigger intraday cut.
+5. **XLE MANUAL-CUT monitoring** — live cushion +6.75% to $60.15; benign at close.
+6. **XLF MANUAL-CUT monitoring** — live cushion +6.71% to $52.13; benign first-day.
+7. **Ratchet monitoring** — first-tighten triggers well above: XLE $74.38, XLK $213.46, XOM $199.01, XLF $64.46.
+8. **Wk-15 close** — Fri EOD sets baseline for Wk-16 planning; weekly review Sat/Sun.
