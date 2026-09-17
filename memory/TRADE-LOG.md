@@ -2331,3 +2331,68 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLE ratchet monitoring** — server hwm $66.17 stop $59.553; first-tighten trigger $74.38.
 6. **XLK ratchet monitoring** — server hwm $191.75 stop $172.575; first-tighten trigger $213.46.
 7. **Wk-15 slot budget:** 2/3 used, 1 remaining for Thu/Fri post-FOMC.
+
+### Sep 17 — Market-Open Routine (Thursday, 09:36 ET — Wk-15 Day 4 / FOMC T+1 / 1 ACTION: XLF FRESH full-size on financials #2 QTD momentum + post-FOMC bull-flattener)
+**Portfolio:** $99,646.26 (pre-fill) | **Cash:** $55,706.37 → $50,661.87 (post-fill 50.85%) | **Positions:** 3 → 4 (XLE + XLK + XOM + XLF) | **Wk-15 trades:** 2 → 3/3 used (slot budget FULL) | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| XLF | BUY (FRESH) | 90 | $56.05 | $5,044.50 | $50.463 (trail 10% GTC, hwm $56.07, id 8bd5213b) | FOMC 25bp hike Wed absorbed with digestible presser tone → post-decision bull-flattener supports bank NIMs; XLF QTD +8.62% #2 sector momentum; Wed -1.62% XLF pullback = pre-decision risk-off unwind, not thesis break; ES +1.15% Thu pre-mkt confirms tape-wide risk-on rotation; diversifies away from concentrated energy book (was 24.94% mv XLE+XOM) | $67.20 (+20%) | 2:1 |
+
+**Pre-market plan execution:**
+- **XLF FRESH ✓ ALL GATES MET at cash-open re-quote.** 09:36 ET quote ap $56.06 / bp $56.04 spread 0.036% ✓ (< 1% gate); XLF ~$56.05 > $55.50 gate ✓; SPY ~$761.74 mid vs Wed close $755 → ES/SPY tape green, not red > 0.5% ✓; futures ES +1.15% pre-mkt confirmed risk-on. Full-size 90 sh × $56.05 = $5,044.50 = 5.06% of $99,646.26 equity. Trail 10% GTC placed (id 8bd5213b, stop $50.463, hwm $56.07). Wk-15 slot 2→3/3 consumed (last slot Wk-15).
+- **XLE MANUAL-CUT NO-OP — HOLD.** Live $63.935 = -1.16% intraday, cushion to -7% cut $60.15 = +5.92% above trigger. WTI cracked $100 to $99.39 but XLE trading orderly. HOLD, trail stops handle passive fire.
+- **XOM MANUAL-CUT NO-OP — HOLD.** Live $162.33 = -0.61% intraday, cushion to -7% cut $154.23 = +4.99% above trigger. Same catalyst weakening but XOM stable. HOLD.
+- **XLK $180 conditional EXIT NO-OP — HOLD.** Live $186.925 = +$6.925 cushion (+3.85%) above $180 flag; conditional EXIT remains armed.
+- **XLE / XLK NO ADD** — 20% cost cap gate BLOCKS both (XLE 19.94% cost basis, XLK 19.39%). Confirmed unchanged.
+- **XOM / CVX / FANG re-entry / XLV / semi-FRESH deferred** — none qualify Thu per pre-market ideas table.
+
+**Hard-check gates (all pass on XLF FRESH):**
+- Total positions after fill: 4 (XLE, XLK, XOM, XLF) ≤ 6 ✓
+- Wk-15 trades after fill: 3/3 ≤ 3 ✓ (budget now FULL for Wk-15)
+- XLF cost $5,044.50 = 5.06% of $99,646.26 equity (≤ 20%) ✓
+- XLF cost $5,044.50 ≤ cash $55,706.37 ✓
+- Catalyst documented (RESEARCH-LOG 2026-09-17 Idea 1) ✓
+- PDT room: daytrade_count 0/3; XLF buy + potential same-day protective exit = 1 daytrade if needed, 2 remaining ✓
+- Stock instrument (ETF) ✓
+- FOMC T+1 = no halving penalty; standard sizing ✓
+
+**Execution audit (13:36:10-13:36:52 UTC / 09:36:10-09:36:52 ET):**
+1. 09:36:10 ET — XLF cash-open quote ap $56.06 / bp $56.04 spread 0.036% ✓ (well below 1% gate).
+2. 09:36:17 ET — SPY confirmation quote ap $762.04 / bp $761.43 = tape green, ES not red > 0.5%.
+3. 09:36:28 ET — Submitted market buy 90 sh XLF (order ea90f5e3, client_order_id bot-20260917-XLF-133628-27066).
+4. Fill: 90 sh @ $56.05 avg (cost $5,044.50). Position confirmed via position/XLF endpoint (qty 90, avg_entry $56.05, current $56.055, unrealized +$0.45).
+5. 09:36:52 ET — Submitted trail 10% GTC sell 90 sh XLF (order 8bd5213b, stop $50.463 hwm $56.07). Position protected.
+6. Zero coverage gap; all orders confirmed.
+
+**Cut-loser gate NO-OP on existing book at open:**
+- XLE 307 sh wtd $64.6818, live $63.935 = -$229.27 (-1.16%). Cut trigger $60.15 (+5.92% cushion). No action.
+- XLK 104 sh @ $185.616, live $186.925 = +$136.18 (+0.71%). Cut trigger $172.62 (+7.65% cushion). No action.
+- XOM 30 sh @ $165.84, live $162.33 = -$105.30 (-2.12%). Cut trigger $154.23 (+4.99% cushion). No action.
+- XLF 90 sh @ $56.05 (new), live $56.055 = +$0.45 (+0.01%). Cut trigger $52.13 (+7.00% cushion). No action.
+
+**Tighten-trail check NO-OP:** all positions below first-tighten (+15%). XLE -1.15%, XLK +0.71%, XOM -2.12%, XLF +0.01%. None near +15%.
+
+**Post-action order state (6 GTC stops covering 4 positions, 6 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh: trail 10% $50.463 hwm $56.07 (8bd5213b) — NEW
+
+**Deployment:** $43,939.89 mv pre-fill (44.10%) → $48,984.39 mv post-fill (~49.16%). XLF net +5.06pp. Below 75-85% target by 26-36pp; Wk-15 slot budget now 3/3 FULL — no more fresh entries this week (Fri could see mgmt actions only).
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE 19.70% mv) + 1 energy single-name (XOM 4.89% mv) + 1 tech ETF (XLK 19.51% mv) + 1 financials ETF (XLF 5.06% mv). Energy concentration reduced (relative) to 24.59% mv; financials diversification added within cyclical bucket per non-energy plan preference.
+
+**Realized P&L this trade:** $0 (opening entry). Cumulative phase P&L $99,646.26 - $100,000 = -$353.74 (-0.35%).
+
+**STEP 7 ClickUp send:** posting concise recap (XLF FRESH 90 sh @ $56.05, stop trail 10% $50.463, financials #2 QTD momentum + post-FOMC bull-flattener catalyst).
+
+**Next checkpoints:**
+1. **Midday scan** — XLF MTM + XLE/XOM oil-catalyst weakness monitoring (WTI $99 zone); XLK $180 flag; ratchet checks on all four positions.
+2. **XLE / XOM MANUAL-CUT monitoring** — cushion +5.92% / +4.99% (both tight but intact). Continued oil weakness could trigger intraday cuts.
+3. **XLK $180 conditional EXIT** — armed; cushion +3.85% at open.
+4. **XLF ratchet monitoring** — server hwm $56.07 stop $50.463; first-tighten trigger $64.46 (+15% from entry).
+5. **XLE / XLK / XOM ratchet monitoring** — unchanged from Wed EOD.
+6. **Wk-15 slot budget:** 3/3 FULL; no fresh entries Fri (mgmt only). Fri 9/19 quad witching = elevated vol.
