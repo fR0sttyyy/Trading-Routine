@@ -5410,3 +5410,94 @@ Order of preference at MARKET-OPEN routine runtime:
 - **NO clock-time gates**: entry condition checkable at MARKET-OPEN runtime.
 - **PDT check:** 0/3 daytrades; XLF FRESH = no round-trip.
 - **QUALIFIES → TRADE (conditional on cash-open confirmation).** Not a flat-week violation IF one gate condition fails at open (legit SKIP with named gate).
+
+
+## 2026-09-18 (Fri) — Pre-Market Research (Wk-15 Day 5 / QUAD WITCHING / MGMT-ONLY)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-17)
+- Equity: $99,820.12 (vs last_equity $99,942.77 = -$122.65 / -0.123% Thu mark)
+- Cash: $50,661.87 (50.75%) | Buying power: $340,290.59 | non-marginable BP $75,240.99 | SMA $96,869.65
+- Long market value: $49,158.25 (49.25% deployed) | Maint margin $14,747.48
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Thu — XLF FRESH only, no sells)
+- Wk-15 slot budget: **3/3 FULL — HARD CAP (Rule 8, max 3/week)** (Tue FANG ADD + Wed XOM FRESH + Thu XLF FRESH). **NO FRESH ENTRIES PERMITTED FRIDAY.**
+- Positions (4, live marks via position endpoint):
+  - XLE 307 @ $64.6818 wtd (mtm $64.1904, **unrl -$150.86 / -0.76%; change_today -0.449%**; trail 10% $59.553 hwm $66.17)
+  - XLF 90 @ $56.05 (mtm $55.66, **unrl -$35.10 / -0.70%; change_today -0.394%**; trail 10% $50.5035 hwm $56.115)
+  - XLK 104 @ $185.6156 (mtm $188.20, **unrl +$268.78 / +1.39%; change_today +0.074%**; trail 10% $172.575 hwm $191.75)
+  - XOM 30 @ $165.84 (mtm $162.32, **unrl -$105.60 / -2.12%; change_today -0.582%**; trail 10% $149.625 hwm $166.25)
+- Open orders: 6 GTC trailing stops covering all 4 positions (2 XLE legs, 2 XLK legs, 1 XLF, 1 XOM — all status new)
+- **Data freshness ✓:** balance_asof 2026-09-17 (Thu close, normal for pre-mkt Fri). Named-stock quotes STALE from Thu 20:00 UTC close (XLE bp $64.46 ap $0/halted-book; XLF ap $55.94 bp $55.80 spread 0.25% ✓; XLK ap $193.06 bp $181.59 spread 6.3%; XOM ap $170.42 bp $153.44 spread 10.0%). Wide AH books = illiquid overnight, expected pre-mkt Fri; cash-open re-quote would be mandatory for ANY new order (but none permitted, budget FULL).
+
+### Market Context (Fri 9/18 pre-market — Wk-15 Day 5 / QUAD WITCHING)
+- Indices Thu 9/17 close (proxy via research.sh context): **S&P 7637.76 (+1.14%), Nasdaq 26418.30 (+1.69%), Dow 51778.04 (+0.61%)** — Thu post-FOMC relief rally held; tech led (+1.69%), broad risk-on
+- Futures Fri pre-mkt: **ES 7698.0 (-0.12%), NQ 29773.5 (+0.10%)** — MIXED / cautious pre-open into quad witching (options expiry vol)
+- VIX: **15.55 (-12.2%)** — event-vol crush continues post-Fed; benign volatility backdrop
+- **WTI $96.81 (-0.43%). Brent $99.03 (-0.9%). CRUDE FURTHER SOFTENING.** WTI now < $97 = -3.19% below the $100 structural-bid floor that anchored the energy thesis. Cumulative Wed→Fri: WTI ~$103 → $96.81 = -6.0% in 3 sessions. **Energy catalyst formally WEAKENED (not thesis-broken, but no fresh disruption; Saudi Oman workaround + smaller crude withdrawal + softer nat-gas demand collectively depress bid).** Sec-level XLE Thu +0.70% mild bounce despite crude down = relative strength (buybacks narrative: XOM vs COP Fool coverage 9/18).
+- **BIG NEWS OVERNIGHT / TODAY:**
+  - **QUAD WITCHING FRI 9/18** — index options, index futures, single-stock options, single-stock futures all expire same day. Expect elevated intraday range, mechanical pin-risk to strikes, absorbed EOD; passive management posture required.
+  - **XLK holds $182 support** per Seeking Alpha 9/18 08:22 UTC ("hovers above the level that matters most"). Analyst framing bullish on Fed-rate-hike overhang lifting. Consistent with our $180 flag armed cushion +4.44%.
+  - **XLF sensitive to Fed re-pricing** — trading $56.60 pre-open per Brave New Coin, sector-sensitive; broadly aligned with our entry $56.05.
+  - **Energy dividend growth theme** (XLE, HESM/INSW/TPL top A+ Div Growth) — supportive multi-week narrative for energy despite spot oil weakness.
+  - **Fri economic calendar:** German PPI Aug, UK Retail Sales Aug, US Industrial Production Aug, US Manufacturing Production Aug (10:15 ET). Post-FOMC BoJ / ECB / Fed speakers on tape. Lighter US data day; macro-flow dominated by quad witching.
+- **Sector momentum (unchanged QTD ranking):** Energy #1 (+10.82%), Financials #2 (+8.62%). Thu single-day: **XLK +2.25%** (relief rally leader), **XLE +0.70%** (mild bounce despite crude weakness), XLV +0.62%, XLB +0.69%, XLI +0.18%, XLP +0.19%, XLF -0.09% (near-flat first-day post-entry).
+- **Wk-15 calendar (remaining):** Fri only — quad witching + Industrial/Manufacturing Production 10:15 ET.
+
+### Trade Ideas — Qualification Table (Fri 9/18 open) — ALL FRESH IDEAS BLOCKED
+
+**HARD-CAP CONTEXT: Wk-15 slot budget 3/3 FULL. Buy-Side Gate condition "Trades this week <= 3" FAILS for any new entry. This is Rule 8 (max 3 new trades/week), a HARD CAP — not a soft/discretionary limit. A qualifying setup rejected on this gate is NOT a Decision-Rule violation.**
+
+**Idea 1: Any FRESH — DOES NOT QUALIFY on Buy-Side Gate (weekly slot cap 3/3).**
+- Failed gate: "Trades this week <= 3" — currently 3/3.
+- No further analysis needed; rule-blocked at the gate. **SKIP.**
+
+**Idea 2: XLE ADD / XLK ADD / XOM ADD / XLF ADD — DOES NOT QUALIFY.**
+- XLE cost $19,857.31 = 19.89% → headroom $107 (blocked by 20% cap).
+- XLK cost $19,304.02 = 19.34% → headroom $661 (blocked by 20% cap).
+- XLF cost $5,044.50 = 5.05% → headroom possible BUT weekly slot cap 3/3 blocks.
+- XOM cost $4,975.20 = 4.98% → headroom possible BUT weekly slot cap 3/3 blocks AND crude softening = anti-cyclical.
+- **DOES NOT QUALIFY on Buy-Side Gate (slot cap or 20% cost cap).** No action.
+
+**Idea 3: FANG re-entry — DOES NOT QUALIFY.**
+- Same as Thu: no fresh catalyst post -7.64% stop-out; crude weakening further; also slot-cap blocked.
+- **DOES NOT QUALIFY on Test 1 (catalyst) AND Buy-Side Gate.** SKIP.
+
+**Idea 4: XLV / defensive FRESH — DOES NOT QUALIFY.**
+- Slot cap blocks; also not top-tier QTD sector.
+- **DOES NOT QUALIFY on Buy-Side Gate.** SKIP.
+
+### Management Priorities for Market-Open Routine (Fri 9/18 09:30 ET) — MGMT-ONLY
+
+- **XLE cushion check.** mtm $64.19; -7% cut $60.15 = 6.36% below current; trail-stop $59.553 = 7.23% cushion. Crude softening (WTI $96.81, cumulative -6% since Wed) = catalyst weakening. **If XLE < $60.15 intraday → MANUAL CUT** (cancel 2cae6815 + 442df295, market sell 307 sh).
+- **XOM cushion check — TIGHTEST.** mtm $162.32; -7% cut $154.23 = 4.98% below current; trail-stop $149.625 = 7.82% cushion. **Same catalyst weakening. If XOM < $154.23 intraday → MANUAL CUT** (cancel 5afbbb78, market sell 30 sh).
+- **XLK $180 CONDITIONAL EXIT — ARMED.** mtm $188.20 = +$8.20 cushion (+4.56%) above $180 flag. Chip-fade risk moderated by "hovers above $182" bullish framing. **If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh** (thesis-break protective exit).
+- **XLF cushion check.** mtm $55.66; -7% cut $52.13 = 6.35% below current; trail-stop $50.5035 = 9.26% cushion. First-day chop expected; benign. HOLD.
+- **Ratchet monitoring** (first-tighten +15%): XLE $74.38 (far), XLK $213.46 (far), XOM $199.01 (far), XLF $64.46 (far). None near trigger. **Server-side auto-ratchet handles all HWM updates.**
+- **Quad-witching posture:** expect elevated intraday range (options expiry pin-risk). Passive management preferred. Only rule-trigger actions (manual cut envelopes, XLK $180 flag) — no discretionary changes, no fresh entries.
+- **NO CLOCK-TIME GATES**: all monitoring conditions checkable at MARKET-OPEN / MIDDAY / EOD routine runtimes.
+
+### Risk Factors (Fri 9/18)
+
+- **QUAD WITCHING volatility.** Expect intraday range expansion (est +50% typical), mechanical pin-risk to strikes, absorbed by EOD. Cushions tight enough (XOM 4.98%) that a routine intraday spike-down could trigger MANUAL CUT — WATCH XOM closely.
+- **WTI $96.81 further softening = ENERGY CATALYST WEAKENING.** Cumulative -6% since Wed. XLE relative strength (+0.70% Thu) buys time but XOM absolute weakness (-2.12% unrl) leaves cushion tight. If crude drops another 2-3% Fri, XOM $154.23 in play.
+- **XLK $180 flag** — cushion +4.56%. Chip-fade re-emergence (weekend Nvidia news, etc.) could pressure. Server-side auto-ratchet keeps trail current on any new highs.
+- **Fri Industrial/Manufacturing Production 10:15 ET** — mild macro release; unlikely to move tape materially unless surprise (e.g., ISM-style contraction print).
+- **BoJ / ECB / Fed speakers** — headline-risk on Fed re-pricing (hawkish surprise → risk-off, bearish for XLF).
+- **Wk-15 slot budget: 3/3 FULL.** Hard-cap on any fresh entries Fri. If we see a qualifying idea, it's NOT a violation to skip — Rule 8 blocks at the gate. Reset Monday for Wk-16.
+- **Deployment 49.25% vs 75-85% target = 26-36pt gap.** Cannot close gap Fri (slot-capped); Wk-16 planning target.
+- **Sector concentration:** XLE 19.60% mv + XOM 4.87% mv = 24.47% energy exposure. If both cut on catalyst break, book drops to XLK + XLF (~24.6% mv only). Not preferred outcome but risk-managed.
+- **Structural routine health:** 18th consecutive full-slate day since Aug 27 resumption.
+
+### Decision — MGMT-ONLY: HOLD ALL 4 POSITIONS, NO FRESH ENTRIES (Wk-15 slot-capped)
+
+- **HOLD XLE (307 sh), XLF (90 sh), XLK (104 sh), XOM (30 sh).** All inside cut envelopes at pre-mkt marks; catalysts intact for XLK/XLF, weakening but not broken for XLE/XOM.
+- **XLE MANUAL-CUT monitoring** — cushion 6.36% to $60.15. If breached intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+- **XOM MANUAL-CUT monitoring — TIGHTEST cushion 4.98%** to $154.23. If breached intraday → cancel 5afbbb78, market sell 30 sh.
+- **XLK $180 CONDITIONAL EXIT** — armed; cushion +4.56%. On breach → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+- **XLF cushion 6.35%** — benign; no action.
+- **NO FRESH ENTRIES** — Wk-15 slot 3/3 FULL (hard cap Rule 8). Any qualifying idea = LEGITIMATE SKIP citing gate condition "Trades this week <= 3." Not a Decision-Rule violation.
+- **NO ADDs** — 20% cost cap (XLE 19.89%, XLK 19.34%) or slot cap (XLF, XOM). No action.
+- **Passive quad-witching posture:** rule-trigger actions only (cuts, XLK flag). No discretionary trades.
+- **NO clock-time gates**: all conditions checkable at routine runtime.
+- **PDT check:** 0/3 daytrades; no round-trips planned Fri.
+- **Not a flat-week violation:** Rule 8 hard cap blocks all entries; skip is rule-mandated.
+- **Wk-15 close today; Wk-16 slot budget resets Mon 9/21.**
