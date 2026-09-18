@@ -2469,3 +2469,41 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **XLF MANUAL-CUT monitoring** — live cushion +6.71% to $52.13; benign first-day.
 7. **Ratchet monitoring** — first-tighten triggers well above: XLE $74.38, XLK $213.46, XOM $199.01, XLF $64.46.
 8. **Wk-15 close** — Fri EOD sets baseline for Wk-16 planning; weekly review Sat/Sun.
+
+### Sep 18 — Midday Scan (Friday, 12:02 ET — Wk-15 Day 5 / QUAD WITCHING / NO-OP)
+**Portfolio:** ~$99,974.71 | **Cash:** $50,661.87 (50.67%) | **MV:** $49,312.84 (49.33%) | **Unrealized P&L (open book):** +$131.81
+
+| Ticker | Shares | Entry | Live | Day Chg | Unrealized P&L | Cut Trigger | Cushion |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.68 | +0.31% | -$0.55 (-0.003%) | $60.155 | +6.99% |
+| XLF | 90 | $56.05 | $55.7248 | -0.278% | -$29.27 (-0.58%) | $52.127 | +6.46% |
+| XLK | 104 | $185.6156 | $187.95 | -0.058% | +$242.78 (+1.26%) | $172.622 | +8.15% |
+| XOM | 30 | $165.84 | $163.135 | -0.083% | -$81.15 (-1.63%) | $154.231 | +5.46% |
+
+**Cut-loser check:** ALL 4 inside envelope. Tightest is XOM at -1.63% (cushion +5.46% to $154.23). NO CUTS.
+
+**Tighten-trail check:** all below +15%. XLK best at +1.26%. NO TIGHTENS.
+
+**Thesis check:** All intact. XLE (307) ~flat on quad-witching tape (WTI ~$96.81 still soft); XLF post-FOMC bull-flattener thesis intact (mild -0.28% intraday); XLK $180 flag armed ($187.95 = +$7.95 cushion +4.42%), not breached; XOM catalyst weakened not broken, cushion tight but holding.
+
+**Ratchets:**
+- XLE hwm $66.17 unchanged (live $64.68 = -2.25% below hwm)
+- XLF hwm $56.115 unchanged (live $55.7248 = -0.70% below hwm)
+- XLK hwm $191.75 unchanged (live $187.95 = -1.98% below hwm)
+- XOM hwm $166.25 unchanged (live $163.135 = -1.87% below hwm)
+
+**Deployment:** 49.33% mv (below 75-85% target by 26-36pp). Wk-15 slot 3/3 FULL.
+
+**Post-scan order state (6 GTC stops, 4 positions):** unchanged
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815)
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295)
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24)
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78)
+- XLF 90 sh: trail 10% $50.5035 hwm $56.115 (8bd5213b)
+
+**Action count today (midday):** 0. **Wk-15 trades running total unchanged:** 3/3 slot-consuming FULL.
+
+**Notes:** Quad-witching Fri tape orderly at midday — no pin-risk squeeze visible yet. Book near-flat intraday with XLE mildly green (+0.31%) and other 3 mildly red but all sub-0.60% moves. XLK strongest position (+1.26% unrl) holds $187.95 well above $180 flag. XOM tightest at -1.63% unrl / +5.46% cushion — continued watch into PM but no rule trigger. No fresh entries permitted (slot cap 3/3). Passive management wins the midday.
+
+**Afternoon watch:** XOM into $154.23 (cushion +5.46%), XLK $180 flag (+4.42% cushion), quad-witching pin-risk into 4pm close, potential vol expansion in final hour.
