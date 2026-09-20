@@ -2507,3 +2507,36 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 **Notes:** Quad-witching Fri tape orderly at midday — no pin-risk squeeze visible yet. Book near-flat intraday with XLE mildly green (+0.31%) and other 3 mildly red but all sub-0.60% moves. XLK strongest position (+1.26% unrl) holds $187.95 well above $180 flag. XOM tightest at -1.63% unrl / +5.46% cushion — continued watch into PM but no rule trigger. No fresh entries permitted (slot cap 3/3). Passive management wins the midday.
 
 **Afternoon watch:** XOM into $154.23 (cushion +5.46%), XLK $180 flag (+4.42% cushion), quad-witching pin-risk into 4pm close, potential vol expansion in final hour.
+
+### Sep 20 — EOD Snapshot (Sunday — WEEKEND / captures Fri Sep 18 close marks / Fri EOD-slot MISSED / Wk-15 close)
+**Portfolio:** $100,057.04 | **Cash:** $50,661.87 (50.63%) | **P&L since Sep 17:** +$123.02 (+0.123%, spans Fri 9/18 — Sep 18 EOD routine missed) | **Phase P&L:** +$57.04 (+0.057%)
+
+| Ticker | Shares | Entry | Close | Day Chg (Fri) | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.31 | -0.148% | -$114.14 (-0.575%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 90 | $56.05 | $55.86 | -0.054% | -$17.10 (-0.339%) | $50.5035 (trail 10%, hwm $56.115) |
+| XLK | 104 | $185.6156 | $189.60 | +0.690% | +$414.38 (+2.147%) | $172.575 (trail 10%, hwm $191.75) |
+| XOM | 30 | $165.84 | $163.54 | +0.362% | -$69.00 (-1.387%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Backfill EOD on Sunday 9/20 — Friday 9/18 EOD routine was missed, so the reported +$123.02 (+0.123%) P&L spans Sep 17 EOD → Fri 9/18 close (single trading day). Phase now +$57.04 (+0.057%) vs $100k start, crossing green for the first time since Wk-15 opened. Quad-witching Fri closed orderly with no pin-risk squeeze: XLK led +0.69% (tech risk-on continues post-FOMC), XOM firmed +0.36%, XLE and XLF mildly red but sub-0.15%. Book unchanged (307 XLE / 90 XLF / 104 XLK / 30 XOM); no ratchets triggered (all hwms unchanged); no cut-trigger breaches (tightest XOM at -1.39% unrl / cushion +5.69% to $154.23); no first-tighten hit (XLK best at +2.15%, well below +15%). Deployment 49.37% mv — below 75-85% target by 26-36pp; Wk-15 slot budget 3/3 FULL (no more fresh entries this week, cap resets Mon 9/21). Realized P&L over span: $0. Order state stable — 6 GTC trail stops covering 4 positions (2cae6815, 442df295, 5451fa24, f2c0dace, 5afbbb78, 8bd5213b).
+
+**Trades over span (Fri 9/18 + weekend):** none.
+
+**Wk-15 trades running total:** 3/3 slot-consuming (Tue FANG ADD + Wed XOM FRESH + Thu XLF FRESH). Wk-15 CLOSED — cap resets Mon 9/21.
+
+**Post-EOD order state (6 GTC stops covering 4 positions, unchanged):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815)
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295)
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24)
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78)
+- XLF 90 sh: trail 10% $50.5035 hwm $56.115 (8bd5213b)
+
+**Monday 9/21 (Wk-16 Day 1) plan:**
+1. **Pre-market re-scan** — refresh setup universe; Wk-16 slot cap resets to 0/3, so up to 3 fresh entries permitted this week. Deployment gap 26pp below 75-85% target argues for adding exposure if setups qualify.
+2. **XLK $180 conditional EXIT** — still armed; cushion +5.33% at Fri close ($189.60 vs $180 flag). Intraday breach → cancel 5451fa24 + f2c0dace + market sell 104 sh.
+3. **XOM MANUAL-CUT monitoring** — cushion +5.69% to $154.23; still tightest name, continued oil weakness could trigger cut.
+4. **XLE MANUAL-CUT monitoring** — cushion +6.46% to $60.15; benign.
+5. **XLF MANUAL-CUT monitoring** — cushion +6.68% to $52.13; benign.
+6. **Ratchet monitoring** — first-tighten triggers well above: XLE $74.38, XLK $213.46, XOM $199.01, XLF $64.46.
+7. **Sector momentum check** — refresh QTD leaders (tech + financials trending; energy softening on WTI $96-$99 range).
