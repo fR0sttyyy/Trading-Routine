@@ -2608,3 +2608,38 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLF ratchet monitoring** — new leg hwm $56.00 stop $50.40; original leg hwm $56.115 stop $50.5035; first-tighten trigger $64.46 (+15% from avg $56.045).
 6. **XLE / XLK / XOM ratchet monitoring** — unchanged from Fri EOD hwms.
 7. **Wk-16 slot budget:** 1/3 used; 2 remaining. Preserve for mid-week qualifying setups (earnings-driven single-name or sector rotation).
+
+### Sep 21 — Midday Scan (Monday, 12:03 ET — Wk-16 Day 1 / NO-OP)
+**Portfolio marks:** XLE 307 @ $62.745 unrl **-$594.60 / -2.99%** (chg_today -2.43%) | XLF 180 @ $55.85 unrl **-$35.10 / -0.35%** (chg_today -0.02%) | XLK 104 @ $193.58 unrl **+$828.30 / +4.29%** (chg_today +2.10%) | XOM 30 @ $158.845 unrl **-$209.85 / -4.22%** (chg_today -2.87%)
+**Aggregate market value:** $54,213.39 (~54.29% deployed) | Realized YTD unchanged. Book -$11.25 vs open ($54,224.64 mv).
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- XOM -4.22% | cut $154.23 = **+2.91% cushion (TIGHTEST)** — crude WTI still soft, XOM slid $161→$158.8 intraday; envelope not yet breached
+- XLE -2.99% | cut $60.15 = +4.31% cushion — leaked -2.43% intraday on crude drag; envelope holding
+- XLF -0.35% | cut $52.12 = +6.68% cushion — benign, blended-avg mostly flat
+- XLK +4.29% | not cut-relevant — up +2.10% today, ratcheted new hwm $193.69
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +4.29% (need +15% for first tighten to 7%). All others negative. No cancel-replace needed.
+
+**Server-side ratchet observed:** XLK trail-stops (both legs 5451fa24 + f2c0dace) auto-ratcheted hwm $191.75 → $193.69, stop $172.575 → $174.321 (+$1.746 lift each). XLF new leg (bbf96d5f) hwm $56.005 (unchanged from open); original XLF leg (8bd5213b) hwm $56.205 (unchanged). XLE/XOM hwms unchanged.
+
+**Thesis check (STEP 5) — no cuts:**
+- **XOM:** Catalyst formally impaired (crude -9.35% cumulative 4 sessions + Saudi export recovery), but price still inside cut envelope. Watch only; not thesis-broken cut yet. Would need XOM < $154.23 or fresh acute negative catalyst.
+- **XLE:** Same impaired catalyst; sector ETF absorbing better than XOM single-name. Not thesis-broken.
+- **XLK:** Ex-div $0.22069/sh priced in; NQ +1.07% risk-on carry-through. Thesis intact, up +2.10% today.
+- **XLF:** Fresh post-FOMC bull-flattener + dividend-growth thesis (SA 9/21) intact. Blended-avg flat intraday; no leakage.
+
+**XLK $180 conditional EXIT — armed, cushion $193.58 vs $180 = +7.54% (widened from +6.28% at open).** Robust.
+
+**Intraday research (STEP 6) — no ad-hoc pull needed.** XOM/XLE moves consistent with pre-market crude-catalyst-impaired thesis (WTI $93 zone); no unexplained gap. Skipping research.sh.
+
+**Actions:** NONE. All positions held. No ClickUp notification (STEP 7 no-op).
+
+**Next checkpoints (afternoon → close):**
+1. **XOM MANUAL-CUT vigilance** — $154.23 flag; cushion +2.91% (very tight); further crude leg down + WTI < $92 could breach
+2. **XLE MANUAL-CUT vigilance** — $60.15 flag; cushion +4.31%
+3. **XLK $180 conditional EXIT** — armed; cushion +7.54%; robust
+4. **XLF ratchet** — new leg hwm $56.005; if XLF > $56.115 → original leg re-ratchets
+5. **XLK ratchet** — new hwm $193.69; first-tighten trigger $213.46 (+15%)
+6. **Wk-16 slot budget:** 1/3 used; 2 remaining
+7. **Deployment:** ~54.29% (below 75-85% target by 21-31pp) — next qualifying setup remains door open
