@@ -2540,3 +2540,71 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLF MANUAL-CUT monitoring** — cushion +6.68% to $52.13; benign.
 6. **Ratchet monitoring** — first-tighten triggers well above: XLE $74.38, XLK $213.46, XOM $199.01, XLF $64.46.
 7. **Sector momentum check** — refresh QTD leaders (tech + financials trending; energy softening on WTI $96-$99 range).
+
+### Sep 21 — Market-Open Routine (Monday, 09:36 ET — Wk-16 Day 1 / SLOT RESET / 1 ACTION: XLF ADD full-size on financials #2 QTD momentum + dividend-growth theme + post-FOMC bull-flattener)
+**Portfolio:** $99,866.47 (pre-fill) | **Cash:** $50,661.87 → $45,617.87 (post-fill ~45.68%) | **Positions:** 4 (XLE + XLF + XLK + XOM) — XLF grows 90 → 180 sh | **Wk-16 trades:** 0 → 1/3 used | **daytrade_count:** 0/3
+
+| Ticker | Side | Shares | Fill Price | Cost | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| XLF | BUY (ADD) | 90 | $56.04 | $5,043.60 | $50.40 (trail 10% GTC, hwm $56.00, id bbf96d5f) | Fresh SA dividend-growth theme + post-FOMC bull-flattener NIM tailwind + Fannie/Freddie MBS buying stimulus; XLF QTD ~+8.6% #2 sector momentum leader; energy catalyst IMPAIRED (crude -9.35% cumulative 4 sessions, Saudi export recovery) shifts leadership toward financials; brings XLF to 180 sh / avg $56.045 / cost $10,088.10 (10.10% mv) | $63.75 (+13.7% from avg $56.045) | 2.10:1 (risk $52.10 = 6.73%) |
+
+**Pre-market plan execution:**
+- **XLF ADD ✓ ALL GATES MET at cash-open re-quote.** 09:36 ET quote ap $56.02 / bp $56.01 spread 0.018% ✓ (< 1% gate); XLF $56.02 ∈ [$55.30, $57.00] ✓; SPY $766.63 vs Fri close $765.86 → tape green, not red > 0.5% ✓; ES pre-mkt +0.67%, NQ +1.07% risk-on confirmed. Full-size 90 sh × $56.04 = $5,043.60 = 5.05% of $99,866.47 equity. Trail 10% GTC placed (id bbf96d5f, stop $50.40, hwm $56.00). Wk-16 slot 0 → 1/3 consumed.
+- **XLE MANUAL-CUT NO-OP — HOLD.** Live $63.325 = -1.53% intraday, cushion to -7% cut $60.15 = +5.29% above trigger. Crude cracking (WTI $93.37 pre-mkt = -2.82%) but XLE trading orderly. HOLD, trail stops handle passive fire.
+- **XOM MANUAL-CUT NO-OP — HOLD.** Live $160.98 = -1.57% intraday, cushion to -7% cut $154.23 = +4.38% above trigger (TIGHTEST). Catalyst impaired but XOM held $161 zone. HOLD, tight watch.
+- **XLK $180 conditional EXIT NO-OP — HOLD.** Live $191.30 = +$11.30 cushion (+6.28%) above $180 flag; conditional EXIT remains armed. Ex-div $0.22069/sh priced-in.
+- **XLE / XLK NO ADD** — 20% cost cap gate BLOCKS both (XLE 19.87% cost basis, XLK 19.31%). Confirmed unchanged.
+- **XOM ADD skipped** — Test 1 catalyst FAIL (crude -9.35% cumulative + Saudi/Venezuela supply-side reset).
+- **No fresh single-name / no XLI / no XLV** — Test 1 (no fresh 9/21 catalyst) or Test 2 (sector not top-tier) fails per pre-market ideas table.
+
+**Hard-check gates (all pass on XLF ADD):**
+- Total positions after fill: 4 (unchanged, ADD to existing) ≤ 6 ✓
+- Wk-16 trades after fill: 1/3 ≤ 3 ✓
+- XLF total cost $10,088.10 = 10.10% of $99,866.47 equity (≤ 20%) ✓
+- ADD cost $5,043.60 ≤ cash $50,661.87 ✓
+- Catalyst documented (RESEARCH-LOG 2026-09-21 Idea 1) ✓
+- PDT room: daytrade_count 0/3; XLF ADD not a round-trip ✓
+- Stock instrument (ETF) ✓
+- Macro-quiet Mon = no halving penalty; standard sizing ✓
+
+**Execution audit (13:36:10-13:36:54 UTC / 09:36:10-09:36:54 ET):**
+1. 09:36:10 ET — XLF cash-open quote ap $56.02 / bp $56.01 spread 0.018% ✓.
+2. 09:36:11 ET — SPY confirmation quote ap $766.63 / bp $766.57 = tape green.
+3. 09:36:28 ET — Submitted market buy 90 sh XLF (order 1e0a43a4, client_order_id bot-20260921-XLF-133628-5883).
+4. Fill: 90 sh @ $56.04 avg (cost $5,043.60). Position confirmed via position/XLF endpoint (qty 180, avg_entry $56.045).
+5. 09:36:54 ET — Submitted trail 10% GTC sell 90 sh XLF (order bbf96d5f, stop $50.40 hwm $56.00). New leg protects added shares.
+6. Zero coverage gap; all orders confirmed.
+
+**Cut-loser gate NO-OP on existing book at open:**
+- XLE 307 sh wtd $64.6818, live $63.325 = -$416.54 (-2.10%). Cut trigger $60.15 (+5.29% cushion). No action.
+- XLK 104 sh @ $185.616, live $191.30 = +$591.18 (+3.06%). Cut trigger $172.62 (+9.83% cushion). No action.
+- XOM 30 sh @ $165.84, live $160.98 = -$145.80 (-2.93%). Cut trigger $154.23 (+4.38% cushion — TIGHTEST). No action.
+- XLF 180 sh @ $56.045 blended, live $56.00 = -$8.10 (-0.08%). Cut trigger $52.13 (+7.00% cushion). No action.
+
+**Tighten-trail check NO-OP:** all positions below first-tighten (+15%). XLE -2.10%, XLK +3.06%, XOM -2.93%, XLF -0.08%. None near +15%.
+
+**Post-action order state (7 GTC stops covering 4 positions, 7 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $172.575 hwm $191.75 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $172.575 hwm $191.75 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5035 hwm $56.115 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.40 hwm $56.00 (bbf96d5f) — NEW
+
+**Deployment:** $49,204.60 mv pre-fill (49.27%) → ~$54,248.20 mv post-fill (~54.32%). XLF net +5.05pp. Still below 75-85% target by 21-31pp; Wk-16 slot budget now 1/3 used, 2 remaining for genuine mid-week setups.
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE ~19.47% mv) + 1 energy single-name (XOM ~4.84% mv) + 1 tech ETF (XLK ~19.92% mv) + 1 financials ETF (XLF ~10.10% mv). Energy concentration ~24.31% mv (unchanged); financials scaled 5.04% → 10.10% mv per plan. Cyclical diversification continues.
+
+**Realized P&L this trade:** $0 (add). Cumulative phase P&L $99,866.47 - $100,000 = -$133.53 (-0.13%).
+
+**STEP 7 ClickUp send:** posting recap (XLF ADD 90 sh @ $56.04, stop trail 10% $50.40, dividend-growth theme + post-FOMC bull-flattener catalyst, XLF total 180 sh).
+
+**Next checkpoints:**
+1. **Midday scan** — XLF blended MTM (180 sh) + XLE/XOM oil-catalyst weakness monitoring (WTI $93 zone / -9.35% 4-session); XLK $180 flag; ratchet checks on all four positions.
+2. **XOM MANUAL-CUT monitoring** — cushion +4.38% (TIGHTEST). Continued crude weakness could trigger intraday cut.
+3. **XLE MANUAL-CUT monitoring** — cushion +5.29%. Watch $60.15 flag on further crude leg down.
+4. **XLK $180 conditional EXIT** — armed; cushion +6.28% at open. Robust with NQ +1.07% pre-mkt.
+5. **XLF ratchet monitoring** — new leg hwm $56.00 stop $50.40; original leg hwm $56.115 stop $50.5035; first-tighten trigger $64.46 (+15% from avg $56.045).
+6. **XLE / XLK / XOM ratchet monitoring** — unchanged from Fri EOD hwms.
+7. **Wk-16 slot budget:** 1/3 used; 2 remaining. Preserve for mid-week qualifying setups (earnings-driven single-name or sector rotation).
