@@ -2643,3 +2643,37 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLK ratchet** — new hwm $193.69; first-tighten trigger $213.46 (+15%)
 6. **Wk-16 slot budget:** 1/3 used; 2 remaining
 7. **Deployment:** ~54.29% (below 75-85% target by 21-31pp) — next qualifying setup remains door open
+
+### Sep 21 — EOD Snapshot (Day 1, Monday — Wk-16 Day 1 / 1 trade today: XLF ADD 90 sh full-size)
+**Portfolio:** $99,889.82 | **Cash:** $45,618.27 (45.67%) | **Day P&L:** -$167.22 (-0.167%) | **Phase P&L:** -$110.18 (-0.110%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $62.50 | -2.814% | -$669.81 (-3.373%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 180 | $56.045 | $55.915 | +0.098% | -$23.40 (-0.232%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (new 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $194.82 | +2.753% | +$957.26 (+4.959%) | $175.581 (trail 10%, hwm $195.09) |
+| XOM | 30 | $165.84 | $158.67 | -2.978% | -$215.10 (-4.323%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Wk-16 Day 1 (Monday) — 1 trade today: XLF ADD 90 sh @ $56.04 at cash open (bringing XLF to 180 sh / avg $56.045 / 10.10% cost basis) on financials #2 QTD momentum + post-FOMC bull-flattener NIM catalyst. Day P&L -$167.22 (-0.167%) vs Fri 9/18 EOD $100,057.04 — Fri close → Mon close is standard 1-trading-day span, so labeled Day P&L. Book absorbed a rough day in energy (XLE -2.81%, XOM -2.98% on continued crude weakness — WTI cracked $93 zone / cumulative -9%+ over 5 sessions / Saudi + Venezuela supply-side reset), partially offset by XLK ratchet-friendly +2.75% (tech risk-on continues; server-side ratchet lifted XLK trail stops both legs to $175.581 from $172.575, new hwm $195.09). XLF held flat +0.10% intraday, blended-avg mostly unchanged post-ADD. Phase P&L slipped back to -$110.18 (-0.11%) after Fri's brief green cross. Cut-loser envelope: XOM tightest at cushion +2.63% to $154.23 (was +2.91% at midday); XLE cushion +3.92% to $60.15; XLF cushion +6.72%; XLK not cut-relevant. No cuts warranted — all inside envelope. Tighten-trail: XLK top at +4.96% unrl (need +15% for first tighten to 7%). Deployment 54.33% mv (below 75-85% target by 21-31pp). Wk-16 slot budget 1/3 used, 2 remaining. Realized P&L today: $0. Order state stable — 7 GTC trail stops covering 4 positions (XLK ratcheted server-side, XLF new leg from open, others unchanged).
+
+**Trades today:** 1 — XLF ADD 90 sh @ $56.04 (cost $5,043.60, trail 10% GTC stop $50.445 hwm $56.05 id bbf96d5f).
+
+**Wk-16 trades running total:** 1/3 slot-consuming (Mon XLF ADD). 2 slots remain for Tue-Fri qualifying setups.
+
+**Post-EOD order state (7 GTC stops covering 4 positions):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $175.581 hwm $195.09 (5451fa24) — ratcheted +$3.006 today
+- XLK 54 sh: trail 10% $175.581 hwm $195.09 (f2c0dace) — ratcheted +$3.006 today
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — placed at open
+
+**Tuesday 9/22 (Wk-16 Day 2) plan:**
+1. **Pre-market re-scan** — refresh setup universe; Wk-16 slot budget 1/3 → 2 slots remain. Deployment gap 21-31pp below target argues for adding exposure if setups qualify.
+2. **XOM MANUAL-CUT vigilance** — cushion +2.63% to $154.23 (TIGHTEST); further crude weakness could trigger cut. Watch WTI $92 zone.
+3. **XLE MANUAL-CUT vigilance** — cushion +3.92% to $60.15; crude drag continues.
+4. **XLK $180 conditional EXIT** — armed; cushion +8.23% to $180 flag; robust with tech risk-on carry.
+5. **XLF MANUAL-CUT monitoring** — cushion +6.72% to $52.14 (blended); benign.
+6. **Ratchet monitoring** — first-tighten triggers: XLE $74.38, XLK $213.46, XOM $199.01, XLF $64.45.
+7. **Sector momentum check** — energy catalyst continues impaired; tech + financials leadership intact.
