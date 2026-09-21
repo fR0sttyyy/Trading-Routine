@@ -5501,3 +5501,106 @@ Order of preference at MARKET-OPEN routine runtime:
 - **PDT check:** 0/3 daytrades; no round-trips planned Fri.
 - **Not a flat-week violation:** Rule 8 hard cap blocks all entries; skip is rule-mandated.
 - **Wk-15 close today; Wk-16 slot budget resets Mon 9/21.**
+
+
+## 2026-09-21 (Mon) — Pre-Market Research (Wk-16 Day 1 / SLOT RESET 0/3)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-18)
+- Equity: $99,941.84 (vs last_equity $100,057.04 = -$115.20 / -0.115% Fri mark; phase P&L -$58.16 / -0.058% vs $100k start)
+- Cash: $50,661.87 (50.69%) | Buying power: $340,631.39 | non-marginable BP $75,301.85 | SMA $99,942.77
+- Long market value: $49,279.97 (49.31% deployed) | Maint margin $14,783.99
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Fri)
+- Wk-16 slot budget: **0/3 (RESET Monday)** — up to 3 fresh entries permitted this week
+- Positions (4, live marks via position endpoint):
+  - XLE 307 @ $64.6818 wtd (mtm $63.3545, **unrl -$407.48 / -2.05%; change_today -1.49%**; trail 10% $59.553 hwm $66.17)
+  - XLF 90 @ $56.05 (mtm $55.99, **unrl -$5.40 / -0.11%; change_today +0.23%**; trail 10% $50.5035 hwm $56.115)
+  - XLK 104 @ $185.6156 (mtm $191.6792, **unrl +$630.62 / +3.27%; change_today +1.10%**; trail 10% $172.575 hwm $191.75)
+  - XOM 30 @ $165.84 (mtm $161.88, **unrl -$118.80 / -2.39%; change_today -1.02%**; trail 10% $149.625 hwm $166.25)
+- Open orders: 6 GTC trailing stops covering all 4 positions (2 XLE legs, 2 XLK legs, 1 XLF, 1 XOM — all status new)
+- **Data freshness ✓:** balance_asof 2026-09-18 (Fri close, normal for pre-mkt Mon). Named-stock quotes STALE from Fri 20:00 UTC close (wide AH books: XLE bp $62.38 ap $66.46 spread 6.5%; XLF bp $53.90 ap $57.38 spread 6.5%; XLK bp $183.14 ap $194.67 spread 6.3%; XOM bp $154.37 ap $171.57 spread 11.1%). Wide overnight books = illiquid; cash-open re-quote MANDATORY before any fresh order.
+
+### Market Context (Mon 9/21 pre-market — Wk-16 Day 1)
+- Indices Fri 9/18 close (proxy via research.sh context): **S&P 7650.5 (+0.17%), Nasdaq 26522.5 (+0.39%), Dow 51682.6 (-0.18%)** — quad-witching orderly close, tech led narrow gains
+- Futures Mon pre-mkt: **ES 7764.0 (+0.67%), NQ 30236.0 (+1.07%)** — RISK-ON bid, tech leadership continues
+- VIX: **14.84 (+0.2%)** — very compressed; post-FOMC vol crush persists
+- **WTI $93.37 (-2.82%). Brent $97.07 (-2.24%). CRUDE FURTHER CRACKING.** Sequential: Wed $103 → Fri $96.81 → Mon pre-mkt $93.37 = **-9.35% cumulative in 4 sessions**. Saudi export recovery (per Reuters/SA) + global demand concerns = catalyst broken. **Energy thesis IMPAIRED (not stopped-out yet, but the "sub-$100 = discount-to-fair-value" thesis is invalidated).**
+- **BIG NEWS OVERNIGHT / TODAY:**
+  - **XLK EX-DIVIDEND today 9/21 ($0.22069/sh)** per moomoo 9/19 — mechanical -0.12% drag at open (already priced in overnight). HWM $191.75 preserved; ratchet math unaffected.
+  - **Hormuz shipments hit 6-month high** per Zacks 9/21 — bearish oil supply cushion (adds to Saudi recovery narrative).
+  - **Oil supertanker shortage** per SA 9/21 — modest offset for gas prices (tanker rates up), not enough to reverse crude weakness.
+  - **Qatar Energy CEO: Hormuz "will never be obsolete"** per SA 9/21 — countering Bessent proposal; oil geopolitical premium wobble.
+  - **XOM raises 2050 emissions forecast** per Reuters 9/17 / SA 9/20 — long-term thesis (not near-term catalyst); XOM held $163.54 Fri close +0.17%.
+  - **Financial sector dividend growth focus** per SA 9/21 (XLF, VFH, IYF, FNCL) — SUPPORTIVE for XLF thesis multi-week.
+  - **Fannie/Freddie MBS buying** per FHFA Pulte 9/19 — mild positive housing/banks tailwind.
+  - **Newsquawk 9/18: thin US earnings docket 9/21-9/25** — no BMO earnings today; light macro flow.
+  - **Mon economic calendar:** thin US data day (Riksbank Business Survey, ECB Bulletin, US Industrial Production Aug already released Fri, FHFA MBS commentary). No CPI/PPI/FOMC/jobs on tape. **Macro-quiet Mon.**
+- **Sector momentum (updated QTD via composite priors):** Tech #1 (XLK QTD leader, Mon pre-mkt +0.82% and NQ futures +1.07%), Financials #2 (XLF QTD ~+8.6%, Mon pre-mkt -0.04%). **Energy #1 status IMPAIRED** — 4-session cumulative -9.35% crude drop with Saudi export recovery = catalyst mitigation formally invalidated. XLE Mon pre-mkt -0.26% (relative resilience vs crude -2.82%, but still leaking).
+- **Wk-16 calendar preview:** Thin earnings 21-25 (per Newsquawk); no CPI/PPI/FOMC/jobs marquee macro on tape this week (Sep FOMC done, next Fed meeting late Oct). Data-light backdrop favors momentum continuation + risk-on positioning.
+
+### Trade Ideas — Qualification Table (Mon 9/21 open)
+
+**Idea 1: XLF ADD 90 sh @ ~$56 (~$5,027 cost) — bring XLF total to 180 sh / ~$10,065 (~10.07%).**
+- **Test 1 Catalyst:** Fresh Mon 9/21 SA dividend-growth theme + Fed post-FOMC rate-cut yield-curve-steepening (NIM tailwind) + Fannie/Freddie MBS buying (housing/bank stimulus). Multi-source Mon-dated. ✓
+- **Test 2 Sector momentum:** XLF QTD #2 leader (+8.62% prior wk close), multi-week momentum intact. With energy IMPAIRED and tech ex-div today, financials assume relative-strength leadership. ✓
+- **Test 3 Stop 7-10%:** From wtd new avg ~$56.02 → -7% cut $52.10; trail 10% GTC $50.42. Both well-defined. Existing 8bd5213b covers original 90; new ADD 90 sh gets its own trail 10% GTC (or averaged — either shape acceptable per gotchas). ✓
+- **Test 4 R:R ≥ 2:1:** Entry $55.86, stop $52.10 = 6.73% risk; target $63.75 = 14.13% gain → **R:R 2.10:1**. Target = XLF Fed-cycle full-swing high consistent with QTD trajectory. Multi-week/quarter horizon consistent with existing sector-ETF holds (XLE/XLK held ~4-6+ weeks). ✓
+- **Buy-Side Gate:** After-fill positions 4 (no new ticker), trades Wk-16 = 1/3, XLF cost 10.07% (< 20%), cost $5,027 <= cash $50,661, PDT 0/3, catalyst logged. ✓
+- **QUALIFIES → TRADE at MARKET-OPEN. Wk-16 slot 1/3.**
+- **Conditional entry:** MARKET-OPEN routine checks: (1) XLF cash-open spread < 1%; (2) XLF > $55.30 AND < $57.00; (3) ES not red > 0.5% at routine runtime. If ALL true → market buy 90 sh; place trail 10% GTC. If any fails → log SKIP with named gate.
+
+**Idea 2: XLK ADD — DOES NOT QUALIFY (Buy-Side Gate 20% cost cap).**
+- XLK cost $19,304 = 19.31% → 20% headroom $684 (~3.5 sh, not economic). BLOCKED. SKIP.
+
+**Idea 3: XLE ADD — DOES NOT QUALIFY.**
+- Buy-Side Gate: XLE cost $19,857 = 19.87% → headroom $132 (BLOCKED). AND Test 1 catalyst impaired (crude -9.35% cumulative, Saudi recovery). **Double DQ.** SKIP.
+
+**Idea 4: XOM ADD — DOES NOT QUALIFY (catalyst impaired).**
+- Buy-Side Gate: XOM cost $4,975 = 4.98% → headroom OK. But Test 1 FAILS: same crude weakness + Saudi export recovery + Venezuela talks (SA 9/20 "50 billion barrels in view") formally impair the near-term energy catalyst. Adding to a weakening thesis = anti-cyclical. **Test 1 FAIL.** SKIP.
+
+**Idea 5: Fresh NVDA / AVGO single-name — DEFERRED, no verifiable Mon catalyst.**
+- Tech risk-on (NQ +1.07%) + XLK $180 flag holding = supportive backdrop, but no fresh 9/21 single-name earnings/catalyst on tape (thin earnings docket 21-25 per Newsquawk). Server DRAM/AI narrative stale (multi-week priced). **Test 1 FAIL (no fresh single-name catalyst).** SKIP — reconsider mid-week if news breaks.
+
+**Idea 6: Fresh XLI (Industrials) — DOES NOT QUALIFY.**
+- Mon pre-mkt +0.44% strongest sector after tech, but XLI QTD not top-tier leader. **Test 2 FAIL.** SKIP.
+
+**Idea 7: Fresh XLV (Healthcare / defensive rotation) — DOES NOT QUALIFY.**
+- Mon pre-mkt -0.25%; XLV QTD mid-pack. **Test 2 FAIL.** SKIP.
+
+**Idea 8: FANG re-entry — DOES NOT QUALIFY.**
+- Stopped-out prior wk -7.64% realized; no fresh single-name catalyst; also energy-adjacent theme impaired. **Test 1 FAIL.** SKIP.
+
+### Management Priorities for Market-Open Routine (Mon 9/21 09:30 ET)
+
+- **XOM MANUAL-CUT — TIGHTEST cushion.** mtm $161.88; -7% cut trigger $154.23; cushion +4.94% (tightest of book). Trail-stop $149.625 = +8.24% cushion. **If XOM < $154.23 intraday → MANUAL CUT** (cancel 5afbbb78, market sell 30 sh). Catalyst impaired argues for continued vigilance; low bar to break given crude -2.82% pre-mkt.
+- **XLE MANUAL-CUT.** mtm $63.3545; -7% cut trigger $60.15; cushion +5.33%. Trail-stop $59.553 = +6.36% cushion. **If XLE < $60.15 intraday → MANUAL CUT** (cancel 2cae6815 + 442df295, market sell 307 sh). Sector Mon pre-mkt -0.26% relative strength vs crude -2.82% = still absorbing.
+- **XLK ex-dividend today $0.22069/sh** — mechanical -0.12% drag at open (already priced in overnight book). HWM $191.75 preserved. If XLK opens > $191.75 → server auto-ratchets stop upward. **XLK $180 conditional exit still ARMED** — mtm $191.68 = +6.49% cushion above $180 flag. Robust; unlikely breach with NQ +1.07% pre-mkt.
+- **XLF benign.** mtm $55.99; -7% cut $52.13; cushion +7.4%. Trail $50.5035 = +9.86% cushion.
+- **Ratchet monitoring (first-tighten +15%):** XLE $74.38 (far), XLK $213.46 (far, but only $21.78 = 11.4% above hwm), XOM $199.01 (far), XLF $64.46 (far). Server-side auto-ratchets on any new HWM.
+- **XLF ADD (Idea 1) execution:** at 09:30-09:40 ET, MARKET-OPEN routine checks cash-open XLF spread, price band, ES tape. Fires market buy 90 sh + trail 10% GTC if all conditions pass.
+- **NO CLOCK-TIME GATES:** all triggers checkable at routine runtimes.
+
+### Risk Factors (Mon 9/21)
+
+- **Crude -9.35% cumulative in 4 sessions = ENERGY CATALYST FORMALLY IMPAIRED.** Saudi export recovery + Venezuela normalization talks + Hormuz shipments at 6-mo high = supply-side reset. XOM cushion tight (+4.94%); an intraday spike-down could trigger MANUAL CUT. XLE cushion +5.33% also thin. **Track XOM most closely.**
+- **XLK $180 flag** — cushion +6.49%; benign with NQ +1.07% pre-mkt. Ex-div drag priced in.
+- **Financial sector Fed re-pricing risk** — Fri Powell/BoJ/ECB speaker headlines could re-price rate path; XLF sensitivity elevated. Idea 1 sizing 90 sh (5% cost) intentionally conservative to absorb.
+- **Sector concentration post-XLF ADD:** Energy 24.36% mv (unchanged), Tech 19.95% mv, Financials 10.08% mv (up from 5.04%) — total 54.39% mv. Still 20-30pp below 75-85% target. Diversification benefit accretive.
+- **Wk-16 slot budget after Idea 1 fill: 1/3 → 2 remaining.** Reserved for genuine qualifying setups later in week (earnings-driven single-name if news breaks, or additional sector rotation if leadership shifts).
+- **PDT check:** 0/3 daytrades; XLF ADD = no round-trip.
+- **Macro-quiet Mon** — no CPI/PPI/FOMC/jobs on tape; thin earnings docket 21-25. Data-light backdrop = momentum tape favored.
+- **Structural routine health:** 19th consecutive full-slate day since Aug 27 resumption.
+
+### Decision — TRADE XLF ADD (Wk-16 slot 1/3), HOLD XLE/XLK/XOM, MONITOR XOM/XLE for cuts on continued crude weakness
+
+- **HOLD XLE (307 sh), XLK (104 sh), XOM (30 sh).** All inside cut envelopes at pre-mkt marks; catalysts intact for XLK, impaired for XLE/XOM (not thesis-broken).
+- **HOLD XLF (90 sh existing)** + **ADD 90 sh conditional at MARKET-OPEN.**
+- **XLF ADD 90 sh (QUALIFIES → TRADE):** market buy at 09:30-09:40 ET IF cash-open XLF spread < 1% AND XLF ∈ [$55.30, $57.00] AND ES not red > 0.5%. Trail 10% GTC. **PRIORITY 1.** Wk-16 slot 1/3.
+- **XOM MANUAL-CUT monitoring — cushion +4.94%** to $154.23. If breached → cancel 5afbbb78, market sell 30 sh.
+- **XLE MANUAL-CUT monitoring — cushion +5.33%** to $60.15. If breached → cancel 2cae6815 + 442df295, market sell 307 sh.
+- **XLK $180 CONDITIONAL EXIT still armed** — cushion +6.49%. On breach → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+- **XLK ex-dividend $0.22069/sh drag priced-in** — expect open near hwm $191.75; server auto-ratchet on new highs.
+- **NO XLE ADD, NO XLK ADD (20% cap), NO XOM ADD (catalyst impaired).**
+- **No fresh single-name entries Mon** — thin earnings docket, no verifiable Mon catalyst for NVDA/AVGO/JPM/GS. Reserve slots 2-3 for genuine mid-week qualifying setups.
+- **NO clock-time gates**; all conditions checkable at routine runtime.
+- **PDT check:** 0/3 daytrades; XLF ADD = no round-trip.
+- **Not a flat-week violation.** One qualifying idea logged → TRADE. XLE/XLK/XOM ADDs correctly rejected on named gate/test failures.
