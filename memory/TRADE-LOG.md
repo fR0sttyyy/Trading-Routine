@@ -2719,3 +2719,37 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 - XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
 - XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
 - XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+### Sep 22 — EOD Snapshot (Day 2, Tuesday — Wk-16 Day 2 / 0 trades today / NO-OP day)
+**Portfolio:** $99,668.05 | **Cash:** $45,618.27 (45.77%) | **Day P&L:** -$221.77 (-0.222%) | **Phase P&L:** -$331.95 (-0.332%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $61.83 | -1.009% | -$875.50 (-4.409%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 180 | $56.045 | $54.875 | -1.834% | -$210.60 (-2.088%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (new 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $196.40 | +0.795% | +$1,121.58 (+5.810%) | $176.796 (trail 10%, hwm $196.44) |
+| XOM | 30 | $165.84 | $158.85 | +0.347% | -$209.70 (-4.215%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Wk-16 Day 2 (Tuesday) — 0 trades today; a NO-OP day driven by the Tue pre-market qualification report (all fresh ideas failed named tests/gates). Day P&L -$221.77 (-0.222%) vs Mon 9/21 EOD $99,889.82 — standard 1-trading-day span, so labeled Day P&L. Book dragged by continued financials leakage (XLF -1.83% intraday, put-activity thesis confirmed bearishly — cushion to $52.12 cut narrowed from +7.36% at open to +5.02% by close) and modest XLE leakage (-1.01% on lingering crude weakness). Offset by XLK +0.80% consolidating Mon's rip (server-side trail ratcheted intraday: hwm $195.635 → $196.44, stop $176.0715 → $176.796, +$0.7245) and XOM +0.35% (modest bounce from prior 5-session drubbing). Phase P&L slipped to -$331.95 (-0.332%). Cut-loser envelope: XOM cushion +2.78pp to -7% cut ($154.23 flag, TIGHTEST in $ terms); XLE cushion +2.59pp ($60.15 flag); XLF cushion +4.91pp ($52.12 blended flag) — XLF flagged for WATCH (second consecutive -1.5%+ day → thesis-break review); XLK not cut-relevant. No cuts warranted — all inside envelope. Tighten-trail: XLK top at +5.81% unrl (need +15% for first tighten to 7%). Deployment 54.23% mv (below 75-85% target by 21-31pp). Wk-16 slot budget 1/3 used, 2 remaining Wed-Fri. Realized P&L today: $0. Order state stable — 7 GTC trail stops covering 4 positions (XLK ratcheted server-side today, others unchanged).
+
+**Trades today:** none.
+
+**Wk-16 trades running total:** 1/3 slot-consuming (Mon XLF ADD). 2 slots remain Wed-Fri.
+
+**Post-EOD order state (7 GTC stops covering 4 positions):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $176.796 hwm $196.44 (5451fa24) — server-side ratchet today +$0.7245
+- XLK 54 sh: trail 10% $176.796 hwm $196.44 (f2c0dace) — server-side ratchet today +$0.7245
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Wednesday 9/23 (Wk-16 Day 3) plan:**
+1. **Pre-market re-scan** — refresh setup universe; Wk-16 slot budget 1/3 → 2 slots remain. Deployment gap 21-31pp below target argues for adding exposure if setups qualify.
+2. **XLF MANUAL-CUT UPGRADED WATCH** — second -1.5%+ day today; cushion narrowed to +4.91pp (flag $52.12 blended); third consecutive -1.5%+ day → thesis-break review + potential cut.
+3. **XOM MANUAL-CUT vigilance** — cushion +2.78pp (TIGHTEST in $ terms, $154.23 flag).
+4. **XLE MANUAL-CUT vigilance** — cushion +2.59pp ($60.15 flag); crude drag continues.
+5. **XLK $180 conditional EXIT** — armed; cushion +9.36% to $180 flag; robust with tech continuing to lead.
+6. **Ratchet monitoring** — first-tighten triggers: XLE $74.38, XLK $213.46 (+8.68% from close), XOM $199.01, XLF $64.45.
+7. **Sector momentum check** — energy catalyst continues impaired; tech leadership intact; financials wobbling on rate-path uncertainty.
