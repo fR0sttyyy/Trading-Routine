@@ -2677,3 +2677,45 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLF MANUAL-CUT monitoring** — cushion +6.72% to $52.14 (blended); benign.
 6. **Ratchet monitoring** — first-tighten triggers: XLE $74.38, XLK $213.46, XOM $199.01, XLF $64.45.
 7. **Sector momentum check** — energy catalyst continues impaired; tech + financials leadership intact.
+
+### Sep 22 — Midday Scan (Tuesday, 12:09 ET — Wk-16 Day 2 / NO-OP)
+**Portfolio marks:** XLE 307 @ $62.56 unrl **-$651.39 / -3.28%** (chg_today +0.16%) | XLF 180 @ $54.7637 unrl **-$230.63 / -2.29%** (chg_today **-2.03%**) | XLK 104 @ $195.31 unrl **+$1,008.22 / +5.22%** (chg_today +0.24%) | XOM 30 @ $159.75 unrl **-$182.70 / -3.67%** (chg_today +0.92%)
+**Aggregate mv:** $54,168.13 (~54.17% deployed) | Book -$45.26 vs Mon EOD.
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- XOM -3.67% | cut $154.23 = **cushion +3.46%** — improved from open +1.65% as XOM +0.92% intraday
+- XLE -3.28% | cut $60.15 = **cushion +3.85%** — flat intraday (+0.16%)
+- XLF -2.29% | cut $52.12 = **cushion +4.82%** — WEAKENED from open (+7.36%) on -2.03% intraday leg (put-activity thesis confirmed bearishly)
+- XLK +5.22% | not cut-relevant; trail cushion +9.85%
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +5.22% (need +15% for first tighten to 7%; trigger $213.46). All others negative or flat. No cancel-replace.
+
+**Server-side ratchet observed:** XLK legs auto-ratcheted overnight → open: stop $175.581 → **$176.0715**, hwm $195.09 → **$195.635** (+$0.4905 each). XLE/XOM/XLF hwms unchanged.
+
+**Thesis check (STEP 5) — no cuts:**
+- XOM: catalyst REVERSED but +0.92% intraday, inside envelope. No cut.
+- XLE: same; +0.16% intraday. No cut.
+- XLK: consolidating Mon rip (+0.24%). Thesis intact.
+- XLF: -2.03% intraday consistent with pre-open flagged cautious tone + $53 put activity. Not thesis-broken by one -2% day; **WATCH — second consecutive -1.5%+ day → thesis-break review.**
+
+**Intraday research (STEP 6):** skipped. XLF move consistent with pre-market flag; no unexplained gaps elsewhere.
+
+**Actions:** NONE. All 4 positions held. STEP 7 ClickUp no-op.
+
+**Next checkpoints (afternoon → close):**
+1. **XOM MANUAL-CUT vigilance** — $154.23 flag; cushion +3.46%
+2. **XLE MANUAL-CUT vigilance** — $60.15 flag; cushion +3.85%
+3. **XLF MANUAL-CUT monitoring UPGRADED** — $52.12 flag; cushion +4.82% (narrowed from +7.36% at open); second -1.5%+ day triggers thesis-break review
+4. **XLK $180 conditional EXIT** — armed; cushion +8.51%; robust
+5. **XLK ratchet** — hwm $195.635 stop $176.0715; first-tighten trigger $213.46 (+9.30% from mtm)
+6. **Wk-16 slot budget:** 1/3 used; 2 remaining Wed-Fri
+7. **Deployment:** ~54.17% (below 75-85% target by 21-31pp); no fresh entries per Tue pre-market qualification (all ideas failed named tests/gates)
+
+**Post-scan order state (7 GTC stops covering 4 positions — no changes this scan):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $176.0715 hwm $195.635 (5451fa24) — server-side ratchet since Mon EOD
+- XLK 54 sh: trail 10% $176.0715 hwm $195.635 (f2c0dace) — server-side ratchet since Mon EOD
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged

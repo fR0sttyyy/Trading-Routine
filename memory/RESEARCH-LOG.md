@@ -5722,3 +5722,43 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Not a flat-week violation.** All SKIPs name specific test/gate failures per Decision Rule.
 - **Wk-16 slot budget:** 1/3 used; 2 remaining for Wed-Fri qualifying setups.
 - **MARKET-OPEN routine entry conditions:** none (no fresh entries planned). Focus is XOM/XLE cushion monitoring and potential MANUAL CUT execution on breach.
+
+### Sep 22 — Midday Scan (Tuesday, 12:09 ET — Wk-16 Day 2 / NO-OP)
+
+**Clock:** open (next_close 16:00 ET). Pulled positions + orders live.
+
+**Portfolio marks (mtm):**
+- **XLE** 307 @ $62.56, mv $19,205.92, unrl **-$651.39 / -3.28%** (chg_today +0.16%)
+- **XLF** 180 @ $54.7637, mv $9,857.47, unrl **-$230.63 / -2.29%** (chg_today **-2.03%** — the notable move today)
+- **XLK** 104 @ $195.31, mv $20,312.24, unrl **+$1,008.22 / +5.22%** (chg_today +0.24%)
+- **XOM** 30 @ $159.75, mv $4,792.50, unrl **-$182.70 / -3.67%** (chg_today +0.92%)
+- **Aggregate mv:** $54,168.13 (~54.17% deployed) — book -$45.26 vs Mon EOD ($54,213.39).
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- **XOM** -3.67% | cut $154.23 = **cushion +3.46%** (mtm $159.75; +$5.52 headroom) — improved from pre-open cushion +1.65% as XOM rallied +0.92% intraday despite Mideast diplomacy narrative
+- **XLE** -3.28% | cut $60.15 = **cushion +3.85%** (mtm $62.56; +$2.41 headroom) — modestly improved from open (+2.55%)
+- **XLF** -2.29% | cut $52.12 = **cushion +4.82%** (mtm $54.7637; +$2.64 headroom) — WEAKENED from open (+7.36%) on -2.03% intraday leg
+- **XLK** +5.22% | not cut-relevant; trail-stop $176.0715 → cushion +9.85%
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +5.22% unrl (need +15% for first tighten to 7% → trigger $213.46; mtm $195.31 = need +9.30% more). All others negative or flat. No cancel-replace.
+
+**Server-side ratchet observed:** XLK both legs (5451fa24 + f2c0dace) auto-ratcheted overnight → open: **stop $176.0715 hwm $195.635** (was $175.581 / $195.09 at Mon EOD; +$0.4905 lift each). XLE/XOM/XLF hwms unchanged.
+
+**Thesis check (STEP 5) — no cuts:**
+- **XOM:** Catalyst REVERSED (Mideast diplomacy Tue-fresh, crude -12.1% 5-sess) but XOM +0.92% intraday shows dip-buying at $158-160 zone; still inside cut envelope (+3.46%). Not thesis-break cut yet. Would trigger below $154.23.
+- **XLE:** Same reversed catalyst; sector ETF flat today (+0.16%) absorbing better than pre-market feared. Not thesis-break cut.
+- **XLK:** Ex-div fully priced; Mon +2.89% rip consolidating flat (+0.24% today) — healthy digestion, not distribution. Thesis intact.
+- **XLF:** -2.03% intraday is the anomaly. Consistent with pre-open flagged cautious tone + $53 put activity noted in Tue pre-market research; no unexplained gap. Thesis (post-FOMC bull-flattener + dividend growth) not formally broken by one -2% day, but WATCH — a second consecutive -1.5%+ day would prompt thesis-break review.
+
+**Intraday research (STEP 6) — skipped.** XLF -2.03% consistent with pre-market flagged cautious tone; XOM/XLE moves modest and in-line with reversed-catalyst posture; XLK consolidating. No unexplained sharp move demanding ad-hoc pull.
+
+**Actions:** NONE. All 4 positions held. No ClickUp notification (STEP 7 no-op).
+
+**Next checkpoints (afternoon → close):**
+1. **XOM MANUAL-CUT vigilance** — cushion +3.46% to $154.23; watch WTI intraday, Mideast headline flow
+2. **XLE MANUAL-CUT vigilance** — cushion +3.85% to $60.15
+3. **XLF MANUAL-CUT monitoring UPGRADED** — cushion narrowed to +4.82% on -2.03% day; second bad day would trigger thesis-break review. Cut trigger $52.12.
+4. **XLK $180 conditional EXIT** — armed; cushion $195.31 vs $180 = +8.51%; robust
+5. **XLK ratchet** — hwm $195.635 stop $176.0715; first-tighten trigger $213.46 (+9.30% from mtm)
+6. **Wk-16 slot budget:** 1/3 used; 2 remaining Wed-Fri
+7. **Deployment:** ~54.17% (below 75-85% target by 21-31pp); no fresh entries per pre-market qualification table (all ideas failed named tests/gates)
