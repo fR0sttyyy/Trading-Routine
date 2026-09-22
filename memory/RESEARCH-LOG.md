@@ -5604,3 +5604,121 @@ Order of preference at MARKET-OPEN routine runtime:
 - **NO clock-time gates**; all conditions checkable at routine runtime.
 - **PDT check:** 0/3 daytrades; XLF ADD = no round-trip.
 - **Not a flat-week violation.** One qualifying idea logged → TRADE. XLE/XLK/XOM ADDs correctly rejected on named gate/test failures.
+
+
+## 2026-09-22 (Tue) — Pre-Market Research (Wk-16 Day 2 / 1/3 slot used, 2 remaining)
+
+### Account (live pre-market snapshot, balance_asof 2026-09-21)
+- Equity: **$99,585.03** (vs last_equity $99,868.89 = -$283.86 / -0.28% Mon close; phase P&L -$414.97 / -0.41% vs $100k baseline)
+- Cash: **$45,618.27 (45.81%)** | Buying power: $333,580.01 | non-marginable BP $72,601.65 | SMA $97,535.02
+- Long market value: **$53,966.76 (54.19% deployed)** | Maint margin $16,190.03 | Initial margin $26,983.38
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Mon)
+- Wk-16 slot budget: **1/3 used (XLF ADD Mon), 2 remaining** for Tue-Fri qualifying setups
+- Positions (4, live marks Mon EOD via position endpoint):
+  - XLE 307 @ $64.6818 wtd (mtm $61.68, **unrl -$921.55 / -4.64%; change_today -1.25%**; trail 10% $59.553 hwm $66.17)
+  - XLF 180 @ $56.045 (mtm $55.99, **unrl -$9.90 / -0.10%; change_today +0.16%**; trail 10% $50.5845 orig 90 sh hwm $56.205 / $50.445 new 90 sh hwm $56.05)
+  - XLK 104 @ $185.6156 (mtm $194.70, **unrl +$944.78 / +4.89%; change_today -0.08%**; trail 10% $175.581 hwm $195.09)
+  - XOM 30 @ $165.84 (mtm $156.80, **unrl -$271.20 / -5.45%; change_today -0.95%**; trail 10% $149.625 hwm $166.25)
+- Open orders: **7 GTC trailing stops** covering all 4 positions (2 XLE legs, 2 XLK legs, 2 XLF legs, 1 XOM — all status new)
+- **Data freshness ✓:** balance_asof 2026-09-21 (Mon close, normal for pre-mkt Tue). Named-stock quotes STALE from Mon 20:00 UTC close (wide AH books: XLE bp $60.60 ap $64.60 spread 6.4%; XLF bp $54.32 ap $57.81 spread 6.2%; XLK bp $187.75 ap $0 asymmetric; XOM bp $152.76 ap $166.03 spread 8.3%). Overnight books illiquid; cash-open re-quote MANDATORY before any fresh order.
+
+### Market Context (Tue 9/22 pre-market — Wk-16 Day 2)
+- Indices Mon 9/21 close (proxy via research.sh context): **S&P 7764.7 (+1.49%), Nasdaq 27122.1 (+2.26%), Dow 52048.8 (+0.71%)** — tech-led rally, AI commercialization surge (Intel/Meta/AMD leading S&P per Interactive Crypto 9/22 04:43 GMT)
+- Futures Tue pre-mkt: **ES 7837.75 (+0.05%), NQ 30769.75 (-0.05%)** — FLAT consolidation after Mon rip; healthy digestion, not exhaustion
+- VIX: **14.66 (-1.41%)** — vol compression continues; risk-on environment
+- **WTI $90.56 (-1.96%). Brent $98.81 (-1.52%). CRUDE CRACK EXTENDS.** Sequential: Wed $103 → Thu $99 → Fri $96.81 → Mon $92.34 → Tue pre-mkt $90.56 = **-12.1% cumulative in 5 sessions**. **Mideast diplomatic progress hopes** (per trustfinance 9/22 → XOM -3.2% Mon midday) + Saudi export recovery + Venezuela normalization + Hormuz shipments 6-mo high = **energy catalyst formally REVERSED**, not just impaired. Saudi–Houthi weekend escalation (StoneX 9/20) failed to reverse trend Mon.
+- **BIG NEWS OVERNIGHT / TODAY (Tue 9/22):**
+  - **AI commercialization rally** (Interactive Crypto 9/22 04:43 GMT) — Intel/Meta/AMD led Mon +2.769% XLK rip on commercialization + infrastructure buildouts. AI Optimism Returns (Investing.com 9/22 11:00 GMT) — inflation risks pushed into background.
+  - **Custom chips may outpace GPUs by 2027** (SA 9/22 11:25) — thematic tailwind for XLK constituent AVGO/MRVL.
+  - **September Stagnation: record-low yields, high duration risk, high valuations** (SA 9/22 11:05) — cautionary counter-narrative; long-duration tech vulnerability if rates re-price.
+  - **US retail diesel > $6.50 record + export ban momentum** (SA 9/21 23:57) — bullish for refined margins BUT bearish for XLE/XOM upstream (export ban = domestic supply glut). Bearish for held positions.
+  - **XOM slides -3.2% Mon midday on Mideast diplomacy hopes** (trustfinance 9/22) — direct catalyst reversal confirmation.
+  - **Eli Lilly (LLY) 37% gains call from major global bank** (247wallst 9/22 11:34) — pharma micro-catalyst; XLV #3 sector, not top-tier momentum.
+  - **Novo Nordisk Capital Markets Day 9/22** (Morningstar 9/22) — GLP-1 category strength (adjacent XLV read).
+  - **Rocket Lab (RKLB) +8% surge on Neutron rocket + Iridium acquisition** (ET 9/22) — speculative single-name; sector uncategorized.
+  - **Bitcoin above $86K, BTC ETFs draw ~$1B** (Stocktwits 9/22 11:11) — MSTR/COIN/CRCL FALLING despite BTC rally (bearish crypto-equity linkage).
+  - **BoE decision hold 3.75%; ECB CPI Aug 3.20% mild** (tradingeconomics 9/22 09:00) — **NO US MAJOR DATA Tue**. Macro-quiet.
+  - **BMO earnings docket thin:** THOR Industries, HERE Group, DAVIDsTEA, Thermal Energy — all micro/small-cap, no market movers.
+- **Sector momentum (updated Mon EOD):** **Tech #1** (XLK +2.89% Mon, AI commercialization stampede live), **Financials #2** (XLF +0.42% Mon, +8.62% QTD prior), **Healthcare #3** (XLV +0.75% Mon; LLY 37% call could spark rotation, but not top-tier). **Industrials** XLI +0.4%, **Materials** XLB -0.1%, **Staples** XLP -0.41%. **Energy CATALYST REVERSED** (XLE -2.30% Mon; XOM -2.90% Mon on diplomacy hopes; crude -12.1% 5-sess).
+- **Wk-16 calendar preview:** No CPI/PPI/FOMC/jobs marquee US data this week (per Fri Newsquawk 9/18 + Tue tradingeconomics 9/22). Data-light backdrop favors momentum continuation.
+
+### Trade Ideas — Qualification Table (Tue 9/22 open)
+
+**Idea 1: XLK ADD 3-4 sh — DOES NOT QUALIFY (Buy-Side Gate 20% cost cap).**
+- Test 1 catalyst: AI commercialization Tue-dated (Intel/Meta/AMD leading; custom chips theme; AI optimism) ✓
+- Test 2 sector momentum: XLK #1 QTD leader, +2.89% Mon ✓
+- Test 3 stop: definable, -7% $181.07 / trail 10% $175.23 ✓
+- Test 4 R:R: entry ~$194.70, stop $181.07 = 7% risk; realistic target $215 (+10.4%) → R:R 1.49:1. Aggressive target $224 (+15%) → R:R 2.14:1 (stretches). Marginal.
+- **Buy-Side Gate:** XLK cost basis $19,304 = 19.30% of baseline; 20% cap headroom ~$613-696 = **~3.15-3.60 sh (UNECONOMIC)**. BLOCKED. **DOES NOT QUALIFY on Buy-Side Gate 20% cost cap.** SKIP.
+
+**Idea 2: XLF ADD 30-45 sh (~$1,680-2,520) — DOES NOT QUALIFY (R:R < 2:1 AND catalyst not Tue-fresh).**
+- Test 1 catalyst: Mon 9/21 dividend-growth thesis (multi-source SA 9/21) + post-FOMC bull-flattener NIM tailwind logged in yesterday's entry. **Tue 9/22 XLF news is cautious tone + $53 put activity** (no fresh bullish catalyst). Day-old catalyst without Tue reinforcement = weaker Test 1. Marginal.
+- Test 2 sector momentum: XLF #2 QTD, +0.42% Mon ✓ (weaker than Mon)
+- Test 3 stop: definable, -7% $52.07 / trail 10% $50.39 ✓
+- Test 4 R:R: entry $55.99, stop $52.07 = 6.99% risk; target $63.75 = 13.86% gain → **R:R 1.98:1 (FAILS 2:1)**. Extended target $65.00 (+16.09%) = R:R 2.30:1 but stretches Fed-cycle multiple beyond historical XLF norm.
+- **Test 4 FAIL (R:R 1.98:1 < 2:1) AND Test 1 marginal (no fresh Tue XLF-specific catalyst; Mon 9/21 thesis 1 day old, not Tue-dated).** SKIP.
+
+**Idea 3: XLE ADD / XOM ADD — DOES NOT QUALIFY (Test 1 catalyst REVERSED).**
+- Crude -12.1% cumulative 5 sessions; Mideast diplomatic progress hopes (Tue-dated per trustfinance 9/22) + Saudi export recovery + Venezuela + Hormuz shipments high + US diesel export ban momentum (bearish domestic upstream) = catalyst FORMALLY REVERSED, not merely impaired. Adding = anti-cyclical, risks compounding into MANUAL CUT.
+- Cushions tight: XOM +1.65%, XLE +2.55%. Adds would tighten further.
+- **Test 1 FAIL (catalyst reversed).** SKIP.
+
+**Idea 4: NVDA / AMD / INTC single-name AI ADD — DOES NOT QUALIFY (extension risk, no clean entry).**
+- Test 1 catalyst: AI commercialization Mon rip led by Intel/Meta/AMD (Interactive Crypto 9/22 04:43) ✓
+- Test 2 sector: XLK #1 ✓
+- Test 3 stop: definable but wider on single-name after +8% Mon pop
+- Test 4 R:R: **buying after Mon's +2.769% XLK surge (single-names likely +5-10%) = chasing extension.** Realistic near-term target $ext requires aggressive re-rating extension for 2:1 R:R. Without a specific pullback trigger to a defined support level, entry chases the move.
+- **Test 4 FAIL (R:R inadequate at extended levels post-Mon rip; no defined pullback trigger this session).** SKIP. Reconsider mid-week if pullback develops.
+
+**Idea 5: LLY (Eli Lilly) single-name — pharma reversal, 37% call — DOES NOT QUALIFY (sector momentum).**
+- Test 1 catalyst: 247wallst 9/22 major global bank 37% call + Novo Nordisk CMD 9/22 GLP-1 category strength ✓
+- Test 2 sector: **XLV +0.75% Mon = #3 sector, NOT top-tier momentum leader** (XLK/XLF ahead). Defensive rotation candidate, not confirmed leadership.
+- **Test 2 FAIL (sector not in confirmed momentum tier).** SKIP.
+
+**Idea 6: RKLB (Rocket Lab) — sector uncategorized. DOES NOT QUALIFY.**
+- Test 1: Fresh 9/22 Neutron/Iridium catalyst ✓ (+8% surge)
+- Test 2: Aerospace/defense not measured in our sector momentum map; speculative single-name.
+- **Test 2 FAIL (sector not in confirmed momentum tier).** SKIP.
+
+### Management Priorities for Market-Open Routine (Tue 9/22 09:30 ET) — MGMT-ONLY
+
+- **XOM MANUAL-CUT — CRITICAL TIGHTEST cushion +1.65%.** mtm $156.80; -7% cut trigger $154.23 = $2.57 cushion only. Trail-stop $149.625 = +4.79% cushion. **Very likely breach candidate** given crude Tue pre-mkt -1.96% + Mideast diplomacy narrative. **If XOM < $154.23 intraday → MANUAL CUT** (cancel 5afbbb78, market sell 30 sh). Catalyst REVERSED = thesis-break independent of price flag.
+- **XLE MANUAL-CUT vigilance.** mtm $61.68; -7% cut trigger $60.15 = $1.53 cushion (+2.55%). Trail-stop $59.553 = +3.57% cushion. **If XLE < $60.15 intraday → MANUAL CUT** (cancel 2cae6815 + 442df295, market sell 307 sh). Same reversed catalyst; sector ETF has absorbed better than XOM single-name so far but low tolerance for further crude leg down.
+- **XLK $180 conditional EXIT still armed.** mtm $194.70 = **+8.17% cushion** above $180 flag. Robust with Mon +2.89% rip and Tue flat futures consolidation. Server-side auto-ratchet lifted stops to $175.581 (hwm $195.09) Mon.
+- **XLF benign.** mtm $55.99; -7% cut $52.12; cushion +7.36%. Trails $50.5845 (orig) / $50.445 (new); avg cushion +9.90%.
+- **Ratchet monitoring (first-tighten +15%):** XLE $74.38 (far), XLK $213.46 (+9.6% from mtm; approaching but not near), XOM $199.01 (very far), XLF $64.46 (far). Server-side auto-ratchets on any new HWM. XLK closest tightening candidate.
+- **NO FRESH ENTRIES Tue** — all ideas failed named tests/gates (see qualification table).
+- **NO CLOCK-TIME GATES:** all triggers checkable at routine runtime.
+
+### Risk Factors (Tue 9/22)
+
+- **XOM cushion +1.65% is the tightest cut envelope of the challenge window.** A single -1.7% intraday move triggers MANUAL CUT. WTI Tue pre-mkt -1.96% + diplomacy narrative = high probability of breach. Prepare for cut execution.
+- **XLE cushion +2.55% also thin.** Sector ETF has diversified within-sector but crude drag is the dominant driver. Modest bounce possible on any Mideast counter-headline.
+- **Energy catalyst FORMALLY REVERSED** (not merely impaired). If XOM and/or XLE cut Tue, book concentration drops sharply: post-both-cuts scenario = XLK $20,249 (20.34% mv) + XLF $10,078 (10.12% mv) = **30.46% deployment only**, opening 4 slots and ~$23k cash. Wk-16 planning would need re-scoping for genuine mid-week rotation candidates.
+- **XLK ratchet vulnerability to profit-taking Tue.** Mon +2.89% rip in narrow leadership (Intel/Meta/AMD) = concentrated positioning; sharp pullback plausible. Cushion above trail-stop $175.581 = +10.9%; robust. Cushion above $180 flag = +8.17%; robust.
+- **SA "September Stagnation" duration-risk cautionary** (9/22 11:05) — long-duration tech vulnerability if rates re-price hawkish. No US data Tue mutes this near-term.
+- **Diesel export ban momentum** = paradox for energy trade: bullish refined margins (VLO/MPC), bearish upstream (XLE/XOM). Book is upstream-tilted = purely bearish read for held positions.
+- **BoE hold 3.75% + ECB CPI 3.20%** = benign non-US central bank flow. No US rate re-pricing catalyst.
+- **Sector concentration:** Energy 23.65% mv (XLE + XOM), Tech 20.34% mv, Financials 10.12% mv = 54.11% total. Below 75-85% target by 21-31pp; adds blocked by named test/gate failures (see ideas).
+- **Wk-16 slot budget:** 1/3 used (Mon XLF ADD); 2 remaining Tue-Fri. Preserve for genuine mid-week qualifying setups (single-name earnings if news breaks or sector rotation if leadership shifts).
+- **PDT check:** 0/3 daytrades; no round-trips planned Tue.
+- **Not a flat-week violation.** Best idea (XLK ADD) blocked by 20% cost cap; second-best (XLF ADD) failed R:R and stale-catalyst tests; energy ADDs failed reversed-catalyst test. Every SKIP names a specific gate/test failure per Decision Rule.
+- **Structural routine health:** 20th consecutive full-slate day since Aug 27 resumption.
+
+### Decision — HOLD ALL 4 POSITIONS, NO FRESH ENTRIES, HIGH-VIGILANCE MANUAL-CUT MONITORING ON XOM (+1.65% cushion) AND XLE (+2.55%)
+
+- **HOLD XLE (307 sh), XLF (180 sh), XLK (104 sh), XOM (30 sh).** XLK/XLF thesis intact; XLE/XOM at very tight cut envelopes with catalyst REVERSED.
+- **XOM MANUAL-CUT PRIORITY 1** — cushion +1.65% to $154.23 (TIGHTEST of challenge window). If XOM < $154.23 intraday → cancel 5afbbb78, market sell 30 sh. Thesis broken (Mideast diplomacy Tue-fresh) = candidate for pre-emptive thesis-break cut even absent price flag if XOM re-quotes under $154.23 at cash open.
+- **XLE MANUAL-CUT PRIORITY 2** — cushion +2.55% to $60.15. If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+- **XLK $180 conditional EXIT still armed** — cushion +8.17%; robust. On breach → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+- **XLF benign hold** — cushion +7.36%; no action.
+- **NO XLK ADD** — 20% cost cap headroom ~$613-696 uneconomic (Buy-Side Gate FAIL).
+- **NO XLF ADD** — R:R 1.98:1 < 2:1 (Test 4 FAIL) AND no fresh Tue-dated XLF catalyst (Test 1 marginal).
+- **NO XLE / XOM ADD** — Test 1 catalyst REVERSED (Mideast diplomacy Tue-fresh + crude -12.1% 5-sess).
+- **NO single-name AI ADD** — Test 4 FAIL (extension risk post-Mon +2.89% XLK rip; no defined pullback trigger).
+- **NO LLY / XLV ADD** — Test 2 FAIL (XLV #3 sector, not confirmed momentum tier).
+- **NO clock-time gates**; all conditions checkable at routine runtime.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Not a flat-week violation.** All SKIPs name specific test/gate failures per Decision Rule.
+- **Wk-16 slot budget:** 1/3 used; 2 remaining for Wed-Fri qualifying setups.
+- **MARKET-OPEN routine entry conditions:** none (no fresh entries planned). Focus is XOM/XLE cushion monitoring and potential MANUAL CUT execution on breach.
