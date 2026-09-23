@@ -5762,3 +5762,131 @@ Order of preference at MARKET-OPEN routine runtime:
 5. **XLK ratchet** — hwm $195.635 stop $176.0715; first-tighten trigger $213.46 (+9.30% from mtm)
 6. **Wk-16 slot budget:** 1/3 used; 2 remaining Wed-Fri
 7. **Deployment:** ~54.17% (below 75-85% target by 21-31pp); no fresh entries per pre-market qualification table (all ideas failed named tests/gates)
+
+---
+
+## 2026-09-23 — Pre-Market Research (Wednesday — Wk-16 Day 3)
+
+### Account Snapshot (Wed 9/23 pre-mkt, balance_asof 2026-09-22 Tue close)
+- Equity **$99,717.08** | Cash **$45,618.27** (45.75%) | Buying power **$333,949.76** (4x); non-marg BP $72,667.67
+- Long mv **$54,098.81** → **~54.25% deployed** (below 75-85% target by 21-31pp)
+- Last equity $99,622.11 (Mon close); Tue EOD close was $99,668.05 per EOD entry — reconciles to +$49 marginal
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Tue)
+- Wk-16 slot budget: **1/3 used (Mon XLF ADD), 2 remaining** for Wed-Fri qualifying setups
+- Positions (4, live marks Tue EOD via position endpoint):
+  - XLE 307 @ $64.6818 wtd (mtm $62.1803, **unrl -$767.96 / -3.87%; change_today +0.65%**; trail 10% $59.553 hwm $66.17)
+  - XLF 180 @ $56.045 (mtm $54.69, **unrl -$243.90 / -2.42%; change_today -0.20%**; trail 10% $50.5845 orig 90 sh hwm $56.205 / $50.445 new 90 sh hwm $56.05)
+  - XLK 104 @ $185.6156 (mtm $195.7503, **unrl +$1,054.01 / +5.46%; change_today -0.27%**; trail 10% $176.8545 hwm $196.505 — server-side auto-ratcheted overnight from $176.796/$196.44 = +$0.0585 each leg)
+  - XOM 30 @ $165.84 (mtm $160.241, **unrl -$167.97 / -3.38%; change_today +0.96%**; trail 10% $149.625 hwm $166.25)
+- Open orders: **7 GTC trailing stops** covering all 4 positions (2 XLE legs, 2 XLK legs, 2 XLF legs, 1 XOM — all status new)
+- **Data freshness ✓:** balance_asof 2026-09-22 (Tue close, normal for pre-mkt Wed). Named-stock quotes STALE from Tue 20:00 UTC close (AH books thin: XLE bp $61.77 ap $0 asymmetric; XLF bp $54.75 ap $54.86 spread ~0.2%; XLK bp $190.53 ap $0 asymmetric; XOM bp $148.93 ap $0 asymmetric). Overnight books illiquid on 3/4 names; cash-open re-quote MANDATORY before any fresh order.
+
+### Market Context (Wed 9/23 pre-market — Wk-16 Day 3)
+- Indices Tue 9/22 close (proxy via research.sh context): **S&P 7764.64 (flat), Nasdaq 27244.28 (+0.45%), Dow 51863.69 (-0.36%)** — split tape; tech grinding higher on AI narrative, cyclicals softer
+- Futures Wed pre-mkt: **ES 7823.00 (-0.11%), NQ 30952.50 (-0.24%)** — modest red, consolidation posture ahead of thin data day
+- VIX: **14.30 (+0.63%)** — still compressed; risk-on regime intact
+- **WTI $90.70 (+0.20%). Brent $96.26 (+0.89%). CRUDE STABILIZATION at $90 zone.** After -12.1% 5-sess crack, Wed pre-mkt sees mild bounce; Saxo headline "Oil slips under 90 as bank shares slide - 23 September 2026" (Saxo 9/23 06:17 GMT) — sub-$90 test in play but not confirmed. Venezuelan oil deal analysis piece (SA 9/23 12:00) + diesel export ban Q&A (SA 9/23 10:53) keep supply-side narrative active. Catalyst STILL REVERSED, not re-flipped — a single stabilization day is not a bullish reversal.
+- **BIG NEWS OVERNIGHT / TODAY (Wed 9/23):**
+  - **Meta's Muse AI disruption fears hitting banks/insurers/brokers** (CNBC 9/23 11:00, SA 9/23 12:00) — direct Wed bearish catalyst for XLF constituents. **Schwab selloff** flagged as first casualty. Layered on top of Tue's XLF -1.97% intraday move = **NEW BEARISH OVERLAY on XLF thesis.**
+  - **Adobe soft Q4 outlook + leadership change** (Interactive Crypto 9/23 10:25) — tests AI growth story. Single-name headwind for XLK (Adobe ~1.4% XLK weight); not enough to break the broader AI commercialization narrative but a first crack.
+  - **"Banner Monday sounding 1929/1999 alarm bells"** (invezz 9/22 13:00) — cautionary counter-narrative on Mon +2.77% XLK rip; historical parallel commentary, not a fresh catalyst.
+  - **Wall Street veteran says market has bottomed** (AOL 9/23 07:00) — mixed macro-timing take, offsetting the 1929 comparisons.
+  - **Aurora Innovation (AUR) Analyst & Investor Day + AV Forum** — Evercore ISI expects **10-15% near-term stock move** (StocksToTrade 9/21). Wed 9/23-dated single-name catalyst; AV/autonomous sector uncategorized.
+  - **Rocket Lab (RKLB)** — Tue +8% Neutron/Iridium surge continues to headline; aerospace sector uncategorized.
+  - **XOM UNGA week diplomacy** — Iraqi PM Al-Zaidi met XOM CEO Woods on oil partnerships (Iraqi News 9/23 07:16); Brazil Foz do Amazonas next major SA prize (SA 9/22 22:42). Micro-positives for XOM but not sector-wide XLE reversal.
+  - **Nvidia dividend hike** puts dividend growth stocks in spotlight (Morningstar 9/23 08:00) — supports XLK dividend-friendly complexion.
+  - **NO US MAJOR DATA Wed 9/23.** India HSBC PMI Flash (56.5/55.7 exp). US calendar: PPI/CPI/Beige Book/FOMC minutes all deferred to October. **Macro-quiet** = momentum continuation favored, no data-driven vol spike expected.
+  - **BMO earnings docket Wed:** Paychex (PAYX Q1 EPS $1.32 est), Worthington (WOR Q1 $0.75 est), McCormick (MKC), Jabil (JBL) — none are XLK/AI thematic; PAYX/WOR/MKC are HR-services/materials/consumer staples; JBL is contract manufacturer (peripheral tech).
+- **Sector momentum (updated Tue 9/22 EOD):** **Tech XLK +0.73% #1** (AI narrative intact, mild Adobe crack), **Materials XLB +1.65%** (single-day pop; not confirmed rotation leader), **Staples XLP +0.99%** (defensive), **Healthcare XLV +0.52%**, **Industrials XLI +0.17%**, **Energy XLE -1.09%** (continued crude drag), **Financials XLF -1.97%** (**2nd consecutive -1.5%+ day; thesis-break WATCH armed**). QTD leaderboard likely unchanged: XLK #1, XLF slipping from #2, XLB/XLV/XLP defensive rotation candidates emerging.
+- **Wk-16 calendar preview:** No CPI/PPI/FOMC/jobs marquee US data this week. Data-light backdrop favors momentum continuation OR sector rotation on narrative shifts (Meta Muse AI-disruption; energy stabilization). No pre-defined data catalyst until October.
+
+### Trade Ideas — Qualification Table (Wed 9/23 open)
+
+**Idea 1: XLK ADD 2-3 sh — DOES NOT QUALIFY (Buy-Side Gate 20% cost cap).**
+- Test 1 catalyst: Adobe soft Q4 outlook + leadership change = MIXED single-name headwind (not fresh bullish sector catalyst); Nvidia dividend hike thematic tailwind ✓ (marginal)
+- Test 2 sector momentum: XLK #1, +0.73% Tue ✓
+- Test 3 stop: definable, -7% $182.05 / trail 10% $176.18 ✓
+- Test 4 R:R: entry ~$195.75, stop $182.05 = 7% risk; realistic target $215 (+9.83%) → R:R 1.40:1. Stretched target $224 (+14.42%) → R:R 2.06:1 (marginal). WEAKER than Tue.
+- **Buy-Side Gate:** XLK cost basis $19,304 = 19.31% of $99,717 equity; 20% cap headroom $19,943 - $19,304 = **$639 = ~3 sh (UNECONOMIC)**. BLOCKED. **DOES NOT QUALIFY on Buy-Side Gate 20% cost cap.** SKIP.
+
+**Idea 2: XLF ADD — DOES NOT QUALIFY (Test 1 catalyst REVERSED — Meta Muse AI-disruption bearish overlay).**
+- Test 1 catalyst: Wed narrative BEARISH (Meta Muse AI disruption hitting banks/insurers/brokers; Schwab selloff — CNBC/SA 9/23; Saxo "bank shares slide" 9/23). No fresh bullish Wed catalyst. Prior post-FOMC bull-flattener/dividend-growth thesis eroded by 2 consecutive down days (-2.03% Tue intraday, -0.20% Tue net after AH); **thesis now under WATCH pending 3rd consecutive -1.5%+ day.**
+- Test 2 sector momentum: XLF -1.97% Tue = slipping from #2. NOT confirmed leader.
+- **Test 1 FAIL (catalyst reversed to bearish) AND Test 2 FAIL (sector momentum eroding).** SKIP.
+
+**Idea 3: XLE ADD / XOM ADD — DOES NOT QUALIFY (Test 1 catalyst still REVERSED).**
+- Crude stabilized at $90 zone Wed (+0.20% WTI, +0.89% Brent) — one day of stabilization is NOT a bullish reversal. Mideast diplomacy narrative + Venezuelan oil deal + diesel export ban still on the docket. XOM micro-positives (Iraqi PM meeting, Brazil Foz do Amazonas) are single-name not sector-wide.
+- Cushions tight: XLE +3.37%, XOM +3.90%. Adding = anti-cyclical, tightens cut envelope.
+- **Test 1 FAIL (catalyst reversed; stabilization ≠ reversal).** SKIP.
+
+**Idea 4: XLB ADD (Materials, +1.65% Tue) — DOES NOT QUALIFY (Test 1 + Test 2 FAIL).**
+- Test 1 catalyst: no specific Wed-dated bullish materials catalyst identified in news pull.
+- Test 2 sector momentum: single-day +1.65% pop is not confirmed rotation leadership; XLB was QTD laggard prior. Wait for 2+ consecutive up days above sector average.
+- **Test 1 FAIL (no fresh catalyst) AND Test 2 FAIL (single-day pop, not confirmed momentum).** SKIP.
+
+**Idea 5: XLP / XLV / XLU defensive rotation ADD — DOES NOT QUALIFY (Test 2 FAIL).**
+- Test 1 catalyst: "banner Monday sounding 1929/1999 alarm bells" cautionary narrative + Meta AI-disruption fears could seed defensive rotation. Marginal thematic ✓
+- Test 2 sector momentum: XLP +0.99% Tue, XLV +0.52%, XLU unmeasured. Single-day defensive pop, not confirmed 2+ day rotation. XLK still leading — leadership rotation NOT confirmed.
+- **Test 2 FAIL (defensive rotation not confirmed; XLK still #1).** SKIP.
+
+**Idea 6: AUR (Aurora Innovation) single-name — Analyst Day 9/23, Evercore 10-15% call — DOES NOT QUALIFY (sector uncategorized + R:R marginal).**
+- Test 1 catalyst: 9/23-dated Analyst & Investor Day + AV Forum; Evercore ISI 10-15% near-term move call ✓
+- Test 2 sector: AV/autonomous vehicles not in measured sector momentum map (uncategorized); speculative single-name.
+- Test 3 stop: definable but wider on single-name post-Analyst-Day binary event
+- Test 4 R:R: entry pre-event, 10-15% Evercore target vs -7% stop = R:R 1.4-2.1:1 (marginal 2:1 only at upper bound of Evercore range).
+- **Test 2 FAIL (sector uncategorized) AND Test 4 marginal (R:R at floor of qualifying range on unconfirmed target).** SKIP.
+
+**Idea 7: RKLB (Rocket Lab) single-name — Tue +8% Neutron/Iridium — DOES NOT QUALIFY.**
+- Test 1: fresh catalyst 1 day old ✓ (marginal)
+- Test 2: aerospace uncategorized, single-name speculative
+- **Test 2 FAIL.** SKIP.
+
+**Idea 8: Single-name AI leaders (NVDA / AMD / INTC / META) — DOES NOT QUALIFY (Test 4 FAIL).**
+- Test 1 catalyst: continued AI commercialization narrative + Nvidia dividend hike ✓
+- Test 2 sector: XLK #1 ✓
+- Test 3 stop: definable but wider single-name
+- Test 4 R:R: buying after Mon +2.77% XLK rip + Tue mild consolidation = chasing extension; Adobe soft Q4 = first crack in AI narrative. No defined pullback trigger this session.
+- **Test 4 FAIL (chasing extension; no pullback trigger; Adobe crack signals narrative maturity risk).** SKIP.
+
+### Management Priorities for Market-Open Routine (Wed 9/23 09:30 ET) — MGMT-ONLY
+
+- **XLF THESIS-BREAK REVIEW UPGRADED** — Wed pre-mkt narrative is directly bearish (Meta Muse AI disruption hitting banks/insurers/brokers; Schwab selloff highlighted; Saxo "bank shares slide" headline). Tue was 2nd consecutive -1.5%+ day. **DECISION FRAMEWORK: if XLF < -1.5% intraday Wed = 3rd consecutive bad day = THESIS-BREAK CUT trigger** (cancel 8bd5213b + bbf96d5f, market sell 180 sh, book realized ~-$243 at Tue EOD marks or worse). Cushion +4.94% to $52.12 cut flag; still inside cut envelope so no price-flag cut yet. Sell-Side Rule "Thesis broken: close even if not at -7%" applies. Alternate: hold if XLF is flat-to-green Wed on possible dead-cat bounce; the Meta Muse narrative may already be priced in after Tue's -1.97% dump.
+- **XLE MANUAL-CUT vigilance — TIGHTEST %.** mtm $62.1803; -7% cut trigger $60.15 = **cushion +3.37%** ($2.03 headroom). Trail-stop $59.553 = +4.41% cushion. Crude stabilization Wed pre-mkt reduces urgency but catalyst not re-flipped. **If XLE < $60.15 intraday → MANUAL CUT** (cancel 2cae6815 + 442df295, market sell 307 sh, ~-$1,270 realized at cut price).
+- **XOM MANUAL-CUT vigilance.** mtm $160.241; -7% cut trigger $154.23 = **cushion +3.90%** ($6.01 headroom). Trail-stop $149.625 = +7.09% cushion. Tue +0.96% dip-buying + Wed UNGA meetings/Brazil exploration micro-positives improve near-term risk. **If XOM < $154.23 intraday → MANUAL CUT** (cancel 5afbbb78, market sell 30 sh, ~-$318 realized at cut price).
+- **XLK $180 conditional EXIT armed.** mtm $195.7503 = **+8.75% cushion** above $180 flag. Robust with Adobe soft Q4 single-name headwind mild; broad AI narrative intact. Server-side auto-ratchet lifted stops overnight to $176.8545 hwm $196.505.
+- **XLK ratchet monitoring** — first-tighten (+15%) trigger $213.46; mtm $195.75 = need +9.05% to trigger. Not near.
+- **XLF benign price cushion but WATCH thesis** — mtm $54.69; -7% cut blended $52.12; cushion +4.94%. Trails $50.5845 (orig) / $50.445 (new); avg cushion +8.30%. **Price-flag not tripped; thesis-break is the operative concern.**
+- **Ratchet monitoring (first-tighten +15%):** XLE $74.38 (far), XLK $213.46 (+9.05%; approaching but not near), XOM $199.01 (+24.19%; far), XLF $64.45 (+17.85%; far, thesis-break more likely first). Server-side auto-ratchets continue on any new HWM.
+- **NO FRESH ENTRIES Wed** — all 8 ideas failed named tests/gates (see qualification table).
+- **NO CLOCK-TIME GATES:** all triggers checkable at routine runtime.
+
+### Risk Factors (Wed 9/23)
+
+- **XLF THESIS-BREAK is the operative risk today.** New Wed bearish overlay (Meta Muse AI disruption hitting banks + Saxo "bank shares slide") on top of 2 consecutive -1.5%+ days. Cushion +4.94% to $52.12 cut flag; a 3rd -1.5%+ day would trigger THESIS-BREAK cut per Sell-Side Rule "Thesis broken: close even if not at -7%." Post-cut scenario: -$243+ realized loss, cash freed ~$9,850, deployment drops to ~44.4%, slot budget freed for Thu-Fri qualifying rotation setup.
+- **XLE cushion +3.37% is TIGHTEST in %.** Crude Wed stabilization at $90 zone is a one-day event, not a reversal. Any renewed leg down toward $88 (2-3% drop) → XLE breaks $60.15. Prepare for cut execution.
+- **XOM cushion +3.90% inside cut envelope.** Tue +0.96% intraday improvement + UNGA/Brazil micro-positives = near-term stabilization, but any Mideast diplomacy re-headline or renewed crude leg down triggers manual cut.
+- **XLK ratchet vulnerability to Adobe-triggered AI narrative crack.** Adobe soft Q4 Wed is the first crack in the AI commercialization stampede; if broader tech extends the crack, XLK could give back +5.46% cushion quickly. $180 conditional EXIT flag +8.75% away = robust for now.
+- **Meta Muse AI disruption thematic** hitting banks/insurers/brokers could rotate capital OUT of XLF and OUT of AI-substitution victims INTO defensive (XLP/XLV/XLU) or AI-beneficiary (XLK constituents excl. Adobe). Rotation not yet confirmed 2+ days.
+- **Concentration:** Energy 24.03% mv (XLE $19,089 + XOM $4,807 = $23,897), Tech 20.42% mv (XLK $20,358), Financials 9.87% mv (XLF $9,844) = 54.32% total. Below 75-85% target by 21-31pp. Adds blocked by named test/gate failures.
+- **Wk-16 slot budget:** 1/3 used (Mon XLF ADD); 2 remaining Wed-Fri. Preserve for genuine mid-week qualifying setups (defensive rotation confirmation, XLF-cut cash redeployment if thesis-break executes, single-name earnings if a hot report gaps).
+- **PDT check:** 0/3 daytrades; no round-trips planned Wed. XLF thesis-break cut would be next-day settle (Tue Mon ADD → sell Wed = >1 trading day = not a daytrade). XLE cut = position >30 days = not a daytrade. XOM cut = position ~7 days = not a daytrade.
+- **Not a flat-week violation.** Best idea (XLK ADD) blocked by 20% cost cap Buy-Side Gate; XLF ADD blocked by reversed Wed catalyst (Meta Muse AI disruption); energy ADDs blocked by unchanged reversed catalyst; defensive/single-name ideas blocked by sector momentum or R:R tests. Every SKIP names a specific gate/test failure per Decision Rule.
+- **Structural routine health:** 21st consecutive full-slate day since Aug 27 resumption.
+
+### Decision — HOLD ALL 4 POSITIONS, NO FRESH ENTRIES, HIGH-VIGILANCE XLF THESIS-BREAK MONITORING + XLE MANUAL-CUT VIGILANCE
+
+- **HOLD XLE (307 sh), XLF (180 sh), XLK (104 sh), XOM (30 sh).** XLK thesis intact; XLF thesis under WATCH pending 3rd consecutive -1.5%+ day; XLE/XOM inside cut envelope on crude stabilization.
+- **XLF THESIS-BREAK PRIORITY 1** — if XLF -1.5%+ intraday Wed = 3rd consecutive bad day → THESIS-BREAK CUT (cancel 8bd5213b + bbf96d5f, market sell 180 sh). Sell-Side Rule "Thesis broken: close even if not at -7%." Cushion +4.94% to price flag; price-flag not the trigger.
+- **XLE MANUAL-CUT PRIORITY 2 (TIGHTEST %)** — cushion +3.37% to $60.15. If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+- **XOM MANUAL-CUT PRIORITY 3** — cushion +3.90% to $154.23. If XOM < $154.23 intraday → cancel 5afbbb78, market sell 30 sh.
+- **XLK $180 conditional EXIT armed** — cushion +8.75%; robust. On breach → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+- **NO XLK ADD** — Buy-Side Gate 20% cost cap headroom ~$639 uneconomic (Test-marginal even if slot were open).
+- **NO XLF ADD** — Test 1 REVERSED (Wed Meta Muse AI disruption bearish) + Test 2 momentum eroding.
+- **NO XLE / XOM ADD** — Test 1 catalyst still REVERSED (stabilization ≠ reversal).
+- **NO XLB / XLP / XLV / XLU rotation ADD** — Test 2 FAIL (single-day pops, not confirmed 2+ day rotation leadership).
+- **NO single-name (AUR / RKLB / NVDA / AMD / INTC / META) ADD** — Test 2 (sector uncategorized) or Test 4 (R:R marginal / extension) FAIL.
+- **NO clock-time gates**; all conditions checkable at routine runtime.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Not a flat-week violation.** All 8 ideas' SKIPs name specific test/gate failures per Decision Rule.
+- **Wk-16 slot budget:** 1/3 used; 2 remaining Wed-Fri. XLF thesis-break cut would free cash + slot for Thu-Fri qualifying redeployment (defensive rotation if confirmed by then).
+- **MARKET-OPEN routine entry conditions:** none (no fresh entries planned). Focus is (1) XLF thesis-break check on 3rd consecutive -1.5%+ day, (2) XLE/XOM cushion monitoring, (3) XLK ratchet monitoring.
