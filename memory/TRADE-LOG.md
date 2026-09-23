@@ -2753,3 +2753,45 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLK $180 conditional EXIT** — armed; cushion +9.36% to $180 flag; robust with tech continuing to lead.
 6. **Ratchet monitoring** — first-tighten triggers: XLE $74.38, XLK $213.46 (+8.68% from close), XOM $199.01, XLF $64.45.
 7. **Sector momentum check** — energy catalyst continues impaired; tech leadership intact; financials wobbling on rate-path uncertainty.
+
+### Sep 23 — Midday Scan (Wednesday, 12:12 ET — Wk-16 Day 3 / NO-OP)
+**Portfolio marks:** XLE 307 @ $62.765 unrl **-$588.46 / -2.96%** (chg_today **+1.59%**) | XLF 180 @ $54.775 unrl **-$228.60 / -2.27%** (chg_today **-0.05%**) | XLK 104 @ $194.94 unrl **+$969.74 / +5.02%** (chg_today -0.68%) | XOM 30 @ $161.19 unrl **-$139.50 / -2.80%** (chg_today **+1.56%**)
+**Aggregate mv:** $54,237.82 (~54.24% deployed) | Book +$69.77 vs Tue EOD.
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- XLE -2.96% | cut $60.15 = **cushion +4.34%** — IMPROVED from Tue EOD +2.59% on +1.59% intraday (crude stabilization at $90 zone confirmed on day 2)
+- XOM -2.80% | cut $154.23 = **cushion +4.52%** — IMPROVED from Tue EOD +2.78% on +1.56% intraday
+- XLF -2.27% | cut $52.12 = **cushion +5.10%** — modestly improved on flat intraday (-0.05%); THESIS-BREAK cut trigger (3rd consecutive -1.5%+ day) NOT triggered — XLF flat defuses today's escalation
+- XLK +5.02% | not cut-relevant; $180 conditional cushion +8.30%
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +5.02% (need +15% for first tighten to 7%; trigger $213.46 = +9.50% from mtm). All others negative. No cancel-replace.
+
+**Server-side ratchet observed:** XLK legs auto-ratcheted overnight → open: stop $176.796 → **$177.012**, hwm $196.44 → **$196.68** (+$0.216 each). XLE/XOM/XLF hwms unchanged.
+
+**Thesis check (STEP 5) — no cuts:**
+- XLF: pre-market Meta Muse AI-disruption bearish overlay + Tue -1.97% priming a 3rd consecutive bad day → intraday **-0.05% = flat**; Meta Muse narrative appears already priced in after Tue dump. **3rd -1.5%+ day THESIS-BREAK cut NOT triggered.** WATCH remains; hold.
+- XLE: +1.59% intraday, crude stabilization day 2. Thesis reversal not re-flipped bullish, but stabilization > continued leg down. Hold.
+- XOM: +1.56% intraday, UNGA/Brazil micro-positives + crude stabilization. Hold.
+- XLK: -0.68% mild consolidation; Adobe soft Q4 narrative crack not spreading intraday. Thesis intact.
+
+**Intraday research (STEP 6):** skipped. Moves consistent with pre-market thesis (XLF Meta Muse absorbed, energy stabilization, tech consolidation). No unexplained gaps.
+
+**Actions:** NONE. All 4 positions held. STEP 7 ClickUp no-op.
+
+**Next checkpoints (afternoon → close):**
+1. **XLF WATCH** — cushion +5.10% to $52.12; late-day acceleration below -1.5% would still trigger thesis-break cut (Wed close is the operative reading for "3rd consecutive").
+2. **XLE MANUAL-CUT vigilance** — cushion +4.34% to $60.15 (improved).
+3. **XOM MANUAL-CUT vigilance** — cushion +4.52% to $154.23 (improved).
+4. **XLK $180 conditional EXIT** — armed; cushion +8.30%; robust.
+5. **XLK ratchet** — hwm $196.68 stop $177.012; first-tighten trigger $213.46 (+9.50% from mtm).
+6. **Wk-16 slot budget:** 1/3 used; 2 remaining Thu-Fri.
+7. **Deployment:** ~54.24% (below 75-85% target by 21-31pp); no fresh entries per Wed pre-market qualification (all 8 ideas failed named tests/gates).
+
+**Post-scan order state (7 GTC stops covering 4 positions — no changes this scan; only XLK server-side ratchet):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $177.012 hwm $196.68 (5451fa24) — server-side ratchet since Tue EOD +$0.216
+- XLK 54 sh: trail 10% $177.012 hwm $196.68 (f2c0dace) — server-side ratchet since Tue EOD +$0.216
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
