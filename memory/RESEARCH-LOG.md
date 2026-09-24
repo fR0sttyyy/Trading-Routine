@@ -5890,3 +5890,144 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Not a flat-week violation.** All 8 ideas' SKIPs name specific test/gate failures per Decision Rule.
 - **Wk-16 slot budget:** 1/3 used; 2 remaining Wed-Fri. XLF thesis-break cut would free cash + slot for Thu-Fri qualifying redeployment (defensive rotation if confirmed by then).
 - **MARKET-OPEN routine entry conditions:** none (no fresh entries planned). Focus is (1) XLF thesis-break check on 3rd consecutive -1.5%+ day, (2) XLE/XOM cushion monitoring, (3) XLK ratchet monitoring.
+
+---
+
+## 2026-09-24 — Pre-Market Research (Thursday — Wk-16 Day 4)
+
+### Account Snapshot (Thu 9/24 pre-mkt, balance_asof 2026-09-23 Wed close)
+- Equity **$99,745.64** | Cash **$45,618.27** (45.74%) | Buying power **$334,029.72** (4x); non-marg BP $72,681.95
+- Long mv **$54,127.37** → **~54.27% deployed** (below 75-85% target by 21-31pp)
+- Last equity $99,735.32 (Wed close); reconciles to +$10.32 marginal from Wed close $99,664.57 EOD entry (position endpoint pre-mkt marks vs Wed EOD)
+- Daytrade count: field absent (last confirmed 0/3; no round-trips Wed)
+- Wk-16 slot budget: **1/3 used (Mon XLF ADD), 2 remaining** for Thu-Fri qualifying setups
+- Positions (4, live pre-mkt marks via position endpoint):
+  - XLE 307 @ $64.6818 wtd (mtm $63.09, **unrl -$488.68 / -2.46%; change_today +1.15%**; trail 10% $59.553 hwm $66.17)
+  - XLF 180 @ $56.045 (mtm $54.62, **unrl -$256.50 / -2.54%; change_today +0.15%**; trail 10% $50.5845 orig 90 sh hwm $56.205 / $50.445 new 90 sh hwm $56.05)
+  - XLK 104 @ $185.6156 (mtm $192.61, **unrl +$727.42 / +3.77%; change_today -1.40%**; trail 10% $177.012 hwm $196.68 — unchanged; close $194.9849 < hwm)
+  - XOM 30 @ $165.84 (mtm $163.19, **unrl -$79.50 / -1.60%; change_today +1.22%**; trail 10% $149.625 hwm $166.25)
+- Open orders: **7 GTC trailing stops** covering all 4 positions (2 XLE legs, 2 XLK legs, 2 XLF legs, 1 XOM — all status new)
+- **Data freshness ✓:** balance_asof 2026-09-23 (Wed close, normal for pre-mkt Thu). Live pre-mkt named-stock quotes at 12:12/12:44 UTC (~8:12/8:44 ET): **XLE** bp $62.91 ap $63.09 (spread ~0.3%, live), **XLF** bp $54.53 ap $54.58 (spread ~0.1%, live). **XLK** bp $188.41 ap $200.57 (spread ~6.5% ASYMMETRIC, stale Wed 20:00 UTC close) and **XOM** bp $151.32 ap $168.74 (spread ~11.5% ASYMMETRIC, stale) — must re-quote at cash open before any XLK/XOM order.
+
+### Market Context (Thu 9/24 pre-market — Wk-16 Day 4)
+- Indices (context proxy, Thu pre-mkt indication): **S&P 7706.03 (-0.75%), Nasdaq 26936.04 (-1.13%), Dow 51511.59 (-0.68%)** — RED across the board, decisive downside from Wed close
+- Futures Thu pre-mkt: **ES 7728.0 (-0.57%), NQ 30438.5 (-1.06%)** — firmly red; risk-off posture
+- VIX: **15.99 (+5.34%)** — spiking from 14.30 Wed; vol expansion confirming risk-off
+- **WTI $93.84 (+1.82%). Brent $99.84 (-3.14%). CRUDE DIVERGENCE (unusual)** — WTI up decisively while Brent down; potential US-specific supply premium re-emerging (Hormuz shut narrative + Big Oil mobilizing to block diesel export ban). This is Day 3 of stabilization → NOW Day 1 of decisive up-leg for WTI.
+- **BIG NEWS OVERNIGHT / TODAY (Thu 9/24):**
+  - **BOND SELL-OFF DEEPENS: 10Y Treasury yields hit 5.1%** (invezz 9/23 20:00); Yahoo "bond sell-off troubles markets" (9/24 12:00). **DIRECT DURATION-NEGATIVE catalyst for XLK.** Explains NQ -1.06% futures + pre-mkt indications.
+  - **XLF Meta Muse narrative ESCALATION** — BofA note "'multiyear evolutionary risk': BofA unpacks the threat Meta's Muse poses to banks" (AOL 9/24 09:00). XLF -2.4% cumulative since Tue open. **3rd-day narrative overlay** but Wed close was only -0.44% (not -1.5%+), so the 3-consecutive-bad-day thesis-break trigger is NOT armed today. Cumulative pressure is real.
+  - **China's Xi Jinping lands in US → looming Trump-Xi meeting** (Yahoo 9/24 12:00) — macro overhang; unclear direction.
+  - **Big Oil mobilizes to BLOCK Trump's diesel export ban** (SA 9/24 08:35) — upstream-positive (removes bearish overhang that had been hitting XLE/XOM); Big Oil coordinating pushback. **Marginal bullish shift on XLE/XOM catalyst.**
+  - **Meta Muse Mag-7 split** (Money Morning 9/24 05:00) — Meta breaking away as AI-disruption leader; concentration split continues.
+  - **Micron -2% Wed AH** (referenced context) — tests XLK AI-infrastructure narrative; layered on top of Tue Adobe soft Q4.
+  - **October caution** — Investing.com AU "Tech Can Push Higher — Yet October Could Punish the Last Buyers In" (9/23 21:00) — seasonal/rotation risk piece.
+  - **Darden (DRI) BMO earnings** — fiscal Q1 2027, $3.21B rev / $2.05 EPS est; reaffirmed FY27 guidance $11.10-$11.35. Restaurants/consumer discretionary, not thematic to book.
+  - **XLE mixed thematic signals:** GuruFocus "24.1% overvalued on GF Value" (9/24 10:00, bearish); SA "put-call ratio flashing bullish" (9/24 09:32, contrarian bullish); Investing.com cautions on new longs, warns of leg down to $60.85. Net: no clean directional read from thematic desk pieces.
+  - **XOM Venezuela oil narrative** continues (50B barrels talks); Hormuz stays shut supports crude; Big Oil diesel-export-ban resistance is bullish for upstream.
+  - **NO US MAJOR DATA Thu 9/24.** Macro-quiet on data; bond curve is the driving catalyst.
+- **Sector momentum (Thu pre-mkt map):** **XLE +0.96% #1** (WTI +1.82% + diesel-export-ban block narrative), then all red: XLI -0.10%, XLP -0.36%, XLK -0.47%, XLF -0.47%, XLB -0.49%, XLV -0.64%. **XLE is the sole green sector Thu = Day 1 leadership after 5-session -12.1% crude leg down.** This is a possible rotation-in, not yet confirmed.
+- **Wk-16 calendar preview:** No CPI/PPI/FOMC/jobs marquee US data this week. Bond-yield trajectory (10Y at 5.1%) is now the dominant macro driver.
+
+### Trade Ideas — Qualification Table (Thu 9/24 open)
+
+**Idea 1: XLE ADD — DOES NOT QUALIFY (Test 4 R:R FAIL + Buy-Side Gate 20% cost cap UNECONOMIC).**
+- Test 1 catalyst: Thu-fresh bullish shift (WTI +1.82%, Big Oil blocks diesel export ban, Hormuz remains shut) ✓
+- Test 2 sector momentum: XLE #1 Thu (+0.96% in red tape) — but **Day 1 leadership after 5-session drubbing = single-day pop, not confirmed 2+ day rotation.** Marginal / **FAIL** per prior "single-day pop" standard applied to XLB Wed.
+- Test 3 stop: definable, -7% $58.68 / trail 10% $56.78 ✓
+- Test 4 R:R: entry $63.09; -7% stop $58.68 (7.0% risk); target $66.17 (prior HWM, +4.88%) = R:R 0.70:1; stretched target $72 (+14.11%) = R:R 2.02:1 barely 2:1 — requires WTI push above $95-98 to justify. **R:R marginal/FAIL against realistic near-term targets.**
+- **Buy-Side Gate:** XLE cost basis $19,857 = 19.91% of $99,745 equity; 20% cap headroom = $99,745 * 0.20 - $19,857 = **$92 = ~1.5 sh (UNECONOMIC)**. BLOCKED.
+- **Test 2 marginal + Test 4 FAIL + Buy-Side Gate UNECONOMIC.** SKIP.
+
+**Idea 2: XOM ADD — DOES NOT QUALIFY (Test 2 single-day + Test 4 R:R FAIL).**
+- Test 1: Thu-fresh bullish (Big Oil diesel-export-ban block; Hormuz shut; UNGA/Brazil/Venezuela pipeline) ✓
+- Test 2: XLE #1 Day 1 — same "single-day pop, not confirmed leadership" as XLE ADD. **Marginal / FAIL.**
+- Test 3: -7% stop $151.77, trail 10% $146.87 ✓
+- Test 4 R:R: entry $163.19; -7% stop $151.77 (7.0% risk); target $180 (Aug high zone, +10.30%) = R:R 1.47:1; target $185 (+13.36%) = R:R 1.91:1. **Test 4 FAIL 2:1.**
+- Buy-Side Gate: XOM cost basis $4,975 = 4.99% equity; room exists (~91 sh headroom); but Test 2 + Test 4 already FAIL.
+- **Test 2 FAIL + Test 4 FAIL.** SKIP.
+
+**Idea 3: Single-name upstream energy (COP / EOG / DVN / OXY) — DOES NOT QUALIFY (Test 2 FAIL).**
+- Test 1: Thu-fresh bullish on same crude+ diesel-ban-block narrative ✓
+- Test 2 sector: Day 1 leadership only — single-day pop rejected under prior standard.
+- **Test 2 FAIL (single-day sector rotation not confirmed).** SKIP.
+
+**Idea 4: Refiner single-name (VLO / MPC) — DOES NOT QUALIFY (Test 2 FAIL + Test 1 marginal).**
+- Test 1: diesel-export-ban-BLOCK is bearish for refiners (removes their margin premium), reversing prior bullish diesel-ban thematic. Catalyst inverted. **Test 1 marginal/FAIL.**
+- Test 2: single-day sector pop. FAIL.
+- SKIP.
+
+**Idea 5: XLF ADD — DOES NOT QUALIFY (Test 1 catalyst REVERSED — BofA Meta Muse escalation).**
+- Test 1: Thu narrative BEARISH (BofA "multiyear evolutionary risk" note; -2.4% XLF cumulative since Tue open). No fresh bullish Thu catalyst.
+- Test 2: XLF -0.47% Thu pre-mkt = red day #3 (Tue -1.97%, Wed -0.44%, Thu pre-mkt -0.47%). Sector momentum eroding.
+- **Test 1 FAIL (BofA-authored bearish escalation) + Test 2 FAIL (3rd consecutive red day, momentum eroding).** SKIP.
+
+**Idea 6: XLK ADD — DOES NOT QUALIFY (Test 1 turned bearish + Test 4 FAIL).**
+- Test 1: bond sell-off (10Y 5.1%) + Micron -2% Wed AH + Adobe soft Q4 = **DURATION-NEGATIVE + narrative crack widening**. Not a Thu-fresh bullish catalyst — the reverse.
+- Test 2: XLK -0.47% Thu pre-mkt; XLK slipping from #1 sector position. Marginal.
+- Test 3: -7% stop $179.13, trail 10% $173.35 ✓
+- Test 4 R:R: entry $192.61; -7% stop $179.13 (7.0% risk); realistic target $210 (+9.0%) = R:R 1.28:1; stretched $220 (+14.2%) = R:R 2.03:1 marginal — requires 10Y yields to reverse, not the current trajectory. **FAIL.**
+- Buy-Side Gate: XLK cost basis $19,304 = 19.35% equity; 20% cap headroom ~$641 = ~3 sh (UNECONOMIC).
+- **Test 1 FAIL (bearish overlay) + Test 4 FAIL + Buy-Side Gate UNECONOMIC.** SKIP.
+
+**Idea 7: Defensive rotation ADD (XLP / XLV / XLU) — DOES NOT QUALIFY (Test 2 FAIL).**
+- Test 1: bond sell-off + macro uncertainty (Trump-Xi meeting) could seed defensive rotation. Marginal thematic.
+- Test 2: XLP -0.36%, XLV -0.64% Thu pre-mkt = ALL RED. No defensive sector is green Thu. Defensive rotation NOT confirmed.
+- **Test 2 FAIL (no green defensive sector Thu; bond sell-off pressuring dividend-heavy staples).** SKIP.
+
+**Idea 8: Single-name AI ADD (NVDA / AMD / AVGO / META) — DOES NOT QUALIFY (Test 4 extension + duration risk).**
+- Test 1: continued AI narrative BUT 10Y 5.1% = direct duration-negative headwind; Micron -2% Wed AH = tests narrative. Mixed/marginal.
+- Test 2: XLK -0.47% Thu = leader status wobbling.
+- Test 4 R:R: buying into 10Y-5.1% duration re-pricing = catching a falling knife; no defined pullback trigger. R:R indeterminate but stop distance widens on binary rate re-pricing risk.
+- **Test 1 marginal + Test 4 FAIL (10Y-5.1% duration re-pricing risk without defined pullback trigger).** SKIP.
+
+**Idea 9: Bond-yield short-duration trade (TLT short via inverse ETF, or KRE short) — DOES NOT QUALIFY (out of playbook).**
+- Test 2: macro-directional bond trade, not sector-momentum stock trade per playbook. Not evaluated further.
+- SKIP (out of framework).
+
+### Management Priorities for Market-Open Routine (Thu 9/24 09:30 ET) — MGMT-ONLY
+
+- **XLK DURATION-RISK VIGILANCE PRIORITY 1** — 10Y at 5.1% + NQ -1.06% futures + Micron -2% AH → XLK pre-mkt indication $192.61 (-1.40% vs Wed close $195.34). Cushion above $180 conditional-EXIT flag = **+7.00%** (narrowed from Wed EOD +8.32% on pre-mkt gap). Trail-stop $177.012; cushion above trail = +8.81%. **If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh** (thesis-break exit — bond-yield re-pricing = new duration overlay not present at entry). **XLK broke Wed hwm ceiling on pre-mkt drop — no server-side ratchet Thu unless XLK re-takes $196.68.**
+- **XLF THESIS-BREAK MONITORING (downgraded from Wed WATCH)** — BofA Meta Muse "multiyear evolutionary risk" note = new Thu bearish overlay. Wed close was only -0.44% (not -1.5%+), so 3-consecutive-bad-days trigger NOT armed. Pre-mkt +0.15%. **DECISION FRAMEWORK: if XLF < -1.5% intraday Thu, this becomes a new "recent -1.5%+ day" — track for consecutive pattern reactivation.** Cushion +4.79% to $52.12 cut flag; no price-flag cut warranted.
+- **XLE MANUAL-CUT vigilance — cushion IMPROVED.** mtm $63.09; -7% cut trigger $60.15 = **cushion +4.89%** ($2.94 headroom) — best cushion since Fri 9/19. Trail-stop $59.553 = +5.94% cushion. Crude bounce Thu (WTI +1.82%) reduces urgency; catalyst SHIFTING from reversed toward stabilization-plus. **If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.**
+- **XOM MANUAL-CUT vigilance — cushion IMPROVED.** mtm $163.19; -7% cut trigger $154.23 = **cushion +5.81%** ($8.96 headroom) — best cushion since entry. Trail-stop $149.625 = +9.06% cushion. Big Oil diesel-export-ban resistance + UNGA/Brazil/Venezuela + Hormuz shut = supportive backdrop. **If XOM < $154.23 intraday → cancel 5afbbb78, market sell 30 sh.**
+- **XLK $180 conditional EXIT armed** — cushion +7.00% (narrowed on pre-mkt duration hit). Robust but tightening — monitor closely on any further NQ break lower.
+- **XLK ratchet monitoring** — first-tighten (+15%) trigger $213.46; mtm $192.61 = need +10.83% to trigger. Not near; bond-yield re-pricing pushing further away.
+- **Ratchet monitoring (first-tighten +15%):** XLE $74.38 (+17.89% from mtm; far), XLK $213.46 (+10.83%; far), XOM $199.01 (+21.95%; far), XLF $64.45 (+18.00%; far). None near.
+- **NO FRESH ENTRIES Thu** — all 9 ideas failed named tests/gates (see qualification table).
+- **NO CLOCK-TIME GATES:** all triggers checkable at routine runtime.
+
+### Risk Factors (Thu 9/24)
+
+- **XLK DURATION-RISK is the operative risk today.** 10Y at 5.1% (invezz 9/23) is a decisive break above 5% psychological zone; NQ futures -1.06% pre-mkt; Micron -2% AH; Adobe soft Q4 cracks widening into second name. XLK cushion above $180 flag narrowed to +7.00% from +8.32% Wed EOD on pre-mkt duration hit. A further -3% intraday move → $180 breach → full XLK exit (thesis-break; duration re-pricing = new material overlay not present at entry). Post-exit cash freed ~$19,500-20,000 (depending on execution price), deployment drops to ~34%, XLK sector concentration ELIMINATED, 3 open slots + 2 Wk-16 slots for Fri redeployment.
+- **XLF Meta Muse cumulative pressure ROLLING.** BofA note today "multiyear evolutionary risk" is the 3rd consecutive day of bearish AI-substitution narrative. Cushion +4.79% to $52.12 cut flag; 3-consecutive-bad-day trigger NOT armed (Wed close -0.44% not -1.5%+). But any Thu breach of -1.5% → thesis-break question re-armed. Post-cut scenario: ~-$256 realized, cash freed ~$9,830, deployment drops to ~44%.
+- **XLE/XOM CATALYST FLIPPING FROM REVERSED TO STABILIZATION-PLUS.** WTI +1.82% Thu, Big Oil diesel-export-ban resistance, Hormuz shut = 3-source bullish support. Sector momentum Day 1 leadership (green in red tape). Cushions IMPROVED. **BUT sector momentum Day 1 = single-day pop, not yet confirmed — this is exactly why Idea 1-4 fail Test 2.** Confirmation would require XLE up 2-3 consecutive days OR meaningful WTI break above $95.
+- **BOND YIELDS 5.1% = REGIME SHIFT SIGNAL.** Persistent bond sell-off beyond 5% could seed broader risk-off rotation (defensive → dividends, growth → value). Not confirmed yet — defensive sectors also red Thu (XLP -0.36%, XLV -0.64%). Wait for defensive green day to confirm rotation.
+- **Trump-Xi looming meeting** = macro binary overhang; unclear direction until headlines break.
+- **Concentration:** Energy 24.31% mv (XLE $19,369 + XOM $4,896 = $24,265), Tech 20.08% mv (XLK $20,031), Financials 9.86% mv (XLF $9,832) = 54.25% total. Below 75-85% target by 21-31pp. Adds blocked by named test/gate failures.
+- **Wk-16 slot budget:** 1/3 used (Mon XLF ADD); 2 remaining Thu-Fri. Preserve for genuine qualifying setups (energy sector momentum confirmation Fri, XLK-cut cash redeployment if thesis-break executes, defensive rotation confirmation if bond-yield regime seeds it).
+- **PDT check:** 0/3 daytrades; no round-trips planned Thu. XLK potential thesis-break cut = position ~50 days = not a daytrade. XLE/XOM cuts (if triggered) also >30 days = not daytrade.
+- **Not a flat-week violation.** Best idea (XLE ADD) blocked by Buy-Side Gate 20% cost cap UNECONOMIC AND Test 4 R:R; XOM ADD by Test 2 + Test 4; XLF ADD by Test 1 reversed to bearish (BofA); XLK ADD by Test 1 bearish + Test 4 FAIL + Buy-Side Gate; single-name energy by Test 2 (single-day sector pop); defensive by Test 2 (no green defensive sector); single-name AI by Test 1 marginal + Test 4 extension; refiners by Test 1 diesel-ban-block reversing bullish thematic. **Every SKIP names a specific gate/test failure per Decision Rule.**
+- **Structural routine health:** 22nd consecutive full-slate day since Aug 27 resumption.
+
+### Decision — HOLD ALL 4 POSITIONS, NO FRESH ENTRIES, HIGH-VIGILANCE XLK $180 DURATION-EXIT WATCH
+
+- **HOLD XLE (307 sh), XLF (180 sh), XLK (104 sh), XOM (30 sh).** XLK thesis under duration-risk pressure but $180 flag not breached; XLF cumulative Meta Muse pressure but no fresh price-flag or thesis-break trigger; XLE/XOM cushions improved on WTI bounce and catalyst shift toward stabilization-plus.
+- **XLK $180 CONDITIONAL EXIT PRIORITY 1** — 10Y 5.1% is new duration overlay; cushion narrowed to +7.00%. **If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh** (thesis-break: duration re-pricing = material change not present at entry, per Sell-Side Rule "Thesis broken: close even if not at -7%").
+- **XLF THESIS-BREAK MONITORING** — BofA "multiyear evolutionary risk" = new Thu overlay; not price-flag actionable but track for 3rd-consecutive-bad-day arming. Cushion +4.79% to $52.12.
+- **XLE MANUAL-CUT vigilance** — cushion IMPROVED to +4.89%; less urgent priority Thu. If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+- **XOM MANUAL-CUT vigilance** — cushion IMPROVED to +5.81%; less urgent priority Thu. If XOM < $154.23 intraday → cancel 5afbbb78, market sell 30 sh.
+- **NO XLE ADD** — Test 2 marginal (Day 1 sector pop) + Test 4 R:R FAIL + Buy-Side Gate 20% cost cap UNECONOMIC (~$92 headroom).
+- **NO XOM ADD** — Test 2 FAIL + Test 4 R:R 1.47:1 (target $180) or 1.91:1 (target $185), both below 2:1.
+- **NO single-name upstream energy (COP / EOG / DVN / OXY) ADD** — Test 2 FAIL (single-day sector pop).
+- **NO refiner (VLO / MPC) ADD** — Test 1 diesel-ban-block reverses bullish refiner thematic + Test 2 single-day sector pop.
+- **NO XLF ADD** — Test 1 REVERSED to bearish (BofA Meta Muse) + Test 2 momentum eroding.
+- **NO XLK ADD** — Test 1 bearish overlay (10Y 5.1% + Micron -2%) + Test 4 R:R FAIL + Buy-Side Gate 20% cost cap UNECONOMIC.
+- **NO defensive (XLP / XLV / XLU) rotation ADD** — Test 2 FAIL (no green defensive sector Thu).
+- **NO single-name AI (NVDA / AMD / AVGO / META) ADD** — Test 1 marginal + Test 4 duration re-pricing without defined pullback trigger.
+- **NO bond-yield trade** — out of playbook framework.
+- **NO clock-time gates**; all conditions checkable at routine runtime.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Not a flat-week violation.** All 9 ideas' SKIPs name specific test/gate failures per Decision Rule.
+- **Wk-16 slot budget:** 1/3 used; 2 remaining Thu-Fri. XLK thesis-break cut would free cash + 1 slot for Fri qualifying redeployment (if defensive rotation confirmed OR energy sector momentum confirmed 2nd consecutive day).
+- **MARKET-OPEN routine entry conditions:** none (no fresh entries planned). Focus is (1) XLK $180 conditional-EXIT breach check, (2) XLF -1.5%+ day tracker, (3) XLE/XOM cushion monitoring (both improved, less urgent).
