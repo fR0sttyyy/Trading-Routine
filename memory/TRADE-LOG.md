@@ -2871,3 +2871,38 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 - XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
 - XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
 - XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+### Sep 24 — EOD Snapshot (Day 4, Thursday — Wk-16 Day 4 / 0 trades today / NO-OP day)
+**Portfolio:** $99,795.07 | **Cash:** $45,618.27 (45.71%) | **Day P&L:** +$130.50 (+0.131%) | **Phase P&L:** -$204.93 (-0.205%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $62.665 | +0.473% | -$619.16 (-3.118%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 180 | $56.045 | $54.535 | -0.009% | -$271.80 (-2.694%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (new 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $194.81 | -0.271% | +$956.22 (+4.953%) | $177.012 (trail 10%, hwm $196.68) |
+| XOM | 30 | $165.84 | $162.03 | +0.496% | -$114.30 (-2.297%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Wk-16 Day 4 (Thursday) — 0 trades today; NO-OP day driven by Thu pre-market qualification (all 9 fresh ideas failed named tests/gates per midday scan). Day P&L +$130.50 (+0.131%) vs Wed 9/23 EOD $99,664.57 — standard 1-trading-day span, labeled Day P&L. Book modestly green: energy names finished the day higher (XLE +0.47% close vs midday +1.57% — some intraday give-back on WTI bounce Day 2; XOM +0.50% close vs midday +1.99% — same give-back pattern on Big Oil diesel-ban resistance + UNGA/Brazil/Hormuz supportive backdrop). Tech consolidated (XLK -0.27% close vs midday -1.13% — recovered most of the duration-risk overlay from 10Y at 5.1%; Adobe/Micron narrative cracks not spreading). Financials flat (XLF -0.01% close — BofA Meta Muse overlay Day 3 fully absorbed by close; critically NOT another -1.5%+ day so 3-consecutive thesis-break trigger remains DIS-ARMED). Phase P&L improved to -$204.93 (-0.205%) from Wed -$335.43. Cut-loser envelope: XLE cushion +5.19pp (IMPROVED from Wed EOD +4.39pp; $60.15 flag = -3.75% below current $62.665, robust); XOM cushion +4.63pp (IMPROVED from Wed EOD +4.10pp; $154.23 flag = -4.81% below current $162.03); XLF cushion +4.47pp (stable at Wed level; $52.12 blended flag = -4.43% below current $54.535); XLK not cut-relevant. No cuts warranted — all inside envelope. Tighten-trail: XLK top at +4.95% unrl (need +15% for first tighten to 7%; trigger $213.46 = +9.57% from mtm). Deployment 54.29% mv (below 75-85% target by 21-31pp; no fresh entries qualified today per Thu pre-market screens). Wk-16 slot budget 1/3 used, 1 slot remaining Fri (last Wk-16 trading day). Realized P&L today: $0. Order state stable — 7 GTC trail stops covering 4 positions (XLK server-side hwm/stop unchanged: close $194.81 < prior hwm $196.68; others unchanged).
+
+**Trades today:** none.
+
+**Wk-16 trades running total:** 1/3 slot-consuming (Mon XLF ADD). 1 slot remains Fri.
+
+**Post-EOD order state (7 GTC stops covering 4 positions):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $177.012 hwm $196.68 (5451fa24) — unchanged (close $194.81 < hwm $196.68)
+- XLK 54 sh: trail 10% $177.012 hwm $196.68 (f2c0dace) — unchanged (close $194.81 < hwm $196.68)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Friday 9/25 (Wk-16 Day 5 / final day) plan:**
+1. **Pre-market re-scan** — refresh setup universe; Wk-16 slot budget 1/3 → 1 slot remains (Fri only). Deployment gap 21-31pp below target argues for adding exposure IF a setup qualifies (all four rule tests pass).
+2. **XOM MANUAL-CUT vigilance** — cushion +4.63pp ($154.23 flag; improving Day 2 in a row).
+3. **XLE MANUAL-CUT vigilance** — cushion +5.19pp ($60.15 flag; improving on stabilization Day 3).
+4. **XLF MANUAL-CUT vigilance** — cushion +4.47pp ($52.12 blended flag); WATCH downgraded further — Thu close flat means 3-consecutive -1.5%+ tracker fully reset.
+5. **XLK $180 conditional EXIT** — armed; cushion +8.23% to $180 flag; robust (recovered from midday narrowing).
+6. **Ratchet monitoring** — first-tighten triggers: XLE $74.38, XLK $213.46 (+9.57% from close), XOM $199.01, XLF $64.45.
+7. **Sector momentum check** — energy stabilizing Day 3 (positive for XLE/XOM theses despite intraday give-back); tech leadership intact with mild consolidation; financials wobble contained — thesis-break trigger dis-armed.
+8. **Weekly review** — Fri afternoon per weekly-review skill; capture Wk-16 lessons (1 trade, 4 no-op days, deployment gap persistence).
