@@ -2829,3 +2829,45 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLK $180 conditional EXIT** — armed; cushion +8.32% to $180 flag; robust.
 6. **Ratchet monitoring** — first-tighten triggers: XLE $74.38, XLK $213.46 (+9.47% from close), XOM $199.01, XLF $64.45.
 7. **Sector momentum check** — energy stabilizing day 2 (positive for XLE/XOM theses); tech leadership intact with mild consolidation; financials wobbling but not thesis-broken.
+
+### Sep 24 — Midday Scan (Thursday, 12:10 ET — Wk-16 Day 4 / NO-OP)
+**Portfolio marks:** XLE 307 @ $63.35 unrl **-$408.86 / -2.06%** (chg_today **+1.57%**) | XLF 180 @ $54.325 unrl **-$309.60 / -3.07%** (chg_today -0.39%) | XLK 104 @ $193.13 unrl **+$781.50 / +4.05%** (chg_today -1.13%) | XOM 30 @ $164.435 unrl **-$42.15 / -0.85%** (chg_today **+1.99%**)
+**Aggregate mv:** $54,245.52 (~54.25% deployed) | Book vs Wed EOD roughly flat.
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- XLE -2.06% | cut $60.15 = **cushion +5.32%** — IMPROVED from Wed EOD +4.39% on +1.57% intraday (crude stabilization Day 2 confirmed; WTI +1.82% Thu)
+- XOM -0.85% | cut $154.23 = **cushion +6.62%** — IMPROVED from Wed EOD +4.10% on +1.99% intraday (Big Oil diesel-ban resistance + UNGA/Brazil/Hormuz supportive backdrop)
+- XLF -3.07% | cut $52.12 = **cushion +4.06%** — narrowed from Wed EOD +4.47% on continued -0.39% intraday leak (BofA Meta Muse overlay Day 3); THESIS-BREAK cut trigger (3-consecutive -1.5%+ days) NOT armed
+- XLK +4.05% | not cut-relevant; $180 conditional cushion **+7.30%** (narrowed from Wed EOD +8.32% on duration-risk pre-mkt hit + intraday -1.13%); trail cushion +9.10%
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +4.05% (need +15% for first tighten to 7%; trigger $213.46 = need +10.53% from mtm). All others negative. No cancel-replace.
+
+**Server-side ratchet observed:** None this scan — XLK current $193.13 < prior hwm $196.68; hwm/stops unchanged. XLE/XOM/XLF hwms unchanged.
+
+**Thesis check (STEP 5) — no cuts:**
+- XLK: -1.13% intraday consolidation; 10Y at 5.1% duration overlay pressing but $180 flag NOT breached (cushion +7.30%). Thesis intact but under monitoring; Adobe/Micron narrative cracks not yet spreading materially. HOLD.
+- XLF: -0.39% intraday (Day #4 of red days: Tue -1.97%, Wed -0.44%, Thu -0.39%). NOT -1.5%+ Thu so 3-consecutive-bad-day trigger STILL not armed. BofA overlay bleeding slowly; hold.
+- XLE: +1.57% intraday, sector Day 2 stabilization/bounce (WTI +1.82%). Catalyst shift from reversed toward stabilization-plus continuing. Thesis intact. HOLD.
+- XOM: +1.99% intraday, best cushion improvement of the day. Bullish micro-catalysts confirmed intraday. Thesis intact. HOLD.
+
+**Intraday research (STEP 6):** skipped. All moves consistent with pre-market thesis (WTI-bounce for energy Day 2, BofA overlay bleeding XLF, 10Y-5.1% duration hit for XLK). No unexplained gaps.
+
+**Actions:** NONE. All 4 positions held. STEP 7 ClickUp no-op.
+
+**Next checkpoints (afternoon → close):**
+1. **XLK $180 CONDITIONAL EXIT priority 1** — armed; cushion +7.30%; if XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (duration-risk thesis-break).
+2. **XLF WATCH** — cushion +4.06%; late-day acceleration below -1.5% would arm a new -1.5%+ day and re-open the 3-consecutive tracker.
+3. **XLE MANUAL-CUT vigilance** — cushion +5.32% (IMPROVED; less urgent).
+4. **XOM MANUAL-CUT vigilance** — cushion +6.62% (IMPROVED; less urgent).
+5. **XLK ratchet monitoring** — hwm $196.68 stop $177.012; first-tighten trigger $213.46 (+10.53% from mtm; far).
+6. **Wk-16 slot budget:** 1/3 used; 2 remaining Thu-Fri.
+7. **Deployment:** ~54.25% (below 75-85% target by 21-31pp); no fresh entries per Thu pre-market qualification (all 9 ideas failed named tests/gates).
+
+**Post-scan order state (7 GTC stops covering 4 positions — no changes this scan):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $177.012 hwm $196.68 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $177.012 hwm $196.68 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
