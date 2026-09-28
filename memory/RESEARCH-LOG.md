@@ -6159,3 +6159,140 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Wk-16 slot budget:** 1/3 used; 1-2 remaining Fri (last day; slots expire at close). Preserve.
 - **MARKET-OPEN routine entry conditions Fri:** none (no fresh entries). Focus is (1) XLE $60.15 breach check (PRIORITY 1, cushion narrowed to +3.19%), (2) XOM $154.23 breach check, (3) XLK $180 conditional-EXIT breach check (least urgent, cushion +9.04%), (4) XLK $196.68 hwm-break server-side ratchet monitoring, (5) XLF -1.5%+ day tracker (dis-armed but monitor).
 - **Weekly-review skill invocation:** schedule for Fri afternoon after close per weekly-review skill; capture Wk-16 lessons (1 trade, 4 no-op days, deployment-gap persistence, disciplined SKIPs validated by Fri Day-1 pop reversal, XLE/XOM cushion narrowing).
+
+## 2026-09-28 — Pre-market Research (Wk-17 Day 1 / Monday)
+
+### Account (as of 09:20 ET pre-mkt / balance_asof 2026-09-25)
+- Equity: **$99,966.99** | Cash: **$45,618.27** (45.63%) | Long MV: **$54,348.72** (54.37%)
+- Buying power: $334,649.50 | Reg-T BP: $145,585.26 | Non-marg BP: $72,792.63
+- Daytrade count: 0/3 (field N/A in payload; trading_blocked=false)
+- Data freshness: OK — position current_prices are Mon pre-mkt marks (XLE $62.9 vs Fri $62.04; XOM $162.95 vs Fri $160.59; XLK $195.23 vs Fri $196.27; XLF $54.7 vs Fri $54.84); account balance_asof = Fri EOD (standard pre-open lag); DATA NOT BLOCKED
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $62.90 | **+1.386%** | -$547.01 (-2.76%) | 19.32% | +4.57% to $60.15 (WIDER) |
+| XLF | 180 | $56.045 | $54.70 | -0.255% | -$242.10 (-2.40%) | 9.85% | +4.95% to $52.12 (widened) |
+| XLK | 104 | $185.6156 | $195.23 | -0.530% | +$999.90 (+5.18%) | **20.31%** mv / 19.31% cost | +8.46% to $180 flag |
+| XOM | 30 | $165.84 | $162.95 | **+1.470%** | -$86.70 (-1.74%) | 4.89% | +5.66% to $154.23 (WIDER) |
+
+### Market Context
+- **WTI / Brent:** $95.31 (**+3.14%**) / $99.91 (**+2.53%**) — crude BIG bounce Mon pre-mkt reverses Fri's -1.87% weakness (WTI back above $95 for first time in 3 sessions). Middle-East diplomacy narrative fatigued; U.S.-Iran conflict headline (Q4 outlook) re-injects supply risk.
+- **Indices (Fri close):** SPX 7,743.41 (**+0.51%**) | Nasdaq 27,068.72 (**+0.48%**) | Dow 51,828.62 (**+0.93%**) — broad-based Fri green close (Dow leadership + industrials leading).
+- **VIX:** 16.14 (**+8.54%**) — jumped above 16 on Mon pre-mkt (from Fri close 14.87 area), signaling risk-off tone despite Fri green.
+- **Futures:** ES=F **-0.38%**, NQ=F **-0.64%** — modestly RED pre-mkt Monday despite crude bounce (tech/growth pulling back on VIX +8.54%; industrials likely open firmer).
+- **Today's catalysts (Mon 9/28):** Kodiak Sciences KOD Phase 3 DAYBREAK readout (single-name binary; not sector-actionable); Carnival CCL earnings before open (est EPS $1.37); Nasdaq-100 SpaceX-weight rebalance Day 1 (2.82% weight passive flows begin — mechanical, not directional); no US econ release Mon. Morgan Stanley note: "market overestimates Fed rate hikes; energy risks remain biggest obstacle to dovish pivot" — supportive of duration trades if energy calms.
+- **Earnings before open:** CCL (Carnival) est EPS $1.37 / rev $8.4bn. Single-name consumer discretionary; not in our sector map. Others: none material to XLE/XLF/XLK/XOM.
+- **Economic calendar:** empty for US Mon. Week ahead: US jobs report **Fri 10/2** (100k est, unemp 4.2% est); PCE Aug + Sep; RBA decision. FOMC 10/28 (rate-hike odds 67% priced per weekly note). Week is binary-heavy.
+- **Sector momentum (Fri close chg%):** XLI **+0.95%** (LEADER) | XLK +0.80% | XLF +0.57% | XLV +0.49% | XLP +0.44% | XLB +0.24% | XLE **-0.89% (LAG)**. Fri = broad green EXCEPT energy (WTI -1.87% Fri drag). Mon pre-mkt reversal: WTI +3.14% flips XLE/XOM back positive intraday (+1.39% / +1.47% pre-mkt); industrials Day 1 leadership Fri.
+- **Ticker news:**
+  - **XOM:** Zacks analyst blog highlights XOM Mon 9/28; consensus 12-mo target $164.26 (mtm $162.95 = +0.80% to consensus, THIN R:R); UBS target $172 (+5.55%); HSBC HOLD $90 (bearish outlier). Baytown blue hydrogen project PAUSED (weak commercial visibility for emerging businesses; mild negative for long-term). ETFs net sellers of XOM Thursday ($62.3M net selling). Mixed micro.
+  - **XLE:** Crude Q4 outlook (cityindex) flags U.S.-Iran conflict re-emerging as supply-side driver; Money Morning "October energy stock to watch = Constellation CEG" (nuclear/AI power, NOT oil major — thematic shift away from XLE core).
+  - **XLK:** Stock Market News Sep 28 (Yahoo) — prior-week XLK +3.6% rally on AI trade; Microsoft AI leadership vs Meta/Intel note (single-name relative); moomoo premarket -1.27% tech sector pre-mkt reading (aligns with NQ -0.64% pre-mkt).
+  - **XLF:** Sun 9/27 Buttondown note — XLF +65.6% 5-day gain claim (likely data glitch; ignore); VIX 14.87 Fri close (now 16.14 Mon = +8.54%); SPX +7.5% above 200-day SMA (extended); Fri weekly note "67% October hike priced; Friday payrolls can still break you."
+
+### Trade Ideas (Wk-17 Day 1 / 3-slot fresh budget)
+
+**Idea 1: XLE ADD (add to 307 sh position). DOES NOT QUALIFY.**
+- Test 1 (catalyst): WTI +3.14% Mon pre-mkt = fresh bullish crude catalyst (biggest bounce in 3 sessions); U.S.-Iran conflict supply-risk re-injection. **PASS.**
+- Test 2 (sector momentum): XLE **-0.89% Fri (SECTOR LAG)**; Mon pre-mkt +1.39% is Day 1 pop only, not multi-day confirmation. Fri weakness = fresh bearish print offsetting Mon bounce. **FAILS Test 2** (single-day reversal, same failure mode as Wk-16 Fri pop-that-crumbled).
+- Buy-Side Gate: 20% cost cap = $19,993; XLE cost basis $19,857 → headroom **$136 UNECONOMIC** (< 3 shares at $63). **FAILS Gate.**
+- SKIP → Test 2 + Gate fail.
+
+**Idea 2: XOM ADD (add to 30 sh position). DOES NOT QUALIFY.**
+- Test 1 (catalyst): WTI +3.14% pre-mkt is sector-wide bullish crude; Zacks analyst blog highlight Mon; Baytown hydrogen pause is mild negative micro but small vs macro crude. Marginal PASS.
+- Test 2 (sector momentum): XLE -0.89% Fri (LAG); Mon pre-mkt is Day 1 pop. **FAILS Test 2.**
+- Test 4 (R:R): entry $162.95, stop $150.73 (-7.5%, defined), target $172 (UBS) = R:R **0.74:1**. Stretch $185 = R:R 1.80:1. **FAILS Test 4** (both under 2:1).
+- SKIP → Test 2 + Test 4 fail.
+
+**Idea 3: XLK ADD (add to 104 sh position). DOES NOT QUALIFY.**
+- Buy-Side Gate: XLK MV **$20,303.92 = 20.31% of equity** — ABOVE 20% cap on MV basis. Even 1-share ADD compounds MV breach. Cost basis 19.31% (below cap) but rule is on cost <= 20% AND MV cap; MV interpretation applies per Fri Wk-16 Day 5 read. **FAILS Gate.**
+- Test 1: no fresh XLK-specific bullish catalyst Mon; Microsoft AI leadership note is single-name relative (MSFT vs META/INTC), not sector-wide. VIX +8.54% pre-mkt is bearish overlay for growth/tech duration. **FAILS Test 1.**
+- SKIP → Test 1 + Gate fail.
+
+**Idea 4: XLF ADD (add to 180 sh position). DOES NOT QUALIFY.**
+- Test 1 (catalyst): no fresh Mon XLF catalyst; VIX +8.54% pre-mkt is neutral-to-negative for financials (spread compression risk); "67% October hike priced" note is stale/priced. **FAILS Test 1.**
+- Test 2 (sector momentum): XLF +0.57% Fri (mid-pack); 5-day performance disputed (65.6% likely glitch). Not clear leadership. **FAILS Test 2 (marginal).**
+- SKIP → Test 1 + Test 2 fail.
+
+**Idea 5: XLI (Industrials Select ETF) OPEN NEW. DOES NOT QUALIFY.**
+- Test 1 (catalyst): No fresh Mon industrial-specific catalyst; sector +0.95% Fri = passive rally with Dow leadership (Dow +0.93% Fri). Marginal PASS on price action, but no named driver. **FAILS Test 1.**
+- Test 2 (sector momentum): XLI +0.95% Fri = **Day 1 leadership only**. Not confirmed multi-day (need Mon green to confirm; pre-mkt ES -0.38% suggests soft open, not confirming). **FAILS Test 2 (single-day pop).**
+- SKIP → Test 1 + Test 2 fail (same pattern as prior Day-1 pop rejections).
+
+**Idea 6: CCL (Carnival) EARNINGS PLAY. DOES NOT QUALIFY.**
+- Test 1 (catalyst): CCL Q3 earnings before open Mon = event catalyst. **PASS.**
+- Test 3 (stop definable): earnings binary = pre-print stop useless (gap risk); post-print stop can be set but requires post-market execution not planned in workflow. **FAILS Test 3** (definable ex ante).
+- Test 4 (R:R): unknowable pre-print; post-print R:R conditional on reaction. **FAILS Test 4.**
+- Also: cruise line = consumer discretionary, NOT in our tracked-sector momentum map (XLR / XLY not scanned). Test 2 UNSCANNABLE.
+- SKIP → Test 3 + Test 4 fail + off-map.
+
+**Idea 7: CEG (Constellation Energy) OPEN NEW — nuclear / AI-power thematic. DOES NOT QUALIFY.**
+- Test 1 (catalyst): Money Morning "October energy stock to watch" Mon 06:00 GMT = thematic upgrade; nuclear + AI power theme has legs. **PASS.**
+- Test 2 (sector momentum): Utilities XLU not in daily scan; treated as defensive proxy. XLP +0.44% Fri, no defensive Day 1 leadership. AI power = crosses tech+utility, but XLU price momentum unverified today. **FAILS Test 2** (sector not scannable / not confirmed).
+- Test 3 (stop definable): CEG price/technicals not fetched this session; cannot define 7-10% stop without a quote.
+- **RESOLVE-NOW check:** Could fetch CEG quote/context now, but Test 2 (sector momentum) is the binding constraint and cannot be resolved by a single-name quote — XLU scan not part of research.sh context. Test 1 alone is thematic, not multi-day sector confirmation.
+- SKIP → Test 2 fail.
+
+**Idea 8: KOD (Kodiak Sciences) OPEN NEW — Phase 3 DAYBREAK binary catalyst. DOES NOT QUALIFY.**
+- Test 1 (catalyst): Phase 3 topline readout today = binary event catalyst. **PASS.**
+- Test 3 (stop definable): binary readout = pre-print stop useless (unknowable gap); UBS target $80 vs Goldman $36 = 55%-spread analyst disagreement signals wide outcome distribution. **FAILS Test 3.**
+- Test 4 (R:R): unknowable pre-print (binary). **FAILS Test 4.**
+- Biotech single-name = extreme sector risk, off our sector map. Rule 1 = stocks-only PASS but Rule "follow sector momentum" not applicable for biotech binary.
+- SKIP → Test 3 + Test 4 fail.
+
+**Idea 9: XLV Healthcare OPEN NEW. DOES NOT QUALIFY.**
+- Test 1 (catalyst): no fresh Mon XLV-specific catalyst (Lilly weekly-insulin news is Wk-16 stale). **FAILS Test 1.**
+- Test 2 (sector momentum): XLV +0.49% Fri = mid-pack. Wk-16 Thu XLV was +0.63% (Day 1 leader), Fri +0.49% = **Day 2 mild continuation**; borderline PASS on 2-day trend. But ES/NQ pre-mkt red suggests broader risk-off Mon — Day 3 confirmation at risk.
+- Test 4 (R:R): entry $170.70 (Fri close), stop $158.75 (-7%), risk $11.95; target for 2:1 = $194.60 (+14.0%). No specific catalyst-based target near there Mon. **MARGINAL / undefined target.**
+- SKIP → Test 1 fail + Test 4 undefined.
+
+### Management Priorities for Market-Open Routine (Mon 9/28 09:30 ET) — MGMT-ONLY
+
+- **XLE MANUAL-CUT vigilance** — cushion WIDER at **+4.57%** to $60.15 (from Sun EOD +2.92pp) on WTI +3.14% bounce. If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh (thesis-break + -7% flag). Priority downgraded from PRIORITY-1 given crude bounce.
+- **XOM MANUAL-CUT vigilance** — cushion WIDER at **+5.66%** to $154.23 (from Sun EOD +3.83pp) on crude bounce. If XOM < $154.23 intraday → cancel 5afbbb78, market sell 30 sh.
+- **XLF MANUAL-CUT vigilance** — cushion **+4.95%** to $52.12 (widened from Sun EOD +4.85pp). Fri close firm; 3-consecutive -1.5%+ day tracker DIS-ARMED. WATCH.
+- **XLK $180 CONDITIONAL EXIT armed** — cushion **+8.46%** (down from Sun EOD +8.30pp — barely changed). Duration overlay re-arm risk if VIX +8.54% pre-mkt persists into session. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break; duration overlay re-arm).
+- **XLK ratchet monitoring** — hwm $196.94 / stop $177.246 (server-side ratcheted Fri close). Mtm $195.23 = **$1.71 below hwm**; a break above $196.94 arms server-side ratchet. First-tighten (+15%) trigger $213.46 = **+9.34%** from mtm (far).
+- **XLE ratchet monitoring** — hwm $66.17, stop $59.553; first-tighten trigger $74.38 = +18.25% from mtm (far).
+- **XLF ratchet monitoring** — hwm $56.205 / $56.05, stops $50.5845 / $50.445; first-tighten trigger $64.45 = +17.83% from mtm (far).
+- **XOM ratchet monitoring** — hwm $166.25, stop $149.625; first-tighten trigger $199.01 = +22.13% from mtm (far).
+- **NO FRESH ENTRIES Mon** — all 9 ideas failed named tests/gates. Wk-17 slot budget 3/3 preserved.
+- **NO CLOCK-TIME GATES:** all triggers checkable at routine runtime as price conditions.
+- **Weekly review skill** — Wk-16 review still pending (Fri afternoon slot missed); consider running the weekly-review skill this session if plan allows.
+
+### Risk Factors (Mon 9/28)
+
+- **VIX +8.54% pre-mkt to 16.14** = re-injection of volatility risk after Fri quiet close (14.87). Sub-16 quiet regime BROKEN; if VIX sustains above 16 into open, growth/tech duration trades pressured (XLK top of the list).
+- **Futures RED despite Fri green close** = ES -0.38%, NQ -0.64% = pre-mkt risk-off tone; industrials likely fare best (Dow futures not scanned, likely flatter); tech/growth pull back. XLK first Mon test.
+- **Crude bounce WTI +3.14% is Day 1 pop** = same qualification-fail pattern as Wk-16 pops that crumbled. Test 2 (multi-day sector confirmation) is the binding constraint on XLE/XOM ADDs.
+- **XLK MV cap 20.31%** = ABOVE 20% cost cap on MV basis; passive ADD blocked. If XLK sells off Mon toward $195 (already there pre-mkt), MV back under 20% by end of day possible but not actionable ADD trigger (Gate = catalyst-driven not passive).
+- **Week-ahead binary: Jobs report Fri 10/2** = major macro binary; reduces case for opening large new positions early week (Mon-Tue). Consistent with Wk-16 discipline of holding slot budget for higher-conviction setups.
+- **FOMC 10/28** = 4-week horizon; 67% October hike priced (weekly note). Slower-moving overhang.
+- **Concentration:** Energy 24.20% mv (XLE $19,310 + XOM $4,889 = $24,199), Tech 20.31% mv (XLK $20,304 — just above 20% cap on MV), Financials 9.85% mv (XLF $9,846) = **54.37% total**. Below 75-85% deployment target by 21-31pp. Adds blocked by named test/gate failures. NOT a rule violation per Decision Rule.
+- **Wk-17 slot budget:** 3/3 fresh Mon; preserve for genuine qualifying setups. Wk-16 lesson: qualification is the gate, not the goal.
+- **PDT check:** 0/3 daytrades; no round-trips planned.
+- **Not a flat-week violation.** All 9 ideas' SKIPs name specific test/gate failures per Decision Rule.
+- **Structural routine health:** 24th consecutive full-slate trading day since Aug 27 resumption.
+
+### Decision — HOLD ALL 4 POSITIONS, NO FRESH ENTRIES, VIX/DURATION WATCH ELEVATED
+
+- **HOLD XLE (307 sh), XLF (180 sh), XLK (104 sh), XOM (30 sh).** WTI +3.14% pre-mkt widens XLE/XOM cushions materially; VIX +8.54% jump elevates XLK duration-overlay watch but $180 flag not breached and cushion +8.46%; XLF firm.
+- **XLK $180 CONDITIONAL EXIT PRIORITY 1 (Mon)** — VIX re-injection above 16 = growth/tech duration risk re-arming. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break).
+- **XLE / XOM MANUAL-CUT vigilance** — both cushions WIDER on crude bounce; less urgent Mon (XLE +4.57%, XOM +5.66%). Rule triggers unchanged.
+- **XLF MANUAL-CUT vigilance** — cushion +4.95% (widened). 3-consecutive -1.5%+ tracker dis-armed. WATCH.
+- **NO XLE ADD** — Test 2 FAIL (single-day pop after Fri lag) + Buy-Side Gate 20% cost cap UNECONOMIC ($136 headroom).
+- **NO XOM ADD** — Test 2 FAIL + Test 4 R:R 0.74:1 (target $172 UBS) or 1.80:1 stretch (target $185), both below 2:1.
+- **NO XLK ADD** — Buy-Side Gate 20% MV cap breached (20.31% MV) + Test 1 FAIL (VIX overlay bearish, no fresh bullish tech catalyst).
+- **NO XLF ADD** — Test 1 FAIL (no fresh catalyst) + Test 2 FAIL (mid-pack).
+- **NO XLI OPEN NEW** — Test 1 FAIL (no named catalyst, passive Dow-led rally) + Test 2 FAIL (Day 1 pop only; ES pre-mkt red disconfirming).
+- **NO CCL EARNINGS PLAY** — Test 3 FAIL (binary gap risk, undefined pre-print stop) + Test 4 undefined + off-sector-map.
+- **NO CEG OPEN NEW** — Test 2 FAIL (utilities sector not scanned Fri, no multi-day defensive momentum).
+- **NO KOD OPEN NEW** — Test 3 FAIL (binary Phase 3 readout; UBS $80 vs Goldman $36 = 55% analyst disagreement) + Test 4 undefined.
+- **NO XLV OPEN NEW** — Test 1 FAIL (no fresh Mon catalyst) + Test 4 target undefined.
+- **NO clock-time gates**; all conditions checkable at MARKET-OPEN routine runtime as price/level conditions.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Not a flat-week violation.** All 9 ideas' SKIPs name specific test/gate failures per Decision Rule.
+- **Wk-17 slot budget:** 3/3 fresh (Mon Day 1); no draw-down. Preserve.
+- **MARKET-OPEN routine entry conditions Mon:** none (no fresh entries). Focus is (1) XLK $180 conditional-EXIT breach check (PRIORITY 1 given VIX +8.54% pre-mkt), (2) XLK $196.94 hwm-break server-side ratchet monitoring, (3) XLE $60.15 breach check (widened cushion), (4) XOM $154.23 breach check (widened cushion), (5) XLF -1.5%+ day tracker (dis-armed, monitor).
+- **Weekly-review skill invocation:** Wk-16 review pending (Fri EOD slot missed); run before Wk-17 close if a session allows.
