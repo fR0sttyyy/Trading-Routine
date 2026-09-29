@@ -6296,3 +6296,147 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Wk-17 slot budget:** 3/3 fresh (Mon Day 1); no draw-down. Preserve.
 - **MARKET-OPEN routine entry conditions Mon:** none (no fresh entries). Focus is (1) XLK $180 conditional-EXIT breach check (PRIORITY 1 given VIX +8.54% pre-mkt), (2) XLK $196.94 hwm-break server-side ratchet monitoring, (3) XLE $60.15 breach check (widened cushion), (4) XOM $154.23 breach check (widened cushion), (5) XLF -1.5%+ day tracker (dis-armed, monitor).
 - **Weekly-review skill invocation:** Wk-16 review pending (Fri EOD slot missed); run before Wk-17 close if a session allows.
+
+## 2026-09-29 — Pre-market Research (Wk-17 Day 2 / Tuesday)
+
+### Account (as of 09:20 ET pre-mkt / balance_asof 2026-09-28)
+- Equity: **$99,425.25** | Cash: **$45,618.27** (45.88%) | Long MV: **$53,806.98** (54.12%)
+- Buying power: $333,132.62 | Reg-T BP: $145,043.52 | Non-marg BP: $72,521.75
+- Last equity (Mon EOD): $99,543.89 → pre-mkt drift **-$118.64 (-0.119%)**
+- Daytrade count: 0/3 (field N/A in payload; trading_blocked=false)
+- Data freshness: OK — position current_prices are Tue pre-mkt marks (XLE $61.51 vs Mon close $62.10 = -0.95%; XOM $160.65 vs $162.52 = -1.15%; XLK $195.48 vs $194.53 = +0.49%; XLF $54.30 vs $54.19 = +0.20%); account balance_asof = Mon EOD (standard pre-open lag); DATA NOT BLOCKED
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $61.51 | **-0.95%** | -$973.74 (-4.90%) | 18.99% | **+2.26% to $60.15 (TIGHTEST)** |
+| XLF | 180 | $56.045 | $54.30 | +0.20% | -$314.10 (-3.11%) | 9.83% | +4.18% to $52.12 |
+| XLK | 104 | $185.6156 | $195.48 | +0.49% | +$1,025.89 (+5.31%) | **20.45%** mv / 19.42% cost | +8.60% to $180 flag |
+| XOM | 30 | $165.84 | $160.65 | **-1.15%** | -$155.70 (-3.13%) | 4.85% | +4.16% to $154.23 |
+
+### Market Context
+- **WTI / Brent:** $90.85 (**-1.89%**) / $96.28 (**-1.58%**) — crude REVERSES Mon +3.14% bounce; WTI back under $91 (giving up most of the Mon pop). Trump-Iran rejection headline moved crude Mon; Tue pre-mkt fade suggests headline-driven bounce not follow-through.
+- **Indices (Mon close):** SPX 7,683.69 (**-0.77%**) | Nasdaq 26,820.38 (**-0.92%**) | Dow 51,481.51 (**-0.67%**) — broad-based Mon RED close (sharp reversal from Fri green; ES/NQ pre-mkt red at Mon open landed as forecast).
+- **VIX:** 15.76 (**-1.93%**) — retracing from Mon pre-mkt 16.14 spike; back below 16 quiet-regime line. VIX +8.54% Mon pre-mkt shock unwound intraday.
+- **Futures:** ES=F **+0.20%**, NQ=F **+0.40%** — modestly GREEN pre-mkt Tue (mild bounce off Mon selloff; tech-led per NQ leadership).
+- **Today's catalysts (Tue 9/29):** No US econ release Tue; empty macro calendar until Fri 10/2 jobs report (85k est, unemp 4.1%). Netflix upgraded to Buy at Deutsche Bank (single-name; not sector-actionable). TSMC expansion narrative (semis single-name thematic). "S&P500: October Crash Likely" bearish Seeking Alpha piece (narrative overhang, not tradable). Trump rejected new Iran deal Mon (supported crude Mon; fades Tue).
+- **Earnings before open:** None material Tue. TPG earnings 10/29, RPM 10/6 (both far). No SPY-relevant BMO Tue.
+- **Economic calendar:** empty Tue. Week binary = Fri jobs. FOMC 10/28 (4-week horizon).
+- **Sector momentum (Mon close chg%):** XLV **+0.33%** | XLP +0.27% | XLE +0.10% | XLB -0.66% | XLI -0.97% | XLK -0.89% | XLF **-1.19% (LAG)**. Mon = **broad RED except defensives**; 4 of 7 sectors down. No confirmed cyclical leadership.
+- **Ticker news:**
+  - **XOM:** Trump-Iran rejection moved oil Mon (Motley Fool "TotalEnergies cashing in"); ExxonMobil-Socar Azerbaijan JV Mon (mild positive: unconventional oil development, but small vs macro); Rep. Kevin Hern sold XOM (congressional disclosure, small-negative micro signal); Zacks piece "current oil prices high enough to fuel XOM growth" Tue AM. Mixed micro; macro crude reversing Tue.
+  - **XLE:** Globe & Mail "XLE fell 0.9% on Sep 29" preview (Tue pre-mkt weakness confirmed); ValuEngine sector commentary notes tech/growth leadership vs defensives. Middle East geopolitics elevated but crude fading.
+  - **XLK:** Seeking Alpha "Major Market Rotation Coming Soon" narrative (rotation OUT of tech); ValuEngine note "technology and growth-related areas leading" (contradicts rotation narrative — signal mixed). "S&P500 October Crash Likely" bearish overhang. Mon XLK -0.89% but Tue NQ +0.40% pre-mkt bounce.
+  - **XLF:** No fresh Tue XLF-specific catalyst. Mon XLF -1.19% = sector LAG. Rate-sensitive weakness noted in ValuEngine commentary.
+
+### Trade Ideas (Wk-17 Day 2 / 3-slot fresh budget)
+
+**Idea 1: XLE ADD (add to 307 sh position). DOES NOT QUALIFY.**
+- Test 1 (catalyst): WTI **-1.89% Tue pre-mkt** = FRESH BEARISH crude catalyst (reversing Mon +3.14% bounce; back under $91). **FAILS Test 1.**
+- Test 2 (sector momentum): XLE +0.10% Mon (barely green); Tue pre-mkt -0.95% = fresh weakness. **FAILS Test 2.**
+- Buy-Side Gate: 20% cost cap = $19,885; XLE cost basis $19,857 → headroom **$28 UNECONOMIC**. **FAILS Gate.**
+- SKIP → Test 1 + Test 2 + Gate fail.
+
+**Idea 2: XOM ADD (add to 30 sh position). DOES NOT QUALIFY.**
+- Test 1 (catalyst): Zacks "current oil prices high enough" is macro-recycled, not fresh event; ExxonMobil-Socar JV mild but small; Trump-Iran rejection fading Tue as crude gives back. **FAILS Test 1** (no fresh net-positive).
+- Test 2 (sector momentum): XLE +0.10% Mon then -0.95% Tue pre-mkt = no confirmed momentum. **FAILS Test 2.**
+- Test 4 (R:R): entry $160.65, stop $148.60 (-7.5%), risk $12.05; consensus target $164.26 = R:R **0.30:1**; stretch $172 UBS = R:R 0.94:1. **FAILS Test 4.**
+- SKIP → Test 1 + Test 2 + Test 4 fail.
+
+**Idea 3: XLK ADD (add to 104 sh position). DOES NOT QUALIFY.**
+- Buy-Side Gate: XLK MV **$20,329.91 = 20.45% of equity** — ABOVE 20% MV cap. Even 1-share ADD compounds breach. **FAILS Gate.**
+- Test 1 (catalyst): ValuEngine "tech/growth leading" thin vs "October crash likely" bearish overhang; no fresh net-positive Tue. NQ +0.40% pre-mkt is a bounce, not a catalyst. **FAILS Test 1.**
+- Test 2 (sector momentum): XLK -0.89% Mon = LAG day. Tue pre-mkt +0.49% is Day 1 bounce; needs multi-day confirmation. **FAILS Test 2.**
+- SKIP → Gate + Test 1 + Test 2 fail.
+
+**Idea 4: XLF ADD (add to 180 sh position). DOES NOT QUALIFY.**
+- Test 1 (catalyst): no fresh Tue XLF catalyst; rate-sensitive weakness overhang. **FAILS Test 1.**
+- Test 2 (sector momentum): XLF **-1.19% Mon (WORST sector)**; Tue pre-mkt +0.20% is not enough to overcome LAG designation. **FAILS Test 2.**
+- SKIP → Test 1 + Test 2 fail.
+
+**Idea 5: XLV (Healthcare) OPEN NEW. DOES NOT QUALIFY.**
+- Test 1 (catalyst): No fresh Tue XLV-specific catalyst; Cardinal Health "strong buy" note (Motley Fool) is single-name, not sector. **FAILS Test 1.**
+- Test 2 (sector momentum): XLV **+0.33% Mon (mild LEADER)** + Fri Wk-16 +0.49% = 2-day mild positive. Borderline PASS but broader tape red; not clear leadership. MARGINAL.
+- Test 4 (R:R): entry ~$171.26 (Mon close), stop $158.42 (-7.5%), risk $12.84; target for 2:1 = $196.94 (+15.0%). No specific catalyst-based target near there Tue. **FAILS Test 4** (undefined target).
+- SKIP → Test 1 + Test 4 fail.
+
+**Idea 6: XLP (Consumer Staples) OPEN NEW. DOES NOT QUALIFY.**
+- Test 1 (catalyst): defensive-rotation narrative ("Major Market Rotation Coming Soon" Seeking Alpha) is thematic, not event catalyst. **FAILS Test 1.**
+- Test 2 (sector momentum): XLP **+0.27% Mon (mild)**; no confirmed multi-day defensive leadership in scanned map. **FAILS Test 2** (single-day).
+- SKIP → Test 1 + Test 2 fail.
+
+**Idea 7: NFLX (Netflix) OPEN NEW — Deutsche Bank Buy upgrade. DOES NOT QUALIFY.**
+- Test 1 (catalyst): Deutsche Bank upgrade from Hold to Buy Tue = fresh analyst catalyst. **PASS.**
+- Test 2 (sector momentum): NFLX is XLC (Communication Services), NOT in tracked sector map. Proxy = XLK -0.89% Mon (growth/tech LAG). **FAILS Test 2** (sector unscanned + growth-adjacent lag).
+- Test 4 (R:R): NFLX quote/target not fetched; would need $target range from broker note. Cannot define without more data. **RESOLVE-NOW check:** Could fetch NFLX quote + target, but Test 2 is binding (sector map). Not worth resolve.
+- SKIP → Test 2 fail.
+
+**Idea 8: SMH / TSM (Semis) OPEN NEW — TSMC expansion narrative. DOES NOT QUALIFY.**
+- Test 1 (catalyst): TSMC expansion news + AI infra spending questions = mixed thematic, not clean fresh bullish event. **FAILS Test 1.**
+- Test 2 (sector momentum): SMH is semis subset of XLK; XLK -0.89% Mon = LAG. **FAILS Test 2.**
+- SKIP → Test 1 + Test 2 fail.
+
+**Idea 9: CAH (Cardinal Health) OPEN NEW — strong buy note. DOES NOT QUALIFY.**
+- Test 1 (catalyst): Motley Fool "strong buy" note Tue AM = mild analyst catalyst. Marginal PASS.
+- Test 2 (sector momentum): XLV +0.33% Mon (mild leader) + XLV Fri +0.49% Wk-16 = 2-day mild positive. Borderline PASS.
+- Test 3 (stop definable): CAH price not fetched; would need quote for 7-10% stop.
+- Test 4 (R:R): target undefined without broker consensus fetch.
+- **RESOLVE-NOW check:** Could fetch CAH quote/target via research.sh, but Test 2 marginal + Test 4 undefined pre-fetch. Single-name defensive within a mild-leader sector; better to preserve slot for higher-conviction setup.
+- SKIP → Test 4 undefined (weak sector momentum + no clear target).
+
+**Idea 10: TLT / IEF (Duration play) OPEN NEW — rate-sensitive rotation. DOES NOT QUALIFY.**
+- Test 1 (catalyst): "Rising rates and political headlines" flagged Tue; rate-sensitive weakness noted. No BULLISH duration catalyst — direction is bearish for TLT if rates rising. **FAILS Test 1.**
+- Also: TLT/IEF are bonds, not equities. Off-map for stock-only mandate. **SKIP by mandate.**
+
+### Management Priorities for Market-Open Routine (Tue 9/29 09:30 ET) — MGMT-ONLY
+
+- **XLE MANUAL-CUT PRIORITY 1** — cushion NARROWED to **+2.26%** to $60.15 cut flag (from Mon EOD +3.12pp) on WTI -1.89% Tue pre-mkt (crude bounce reversing). This is TIGHTEST cushion since Wk-16 Fri (+3.19% pre-mkt). **If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh** (thesis-break: crude reversal + -7% flag simultaneous trigger).
+- **XOM MANUAL-CUT vigilance** — cushion **+4.16%** to $154.23 (NARROWED from Mon EOD +5.05% on crude fade Tue pre-mkt -1.15%). **If XOM < $154.23 intraday → cancel 5afbbb78, market sell 30 sh.**
+- **XLF MANUAL-CUT vigilance** — cushion **+4.18%** to $52.12 (widened marginally from Mon EOD +3.82pp on Tue pre-mkt +0.20% bounce). 3-consecutive -1.5%+ day tracker still DIS-ARMED (Mon -1.19% did NOT trigger new bad-day count — below -1.5% threshold). WATCH.
+- **XLK $180 CONDITIONAL EXIT armed** — cushion **+8.60%** (widened from Mon EOD +7.44pp on VIX easing back below 16). Duration overlay easing as VIX -1.93% Tue pre-mkt. **If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh** (thesis-break; duration overlay re-arm).
+- **XLK ratchet monitoring** — hwm $196.94 / stop $177.246. Mtm $195.48 = **$1.46 below hwm**; if XLK breaks $196.94 intraday → server-side ratchet fires. First-tighten (+15%) trigger $213.46 = **+9.20% from mtm** (far).
+- **XLE ratchet monitoring** — hwm $66.17, stop $59.553; first-tighten trigger $74.38 = +20.92% from mtm (far).
+- **XLF ratchet monitoring** — hwm $56.205 / $56.05, stops $50.5845 / $50.445; first-tighten trigger $64.45 = +18.69% from mtm (far).
+- **XOM ratchet monitoring** — hwm $166.25, stop $149.625; first-tighten trigger $199.01 = +23.88% from mtm (far).
+- **NO FRESH ENTRIES Tue** — all 10 ideas failed named tests/gates. Wk-17 slot budget 3/3 preserved.
+- **NO CLOCK-TIME GATES:** all triggers checkable at routine runtime as price conditions.
+- **Weekly review skill** — Wk-16 review still pending; run before Wk-17 close if a session allows.
+
+### Risk Factors (Tue 9/29)
+
+- **XLE cushion narrowed to +2.26%** = TIGHTEST since Wk-16 Fri (+3.19% pre-mkt). WTI -1.89% Tue pre-mkt undoes Mon +3.14% bounce; crude leadership Day 1 pop fully unwound in 24 hours (same pattern flagged in Wk-16 Fri log). Sustained-day crude break below $90 would push XLE toward $60.15 flag by close. If crude reverses again to close green, cushion widens. Currently: closest of any position to cut flag.
+- **Crude bounce Day 1 → fade Day 2 pattern** = validates Wk-17 Day 1 SKIP of XLE ADD (Test 2 fail on multi-day sector momentum). Same discipline applies Tue: pop-and-fade Tue mirrors Wk-16 Fri pop-that-crumbled.
+- **Broad-red Mon close (-0.77% SPX, -0.92% NDX, -0.67% Dow)** = fresh cyclical weakness overhang; only defensives (XLV/XLP) green. If Mon selloff extends Tue-Fri into jobs report, XLE/XLF cushions could pierce.
+- **VIX easing back below 16 (Tue pre-mkt 15.76)** = duration overlay easing (positive for XLK); Mon pre-mkt +8.54% spike unwound intraday. XLK cushion +8.60% robust.
+- **XLK MV cap 20.45%** = ABOVE 20% cap on MV basis; passive ADD blocked. Cost 19.42% still below. Sell-side rule not triggered (position rule is on cost, but growth beyond cap = passive drift, not a violation to trim absent thesis break).
+- **Fri 10/2 jobs report** = week's binary; reduces case for opening large new positions Tue-Wed. Consistent with 3-slot budget preservation discipline.
+- **FOMC 10/28** = 4-week horizon; 67% Oct hike priced (Wk-16 note). Slower-moving.
+- **Concentration:** Energy **23.85% mv** (XLE $18,884 + XOM $4,820 = $23,703), Tech **20.45% mv** (XLK $20,330 — above 20% cap on MV), Financials **9.83% mv** (XLF $9,774) = **54.12% total**. Below 75-85% deployment target by 21-31pp. Adds blocked by named test/gate failures. NOT a rule violation per Decision Rule.
+- **Wk-17 slot budget:** 3/3 fresh Tue Day 2; preserve for genuine qualifying setups. Wk-16 lesson: qualification is the gate, not the goal.
+- **PDT check:** 0/3 daytrades; no round-trips planned.
+- **Not a flat-week violation.** All 10 ideas' SKIPs name specific test/gate failures per Decision Rule.
+- **Structural routine health:** 25th consecutive full-slate trading day since Aug 27 resumption.
+
+### Decision — HOLD ALL 4 POSITIONS, NO FRESH ENTRIES, XLE-CUSHION PRIORITY 1
+
+- **HOLD XLE (307 sh), XLF (180 sh), XLK (104 sh), XOM (30 sh).** WTI -1.89% Tue pre-mkt narrows XLE cushion to TIGHTEST since Wk-16 Fri (+2.26%); XOM cushion narrows to +4.16%; XLK robust +8.60% on VIX easing; XLF firm +4.18%.
+- **XLE MANUAL-CUT PRIORITY 1 (Tue)** — cushion +2.26% is the TIGHTEST of any position. If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh (thesis-break: crude bounce fully unwound + -7% price flag simultaneous).
+- **XOM MANUAL-CUT PRIORITY 2 (Tue)** — cushion +4.16% (narrowed). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+- **XLK $180 CONDITIONAL EXIT armed (lower priority)** — cushion +8.60% (widened); VIX easing lowers duration-overlay risk. If XLK < $180 → thesis-break cut per Mon framework.
+- **XLF MANUAL-CUT vigilance** — cushion +4.18% (widened marginally). 3-consecutive -1.5%+ tracker dis-armed. WATCH.
+- **NO XLE ADD** — Test 1 FAIL (crude -1.89% Tue = bearish reversal) + Test 2 FAIL (no multi-day momentum) + Buy-Side Gate 20% cost cap UNECONOMIC ($28 headroom).
+- **NO XOM ADD** — Test 1 FAIL (mixed micro, macro bearish Tue) + Test 2 FAIL + Test 4 R:R 0.30:1 consensus / 0.94:1 stretch (both below 2:1).
+- **NO XLK ADD** — Gate FAIL (MV 20.45% breach) + Test 1 FAIL (mixed narrative, no fresh bullish) + Test 2 FAIL (Mon LAG, Tue +0.49% Day 1 only).
+- **NO XLF ADD** — Test 1 FAIL (no fresh catalyst) + Test 2 FAIL (Mon WORST sector -1.19%).
+- **NO XLV OPEN NEW** — Test 1 FAIL (no Tue XLV-specific catalyst) + Test 4 target undefined.
+- **NO XLP OPEN NEW** — Test 1 FAIL (thematic rotation, no event) + Test 2 FAIL (single-day mild).
+- **NO NFLX OPEN NEW** — Test 2 FAIL (XLC unscanned, growth-adjacent lag).
+- **NO SMH/TSM OPEN NEW** — Test 1 FAIL (mixed thematic) + Test 2 FAIL (XLK Mon LAG).
+- **NO CAH OPEN NEW** — Test 4 undefined + weak sector momentum (XLV mild leader only).
+- **NO TLT/IEF OPEN NEW** — off-mandate (bonds, not equity) + Test 1 FAIL directionally (rates rising).
+- **NO clock-time gates**; all conditions checkable at MARKET-OPEN routine runtime as price/level conditions.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Not a flat-week violation.** All 10 ideas' SKIPs name specific test/gate failures per Decision Rule.
+- **Wk-17 slot budget:** 3/3 fresh (Tue Day 2); no draw-down. Preserve.
+- **MARKET-OPEN routine entry conditions Tue:** none (no fresh entries). Focus is (1) **XLE $60.15 breach check (PRIORITY 1** — cushion +2.26% TIGHTEST), (2) XOM $154.23 breach check (cushion +4.16%), (3) XLK $180 conditional-EXIT breach check (cushion +8.60% robust), (4) XLK $196.94 hwm-break server-side ratchet monitoring, (5) XLF -1.5%+ day tracker (dis-armed, monitor).
+- **Weekly-review skill invocation:** Wk-16 review pending (Fri EOD slot missed); run before Wk-17 close if a session allows.
