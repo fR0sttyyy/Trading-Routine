@@ -3060,3 +3060,44 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **XLK ratchet monitoring** — hwm $196.94 / stop $177.246 unchanged (mtm $194.46 below hwm; no new print); first-tighten trigger $213.46 (+9.77% from mtm).
 7. **Sector momentum re-check** — crude bounce Day 2 faded into close (energy leadership at risk); tech leadership holding through VIX pressure; financials softening (XLF cushion narrowed 103bp intraday).
 8. **Weekly review** — Wk-16 review still pending (Fri afternoon slot missed).
+
+### Sep 29 — Midday Scan (Tuesday, 12:10 ET — Wk-17 Day 2 / NO-OP)
+**Portfolio marks:** XLE 307 @ $61.62 unrl **-$939.97 / -4.73%** (chg_today **-0.77%**) | XLF 180 @ $53.77 unrl **-$409.50 / -4.06%** (chg_today **-0.78%**) | XLK 104 @ $194.99 unrl **+$974.94 / +5.05%** (chg_today **+0.24%**) | XOM 30 @ $161.58 unrl **-$127.80 / -2.57%** (chg_today **-0.58%**)
+**Aggregate mv:** $53,722.30 (~54.1% deployed).
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- XLE -4.73% | cut $60.15 = **cushion +2.39%** — TIGHTEST (marginally widened from pre-mkt +2.26% on modest intraday bounce off WTI overnight lows). No cut.
+- XLF -4.06% | cut $52.12 = **cushion +3.07%** — NARROWED from Mon EOD +3.82pp and pre-mkt +4.18pp on soft financials tape (XLF -0.78% intraday). No cut.
+- XOM -2.57% | cut $154.23 = **cushion +4.55%** — WIDENED from pre-mkt +4.16pp on modest intraday recovery from crude pre-mkt lows. No cut.
+- XLK +5.05% | not cut-relevant; $180 conditional cushion **+7.69%** (NARROWED from pre-mkt +8.60pp on VIX drift back up intraday). Trail cushion to $177.246 = **+9.10%**.
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +5.05% unrl (need +15% for first tighten to 7%; trigger $213.46 = **+9.47% from mtm**). All others negative. No cancel-replace.
+
+**Thesis check (STEP 5) — no cuts:**
+- XLE: -0.77% intraday, WTI Tue pre-mkt weakness bled into open (crude bounce Day 1 → fade Day 2 pattern from pre-mkt); cushion +2.39% held. Nearest to flag but not broken. HOLD.
+- XOM: -0.58% intraday, crude drag milder than XLE (single-name buffer); cushion +4.55% robust. HOLD.
+- XLF: -0.78% intraday, softening after Mon -1.19% weak close; cushion +3.07% narrowed but robust; 3-consecutive -1.5%+ tracker still DIS-ARMED (today -0.78% below -1.5% threshold). HOLD.
+- XLK: +0.24% intraday, VIX easing narrative from pre-mkt holding (duration overlay easing); $180 flag NOT breached (cushion +7.69%); thesis intact. HOLD.
+
+**Intraday research (STEP 6):** skipped. All moves consistent with pre-market thesis (XLE/XOM soft on WTI fade, XLF soft on rate-sensitive drag, XLK firm on VIX easing). No unexplained gaps warranting news pull.
+
+**Actions:** NONE. All 4 positions held. STEP 7 ClickUp no-op.
+
+**Next checkpoints (afternoon → close):**
+1. **XLE MANUAL-CUT PRIORITY-1** — cushion +2.39% (TIGHTEST). If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh (thesis-break: crude reversal + -7% flag).
+2. **XLF MANUAL-CUT PRIORITY-2** — cushion +3.07% (narrowed). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +4.55%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **XLK $180 CONDITIONAL EXIT armed** — cushion +7.69% (narrowed). If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+5. **XLK ratchet monitoring** — hwm $196.94 / stop $177.246 unchanged (mtm $194.99 = $1.95 below hwm; no new print); first-tighten trigger $213.46 (+9.47% from mtm).
+6. **Wk-17 slot budget:** 3/3 fresh; Tue pre-mkt 10-idea screen all failed named tests/gates — NO fresh entries.
+7. **Deployment:** ~54.1% (persistent 21-31pp gap below 75-85% target); no qualifying setup Tue per pre-mkt.
+8. **Weekly review** — Wk-16 review still pending; consider running weekly-review skill this session if plan allows.
+
+**Post-scan order state (7 GTC stops covering 4 positions — no cancels/replaces this scan):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $177.246 hwm $196.94 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $177.246 hwm $196.94 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
