@@ -3101,3 +3101,48 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 - XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
 - XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
 - XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+### Sep 30 — Midday Scan (Wednesday, 12:10 ET — Wk-17 Day 3 / QUARTER-END + PCE DAY / NO-OP)
+**Portfolio marks:** XLE 307 @ $61.97 unrl **-$832.52 / -4.19%** (chg_today **+0.70%**) | XLF 180 @ $53.725 unrl **-$417.60 / -4.14%** (chg_today **-0.53%**) | XLK 104 @ $196.7541 unrl **+$1,158.41 / +6.00%** (chg_today **+1.16%**) | XOM 30 @ $163.74 unrl **-$63.00 / -1.27%** (chg_today **+1.48%**)
+**Aggregate mv:** $54,069.92 (~54.3% deployed).
+
+**Cut-loser gate (STEP 3) NO-OP — all inside envelope:**
+- XLE -4.19% | cut $60.15 = **cushion +2.94%** — TIGHTEST (widened from pre-mkt +2.81pp on WTI +1.23% Wed follow-through into open). No cut.
+- XLF -4.14% | cut $52.12 = **cushion +2.99%** — NARROWED from pre-mkt +3.85pp on soft financials tape (XLF -0.53% intraday); now TIED-TIGHTEST with XLE. No cut.
+- XOM -1.27% | cut $154.23 = **cushion +5.81%** — WIDENED from pre-mkt +4.98pp on crude bounce follow-through (XOM +1.48% intraday). No cut.
+- XLK +6.00% | not cut-relevant; $180 conditional cushion **+8.51%** (WIDENED from pre-mkt +7.92pp on Fed Williams/NVDA/VIX easing narrative + Micron AMC anticipation). Trail cushion to $177.354 = **+9.86%**.
+
+**Tighten-trail gate (STEP 4) NO-OP:** XLK top at +6.00% unrl (need +15% for first tighten to 7%; trigger $213.46 = **+8.49% from mtm**). All others negative. No cancel-replace.
+
+**XLK server-side ratchet FIRED (observed, no action):** hwm advanced $196.94 → **$197.06** (new intraday high); stops on both XLK legs (5451fa24, f2c0dace) ratcheted up $177.246 → **$177.354** automatically. First discretionary tighten still at +15% ($213.46, far).
+
+**Thesis check (STEP 5) — no cuts:**
+- XLE: +0.70% intraday, WTI +1.23% Wed pre-mkt held into open (crude Day 3 pop after Mon-pop / Tue-fade whipsaw); cushion +2.94% widened. Bearish sector overhang (SA "10 steepest Sep declines" / Forex.com "18-yr resistance breakout under threat") NOT triggered intraday. HOLD.
+- XOM: +1.48% intraday, crude follow-through robust; cushion +5.81% widened. HOLD.
+- XLF: -0.53% intraday, soft continuation from Mon -1.19% / Tue -0.33% — third consecutive red day but each print below -1.5% threshold so 3-consecutive tracker still DIS-ARMED. Cushion +2.99% narrowed but robust. HOLD.
+- XLK: +1.16% intraday, VIX +0.94% pre-mkt back above 16 did NOT arrest tech bid; Fed Williams yield-cap narrative + NVDA buyback + Micron AMC anticipation support the tape. New hwm print $197.06. HOLD.
+
+**Intraday research (STEP 6):** skipped. All moves consistent with pre-market thesis (XLE/XOM firm on crude Day 3 pop, XLF soft on rate-sensitive drag, XLK firm on VIX-easing narrative + tech-titan positioning ahead of MU AMC). No unexplained gaps.
+
+**Actions:** NONE. All 4 positions held. STEP 7 ClickUp no-op.
+
+**Next checkpoints (afternoon → close / PCE-day + quarter-end):**
+1. **XLE MANUAL-CUT PRIORITY-1** — cushion +2.94% (TIGHTEST, tied with XLF). If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.99% (NARROWED, tied with XLE). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLK $180 CONDITIONAL EXIT armed** — cushion +8.51% (widened). If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+4. **XOM MANUAL-CUT vigilance** — cushion +5.81% (widened). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+5. **XLK ratchet monitoring** — new hwm $197.06 / stop $177.354; if XLK breaks $197.06 again → further server-side ratchet. First discretionary tighten trigger $213.46 (+8.49% from mtm).
+6. **PCE risk** — release either digested or reflected in current tape; quarter-end rebalancing flow into 15:30-16:00 close = potential last-hour vol; existing trailing stops absorb.
+7. **MU AMC** — binary event tonight; not tradable pre-print; XLK tone-setter for Thu.
+8. **Wk-17 slot budget:** 3/3 fresh; Wed pre-mkt 10-idea screen all failed named tests/gates — NO fresh entries.
+9. **Deployment:** ~54.3% (persistent 21-31pp gap below 75-85% target); macro-event day (PCE) + binary MU AMC + quarter-end reinforce named-test/gate SKIPs, not a rule violation.
+10. **Weekly review** — Wk-16 review still pending; consider running weekly-review skill this session if plan allows.
+
+**Post-scan order state (7 GTC stops covering 4 positions — XLK legs ratcheted server-side; no cancels/replaces this scan):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% **$177.354** hwm **$197.06** (5451fa24) — ratcheted (server-side)
+- XLK 54 sh: trail 10% **$177.354** hwm **$197.06** (f2c0dace) — ratcheted (server-side)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
