@@ -3225,3 +3225,38 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 - XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
 - XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
 - XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+### Oct 01 — EOD Snapshot (Day 4, Thursday — Wk-17 Day 4 / Q4 open + MU digest / 0 trades)
+**Portfolio:** $100,040.91 | **Cash:** $45,618.27 (45.60%) | **Day P&L:** +$649.14 (+0.653%) | **Phase P&L:** +$40.91 (+0.041%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $62.685 | +1.927% | -$613.02 (-3.087%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 180 | $56.045 | $53.495 | +0.178% | -$459.00 (-4.550%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (new 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $198.40 | +1.354% | +$1,329.58 (+6.888%) | $178.686 (trail 10%, hwm $198.54 — ratcheted intraday) |
+| XOM | 30 | $165.84 | $163.88 | +0.694% | -$58.80 (-1.182%) | $149.625 (trail 10%, hwm $166.25) |
+
+**Notes:** Wk-17 Day 4 close. First +650 Day in Wk-17 flipped Phase P&L back to green (+$40.91 / +0.041%) from Sep 30 close -$608.23. Broad-based rally — all 4 positions green on the day. Book split: XLK +1.354% (MU beat + raised FY guidance digested at open and extended afternoon; second server-side ratchet of the day — hwm $197.47 → $198.54, stops both legs → $178.686; still well below first discretionary tighten at $213.46); XLE +1.927% (crude Day 4 bounce extended — WTI follow-through powered the biggest % move of the day; XLE cushion widened +1.96pp vs midday); XOM +0.694% (crude bounce follow-through — single-name buffer narrower than XLE); XLF +0.178% (nominal green close snapped 4-day losing streak Mon -1.19% / Tue -0.33% / Wed -1.06% / Thu +0.18% — 3-consecutive tracker still DIS-ARMED; cushion widened +0.71pp vs midday but still TIGHTEST). Cut-loser envelope end-of-day — all WIDENED vs midday: XLF +2.57pp cushion (TIGHTEST — widened from midday +1.86pp on green close; $52.12 blended flag = -2.57% below close $53.495); XLE +4.04pp cushion (widened from midday +3.57pp on crude follow-through; $60.15 flag = -4.04% below close $62.685); XOM +5.89pp cushion (narrowed vs midday +6.14pp as close faded slight; $154.23 flag = -5.89% below close $163.88 — robust); XLK not cut-relevant (+6.89% unrl); XLK $180 conditional cushion +9.27% (widened from midday +9.08pp; trail cushion to $178.686 = +9.94%). Tighten-trail: XLK top at +6.89% unrl (need +15% for first tighten to 7%; trigger $213.46 = +7.59% from mtm — tightest post-ratchet). Wk-17 slot budget 3/3 fresh (Thu pre-mkt 3-idea screen all failed named tests/gates → 0 fresh entries Day 4). Deployment 54.40% mv (persistent 21-31pp gap below 75-85% target — four consecutive weeks of the gap). Realized P&L today: $0. Order state: 7 GTC trail stops covering 4 positions — XLK legs ratcheted server-side intraday (both to stop $178.686 / hwm $198.54, second ratchet of the day); others unchanged.
+
+**Trades today:** none.
+
+**Wk-17 trades running total:** 0/3 slot-consuming.
+
+**Post-EOD order state (7 GTC stops covering 4 positions — XLK legs ratcheted twice server-side; no cancels/replaces today):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% **$178.686** hwm **$198.54** (5451fa24) — ratcheted intraday (server-side, 2nd ratchet)
+- XLK 54 sh: trail 10% **$178.686** hwm **$198.54** (f2c0dace) — ratcheted intraday (server-side, 2nd ratchet)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Friday 10/2 (Wk-17 Day 5 / NFP day / Weekly review) plan:**
+1. **Pre-market scan** — Wk-17 slot budget 3/3 still fresh; NFP release 08:30 ET = SIZING input (half-size qualifying setups per rule), not a blocker; deployment gap 21-31pp still argues for adding IF a setup qualifies.
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.57% (TIGHTEST). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +4.04% (widened). If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+4. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.27%. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+5. **XOM MANUAL-CUT vigilance** — cushion +5.89%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+6. **XLK ratchet monitoring** — new hwm $198.54 / stop $178.686; if XLK breaks $198.54 again → further server-side ratchet. First discretionary tighten trigger $213.46 (+7.59% from mtm — closest it has been).
+7. **Sector momentum re-check** — crude Day 4 bounce extension (XLE/XOM green) + MU-digested semis strength (XLK new hwm) + XLF nominal green snap = sector map improving but XLF still fragile.
+8. **Weekly review** — RUN WEEKLY-REVIEW SKILL Fri afternoon (Wk-16 pending + Wk-17 close-out).
