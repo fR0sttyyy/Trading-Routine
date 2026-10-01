@@ -6594,3 +6594,80 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Wk-17 slot budget:** 3/3 fresh (Wed Day 3); no draw-down. Preserve.
 - **MARKET-OPEN routine entry conditions Wed:** none (no fresh entries). Focus is (1) **XLE $60.15 breach check (PRIORITY 1** — cushion +2.81% TIGHTEST), (2) **XLK $180 conditional-EXIT breach check (PRIORITY 2** — cushion +7.92%, VIX re-armed), (3) XOM $154.23 breach check (cushion +4.98%), (4) XLF $52.12 breach check (cushion +3.85%), (5) XLK $196.94 hwm-break server-side ratchet monitoring, (6) XLF -1.5%+ day tracker (dis-armed, monitor).
 - **Weekly-review skill invocation:** Wk-16 review pending (Fri EOD slot missed); run before Wk-17 close if a session allows.
+
+## 2026-10-01 — Pre-market Research (Wk-17 Day 4 / Thursday — Q4 open + MU-print digest)
+
+### Account (as of 09:20 ET pre-mkt / balance_asof 2026-09-30)
+- Equity: **$99,432.93** | Cash: **$45,618.27** (45.88%) | Long MV: **$53,814.66** (54.12%)
+- Buying power: $333,154.13 | Reg-T BP: $145,051.20 | Non-marg BP: $72,525.60
+- Last equity (Wed EOD): $99,351.27 → pre-mkt drift **+$81.66 (+0.082%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-09-30 (standard pre-open lag); position current_prices are Thu pre-mkt marks (XLE $61.38 vs Wed close $61.425 = -0.07%; XLF $53.32 vs $53.44 = -0.22%; XLK $197.25 vs $196.265 = **+0.50%** fresh above prev hwm $197.06; XOM $161.98 vs $162.76 = -0.48%). DATA NOT BLOCKED.
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $61.38 | -0.195% | -$1,013.65 (-5.11%) | 18.95% | **+2.00% to $60.15 (TIGHTEST)** |
+| XLF | 180 | $56.045 | $53.32 | -0.150% | -$490.50 (-4.86%) | 9.65% | +2.25% to $52.12 |
+| XLK | 104 | $185.6156 | $197.25 | **+0.766%** | +$1,209.98 (+6.27%) | **20.63%** mv / 19.42% cost | +8.76% to $180 flag |
+| XOM | 30 | $165.84 | $161.98 | -0.473% | -$115.80 (-2.33%) | 4.89% | +4.78% to $154.23 |
+
+### Market Context
+- **S&P 500 futures:** ES=F 7742.75 **+0.35%** | **Nasdaq futures:** NQ=F 30857.0 **+0.52%** → tech-led pre-mkt bid, MU-print digest tailwind
+- **Wed cash close:** SPX 7651.54 -0.25% | Nasdaq 26861.06 +0.24% | Dow 50906.05 -0.86% | VIX **16.31** -0.18%
+- **Crude:** WTI **$91.52 +1.22%** | Brent **$99.81 +1.82%** — Day 4 bounce extension
+- **Sectors (Wed close):** XLE 61.50 -0.06% | XLK 195.75 +0.64% | XLF 53.40 -1.13% | XLV 168.42 -1.35% | XLP 80.60 -1.53% | XLI 166.98 -1.27% | XLB 48.70 -0.81%
+- **Today's catalysts:**
+  - **MU Q4 beat + raised guidance** (AMC Wed): record revenue $54.2B, EPS $32.87, FY guidance >$38 EPS. "Micron rises as Q4 results, guidance top estimates" (SA). MU pre-mkt **$1,069 +0.37%** (Benzinga Pro). Headline risk: "Historic run — what's left?" (Benzinga, parabolic exhaustion narrative).
+  - Semis tape-setter: XLK pre-mkt +0.77% (above prev hwm $197.06 → server-side ratchet armed at open).
+  - ISM Manufacturing PMI 10:00 ET (mild macro); no CPI/PPI/FOMC/jobs today. Gov funded through Dec 11 (no shutdown).
+  - Q4 2026 open — potential rebalancing flow early.
+- **Earnings before open:** ACN (Accenture) consensus EPS $3.19 (+5.3% YoY) — professional svcs, non-momentum sector; PEP release-expected but non-momentum.
+- **Economic calendar:** ISM Manufacturing PMI 10:00 ET; Challenger Job Cuts Sep; no major Fed speakers scheduled.
+- **Sector momentum map:** TECH LEADING (XLK +5.08% Sep — "every S&P sector fell in Sep except one" per 24/7 Wall St). ENERGY NEGATIVE MONTH (crude Day 4 bounce is counter-trend); FINANCIALS NEGATIVE (XLF narrowing cushion 3 straight red days). INDUSTRIALS/HEALTHCARE/STAPLES NEGATIVE.
+
+### Trade Ideas (3 screened)
+
+1. **MU — Micron Q4 beat / memory shortage / raised guidance**
+   - Catalyst: Record Q4 rev $54.2B, EPS $32.87, FY guide >$38 EPS; AI/memory shortage tailwind; Wedbush buy reaffirm.
+   - Sector momentum: ✓ semis leading
+   - Pre-mkt: $1,069 (+0.37% Benzinga Pro)
+   - Entry: $1,069 (hypothetical) | Stop 10% trail = $962 | Target $1,200 analyst range
+   - R:R: $1,200-$1,069 = +$131 upside / $1,069-$962 = $107 downside → **1.22:1** (fails ≥2:1)
+   - If target stretched $1,300 (bull case): +21.6% / 10% = 2.16:1 — passes marginally, but Benzinga "historic run, what's left?" narrative = late-stage parabolic risk after +86% margins & multi-day run-up
+   - **DOES NOT QUALIFY → test 4 (R:R ≥ 2:1) fails at base-case PT; parabolic exhaustion risk inverts R:R asymmetry.**
+
+2. **XLK add-on (semis tailwind amplification)**
+   - Catalyst: ✓ MU-print tape-set + Fed Williams yield-cap narrative + XLK server-side ratchet re-arming
+   - Sector momentum: ✓ tech leading
+   - Current position: 20.63% mv / 19.42% cost
+   - Entry trigger: any add → position cost post-fill >20% cap
+   - **DOES NOT QUALIFY → Buy-Side Gate test "position cost ≤ 20% of equity after fill" fails. Position at cap.**
+
+3. **XLE add-on (crude Day 4 bounce)**
+   - Catalyst: WTI +1.22% / Brent +1.82% Day 4 crude bounce; XLE cushion narrowed to +2.00% (TIGHTEST, nearest cut flag)
+   - Sector momentum: ✗ energy DOWN in Sep ("every S&P sector fell except one"); crude bounce is counter-trend, not a momentum shift
+   - **DOES NOT QUALIFY → test 2 (sector in momentum) fails; counter-trend bounce ≠ momentum.**
+
+### Risk Factors
+- **XLE cushion +2.00% TIGHTEST** — Thu crude bounce fade intraday + XLE sell-pressure could breach $60.15 flag; PRIORITY-1 cut vigilance.
+- **XLF cushion +2.25%** — 3 straight red days (no single -1.5%+ so 3-consecutive tracker DIS-ARMED); another soft day puts cushion <2% → PRIORITY-1 cut vigilance tied with XLE.
+- **XLK $180 conditional-EXIT** cushion +8.76% (widened on MU tailwind); duration overlay dormant pre-mkt but VIX re-pop above 17 would re-arm.
+- **XLK server-side ratchet** — pre-mkt mtm $197.25 > prev hwm $197.06; opening print above $197.06 fires further ratchet on both legs (5451fa24, f2c0dace).
+- **Q4 open rebalance flow** could whipsaw early tape; existing trailing stops absorb.
+- **ISM Manufacturing 10:00 ET** mild macro; soft print = growth-fear risk-off; strong = yield re-pop.
+- **MU post-print mean-reversion / "historic run" exhaustion** — not holding MU but relevant to XLK stability through the day.
+
+### DECISION
+- **MU: DOES NOT QUALIFY** — test 4 R:R <2:1 at base-case $1,200 PT; parabolic exhaustion inverts asymmetry.
+- **XLK add: DOES NOT QUALIFY** — Buy-Side Gate 20%-of-equity cost cap fails on any add (position at cap).
+- **XLE add: DOES NOT QUALIFY** — test 2 sector-momentum fails (Sep red, bounce counter-trend).
+- **0 fresh entries today.** 3/3 Wk-17 slot budget preserved. Deployment gap 21-31pp persists but NOT a rule violation (no qualifying setup).
+- **Primary action priorities Thu intraday:**
+  1. **XLE MANUAL-CUT PRIORITY-1** — cushion +2.00%. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+  2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.25%. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+  3. **XLK $180 CONDITIONAL EXIT armed** — cushion +8.76%. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+  4. **XOM MANUAL-CUT vigilance** — cushion +4.78%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+  5. **XLK ratchet monitoring** — prev hwm $197.06 / stop $177.354; pre-mkt mtm $197.25 above hwm → opening print >$197.06 fires further ratchet. First discretionary tighten at +15% ($213.46; +8.21% from mtm — far).
+- **MARKET-OPEN routine entry conditions Thu:** none (no fresh entries). Focus is (1) XLE $60.15 cut-flag breach (PRIORITY-1), (2) XLF $52.12 cut-flag breach (PRIORITY-1), (3) XLK $197.06 hwm-break server-side ratchet observation, (4) XLK $180 conditional-EXIT breach check, (5) XOM $154.23 cut-flag vigilance, (6) ISM Manufacturing 10:00 ET soft-print risk-off watch.
+- **Weekly-review skill invocation:** Wk-16 review STILL pending (Fri 9/26 slot missed); run before Wk-17 Fri close if a session allows.
