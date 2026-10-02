@@ -6671,3 +6671,112 @@ Order of preference at MARKET-OPEN routine runtime:
   5. **XLK ratchet monitoring** — prev hwm $197.06 / stop $177.354; pre-mkt mtm $197.25 above hwm → opening print >$197.06 fires further ratchet. First discretionary tighten at +15% ($213.46; +8.21% from mtm — far).
 - **MARKET-OPEN routine entry conditions Thu:** none (no fresh entries). Focus is (1) XLE $60.15 cut-flag breach (PRIORITY-1), (2) XLF $52.12 cut-flag breach (PRIORITY-1), (3) XLK $197.06 hwm-break server-side ratchet observation, (4) XLK $180 conditional-EXIT breach check, (5) XOM $154.23 cut-flag vigilance, (6) ISM Manufacturing 10:00 ET soft-print risk-off watch.
 - **Weekly-review skill invocation:** Wk-16 review STILL pending (Fri 9/26 slot missed); run before Wk-17 Fri close if a session allows.
+
+## 2026-10-02 — Pre-market Research (Wk-17 Day 5 / Friday — NFP day + Wk-17 close)
+
+### Account (as of 08:30 ET pre-mkt / balance_asof 2026-10-01)
+- Equity: **$99,985.32** | Cash: **$45,618.27** (45.63%) | Long MV: **$54,367.05** (54.37%)
+- Buying power: $334,700.82 | Reg-T BP: $145,603.59 | Non-marg BP: $72,801.79
+- Last equity (Thu EOD): $99,976.81 → pre-mkt drift **+$8.51 (+0.009%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-01 (standard pre-open lag); position current_prices are Fri pre-mkt marks (XLE $62.05 vs Thu close $62.70 = -1.04%; XLF $53.79 vs $53.46 = +0.62%; XLK $199.75 vs $197.81 = **+0.98%** fresh above prev hwm $198.54; XOM $162.05 vs $163.82 = -1.08%). DATA NOT BLOCKED.
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $62.05 | -1.037% | -$807.96 (-4.07%) | 19.05% | +3.06% to $60.15 |
+| XLF | 180 | $56.045 | $53.79 | +0.617% | -$405.90 (-4.02%) | 9.68% | +3.10% to $52.12 (TIGHTEST tied w/ XLE) |
+| XLK | 104 | $185.6156 | $199.75 | **+0.981%** | +$1,469.98 (+7.62%) | **20.78%** mv / 19.31% cost | +9.89% to $180 flag |
+| XOM | 30 | $165.84 | $162.05 | -1.080% | -$113.70 (-2.29%) | 4.86% | +4.83% to $154.23 |
+
+### Market Context
+- **S&P 500 futures:** ES=F 7757.50 **+0.43%** | **Nasdaq futures:** NQ=F 30955.75 **+0.63%** → tech-led pre-mkt bid into NFP
+- **Thu cash close:** SPX 7666.45 +0.19% | Nasdaq 26871.60 +0.04% | Dow 50926.56 +0.04% | VIX **16.08** -1.89%
+- **Crude:** WTI **$92.87 +$2.45** | Brent **$102.31 +$4.28 (reclaimed $100)** — Day 5 extension on Mid-East carrier escalation (3rd aircraft carrier). Context tool CL=F showed -3.67% (likely stale/wrong feed); news sources confirm fresh crude rally.
+- **Sectors (Thu close):** XLE 62.70 +1.95% | XLK 197.81 +1.05% | XLI 168.64 +0.99% | XLF 53.46 +0.11% | XLB 48.54 -0.33% | XLP 80.33 -0.33% | XLV 166.20 -1.32%
+- **Sector momentum map (Kalkine Oct 1):** **TECH (XLK) = ONLY LEADING sector**; Industrials + Health Care = Improving; Energy = Lagging; Communication Services = Weakening. XLK +5.46% past week; bullish signal reversal at $182.
+- **Today's catalysts:**
+  - **NFP 08:30 ET** — consensus +90k jobs (prior +162k), unemployment 4.1% unch, avg hourly earnings +3.1% YoY / +0.3% MoM. Private +81k, govt +35k, mfg +10k. Week's second binary after PCE.
+  - **NVIDIA $500B GPU loan + $10B to OpenAI** (TradingView Oct 2); Michael Burry 2027 puts (bearish AI-circular-financing tape risk).
+  - **Mid-East escalation** — 3rd US aircraft carrier to region; crude Day 5 bounce ($102+ Brent). Bullish energy single-day, counter-trend sector-wise.
+  - **China sell-off** — CSI 300 lowest ~1y; HK biggest decline since March — risk-off backdrop for Asia tape.
+  - **No material earnings BMO Fri.**
+- **Government funded through Dec 11** (no shutdown).
+
+### Trade Ideas (3 screened — NFP day, HALF-SIZE if qualifying)
+
+1. **NVDA OPEN NEW — $500B GPU loan + $10B OpenAI financing catalyst**
+   - Test 1 (catalyst): ✓ Fresh overnight NVIDIA $500B GPU loan + $10B OpenAI deal (TradingView Oct 2) — net-positive but Burry 2027 puts headline is bearish-tape counterweight (vendor-financing-circular-risk narrative).
+   - Test 2 (sector momentum): ✓ XLK = **ONLY LEADING sector** per Kalkine Oct 1.
+   - Entry (pre-mkt mid): $235.50 | Stop 10%: $212 (-$23.50 risk)
+   - Target: analyst PT $245-$280 range unverified; using stretch $280 → upside $44.50 / downside $23.50 = R:R **1.89:1 (FAILS ≥2:1 Test 4).**
+   - Even with $290 bull target: R:R 2.32:1 — speculative. Base-case analyst PT not confirmed in session.
+   - **RESOLVE-NOW check:** target PT not confirmable without broker-specific pull; stretch case 1.89:1 fails rule.
+   - **DOES NOT QUALIFY → Test 4 (R:R ≥ 2:1) fails at verified stretch target.**
+
+2. **XLI OPEN NEW — Industrials "Improving" sector transition**
+   - Test 1 (catalyst): Sector momentum map (Kalkine Oct 1) shows XLI transitioned to Improving; Thu +0.99% print. Weak as event-specific catalyst (sector-flow, no single-name trigger).
+   - Test 2 (sector momentum): ✓ Industrials = Improving.
+   - Entry (Thu close): $168.64 | Stop 10%: $151.78 (-$16.86 risk)
+   - Target: XLI 52w high ~$180 range; even $185 target: upside $16.36 / downside $16.86 = R:R **0.97:1.** Need target $202 for 2:1 — not realistic near-term.
+   - **DOES NOT QUALIFY → Test 4 (R:R ≥ 2:1) fails; no definable upside target reaching 2:1 on 10% trail.**
+
+3. **XOM ADD — Mid-East escalation / Brent $100+ catalyst**
+   - Test 1 (catalyst): ✓ 3rd carrier to Mid-East (24/7 Wall St); Brent reclaimed $100 ($102.31 +4.28); WTI $92.87 +2.45. Fresh positive overnight.
+   - Test 2 (sector momentum): ✗ Energy = **Lagging** per Kalkine sector map; Thu crude bounce is Day 5 counter-trend (not momentum shift). Refiners outran integrated majors (MPC +5%, VLO +4%, XOM flat Thu) = sub-sector rotation away from XOM.
+   - Test 4 (R:R): Entry $162.05, stop $146 (-$16 risk); consensus PT $164-$172 range → R:R max 0.62:1. FAILS.
+   - **DOES NOT QUALIFY → Test 2 (sector lagging) + Test 4 (R:R <2:1) + sub-sector rotation adverse.**
+
+4. **XLE ADD — same crude catalyst, ETF form**
+   - Buy-Side Gate: cost cap 20% × $99,985 = $19,997; current cost $19,857; headroom **$140 UNECONOMIC** (<1 share). **FAILS Gate.**
+   - Test 2 sector momentum: Energy = Lagging. **FAILS Test 2.**
+   - **DOES NOT QUALIFY → Gate (cost-cap uneconomic) + Test 2.**
+
+5. **XLK ADD — amplify sole-leading-sector exposure**
+   - Buy-Side Gate: cost cap headroom = $19,997 - $19,304 = $693 → max 3 sh @ $199.75 = $599. UNECONOMIC and single-digit-share size.
+   - MV 20.78% already above 20% MV cap (passive drift from winner, not violation absent thesis break).
+   - **DOES NOT QUALIFY → Gate (cost-cap near-exhausted; add size uneconomic).**
+
+6. **XLF ADD — Financials soft-recovery**
+   - Test 2 (sector momentum): ✗ Financials not in Leading/Improving per Kalkine; sector in lagging bucket.
+   - Test 1 (catalyst): no fresh Fri XLF-specific catalyst; XLF +0.11% Thu (flat continuation).
+   - **DOES NOT QUALIFY → Test 1 + Test 2.**
+
+7. **XLV OPEN NEW — Health Care "Improving" transition**
+   - Test 2 (sector momentum): ✓ Health Care = Improving per Kalkine.
+   - Test 1 (catalyst): XLV -1.32% Thu (soft close); no fresh single-name catalyst. Mixed signal.
+   - Test 4 (R:R): Entry $166.20, stop $149.58; 2:1 target = $199.44 — not realistic near-term.
+   - **DOES NOT QUALIFY → Test 1 (no fresh catalyst) + Test 4 (R:R <2:1).**
+
+### Risk Factors
+- **NFP 08:30 ET binary** — any surprise (hot = yield pop + duration-sensitive risk-off / cool = growth-fear risk-off) moves tape 0.5-1.5%. HALF-SIZE rule applied to any qualifying setup — none qualify today, so no entry.
+- **XLE cushion +3.06% TIGHTEST** — tied with XLF +3.10%. Crude bounce stabilizing XLE pre-mkt (-1.04%), but Day 5 counter-trend risk means a crude fade intraday could flip XLE under $60.15 fast.
+- **XLF cushion +3.10%** — pre-mkt +0.62% is first clear green print after 4-day soft stretch (Mon -1.19 / Tue -0.33 / Wed -1.06 / Thu +0.18 close). 3-consecutive -1.5%+ tracker DIS-ARMED.
+- **XLK $180 conditional-EXIT** cushion +9.89% (widened from Thu EOD +9.27% on pre-mkt +0.98%); server-side ratchet armed (mtm $199.75 > prev hwm $198.54).
+- **First discretionary XLK tighten (+15% unrl)** trigger $213.46 — +6.86% from mtm $199.75 (closest since position opened).
+- **Michael Burry 2027 NVDA puts** — tape-risk headline fading pre-mkt but could re-emerge if NFP surprises softer and tech bid cracks.
+- **Energy sub-sector rotation** — refiners (MPC/VLO) outran integrated majors (XOM flat Thu); XOM relative lag to XLE a modest headwind if sector stays in current rotation.
+- **China sell-off (CSI 300 1y low)** — Asia-tape risk-off backdrop; limited direct US impact but AI-chip/semis supply-chain adjacency.
+- **Mid-East escalation** — 3rd carrier dispatch could escalate; crude spike beyond $110 would reverse Lagging-sector classification. Not a sizing input today pre-NFP.
+
+### DECISION — HOLD ALL 4 POSITIONS, 0 FRESH ENTRIES, XLE+XLF TIED PRIORITY-1 CUT WATCH
+
+- **NVDA: DOES NOT QUALIFY** — Test 4 R:R <2:1 at verified stretch target ($280 PT → 1.89:1).
+- **XLI: DOES NOT QUALIFY** — Test 4 R:R <2:1 (no reachable 2:1 target on 10% trail).
+- **XOM ADD: DOES NOT QUALIFY** — Test 2 sector Lagging + Test 4 R:R <2:1 + refiner-vs-majors adverse rotation.
+- **XLE ADD: DOES NOT QUALIFY** — Gate cost-cap uneconomic ($140 headroom) + Test 2 Lagging.
+- **XLK ADD: DOES NOT QUALIFY** — Gate cost-cap near-exhausted ($693 headroom, uneconomic size).
+- **XLF ADD: DOES NOT QUALIFY** — Test 1 (no fresh catalyst) + Test 2 (sector not Leading/Improving).
+- **XLV: DOES NOT QUALIFY** — Test 1 (no fresh catalyst) + Test 4 R:R <2:1.
+- **0 fresh entries Fri NFP-day.** Wk-17 slot budget 3/3 preserved (unused Wk-17 ends today — Mon 10/5 resets slot). Deployment gap 21-31pp persists but NOT a rule violation (no qualifying setup — all 7 SKIPs name specific test/gate failures per Decision Rule).
+- **Not a flat-week violation.** All 7 ideas' SKIPs name specific test/gate failures. R:R binding on ETFs under 10% trail is structural; sector-momentum binding on Energy is a sector classification not a tactical patience call.
+- **Primary intraday action priorities Fri:**
+  1. **XLE MANUAL-CUT PRIORITY-1-tied** — cushion +3.06% (TIGHTEST tied w/ XLF). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+  2. **XLF MANUAL-CUT PRIORITY-1-tied** — cushion +3.10%. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+  3. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.89%. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+  4. **XOM MANUAL-CUT vigilance** — cushion +4.83%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+  5. **XLK ratchet monitoring** — prev hwm $198.54 / stop $178.686; pre-mkt mtm $199.75 above hwm → opening print >$198.54 fires further server-side ratchet. First discretionary tighten (+15% unrl) at $213.46 = **+6.86% from mtm** (closest trigger since position opened).
+- **MARKET-OPEN routine entry conditions Fri:** none (no fresh entries). Focus is (1) **NFP 08:30 ET print — one-time tape event**, routine runs 09:30 so post-NFP tape, (2) XLE $60.15 cut-flag breach (PRIORITY-1-tied), (3) XLF $52.12 cut-flag breach (PRIORITY-1-tied), (4) XLK $198.54 hwm-break server-side ratchet observation, (5) XLK $180 conditional-EXIT breach check, (6) XOM $154.23 cut-flag vigilance, (7) XLK $213.46 discretionary-tighten trigger watch (closest to firing yet).
+- **NO CLOCK-TIME GATES:** all triggers checkable at MARKET-OPEN routine runtime as price conditions.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Weekly-review skill invocation:** Wk-16 review STILL pending (missed Fri 9/26); Wk-17 closes today — RUN WEEKLY-REVIEW SKILL Fri afternoon to cover both weeks.
