@@ -6780,3 +6780,117 @@ Order of preference at MARKET-OPEN routine runtime:
 - **NO CLOCK-TIME GATES:** all triggers checkable at MARKET-OPEN routine runtime as price conditions.
 - **PDT check:** 0/3 daytrades; no round-trips.
 - **Weekly-review skill invocation:** Wk-16 review STILL pending (missed Fri 9/26); Wk-17 closes today — RUN WEEKLY-REVIEW SKILL Fri afternoon to cover both weeks.
+
+## 2026-10-06 — Pre-market Research (Wk-18 Day 2 / Tuesday — Nasdaq ATH digest + crude -2.8% reversal)
+
+### Account (as of 08:50 ET pre-mkt / balance_asof 2026-10-05)
+- Equity: **$100,562.17** | Cash: **$45,618.27** (45.37%) | Long MV: **$54,943.90** (54.65%)
+- Buying power: $336,316 | Reg-T BP: $146,180.44 | Non-marg BP: $73,090.22
+- Last equity (Mon EOD): $100,612.54 → pre-mkt drift **-$50.37 (-0.050%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-05 (standard pre-open lag); position current_prices are Tue pre-mkt marks (XLE $62.88 vs Mon close $63.45 = -0.898%; XLF $54.07 vs $53.88 = +0.353%; XLK $202.32 vs $200.93 = **+0.692%** fresh above prev hwm $201.39; XOM $162.40 vs $164.00 = -0.976%). DATA NOT BLOCKED.
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $62.88 | -0.898% | -$553.15 (-2.79%) | 19.20% | +4.34% to $60.15 |
+| XLF | 180 | $56.045 | $54.07 | +0.353% | -$355.50 (-3.52%) | 9.68% | **+3.60% to $52.12 (TIGHTEST)** |
+| XLK | 104 | $185.6156 | $202.32 | **+0.692%** | +$1,737.26 (+9.00%) | **20.92%** mv / 19.19% cost | +11.03% to $180 flag |
+| XOM | 30 | $165.84 | $162.40 | -0.976% | -$103.20 (-2.07%) | 4.84% | +5.03% to $154.23 |
+
+### Market Context
+- **S&P 500 futures:** ES=F 7865.5 **+0.5%** | **Nasdaq futures:** NQ=F 31521.5 **+0.65%** → tech-led continuation after Mon ATH
+- **Mon cash close:** SPX **7773.95 +0.66%** | **Nasdaq 27477.31 +1.05% (RECORD CLOSE** — prev 27244.28 Sep 22) | Dow 51267.90 +0.18% | VIX **15.29 -1.48%** (eased sharply — risk-on cushion deepened; duration-overlay fully DORMANT)
+- **Crude REVERSAL:** WTI **$86.91 -2.82%** | Brent **$97.45 -2.86%** (Brent LOST $100 handle) — Mon/Tue unwind of Fri Mid-East carrier-escalation spike ($102.31 → $97.45)
+- **Sectors (Mon close):** XLB **+1.31%** | XLE +1.00% | XLV +0.72% | XLF +0.73% | XLP +0.63% | XLK +0.56% | XLI +0.09% — broad green day (unusual breadth with every tracked sector positive)
+- **Today's catalysts:**
+  - **Nasdaq ATH digest** — Mon $500B megacap value add (NVDA/MSFT led); AI tape leadership intact into Tue session.
+  - **ISM Services PMI 10:00 ET** — standard monthly print; soft = growth-fear / strong = yield re-pop.
+  - **LW earnings BMO** — Lamb Weston, options imply 8.7% move; non-held, non-momentum sector (staples).
+  - **FOMC Minutes Wed 10/7 2:00 ET** — NOT today; expected to show inflation-fear tilt per Barraud week-ahead.
+  - **Big-bank earnings begin end-of-week** (JPM/C/BAC/WFC later this week) — XLF catalyst setup.
+  - **Treasury yields dipping from multi-year highs** (Kitco Tue) — duration tailwind for tech.
+- **Earnings before open:** Lamb Weston (LW) only material print.
+- **Economic calendar:** ISM Services PMI 10:00 ET; FOMC Minutes Wed; ECB Minutes Thu. No CPI/PPI/jobs today.
+- **Sector momentum map (post-Mon):** TECH LEADING (XLK Nasdaq-ATH leadership; +0.56% Mon despite tech beta). MATERIALS LEADING (XLB +1.31% Mon strongest). HEALTH CARE IMPROVING (XLV +0.72% Mon). INDUSTRIALS IMPROVING-flat (XLI +0.09%). FINANCIALS LAGGING ("Bank stocks lagging S&P by MOST SINCE 1990" per 24/7 Wall St Fri; Jay Woods calls financials "yellow flag" per Benzinga Mon). ENERGY MIXED (Q3 outperformed per TradingView; Tue crude reversal pulls near-term momentum).
+
+### Trade Ideas (8 screened)
+
+1. **XLE ADD — crude-reversal fade play (inverse)**
+   - Test 1 (catalyst): crude -2.82% Tue pre-mkt is BEARISH for XLE position, not an add catalyst. No fresh positive catalyst.
+   - **DOES NOT QUALIFY → Test 1 fails (no bullish catalyst).**
+
+2. **XLE ADD — size-up current position**
+   - Buy-Side Gate: 20% cost cap = $20,112.43; current cost $19,857.31; headroom **$255 (uneconomic — 4 sh @ $63 = $252)**.
+   - Test 2 sector momentum: Energy downgraded Tue on crude -2.8% reversal.
+   - **DOES NOT QUALIFY → Gate (cost-cap uneconomic) + Test 2 (sector momentum weakening).**
+
+3. **XLK ADD — AI/Nasdaq ATH amplification**
+   - Buy-Side Gate: cost cap headroom = $20,112 - $19,304 = **$808 → max 3-4 sh @ $202.32 = $607-$809** (uneconomic single-digit).
+   - MV 20.92% already above 20% MV cap (passive drift from +9% unrealized winner, not violation absent thesis break).
+   - **DOES NOT QUALIFY → Gate (cost-cap near-exhausted; add size uneconomic).**
+
+4. **XLF ADD — bank earnings-season setup**
+   - Test 2 (sector momentum): ✗ **"Bank stocks lagging S&P by MOST since 1990"** (24/7 Wall St 10/2); XLF -2.6% YTD; Jay Woods flags XLF as **"yellow flag — lagging is bearish"** (Benzinga 10/5). FAILS.
+   - Test 1 (catalyst): bank earnings end-of-week is directional-uncertain, not fresh positive catalyst for Tue.
+   - **DOES NOT QUALIFY → Test 2 (sector lagging, worst since 1990) + Test 1 (no fresh positive catalyst).**
+
+5. **XLB OPEN NEW — materials strongest Mon print**
+   - Test 1 (catalyst): Mon +1.31% strongest sector print is a sector-flow outcome, no specific single-name or thematic catalyst identified in news pull.
+   - Test 2 (sector momentum): ✓ Materials leading Mon.
+   - Test 4 (R:R): Entry $49.50, stop $44.55; 2:1 target requires $59.40 — XLB 52w range tops ~$52, so no reachable 2:1 target on 10% trail.
+   - **DOES NOT QUALIFY → Test 1 (no specific catalyst) + Test 4 (R:R <2:1 on 10% trail).**
+
+6. **XLV OPEN NEW — Health Care Improving**
+   - Test 1 (catalyst): no fresh single-name Tue catalyst; JNJ patent-cliff tape-headline (TIKR 10/5) is bearish counter.
+   - Test 2 (sector momentum): ✓ Improving per Kalkine.
+   - Test 4 (R:R): Entry $167.37, stop $150.63; 2:1 target = $200.84 — not reachable near-term on 10% trail.
+   - **DOES NOT QUALIFY → Test 1 (no fresh catalyst, JNJ bearish counter) + Test 4 (R:R <2:1).**
+
+7. **NVDA OPEN NEW — AI/Nasdaq ATH leader**
+   - Test 1 (catalyst): Mon ATH + $500B megacap value add led by NVDA + ongoing OpenAI/$500B GPU-loan narrative; Burry 2027 puts headline is bearish counter but digested.
+   - Test 2 (sector momentum): ✓ Tech leading.
+   - Test 4 (R:R): entry ~$238, stop 10% = $214.20 (-$23.80 risk); analyst stretch PT $280 → upside $42 / downside $23.80 = **1.76:1 (FAILS ≥2:1)**. Bull target $290 → 2.18:1 marginally passes but requires analyst-PT ratchet not confirmed in session.
+   - **RESOLVE-NOW check:** verified stretch PT not pullable without broker-specific data; base-case 1.76:1 fails.
+   - **DOES NOT QUALIFY → Test 4 (R:R <2:1 at verified stretch target).**
+
+8. **MSFT OPEN NEW — Nasdaq ATH leader, AI capex**
+   - Test 1 (catalyst): Mon ATH co-led by MSFT; AI boom tape intact. Catalyst is tape-leadership, not single-event.
+   - Test 2 (sector momentum): ✓ Tech leading.
+   - Test 4 (R:R): entry ~$520 (approx), stop 10% = $468; 2:1 target = $624 — requires +20% from mtm, not reachable near-term on standard analyst PT distribution.
+   - **DOES NOT QUALIFY → Test 4 (R:R <2:1 on 10% trail for established megacap).**
+
+### Risk Factors
+- **XLF cushion +3.60% TIGHTEST** — Mon XLF +0.73% did lift cushion but macro headline "lagging since 1990" is structural; a soft bank print or sector-wide re-rate could flip cushion <2%. PRIORITY-1 vigilance.
+- **XLE cushion +4.34%** — crude -2.82% Tue pre-mkt is the Day 1 of a potential reversal of Fri/Mon rally; XLE pre-mkt -0.898%. If crude continues down and XLE breaks $60.15 flag intraday → cut.
+- **XOM cushion +5.03%** — crude reversal direct hit; XOM pre-mkt -0.976% (sharper than XLE). Vigilance.
+- **XLK $180 conditional-EXIT cushion +11.03%** (widened from Fri EOD +9.91% on Mon rally); duration overlay dormant pre-mkt (VIX 15.29); VIX re-pop above 17 would re-arm.
+- **XLK server-side ratchet** — pre-mkt mtm $202.32 > prev hwm $201.39; opening print above $201.39 fires further ratchet on both legs (5451fa24, f2c0dace). If $202.32 holds at open, new stop ≈ $182.088 (10% below $202.32), up from current $181.251.
+- **First discretionary XLK tighten trigger $213.46** — mtm $202.32 is **+5.51% from trigger** (CLOSEST THE TRIGGER HAS BEEN since position opened; was +6.83% Fri EOD).
+- **ISM Services PMI 10:00 ET** — soft print = growth-fear risk-off (XLF/XLE pressure); strong = yield re-pop (XLK duration pressure, VIX re-pop possible).
+- **FOMC Minutes Wed 2:00 ET** — expected inflation-fear tilt per week-ahead; not today but conditions tape sentiment Tue PM.
+- **Bank earnings begin end-of-week** — XLF directional-uncertain catalyst; soft prints would re-amplify "worst since 1990" theme.
+- **Big-tech valuation / "crash phase one" bear thesis** circulating (Seeking Alpha 10/1) — tape risk if VIX re-pops above 17.
+- **Treasury yields dipping from multi-year highs** — duration tailwind for XLK; reversal (yield re-pop) is the primary XLK threat.
+
+### DECISION — HOLD ALL 4 POSITIONS, 0 FRESH ENTRIES, XLF TIGHTEST CUT WATCH
+
+- **XLE ADD: DOES NOT QUALIFY** — Gate (cost-cap $255 headroom uneconomic) + Test 2 (sector weakening on crude -2.8% reversal).
+- **XLK ADD: DOES NOT QUALIFY** — Gate (cost-cap $808 headroom; max 3-4 sh uneconomic).
+- **XLF ADD: DOES NOT QUALIFY** — Test 2 (banks "lagging S&P most since 1990", XLF -2.6% YTD, Jay Woods yellow flag) + Test 1 (no fresh positive catalyst).
+- **XLB NEW: DOES NOT QUALIFY** — Test 1 (no specific catalyst) + Test 4 (R:R <2:1 on 10% trail).
+- **XLV NEW: DOES NOT QUALIFY** — Test 1 (no fresh catalyst, JNJ bearish counter) + Test 4 (R:R <2:1).
+- **NVDA NEW: DOES NOT QUALIFY** — Test 4 (R:R 1.76:1 at verified stretch $280 PT fails ≥2:1).
+- **MSFT NEW: DOES NOT QUALIFY** — Test 4 (R:R <2:1 on 10% trail for established megacap).
+- **0 fresh entries Tue.** Wk-18 slot budget 3/3 preserved. Deployment gap 20-31pp persists (54.65% mv vs 75-85% target — **sixth consecutive week of the gap**) but NOT a rule violation (all 7 screened ideas SKIP with specific named test/gate failures per Decision Rule).
+- **Not a flat-week violation.** All ideas' SKIPs name specific test/gate failures. R:R structural binding on single-stock mega-caps with 10% trails + sector-momentum binding on XLF (lagging since 1990) + Gate binding on existing winners (XLE/XLK near cost-cap) are the three structural constraints driving the persistent flat.
+- **Primary intraday action priorities Tue:**
+  1. **XLF MANUAL-CUT PRIORITY-1** — cushion +3.60% (TIGHTEST). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+  2. **XLE MANUAL-CUT PRIORITY-2** — cushion +4.34%. If XLE < $60.15 intraday → cancel 2cae6815 + 442df295, market sell 307 sh.
+  3. **XOM MANUAL-CUT vigilance** — cushion +5.03%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+  4. **XLK $180 CONDITIONAL EXIT armed** — cushion +11.03%. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+  5. **XLK ratchet monitoring** — prev hwm $201.39 / stop $181.251; pre-mkt mtm $202.32 above hwm → opening print >$201.39 fires further server-side ratchet (new stop ≈ $182.088 if $202.32 holds). **First discretionary tighten (+15% unrl) trigger $213.46 = +5.51% from mtm — CLOSEST YET.**
+- **MARKET-OPEN routine entry conditions Tue:** none (no fresh entries). Focus is (1) XLF $52.12 cut-flag breach (PRIORITY-1), (2) XLE $60.15 cut-flag breach (PRIORITY-2), (3) XOM $154.23 cut-flag vigilance, (4) XLK $201.39 hwm-break server-side ratchet observation, (5) XLK $180 conditional-EXIT breach check, (6) XLK $213.46 discretionary-tighten trigger watch (closest-ever), (7) ISM Services 10:00 ET soft/strong-print tape-watch.
+- **NO CLOCK-TIME GATES:** all triggers checkable at MARKET-OPEN routine runtime as price conditions.
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Weekly-review skill invocation:** Wk-16 + Wk-17 reviews STILL pending (Fri 9/26 + Fri 10/2 slots missed) — RUN WEEKLY-REVIEW SKILL this week to cover both.
