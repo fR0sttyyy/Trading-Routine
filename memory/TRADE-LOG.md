@@ -3485,3 +3485,55 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **XLK $180 CONDITIONAL EXIT armed** — cushion +11.46% (widened). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
 7. **XLK ratchet** — hwm $203.25 / stop $182.925; first discretionary tighten trigger $213.46 (+6.3% from mtm $200.62).
 8. **Wk-18 slot budget:** 1/3 used; 2 remain for Thu/Fri qualifying setups.
+
+### Oct 07 — Midday Scan (Wednesday, 12:10 ET — Wk-18 Day 3 / pre-FOMC-minutes tape / NO-OP)
+**Portfolio:** ~$100,516.76 mv+cash | **Cash:** ~$35,691.85 (~35.51%) | **Long MV:** $64,824.92 (~64.49%) | **Positions:** 5 (SMH, XLE, XLF, XLK, XOM) | **Wk-18 trades:** 1/3 used | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Live | chg_today | Unrl P&L | % mv | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| SMH | 16 | $620.40 | $623.44 | -1.432% | +$48.62 (+0.49%) | 9.92% | n/a (profitable) |
+| XLE | 307 | $64.6818 | $63.105 | -1.012% | -$484.08 (-2.44%) | 19.27% | +4.68% to $60.15 |
+| XLF | 180 | $56.045 | $53.675 | -0.620% | -$426.60 (-4.23%) | 9.61% | **+2.90% to $52.12 (TIGHTEST)** |
+| XLK | 104 | $185.616 | $201.01 | -0.490% | +$1,601.02 (+8.29%) | 20.80% | +10.45% to $180 flag |
+| XOM | 30 | $165.84 | $163.67 | -0.492% | -$65.10 (-1.31%) | 4.88% | +5.77% to $154.23 |
+
+**STEP 3 cut-loser gate NO-OP** — zero positions at -7%. Deepest unrealized loser XLF -4.23% (still +2.76pp inside cut envelope). All 5 positions in-envelope.
+
+**STEP 4 tighten-trail NO-OP** — SMH +0.49% / XLK +8.29% both below +15% first-tighten threshold. XLK trigger $213.46 = +6.19% from mtm $201.01 (narrowed from open +6.08%; CLOSEST YET).
+
+**STEP 5 thesis-check NO-OP** — all theses intact:
+- SMH: NVDA $6T + semi outlook — intact (small green on fill day).
+- XLE: WTI $89.86 firming — intact (minor intraday fade, broader trend up).
+- XLF: lagging-since-1990 thesis unchanged (not a thesis break; well inside -7% envelope).
+- XLK: AI/Nasdaq-ATH leadership intact; -0.49% intraday is pre-FOMC-minutes risk-off noise, not a leadership break.
+- XOM: crude firming thesis intact.
+
+**STEP 6 intraday research NO-OP** — no position moving sharply with no cause. All intraday moves (-0.49% to -1.43%) consistent with broad pre-FOMC-minutes de-risking (ES -0.43% / NQ -0.78% at open per pre-mkt notes).
+
+**Server-side ratchets observed since open:**
+- SMH 16 sh: trail 10% $562.6665 hwm $625.185 (9c351f1a) — ratcheted from fill-time $557.901/$619.89 (+$5.295 hwm bump before mtm fade).
+- XOM 30 sh: trail 10% $150.165 hwm $166.85 (5afbbb78) — ratcheted from prior $149.625/$166.25 (+$0.60 hwm bump).
+- XLE/XLF/XLK stops unchanged from EOD prior.
+
+**Post-midday order state (8 GTC stops covering 5 positions):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $150.165 hwm $166.85 (5afbbb78) — **ratcheted**
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+- SMH 16 sh: trail 10% $562.6665 hwm $625.185 (9c351f1a) — **ratcheted**
+
+**STEP 7 ClickUp:** NO ACTION TAKEN → no notification sent (per routine's "only if action was taken" rule).
+
+**Trades today:** 1 (SMH open, no midday action). **Wk-18 trades running total:** 1/3 slot-consuming.
+
+**PM / close priorities (unchanged from open; cushion deltas noted):**
+1. **FOMC Minutes 2:00 PM ET** — monitor post-release tape volatility.
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.90% (TIGHTEST, widened from open +2.61%). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +4.68% (narrowed from open +6.90% on crude fade). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+4. **XOM MANUAL-CUT vigilance** — cushion +5.77% (narrowed from open +7.86%). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.45% (narrowed from open +11.46%). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+6. **XLK discretionary tighten** — trigger $213.46; cushion +6.19% from mtm $201.01 (CLOSEST YET).
+7. **SMH ratchet** — hwm $625.185 / stop $562.6665; first-tighten trigger $713.46 (+15% from $620.40).
