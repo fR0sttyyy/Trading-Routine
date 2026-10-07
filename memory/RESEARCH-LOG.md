@@ -6894,3 +6894,83 @@ Order of preference at MARKET-OPEN routine runtime:
 - **NO CLOCK-TIME GATES:** all triggers checkable at MARKET-OPEN routine runtime as price conditions.
 - **PDT check:** 0/3 daytrades; no round-trips.
 - **Weekly-review skill invocation:** Wk-16 + Wk-17 reviews STILL pending (Fri 9/26 + Fri 10/2 slots missed) — RUN WEEKLY-REVIEW SKILL this week to cover both.
+
+## 2026-10-07 — Pre-market Research (Wk-18 Day 3 / Wednesday — FOMC minutes 2:00 PM ET)
+
+### Account (as of 09:20 ET pre-mkt / balance_asof 2026-10-06)
+- Equity: **$100,762.39** | Cash: **$45,618.27** (45.27%) | Long MV: **$55,144.12** (54.73%)
+- Buying power: $336,876.62 | Reg-T BP: $146,380.66 | Non-marg BP: $73,190.33
+- Last equity (Tue EOD): $100,853.72 → pre-mkt drift **-$91.33 (-0.091%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-06 (standard pre-open lag); position current_prices are Wed pre-mkt marks (XLE $64.20 vs Tue close $63.755 = +0.70%; XLF $53.62 vs $53.9881 = -0.68%; XLK $200.03 vs $202.11 = **-1.03%**; XOM $166.00 vs $164.605 = +0.85%). DATA NOT BLOCKED.
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $64.20 | +0.706% | -$147.91 (-0.75%) | 19.56% | +6.31% to $60.15 (WIDENED big) |
+| XLF | 180 | $56.045 | $53.62 | -0.722% | -$436.50 (-4.33%) | 9.58% | **+2.80% to $52.12 (TIGHTEST — NARROWED)** |
+| XLK | 104 | $185.6156 | $200.03 | **-0.975%** | +$1,499.10 (+7.77%) | **20.65% mv** / 19.16% cost | +10.01% to $180 flag (NARROWED) |
+| XOM | 30 | $165.84 | $166.00 | +0.924% | +$4.80 (+0.10%) | 4.94% | +7.09% to $154.23 (WIDENED) |
+
+### Market Context
+- **S&P 500 (Tue close):** 7818.93 **+0.58%** (4th consecutive record) | **Nasdaq:** 27599.887 +0.45% | **Dow:** 51521.28 +0.49% | **VIX:** 15.75 **+4.93%** (notable hedging demand despite ATH)
+- **Pre-mkt futures (RED):** ES=F 7839.75 **-0.43%** | NQ=F 31239.0 **-0.78%** → pullback into FOMC minutes
+- **Crude:** WTI **$89.86 +0.47%** | Brent **$101.48 +0.89%** — firming
+- **Sectors (Tue close):** XLP +0.94% | XLI +0.87% | XLK +0.53% | XLE +0.47% | XLB +0.46% | XLF +0.24% | XLV -0.17%
+- **Today's catalysts:**
+  - **FOMC Minutes 2:00 PM ET** — macro event = **SIZING INPUT (half-size qualifying setups per rule)**
+  - BMO earnings: RPM, LW, APOG — none market-moving
+  - AI/semis narrative: NVDA toward $6T mcap; Zacks AMAT/LRCX/FORM semi outlook; Saxo "SPX 4th record BRCM/AMD/NVDA gains"
+- **Position-specific news:**
+  - XLE: crude firming + Equinor Q3 trading beat (Oct 28) — positive bias
+  - XLF: $855M weekly outflow (sector leads outflows); "lagging is a yellow flag" (Jay Woods); bank earnings season starts NEXT WEEK (sector catalyst event)
+  - XLK: NVDA $6T narrative; Pluang/AOL note NVDA/AAPL/MSFT 35.87% concentration; XLK +41.07% YoY through Oct 5
+  - XOM: Q3 earnings 10/30; dividend bull case extended (Yahoo/247WallSt)
+
+### Trade Ideas
+
+**IDEA 1: SMH half-size (semi ETF) — QUALIFIES → TRADE AT OPEN at HALF SIZE**
+- Catalyst: NVDA $6T mcap narrative + Saxo "SPX 4th record BRCM/AMD/NVDA" + Zacks AMAT/LRCX/FORM semi outlook ✓
+- Sector momentum: Semis = leading sub-group of leading XLK ✓
+- Stop 7-10%: 10% trailing stop at entry ✓
+- R:R: 20%+ target on semi trend / 10% stop = 2:1 ✓
+- Buy-Side Gate (all pass): positions after fill 5/6; weekly trades 1/3; half-size cost ~$10,076 < 20% cap; cash $45,618 ample; daytrade 0/3 ✓
+- **FOMC minutes = SIZING → HALF SIZE (10% equity target = ~$10,076)**
+- Reference pre-mkt: SMH bid $618.12 / ask $651.21 (wide pre-mkt — Tue close ~$620) → half-size ≈ **15-16 sh at open quote**
+- **Runtime condition for market-open routine:** enter if `SMH ask > SMH open print` AND `NQ not red > 1%` at routine runtime
+- Concentration caveat: overlaps with XLK 20.65% mv; combined tech/semi post-fill ~30% equity (within 5-6 position cap; no sector cap in rules)
+- RESOLVE-NOW: no ex-div/halt/earnings blocker on SMH today — nothing to defer
+
+**IDEA 2: XLI full-size (industrials) — DOES NOT QUALIFY**
+- **Failed test 1** (specific catalyst documented today): XLI moved on broad rally; no XLI-specific driver in news pulls
+
+**IDEA 3: XLB full-size (materials) — DOES NOT QUALIFY**
+- **Failed test 1** (specific catalyst documented today): silver sub-story (First Majestic/Pan American) is not XLB-wide; no XLB-specific driver
+
+**IDEA 4: XLK add — DOES NOT QUALIFY**
+- **Failed Buy-Side Gate**: XLK mv already 20.65%; cost basis 19.16% leaves ~$850 room — impractical add; essentially at per-position cap
+
+### Risk Factors
+- **FOMC Minutes 2:00 PM ET** — hawkish surprise = tech/duration risk (XLK pre-mkt -0.98% already pricing some); dovish/in-line = continued rally
+- VIX +4.93% Tue despite ATH indices = underlying hedging demand
+- Pre-mkt futures RED (ES -0.43%, NQ -0.78%) — tape pulling back pre-event
+- XLF entering bank-earnings week next week (10/13 Fri) — sector catalyst event
+- XLF cushion to cut TIGHTEST at +2.80% (NARROWED from Tue EOD +3.46%) — still inside envelope but closest to action
+- XLK pre-mkt -0.98% narrows all cushions and pushes first discretionary tighten trigger further ($213.46 = +6.71% from pre-mkt mtm vs Tue EOD +5.62%)
+
+### Decision — TRADE
+- **SMH QUALIFIES → ENTER AT OPEN at HALF SIZE** (FOMC minutes = sizing input, not blocker)
+  - Target cost ~$10,076 (10% equity); shares ≈ 15-16 at open quote
+  - Order shape: market buy at open, then 10% trailing stop GTC immediately after fill
+  - Runtime condition: `SMH ask > SMH open print` AND `NQ not red > 1%` at market-open routine runtime
+- **No action on XLE/XLF/XLK/XOM** — all GTC stops in place; XLK server-side ratchets to continue if hwm $203.25 broken
+- **Flat-week guard:** Wk-18 2 days in with 0 slot-consuming trades; SMH entry today = 1/3 slot used, resolves the structural underdeployment pressure (6-week gap) for the week
+
+### Market-Open Routine Checklist
+1. **SMH entry** — half-size market buy (~15-16 sh) if `SMH ask > open print` AND `NQ not red > 1%`; attach 10% trailing stop immediately after fill
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.80% TIGHTEST; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +6.31% widened; if XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh
+4. **XOM MANUAL-CUT vigilance** — cushion +7.09% widened; if XOM < $154.23 → cancel 5afbbb78, market sell 30 sh
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.01%; if XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm)
+6. **XLK ratchet monitoring** — hwm $203.25 / stop $182.925; if XLK breaks $203.25 → further server-side ratchet. First discretionary tighten trigger $213.46 = +6.71% from pre-mkt mtm
+7. **FOMC minutes 2:00 PM ET** — monitor post-release tape; no clock-time action gate but note the volatility window
