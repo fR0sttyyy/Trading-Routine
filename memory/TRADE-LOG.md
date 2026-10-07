@@ -3416,3 +3416,72 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.94%. If XLK < $180 intraday → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
 7. **XLK ratchet monitoring** — hwm $203.25 / stop $182.925; if XLK breaks $203.25 → further server-side ratchet. **First discretionary tighten trigger $213.46 = +5.62% from mtm — CLOSEST YET.** When XLK clears $213.46, cancel both legs and replace at 7% trail.
 8. **Sector momentum re-check** — XLK ATH leadership intact and extending; XLE/XOM crude bounce holding; XLF second green day may be dead-cat vs structural turn — needs 3rd green close to credit as reversal.
+
+### Oct 07 — Market-Open Routine (Wednesday, 09:38 ET — Wk-18 Day 3 / FOMC MINUTES DAY / 1 ACTION: SMH FRESH half-size on NVDA $6T narrative + semi outlook catalyst)
+**Portfolio:** $100,784.03 (pre-fill) | **Cash:** $45,618.27 → ~$35,691.85 (post-fill ~35.42%) | **Positions:** 4 → 5 (XLE + XLF + XLK + XOM + SMH) | **Wk-18 trades:** 0 → 1/3 used | **daytrade_count:** 0/3 (null in API, N/A above $25k)
+
+| Ticker | Side | Shares | Fill Price | Cost | Stop | Thesis | Target | R:R |
+| - | - | - | - | - | - | - | - | - |
+| SMH | BUY (FRESH) | 16 | $620.40125 | $9,926.42 | $557.901 (trail 10% GTC, hwm $619.89, id 9c351f1a) | NVDA $6T mcap narrative + Saxo "SPX 4th record BRCM/AMD/NVDA gains" + Zacks AMAT/LRCX/FORM semi outlook; semis = leading sub-group of XLK ATH leadership; half-size per FOMC-minutes sizing rule; adds dedicated semi ETF exposure to complement XLK broad tech | $744.48 (+20% from $620.40) | 2:1 (10% stop / 20% target) |
+
+**Pre-market plan execution:**
+- **SMH FRESH ✓ ALL GATES MET at open re-quote.** 09:36:52 ET quote ap $622.90 / bp $622.38, spread 0.08% ✓. Runtime conditions BOTH TRUE: SMH ask $621.53 > today's open print $620.68 ✓; QQQ (NQ proxy) $753.16 vs prev close $759.615 = -0.85% not red > 1% ✓. Half-size 16 sh × $620.40125 = $9,926.42 = 9.85% of $100,784.03 equity (target 10%). FOMC-minutes sizing rule honored (half-size, not deferred). Trail 10% GTC placed (id 9c351f1a, stop $557.901, hwm $619.89). Wk-18 slot 0 → 1/3 consumed.
+- **XLF MANUAL-CUT PRIORITY-1 NO-OP — HOLD.** Live $53.48 = -0.981% intraday, cushion to -7% cut $52.12 = +2.61% above trigger (TIGHTEST — narrowed from pre-mkt +2.80%). Still inside envelope.
+- **XLE MANUAL-CUT PRIORITY-2 NO-OP — HOLD.** Live $64.30 = +0.863% intraday, cushion to $60.15 = +6.90% (widened from pre-mkt +6.31%). Robust.
+- **XOM MANUAL-CUT NO-OP — HOLD.** Live $166.3025 = +1.108% intraday, cushion to $154.23 = +7.86% (widened from pre-mkt +7.09%).
+- **XLK $180 conditional EXIT NO-OP — HOLD.** Live $200.62 = -0.683% intraday, cushion to $180 flag = +11.46% (widened from pre-mkt +10.01%). Conditional EXIT remains armed.
+- **XLK ratchet observed:** hwm unchanged $203.25 (early-session not yet probed); server-side stop remains $182.925. No cancel/replace.
+- **No XLI / XLB / XLK ADD** — pre-market Ideas 2-4 all failed Test 1 (catalyst) or Buy-Side Gate (20% cap).
+
+**Hard-check gates (all pass on SMH FRESH):**
+- Total positions after fill: 5 (≤ 6) ✓
+- Wk-18 trades after fill: 1/3 (≤ 3) ✓
+- SMH cost $9,926.42 = 9.85% of $100,784.03 equity (≤ 20%) ✓
+- Cost $9,926.42 ≤ cash $45,618.27 ✓
+- Catalyst documented (RESEARCH-LOG 2026-10-07 Idea 1) ✓
+- PDT room: account $100k >> $25k PDT threshold; not applicable ✓
+- Stock instrument (ETF) ✓
+- FOMC macro-event sizing: half-size (not deferred) per rule ✓
+
+**Execution audit (13:38:48-13:39:11 UTC / 09:38:48-09:39:11 ET):**
+1. 09:36:52 ET — SMH open quote ap $622.90 / bp $622.38; today's dailyBar.o $620.68; QQQ -0.85% → runtime gates pass.
+2. 09:38:48 ET — Submitted market buy 16 sh SMH (order 23d51e40-7abb-4ba8-beef-474df0004587, client_order_id bot-20261007-SMH-133848-11551).
+3. Fill: 16 sh @ $620.40125 avg (cost $9,926.42).
+4. 09:39:11 ET — Submitted trail 10% GTC sell 16 sh SMH (order 9c351f1a-977c-4249-9de9-c9b74cfe9479, stop $557.901 hwm $619.89).
+5. Zero coverage gap; position protected within 23 seconds of fill.
+
+**Cut-loser gate NO-OP on existing book at open:**
+- XLE 307 sh wtd $64.6818, live $64.30 = -$117.21 (-0.59%). Cut trigger $60.15 (+6.90% cushion). No action.
+- XLF 180 sh @ $56.045, live $53.48 = -$461.70 (-4.58%). Cut trigger $52.12 (+2.61% cushion — TIGHTEST). No action.
+- XLK 104 sh @ $185.616, live $200.62 = +$1,560.46 (+8.08%). Cut trigger irrelevant (profitable). $180 flag cushion +11.46%.
+- XOM 30 sh @ $165.84, live $166.3025 = +$13.88 (+0.28%). Cut trigger $154.23 (+7.86% cushion). No action.
+
+**Tighten-trail check NO-OP:** XLK top at +8.08% (need +15% for first tighten to 7%; trigger $213.46). All others below +15%. No cancel-replace.
+
+**Post-action order state (8 GTC stops covering 5 positions, 8 legs):**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged (server-side)
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged (server-side)
+- XOM 30 sh: trail 10% $149.625 hwm $166.25 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+- SMH 16 sh: trail 10% $557.901 hwm $619.89 (9c351f1a) — **NEW**
+
+**Deployment:** ~$55,228 mv pre-fill (54.77%) → ~$65,154 mv post-fill (~64.63%, +9.86pp). SMH entry closes ~10pp of the 20-31pp structural gap vs 75-85% target. Wk-18 slot budget 1/3 used; 2 remain.
+
+**Sector-momentum posture:** book now 1 energy ETF (XLE ~19.57% mv) + 1 energy single-name (XOM ~4.95% mv) + 1 tech ETF (XLK ~20.69% mv) + 1 financials ETF (XLF ~9.55% mv) + 1 semi ETF (SMH ~9.85% mv). Combined tech/semi ~30.54% mv (no sector cap in rules). Tech-leadership concentration consistent with XLK ATH extension thesis.
+
+**Realized P&L this trade:** $0 (open). Cumulative phase P&L $100,784.03 - $100,000 = +$784.03 (+0.78%) at execution snapshot.
+
+**STEP 7 ClickUp send:** posting recap (SMH FRESH 16 sh @ $620.40, stop trail 10% $557.90, FOMC-minutes-day half-size, NVDA $6T + semi outlook catalyst).
+
+**Next checkpoints:**
+1. **FOMC Minutes 2:00 PM ET** — monitor post-release tape volatility; no clock-time action gate.
+2. **SMH ratchet monitoring** — new leg hwm $619.89 stop $557.901; first-tighten trigger $713.46 (+15% from $620.40).
+3. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.61% (TIGHTEST, narrowed). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+4. **XLE MANUAL-CUT PRIORITY-2** — cushion +6.90% (widened). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+5. **XOM MANUAL-CUT vigilance** — cushion +7.86% (widened). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+6. **XLK $180 CONDITIONAL EXIT armed** — cushion +11.46% (widened). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+7. **XLK ratchet** — hwm $203.25 / stop $182.925; first discretionary tighten trigger $213.46 (+6.3% from mtm $200.62).
+8. **Wk-18 slot budget:** 1/3 used; 2 remain for Thu/Fri qualifying setups.
