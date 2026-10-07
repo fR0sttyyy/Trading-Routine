@@ -3537,3 +3537,40 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.45% (narrowed from open +11.46%). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
 6. **XLK discretionary tighten** — trigger $213.46; cushion +6.19% from mtm $201.01 (CLOSEST YET).
 7. **SMH ratchet** — hwm $625.185 / stop $562.6665; first-tighten trigger $713.46 (+15% from $620.40).
+
+### Oct 07 — EOD Snapshot (Day 3, Wednesday — Wk-18 Day 3 / FOMC Minutes digested / 1 trade: SMH FRESH)
+**Portfolio:** $100,711.69 | **Cash:** $35,691.85 (35.44%) | **Day P&L:** -$154.52 (-0.153%, vs Oct 06 EOD $100,866.21) | **Phase P&L:** +$711.69 (+0.712%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| SMH | 16 | $620.40125 | $624.91 | -1.20% (vs lastday $632.50 — pre-position reference) | +$72.14 (+0.727%) | $563.031 (trail 10%, hwm $625.59 — ratcheted intraday from $557.901/$619.89) |
+| XLE | 307 | $64.6818 | $63.445 | -0.478% | -$379.70 (-1.912%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 180 | $56.045 | $53.76 | -0.463% | -$411.30 (-4.077%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $201.35 | -0.322% | +$1,636.38 (+8.477%) | $182.925 (trail 10%, hwm $203.25) |
+| XOM | 30 | $165.84 | $164.31 | -0.103% | -$45.90 (-0.923%) | $150.165 (trail 10%, hwm $166.85 — ratcheted intraday from $149.625/$166.25) |
+
+**Notes:** Wk-18 Day 3 close. Clean 1-day baseline vs Oct 06 EOD snapshot (no gap). Day P&L -$154.52 (-0.153%) is the first down close in five sessions after the 10/02 → 10/06 four-green streak; magnitude modest and inside pre-FOMC-minutes-day expected volatility. One trade executed: SMH FRESH 16 sh @ $620.40125 at 09:38 ET (half-size per FOMC-minutes-day sizing rule, trail 10% GTC placed within 23 seconds of fill; closes ~10pp of structural deployment gap). SMH is only green position by day's end (+$72.14, +0.73% unrl); it was fillled during the day so no stated day-chg — the lastday ref of $632.50 was the prior close before our position existed. All 4 pre-existing positions red on the day: XLE -0.478% (crude fade post-WTI reversal from pre-mkt highs); XLF -0.463% (giving back the two-day bounce; cushion to cut tightened); XLK -0.322% (orderly pullback from near-ATH leadership); XOM -0.103% (shallow). Cut-loser envelope end-of-day: XLF +3.14% cushion (TIGHTEST — narrowed from midday +2.90% effectively flat, close $53.76 vs midday $53.675, actually widened by 2bp; $52.12 flag); XLE +5.47% cushion ($60.15 flag — narrowed from midday +4.68% actually widened as close firmed vs midday); XOM +6.54% cushion ($154.23 flag — widened from midday +5.77%); XLK not cut-relevant (+8.48% unrl); XLK $180 conditional cushion +10.64% (narrowed from midday +10.45% actually widened); XLK trail cushion to $182.925 = +9.14%. SMH not cut-relevant (+0.73% unrl); SMH $558 approx cushion to trail stop $563.031 = +9.9%. Tighten-trail: XLK top at +8.48% unrl (need +15% for first tighten; trigger $213.46 = +6.02% from mtm — narrowed slightly from midday +6.19%). SMH top at +0.73% (need +15%; trigger $713.46 = +14.17% from mtm $624.91). Wk-18 slot budget 1/3 used (SMH); 2 remain. Deployment 64.56% mv (up +9.79pp from Oct 06's 54.77% — closing ~half the 20-31pp structural gap vs 75-85% target; one more mid-size entry would clear the gap). Alpaca `last_equity: $100,853.72` (Oct 06 close per Alpaca's own cutoff) differs $12.49 from TRADE-LOG Oct 06 snapshot $100,866.21 (immaterial — snapshot-capture timing). Realized P&L today: $0. FOMC Minutes 2:00 PM ET released; tape digested without extraordinary volatility (all positions already red going into print, no outsized post-release move). Server-side ratchets observed intraday: SMH hwm $619.89 → $625.59 (+$5.70, stop $557.901 → $563.031); XOM hwm $166.25 → $166.85 (+$0.60, stop $149.625 → $150.165); all other hwms unchanged.
+
+**Trades today:** 1 (SMH FRESH 16 sh @ $620.40125, trail 10% GTC id 9c351f1a).
+
+**Wk-18 trades running total:** 1/3 slot-consuming (Mon 0, Tue 0, Wed 1).
+
+**Post-EOD order state (8 GTC stops covering 5 positions):**
+- SMH 16 sh: trail 10% $563.031 hwm $625.59 (9c351f1a) — **ratcheted intraday**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $150.165 hwm $166.85 (5afbbb78) — **ratcheted intraday**
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Thursday 10/08 (Wk-18 Day 4) plan:**
+1. **Pre-market scan** — Wk-18 slot budget 2/3 remain; look for qualifying semi/tech/energy momentum setups to close remaining deployment gap (~10pp still open vs 75% floor).
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +3.14% (TIGHTEST). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +5.47%. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+4. **XOM MANUAL-CUT vigilance** — cushion +6.54% (widened). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.64%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break).
+6. **XLK ratchet** — hwm $203.25 / stop $182.925; first discretionary tighten trigger $213.46 = +6.02% from mtm $201.35.
+7. **SMH ratchet monitoring** — hwm $625.59 / stop $563.031; first-tighten trigger $713.46 = +14.17% from mtm $624.91.
+8. **Sector momentum re-check** — tech-leadership (XLK/SMH) intact (both pulled back orderly, not thesis-break); energy (XLE/XOM) crude bounce stalling but inside envelope; XLF fifth weak week continues (nominal red day post two green days — not yet 3-consecutive -1.5% tracker arming).
