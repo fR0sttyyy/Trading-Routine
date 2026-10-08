@@ -6974,3 +6974,117 @@ Order of preference at MARKET-OPEN routine runtime:
 5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.01%; if XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm)
 6. **XLK ratchet monitoring** — hwm $203.25 / stop $182.925; if XLK breaks $203.25 → further server-side ratchet. First discretionary tighten trigger $213.46 = +6.71% from pre-mkt mtm
 7. **FOMC minutes 2:00 PM ET** — monitor post-release tape; no clock-time action gate but note the volatility window
+
+## 2026-10-08 — Pre-market Research (Wk-18 Day 4 / Thursday — Yields 5.31% + crude +4% US-Iran geopol)
+
+### Account (as of ~08:35 ET pre-mkt / balance_asof 2026-10-07)
+- Equity: **$100,747.14** | Cash: **$35,691.84** (35.43%) | Long MV: **$65,055.30** (64.57%)
+- Buying power: $324,922.21 | Reg-T BP: $136,438.98 | Non-marg BP: $68,219.49
+- Last equity (Wed EOD): $100,684.90 → pre-mkt drift **+$62.24 (+0.062%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-07 (standard pre-open lag); SPY quote 08:35 ET live; position current_prices are Thu pre-mkt marks (SMH $615 vs Wed close $625.03 = -1.60%; XLE $64.49 vs $63.36 = **+1.78%**; XLF $53.4155 vs $53.75 = -0.62%; XLK $199.72 vs $201.39 = -0.83%; XOM $167.7068 vs $164.05 = **+2.23%**). Gemini rate-limited (429, exit 3) — WebSearch fallback used for market context. DATA NOT BLOCKED.
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| SMH | 16 | $620.4013 | $615.00 | -1.60% | -$86.42 (-0.87%) | 9.77% | +9.26% to trail $563.3055 |
+| XLE | 307 | $64.6818 | $64.49 | +1.78% | -$58.88 (-0.30%) | 19.65% | +7.22% to $60.15 (WIDENED big) |
+| XLF | 180 | $56.045 | $53.4155 | -0.62% | -$473.31 (-4.69%) | 9.54% | **+2.49% to $52.12 (TIGHTEST — NARROWED from Wed EOD +3.14%)** |
+| XLK | 104 | $185.6156 | $199.72 | -0.83% | +$1,466.86 (+7.60%) | 20.62% | +10.96% to $180 flag (NARROWED) |
+| XOM | 30 | $165.84 | $167.7068 | **+2.23%** | +$56.00 (+1.13%) | 4.99% | +8.74% to $154.23 (WIDENED big) |
+
+### Market Context
+- **S&P 500 (Wed close):** 7,801.77 **-0.22%** (pullback from Tue ATH; first close above 7,800 was Tue) | **Nasdaq:** 27,538.69 -0.22% | **Dow:** 51,179.87 **-0.66%** | **Russell 2000: -1.31%** (rate-sensitive leading decline)
+- **Pre-mkt futures (RED):** ES -0.49/-0.50% | NQ-100 -0.70/-0.73% | Dow -0.87/-0.90% → risk-off pulling further pre-NY open
+- **10-year yield:** **5.31–5.36%** — HIGHEST SINCE APRIL 2002. Duration pressure extreme.
+- **Crude REVERSAL (geopolitical):** WTI **+4%** on US-Iran tensions — Brent follows. Geopolitical premium re-arming after Mon/Tue unwind.
+- **VIX:** no fresh pre-mkt print; Wed close context implied ~16-17 range given SPX -0.22%.
+- **Sectors (Wed close context):** DEFENSIVE BID — healthcare, consumer defensive gained; INDUSTRIALS LED DECLINE (CAT -6%); MATERIALS down; SMALL CAPS (Russell -1.31%) crushed on yields.
+- **Today's catalysts:**
+  - **Initial Jobless Claims 8:30 ET** — consensus ~200k, prior 197k. **NOT a listed macro-blocker** (strategy specifies CPI/FOMC); full-size sizing default.
+  - **FOMC MINUTES DIGESTED Wed PM** — officials expect another rate hike this year, no timing. Hawkish lean. Market priced ~20% chance Oct hike / 72% hold.
+  - **Crude +4% US-Iran geopolitical** — energy sector catalyst, direct bullish XLE/XOM
+  - **Fed speakers scheduled** (per Benzinga search) — unknown lineup, standard volatility input
+  - **Broadcom $50B AI chip financing + Micron strike** — semi noise; SMH pre-mkt -1.60%
+  - **Soft Sept jobs (29k NFP, UR 4.2%)** already in base rate expectations — tape digested
+- **Earnings before open:** No market-moving large-cap earnings pre-identified for Thu (bank earnings begin NEXT week — JPM/C/BAC/WFC Fri 10/16-ish, not confirmed).
+- **Economic calendar:** Jobless claims 8:30 ET (sole first-tier print); Fed speakers scattered; no CPI/PPI/FOMC today.
+- **Sector momentum map (post-Wed-close):** **ENERGY LEADING** (crude +4% + geopol premium; XLE/XOM both green pre-mkt). **DEFENSIVE BID** (XLV healthcare, XLP staples firmer on yield re-rate). **SEMIS UNDER PRESSURE** (SMH -1.60% pre-mkt; Broadcom financing/Micron strike noise). **TECH-GROWTH YIELD HEADWIND** (XLK -0.83% pre-mkt; 10-yr 5.31% is extreme duration pressure). **SMALL CAPS CRUSHED** (Russell -1.31% Wed on rate repricing). **INDUSTRIALS WEAK** (CAT -6% Wed; XLI lagging). **FINANCIALS MIXED** (lagging-since-1990 structural; XLF cushion narrowed).
+
+### Trade Ideas (6 screened)
+
+**IDEA 1: XOM ADD half-size — crude +4% US-Iran geopolitical catalyst**
+- Test 1 (specific catalyst): ✓ **Crude WTI +4% on US-Iran tensions** — direct XOM beneficiary, documented today.
+- Test 2 (sector momentum): ✓ **Energy LEADING** (XLE +1.78%, XOM +2.23% pre-mkt; crude breakout).
+- Test 3 (definable 7-10% stop): ✓ 10% trail from $167.71 = $150.94.
+- Test 4 (R:R ≥ 2:1): Entry ~$167.71, stop $150.94 (−$16.77 risk), target 2:1 = $201.25 (+20%). XOM at ATH; crude-geopol thesis supports extension. **Marginal 2:1 ✓**.
+- **Buy-Side Gate (all pass):** positions after fill 5/6 (ADD to existing, not new slot); weekly trades 1/3; cost cap 20% = $20,149; current XOM cost $4,975 — **half-size add 30 sh @ $167.71 = $5,031** → new XOM cost $10,006 (9.93% equity, well under cap); cash $35,692 ample; daytrade 0/3; catalyst documented; stock ✓.
+- **Sizing rationale (half-size, 30 sh):** full-size add (90 sh / 20% total) would combine with XLE 19.65% to create **~40% energy concentration** on a geopolitical oil spike. No formal sector cap in rules, but "aggressive but disciplined" doctrine + "exit sector after 2 failed trades" implies sector-level risk discipline. Half-size at ~10% equity per leg (XLE 20% + XOM 10% = 30% energy) preserves optionality if geopol de-escalates.
+- **RESOLVE-NOW:** no ex-div/halt/earnings blocker on XOM Thu (Q3 earnings 10/30 confirmed per prior logs). Nothing to defer.
+- **Runtime condition for market-open routine:** enter 30 sh market buy if `XOM ask > $165` AND `ES not red > 1%` at routine runtime; attach 10% trailing stop GTC for new 30 sh immediately after fill.
+- **DECISION → QUALIFIES → TRADE AT OPEN (half-size, 30 sh add)**
+
+**IDEA 2: XLE ADD — crude +4% catalyst**
+- Test 1 (catalyst): ✓ Crude +4% US-Iran — same catalyst as XOM.
+- Test 2 (sector momentum): ✓ Energy leading.
+- Buy-Side Gate: cost cap 20% = $20,149; current XLE cost **$19,857** → **headroom $292** → max 4-5 sh @ $64.49 = $258-$322 → **UNECONOMIC**.
+- **DOES NOT QUALIFY → Gate (cost-cap near-exhausted; add size uneconomic).**
+
+**IDEA 3: XLK ADD — AI/tech dip buy on yield pullback**
+- Test 1 (catalyst): ✗ Pre-mkt -0.83% is a BEARISH yield-pressure move, not a bullish catalyst. No fresh positive single-event.
+- Buy-Side Gate: cost cap 20% = $20,149; current XLK cost $19,304 → headroom $845 → max 4 sh @ $199.72 = $799 → **UNECONOMIC**.
+- **DOES NOT QUALIFY → Test 1 (no bullish catalyst) + Gate (cost-cap near-exhausted).**
+
+**IDEA 4: SMH ADD — semi dip buy on sector pullback**
+- Test 1 (catalyst): ✗ Pre-mkt -1.60% is pressure, not a bullish catalyst. Broadcom $50B financing + Micron strike = sector NOISE, not a clean bull-case setup today.
+- Test 2 (sector momentum): ✗ Semis UNDER PRESSURE pre-mkt (SMH -1.60%); yesterday's NVDA $6T narrative being retraced on yield move.
+- **DOES NOT QUALIFY → Test 1 (no bullish catalyst today, pressure not dip-buy signal) + Test 2 (sector no longer leading at this moment, pulling back).**
+
+**IDEA 5: XLV OPEN NEW — defensive bid**
+- Test 1 (catalyst): ✓ Marginal — healthcare/defensive gained Wed per Fool midday; yield re-rate favors defensive multiples.
+- Test 2 (sector momentum): ✓ Defensive sectors firming on yield move + risk-off tape.
+- Test 3 (stop): ✓ definable 10%.
+- Test 4 (R:R): XLV ask was $0 (illiquid pre-mkt); bid $164.16. Entry ~$164.50; stop 10% = $148.05 (−$16.45 risk); 2:1 target = $197.40 (+20%). XLV historical range tops ~$170-172 — target NOT reachable near-term on 10% trail. **R:R <2:1 → Fails Test 4.**
+- **DOES NOT QUALIFY → Test 4 (R:R <2:1 for XLV on 10% trail; sector moves don't support +20% target).**
+
+**IDEA 6: Energy single-name alternative (CVX / COP / OXY) — new 6th position**
+- Would be 6th position (at max slot cap). Buy-Side Gate: positions after fill = 6 (at cap, allowable).
+- Test 1 (catalyst): ✓ Crude +4% catalyst same as XOM/XLE.
+- Test 2 (sector momentum): ✓ Energy leading.
+- Test 4 (R:R): similar structural 2:1 constraint as XOM; no distinct single-name catalyst beyond sector.
+- **DOES NOT QUALIFY cleanly over XOM ADD:** adding a NEW energy name uses a slot while XOM ADD doesn't (existing position); concentration logic identical; prefer the ADD. Not screened further — redundant with Idea 1.
+
+### Risk Factors
+- **10-year yield 5.31–5.36% HIGHEST SINCE APRIL 2002** — extreme duration pressure. If yield pushes 5.4%+ intraday, XLK/SMH risk re-arms (XLK $180 flag; SMH -7% cut math); XLF AFS loss optics re-stressed.
+- **XLF cushion +2.49% TIGHTEST YET** (narrowed from Wed EOD +3.14%) — close to action. If XLF < $52.12 intraday → cancel 8bd5213b + bbf96d5f, market sell 180 sh (PRIORITY-1).
+- **Crude geopolitical premium is BINARY** — US-Iran de-escalation headline could reverse crude -5% instantly, dragging XLE/XOM. Half-size XOM add caps the chase risk.
+- **SMH -1.60% pre-mkt** — same-day correction after Wed +0.73% unrealized print. Cushion to trail $563.3055 = +9.26% from mtm $615. First-tighten trigger $713.46 = +16.01% from mtm (still far).
+- **XLK first discretionary tighten trigger $213.46** — mtm $199.72 = +6.88% from trigger (narrowed from Wed EOD +6.02%; moving further from trigger on yield-pressure drawdown).
+- **XLE cushion +7.22% WIDENED** — crude +4% pop lifts XLE to safer margin.
+- **XOM cushion +8.74% WIDENED big** — same crude bid.
+- **Jobless Claims 8:30 ET** — not a macro-blocker (CPI/FOMC-level) but a soft/strong print will set yields' intraday direction. Soft = growth bid (XLK/SMH lift, defensive fade); strong = yield re-pop (XLK/XLF pressure, energy still bid on geopol).
+- **Pre-mkt futures RED (-0.49% to -0.90% Dow)** — tape pulling further risk-off before NY open.
+- **Semis under pressure (SMH -1.60%)** — part of broader growth-yield headwind, not a thesis-break on the leading sub-group; SMH position at only -0.87% unrl, inside envelope.
+- **Industrials led Wed decline (CAT -6%)** — sector weakness confirms rate-sensitive beta rolling over.
+- **Bank earnings begin NEXT week** — XLF catalyst event looms (JPM/C/WFC/BAC targeted ~Fri 10/16).
+
+### Decision — TRADE
+- **XOM ADD 30 sh (half-size) QUALIFIES → ENTER AT OPEN**
+  - Target cost: ~$5,031 (30 sh @ ~$167.71 open quote)
+  - Order shape: market buy at open, attach **separate** 10% trailing stop GTC for new 30 sh immediately after fill (does NOT merge with existing 5afbbb78 at $150.165 / hwm $166.85 — new order with own hwm)
+  - **Runtime condition for MARKET-OPEN routine:** enter if `XOM ask > $165` AND `ES not red > 1%` at routine runtime
+  - Rationale: crude +4% US-Iran geopolitical catalyst in leading sector; existing 20% XLE sector exposure drives HALF-size discipline (not a strategy half-size trigger — judgment-call sizing)
+- **No action on SMH/XLE/XLF/XLK** — all GTC stops in place; SMH stop ratcheted intraday Wed (hwm $625.895 / stop $563.3055); XLK ratchet dormant pending $203.25 hwm break.
+- **Flat-week guard:** Wk-18 Day 4 with 1 slot-consuming trade used; XOM ADD = 2/3 Wk-18 trade budget consumed; 1 slot remains for Fri qualifying setups. Deployment 64.57% → post-XOM-fill ~69.57% (closes further gap to 75% floor).
+
+### Market-Open Routine Checklist (Thu 10/8)
+1. **XOM ADD 30 sh** — market buy if `XOM ask > $165` AND `ES not red > 1%`; attach 10% trail GTC immediately after fill
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.49% TIGHTEST YET. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +7.22% widened. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh
+4. **XOM MANUAL-CUT vigilance** — cushion +8.74% widened. If XOM < $154.23 → cancel 5afbbb78 (and new ADD stop), market sell all XOM shares
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.96%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm at 10-yr 5.31%+)
+6. **XLK ratchet monitoring** — hwm $203.25 / stop $182.925; first discretionary tighten trigger $213.46 = +6.88% from mtm $199.72
+7. **SMH ratchet monitoring** — hwm $625.895 / stop $563.3055 (ratcheted intraday Wed); first-tighten trigger $713.46 = +16.01% from mtm $615
+8. **Jobless Claims 8:30 ET** — no clock-time entry gate; monitor yield reaction for XLK/XLF cushion impact
+9. **PDT check:** 0/3 daytrades; no round-trips
+10. **Weekly-review skill invocation:** Wk-16 + Wk-17 reviews STILL pending — RUN WEEKLY-REVIEW SKILL Fri PM to cover both missed weeks
