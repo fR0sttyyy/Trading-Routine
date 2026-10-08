@@ -3645,3 +3645,65 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 8. **Iran escalation headline tape watch** — crude $104 Brent, VIX 15.5; any VIX re-pop above 17 re-arms XLK duration overlay.
 9. **Wk-18 slot budget:** 2/3 used; 1 remains for Fri qualifying setup.
 10. **6-position cap REACHED** — no further opens Fri unless a position is closed first.
+
+### Oct 08 — Midday Scan (Thursday, 12:10 ET — Wk-18 Day 4 / Iran+crude tape digested / NO-OP)
+**Portfolio:** ~$100,859 mv+cash | **Cash:** ~$15,756 (post-NVDA entry) | **Long MV:** $85,411 (~84.69% mv) | **Positions:** 6 (NVDA, SMH, XLE, XLF, XLK, XOM) | **Wk-18 trades:** 2/3 used | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Live | chg_today | Unrl P&L | % mv | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $235.38 | -0.88% | +$71.74 (+0.36%) | 19.84% | n/a (profitable) |
+| SMH | 16 | $620.401 | $617.37 | -1.23% | -$48.50 (-0.49%) | 9.79% | n/a (near entry) |
+| XLE | 307 | $64.6818 | $65.185 | +2.88% | +$154.48 (+0.78%) | 19.84% | +8.47% to $60.15 |
+| XLF | 180 | $56.045 | $53.685 | -0.12% | -$424.80 (-4.21%) | 9.58% | **+2.92% to $52.12 (TIGHTEST)** |
+| XLK | 104 | $185.616 | $199.98 | -0.70% | +$1,493.90 (+7.74%) | 20.62% | +9.99% to $180 flag |
+| XOM | 30 | $165.84 | $168.43 | +2.67% | +$77.70 (+1.56%) | 5.01% | +9.07% to $154.23 |
+
+**STEP 3 cut-loser gate NO-OP** — zero positions at -7%. Deepest unrealized loser XLF -4.21% (still +2.79pp inside cut envelope). All 6 positions in-envelope.
+
+**STEP 4 tighten-trail NO-OP** — top unrealized XLK +7.74% below +15% first-tighten threshold. NVDA +0.36% / XOM +1.56% / XLE +0.78% / SMH -0.49% all far below. XLK trigger $213.46 = +6.74% from mtm $199.98 (unchanged from open).
+
+**STEP 5 thesis-check NO-OP** — all 6 theses intact:
+- NVDA: Morgan Stanley TOP PICK + Citi 5 chip picks + Barclays AI FOMO — intact (+0.36% unrl post-fill).
+- SMH: NVDA $6T + semi outlook — intact (-0.49% inside envelope; semi tape red on risk-off, not thesis break).
+- XLE: WTI firming + Iran escalation — intact (+2.88% intraday on crude +4%; benefits directly from escalation).
+- XLF: Lagging-since-1990 thesis unchanged (not a thesis break; -4.21% inside -7% envelope; -0.12% intraday nominal).
+- XLK: AI/Nasdaq-ATH leadership intact; -0.70% intraday is risk-off noise, not leadership break.
+- XOM: Crude firming thesis intact (+2.67% intraday on Iran+crude move).
+
+**STEP 6 intraday research NO-OP** — no position moving sharply with no cause. All moves have known catalysts:
+- XLE +2.88% / XOM +2.67%: Iran escalation + crude +4% (expected per pre-market thesis).
+- SMH -1.23% / XLK -0.70% / NVDA -0.88% (chg_today): broad risk-off tape on Iran headline (expected; VIX 15.5 +2.79%).
+- XLF -0.12% / XLB/XLI mildly red: broader tape digestion.
+
+**Server-side ratchets observed since open:**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — ratcheted from fill-time $211.05/$234.50 (hwm +$2.57, stop +$2.31).
+- SMH 16 sh: trail 10% $563.3055 hwm $625.895 (9c351f1a) — ratcheted from prior $563.031/$625.59 (hwm +$0.305).
+- XOM 30 sh: trail 10% $152.145 hwm $169.05 (5afbbb78) — ratcheted from prior $150.165/$166.85 (hwm +$2.20, stop +$1.98).
+- XLE/XLF/XLK stops unchanged.
+
+**Post-midday order state (9 GTC stops covering 6 positions):**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — **ratcheted**
+- SMH 16 sh: trail 10% $563.3055 hwm $625.895 (9c351f1a) — **ratcheted**
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $152.145 hwm $169.05 (5afbbb78) — **ratcheted**
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**STEP 7 ClickUp:** NO ACTION TAKEN → no notification sent (per routine's "only if action was taken" rule).
+
+**Trades today:** 1 (NVDA FRESH, no midday action). **Wk-18 trades running total:** 2/3 slot-consuming.
+
+**PM / close priorities (unchanged from open; cushion deltas noted):**
+1. **NVDA new-position monitoring** — hwm $237.07 / stop $213.363; first-tighten trigger $269.72 = +14.56% from mtm $235.38.
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.92% TIGHTEST (widened from open +2.75%). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +8.47% WIDENED on crude +4% (from open +7.57%). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+4. **XOM MANUAL-CUT vigilance** — cushion +9.07% WIDENED (from open +8.72%). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.99% (unchanged). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+6. **XLK discretionary tighten** — trigger $213.46 = +6.74% from mtm $199.98 (unchanged).
+7. **SMH ratchet** — hwm $625.895 / stop $563.3055; first-tighten trigger $713.46.
+8. **6-position cap REACHED** — no further opens today unless a position is closed first.
+9. **Iran headline tape watch** — VIX 15.5; VIX re-pop above 17 re-arms XLK duration overlay.
+10. **Wk-18 slot budget:** 2/3 used; 1 remains for Fri qualifying setup.
