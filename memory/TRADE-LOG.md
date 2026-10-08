@@ -3574,3 +3574,74 @@ Note: workflow directs "run pre-market STEPS 1-3 inline" if RESEARCH-LOG missing
 6. **XLK ratchet** — hwm $203.25 / stop $182.925; first discretionary tighten trigger $213.46 = +6.02% from mtm $201.35.
 7. **SMH ratchet monitoring** — hwm $625.59 / stop $563.031; first-tighten trigger $713.46 = +14.17% from mtm $624.91.
 8. **Sector momentum re-check** — tech-leadership (XLK/SMH) intact (both pulled back orderly, not thesis-break); energy (XLE/XOM) crude bounce stalling but inside envelope; XLF fifth weak week continues (nominal red day post two green days — not yet 3-consecutive -1.5% tracker arming).
+
+### Oct 08 — Market-Open Trade (Thursday, 09:40 ET — Wk-18 Day 4 / Iran escalation + crude +4% / 1 trade: NVDA FRESH FULL-SIZE)
+
+**NVDA FRESH 85 sh @ $234.536** (full-size, 19.75% equity target)
+- Order id: 7b1fcac3-c535-46f0-8b60-4ed90c821399 (filled 13:40:43 UTC / 09:40 ET)
+- Entry: $234.536 avg | Cost: $19,935.56
+- Stop: 10% trailing GTC, trail_percent=10, stop_price $211.05, hwm $234.50
+- Protective stop id: c9b438b7-d616-4d09-bbd0-594f6c779cae (placed 13:41:23 UTC, 40 seconds after fill)
+- Thesis: Morgan Stanley reinstated NVDA as TOP PICK in semis 10/02 ($300 PT; "all AI trends play to NVDA's strengths"); Citi 5 top chip picks pre-Q3 published 10/08; Barclays AI FOMO note 10/07 (semis+hardware = 75% of 2027 S&P EPS revisions); multi-broker PT distribution $300-$465 (MS/GS/UBS/JPM $300; RBC/Wedbush/BofA/Cantor/Rosenblatt/Bernstein $330-$465).
+- Target: $300 (median analyst PT consensus) — upside $65.46 / risk $23.46 = **R:R 2.79:1 PASSES ≥2:1**
+- Catalyst in RESEARCH-LOG 10/08 entry (added inline this routine)
+- Full-size rationale: Iran escalation = headline event, NOT scheduled macro (half-size list = CPI/FOMC/NFP only per rulebook); risk-off tape managed via 10% trail
+- Entry on -1.28% dip (prev close $237.47 → $234.54) — buying into leading-sector tactical pullback improves R:R
+- Post-fill portfolio: 6/6 positions (cap reached); 84.4% mv deployed (gap into 75-85% target band CLOSED)
+
+**Buy-Side Gate verification (all pass):**
+- Positions after fill 6/6 ✓
+- Weekly trades 1→2 of 3 ✓ (1 remains for Fri)
+- Position cost $19,935.56 ≤ 20% cap $20,185.04 ✓ (98.76% utilization)
+- Position cost $19,935.56 ≤ cash $35,691.84 ✓
+- Daytrade count 0/3 ✓
+- Catalyst documented in RESEARCH-LOG 10/08 ✓
+- Instrument = stock (not option) ✓
+- PDT room: 0/3 daytrades, 2 slots remain for same-day exit if needed ✓
+
+**Market context at fill (09:40 ET):**
+- SPX cash 7777 -0.32% | NQ=F -0.53% | VIX 15.5 +2.79% | WTI +3.94% | Brent $104.19 +3.98%
+- Only green sector: XLE +2.07%; semis down -1 to -2% on broader tape risk-off
+- Trump "new round of major combat ops in Iran" headline — European bond contagion risk tape
+
+**Post-trade portfolio snapshot (post-fill):**
+| Ticker | Shares | Entry | mv@fill | Unrl P&L | % of Equity |
+| - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | ~$19,900 | ~-$30 | 19.75% |
+| SMH | 16 | $620.401 | $9,854 | -$72 | 9.76% |
+| XLE | 307 | $64.6818 | $19,864 | +$7 | 19.68% |
+| XLF | 180 | $56.045 | $9,647 | -$441 | 9.56% |
+| XLK | 104 | $185.616 | $20,798 | +$1,494 | 20.61% |
+| XOM | 30 | $165.84 | $5,052 | +$77 | 5.01% |
+| Total | | | $85,115 | +$1,035 | 84.37% |
+
+Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED).
+
+**Trades today:** 1 (NVDA FRESH 85 sh @ $234.536, trail 10% GTC id c9b438b7).
+
+**Wk-18 trades running total:** 2/3 slot-consuming (Mon 0, Tue 0, Wed 1 SMH, Thu 1 NVDA; Fri 1 remaining).
+
+**Post-trade order state (9 GTC stops covering 6 positions):**
+- NVDA 85 sh: trail 10% $211.05 hwm $234.50 (c9b438b7) — **NEW**
+- SMH 16 sh: trail 10% $563.031 hwm $625.59 (9c351f1a) — unchanged
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $150.165 hwm $166.85 (5afbbb78) — unchanged
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**STEP 7 ClickUp:** recap posted (NVDA FRESH 85 sh @ $234.536, stop $211.05 trail 10%, Morgan Stanley TOP PICK catalyst).
+
+**Next checkpoints:**
+1. **NVDA ratchet monitoring** — hwm $234.50 / stop $211.05; first discretionary tighten trigger $269.72 (+15% from entry $234.536) = +15% from mtm.
+2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.75% TIGHTEST. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE MANUAL-CUT PRIORITY-2** — cushion +7.57% WIDENED on crude +4%. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+4. **XOM MANUAL-CUT vigilance** — cushion +8.72% WIDENED. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.99%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+6. **XLK discretionary tighten trigger $213.46** — +6.74% from mtm $199.98.
+7. **SMH ratchet** — hwm $625.59 / stop $563.031; first-tighten trigger $713.46.
+8. **Iran escalation headline tape watch** — crude $104 Brent, VIX 15.5; any VIX re-pop above 17 re-arms XLK duration overlay.
+9. **Wk-18 slot budget:** 2/3 used; 1 remains for Fri qualifying setup.
+10. **6-position cap REACHED** — no further opens Fri unless a position is closed first.

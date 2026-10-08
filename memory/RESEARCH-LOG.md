@@ -6974,3 +6974,107 @@ Order of preference at MARKET-OPEN routine runtime:
 5. **XLK $180 CONDITIONAL EXIT armed** — cushion +10.01%; if XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm)
 6. **XLK ratchet monitoring** — hwm $203.25 / stop $182.925; if XLK breaks $203.25 → further server-side ratchet. First discretionary tighten trigger $213.46 = +6.71% from pre-mkt mtm
 7. **FOMC minutes 2:00 PM ET** — monitor post-release tape; no clock-time action gate but note the volatility window
+
+## 2026-10-08 — Pre-market Research (Wk-18 Day 4 / Thursday — Iran escalation + crude +4% + semi top-pick upgrades) — INLINE AT MARKET-OPEN
+
+### Account (as of 09:37 ET post-open / balance_asof 2026-10-07)
+- Equity: **$100,925.22** | Cash: **$35,691.84** (35.37%) | Long MV: **$65,233.38** (64.63%)
+- Buying power: $325,420.82 | Reg-T BP: $136,617.06 | Non-marg BP: $68,308.53
+- Last equity (Wed EOD): $100,684.90 → day drift **+$240.32 (+0.239%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-07 (standard pre-open lag); live quotes used for screens. DATA NOT BLOCKED.
+
+### Live Positions (post-open marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| SMH | 16 | $620.401 | $615.88 | -1.464% | -$72.34 (-0.73%) | 9.76% | n/a (near entry) |
+| XLE | 307 | $64.6818 | $64.705 | +2.123% | +$7.12 (+0.04%) | 19.68% | +7.57% to $60.15 |
+| XLF | 180 | $56.045 | $53.595 | -0.288% | -$441.00 (-4.37%) | 9.56% | **+2.75% to $52.12 (TIGHTEST)** |
+| XLK | 104 | $185.6156 | $199.98 | -0.700% | +$1,493.90 (+7.74%) | **20.61% mv** / 19.13% cost | +9.99% to $180 flag |
+| XOM | 30 | $165.84 | $168.39 | +2.646% | +$76.50 (+1.54%) | 5.01% | +8.72% to $154.23 |
+
+### Market Context
+- **S&P 500 cash:** 7777.11 **-0.32%** | **Nasdaq:** 27418.85 -0.44% | **Dow:** 51032.91 -0.29% | **VIX:** 15.5 **+2.79%**
+- **Pre/open futures:** ES=F 7829.0 -0.30% | NQ=F 31234.25 -0.53% → tape red into open on Iran escalation
+- **Crude EXPLODING:** WTI **$91.76 +3.94%** | Brent **$104.19 +3.98%** — Trump "new round of major combat operations in Iran" (Fortune 10/08), global stock selloff / European bond contagion risk
+- **Sectors (live post-open):** **XLE +2.07% (ONLY GREEN SECTOR)** | XLP +0.58% | XLF -0.23% | XLB -0.47% | XLI -0.58% | XLK -0.66% | XLV -0.95%
+- **Today's catalysts:**
+  - **Trump new round of major combat ops in Iran** (Fortune 10/08) — crude +4%, European bond contagion risk, global stock selloff tape
+  - **NVDA Morgan Stanley reinstated as TOP PICK in semis** (Stocktwits 10/02) — "All AI trends play to Nvidia's strengths"; PT $300 (Morgan Stanley/Goldman/UBS/JPM) and up to $465 (RBC/Wedbush/BofA/Cantor/Rosenblatt/Bernstein per Yahoo/CryptoRank 10/03)
+  - **Citi names 5 top chip picks ahead of Q3 earnings** (Yahoo 10/08 10:45 ET) — fresh pre-Q3 chip-pick list
+  - **AMD Citi PT raised to $800** on Meta AI demand (TIKR 10/07)
+  - **Barclays AI FOMO note** (Yahoo Finance 10/07) — "semis and hardware account for ~40% of this year's upward S&P 500 EPS revisions, jumping to 75% for 2027"
+  - **Kitco mapping warning** — US energy shares rally showing fatigue signs since Sept peak (counter-tape)
+- **Earnings before open:** APLD (Applied Digital) PT hike Wells Fargo — Meta leases catalyst
+- **Economic calendar:** No major scheduled macro (NFP done 10/02; FOMC Minutes done 10/07; CPI next week). Iran escalation = headline event, not scheduled macro — NOT a formal half-size trigger per rulebook.
+- **Sector momentum map (updated post-open):** TECH LEADING (XLK/SMH — AI FOMO, Barclays note; XLK -0.66% is tactical risk-off dip, not leadership break). SEMIS sub-sector leader (NVDA/AMD/TSM record highs per Barclays). ENERGY LEADING TODAY (XLE +2.07% / crude +4% / Iran escalation; Kitco fatigue warning is counter-tape). FINANCIALS LAGGING (XLF -0.23%; worst-since-1990 narrative intact). HEALTHCARE WEAKENING (XLV -0.95%).
+
+### Trade Ideas (6 screened)
+
+**IDEA 1: NVDA OPEN NEW — Morgan Stanley TOP PICK + Citi 5 chip picks + Barclays AI FOMO**
+- Test 1 (catalyst): ✓ Morgan Stanley reinstated TOP PICK 10/02 PT $300; Citi 5 top chip picks 10/08; Barclays "AI FOMO" semis = 75% of 2027 S&P EPS revisions.
+- Test 2 (sector momentum): ✓ Semis sub-sector leader; XLK LEADING per sector map.
+- Test 3 (stop definable): ✓ 10% trailing stop at $211.08 (entry $234.54).
+- Test 4 (R:R ≥ 2:1): ✓ Entry $234.54, stop $211.08 (-$23.46 risk). **Target $300 (median analyst PT across MS/GS/UBS/JPM/Citi): upside $65.46 / downside $23.46 = R:R 2.79:1 PASSES ≥2:1.** Stretch $330-$465 PT universe (RBC/Wedbush/BofA/Cantor/Rosenblatt/Bernstein) implies far higher.
+- Buy-Side Gate: positions after fill 6/6 ✓; weekly 1→2 of 3 ✓; cost $19,935.56 ≤ 20% cap $20,185 ✓; cost ≤ cash $35,691 ✓; daytrade 0/3 ✓; catalyst ✓; stock ✓.
+- **RESOLVE-NOW check:** no ex-div/halt/earnings blocker on NVDA today (next earnings mid-Nov). Nothing to defer.
+- Iran escalation is headline event, NOT scheduled macro — FULL-SIZE per rulebook (half-size list = CPI/FOMC/NFP only).
+- **QUALIFIES → ENTER NOW FULL SIZE (85 sh, ~$19,936, 19.75% equity).**
+
+**IDEA 2: AMD OPEN NEW — Citi PT raised to $800 on Meta AI demand**
+- Test 1 (catalyst): ✓ Citi PT raised to $800 (10/07) on Meta AI demand.
+- Test 2 (sector momentum): ✓ Semis leading.
+- Test 4 (R:R): Entry $638 ask, stop $574.20 (-$63.80 risk). Target $800: upside $162 / risk $63.80 = **2.54:1 PASSES.**
+- Buy-Side Gate: **positions after fill 7/6 FAILS cap** (NVDA takes last slot).
+- **DOES NOT QUALIFY → Gate (6-position cap; NVDA takes last slot with broader multi-broker PT consensus).**
+
+**IDEA 3: XLE ADD — crude +4% / Iran escalation catalyst**
+- Test 1 (catalyst): ✓ Crude +4% / Trump Iran combat ops / XLE +2.07% (only green sector today).
+- Test 2 (sector momentum): ✓ Energy leading today (sector map updated).
+- Buy-Side Gate: Cost cap 20% × $100,925 = $20,185; current XLE cost $19,857.31; headroom **$328** → max 5 sh @ $64.70 = $323. UNECONOMIC single-digit.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic).**
+
+**IDEA 4: XOM ADD — same crude catalyst**
+- Test 1 (catalyst): ✓ Same crude +4% / Iran escalation.
+- Test 2 (sector momentum): ✓ Energy leading today.
+- Test 4 (R:R): Entry ~$169, stop $152.1; analyst PT $164-$172 range → R:R max ~0.3:1. FAILS.
+- **DOES NOT QUALIFY → Test 4 (R:R <2:1 at consensus PT; dividend-income thesis not a momentum-trade thesis).**
+
+**IDEA 5: SMH ADD — same semi theme as NVDA**
+- Test 4 (R:R): Entry $616.77, stop $555.09; SMH ETF 2:1 target = $739.73. SMH 52w high ~$650. UNREACHABLE on 10% trail.
+- **DOES NOT QUALIFY → Test 4 (R:R <2:1 structural for ETF under 10% trail).**
+
+**IDEA 6: XLF ADD / CUT — financials soft**
+- Test 2 (sector momentum): ✗ XLF -0.23%; "worst since 1990" narrative intact. FAILS.
+- Thesis-break cut not warranted (unrl -4.37% inside -7% envelope; sector lagging ≠ hard thesis break per prior routine precedent).
+- **DOES NOT QUALIFY (add) → Test 2. HOLD position (no cut trigger).**
+
+### Risk Factors
+- **Iran escalation** — Trump "new round of major combat ops" headline is tape-live; VIX +2.79% to 15.5 reflects hedging; European bond contagion risk (Fortune). Not a scheduled macro = not formal half-size, but risk-off tape is live.
+- **XLF cushion +2.75% TIGHTEST** — NARROWED from Wed EOD +3.14% on another soft open. If XLF < $52.12 intraday → cut.
+- **NVDA entry on -1.28% dip** — buying into a leading-sector tactical pullback; stop management via 10% trailing GTC placed within seconds of fill. Entry $234.54 vs prev close $237.47 improves R:R.
+- **XLE cushion +7.57% WIDENED** on crude +4% — Iran escalation benefits existing position; Kitco fatigue warning is counter-tape risk for later.
+- **XOM cushion +8.72% WIDENED** — crude move direct benefit; +2.65% intraday on Iran.
+- **XLK $180 conditional exit cushion +9.99%** — pullback inside envelope; VIX 15.5 duration overlay still DORMANT (<17 threshold).
+- **XLK ratchet** — hwm $203.25 (unchanged from Wed), stop $182.925. First discretionary tighten trigger $213.46 = +6.74% from mtm.
+- **SMH entry-day drift** — now -0.73% unrl post-24hr; semi tape red today -1 to -2% broadly; thesis intact (Barclays AI FOMO + Citi 5 picks).
+- **6-position cap reached post-NVDA entry** — no further opens today; any further sizing requires a close first.
+
+### Decision — TRADE NVDA FULL SIZE / HOLD OTHERS
+
+- **NVDA QUALIFIES → ENTERED 85 sh @ $234.536** (full-size $19,935.56 = 19.75% equity). 10% trail GTC placed. Wk-18 slot 2/3 used.
+- **AMD DOES NOT QUALIFY** → Gate 6-position cap (NVDA preferred, broader multi-broker PT consensus).
+- **XLE ADD DOES NOT QUALIFY** → Gate (cost-cap $328 uneconomic).
+- **XOM ADD DOES NOT QUALIFY** → Test 4 (R:R <2:1 at consensus PT).
+- **SMH ADD DOES NOT QUALIFY** → Test 4 (R:R structural for ETF).
+- **XLF ADD/CUT DOES NOT QUALIFY** → Test 2 (sector lagging); no cut trigger (-4.37% inside -7% envelope).
+- **1 fresh entry Thu.** Wk-18 slot budget 2/3 used; 1 remains for Fri. Deployment post-fill: $65,233 + $19,936 = $85,169 / $100,925 = **84.4% mv — deployment gap CLOSED into target 75-85% band.**
+- **PDT check:** 0/3 daytrades; entry + protective-stop setup = no round-trip. 2 slots remain if same-day exit needed.
+- **Primary intraday action priorities Thu:**
+  1. **NVDA new position monitoring** — fill $234.536, stop $211.05 (10% trail, hwm $234.50). Position +0.07% / -0.11% post-fill.
+  2. **XLF MANUAL-CUT PRIORITY-1** — cushion +2.75% TIGHTEST. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+  3. **XLE MANUAL-CUT PRIORITY-2** — cushion +7.57% WIDENED on crude +4%. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+  4. **XOM MANUAL-CUT vigilance** — cushion +8.72% WIDENED. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+  5. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.99%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+  6. **XLK discretionary tighten** — trigger $213.46; cushion +6.74% from mtm $199.98.
+  7. **SMH ratchet** — hwm $625.59 / stop $563.031; first-tighten trigger $713.46.
