@@ -7078,3 +7078,119 @@ Order of preference at MARKET-OPEN routine runtime:
   5. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.99%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
   6. **XLK discretionary tighten** — trigger $213.46; cushion +6.74% from mtm $199.98.
   7. **SMH ratchet** — hwm $625.59 / stop $563.031; first-tighten trigger $713.46.
+
+## 2026-10-09 — Pre-market Research (Wk-18 Day 5 / Friday — AI bubble crash warning + semis OpenAI concerns + crude cooling)
+
+### Account (as of 08:33 ET pre-mkt / balance_asof 2026-10-08)
+- Equity: **$101,019.20** | Cash: **$15,756.27** (15.60%) | Long MV: **$85,262.93** (84.40%)
+- Buying power: $301,761.28 | Reg-T BP: $116,775.47 | Non-marg BP: $58,387.73
+- Last equity (Thu EOD): $100,477.59 → pre-mkt drift **+$541.61 (+0.539%)**
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-08 (standard pre-open lag); position current_prices are Fri pre-mkt marks (NVDA $234.03 vs Thu close $230.48 = +1.54%; SMH $616.93 vs $607.27 = +1.59%; XLE $64.96 vs $65.24 = -0.43%; XLF $54.33 vs $54.23 = +0.18%; XLK $199.52 vs $197.78 = +0.88%; XOM $167.52 vs $168.50 = -0.58%). DATA NOT BLOCKED.
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $234.03 | +1.54% | -$43.01 (-0.22%) | 19.69% | +6.80% to $218.12 (-7% entry) |
+| SMH | 16 | $620.401 | $616.93 | +1.59% | -$55.54 (-0.56%) | 9.77% | +6.48% to $576.97 (-7% entry) |
+| XLE | 307 | $64.6818 | $64.96 | -0.43% | +$85.41 (+0.43%) | 19.74% | +7.40% to $60.15 |
+| XLF | 180 | $56.045 | $54.33 | +0.18% | -$308.70 (-3.06%) | 9.68% | **+4.07% to $52.12 (TIGHTEST — WIDENED from Thu EOD +3.84%)** |
+| XLK | 104 | $185.6156 | $199.52 | +0.88% | +$1,446.06 (+7.49%) | 20.54% | +9.78% to $180 flag |
+| XOM | 30 | $165.84 | $167.52 | -0.58% | +$50.40 (+1.01%) | 4.97% | +7.93% to $154.23 |
+
+### Market Context
+- **S&P 500 (Thu close):** 7765.36 **-0.47%** | **Nasdaq:** 27193.34 **-1.25%** | **Dow:** 51231.64 +0.1% | **VIX:** 15.18 **-1.49%** (eased despite tape red)
+- **Pre-mkt futures (GREEN):** ES=F 7847.5 **+0.4%** | NQ=F 31211.5 **+0.78%** → risk-ON reversal after red Thu
+- **Crude COOLING:** WTI **$90.65 -0.92%** | Brent **$102.76 -1.46%** — Iran-escalation spike fading
+- **Sectors (Thu close):** XLE **+2.97% (ONLY STRONG GREEN)** | XLP +2.11% | XLF +0.89% | XLB +0.59% | XLI +0.33% | XLV -0.39% | **XLK -1.79%** (risk-off hit tech hardest)
+- **Today's catalysts:**
+  - **"AI Bubble Risks Worst S&P 500 Crash Since 2008, Strategist Says"** (Insurance Journal 10/09) — bearish counter-tape headline flagging duration risk
+  - **NVDA $6T mcap narrative** continuing — Firmus Grid data center raising $2-3B private round backed by Nvidia (10/09); SpaceX GPU demand headline $96B qtr (TradingView 10/09); Zacks featured 10/09
+  - **SMH OpenAI concerns** — "Semiconductor ETFs Slide on OpenAI Concerns — Can SMH Hold $600?" (moomoo 10/08); SMH tapped $600 intraday low Thu (closed $607.27)
+  - **XLE $100 Brent held** — "Oil And Gas: You Ain't Seen Nothing Yet" (Seeking Alpha 10/06); Robinhood CIO energy = best hedge
+  - **XLK** — Seeking Alpha "Favor XLC And XLK" (10/09); counter: SA "Technology Survived September, But I'm Downgrading XLK" on 22% forward premium + narrow breadth
+  - **XLF** — $516M weekly inflow (reversing August's -$3.74B); bank earnings start **next week** 10/13 (JPM/C/BAC/WFC/GS)
+  - **DVN takeover chatter** — WallStreetZen hot stocks: BP interest in Devon's assets + activist pushing for strategic alternatives
+- **Earnings before open:** None material held. Delta kicks off airline earnings next week.
+- **Economic calendar:** NO major US macro today (Canada jobs; Norway/Sweden inflation). CPI next week. FOMC done 10/07. Bank earnings 10/13. **Not a half-size trigger day.**
+- **Sector momentum map (updated):** TECH LEADING (XLK/SMH/NVDA pre-mkt bounce +0.9/+1.6/+1.5%; Seeking Alpha favors XLK; AI bubble warning is counter-tape). ENERGY LEADING (XLE +2.97% Thu close only green sector; Brent held $100; Robinhood CIO best-hedge; crude cooling -0.9/-1.5% pre-mkt). FINANCIALS LAGGING-IMPROVING ($516M inflow reverses August outflow; XLF +0.89% Thu close; worst-since-1990 narrative not refuted). HEALTHCARE WEAKENING (XLV -0.39%).
+
+### Trade Ideas (7 screened)
+
+**IDEA 1: NVDA ADD — Firmus Grid + SpaceX GPU + $6T narrative**
+- Test 1 (catalyst): ✓ Firmus Grid $2-3B backed by Nvidia 10/09; SpaceX GPU demand $96B qtr; Zacks featured.
+- Test 2 (sector momentum): ✓ Semis leading sub-sector.
+- Buy-Side Gate: cost cap 20% × $101,019 = $20,204; current NVDA cost $19,936 → headroom **$268 → max 1 sh @ $234 = $234**. UNECONOMIC single-digit add.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic $268 headroom).**
+
+**IDEA 2: SMH ADD — same semi theme**
+- Test 1 (catalyst): ✓ Semi theme + OpenAI concerns = buy-the-dip catalyst.
+- Test 2 (sector momentum): ✓ Semis leading.
+- Test 4 (R:R): ETF with 10% trail — 2:1 target requires $740 (+20%). SMH 52w high ~$650. UNREACHABLE.
+- **DOES NOT QUALIFY → Test 4 (R:R structural for ETF under 10% trail).**
+
+**IDEA 3: XLE ADD — crude held + XLE Q3 leader**
+- Test 1 (catalyst): Mixed — Brent held $100 but crude cooling pre-mkt -0.92%/-1.46%; XLE Thu +2.97% only on Iran spike now fading.
+- Buy-Side Gate: cost cap headroom = $20,204 - $19,857 = **$347 → max 5 sh @ $65 = $325**. UNECONOMIC.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic).**
+
+**IDEA 4: XOM ADD — same crude catalyst**
+- Test 4 (R:R): PT consensus $164-$172 vs mtm $167.52 → upside ~$4.48 / 10% stop risk ~$16.75 = **0.27:1 FAILS.**
+- **DOES NOT QUALIFY → Test 4 (R:R <2:1 at consensus PT; dividend thesis not momentum).**
+
+**IDEA 5: XLK ADD — SA Favor XLK**
+- Buy-Side Gate: XLK cost $19,304; cap $20,204; headroom **$900 → max 4-5 sh @ $199.52 = $798-$998**. UNECONOMIC single-digit.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic).**
+
+**IDEA 6: XLF ADD — $516M inflow + bank earnings next week**
+- Test 2 (sector momentum): ✗ "Lagging S&P 500 most since 1990" narrative intact (24/7 Wall St 10/2); XLF -3.06% unrl (position already underwater). Jay Woods yellow flag. $516M inflow after $3.74B August outflow is partial reversal, not momentum restoration.
+- Test 1 (catalyst): Bank earnings 10/13 is directional-uncertain, not fresh positive catalyst for today.
+- **DOES NOT QUALIFY → Test 2 (sector lagging worst since 1990) + Test 1 (no fresh positive catalyst).**
+
+**IDEA 7: DVN OPEN NEW — BP takeover interest + activist strategic alternatives**
+- Test 1 (catalyst): ✓ WallStreetZen 10/09 flags BP interest + activist push for strategic alternatives.
+- Test 2 (sector momentum): ✓ Energy leading (XLE +45% YTD, +2.97% Thu close).
+- Test 3 (stop definable): ✓ 10% trailing.
+- Test 4 (R:R): Takeover premium typically 20-30%. 2:1 feasible IF deal materializes.
+- Buy-Side Gate: **positions after fill 7/6 FAILS 6-position cap.** NVDA/SMH/XLE/XLF/XLK/XOM = 6 full slots. Would require closing a position first.
+- Thesis-break check for close-to-make-room: NVDA/SMH new (intact); XLE/XOM energy momentum intact; XLK leader intact; XLF underwater but inside -7% envelope and not thesis-break. **No valid close.**
+- **DOES NOT QUALIFY → Gate (6-position cap binding; no valid close trigger to make slot).**
+
+### Risk Factors
+- **AI bubble crash warning headline** (Insurance Journal 10/09) — Barclays FOMO note counter, but tape-watch for VIX spike above 17 would re-arm XLK duration overlay.
+- **SMH OpenAI concerns** — Thu dipped to $600 intraday, closed $607.27, pre-mkt $616.93 (+1.59%). Position -0.56% unrl, inside envelope but sub-sector momentum fragile.
+- **XLF cushion +4.07% TIGHTEST (WIDENED)** — Thu +0.89% improved cushion from +3.84% EOD. Still PRIORITY-1 vigilance; bank earnings 10/13 directional risk.
+- **XLE cushion +7.40%** — crude -0.9%/-1.5% pre-mkt is cooling of Iran spike; XLE pre-mkt -0.43%. Still inside wide envelope.
+- **XOM cushion +7.93%** — crude cooling + XOM pre-mkt -0.58%. In envelope.
+- **XLK cushion to $180 flag +9.78%** — VIX 15.18 duration overlay DORMANT (<17 threshold). AI bubble headline is the tape risk.
+- **NVDA cushion to -7% +6.80%** — new position, inside envelope; thesis intact (Firmus/SpaceX/MS TOP PICK).
+- **SMH cushion to -7% +6.48%** — new position, inside envelope; thesis intact (Barclays FOMO + Citi 5 picks + NVDA $6T) despite OpenAI concern.
+- **6-position cap REACHED** — no new opens Fri without a close first; no thesis-break trigger on any current position = no valid close.
+- **Bank earnings 10/13** — XLF directional catalyst next week; soft prints would re-amplify "worst since 1990" theme.
+- **XLK server-side ratchet** — hwm $203.25 unchanged from Oct 2; pre-mkt mtm $199.52 below hwm → no new ratchet. First discretionary tighten trigger $213.46 = +6.98% from mtm (same proximity as yesterday).
+- **NVDA server-side ratchet** — hwm $237.07 (from Thu); mtm $234.03 below hwm. Stop $213.363 (10% from hwm) = -8.76% from mtm.
+
+### DECISION — HOLD ALL 6, 0 FRESH ENTRIES (6-position cap binding; no close trigger)
+
+- **NVDA ADD: DOES NOT QUALIFY** — Gate (cost-cap $268 headroom uneconomic).
+- **SMH ADD: DOES NOT QUALIFY** — Test 4 (R:R structural for ETF).
+- **XLE ADD: DOES NOT QUALIFY** — Gate (cost-cap $347 headroom uneconomic).
+- **XOM ADD: DOES NOT QUALIFY** — Test 4 (R:R 0.27:1 at consensus PT).
+- **XLK ADD: DOES NOT QUALIFY** — Gate (cost-cap $900 headroom uneconomic single-digit add).
+- **XLF ADD: DOES NOT QUALIFY** — Test 2 (sector lagging worst since 1990) + Test 1 (no fresh positive catalyst).
+- **DVN OPEN NEW: DOES NOT QUALIFY** — Gate (6-position cap binding; no thesis-break close trigger).
+- **0 fresh entries Fri.** Wk-18 slot budget 2/3 used; 1 slot WILL go unused at week end due to **6-position cap binding (not flat-week violation)** — all 7 screened ideas SKIP with named test/gate failures per Decision Rule. The 3-weekly-trade cap has 1 slot remaining but the 6-position cap is the binding constraint. Deployment 84.40% mv remains inside 75-85% target band post-NVDA entry.
+- **Not a flat-week violation.** Only candidate for fresh entry (DVN) fails Gate (6-pos cap) with no valid close trigger. The 3-weekly-trade cap having 1 slot remaining is not a mandate to trade; the 6-pos cap is binding.
+- **Primary intraday action priorities Fri:**
+  1. **XLF MANUAL-CUT PRIORITY-1** — cushion +4.07% (TIGHTEST — WIDENED from Thu EOD +3.84%). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+  2. **XLE MANUAL-CUT PRIORITY-2** — cushion +7.40%. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+  3. **XOM MANUAL-CUT vigilance** — cushion +7.93%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+  4. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.78%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+  5. **NVDA new-position monitor** — cushion to -7% ($218.12) +6.80%; GTC trail stop $213.363 hwm $237.07; discretionary tighten trigger $269.72 = +15.25% from mtm.
+  6. **SMH new-position monitor** — cushion to -7% ($576.97) +6.48%; GTC trail stop $563.3055 hwm $625.895.
+  7. **XLK ratchet monitoring** — hwm $203.25; first discretionary tighten trigger $213.46 = +6.98% from mtm $199.52.
+  8. **AI bubble headline watch** — VIX re-pop above 17 re-arms XLK duration overlay.
+- **MARKET-OPEN routine entry conditions Fri:** none (no fresh entries — 6-pos cap binding). Focus is (1) XLF $52.12 cut-flag, (2) XLE $60.15 cut-flag, (3) XOM $154.23 cut-flag, (4) XLK $180 conditional-EXIT, (5) NVDA/SMH new-position cushion monitors, (6) XLK $213.46 discretionary-tighten trigger watch.
+- **NO CLOCK-TIME GATES.**
+- **PDT check:** 0/3 daytrades; no round-trips.
+- **Weekly-review skill invocation:** Wk-16 + Wk-17 + Wk-18 reviews pending (Fri 9/26, Fri 10/2, Fri 10/9 slots) — RUN WEEKLY-REVIEW SKILL this afternoon to cover all three.
