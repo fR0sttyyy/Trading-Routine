@@ -3809,3 +3809,45 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 8. **6-position cap REACHED** — no further opens today unless a position is closed first.
 9. **AI bubble headline tape watch** — VIX re-pop above 17 re-arms XLK duration overlay.
 10. **Wk-18 slot budget:** 2/3 used; 1 remains but 6-pos cap binding (per pre-market gate review).
+
+### Oct 11 — EOD Snapshot (Sunday — WEEKEND / captures Fri Oct 09 close marks / Fri EOD-slot MISSED / Wk-18 close)
+**Portfolio:** $100,470.63 | **Cash:** $15,756.27 (15.68%) | **Day P&L:** +$54.67 (+0.054%, vs Oct 08 EOD $100,415.96) | **Phase P&L:** +$470.63 (+0.471%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $229.28 | -0.59% | -$446.76 (-2.24%) | $213.363 (trail 10%, hwm $237.07) |
+| SMH | 16 | $620.40125 | $603.33 | -0.31% | -$273.14 (-2.75%) | $563.3055 (trail 10%, hwm $625.895) |
+| XLE | 307 | $64.6818 | $65.08 | -0.15% | +$122.25 (+0.62%) | $59.553 (trail 10%, hwm $66.17) |
+| XLF | 180 | $56.045 | $54.73 | +0.98% | -$236.70 (-2.35%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $198.78 | +0.60% | +$1,369.10 (+7.09%) | $182.925 (trail 10%, hwm $203.25) |
+| XOM | 30 | $165.84 | $168.94 | +0.24% | +$93.00 (+1.87%) | $153.252 (trail 10%, hwm $170.28 — ratcheted Fri midday) |
+
+**Notes:** Sunday backfill of Fri Oct 09 close (Fri EOD routine slot MISSED — same pattern as Sep 20, Sep 27 weekend snapshots). Wk-18 CLOSE: 2/3 slot budget used (Wed SMH FRESH half-size + Thu NVDA FRESH full-size); Fri NO-OP (slot remained but 6-pos cap binding + no qualifying setup presented). Day P&L +$54.67 (+0.054%) vs Thu Oct 08 EOD $100,415.96 — standard 1-trading-day span (Thu→Fri), safe to label Day P&L. Book roughly flat Fri: XLF +0.98% (TOP mover, off cycle low on close firming); XLK +0.60% (AI/semis bid firming into weekend); XOM +0.24% (crude digest post-Iran move); XLE -0.15% (crude cooling intraday); SMH -0.31% (semi digest post-OpenAI concern); NVDA -0.59% (DEEPEST drawer, tape digestion vs fill-day drag). Phase P&L recovered to +$470.63 (+0.471%) from Thu +$415.96 on the +$54.67 Fri drift. Cut-loser envelope end-of-week: SMH +4.37% cushion (TIGHTEST — narrowed from Fri midday +4.30% effectively unchanged); XLF +4.77% cushion (widened from Thu +3.84% on Fri +0.98% firming); NVDA +4.87% cushion (widened from Fri midday +5.00% near-unchanged); XLE +7.58% cushion (narrowed from Thu +8.37% on Fri -0.15%); XOM +8.71% cushion (narrowed from Thu +9.37% on crude digest); XLK not cut-relevant (+7.09% unrl; $180 flag +9.45% cushion). No cuts warranted — all 6 inside envelope but SMH tightest requires PRIORITY-1 Mon vigilance. Tighten-trail: XLK top at +7.09% unrl (need +15% for first tighten to 7%; trigger $213.46 = +7.38% from mtm $198.78; far). Deployment 84.32% mv (6-week structural gap CLOSED after NVDA Thu entry; now firmly in 75-85% target band). Wk-18 realized P&L: $0 (no exits, no stop-outs). Wk-18 net P&L on the book: +$470.63 ($100,000 → $100,470.63 over Mon-Fri including $70.63 pre-Wed-trade carryover from Wk-17 close). Server-side ratchets observed Fri: XOM 30 sh ratcheted at Fri AM from Thu EOD $152.271/$169.19 → Fri $153.252/$170.28 (hwm +$1.09, stop +$0.981); all other hwms unchanged (NVDA/SMH/XLE/XLF/XLK closes below their respective hwms).
+
+**Trades today:** none (weekend; Fri Oct 09 was 0-trade NO-OP day).
+
+**Wk-18 trades running total (final):** 2/3 slot-consuming (Wed SMH FRESH 16 sh @ $620.401, Thu NVDA FRESH 85 sh @ $234.536). Wk-18 CLOSED.
+
+**Post-EOD order state (9 GTC stops covering 6 positions — all intact Fri close):**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — unchanged
+- SMH 16 sh: trail 10% $563.3055 hwm $625.895 (9c351f1a) — unchanged
+- XLE 233 sh: trail 10% $59.553 hwm $66.17 (2cae6815) — unchanged
+- XLE 74 sh: trail 10% $59.553 hwm $66.17 (442df295) — unchanged
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $153.252 hwm $170.28 (5afbbb78) — ratcheted Fri midday (from Thu EOD $152.271/$169.19)
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Monday 10/12 (Wk-19 Day 1) plan:**
+1. **Pre-market re-scan** — FRESH Wk-19 slot budget 3/3; deployment 84.32% mv (within 75-85% target band); 6-position cap binding — any Mon open requires a close first (or thesis-break exit).
+2. **SMH MANUAL-CUT PRIORITY-1** — cushion +4.37% (TIGHTEST). If SMH < $576.97 → cancel 9c351f1a, market sell 16 sh.
+3. **XLF MANUAL-CUT PRIORITY-2** — cushion +4.77% (widened from Thu +3.84%). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+4. **NVDA new-position monitoring** — cushion +4.87% to $218.12 cut flag; hwm $237.07 / stop $213.363. Discretionary tighten trigger $269.72 (+15% from entry) = +17.6% from mtm $229.28.
+5. **XLE MANUAL-CUT PRIORITY-3** — cushion +7.58% (narrowed from Thu +8.37% on crude cooling). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+6. **XOM MANUAL-CUT vigilance** — cushion +8.71% (narrowed from Thu +9.37%). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+7. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.45% (narrowed from Thu +9.90% but widened from Fri midday +9.23% on close firming). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+8. **XLK discretionary tighten** — trigger $213.46 = +7.38% from mtm $198.78.
+9. **Sector momentum check** — energy mixed (Iran digest, crude cooling Fri); tech/semis firming into weekend; financials off cycle low; AI narrative intact post-NVDA $6T + Barclays FOMO.
+10. **Weekly review** — Wk-18 review pending (Fri afternoon slot missed; Mon capture). Highlights: deployment gap CLOSED, 2 fresh entries (SMH half + NVDA full), book +$470.63 Phase P&L recovered.
+11. **Iran escalation + VIX tape watch** — VIX re-pop above 17 re-arms XLK duration overlay.
