@@ -7194,3 +7194,126 @@ Order of preference at MARKET-OPEN routine runtime:
 - **NO CLOCK-TIME GATES.**
 - **PDT check:** 0/3 daytrades; no round-trips.
 - **Weekly-review skill invocation:** Wk-16 + Wk-17 + Wk-18 reviews pending (Fri 9/26, Fri 10/2, Fri 10/9 slots) — RUN WEEKLY-REVIEW SKILL this afternoon to cover all three.
+
+## 2026-10-12 — Pre-market Research (Wk-19 Day 1 / Monday — Big-bank earnings week kickoff + CPI Wed + Russia-Ukraine energy ceasefire headline)
+
+### Account (as of 08:30 ET pre-mkt / balance_asof 2026-10-09)
+- Equity: **$100,456.32** | Cash: **$15,756.27** (15.69%) | Long MV: **$84,700.05** (84.32%)
+- Buying power: $300,185.22 | Reg-T BP: $116,212.59 | Non-marg BP: $58,106.29
+- Last equity (Fri EOD): $100,470.63 → pre-mkt drift **-$14.31 (-0.014%)** (essentially flat)
+- Daytrade count: 0/3 (trading_blocked=false)
+- Data freshness: OK — balance_asof 2026-10-09 (standard Mon pre-open lag from Fri close); position current_prices are pre-mkt marks (NVDA $228.07 vs Fri $229.28 = -0.53%; SMH $597.43 vs $603.33 = -0.98%; XLE $65.70 vs $65.08 = +0.95%; XLF $54.92 vs $54.73 = +0.35%; XLK $197.93 vs $198.78 = -0.43%; XOM $170.50 vs $168.94 = +0.92%). Alpaca quote API returning Fri 20:00Z timestamps (pre-mkt stale ETF asks). DATA NOT BLOCKED (positions `current_price` is the governing pre-mkt mark).
+
+### Live Positions (pre-mkt marks)
+| Ticker | Shares | Entry | Now | chg_today | Unrl P&L | % of Equity (mv) | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $228.07 | -0.53% | -$549.61 (-2.76%) | 19.30% | +4.36% to $218.12 (-7% entry) |
+| SMH | 16 | $620.401 | $597.43 | -0.98% | -$367.54 (-3.70%) | 9.52% | **+3.42% to $576.97 (-7% entry — TIGHTEST, narrowed from Fri EOD +4.37%)** |
+| XLE | 307 | $64.6818 | $65.70 | +0.95% | +$312.59 (+1.57%) | 20.08% | +8.45% to $60.15 |
+| XLF | 180 | $56.045 | $54.92 | +0.35% | -$202.50 (-2.01%) | 9.84% | +5.10% to $52.12 |
+| XLK | 104 | $185.616 | $197.93 | -0.43% | +$1,280.70 (+6.63%) | 20.49% | +9.06% to $180 flag |
+| XOM | 30 | $165.84 | $170.50 | +0.92% | +$139.80 (+2.81%) | 5.09% | +9.54% to $154.23 |
+
+### Market Context
+- **S&P 500 cash:** 7811.54 **+0.59%** | **Nasdaq:** 27366.17 +0.64% | **Dow:** 51654.95 +0.83% | **VIX:** 15.42 **+3.91%** (risk-on tape but VIX rising)
+- **Pre-mkt futures:** ES=F 7868.25 +0.11% | NQ=F 31075.0 -0.11% → mixed; equity side firming into bank-earnings week
+- **Crude mixed:** WTI **$93.10 +1.36%** | Brent **$106.00 +1.22%** — oil firming DESPITE Trump Russia-Ukraine "energy ceasefire" headline (CNBC 10/12 02:16Z) because Iran-Saudi-Houthi tensions remain and NY Times/CNN frame war-reach extending. Mixed signal; crude net-up pre-mkt.
+- **Sector snapshot (Fri closes per context script):** XLV +1.58% | XLF +0.92% | XLI +0.5% | XLK +0.51% | XLB +0.32% | XLP +0.01% | XLE -0.25% → sector rotation Fri: defensives (XLV, XLP) and lagging-financials firming; energy cooling.
+- **Today's catalysts:**
+  - **Big-bank earnings week starts Tue 10/13** (JPM/C/BAC/WFC/GS pre-open; MS also Tue) — Zacks "Will Banks Falter in Q3 Earnings Due to High Rates?" (10/12 12:00 UTC); TradingView "S&P 500 Narrow Rally Faces Fresh Tests From CPI, Bank Earnings." XLF directional-uncertain going in.
+  - **US CPI Wed 10/14** — consensus +0.6% M/M (headline), 3.6% Y/Y, core +0.2% M/M (Newsquawk week-in-focus); PPI +0.5% M/M. HALF-SIZE TRIGGER WED (not today).
+  - **TSMC Q3 Thu 10/16** — Reuters: "sixth straight quarter of record profit thanks to AI boom" (10/12). Bullish semis read-through for SMH/NVDA.
+  - **ASML earnings this week** — Benzinga: "ASML Could Swing $42.8 Billion After Earnings" (10/12 11:01Z). Big semi-equipment catalyst.
+  - **Michael Burry bearish puts on SMH/Nasdaq** (TradingView 10/12 08:22Z) — "sees market top within 9 months." Counter-tape to semi-leadership narrative.
+  - **Russia-Ukraine "energy ceasefire"** (CNBC 10/12) — crude bearish on paper (more Russian supply) but offset by Iran war extending (NYT, Al Jazeera 10/11-12).
+  - **Oakmark Q3 commentary** (Seeking Alpha 10/12) — value framing counter to AI-growth tape.
+- **Earnings before open today:** None material held. Monday 10/12 is Columbus Day — bond market closed, EQUITY MARKETS OPEN (standard thinner liquidity).
+- **Economic calendar today:** No major US macro today. CPI Wed, Retail Sales mid-week, Fed speak scattered. **NOT a half-size trigger day.**
+- **Sector momentum map (updated post-weekend):** TECH LEADING (XLK/SMH; AI narrative intact; TSMC Thu Q3 record profit expected; Burry puts is counter-tape; ASML big catalyst). SEMIS sub-sector leader (NVDA $6T narrative; MS TOP PICK; Barclays FOMO). ENERGY MIXED-TO-LEADING (crude firming on Iran despite Russia ceasefire; XLE -0.25% Fri close, pre-mkt +0.95%). FINANCIALS LAGGING-INTO-EARNINGS (XLF +0.92% Fri close; worst-since-1990 narrative not refuted; bank earnings Tue = binary catalyst). HEALTHCARE FIRMING (XLV +1.58% Fri close top mover; defensive bid).
+
+### Trade Ideas (7 screened)
+
+**IDEA 1: NVDA ADD — Morgan Stanley TOP PICK + TSMC Thu + $6T narrative**
+- Test 1 (catalyst): ✓ TSMC Q3 Thu record profit expected (semi read-through); MS TOP PICK PT $300 intact; Barclays FOMO.
+- Test 2 (sector momentum): ✓ Semis leading sub-sector.
+- Test 3 (stop): ✓ 10% trail already in place (hwm $237.07 / stop $213.363).
+- Buy-Side Gate: cost cap 20% × $100,456 = $20,091; current NVDA cost $19,936 → headroom **$156** → max 0 sh @ $228 = $0. UNECONOMIC.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic $156 headroom).**
+
+**IDEA 2: SMH ADD — same semi theme, Burry puts counter-tape**
+- Test 1 (catalyst): ✓ TSMC Thu + NVDA narrative + Citi 5 chip picks; Burry puts counter-tape.
+- Test 2 (sector momentum): ✓ Semis leading.
+- Test 4 (R:R): ETF with 10% trail — 2:1 target requires $740 (+20%); SMH 52w high ~$650 and currently $597. UNREACHABLE on 10% trail structural.
+- **DOES NOT QUALIFY → Test 4 (R:R structural for ETF under 10% trail).**
+
+**IDEA 3: XLE ADD — crude firming + Iran war-reach + Russia ceasefire counter**
+- Test 1 (catalyst): Mixed — Iran-Saudi-Houthi tension bullish; Trump Russia-Ukraine "energy ceasefire" bearish supply narrative; net crude +1.3% pre-mkt.
+- Test 2 (sector momentum): ✓ Energy still leading YTD +45%.
+- Buy-Side Gate: cost cap headroom = $20,091 - $19,857 = **$234** → max 3 sh @ $65.70 = $197. UNECONOMIC.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic $234 headroom).**
+
+**IDEA 4: XLF ADD / half-size → full — big-bank earnings Tue (JPM/C/BAC/WFC/GS)**
+- Test 1 (catalyst): Mixed — earnings start Tue is directional-uncertain (Zacks "Will Banks Falter"); not a confirmed-positive catalyst. $516M prior-week inflow is partial reversal, not momentum restoration.
+- Test 2 (sector momentum): ✗ "Lagging S&P 500 most since 1990" narrative INTACT; position already underwater -2.01%; Fri +0.92% is 1-day action not confirmed leadership.
+- Buy-Side Gate: cost cap headroom $10,003 → could fit 180 sh @ $54.92 = $9,886 ✓ (cost would fit).
+- **DOES NOT QUALIFY → Test 2 (sector lagging) + Test 1 (earnings = binary catalyst, not confirmed positive). HOLDING existing 180 sh into earnings is the base case — do not ADD into unresolved binary.**
+
+**IDEA 5: XLK ADD — AI tape leader, TSMC/ASML read-through**
+- Test 1 (catalyst): ✓ TSMC Thu + ASML this week + AI narrative; XLK +6.63% unrl leader status intact.
+- Test 2 (sector momentum): ✓ Tech leading; Nasdaq ATH tape.
+- Buy-Side Gate: cost cap headroom = $20,091 - $19,304 = **$787** → max 3-4 sh @ $197.93 = $791. UNECONOMIC single-digit add.
+- **DOES NOT QUALIFY → Gate (cost-cap uneconomic $787 headroom; <5-share add is noise, not sizing).**
+
+**IDEA 6: XOM ADD — crude firming**
+- Test 1 (catalyst): ✓ Crude firming pre-mkt +1.3%.
+- Test 4 (R:R): Consensus PT $164-$172 vs mtm $170.50 → upside ~$1.50 / 10% stop risk ~$17.05 = **0.09:1 FAILS.**
+- **DOES NOT QUALIFY → Test 4 (R:R <2:1 at consensus PT; dividend-income thesis not momentum-trade thesis).**
+
+**IDEA 7: Fresh NEW OPEN scan (TSMC-adjacent / AI-infrastructure / bank beneficiary)**
+- Candidates reviewed: AMD (Citi $800 PT), AVGO (AI infra), AMAT/LRCX/KLAC (semi-cap TSMC/ASML read-through), DVN (BP takeover chatter from Fri), GS/JPM/MS (bank-earnings direct bet).
+- Test 2 (sector momentum) status: AMD/AVGO/semi-cap PASS semis leading; GS/JPM/MS FAIL (financials lagging + binary earnings uncertain); DVN PASS energy leading.
+- Buy-Side Gate: **positions after fill 7/6 FAILS 6-position cap on EVERY candidate.** NVDA/SMH/XLE/XLF/XLK/XOM = 6 full slots. Would require closing a position first.
+- **RESOLVE-NOW thesis-break close check:** NVDA/SMH new positions inside envelope (thesis intact); XLE/XOM energy momentum intact; XLK leader intact; XLF underwater but inside -7% envelope and bank-earnings Tue is the binary resolver (closing before earnings = closing on uncertainty, not thesis break). **No valid close trigger.**
+- **DOES NOT QUALIFY → Gate (6-position cap binding; no thesis-break close trigger).**
+
+### Risk Factors
+- **SMH cushion +3.42% TIGHTEST (NEW PRIORITY-1)** — NARROWED from Fri EOD +4.37% on pre-mkt -0.98%. If SMH < $576.97 → cancel 9c351f1a, market sell 16 sh.
+- **NVDA cushion +4.36%** — NARROWED from Fri EOD +4.87% on pre-mkt -0.53%. Still inside envelope; GTC trail $213.363 covers 10% stop.
+- **XLF cushion +5.10%** — WIDENED from Fri EOD +4.77% on pre-mkt +0.35%. Bank-earnings Tue is binary catalyst.
+- **Michael Burry bearish SMH/Nasdaq puts** — counter-tape to semi leadership; sees market top within 9 months; thesis-break check: not warranted (one bear-print does not break multi-broker PT consensus + TSMC Q3 record + ASML catalyst).
+- **CPI Wed 10/14** — HALF-SIZE trigger Wed, not today. Monitor for any pre-CPI positioning Mon/Tue.
+- **TSMC Q3 Thu + ASML Wed** — binary semi catalysts; could amplify or break XLK/SMH/NVDA leadership.
+- **Big-bank earnings Tue (JPM/C/BAC/WFC/GS)** — binary XLF catalyst; Zacks framing bank earnings risk from high rates.
+- **Russia-Ukraine "energy ceasefire" headline** — crude bearish supply narrative; offset by Iran-Saudi-Houthi tensions; net crude +1.3% pre-mkt (market not buying ceasefire narrative yet).
+- **VIX 15.42 +3.91%** — rising despite risk-on indices; <17 threshold = XLK duration overlay still DORMANT.
+- **6-position cap REACHED** — no new opens Mon without a close first; no thesis-break trigger = no valid close.
+- **Columbus Day equity-open (bond-closed)** — standard thinner liquidity Mon; spreads may be wider.
+- **Weekly-review skill invocation:** Wk-16 + Wk-17 + Wk-18 reviews STILL pending (Fri 9/26, Fri 10/2, Fri 10/9 slots all missed) — RUN WEEKLY-REVIEW SKILL this afternoon.
+
+### DECISION — HOLD ALL 6, 0 FRESH ENTRIES (6-position cap binding; no close trigger)
+
+- **NVDA ADD: DOES NOT QUALIFY** — Gate (cost-cap $156 headroom uneconomic).
+- **SMH ADD: DOES NOT QUALIFY** — Test 4 (R:R structural for ETF under 10% trail).
+- **XLE ADD: DOES NOT QUALIFY** — Gate (cost-cap $234 headroom uneconomic).
+- **XLF ADD: DOES NOT QUALIFY** — Test 2 (sector lagging worst since 1990) + Test 1 (bank earnings Tue = binary, not confirmed positive).
+- **XLK ADD: DOES NOT QUALIFY** — Gate (cost-cap $787 headroom uneconomic single-digit add).
+- **XOM ADD: DOES NOT QUALIFY** — Test 4 (R:R 0.09:1 at consensus PT).
+- **NEW OPEN (AMD/AVGO/semi-cap/DVN/bank-earnings): DOES NOT QUALIFY** — Gate (6-position cap binding; no valid thesis-break close trigger).
+- **0 fresh entries Mon.** Wk-19 slot budget FRESH 3/3; 6-position cap is the binding constraint until a close trigger (thesis-break or stop-out) frees a slot. Deployment 84.32% mv remains inside 75-85% target band.
+- **NOT a flat-day/flat-week violation.** All 7 screened ideas SKIP with named test/gate failures per Decision Rule. No qualifying setup exists today without a close.
+- **Primary intraday action priorities Mon:**
+  1. **SMH MANUAL-CUT PRIORITY-1 (NEW TIGHTEST)** — cushion +3.42% (narrowed from Fri EOD +4.37%). If SMH < $576.97 → cancel 9c351f1a, market sell 16 sh.
+  2. **NVDA cushion monitor** — cushion +4.36% to $218.12 cut flag; GTC trail stop $213.363 hwm $237.07; discretionary tighten trigger $269.72 (+15%) = +18.3% from mtm $228.07.
+  3. **XLF cushion monitor + bank-earnings Tue prep** — cushion +5.10%. If XLF < $52.12 intraday → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+  4. **XLE cushion monitor** — cushion +8.45%. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+  5. **XOM cushion monitor** — cushion +9.54%. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+  6. **XLK $180 CONDITIONAL EXIT armed** — cushion +9.06%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break: duration overlay re-arm).
+  7. **XLK discretionary tighten trigger** — $213.46 (+15% from entry) = +7.85% from mtm $197.93.
+  8. **AI bubble / Burry puts tape watch** — VIX re-pop above 17 re-arms XLK duration overlay.
+  9. **TSMC Thu + ASML Wed semi-catalyst tape watch** — semi leadership binary resolver this week.
+  10. **Bank-earnings Tue XLF watch** — pre-earnings positioning; soft prints re-amplify "worst since 1990" theme; strong prints = reconsider XLF ADD Tue AM.
+- **MARKET-OPEN routine Mon:** no fresh entries queued (6-pos cap binding). Focus: (1) SMH $576.97 cut-flag (NEW TIGHTEST), (2) NVDA $218.12 cushion, (3) XLF $52.12 cut-flag + bank-earnings prep, (4) XLE $60.15 cut-flag, (5) XOM $154.23 cut-flag, (6) XLK $180 conditional-EXIT + $213.46 discretionary-tighten.
+- **NO CLOCK-TIME GATES.**
+- **PDT check:** 0/3 daytrades; no round-trips planned.
+- **Wk-18 close recap (from Oct 11 EOD snapshot):** 2/3 slot-consuming trades (Wed SMH FRESH half-size + Thu NVDA FRESH full-size); Fri NO-OP (6-pos cap binding, no qualifying setup); book +$470.63 Phase P&L recovered to $100,470.63.
+- **Weekly-review skill invocation Mon afternoon:** Wk-16/17/18 reviews all pending; run WEEKLY-REVIEW skill to backfill.
