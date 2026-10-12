@@ -3851,3 +3851,67 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 9. **Sector momentum check** — energy mixed (Iran digest, crude cooling Fri); tech/semis firming into weekend; financials off cycle low; AI narrative intact post-NVDA $6T + Barclays FOMO.
 10. **Weekly review** — Wk-18 review pending (Fri afternoon slot missed; Mon capture). Highlights: deployment gap CLOSED, 2 fresh entries (SMH half + NVDA full), book +$470.63 Phase P&L recovered.
 11. **Iran escalation + VIX tape watch** — VIX re-pop above 17 re-arms XLK duration overlay.
+
+### Oct 12 — Midday Scan (Day 1, Monday — Wk-19 Day 1 / 12:10 ET / NO-OP midday / all 6 positions in-envelope)
+**Portfolio:** $100,333.64 | **Cash:** $15,756.27 (15.70%) | **Day P&L:** -$136.99 (-0.136%, vs Oct 11 EOD $100,470.63) | **Phase P&L:** +$333.64 (+0.334%)
+
+| Ticker | Shares | Entry | Live | chg_today | Unrl P&L | % mv | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $226.7715 | -1.09% | -$659.98 (-3.31%) | 19.21% | +3.81% to $218.12 |
+| SMH | 16 | $620.401 | $594.00 | -1.55% | -$422.42 (-4.26%) | 9.47% | **+2.87% to $576.97 (TIGHTEST)** |
+| XLE | 307 | $64.6818 | $66.005 | +1.42% | +$406.22 (+2.05%) | 20.20% | +8.87% to $60.15 |
+| XLF | 180 | $56.045 | $55.105 | +0.69% | -$169.20 (-1.68%) | 9.89% | +5.42% to $52.12 |
+| XLK | 104 | $185.616 | $196.65 | -1.07% | +$1,147.58 (+5.95%) | 20.38% | +8.47% to $180 flag |
+| XOM | 30 | $165.84 | $172.125 | +1.89% | +$188.55 (+3.79%) | 5.15% | +10.39% to $154.23 |
+
+**STEP 3 cut-loser gate NO-OP** — zero positions at -7%. Deepest unrealized loser SMH -4.26% (still +2.74pp inside cut envelope); next NVDA -3.31% / XLF -1.68%. All 6 positions in-envelope.
+
+**STEP 4 tighten-trail NO-OP** — top unrealized XLK +5.95% below +15% first-tighten threshold. XOM +3.79% / XLE +2.05% / XLF -1.68% / NVDA -3.31% / SMH -4.26% all far below. XLK trigger $213.46 = +8.55% from mtm $196.65.
+
+**STEP 5 thesis-check NO-OP** — all 6 theses intact:
+- NVDA: Morgan Stanley TOP PICK + Citi 5 chip picks + Barclays AI FOMO + TSMC Q3 Thu + ASML Wed semi-catalysts — intact (-3.31% unrl inside envelope; Burry puts counter-tape not thesis break).
+- SMH: NVDA $6T + semi outlook + Barclays FOMO + TSMC Q3 record + Citi 5 picks — intact (-4.26% inside envelope; Burry SMH puts one-bear-print vs multi-broker PT consensus).
+- XLE: WTI firming + Iran-Saudi-Houthi tensions + +45% YTD leadership — intact (+2.05% unrl / +1.42% intraday; crude firming through Russia-Ukraine ceasefire bearish narrative).
+- XLF: Lagging-since-1990 thesis unchanged (not a thesis break; -1.68% inside -7% envelope; +0.69% intraday pre-bank-earnings Tue positioning).
+- XLK: AI/Nasdaq-ATH leadership intact (+5.95% unrl; -1.07% intraday on broader semi tape digestion).
+- XOM: Crude firming thesis intact (+3.79% unrl; +1.89% intraday top mover on crude +1.3% pre-mkt); server-side ratchet continues (hwm $170.28 → $172.55).
+
+**STEP 6 intraday research NO-OP** — no position moving sharply with no cause. All moves within normal intraday range:
+- XOM +1.89% / XLE +1.42%: energy firming on crude firming + Iran-Saudi-Houthi.
+- NVDA -1.09% / SMH -1.55% / XLK -1.07%: broader semi tape digestion (Burry puts headline carryover, not thesis break).
+- XLF +0.69%: pre-bank-earnings Tue positioning.
+
+**Server-side ratchets observed since Oct 11 EOD (Fri Oct 09 close):**
+- XLE 233 sh: trail 10% $59.778 hwm $66.42 (2cae6815) — **ratcheted** from Fri $59.553/$66.17 (hwm +$0.25, stop +$0.225).
+- XLE 74 sh: trail 10% $59.778 hwm $66.42 (442df295) — **ratcheted** from Fri $59.553/$66.17 (hwm +$0.25, stop +$0.225).
+- XOM 30 sh: trail 10% $155.295 hwm $172.55 (5afbbb78) — **ratcheted** from Fri midday $153.252/$170.28 (hwm +$2.27, stop +$2.043).
+- NVDA/SMH/XLK/XLF stops unchanged (all mtm below hwm).
+
+**Post-midday order state (9 GTC stops covering 6 positions):**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — unchanged
+- SMH 16 sh: trail 10% $563.3055 hwm $625.895 (9c351f1a) — unchanged
+- XLE 233 sh: trail 10% $59.778 hwm $66.42 (2cae6815) — **ratcheted intraday**
+- XLE 74 sh: trail 10% $59.778 hwm $66.42 (442df295) — **ratcheted intraday**
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $155.295 hwm $172.55 (5afbbb78) — **ratcheted intraday**
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**STEP 7 ClickUp:** NO ACTION TAKEN → no notification sent (per routine's "only if action was taken" rule).
+
+**Trades today:** 0. **Wk-19 trades running total:** 0/3 slot-consuming (6-pos cap binding — any open requires a close first).
+
+**PM / close priorities:**
+1. **SMH MANUAL-CUT PRIORITY-1 (TIGHTEST)** — cushion +2.87% (narrowed from Fri EOD +4.37% on -1.55% intraday). If SMH < $576.97 → cancel 9c351f1a, market sell 16 sh.
+2. **NVDA new-position monitoring** — cushion +3.81% to $218.12 cut flag (narrowed from Fri EOD +4.87% on -1.09% intraday); hwm $237.07 / stop $213.363. Discretionary tighten trigger $269.72 (+15% from entry) = +18.9% from mtm.
+3. **XLF MANUAL-CUT PRIORITY-3** — cushion +5.42% (widened from Fri EOD +4.77% on +0.69% intraday). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh. Bank-earnings Tue (JPM/C/BAC/WFC/GS) binary catalyst.
+4. **XLK $180 CONDITIONAL EXIT armed** — cushion +8.47% (narrowed slightly from Fri EOD +9.45% on -1.07% intraday). If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+5. **XLE MANUAL-CUT vigilance** — cushion +8.87% (widened from Fri EOD +7.58% on +1.42% intraday). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+6. **XOM MANUAL-CUT vigilance** — cushion +10.39% to $154.23 flag (widened from Fri EOD +8.71% on +1.89% intraday top-mover); GTC trail $155.295 covers 9.78%.
+7. **XLK discretionary tighten** — trigger $213.46 = +8.55% from mtm $196.65.
+8. **6-position cap REACHED** — no further opens today unless a position is closed first (no thesis-break trigger = no valid close).
+9. **Columbus Day thin-liquidity tape** — bond-closed, equity-open; spreads potentially wider on afternoon.
+10. **Burry puts / AI-bubble headline watch** — VIX re-pop above 17 re-arms XLK duration overlay (currently 15.42 well below).
+11. **Wk-19 slot budget:** 0/3 used; FRESH 3 remain but 6-pos cap binding until a close.
+12. **Pre-event tape (Tue bank-earnings / Wed CPI + ASML / Thu TSMC Q3):** no new positioning Mon pre-event per Decision Rule half-size trigger (Wed CPI, not Mon).

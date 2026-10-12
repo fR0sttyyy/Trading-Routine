@@ -7317,3 +7317,9 @@ Order of preference at MARKET-OPEN routine runtime:
 - **PDT check:** 0/3 daytrades; no round-trips planned.
 - **Wk-18 close recap (from Oct 11 EOD snapshot):** 2/3 slot-consuming trades (Wed SMH FRESH half-size + Thu NVDA FRESH full-size); Fri NO-OP (6-pos cap binding, no qualifying setup); book +$470.63 Phase P&L recovered to $100,470.63.
 - **Weekly-review skill invocation Mon afternoon:** Wk-16/17/18 reviews all pending; run WEEKLY-REVIEW skill to backfill.
+
+### Oct 12 — Midday Addendum (12:10 ET)
+- **Tape:** No sharp unexplained moves. Semis digest (NVDA -1.09% / SMH -1.55% / XLK -1.07%) — Burry puts headline carryover, broader semi tape; XLE +1.42% / XOM +1.89% on crude firming; XLF +0.69% pre-bank-earnings Tue positioning.
+- **Decision:** NO-OP all steps (3/4/5/6/7). All 6 positions in -7% envelope; SMH tightest at +2.87% cushion. XLK top unrl +5.95% < +15% tighten trigger. All theses intact.
+- **Server-side ratchets:** XLE 233+74 sh ($59.553/$66.17 → $59.778/$66.42); XOM 30 sh ($153.252/$170.28 → $155.295/$172.55). NVDA/SMH/XLK/XLF unchanged.
+- **PM focus:** SMH $576.97 cut-flag PRIORITY-1; NVDA $218.12 PRIORITY-2; XLF $52.12 + bank-earnings Tue prep; XLE $60.15 / XOM $154.23 / XLK $180 conditional-exit watch; XLK discretionary tighten trigger $213.46.
