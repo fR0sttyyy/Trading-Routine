@@ -7474,3 +7474,10 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Day 2 (Tue 10/13):** 0 trades planned pre-open (cap binding; cushion defense only).
 - **Wk-19 slot budget:** 0/3 slot-consuming used; 3 FRESH remain structurally but cap-constrained.
 
+### Oct 13 — Midday Addendum (12:10 ET / SMH near-cut news check)
+- **SMH -6.12% unrl / +0.94% cushion to $576.97 cut flag — NEAR-CUT, intraday -1.45%.** News check (research.sh news): no stock-specific thesis break. Per StockStory Oct 13 14:25Z: MRVL/KLIC/VSH/ALGM/AMKR plummeted on ChangXin Memory Technologies' DDR5 server modules announcement — China competitive overhang on memory/analog subsectors. SMH decline is broader semi tape digestion continuation (follow-on from Burry puts Mon carryover + ChangXin DDR5 Tue).
+- **SMH short interest decreased Sep 2026** (bullish positioning signal per MarketBeat).
+- **Thesis stays intact** (NVDA $6T + semi outlook + Barclays FOMO + TSMC Q3 Thu record + Citi 5 picks + multi-broker PT consensus); no cut on thesis-break basis. Strict adherence to -7% unrl rule — HOLD until $576.97.
+- **PM vigilance ABSOLUTELY required** on SMH; cushion <1% leaves zero room before -7% trigger.
+- Other movers in-line: XOM/XLE firming on crude continuation; XLF -0.16% ahead of ongoing bank-earnings Tue; NVDA/XLK digesting with broader semi tape.
+
