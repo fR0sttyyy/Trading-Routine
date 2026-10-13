@@ -4017,3 +4017,47 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 9. **Wk-19 slot budget:** 0/3 used; FRESH 3 remain structurally but 6-pos cap binding.
 10. **Pre-event tape:** bank-earnings TUE (XLF binary) ongoing; CPI Wed + ASML Wed; TSMC Q3 Thu — half-size Decision Rule on event-day qualifying setups.
 11. **ChangXin DDR5 / semi memory overhang watch** — SMH subsector pressure. VIX re-pop above 17 re-arms XLK duration overlay (not currently armed).
+
+### Oct 13 — EOD Snapshot (Day 2, Tuesday — Wk-19 Day 2)
+**Portfolio:** $100,641.02 | **Cash:** $15,756.27 (15.66%) | **Day P&L:** +$414.09 (+0.413%) | **Phase P&L:** +$641.02 (+0.641%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $227.9816 | +0.73% | -$557.12 (-2.80%) | $213.363 (trail 10%, hwm $237.07) |
+| SMH | 16 | $620.40125 | $586.605 | -0.74% | -$540.74 (-5.45%) | $563.3055 (trail 10%, hwm $625.895) |
+| XLE | 307 | $64.6818 | $67.18 | +1.77% | +$766.95 (+3.86%) | $60.5205 (trail 10%, hwm $67.245 — ratcheted intraday) |
+| XLF | 180 | $56.045 | $54.88 | -0.31% | -$209.70 (-2.08%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $196.02 | -0.17% | +$1,082.06 (+5.61%) | $182.925 (trail 10%, hwm $203.25) |
+| XOM | 30 | $165.84 | $174.485 | +1.36% | +$259.35 (+5.21%) | $157.401 (trail 10%, hwm $174.89) |
+
+**Notes:** Wk-19 Day 2 Tuesday close. Clean 1-trading-day baseline vs Oct 12 EOD snapshot ($100,226.93) — Mon→Tue = 1 trading day; safe to label Day P&L. Day P&L +$414.09 (+0.413%) on bank-earnings-day broad lift — energy led (XLE +1.77%, XOM +1.36% top-movers on continued crude firming + Iran-Saudi-Houthi overhang); NVDA recovered +0.73% intraday off bank-earnings tape digestion; XLK/XLF modestly red (-0.17%/-0.31%); SMH only material drag -0.74% intraday on ChangXin DDR5 competitive overhang (memory/analog subsector pressure per StockStory Oct 13). Deployment 84.34% mv (within 75-85% target band). Zero trades today: 6-position cap binding; SMH near-cut at -6.12% midday rebounded to -5.45% close — strict adherence to -7% rule held through PM. Phase P&L advances to +$641.02 (+0.641%) from Mon +$226.93. Cut-loser envelope end-of-day: **SMH +1.64% cushion** (TIGHTEST — tightened from Mon EOD +2.38% and midday +0.94%; recovered off intraday low); NVDA +4.33% cushion (widened from Mon EOD +3.84% and midday +3.47% on +0.73% intraday); XLF +5.03% cushion (narrowed from Mon EOD +5.30% on -0.31% intraday); XLK $180 flag +8.17% cushion (narrowed from Mon EOD +8.32% on -0.17% intraday); XLE +10.46% cushion (widened from Mon EOD +8.80% on +1.77% intraday); XOM +11.61% cushion to $154.23 flag (widened from Mon EOD +10.27% on +1.36% intraday). No cuts warranted — all 6 inside envelope but SMH tightest requires PRIORITY-1 Wed vigilance ahead of CPI + ASML tape. Tighten-trail: XLK top at +5.61% unrl (far below +15% first-tighten threshold; trigger $213.46 = +8.90% from mtm $196.02). Realized P&L today: $0. Server-side ratchets observed intraday Tue (midday→close): XLE 233/74 sh hwm $67.01 → $67.245 (stop $60.309 → $60.5205, +$0.2115); XOM 30 sh hwm unchanged at $174.89 (close $174.485 < hwm); NVDA/SMH/XLK/XLF stops unchanged (mtm below hwm). Alpaca `last_equity: $100,209.32` differs from TRADE-LOG Oct 12 snapshot ($100,226.93) by $17.61 — minor dividend/adjustment reconciliation; TRADE-LOG snapshot is authoritative baseline per routine. Alpaca `balance_asof: 2026-10-12`; equity $100,641.02 is Tue Oct 13 close marks.
+
+**Trades today:** none (6-pos cap binding; no qualifying open).
+
+**Wk-19 trades running total:** 0/3 slot-consuming (Mon-Tue 0; Wed-Fri 3 remain structurally but 6-pos cap binding until a close).
+
+**Post-EOD order state (9 GTC stops covering 6 positions):**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — unchanged
+- SMH 16 sh: trail 10% $563.3055 hwm $625.895 (9c351f1a) — unchanged
+- XLE 233 sh: trail 10% $60.5205 hwm $67.245 (2cae6815) — ratcheted intraday
+- XLE 74 sh: trail 10% $60.5205 hwm $67.245 (442df295) — ratcheted intraday
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $157.401 hwm $174.89 (5afbbb78) — unchanged (hwm from midday)
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Wednesday 10/14 (Wk-19 Day 3) plan:**
+1. **Pre-market scan** — CPI release Wed + ASML Q3 Wed (semi binary catalyst). Half-size Decision Rule applies on event-day qualifying setups.
+2. **SMH MANUAL-CUT PRIORITY-1 (TIGHTEST)** — cushion +1.64% to $576.97 cut flag. If SMH < $576.97 → cancel 9c351f1a, market sell 16 sh. ASML print is binary catalyst (NASDAQ-wide semi direction).
+3. **NVDA MANUAL-CUT PRIORITY-2** — cushion +4.33% to $218.12 cut flag; hwm $237.07 / stop $213.363. Discretionary tighten trigger $269.72 = +18.3% from mtm.
+4. **XLF MANUAL-CUT vigilance** — cushion +5.03% to $52.12 cut flag; bank-earnings continuation Wed (MS/BK).
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +8.17%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+6. **XLE MANUAL-CUT vigilance** — cushion +10.46%; GTC trail $60.5205 covers 9.92% of mtm.
+7. **XOM MANUAL-CUT vigilance** — cushion +11.61%; GTC trail $157.401 covers 9.79% of mtm.
+8. **XLK discretionary tighten** — trigger $213.46 = +8.90% from mtm $196.02.
+9. **6-position cap REACHED** — no further opens Wed unless a position is closed first.
+10. **CPI tape overlay** — hotter CPI = XLK/XLF duration pressure; softer CPI = broad risk-on.
+11. **ASML print overlay** — AI capex guide drives SMH/NVDA direction (binary for near-cut SMH).
+12. **ChangXin DDR5 overhang** — ongoing semi memory sector pressure; VIX re-pop above 17 re-arms XLK duration overlay.
+13. **Thu TSMC Q3** — half-size Decision Rule continues for qualifying setups.
