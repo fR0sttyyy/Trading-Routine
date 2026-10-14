@@ -7553,3 +7553,52 @@ Order of preference at MARKET-OPEN routine runtime:
 
 ### Wk-19 Slot Budget
 - Mon 0 / Tue 0 / Wed structurally 3/3 FRESH but 6-pos cap binding → effective 0 unless a close executes.
+
+### Oct 14 — Midday Scan (Wednesday 12:10 ET / Wk-19 Day 3 / post-CPI tape digest / 0 ACTIONS)
+
+**Portfolio snapshot:** 5 positions post-SMH morning cut. All in -7%/+15% envelope — no cut, no tighten.
+
+| Ticker | Shares | Entry | Current | Unrl P&L | % | Cushion to Cut | GTC Stop |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $222.53 | -$1,020.51 | -5.12% | **+2.02% to $218.12 (TIGHTEST)** | c9b438b7 $213.363 hwm $237.07 |
+| XLE | 307 | $64.682 | $67.41 | +$837.56 | +4.22% | +12.07% to $60.15 | 2cae6815+442df295 $60.9345 hwm $67.705 |
+| XLF | 180 | $56.045 | $54.395 | -$297.00 | -2.94% | +4.18% to $52.12 | 8bd5213b+bbf96d5f $50.5845/$50.445 |
+| XLK | 104 | $185.616 | $191.79 | +$642.14 | +3.33% | +6.55% to $180 flag | 5451fa24+f2c0dace $182.925 hwm $203.25 |
+| XOM | 30 | $165.84 | $176.495 | +$319.65 | +6.43% | +13.76% to $154.23 | 5afbbb78 $158.886 hwm $176.54 (ratcheted) |
+
+**STEP 3 — cut losers (unrl_plpc <= -0.07):** NONE. NVDA tightest at -5.12% (cushion +2.02% to $218.12 cut flag — NARROWED from pre-market +2.97% on continued intraday weakness $224.60→$222.53).
+
+**STEP 4 — tighten winners (unrl_plpc >= +15%):** NONE. XOM highest at +6.43% (far below +15% threshold).
+
+**STEP 5 — thesis check:** No thesis breaks. 
+- NVDA: $250M UK AI safety pledge + Jensen GTC Berlin keynote 10/21 + TSMC Q3 Thu — thesis intact; narrowed on CPI-day duration pressure + semi-tape digestion continuation (ASML print mixed read).
+- XLE: crude firming (WTI $95.52 pre-mkt / Brent $105.89); Iran-Hormuz-Saudi overhang; XLE $67.41 holding above pre-mkt reference; +37.61% YTD sector leadership intact.
+- XLF: cushion +4.18%; MS/BK Wed bank-earnings continuation ongoing; JPM revenue miss offset by GS blowout anchor; thesis-break NOT triggered.
+- XLK: cushion +6.55% to $180 flag; VIX 15.29 well below 17 duration-overlay re-arm trigger; AI narrative intact despite short-term chip-tape digestion.
+- XOM: GTC trail server-ratcheted to $158.886 (hwm $176.54 — new intraday high); crude continuation intact.
+
+**STEP 6 — optional research:** NONE. No position moving sharply with unknown cause; CPI-digest tape dynamics known. All 5 positions in-envelope.
+
+**STEP 7 — ClickUp notification:** SKIP (no action taken, no-op midday).
+
+**Post-cut cushions ranked (tightest first):**
+1. NVDA +2.02% to $218.12 (narrowed from pre-mkt +2.97%)
+2. XLF +4.18% to $52.12 (stable; MS/BK read-through pending)
+3. XLK +6.55% to $180 (stable)
+4. XLE +12.07% to $60.15 (sector leader)
+5. XOM +13.76% to $154.23 (new intraday high)
+
+**Afternoon vigilance priorities:**
+1. **NVDA MANUAL-CUT PRIORITY-1 (TIGHTEST)** — if NVDA < $218.12 → cancel c9b438b7, market sell 85 sh. Narrowing on CPI duration pressure + semi tape.
+2. **XLF MANUAL-CUT PRIORITY-2** — if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh. Bank-earnings continuation.
+3. **XLK $180 CONDITIONAL EXIT armed** — if XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break on duration-overlay re-arm).
+4. **TSMC Q3 Thu 10/16** — binary semi catalyst; NVDA/XLK beta.
+5. **ASML digest ongoing** — profit beat + raised FY guide dominant, tape headline mixed.
+6. **Wk-19 slot budget:** 0/3 FRESH used; 5/6 positions (1 slot open structurally for qualifying setup).
+
+**Account state (snapshot):**
+- Positions: 5 | Long MV: ~$74,642 | Deployment: ~75% (bottom of 75-85% band)
+- Equity (estimated): ~$99,750 (NVDA/XLF intraday fade partially offset by XOM strength)
+- Open GTC stops: 8 covering all 5 positions
+
+**No action taken → no ClickUp send → no commit required for TRADE-LOG → RESEARCH-LOG midday addendum appended.**
