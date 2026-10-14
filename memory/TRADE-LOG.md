@@ -4131,3 +4131,44 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 9. **Wk-19 slot budget:** 0/3 FRESH used; 5/6 positions; 1 slot open structurally.
 10. **TSMC Q3 Thu 10/16** — binary semi catalyst; NVDA/XLK beta.
 11. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING (slots missed) — run WEEKLY-REVIEW skill this afternoon.
+
+### Oct 14 — EOD Snapshot (Day 3, Wednesday — Wk-19 Day 3 / CPI DAY + ASML Q3 digest / 1 trade: SMH strict -7% CUT)
+**Portfolio:** $99,442.90 | **Cash:** $24,985.07 (25.13%) | **Day P&L:** -$1,198.12 (-1.191%) | **Phase P&L:** -$557.10 (-0.557%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $220.93 | -3.32% | -$1,156.51 (-5.80%) | $213.363 (trail 10%, hwm $237.07) |
+| XLE | 307 | $64.6818 | $67.595 | +0.59% | +$894.35 (+4.50%) | $60.9345 (trail 10%, hwm $67.705 — ratcheted AM) |
+| XLF | 180 | $56.045 | $54.405 | -0.76% | -$295.20 (-2.93%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $190.57 | -2.91% | +$515.26 (+2.67%) | $182.925 (trail 10%, hwm $203.25) |
+| XOM | 30 | $165.84 | $177.14 | +1.76% | +$339.00 (+6.81%) | $159.687 (trail 10%, hwm $177.43 — ratcheted intraday) |
+
+**Notes:** Wk-19 Day 3 Wednesday close — CPI-day + ASML Q3 digest / SMH strict -7% rule-forced cut at open (16 sh @ $576.80, realized -$697.62). Clean 1-trading-day baseline vs Oct 13 EOD snapshot ($100,641.02). Day P&L -$1,198.12 (-1.191%) = realized -$697.62 (SMH) + mark-to-close book delta -$500.50 (NVDA -$599.39 intraday on CPI/ASML duration pressure through PM; XLK -$593.84 intraday on broad-tech weakness; XLF -$74.70; offset partially by XLE +$121.27 and XOM +$91.80 on crude continuation). Deployment 74.87% mv (just below 75-85% target band on SMH exit; one open slot post-cut). Phase P&L reverses to -$557.10 (-0.557%) from Tue +$641.02 — first negative phase mark this cycle driven by rule-forced SMH exit + broad risk-off intraday PM. Cut-loser envelope end-of-day: **NVDA +1.20pp headroom to -7% rule** (TIGHTEST — tightened from Tue EOD +4.33% / market-open +2.97% / midday +2.02% on steady PM bleed; NVDA $220.93 close vs cut flag $218.12 = +1.27% price cushion). XLF +4.07pp headroom (narrowed from Tue +5.03% on -0.76% intraday); XLK $180 flag +5.55% cushion (narrowed from Tue +8.17%); XLE +11.50pp headroom (widened from Tue +10.46%); XOM +13.81pp headroom (widened from Tue +11.61%). No further cuts warranted — all 5 remain inside envelope but NVDA PRIORITY-1 for Thu TSMC Q3 session. Tighten-trail: XOM top at +6.81% unrl (still far below +15% first-tighten threshold). Realized P&L today: -$697.62 (SMH). Server-side ratchets observed intraday Wed: XLE 233/74 sh hwm $67.245 → $67.705 (stop $60.5205 → $60.9345, +$0.414); XOM 30 sh hwm $174.89 → $177.43 (stop $157.401 → $159.687, +$2.286); NVDA/XLK/XLF stops unchanged (mtm below hwm). Alpaca `last_equity: $100,723.91` differs from TRADE-LOG Oct 13 snapshot ($100,641.02) by $82.89 — dividend/adjustment reconciliation; TRADE-LOG snapshot is authoritative baseline per routine. Alpaca `balance_asof: 2026-10-13`; equity $99,442.90 is Wed Oct 14 close marks.
+
+**Trades today:** 1 — SMH SELL (CUT -7% strict rule) 16 sh @ $576.80 → realized **-$697.62 (-7.03%)**, 7 days held (Oct 7 → Oct 14). Rule-forced close on ChangXin DDR5 overhang + Burry puts + CPI-day duration pressure. Not a FRESH slot-consuming trade.
+
+**Wk-19 trades running total:** 0/3 FRESH slot-consuming (Mon-Wed); SMH strict-rule close does not consume FRESH budget. 3 FRESH slots remain structurally; 5/6 position-cap (1 slot structurally open).
+
+**Post-EOD order state (8 GTC stops covering 5 positions):**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — unchanged
+- XLE 233 sh: trail 10% $60.9345 hwm $67.705 (2cae6815) — ratcheted intraday AM
+- XLE 74 sh: trail 10% $60.9345 hwm $67.705 (442df295) — ratcheted intraday AM
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $159.687 hwm $177.43 (5afbbb78) — ratcheted intraday
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Thursday 10/15 (Wk-19 Day 4) plan:**
+1. **Pre-market scan** — TSMC Q3 Thu 10/16 pre-session (binary semi catalyst; NVDA/XLK direct beta). Half-size Decision Rule applies on event-day qualifying setups.
+2. **NVDA MANUAL-CUT PRIORITY-1 (TIGHTEST OVERALL)** — only +1.20pp headroom to -7% strict rule; cut flag $218.12 vs close $220.93 (+1.27% price cushion). If NVDA < $218.12 at any routine check → cancel c9b438b7, market sell 85 sh. TSMC print is binary (post-TSMC Thu close → Fri gap risk).
+3. **XLF MANUAL-CUT PRIORITY-2** — cushion +4.07pp to -7% rule / cut flag $52.12 vs close $54.405 = +4.20% price cushion. Bank-earnings continuation (JPM/GS Thu close + MS Fri) binary.
+4. **XLK $180 CONDITIONAL EXIT armed** — cushion +5.55% to $180 flag. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh. VIX re-pop above 17 re-arms duration overlay.
+5. **XLE / XOM MANUAL-CUT vigilance** — XLE +11.50pp / XOM +13.81pp headroom; both GTC trail stops ratcheting server-side with crude firming.
+6. **XLK discretionary tighten watch** — trigger $213.46 = +12.00% from mtm $190.57 (still below +15% first-tighten threshold).
+7. **1 structural slot open (5/6 positions)** — fresh-entry scan Thu AM per Decision Rule; AMD/AVGO/DVN/EOG/MS re-screened post-CPI tape; half-size on event-day qualifying setups.
+8. **Wk-19 FRESH slot budget:** 0/3 used; 3 remain structurally.
+9. **Phase P&L negative** — first dip below starting equity this cycle (-$557.10); discipline is the response (no revenge trades; qualifying-setup rule intact).
+10. **TSMC Q3 Thu 10/16 pre-mkt** — direct NVDA/XLK beta; near-cut NVDA is binary.
+11. **Fri 10/17 BAC + bank-earnings close** — XLF binary tape.
+12. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING (slots missed) — run WEEKLY-REVIEW skill tomorrow.
