@@ -7481,3 +7481,75 @@ Order of preference at MARKET-OPEN routine runtime:
 - **PM vigilance ABSOLUTELY required** on SMH; cushion <1% leaves zero room before -7% trigger.
 - Other movers in-line: XOM/XLE firming on crude continuation; XLF -0.16% ahead of ongoing bank-earnings Tue; NVDA/XLK digesting with broader semi tape.
 
+## 2026-10-14 — Pre-market Research (Wk-19 Day 3 / Wednesday — CPI print 8:30 ET + ASML Q3 reaction + bank-earnings continuation)
+
+### Account (as of pre-market / balance_asof 2026-10-13)
+- Equity: **$100,375.71** | Cash: **$15,756.27** (15.70%) | Long MV: **$84,619.44** (84.30%)
+- Buying power: $299,959.50 (4x) | RegT BP: $116,131.98 | Non-marg BP: $58,065.98
+- Daytrade count: 0 (no PDT risk) | last_equity (Tue close): $100,723.91 (variance -$348.20 reflects post-close ETF NAV marks vs TRADE-LOG EOD $100,641.02)
+- Positions: 6/6 (**cap BINDING**); Open orders: 9 GTC trailing stops covering all 6 positions
+
+### Position Snapshot (pre-market quotes stale from Tue EOD)
+| Ticker | Shares | Entry | Current | Unrl P&L | % | % mv | Cushion to Cut |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | $226.89 | -$649.91 | -3.26% | 19.22% | +3.87% to $218.12 |
+| SMH | 16 | $620.401 | $580.11 | -$644.66 | **-6.49%** | 9.25% | **+0.54% to $576.97 (CRITICAL)** |
+| XLE | 307 | $64.682 | $67.65 | +$911.24 | +4.59% | 20.69% | +12.47% to $60.15 |
+| XLF | 180 | $56.045 | $54.4622 | -$284.90 | -2.82% | 9.77% | +4.33% to $52.12 |
+| XLK | 104 | $185.616 | $194.47 | +$920.86 | +4.77% | 20.15% | +7.44% to $180 flag |
+| XOM | 30 | $165.84 | $175.18 | +$280.20 | +5.63% | 5.24% | +13.52% to $154.23 |
+
+### Market Context (research.sh context, pre-mkt)
+- **WTI / Brent:** WTI $95.52 (+1.47%) / Brent $105.89 (+0.19%) — crude firming continues; Brent printed highest close since 9/15 ($106.65 settled Mon); Hormuz traffic sinks + Saudi oil under fire + Iran-Saudi-Houthi overhang
+- **S&P 500 fut:** ES +0.23% ($7,873.50) / NQ +0.02% ($30,797.50) — modest green pre-CPI, Dow fut +145 pts headline
+- **VIX:** 15.29 (+0.13%) — low; below 17 re-arm trigger for XLK duration overlay
+- **Indices Tue close:** S&P 7,805.45 (-0.02%) / Nasdaq 27,204.38 (-0.15%) / Dow 51,670.1 (-0.35%)
+- **Sector Tue:** XLE +1.8% TOP / XLB +0.57% / XLP -0.26% / XLI -0.28% / XLF -0.42% / XLV -1.35% BOTTOM / XLK -0.04%
+- **Today's catalysts:**
+  - **CPI release 8:30 ET** — fcst headline **3.6% YoY** (vs 3.4% prior) / **0.6% MoM** (vs 0.4% prior) / core **2.5% YoY** (vs 2.4%) / core **0.2% MoM** (vs 0.3%). Headline HOT if print >= fcst; Fed-pivot repricing risk.
+  - **ASML Q3 before open (reported)**: Net sales EUR 11.66B vs 11.72B exp (slight miss) / Net profit EUR 4.96B vs 4.1B exp (**+21% beat**) / FY guide **raised** to EUR 44-45B (prior lower end 43B) / Q4 guide EUR 14.2-15.2B (upper above LSEG 14.2B consensus). Headlines reading mixed: "ASML earnings fail to lift chip stocks" (Barchart Wed 10:33Z) / "results weigh on sentiment" (XTB) despite beat — pre-CPI positioning drag.
+  - **NVDA**: $250M UK AI safety research pledge + 5-yr compute donation (positive sentiment headline; non-material to earnings; Jensen visionary leadership piece Tue).
+  - **Bank-earnings Tue aftermath**: GS Q3 EPS $17.01 (+30% beat vs $13.09) / Citi $2.85 (+18% beat vs $2.41) / JPM revenue miss, stock flat $334.39 / WFC -3% to $81.08 / XLF +1% Tue to $55.62 then faded intraday to $54.88 close. MS/BK Wed continuation.
+- **Economic calendar:** US CPI Sep release 8:30 ET; China inflation data overnight (released); nothing else major.
+- **Earnings before open:** ASML (reported, see above). Thin BMO otherwise.
+- **Sector momentum:** XLE in-trend (+37.61% YTD, oil-tape leader); XLK/semis under duration pressure pre-CPI; XLV weakest; XLF binary on continuation prints.
+
+### Trade Ideas (6-pos cap BINDING — any fresh entry requires a close first)
+1. **DEFENSIVE: SMH strict -7% cut-trigger at open** — SMH -6.49% unrl, cushion +0.54% to $576.97 cut flag. Hot-CPI + ASML-fade cocktail could trigger instantly at open. ACTION: if SMH < $576.97 (= avg entry $620.401 × 0.93) at MARKET-OPEN runtime → cancel 9c351f1a, market sell 16 sh (frees ~$9,300 slot). Catalyst: strict rule (unrealized_plpc <= -0.07 is non-negotiable). R:R: strict rule enforcement, N/A.
+
+2. **DEFENSIVE: XLF strict -7% cut-trigger at open** — XLF -2.82% unrl, cushion +4.33% to $52.12 cut flag. Bank-earnings Tue was mixed-at-best (JPM revenue miss); MS/BK Wed can push XLF toward cut if misses. ACTION: if XLF < $52.12 (= avg entry $56.045 × 0.93) at MARKET-OPEN runtime → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+
+3. **DEFENSIVE: XLK $180 conditional-EXIT (thesis break on duration overlay)** — cushion +7.44% to $180 flag. Hot-CPI + ASML-fade + VIX re-pop above 17 arms the duration overlay. ACTION: if XLK < $180 at MARKET-OPEN runtime → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+
+4. **CONTINGENT (if SMH cuts, slot opens, half-size on event day)**: XLE momentum add 50 sh (~$3,380) — ONLY if (a) SMH cut has executed and freed slot AND (b) XLE pulls back to $66.50-67.00 prior-support zone AND (c) WTI holds > $94 AND (d) CPI reaction is not catastrophic for risk-on. Entry $66.75 / stop $60.15 (-9.89%, aligns to existing XLE cut flag) / target $73.00 (+9.4%). R:R ~0.95:1 — **DOES NOT QUALIFY** (fails test 4: R:R <2:1 on cushioned trailing-stop target). Logging as idea-not-trade. If post-CPI dip opens cleaner setup, re-evaluate at midday.
+
+### DECISION
+- **No new entries today.** Explicit failed test: **Buy-Side Gate — "Total positions after fill <= 6"** currently at 6/6 cap. Fresh entry requires close first. No thesis-break trigger across any of 6 positions. SMH near-cut is strict-rule enforcement, not thesis break.
+- **Enter at open — CONDITIONAL exits only** (MARKET-OPEN routine runtime conditions):
+  - If SMH < $576.97 → execute SMH cut (idea 1 above)
+  - If XLF < $52.12 → execute XLF cut (idea 2 above)
+  - If XLK < $180 → execute XLK conditional-exit (idea 3 above)
+- **No clock-time gates** — all conditions are quote-driven at MARKET-OPEN runtime.
+- **Half-size Decision Rule applies today** (CPI = macro event) if any qualifying fresh setup emerges mid-session post-cut.
+- **Resolve-now check**: ASML print RESOLVED (beat profit, raised guide, mixed tape read); CPI print happens at 8:30 ET pre-MARKET-OPEN (routine will see post-print quotes). No deferrable catalysts.
+- **Not a flat-session rule violation**: cap-binding is a specific Buy-Side Gate test failure, not vague "patience."
+
+### Risk Factors
+- **CPI print 8:30 ET binary** — hot (headline > 3.6% or core > 2.5%) = tech/semi/duration pressure (NVDA/SMH/XLK/XLF deeper selloff; XLE/XOM mixed as oil-β faces inflation drag); soft = broad risk-on rally.
+- **SMH < $576.97 cut-trigger** — critical cushion +0.54%; **highest-probability action of the day**.
+- **ASML tape risk** — profit beat should bull semis, but headline flow is bearish-leaning pre-CPI; ChangXin DDR5 overhang on memory subsector persists.
+- **XLF binary** — MS/BK Wed bank continuation; JPM/WFC Tue reactions already in base.
+- **Oil-β vs CPI** — "Sell XLE into CPI risk" piece noted; however crude fundamentals (Hormuz, Saudi, Iran) remain bullish and XLE +37.61% YTD leadership intact.
+- **6-pos cap binding** = any opportunity-of-the-day post-CPI requires close execution first (SMH cut is the only live close candidate).
+- **Burry puts / AI-bubble headline watch** — VIX re-pop > 17 re-arms XLK duration overlay.
+
+### MARKET-OPEN Routine Action List (conditions evaluated at runtime)
+1. **SMH < $576.97** → cancel 9c351f1a, market sell 16 sh (strict -7% rule).
+2. **XLF < $52.12** → cancel 8bd5213b + bbf96d5f, market sell 180 sh (strict -7% rule).
+3. **XLK < $180** → cancel 5451fa24 + f2c0dace, market sell 104 sh (thesis-break duration-overlay).
+4. **No fresh entries** (6-pos cap binding; no qualifying setup passes Buy-Side Gate).
+5. **Monitor-only**: NVDA +3.87% cushion / XOM +13.52% / XLE +12.47% / XLK $180 +7.44%.
+6. **XLK discretionary tighten watch**: trigger $213.46 = +9.77% from Tue close $194.47 (far below).
+
+### Wk-19 Slot Budget
+- Mon 0 / Tue 0 / Wed structurally 3/3 FRESH but 6-pos cap binding → effective 0 unless a close executes.
