@@ -4061,3 +4061,73 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 11. **ASML print overlay** — AI capex guide drives SMH/NVDA direction (binary for near-cut SMH).
 12. **ChangXin DDR5 overhang** — ongoing semi memory sector pressure; VIX re-pop above 17 re-arms XLK duration overlay.
 13. **Thu TSMC Q3** — half-size Decision Rule continues for qualifying setups.
+
+### Oct 14 — Market-Open Routine (Wednesday, 09:36 ET — Wk-19 Day 3 / CPI DAY + ASML Q3 digest / 1 ACTION: SMH strict -7% CUT)
+**Portfolio (pre-cut):** $99,929.87 equity | **Cash:** $15,756.27 (15.77%) | **Long MV:** $84,173.60 (84.23%) | **Positions:** 6 → 5 | **Wk-19 trades:** 0/3 FRESH used (SMH exit = strict-rule close, not a FRESH entry) | **daytrade_count:** 0/3 (SMH held since Oct 7 → not a day trade)
+
+| Ticker | Side | Shares | Fill Price | Proceeds | Entry | Realized P&L | Realized % | Days Held | Thesis Outcome |
+| - | - | - | - | - | - | - | - | - | - |
+| SMH | SELL (CUT -7%) | 16 | $576.80 | $9,228.80 | $620.40125 | **-$697.62** | **-7.03%** | 7 (Oct 7 → Oct 14) | NVDA $6T + semi outlook + Citi 5 picks + Barclays FOMO + TSMC Q3 Thu — thesis structurally intact but ChangXin DDR5 competitive overhang + Burry puts + CPI-day duration pressure pushed SMH through strict -7% rule at open. **Rule-forced close, not thesis break.** |
+
+**Pre-market plan execution:**
+- **SMH strict -7% CUT ✓ EXECUTED at open.** 09:36:14 ET quote ap $577.31 / bp $576.55 — bid printed **BELOW** cut flag $576.97 ($620.40125 × 0.93). Alpaca position data: unrealized_plpc = **-7.031%** → strict rule FIRED (unrealized_plpc <= -0.07 is non-negotiable). Executed: (1) cancelled GTC trail stop 9c351f1a-977c-4249-9de9-c9b74cfe9479 at 09:36:28 ET, (2) qty_available verified 16 at 09:36:30 ET, (3) submitted market sell 16 sh SMH at 09:36:55 UTC 13:36:55.410 (order aa9e8c06-6870-4ea1-98f9-f55181a28adf, client_order_id bot-20261014-SMH-133655-6485), (4) fill 16 sh @ $576.80 avg at 13:36:56.162 UTC (filled within 0.75s of submission). Zero coverage gap concerns (position liquidated, not held unprotected). Realized P&L **-$697.62 (-7.03%)**.
+- **XLF strict -7% cut NO-OP — HOLD.** Live $54.275 = -0.99% intraday, cushion to $52.12 = **+4.14%** above cut flag. Inside envelope. Bank-earnings continuation (MS/BK Wed) remains a monitor item.
+- **XLK $180 CONDITIONAL EXIT NO-OP — HOLD.** Live $193.655 = -1.34% intraday, cushion to $180 flag = **+7.57%**. Thesis-break duration-overlay NOT triggered (VIX 15.29 well below 17 re-arm).
+- **NVDA manual-cut NO-OP — HOLD.** Live $224.60 = -1.72% intraday, cushion to $218.12 cut flag = **+2.97%** (TIGHTEST remaining after SMH exit). GTC trail $213.363 hwm $237.07 covers 10% from hwm.
+- **XLE / XOM NO-OP — HOLD.** XLE $67.38 cushion +12.03% / XOM $174.855 cushion +13.37%. Both GTC trail stops in place.
+- **NO FRESH ENTRY on freed slot.** Pre-market RESEARCH-LOG explicitly logged all 7 screened ideas as DOES NOT QUALIFY (NVDA/XLE Gate cost-cap; SMH/XLF/XLK/XLE ETF R:R structural; XOM R:R negative; Idea 7 fresh scan AMD/AVGO/semi-cap/DVN/EOG/MS = cap-blocked only, never fully gated through tests 1-4). Pre-market plan explicit instruction: "If post-CPI dip opens cleaner setup, re-evaluate at midday." Market-open is EXECUTION of pre-vetted ideas, not scramble-scan. **Not a flat-session violation** — all candidates have named failed tests; scanning deferred to midday per plan.
+
+**Hard-check gates (SELL = no gate required):** Cut-loser rule is unconditional per strategy; no Buy-Side Gate applies.
+
+**Execution audit (13:36:08-13:36:56 UTC / 09:36:08-09:36:56 ET):**
+1. 09:36:08 ET — `alpaca clock` is_open=true confirmed.
+2. 09:36:14 ET — SMH quote ap $577.31 / bp $576.55 → **BID BELOW cut flag $576.97**; position unrealized_plpc -7.031% → strict rule FIRED.
+3. 09:36:28 ET — Cancelled GTC trail stop 9c351f1a (SMH 16 sh, stop $563.3055 hwm $625.895).
+4. 09:36:30 ET — qty_available verified 16/16 (shares freed from GTC hold).
+5. 09:36:55 ET — Submitted market sell 16 sh SMH (order aa9e8c06, client_order_id bot-20261014-SMH-133655-6485).
+6. 09:36:56 ET — Fill 16 sh @ $576.80 avg (status filled; proceeds $9,228.80).
+7. Position closed, zero coverage gap, strict -7% rule honored.
+
+**Post-cut account state (reconstructed):**
+- Cash: $15,756.27 + $9,228.80 proceeds = **~$24,985.07** (25.00% of equity)
+- Long MV: $84,173.60 - $9,228.48 (SMH mv at pre-sell) = **~$74,945.12** (75.00%)
+- Equity: ~$99,929.87 (negligible change — position converted to cash at close marks)
+- Deployment: **75.00%** (bottom of 75-85% target band)
+- Positions: 5/6 (slot FREED for Wed midday / Thu scan)
+
+**Post-action order state (8 GTC stops covering 5 positions):**
+- NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — unchanged
+- XLE 233 sh: trail 10% $60.9345 hwm $67.705 (2cae6815) — server-side ratcheted intraday
+- XLE 74 sh: trail 10% $60.9345 hwm $67.705 (442df295) — server-side ratcheted intraday
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $157.995 hwm $175.55 (5afbbb78) — server-side ratcheted intraday
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+- ~~SMH 16 sh: trail 10% $563.3055 hwm $625.895 (9c351f1a) — CANCELLED pre-sell~~
+
+**Sector-momentum posture (post-SMH-exit):**
+- Dedicated semi ETF (SMH) EXITED → semi exposure now via NVDA single-name + XLK broad-tech (semi components inside XLK).
+- Book: 1 energy ETF (XLE 20.70% mv) + 1 energy single-name (XOM 5.25%) + 1 broad-tech ETF (XLK 20.15%) + 1 financials ETF (XLF 9.77%) + 1 semi single-name (NVDA 19.11%) = 75.00% mv.
+- Combined tech/semi concentration: NVDA + XLK ~39.26% mv — remains elevated but no sector cap in rules; AI leadership thesis intact; monitoring ChangXin DDR5 memory-subsector overhang.
+- **No "sector 2 consecutive fails" trigger yet** — SMH is first semi/tech-sector cut this cycle; XLK and NVDA still profitable, both in envelope.
+
+**Realized P&L this trade:** **-$697.62** (SMH, -7.03%, 7 days held).  
+**Realized P&L phase cumulative:** TBD at EOD snapshot (prior cumulative was +$641.02 Tue EOD; today realizes -$697.62; mark-to-close carries open book P&L delta).
+
+**Wk-19 slot budget update:** FRESH 0/3 used; SMH exit is strict-rule close (not slot-consuming). 3 FRESH slots remain structurally; 5/6 position-cap now (1 slot open for fresh entry if qualifying setup emerges).
+
+**STEP 7 ClickUp send:** posting recap (SMH CUT 16 sh @ $576.80, -$697.62 strict -7% rule, slot freed to 5/6, CPI-day defensive execution).
+
+**Next checkpoints:**
+1. **CPI 8:30 ET reaction** — already in base pricing by routine runtime (09:36 ET). Post-print tape digestion ongoing; monitor for duration-overlay re-arm (VIX > 17) and XLK/XLF/NVDA secondary pressure.
+2. **ASML Q3 digest** — profit beat / FY guide raised, tape headline-mixed ("results weigh on sentiment" per XTB); SMH exit removes direct ASML exposure but NVDA/XLK remain beta.
+3. **NVDA MANUAL-CUT PRIORITY-1 (TIGHTEST POST-SMH-EXIT)** — cushion +2.97% to $218.12 cut flag. If NVDA < $218.12 → cancel c9b438b7, market sell 85 sh.
+4. **XLF MANUAL-CUT PRIORITY-2** — cushion +4.14% to $52.12 cut flag; bank-earnings continuation Wed (MS/BK) binary.
+5. **XLK $180 CONDITIONAL EXIT armed** — cushion +7.57%. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+6. **XLE / XOM MANUAL-CUT vigilance** — XLE cushion +12.03% / XOM cushion +13.37%; both GTC trailing stops server-side ratcheting with crude continuation.
+7. **XLK discretionary tighten watch** — trigger $213.46 = +10.22% from mtm $193.655 (far below +15% threshold).
+8. **Fresh-entry scan at midday** per pre-market plan — post-CPI tape may open AMD/AVGO/DVN/EOG/MS setup; half-size Decision Rule applies (CPI = macro event day).
+9. **Wk-19 slot budget:** 0/3 FRESH used; 5/6 positions; 1 slot open structurally.
+10. **TSMC Q3 Thu 10/16** — binary semi catalyst; NVDA/XLK beta.
+11. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING (slots missed) — run WEEKLY-REVIEW skill this afternoon.
