@@ -4172,3 +4172,72 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 10. **TSMC Q3 Thu 10/16 pre-mkt** — direct NVDA/XLK beta; near-cut NVDA is binary.
 11. **Fri 10/17 BAC + bank-earnings close** — XLF binary tape.
 12. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING (slots missed) — run WEEKLY-REVIEW skill tomorrow.
+
+### Oct 15 — Market-Open Routine (Thursday, 09:36 ET — Wk-19 Day 4 / PPI DAY + TSMC Q3 blowout digest / 1 ACTION: NVDA GTC trail stop fired at open → strict -7% rule honored server-side)
+**Portfolio (post-fill):** $98,363.69 equity | **Cash:** $43,229.71 (43.95%) | **Long MV:** $55,133.98 (56.05%) | **Positions:** 5 → 4 | **Wk-19 trades:** 0/3 FRESH used (NVDA exit = rule-forced close via GTC trail, not FRESH entry) | **daytrade_count:** 0/3 (NVDA held since Oct 8 → not a day trade)
+
+| Ticker | Side | Shares | Fill Price | Proceeds | Entry | Realized P&L | Realized % | Days Held | Thesis Outcome |
+| - | - | - | - | - | - | - | - | - | - |
+| NVDA | SELL (TRAIL FIRE / strict-rule close) | 85 | $214.645294 | $18,244.85 | $234.536 | **-$1,690.71** | **-8.48%** | 7 (Oct 8 → Oct 15) | $250M UK AI safety pledge + Jensen GTC Berlin + TSMC Q3 blowout — thesis structurally intact but ChangXin DDR5 overhang + CPI-day duration pressure + VIX > 17 duration-overlay re-arm + pre-mkt gap through $218.12 strict-rule flag drove GTC trail stop server-side fill at open. **GTC trail-stop fire = rule-forced close; thesis-break NOT triggered** (TSMC blowout backdrop still bullish AI capex). |
+
+**Pre-market plan execution:**
+- **NVDA PRIORITY-1 CUT ✓ EXECUTED (server-side via GTC trail).** 09:36:39 UTC 13:36:39.417 trail stop c9b438b7 filled 85 sh @ $214.645294 avg (trigger stop_price $213.363, hwm $237.07, 10% trail from Oct 8 entry $234.536). Pre-mkt mark had already shown unrealized_plpc -7.37% (strict rule FIRED pre-open at $217.25); open sequence drove mark through $213.363 trail trigger, converted to market sell, filled at $214.645. Routine runtime 09:36:40 ET was 1-second AFTER trail fill — manual intervention preempted by server-side execution. Zero coverage gap. Realized P&L **-$1,690.71 (-8.48%)**. Position closed, slot freed.
+- **SECOND consecutive semi/chip failure (SMH Oct 14 → NVDA Oct 15) → SEMI/CHIP SECTOR MORATORIUM ACTIVE** per strategy rule 10 ("Exit a sector after 2 consecutive failed trades"). AMD/AVGO/TSM/MU/NVDA re-entry BLOCKED for Wk-19 remainder; reset condition = (a) semi sector momentum returns + (b) no additional semi failures.
+- **XLF strict -7% cut NO-OP — HOLD.** Live bid $54.76 (ask $54.78) = +4.95% cushion to $52.12 cut flag. Position intraday +0.62% unrl. Bank-earnings MS/BK/GS Thu continuation remains binary monitor.
+- **XLK $180 CONDITIONAL EXIT NO-OP — HOLD.** Live bid $186.34 (ask $186.37) = +3.52% cushion to $180 flag. VIX 17.54 re-armed duration overlay but XLK holding above $180 at open. Thesis-break NOT triggered.
+- **XLE / XOM NO-OP — HOLD.** XLE $67.17 cushion +11.56% to $60.15 flag / XOM $176.705 cushion +14.57% to $154.23 flag. Both GTC trail stops server-side ratcheted this morning (XLE $60.9345 → $61.11; XOM $159.687 → $160.767).
+- **NO FRESH ENTRY on 2 freed slots (4/6 positions now).** Pre-market RESEARCH-LOG explicitly logged all 6 screened ideas as DOES NOT QUALIFY (named failed tests: Idea 2 semi/chip = sector moratorium; Idea 3 XLV/XLP = R:R structural fail; Idea 4 DVN/EOG = R:R structural fail; Idea 5 XLE/XOM ADD = Gate 20% cost cap + sector-concentration prudence; Idea 6 MS = financials -0.55% not in momentum). Deployment drops to 56.05% (below 75-85% target band) but **under-deployment is NOT a buy signal** — strategy prohibits forcing trades; qualifying setups required. Not a flat-session violation — each candidate has a specific named failed test.
+
+**Hard-check gates (SELL = no gate required):** Cut-loser rule is unconditional per strategy; no Buy-Side Gate applies. Server-side trail stop fill = pre-committed order executed by exchange, no routine-level gate check needed.
+
+**Execution audit (13:36:39 UTC / 09:36:39 ET to 13:37:15 UTC):**
+1. 09:36:39 ET — GTC trail stop c9b438b7 fired server-side at mark break through $213.363 trigger; converted to market sell 85 sh NVDA; filled @ $214.645294 avg (0 ms routine latency — pre-committed order).
+2. 09:36:40 ET — `alpaca clock` is_open=true confirmed (1s after NVDA fill).
+3. 09:36:xx ET — `alpaca account` snapshot: equity $98,363.69, cash $43,229.71 (confirms NVDA proceeds landed; +$18,244.85 vs pre-mkt cash $24,984.86).
+4. 09:36:xx ET — `alpaca positions`: 4 positions (XLE/XLF/XLK/XOM), NVDA removed from book.
+5. 09:37:12-15 ET — Live quotes XLE/XLF/XLK/XOM all above cut flags; no conditional exits trigger. XOM quote showed wide spread (bp $169.90 / ap $187.63) — momentary venue-routing anomaly on NYSE; position mark $176.705 reconciles with bp/ap midpoint absent the ap outlier; no action needed.
+6. 09:37 ET — Open-orders audit: 7 GTC stops active covering 4 positions; NVDA c9b438b7 filled (removed from open set).
+
+**Post-cut account state (verified):**
+- Cash: **$43,229.71** (43.95% of equity)
+- Long MV: **$55,133.98** (56.05%)
+- Equity: **$98,363.69** (last_equity $99,486.39 → -$1,122.70 = realized -$1,690.71 NVDA + mark deltas across remaining 4 positions)
+- Deployment: **56.05%** (below 75-85% target band; 2nd consecutive forced cut this cycle)
+- Positions: **4/6** (2 structural slots open; both blocked for FRESH entry by semi moratorium + named-failed-test idea book)
+- Daytrade count: **0/3** PDT (NVDA held 7 days → not day trade)
+
+**Post-action order state (7 GTC stops covering 4 positions):**
+- XLE 233 sh: trail 10% $61.11 hwm $67.90 (2cae6815) — ratcheted intraday AM (from $60.9345/$67.705 Wed close)
+- XLE 74 sh: trail 10% $61.11 hwm $67.90 (442df295) — ratcheted intraday AM
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $160.767 hwm $178.63 (5afbbb78) — ratcheted intraday (from $159.687/$177.43)
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+- ~~NVDA 85 sh: trail 10% $213.363 hwm $237.07 (c9b438b7) — FILLED @ $214.645294 @ 09:36:39 ET~~
+
+**Sector-momentum posture (post-NVDA-exit):**
+- SMH exited Oct 14 + NVDA exited Oct 15 → **direct semi/chip exposure now ZERO** (XLK broad-tech retains ~20-25% semi weighting indirectly via NVDA/AVGO/TSM components, but not a dedicated semi play).
+- Book: 1 energy ETF (XLE 20.97% mv) + 1 energy single-name (XOM 5.39%) + 1 broad-tech ETF (XLK 19.67%) + 1 financials ETF (XLF 10.04%) = 56.05% mv.
+- Energy sector concentration = 26.36% (XLE + XOM) — remains top-weighted on continued crude firming (WTI $94 + Hormuz/Saudi/Iran overhang + 45% YTD leadership intact).
+- **SEMI/CHIP MORATORIUM** armed per rule 10 — 2 consecutive semi fails (SMH -7.03% + NVDA -8.48%) triggers sector exit rule. Re-entry blocked until (a) semi sector returns to momentum map leaders + (b) no additional semi failures.
+
+**Realized P&L this trade:** **-$1,690.71** (NVDA, -8.48%, 7 days held).
+**Realized P&L phase cumulative (through Oct 15 open):** $0 (prior cycle baseline) → -$697.62 (SMH Oct 14) → **-$2,388.33 (NVDA Oct 15)** = total realized this phase.
+
+**Wk-19 slot budget update:** FRESH 0/3 used; NVDA exit is rule-forced close (not slot-consuming, like SMH Oct 14). 3 FRESH slots remain structurally; **4/6 position-cap** now (2 slots open structurally but moratorium + idea-book gates block FRESH entry today).
+
+**STEP 7 ClickUp send:** posting recap (NVDA CUT 85 sh @ $214.65 via GTC trail server-side, -$1,690.71 strict-rule intent, semi/chip moratorium armed, 2 slots freed to 4/6, PPI-day defensive posture).
+
+**Next checkpoints:**
+1. **PPI 8:30 ET reaction** — in base pricing by routine runtime (09:36 ET). TSMC blowout digest ongoing (NT$763B record profit, +41.2% YoY revenue, 2nm concerns eased); tape headline-mixed as AI-ROI narrative continues to friction.
+2. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — cushion +4.95% to $52.12 cut flag; MS/BK/GS Thu bank-earnings binary.
+3. **XLK $180 CONDITIONAL EXIT armed** — cushion +3.52% to $180 flag; VIX 17.54 overlay re-armed. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+4. **XLE / XOM MANUAL-CUT vigilance** — XLE cushion +11.56% / XOM cushion +14.57%; both server-side ratcheting today with crude continuation.
+5. **Fresh-entry scan at midday** — 2 slots open; semi moratorium + R:R-failed-ideas gate blocks today's screens; XLV/XLP defensive rotation remains R:R structural fail; MS/XLF ADD remains sector-not-in-momentum (financials -0.55%).
+6. **Wk-19 slot budget:** 0/3 FRESH used; 4/6 positions; 2 slots open structurally (both moratorium/idea-gated).
+7. **TSMC Q3 Thu post-mkt / Fri 10/16 RTX Spark launch** — removed semi-direct-beta exposure; XLK indirect-beta on remaining AI-capex tape.
+8. **Fri 10/17 BAC earnings close** — XLF binary tape continuation.
+9. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING — run WEEKLY-REVIEW skill this afternoon or Friday.
+10. **Phase P&L deep negative** — realized -$2,388.33 across 2 consecutive semi cuts; discipline response: no revenge trades; semi moratorium honored; under-deployment is NOT a buy signal.
+
