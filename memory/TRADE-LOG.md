@@ -4241,3 +4241,53 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 9. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING — run WEEKLY-REVIEW skill this afternoon or Friday.
 10. **Phase P&L deep negative** — realized -$2,388.33 across 2 consecutive semi cuts; discipline response: no revenge trades; semi moratorium honored; under-deployment is NOT a buy signal.
 
+### Oct 15 — Midday Scan (Thursday, 12:10 ET — Wk-19 Day 4 / PPI digest / NO ACTION)
+**Portfolio (midday):** 4 positions | **Deployment:** ~56% mv | **Wk-19 trades:** 0/3 FRESH | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Mtm | Intraday | Unrl P&L | Unrl % | Stop | Cushion to -7% / cond-exit |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $66.73 | -1.33% | +$628.80 | +3.17% | $61.11 (hwm $67.90) | $60.15 flag → +10.94% |
+| XLF | 180 | $56.045 | $54.975 | +0.84% | -$192.60 | -1.91% | $50.5845 / $50.445 (hwm $56.205 / $56.05) | $52.12 flag → +5.47% |
+| XLK | 104 | $185.6156 | $188.045 | -1.25% | +$252.66 | +1.31% | $182.925 (hwm $203.25) | $180 cond-exit → +4.47% |
+| XOM | 30 | $165.84 | $174.87 | -1.21% | +$270.90 | +5.45% | $160.767 (hwm $178.63) | $154.23 flag → +13.37% |
+
+**STEP 3 cut-loser check (unrealized_plpc <= -0.07):** XLE +3.17% / XLF -1.91% / XLK +1.31% / XOM +5.45% — **all inside envelope. NO CUTS.**
+
+**STEP 4 tighten-trail check:** Max unrl = XOM +5.45% (far below +15% first-tighten threshold). **NO TIGHTENS.** All server-side trailing stops at prior hwm (mtm below hwm on all 4; no new ratchet since 09:36 ET).
+
+**STEP 5 thesis-break check:** All 4 intraday moves modest (-1.21% to -1.33% on the three down-names; XLF +0.84%). No named catalyst reversal. PPI digestion ongoing; TSMC Q3 blowout backdrop intact. **NO THESIS-BREAK CUTS.**
+
+**Cushion snapshot (vs morning open):**
+- XLF cushion to $52.12: +4.95% → **+5.47%** (widened on +0.84% intraday).
+- XLK cushion to $180: +3.52% → **+4.47%** (widened on $188.045 mtm vs $186.37 open).
+- XLE cushion to $60.15: +11.56% → **+10.94%** (narrowed on -1.33% intraday but still deep envelope).
+- XOM cushion to $154.23: +14.57% → **+13.37%** (narrowed on -1.21% intraday but still deep envelope).
+
+**STEP 6 intraday research — SKIP.** No sharp unexplained moves; broad tape in PPI-digest range; no single-name catalyst reversal flagged.
+
+**Fresh-entry re-screen (2 open slots / 3 FRESH budget):**
+- Semi/chip MORATORIUM still armed (SMH + NVDA = 2 consecutive fails this week); AMD/AVGO/TSM/NVDA re-entry BLOCKED.
+- XLV/XLP defensive ETFs: R:R structural fail (<1:1 on 10% stops) — unchanged from pre-mkt.
+- DVN/EOG energy single-names: R:R structural fail — unchanged.
+- MS pre-earnings: financials sector not in momentum today — unchanged (XLF +0.84% intraday but sector thesis not yet re-established as leader).
+- XLE/XOM ADD: XLE Gate position-cost cap (20.07% mv); XOM R:R + sector-concentration prudence.
+- **NO QUALIFYING FRESH SETUP → no entry. Not a flat-session violation; each candidate has a named failed test.**
+
+**STEP 7 ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state (unchanged from 09:36 open):**
+- Cash: $43,229.71 | Long MV: $55,133.98 | Deployment: 56.05%
+- 4 positions / 2 slots open / Wk-19 FRESH 0/3 used
+- 7 GTC trailing stops active across 4 symbols
+- Realized phase P&L: -$2,388.33 (SMH -$697.62 + NVDA -$1,690.71)
+
+**Next checkpoints:**
+1. **XLF MANUAL-CUT PRIORITY-1** — cushion +5.47% to $52.12; MS/BK/GS Thu bank-earnings continuation binary into close.
+2. **XLK $180 CONDITIONAL EXIT** — cushion +4.47%; VIX still above 17 → duration overlay re-armed.
+3. **XLE / XOM MANUAL-CUT vigilance** — both deep envelope; GTC trail stops hwm-held.
+4. **No tighten triggers active** — XOM +5.45% is top-unrl; next trigger $15% unrl.
+5. **No fresh-entry today** — moratorium + R:R gates block all screened names; re-screen at EOD.
+6. **TSMC Q3 Thu post-mkt** — direct-beta exposure zero; XLK indirect only.
+7. **Fri 10/17 BAC earnings** — XLF binary continuation.
+8. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING — run WEEKLY-REVIEW skill this afternoon or Friday.
+
