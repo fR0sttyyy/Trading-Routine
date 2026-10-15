@@ -7602,3 +7602,115 @@ Order of preference at MARKET-OPEN routine runtime:
 - Open GTC stops: 8 covering all 5 positions
 
 **No action taken → no ClickUp send → no commit required for TRADE-LOG → RESEARCH-LOG midday addendum appended.**
+
+## 2026-10-15 — Pre-market Research (Thursday — Wk-19 Day 4 / PPI DAY + TSMC Q3 blowout + bank-earnings continuation)
+
+### Account (pre-mkt snapshot, Alpaca balance_asof 2026-10-14)
+- **Equity:** $98,945.96 (-$540.43 overnight mark from last_equity $99,486.39)
+- **Cash:** $24,984.86 (25.25%)
+- **Buying power:** $307,030.52 (reg-T $123,930.82; non-marginable $61,965.41)
+- **Long MV:** $73,961.10 (74.75% — just below 75-85% target band)
+- **Positions:** 5/6 (1 structural slot open)
+- **Daytrade count:** 0/3 PDT
+- **SMA:** $100,723.91
+
+### Pre-mkt Position Marks
+| Ticker | Shares | Entry | PreMkt | Unrealized % | Cut Flag | Cushion | Note |
+| - | - | - | - | - | - | - | - |
+| NVDA | 85 | $234.536 | **$217.25** | **-7.37%** | **$218.12** | **-0.40%** | **STRICT -7% RULE FIRED (unrealized_plpc -0.0737)** |
+| XLE | 307 | $64.6818 | $67.79 | +4.81% | $60.15 | +11.28% | GTC trail $60.9345 hwm $67.705 |
+| XLF | 180 | $56.045 | $54.85 | -2.13% | $52.12 | +4.98% | Bank-earnings MS/BK/GS Thu binary |
+| XLK | 104 | $185.6156 | $187.18 | +0.84% | $180.00 | +3.99% | **VIX 17.54 ARMS duration overlay** |
+| XOM | 30 | $165.84 | $177.95 | +7.30% | $154.23 | +15.37% | GTC trail $159.687 hwm $177.43 |
+
+### Market Context (bash scripts/research.sh context)
+- **S&P 500:** 7,718.94 (-1.11%) | **Nasdaq:** 26,692.87 (-1.88%) | **Dow:** 51,621.48 (-0.09%)
+- **VIX:** 17.54 **(+14.87%)** — breaking above 17 re-arms XLK duration overlay per Mon plan
+- **ES=F:** 7,748.25 (-0.28%) | **NQ=F:** 29,816.75 (-1.21%)
+- **WTI crude:** $94.09 (+0.20%) | **Brent:** $104.66 (-1.32%)
+- **Sector day:** Healthcare +2.53% (leader), Staples +2.22%, Energy +0.64%, Materials -0.10%, Financials -0.55%, Industrials -0.97%, **Tech -2.98% (laggard)**
+
+### Catalyst Tape
+- **TSMC Q3 pre-mkt (BLOWOUT):** record net profit NT$763B (+68.7% YoY), revenue $46.72B (+41.2% YoY, +16.2% QoQ), GM 66.4%, OM 58.7%, 2nm ramp concerns eased. **AI-capex tailwind** headline — BUT "chip stock selloff deepens" (Investing.com), tape digesting ROI concerns.
+- **US PPI release 8:30 ET** — Sep core PPI YoY; macro inflation catalyst post-CPI Wed.
+- **Bank earnings Thu continuation** — MS/BK/GS reporting (XLF binary).
+- **Nvidia RTX Spark launch Fri Oct 16** — DLSS 5 + Nemotron 3.5 Bolt AI models; secondary tailwind.
+- **Apple $5T market cap** milestone (XLK beta).
+- **Risk-off rotation:** defensive leaders (XLV/XLP) up on NASDAQ -1.21% futures; VIX +15% re-pricing.
+
+### Momentum Map (post-sector day)
+- **LEADING:** Healthcare (XLV +2.53%), Staples (XLP +2.22%) — defensive risk-off rotation
+- **CONTINUING:** Energy (XLE +0.64%, +45% YTD intact; crude firming)
+- **LAGGING:** Tech (XLK -2.98%), Industrials (XLI -0.97%), Financials (XLF -0.55%)
+- **BROKEN:** Semis (SMH cut Oct 14; NVDA cut-pending today → 2 consecutive semi fails — **semi/chip SECTOR MORATORIUM armed per strategy rule 10**)
+
+### Risk Factors
+1. **VIX > 17 re-arms XLK $180 duration overlay** — if XLK < $180 intraday, exit all 104 sh XLK.
+2. **NVDA strict -7% rule firing** at pre-mkt mark; market-open routine must execute cut.
+3. **PPI print 8:30 ET** — hot = continued duration pressure (XLK/NVDA post-cut thesis); cool = risk-on rebound.
+4. **Bank-earnings Thu** — MS/BK/GS prints could further pressure XLF.
+5. **ChangXin DDR5 + chip-selloff tape** — semi overhang persistent; sector moratorium prudent.
+6. **TSMC blowout "sold" headline risk** — AI-ROI narrative friction despite record.
+
+### Trade Ideas Screened
+
+**Idea 1 — NVDA STRICT CUT (not FRESH, rule-forced close):**
+- Not a buy. Market-open routine executes mandatory -7% cut (unrealized_plpc -0.0737 at pre-mkt mark; cut flag $218.12 vs $217.25).
+- 2nd consecutive semi fail (SMH Oct 14 was 1st) → **triggers "exit sector after 2 fails" rule for semis/chips** → semi/chip MORATORIUM armed for Wk-19 remainder.
+- QUALIFIES as rule-forced close → EXECUTE AT OPEN (16 shares SMH precedent).
+- Post-cut: 2/6 position slots open; cash ~$43,500 (25% → 44%); deployment drops to ~56%.
+
+**Idea 2 — AMD / AVGO / TSM / NVDA RE-ENTRY (FRESH semi/chip):**
+- Catalyst: TSMC blowout + AI capex tailwind.
+- Test 1 (catalyst): ✓
+- Test 2 (sector momentum): **✗ FAIL** — semi sector moratorium (SMH + NVDA = 2 consecutive fails per rule 10); tech sector -2.98% today (not in momentum).
+- **DOES NOT QUALIFY → NO ENTRY** (named failed test: sector moratorium + lagging tech sector).
+
+**Idea 3 — XLV / XLP FRESH (defensive leaders):**
+- Catalyst: ✓ Defensive rotation on VIX > 17 + CPI/PPI uncertainty; sector leader today (+2.53% / +2.22%).
+- Test 1: ✓ | Test 2: ✓ | Test 3: ✓ (10% stop definable)
+- Test 4 (R:R >= 2:1): **✗ FAIL** — low-beta defensive ETFs structurally cannot hit 2:1 R:R on 10% stops in sub-2-week horizon; typical 5-7% target vs 10% stop = 0.5-0.7:1.
+- **DOES NOT QUALIFY → NO ENTRY** (named failed test: R:R structural).
+
+**Idea 4 — DVN / EOG FRESH (energy continuation single-names):**
+- Catalyst: ✓ WTI $94 firming, Iran-Saudi-Houthi, +45% YTD energy leadership.
+- Test 1: ✓ | Test 2: ✓ | Test 3: ✓
+- Test 4: **✗ FAIL** — EOG/DVN typical move 7-10% in near-term; target of 14-20% needs 2:1 on 10% stop but 52-week structure gives 1.0-1.4:1.
+- **DOES NOT QUALIFY → NO ENTRY** (named failed test: R:R structural).
+
+**Idea 5 — XLE / XOM ADD (crude continuation):**
+- Catalyst: ✓ Crude firming continuation.
+- XLE ADD: Gate FAIL — position cost basis $19,857 already at 20.07% MV cap; any ADD exceeds 20% rule.
+- XOM ADD: Gate passes technically (position 5.40% MV); but doubles energy sector concentration to ~31% during risk-off tape; sector-prudent HOLD.
+- Test 4: ✗ R:R structural (ETF/mega-cap, low beta).
+- **DOES NOT QUALIFY → NO ENTRY** (XLE: Gate position-cost cap; XOM: R:R + sector-concentration prudence).
+
+**Idea 6 — MS pre-earnings half-size (bank-earnings Thu):**
+- Catalyst: ✓ Morgan Stanley Q3 earnings Thu.
+- Test 2: **✗ FAIL** — Financials -0.55% today (not sector in momentum).
+- **DOES NOT QUALIFY → NO ENTRY** (named failed test: sector momentum).
+
+### DECISION — TRADE / HOLD per idea
+- **NVDA → RULE-FORCED CUT at market open** (strict -7% rule; market-open routine executes). Not a FRESH entry.
+- **Ideas 2-6 → NO ENTRY** (each has a specific named failed test or gate — not "patience" or "cash protection").
+- **Semi/chip moratorium armed** per rule 10 (SMH + NVDA = 2 consecutive fails) — AMD/AVGO/TSM/NVDA/other semi names BLOCKED until moratorium resets.
+
+### Fresh-Slot Status
+- Post-NVDA-cut: 2/6 position slots open (1 pre-existing + 1 freed by cut).
+- Wk-19 FRESH budget: 0/3 used; 3 remain structurally.
+- Deployment post-cut: ~55-56% (~$44,500 cash / $98,500 equity) — **BELOW 75-85% target band** on 2 forced cuts in 1 week.
+- Under-deployment is NOT a buy signal — strategy prohibits forcing trades; qualifying setups required.
+
+### ENTER AT OPEN (MARKET-OPEN ROUTINE Thu 10/15)
+1. **NVDA strict -7% CUT (PRIORITY-1 MANDATORY)** — if NVDA position unrealized_plpc <= -0.07 at any routine check: cancel GTC trail stop c9b438b7, then market sell 85 sh. (Pre-mkt mark already triggers; confirm at open.)
+2. **XLK $180 CONDITIONAL EXIT ARMED (VIX > 17 RE-ARMS DURATION OVERLAY)** — if XLK < $180 intraday: cancel 5451fa24 + f2c0dace, market sell 104 sh. Current cushion +3.99%.
+3. **XLF bank-earnings continuation monitor** — if XLF < $52.12: cancel 8bd5213b + bbf96d5f, market sell 180 sh. Current cushion +4.98%.
+4. **XLE / XOM manual-cut vigilance** — XLE cushion +11.28%; XOM cushion +15.37%; both GTC trail stops server-side ratcheting.
+5. **NO FRESH ENTRY TODAY** — all 6 ideas screened have a named failed test or gate.
+6. **PPI 8:30 ET reaction overlay** — hot print re-amplifies duration pressure on XLK/XLF; cool print = risk-on rebound opportunity but no qualifying setup pre-identified.
+
+### Watchlist / Deferred
+- Semi/chip moratorium resets when: (a) sector momentum returns + (b) no additional semi failures. Documented reset condition.
+- Bank-earnings Fri 10/16 (BAC) — XLF binary continuation.
+- Fri 10/16 NVIDIA RTX Spark launch — AI-capex tailwind secondary.
+- Weekly-review skill: Wk-16/17/18 reviews STILL PENDING.
