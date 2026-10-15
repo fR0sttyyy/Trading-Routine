@@ -4291,3 +4291,46 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 7. **Fri 10/17 BAC earnings** — XLF binary continuation.
 8. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING — run WEEKLY-REVIEW skill this afternoon or Friday.
 
+### Oct 15 — EOD Snapshot (Day 4, Thursday — Wk-19 Day 4 / PPI DAY + TSMC Q3 blowout digest / 1 trade: NVDA GTC trail stop fire at open)
+**Portfolio:** $98,482.13 | **Cash:** $43,229.71 (43.90%) | **Day P&L:** -$960.77 (-0.966%) | **Phase P&L:** -$1,517.87 (-1.518%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $66.485 | -1.69% | +$553.58 (+2.79%) | $61.11 (trail 10%, hwm $67.90) |
+| XLF | 180 | $56.045 | $55.255 | +1.35% | -$142.20 (-1.41%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XLK | 104 | $185.6156 | $189.045 | -0.73% | +$356.66 (+1.85%) | $182.925 (trail 10%, hwm $203.25) |
+| XOM | 30 | $165.84 | $174.46 | -1.44% | +$258.60 (+5.20%) | $160.767 (trail 10%, hwm $178.63) |
+
+**Notes:** Wk-19 Day 4 Thursday close — PPI-day + TSMC Q3 blowout digest. Clean 1-trading-day baseline vs Oct 14 EOD ($99,442.90). Day P&L -$960.77 (-0.966%) reconciles as NVDA incremental hit from Oct 14 close -$534.20 (Oct 14 unrl -$1,156.51 at $220.93 → realized -$1,690.71 at $214.645 fill) + open-book mark-to-close delta -$426.77 (XLE -$340.77 on -1.69% intraday; XLF +$153.00 on +1.35% bank-earnings tailwind; XLK -$158.60 on -0.73% broad-tech soft; XOM -$80.40 on -1.44% crude pullback). Phase P&L -$1,517.87 (-1.518%) now 2nd consecutive negative daily close; 2 forced semi cuts this week (SMH -$697.62 Oct 14 + NVDA -$1,690.71 Oct 15) = realized cumulative -$2,388.33. Deployment 56.10% mv (well below 75-85% target band after 2 forced cuts; 2 structural slots open but SEMI/CHIP MORATORIUM + named-failed-test idea-book block FRESH entry). Cut-loser envelope end-of-day: **XLF -1.41% unrl is tightest in book / cushion $55.255 close vs $52.12 cut flag = +6.02%** (widened from midday +5.47% on +1.35% intraday rally); XLK cushion $189.045 vs $180 cond-exit flag = +5.03% (widened from midday +4.47%); XLE cushion to $60.15 = +10.54% (narrowed from midday +10.94% on -1.69% day); XOM cushion to $154.23 = +13.12% (narrowed from midday +13.37% on -1.44% day). No further cuts warranted — all 4 remain inside envelope. Tighten-trail: XOM top at +5.20% unrl (still far below +15% first-tighten threshold). Realized P&L today: -$1,690.71 (NVDA GTC trail stop fire at open — SERVER-SIDE execution, strict-rule intent honored). Server-side ratchets observed intraday Thu AM: XLE 233/74 sh hwm $67.705 → $67.90 (stop $60.9345 → $61.11, +$0.176); XOM 30 sh hwm $177.43 → $178.63 (stop $159.687 → $160.767, +$1.08); XLK/XLF stops unchanged (mtm below hwm). Alpaca `last_equity: $99,486.39` differs from TRADE-LOG Oct 14 snapshot ($99,442.90) by $43.49 — minor reconciliation delta; TRADE-LOG snapshot is authoritative baseline. Alpaca `balance_asof: 2026-10-14`; equity $98,482.13 reflects Thu Oct 15 close marks.
+
+**Trades today:** 1 — NVDA SELL (GTC trail stop FIRE at open) 85 sh @ $214.645294 → realized **-$1,690.71 (-8.48%)**, 7 days held (Oct 8 → Oct 15). Server-side pre-committed order; strict -7% intent honored by exchange execution. Not a FRESH slot-consuming trade.
+
+**Wk-19 trades running total:** 0/3 FRESH slot-consuming (Mon-Thu); SMH + NVDA strict-rule closes do not consume FRESH budget. 3 FRESH slots remain structurally; 4/6 position-cap (2 slots structurally open but semi moratorium + named-failed-test idea-book block FRESH entry).
+
+**Post-EOD order state (7 GTC stops covering 4 positions):**
+- XLE 233 sh: trail 10% $61.11 hwm $67.90 (2cae6815) — ratcheted intraday AM
+- XLE 74 sh: trail 10% $61.11 hwm $67.90 (442df295) — ratcheted intraday AM
+- XLK 50 sh: trail 10% $182.925 hwm $203.25 (5451fa24) — unchanged
+- XLK 54 sh: trail 10% $182.925 hwm $203.25 (f2c0dace) — unchanged
+- XOM 30 sh: trail 10% $160.767 hwm $178.63 (5afbbb78) — ratcheted intraday AM
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Sector-momentum posture (post-NVDA-exit):**
+- Direct semi/chip exposure ZERO (SMH + NVDA both exited this week).
+- Book: 1 energy ETF (XLE 20.73% mv) + 1 energy single-name (XOM 5.31%) + 1 broad-tech ETF (XLK 19.96%) + 1 financials ETF (XLF 10.10%) = 56.10% mv.
+- Energy sector concentration = 26.04% (XLE + XOM) — remains top-weighted on continued crude firming.
+- **SEMI/CHIP MORATORIUM** armed per rule 10 — 2 consecutive semi fails (SMH -7.03% + NVDA -8.48%) triggers sector exit rule. Re-entry blocked until (a) semi sector returns to momentum map leaders + (b) no additional semi failures.
+
+**Friday 10/16 (Wk-19 Day 5) plan:**
+1. **Pre-market scan** — BAC earnings pre-mkt + MS/BK/GS Thu post-mkt continuation (XLF binary tape); RTX Spark launch (NVDA/XLK indirect ambient catalyst but direct semi exposure zero post-cuts); TSMC Q3 blowout digest trailing.
+2. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — only -1.41% unrl / cushion +6.02% to $52.12 cut flag; BAC pre-mkt + Fri bank-earnings close binary. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLK $180 CONDITIONAL EXIT armed** — cushion +5.03% to $180 flag. If XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+4. **XLE / XOM MANUAL-CUT vigilance** — XLE +10.54% / XOM +13.12% headroom; both GTC trail stops ratcheting server-side with crude continuation.
+5. **XOM / XLE discretionary tighten watch** — top unrl XOM +5.20%; next trigger +15% unrl (far away). No tighten pending.
+6. **2 structural slots open (4/6 positions)** — fresh-entry scan Fri AM blocked by: (a) semi moratorium active (SMH + NVDA = 2 consecutive fails); (b) R:R structural fails on XLV/XLP defensives + DVN/EOG + MS; (c) sector-concentration + Gate 20% cost cap on XLE/XOM ADD. Under-deployment IS NOT a buy signal. Weekly-review discipline required.
+7. **Wk-19 FRESH slot budget:** 0/3 used; 3 FRESH slots remain structurally — budget preserved for QUALIFYING setup (not forced).
+8. **Weekly-review skill:** Wk-16/17/18 reviews STILL PENDING + Wk-19 WEEKLY-REVIEW Fri 10/17 — RUN WEEKLY-REVIEW SKILL FRIDAY afternoon (phase-negative + 2 forced semi cuts demand retrospective).
+9. **Phase P&L deepened negative** — now -$1,517.87 (-1.518%) phase cumulative; realized -$2,388.33; discipline response: no revenge trades; semi moratorium honored; qualifying-setup rule intact.
+10. **Fri 10/17 BAC earnings close** — XLF binary tape continuation on top of MS/BK/GS Thu post-mkt.
+
