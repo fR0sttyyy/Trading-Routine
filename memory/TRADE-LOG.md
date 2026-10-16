@@ -4334,3 +4334,51 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 9. **Phase P&L deepened negative** — now -$1,517.87 (-1.518%) phase cumulative; realized -$2,388.33; discipline response: no revenge trades; semi moratorium honored; qualifying-setup rule intact.
 10. **Fri 10/17 BAC earnings close** — XLF binary tape continuation on top of MS/BK/GS Thu post-mkt.
 
+### Oct 16 — Midday Scan (Friday, 12:11 ET — Wk-19 Day 5 / BAC pre-mkt digest / NO ACTION)
+**Portfolio (midday):** 4 positions | **Deployment:** ~56% mv | **Wk-19 trades:** 0/3 FRESH | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Mtm | Intraday | Unrl P&L | Unrl % | Stop | Cushion to -7% / cond-exit |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $67.48 | +1.38% | +$859.05 | +4.33% | $61.11 (hwm $67.90) | $60.15 flag → +12.21% |
+| XLF | 180 | $56.045 | $55.58 | +0.56% | -$83.70 | -0.83% | $50.5845 / $50.445 (hwm $56.205 / $56.05) | $52.12 flag → +6.63% |
+| XLK | 104 | $185.6156 | $185.16 | -2.13% | -$47.38 | -0.25% | $182.925 (hwm $203.25) | $180 cond-exit → +2.79% |
+| XOM | 30 | $165.84 | $176.40 | +0.99% | +$316.80 | +6.37% | $160.767 (hwm $178.63) | $154.23 flag → +14.42% |
+
+**STEP 3 cut-loser check (unrealized_plpc <= -0.07):** XLE +4.33% / XLF -0.83% / XLK -0.25% / XOM +6.37% — **all inside envelope. NO CUTS.**
+
+**STEP 4 tighten-trail check:** Max unrl = XOM +6.37% (far below +15% first-tighten threshold). **NO TIGHTENS.** Server-side trailing stops at prior hwm (mtm below hwm on all 4; no new ratchet since Thu AM).
+
+**STEP 5 thesis-break check:** XLK intraday -2.13% is the largest move; AI-cooling narrative + Jensen-cooling piece per pre-mkt research — move explained, no catalyst reversal. XLF +0.56% intraday reflects BAC earnings digest (constructive, as pre-mkt flagged). XLE +1.38% / XOM +0.99% both mild crude-continuation tape. **NO THESIS-BREAK CUTS.**
+
+**Cushion snapshot (vs Fri pre-mkt):**
+- XLF cushion to $52.12: +5.99% → **+6.63%** (widened on +0.56% intraday; BAC digest constructive).
+- XLK cushion to $180: +5.01% → **+2.79%** (narrowed sharply on -2.13% intraday; AI-cooling pressure continues; VIX 16.06 keeps duration overlay dormant but absolute $180 flag approaching).
+- XLE cushion to $60.15: +11.26% → **+12.21%** (widened on +1.38% intraday).
+- XOM cushion to $154.23: +14.19% → **+14.42%** (widened on +0.99% intraday).
+
+**STEP 6 intraday research — SKIP.** XLK -2.13% is explained by continuing AI-cooling narrative (Globe & Mail / Saxo / 36kr) already captured in pre-mkt research; no sharp unexplained single-name move.
+
+**Fresh-entry re-screen (2 open slots / 3 FRESH budget):**
+- Semi/chip MORATORIUM still armed (SMH + NVDA = 2 consecutive fails Wk-19); AMD/AVGO/TSM/NVDA re-entry BLOCKED.
+- XLV/XLP defensive ETFs: R:R structural fail (<1:1 on 10% stops) — unchanged from pre-mkt.
+- MS/BAC post-earnings chase: R:R structural <2:1 post-pop — unchanged from pre-mkt.
+- DVN/EOG energy single-names: R:R structural fail — unchanged.
+- XLE/XOM ADD: XLE Gate position-cost cap (20.73% mv); XOM R:R + sector-concentration prudence.
+- **NO QUALIFYING FRESH SETUP → no entry. Not a flat-session violation; each candidate has a named failed test.**
+
+**STEP 7 ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state:**
+- Market value: $55,269.40 | Deployment: 56.03% mv
+- 4 positions / 2 slots open / Wk-19 FRESH 0/3 used
+- 7 GTC trailing stops active across 4 symbols (all unchanged from Thu EOD)
+- Phase P&L: -$1,517.87 (-1.518%)
+
+**Next checkpoints (afternoon → close):**
+1. **XLK $180 CONDITIONAL EXIT PRIORITY-1** — cushion narrowed to +2.79%; AI-cooling pressure persists; if XLK < $180 → cancel 5451fa24 + f2c0dace, market sell 104 sh.
+2. **XLF MANUAL-CUT PRIORITY-2** — cushion +6.63%; BAC-close continuation binary into Fri close.
+3. **XLE / XOM MANUAL-CUT vigilance** — both deep envelope (+12.21% / +14.42%); GTC trail stops hwm-held.
+4. **No tighten triggers active** — XOM +6.37% top-unrl; next trigger +15% unrl.
+5. **No fresh-entry today** — moratorium + R:R gates block all screened names; EOD re-screen only.
+6. **Weekly-review skill DUE Fri afternoon** — Wk-16/17/18/19 (4 overdue) retrospective required.
+
