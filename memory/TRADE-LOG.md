@@ -4382,3 +4382,45 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 5. **No fresh-entry today** — moratorium + R:R gates block all screened names; EOD re-screen only.
 6. **Weekly-review skill DUE Fri afternoon** — Wk-16/17/18/19 (4 overdue) retrospective required.
 
+
+### Oct 18 — EOD Snapshot (Sunday weekend / Fri Oct 16 close marks / FRI EOD MISSED → backfill)
+**Portfolio:** $98,565.12 | **Cash:** $62,252.44 (63.16%) | **Day P&L (Fri Oct 16):** +$82.99 (+0.084%) | **Phase P&L:** -$1,434.88 (-1.435%)
+
+| Ticker | Shares | Entry | Close | Fri Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $68.24 | +2.64% | +$1,092.37 (+5.50%) | $61.461 (trail 10%, hwm $68.29) |
+| XLF | 180 | $56.045 | $55.52 | +0.48% | -$94.50 (-0.94%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XOM | 30 | $165.84 | $178.98 | +2.59% | +$394.20 (+7.92%) | $161.244 (trail 10%, hwm $179.16) |
+
+**Notes:** Wk-19 Day 5 Fri close + Sat/Sun weekend / backfilling missed Fri EOD routine on Sun Oct 18. Baseline is Thu Oct 15 EOD ($98,482.13) → 1 trading-day span (Thu→Fri), so **"Day P&L" label applies cleanly** (Thu→Fri is consecutive trading days; weekend gap is on the writing-date side, not the baseline side). Day P&L +$82.99 (+0.084%) reconciles as XLK realized exit -$280.49 (104 sh trail stop fire) + open-book mark-to-close delta +$363.48 (XLE +$538.78 on +2.64% intraday; XLF +$47.70 on +0.48%; XOM +$135.60 on +2.59%; XLK was -$67.60 pre-exit from Thu close marks then crystallized at trail fill). Phase P&L -$1,434.88 (-1.435%) IMPROVED from Thu EOD -$1,517.87 by the +$82.99 day move despite 3rd consecutive forced close this week; still 3rd consecutive negative weekly close prior to Wk-20. Deployment 36.84% mv (dropped from 56.10% Thu after XLK exit; well below 75-85% target band; **3 structural slots open** — 3/6 position-cap after XLK removal). Realized P&L today: -$280.49 (XLK 104 sh trail stop fire — SERVER-SIDE execution at trigger $182.925, fills $182.91-$182.92 across 4 prints, strict trail intent honored). Cut-loser envelope end-of-day: **XLF -0.94% unrl is tightest in book / cushion $55.52 close vs $52.12 cut flag = +6.52%** (widened from midday +6.63% then narrowed back on -0.11% PM softening but still well inside envelope); XLE cushion $68.24 vs $60.15 = +13.45% (widened from midday +12.21% on +1.13% PM continuation); XOM cushion $178.98 vs $154.23 = +16.05% (widened from midday +14.42% on +1.46% PM continuation). All 3 remaining positions inside envelope — no cuts warranted. Tighten-trail: XOM top at +7.92% unrl (still below +15% first-tighten threshold). Server-side ratchets observed Fri AM: XLE 233/74 sh hwm $67.90 → $68.29 (stop $61.11 → $61.461, +$0.351); XOM 30 sh hwm $178.63 → $179.16 (stop $160.767 → $161.244, +$0.477); XLF unchanged (mtm below hwm). XLK 2 GTC stops (5451fa24 + f2c0dace) fired together 15:07 ET at trail trigger — hwm $203.25 × 0.90 = $182.925 trigger, fills across 4 prints: 50 sh @ $182.92 (5451fa24 full) + 34/15/5 sh @ $182.92/$182.91/$182.92 (f2c0dace partials). Alpaca `balance_asof: 2026-10-16`; equity $98,565.12 reflects Fri Oct 16 close marks. No trading Sat/Sun; MV and equity static over weekend.
+
+**Trades today (Fri Oct 16 fills):** 1 — XLK SELL (GTC trail stop FIRE) 104 sh @ avg $182.9186 → realized **-$280.49 (-1.45%)**, 8 days held (Oct 8 → Oct 16). Server-side pre-committed order; strict trail-10% intent honored by exchange execution. Not a FRESH slot-consuming trade.
+
+**Wk-19 trades running total (FINAL):** 0/3 FRESH slot-consuming (Mon-Fri); 3 strict-rule closes (SMH Tue -$697.62 + NVDA Thu -$1,690.71 + XLK Fri -$280.49) do not consume FRESH budget. **Wk-19 realized cumulative: -$2,668.82** (3 forced losses; semi moratorium armed; weekly review already captured in commit 7f7d5dd). 3 FRESH slots remain unused Wk-19; 3/6 position-cap into Wk-20 (3 slots structurally open).
+
+**Post-EOD order state (5 GTC stops covering 3 positions):**
+- XLE 233 sh: trail 10% $61.461 hwm $68.29 (2cae6815) — ratcheted intraday Fri AM
+- XLE 74 sh: trail 10% $61.461 hwm $68.29 (442df295) — ratcheted intraday Fri AM
+- XOM 30 sh: trail 10% $161.244 hwm $179.16 (5afbbb78) — ratcheted intraday Fri AM
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Sector-momentum posture (post-XLK-exit / end-Wk-19):**
+- Direct semi/chip exposure ZERO (SMH + NVDA both exited Wk-19).
+- Direct broad-tech exposure ZERO (XLK exited Fri).
+- Book: 1 energy ETF (XLE 21.26% mv) + 1 energy single-name (XOM 5.45%) + 1 financials ETF (XLF 10.14%) = 36.84% mv.
+- Energy sector concentration = 26.70% (XLE + XOM) — remains top-weighted on continued crude firming (Fri +2.6% both).
+- **SEMI/CHIP MORATORIUM** still armed per rule 10 — Wk-19 2 consecutive semi fails (SMH -7.03% + NVDA -8.48%). Re-entry blocked until (a) semi sector returns to momentum map leaders + (b) no additional semi failures.
+- **BROAD-TECH POSTURE** — XLK exit was mechanical trail stop (not strict -7% cut); -1.45% realized; not a sector exit trigger per rule 10 (which requires 2 consecutive sector-cat FAILS; XLK alone insufficient). XLK re-entry gated by R:R + momentum re-screen, not moratorium.
+
+**Monday 10/19 (Wk-20 Day 1) plan:**
+1. **Pre-market scan** — digest Wk-19 close context (3 forced losses behind, deployment collapsed to 37%, semi moratorium armed) + weekend macro (geopolitics, oil, FOMC proximity if any Wk-20 Fed events).
+2. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — only -0.94% unrl / cushion +6.52% to $52.12 cut flag; monitor for Mon continuation of bank-earnings tape (post-BAC Fri). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE / XOM MANUAL-CUT vigilance** — XLE +13.45% / XOM +16.05% headroom; both GTC trail stops ratcheting server-side with crude continuation.
+4. **XOM discretionary tighten watch** — top unrl XOM +7.92%; next trigger +15% unrl (still 7+ pts away). No tighten pending.
+5. **3 structural slots open (3/6 positions) / 37% deployment** — fresh-entry scan Mon AM. **Under-deployment is NOT a buy signal.** QUALIFYING SETUP required (per CLAUDE.md Decision Rule): (a) momentum-leading sector, (b) at/through entry trigger, (c) R:R >= 2:1 with definable stop, (d) open slot + weekly budget. If a setup qualifies → DEFAULT IS TO TRADE (no "patience" excuses).
+6. **Wk-20 FRESH slot budget:** 0/3 used; 3 FRESH slots fully available; semi/chip MORATORIUM continues to gate AMD/AVGO/TSM/NVDA/SMH re-entry (XLK re-entry gated only by R:R + screening, not moratorium).
+7. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING (Wk-19 completed Fri 10/16 commit 7f7d5dd); run WEEKLY-REVIEW skill for the 3-week backlog mid-week when market quiet, else Fri 10/23 for Wk-20.
+8. **Phase P&L improved marginally** — now -$1,434.88 (-1.435%) phase cumulative (up from -$1,517.87 Thu); still negative; discipline response: no revenge trades; semi moratorium honored; qualifying-setup rule intact; XLK exit removed near-term AI-cooling thesis-break risk.
+9. **Weekend headline risk** — monitor Sun pm futures, Mon pre-mkt gap; no positioning pre-emptive to weekend events; if any position gaps outside envelope, strict-rule response.
+10. **No gates relaxed, no overrides planned** — Wk-20 starts clean with 3 slots open and FRESH budget intact; patience permitted ONLY if no qualifying setup appears (not "to protect cash" — qualifying setups override under-deployment concerns).
