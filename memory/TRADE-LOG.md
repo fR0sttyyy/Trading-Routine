@@ -4474,3 +4474,41 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 6. **Mag7 earnings week overlay** — TSLA Wed 10/22; no direct-beta exposure in book.
 7. **Oil-pullback overlay** — WTI pullback -1.39% pre-mkt; XLE/XOM cushions wide; thesis-break only if WTI breaks sub-$90 base or XLE breaks $65 sector-support (neither in base today).
 8. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23; run mid-week when market quiet.
+
+### Oct 19 — EOD Snapshot (Day 1, Monday — Wk-20 Day 1 / Mag7 earnings week / oil-off-peak digest / NO TRADES)
+**Portfolio:** $98,389.09 | **Cash:** $62,252.44 (63.27%) | **Day P&L:** -$176.03 (-0.179%) | **Phase P&L:** -$1,610.91 (-1.611%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $67.96 | -0.41% | +$1,006.41 (+5.07%) | $61.6545 (trail 10%, hwm $68.505) |
+| XLF | 180 | $56.045 | $55.085 | -0.78% | -$172.80 (-1.71%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XOM | 30 | $165.84 | $178.63 | -0.20% | +$383.70 (+7.71%) | $161.37 (trail 10%, hwm $179.30) |
+
+**Notes:** Wk-20 Day 1 Monday close — Mag7 earnings-week opener + oil-off-peak digest / NO TRADES / clean 1-trading-day baseline vs Fri Oct 16 EOD ($98,565.12 captured in Sun Oct 18 backfill). Day P&L label applies cleanly (Fri→Mon is consecutive trading days; weekend gap on writing-date side only). Day P&L -$176.03 (-0.179%) reconciles as pure open-book mark-to-close delta: XLE -$85.96 on -0.41% intraday + XLF -$78.30 on -0.78% + XOM -$10.50 on -0.20% = -$174.76 book delta; residual ~$1.27 rounding. All 3 positions in modest symmetric pullback — broad market soft on oil-off-peak + bank-earnings digest already captured in pre-mkt research; no catalyst reversal, no thesis break. Phase P&L -$1,610.91 (-1.611%) deepens marginally from Fri EOD -$1,434.88 by -$176.03 day move; still well inside envelope on all positions. Deployment 36.73% mv (3 positions / 3 slots open / Wk-20 FRESH 0/3 used) — well below 75-85% target band but 9 pre-mkt + midday-rescreened ideas each retain a named failed test (CLAUDE.md Decision Rule discipline intact); under-deployment is NOT a buy signal. Cut-loser envelope end-of-day: **XLF -1.71% unrl is tightest in book / cushion $55.085 close vs $52.12 cut flag = +5.68%** (narrowed from midday +5.73% on PM softening but well inside envelope); XLE cushion $67.96 vs $60.15 = +12.99% (narrowed from midday +12.62% recomputed on PM close); XOM cushion $178.63 vs $154.23 = +15.83% (narrowed slightly from midday +15.17% on PM softening). All 3 remain inside envelope — no cuts warranted. Tighten-trail: XOM top at +7.71% unrl (still below +15% first-tighten threshold; next trigger ~7.3 pts away). Server-side ratchets observed intraday Mon AM: XLE 233/74 sh hwm $68.29 → $68.505 (stop $61.461 → $61.6545, +$0.1935 both legs); XOM 30 sh hwm $179.16 → $179.30 (stop $161.244 → $161.37, +$0.126); XLF unchanged (mtm $55.085 well below hwm $56.205/$56.05). Alpaca `balance_asof: 2026-10-16` (field lagging, confirmed from account snapshot); equity $98,389.09 reflects Mon Oct 19 close marks and matches live Alpaca equity.
+
+**Trades today:** NONE — 0 FRESH, 0 strict-rule exits, 0 tightens, 0 cancels. All 5 GTC trailing stops remain active and ratcheted on XLE/XOM.
+
+**Wk-20 trades running total:** 0/3 FRESH slot-consuming (Day 1 Mon). 3 FRESH slots fully available. 3/6 position-cap (3 slots structurally open).
+
+**Post-EOD order state (5 GTC stops covering 3 positions):**
+- XLE 233 sh: trail 10% $61.6545 hwm $68.505 (2cae6815) — ratcheted intraday Mon AM
+- XLE 74 sh: trail 10% $61.6545 hwm $68.505 (442df295) — ratcheted intraday Mon AM
+- XOM 30 sh: trail 10% $161.37 hwm $179.30 (5afbbb78) — ratcheted intraday Mon AM
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Sector-momentum posture (unchanged from Fri EOD):**
+- Direct semi/chip exposure ZERO (SMH + NVDA exited Wk-19); SEMI/CHIP MORATORIUM armed (SMH -7.03% + NVDA -8.48% = 2 consecutive fails).
+- Direct broad-tech exposure ZERO (XLK exited Fri 10/16); XLK re-entry gated by R:R + momentum re-screen, not moratorium.
+- Book: 1 energy ETF (XLE 21.21% mv) + 1 energy single-name (XOM 5.45%) + 1 financials ETF (XLF 10.08%) = 36.73% mv.
+- Energy sector concentration = 26.66% (XLE + XOM) — remains top-weighted on crude firming; off-peak digest intraday but $90+ base intact.
+
+**Tuesday 10/20 (Wk-20 Day 2) plan:**
+1. **Pre-market scan** — Mag7 earnings-week overlay (TSLA Wed 10/22 is only direct Mag7 catalyst; book has zero direct-beta); oil-off-peak digest continuation (WTI base monitoring); bank-earnings tape digest Day 2.
+2. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — cushion +5.68% to $52.12 flag (narrowed slightly from Fri +6.52%); if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE / XOM MANUAL-CUT vigilance** — XLE +12.99% / XOM +15.83% headroom; both GTC trail stops ratcheting server-side with crude continuation; thesis-break only if WTI < $90 base or XLE < $65 sector-support.
+4. **XOM discretionary tighten watch** — top unrl +7.71%; next trigger +15% unrl (~7.3 pts away). No tighten pending.
+5. **3 structural slots open (3/6 positions) / 37% deployment** — fresh-entry scan Tue AM. Qualifying setup required per CLAUDE.md Decision Rule (sector momentum + entry trigger + R:R>=2:1 + open slot/budget). If a setup qualifies → DEFAULT IS TO TRADE (no "patience" excuses).
+6. **Wk-20 FRESH slot budget:** 0/3 used; 3 FRESH slots fully available; semi/chip MORATORIUM continues to gate AMD/AVGO/TSM/NVDA/SMH re-entry.
+7. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23; run mid-week when market quiet.
+8. **No gates relaxed, no overrides planned** — Wk-20 Day 2 opens clean with 3 slots open and FRESH budget intact; patience permitted ONLY if no qualifying setup appears.
