@@ -7850,3 +7850,146 @@ Order of preference at MARKET-OPEN routine runtime:
 - Oct 28 Fed decision — Oct 27 pre-mkt scan should flag half-size setup if any qualifying ideas emerge.
 - Weekly-review skill backlog: Wk-16, Wk-17, Wk-18, Wk-19 (today = 4 overdue reviews).
 - NVIDIA RTX Spark launch Fri 10/16 (today) — tape ambient; direct semi exposure zero.
+
+## 2026-10-19 — Pre-market Research (Monday — Wk-20 Day 1 / Mag7 earnings week + PG pre-mkt + oil-peak digest / NO FRESH ENTRIES)
+
+### Account (pre-mkt, Alpaca balance_asof 2026-10-16)
+- **Equity:** $98,246.79 (-$318.33 vs last_equity $98,565.12 Fri close)
+- **Cash:** $62,252.44 (63.36%)
+- **Buying power:** $349,793.94 (4x) | RegT $160,499.23 | Non-marg $80,249.61
+- **Long MV:** $35,994.35 (36.63% — well below 75-85% band post 3 Wk-19 forced closes)
+- **Positions:** 3/6 (XLE/XLF/XOM; 3 structural slots open)
+- **Daytrade count:** 0/3 PDT
+- **SMA:** $98,528
+
+### Pre-mkt Position Marks (Alpaca intraday snapshot)
+| Ticker | Shares | Entry | Mark | Unrl % | Cut Flag | Cushion | GTC Stop |
+| - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $67.55 | +4.43% | $60.15 | +12.30% | $61.461 hwm $68.29 (2cae6815+442df295) |
+| XLF | 180 | $56.045 | $55.29 | -1.35% | $52.12 | +6.09% | $50.5845/$50.445 hwm $56.205/$56.05 (8bd5213b+bbf96d5f) |
+| XOM | 30 | $165.84 | $176.81 | +6.62% | $154.23 | +14.69% | $161.244 hwm $179.16 (5afbbb78) |
+
+### Market Context (research.sh context, Fri Oct 16 close)
+- **S&P 500:** 7,659.44 (-1.09%) | **Nasdaq:** 26,140.03 (-2.14%) | **Dow:** 52,002.41 (-0.34%) — Fri sold off intraday
+- **VIX:** **18.59 (-7%)** — ABOVE 17 (XLK duration-overlay trigger, but XLK OUT of book since Fri exit; informational only)
+- **ES=F:** 7,742.00 (+0.49%) | **NQ=F:** 29,763.25 (+1.26%) — Mon pre-mkt rebound
+- **WTI:** $97.64 (-1.39%) | **Brent:** $108.24 (-1.47%) — oil "falls from peak" (XTB headline); crude $90+ base intact
+- **Sector day (Fri close):** XLE +2.52% (leader), XLP +1.08%, XLB +0.71%, XLF +0.45%, XLI -0.08%, XLV -0.27%, **XLK -3.02% (laggard)**
+
+### Catalyst Tape (Mon 10/19)
+- **Mag7 earnings week** — TSLA mid-week (expected Wed 10/22); Nasdaq futures rebounding +1.26% pre-open on earnings-week setup.
+- **PG pre-mkt Mon** — Procter & Gamble Q3; staples catalyst (XLP tailwind read-through).
+- **Oil pulling back from peak** — WTI -1.39% Mon pre-mkt from Fri $98+ highs; XLE/XOM cushion widening but structural leadership intact (+51% YTD per IBD).
+- **XLE** State Street buying XOM/CVX/COP/VLO on Oct 13/15; +51% YTD best-performing sector; "overbought conditions indicated by technical indicators" per gurufocus.
+- **XOM Q3 earnings Oct 30** (11 days out) — pre-announced $1.3B headwind from lower liquids but $4.5B boost from refining margins = net positive; 52-week high intact.
+- **France political concerns weighing on Europe** → USD/safe-haven read-through.
+- **AI investment-logic cooling** (Fri Saxo + Globe & Mail Jensen-cooling pieces) persistent; drove Fri NQ -2.14% selloff.
+- **This week econ:** UK + Japan + Canada inflation + Global Flash PMIs (per Newsquawk Week in Focus). No US CPI/PPI/FOMC Mon.
+- **Fed Oct 28 decision** — 9 days out; sizing input not blocker per CLAUDE.md.
+- **PDT**: 0/3 — unaffected.
+
+### Momentum Map (updated post-Fri Oct 16 close)
+- **LEADING:** Energy (XLE +2.52% Fri, +51% YTD) — THE sector leader
+- **CONTINUING:** Staples (XLP +1.08%), Materials (XLB +0.71%), Financials (XLF +0.45%)
+- **LAGGING:** Tech (XLK -3.02%, AI-cooling tape), Healthcare (XLV -0.27%), Industrials (XLI -0.08%)
+- **BROKEN:** Semis (SMH 10/14 + NVDA 10/15 Wk-19 fails) → **semi/chip MORATORIUM remains armed** per rule 10
+
+### Risk Factors (Mon 10/19)
+1. **VIX 18.59 > 17** — elevated vol regime; broader market vulnerable to AI-cooling continuation.
+2. **Oil pullback -1.39% WTI** — XLE/XOM cushions widening Fri→Mon pre-mkt; not thesis-break (cushions +12.30% / +14.69%).
+3. **Mag7 earnings binary** — TSLA Wed, broader AI-stock reaction likely.
+4. **XOM pre-announcement overhang** — $4.5B refining boost offset by $1.3B liquids headwind; neutral-positive but Q3 print 10/30 adds event risk.
+5. **Semi moratorium persists Wk-20** — AMD/AVGO/TSM/NVDA/SMH re-entry BLOCKED.
+6. **Deployment 36.63%** — well below 75-85% band post 3 Wk-19 forced closes; NOT a buy signal per CLAUDE.md.
+7. **France political risk** → Europe weakness overflow; monitor for US safe-haven rotation.
+8. **Weekly-review backlog** — Wk-16/17/18 still pending (Wk-19 captured 7f7d5dd); run mid-week.
+
+### Trade Ideas Screened (3 structural slots / 3 FRESH budget)
+
+**Idea 1 — XLE ADD (energy continuation, sector leader):**
+- Catalyst: ✓ XLE +51% YTD; State Street adding XOM/CVX/COP; +2.52% Fri.
+- Test 1: ✓ | Test 2: ✓ (sector leader); Test 3: ✓ (10% stop definable).
+- Test 4 (R:R >= 2:1): ✗ FAIL — ETF low-beta; 10% stop vs 7% target = <1:1.
+- **Gate FAIL** — XLE cost basis $19,857.31 = 20.21% equity, already AT 20% cap; any ADD exceeds Gate.
+- **DOES NOT QUALIFY → NO ENTRY** (Gate 20% position cap + R:R structural).
+
+**Idea 2 — XOM ADD (energy single-name continuation):**
+- Catalyst: ✓ 52-week high, pre-release constructive, crude $90+ base.
+- Test 1: ✓ | Test 2: ✓ (energy leader); Test 3: ✓
+- Test 4: ✗ FAIL — XOM mega-cap, 10% stop vs 7-10% target = <2:1 R:R structural.
+- Energy sector concentration XLE+XOM = 26.57% MV; ADD doubles single-name exposure during oil-pullback tape.
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + sector-concentration prudence).
+
+**Idea 3 — DVN / EOG / COP / CVX FRESH (energy single-names):**
+- Catalyst: ✓ WTI $97 base; XLE +51% YTD.
+- Test 1: ✓ | Test 2: ✓ (energy leader); Test 3: ✓
+- Test 4: ✗ FAIL — mega-cap E&P move-expectation 7-10% near-term; 10% stop structurally <1.5:1 R:R.
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural).
+
+**Idea 4 — AMD / AVGO / TSM / NVDA / SMH re-entry (semi/chip):**
+- Catalyst: ✓ Mag7 earnings week potential tailwind.
+- Test 2: ✗ FAIL — **SEMI/CHIP MORATORIUM** active (SMH 10/14 + NVDA 10/15 = 2 consecutive fails per rule 10).
+- **DOES NOT QUALIFY → NO ENTRY** (sector moratorium).
+
+**Idea 5 — XLK re-entry (broad tech):**
+- Catalyst: ✓ Mag7 earnings week potential tailwind; NQ=F +1.26% rebound Mon pre-mkt.
+- Test 2: ✗ FAIL — Tech -3.02% Fri (deep laggard); AI-cooling tape persistent (Saxo + Globe & Mail Jensen-cooling pieces); VIX 18.59 above duration-overlay trigger. **Sector not in momentum today.**
+- **DOES NOT QUALIFY → NO ENTRY** (sector momentum fail).
+
+**Idea 6 — XLV / XLP / XLB FRESH (defensives + materials):**
+- Catalyst: ✓ Fri leaders (XLP +1.08% / XLB +0.71%); defensive rotation on AI-cooling.
+- Test 1: ✓ | Test 2: ✓ | Test 3: ✓
+- Test 4: ✗ FAIL — low-beta defensive/materials ETFs structural R:R <1:1 on 10% stops (same conclusion as Thu/Fri screens).
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural).
+
+**Idea 7 — XLF ADD (bank-earnings residual tailwind):**
+- Catalyst: ✓ bank-earnings week beats (GS/Citi Tue, MS/BK Thu, BAC Fri) all behind.
+- Test 2: △ — XLF +0.45% Fri (mild), not in strong momentum.
+- Test 3: ✓ | Test 4: ✗ FAIL — ETF R:R structural <1:1 on 10% stop (post-earnings follow-through typically <5% target).
+- **Gate FAIL** — XLF cost basis $10,088 + ADD 180 sh ~$9,952 = combined 20.23% MV; exceeds 20% cap.
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + Gate 20% cap).
+
+**Idea 8 — PG FRESH (pre-mkt earnings reaction):**
+- Catalyst: ✓ Q3 earnings pre-mkt Mon 10/19.
+- Test 1: ✓ | Test 2: ✓ (XLP leader); Test 3: ✓
+- Test 4: ✗ FAIL — mega-cap staples; post-earnings pop/drop typically <5% intraday; 10% stop = <1:1 R:R. Also catalyst resolves BEFORE market-open routine runs → entry would be post-print chasing (same disqualifier as BAC on Fri screen).
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + catalyst-resolves-pre-open).
+
+**Idea 9 — TSLA FRESH (Mag7 earnings week pre-position):**
+- Catalyst: ✓ Q3 earnings expected Wed 10/22.
+- Test 2: ✗ FAIL — Tech sector not in momentum (XLK -3.02% Fri); AI-cooling tape headwind.
+- Test 4: ✗ — binary pre-earnings event, R:R directional, not momentum qualifier.
+- **DOES NOT QUALIFY → NO ENTRY** (sector momentum fail + event-driven not momentum trigger).
+
+### DECISION — 0 FRESH ENTRIES, HOLD 3 POSITIONS
+- **No new entries today.** Each of 9 screened ideas has a specific named failed test (not "patience" or "cash protection").
+- **Not a flat-session rule violation**: every candidate fails a specific Buy-Side Gate test (semi moratorium, R:R structural on low-beta names, Gate 20% cap on XLE/XLF ADD, sector-momentum fail on tech/semi, catalyst-resolves-pre-open on PG/BAC-style setups, event-driven not momentum).
+- **Semi moratorium remains armed** (2 consecutive Wk-19 sector fails — SMH + NVDA).
+- **Deployment 36.63%** below 75-85% band on 3 forced Wk-19 closes — under-deployment is NOT a buy signal per CLAUDE.md Decision Rule.
+- **No qualifying setup = permitted HOLD** (not "patience" — each idea has a named failed test).
+- **Resolve-now rule check**: No deferrable catalyst for any screened name. All failed tests are structural (R:R, Gate, moratorium, sector-momentum), not resolvable with research.sh / alpaca.sh quote.
+- **No half-size needed**: no US macro event Mon (CPI/PPI/FOMC not released); PG/TSLA earnings are event-driven not momentum setups.
+
+### MARKET-OPEN Routine Action List (Mon 10/19 09:30 ET)
+1. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — cushion +6.09% to $52.12 cut flag. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh (strict -7% rule).
+2. **XLE MANUAL-CUT vigilance** — cushion +12.30% to $60.15 cut flag; GTC trail server-side ratcheting with crude. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +14.69% to $154.23 cut flag; GTC trail at $161.244 hwm $179.16. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **No tighten triggers** — top unrl XOM +6.62% (far below +15% first-tighten threshold).
+5. **NO FRESH ENTRIES QUEUED** — all 9 ideas screened have named failed test; 3 structural slots open but idea-book exhausted.
+6. **Oil-pullback overlay** — WTI -1.39% Mon pre-mkt; XLE/XOM cushions deep; thesis-break only if WTI breaks sub-$90 base or XLE breaks $65 sector-support (neither in base today).
+7. **Mag7 earnings week overlay** — TSLA Wed 10/22; indirect read-through to AI-cooling / semi moratorium posture.
+8. **PG pre-mkt reaction** — informational only; XLP tailwind read-through (not in book).
+9. **Weekly-review skill** — Wk-16/17/18 backlog + Wk-20 due Fri 10/23; run mid-week during market quiet.
+
+### Wk-20 Slot Budget (Day 1 Mon)
+- FRESH used: 0/3; FRESH remaining: 3 structurally.
+- Position cap: 3/6; 3 structural slots open.
+- Semi moratorium continues through Wk-20 unless (a) sector returns to momentum map leaders + (b) no further semi failures.
+
+### Watchlist / Deferred (midday + afternoon re-screen)
+- Monitor crude for $90 support break (XLE/XOM thesis anchor).
+- Monitor VIX for break back under 17 (duration-overlay-dormant signal; informational — XLK out of book).
+- Monitor Mag7 earnings tape mid-week for AI-cooling continuation vs reversal.
+- XOM Q3 10/30 earnings — set 10/27 pre-mkt scan as half-size event-day decision.
+- Weekly-review skill backlog: Wk-16, Wk-17, Wk-18 (3 overdue).
+
