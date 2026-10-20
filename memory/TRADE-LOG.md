@@ -4512,3 +4512,53 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 6. **Wk-20 FRESH slot budget:** 0/3 used; 3 FRESH slots fully available; semi/chip MORATORIUM continues to gate AMD/AVGO/TSM/NVDA/SMH re-entry.
 7. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23; run mid-week when market quiet.
 8. **No gates relaxed, no overrides planned** — Wk-20 Day 2 opens clean with 3 slots open and FRESH budget intact; patience permitted ONLY if no qualifying setup appears.
+
+### Oct 20 — Midday Scan (Tuesday, 12:12 ET — Wk-20 Day 2 / Mag7 earnings week / oil-off-peak intraday / NO ACTION)
+**Portfolio (midday):** 3 positions | **Deployment:** ~36.5% mv | **Wk-20 trades:** 0/3 FRESH | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Mtm | Intraday | Unrl P&L | Unrl % | Stop | Cushion to -7% |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $67.56 | -0.35% | +$883.61 | +4.45% | $61.6545 (hwm $68.505) | $60.15 flag → +12.32% |
+| XLF | 180 | $56.045 | $55.68 | +1.13% | -$65.70 | -0.65% | $50.5845 / $50.445 (hwm $56.205 / $56.05) | $52.12 flag → +6.83% |
+| XOM | 30 | $165.84 | $176.52 | -0.99% | +$320.40 | +6.44% | $162.216 (hwm $180.24) | $154.23 flag → +14.45% |
+
+**STEP 3 cut-loser check (unrealized_plpc <= -0.07):** XLE +4.45% / XLF -0.65% / XOM +6.44% — **all inside envelope. NO CUTS.**
+
+**STEP 4 tighten-trail check:** Max unrl = XOM +6.44% (far below +15% first-tighten threshold ~$190.72). **NO TIGHTENS.**
+
+**STEP 5 thesis-break check:** XLE/XOM soft intraday despite WTI $100+ regime (crude back above $100 Tue pre-mkt but modest off-peak digest intraday — not a $90 base break). XLF +1.13% intraday bouncing against "longest losing streak since 2008" narrative — momentum-DOWNGRADE still informational (position inside envelope). No single-name catalyst reversal, no thesis break. **NO THESIS-BREAK CUTS.**
+
+**Server-side ratchets observed since Mon close:**
+- XOM 30 sh: hwm $179.30 → **$180.24** (stop $161.37 → **$162.216**, +$0.846) — hit new HWM intraday Tue AM
+- XLE 233/74 sh: hwm $68.505 unchanged (mtm $67.56 below hwm)
+- XLF 90/90 sh: hwm $56.205 / $56.05 unchanged (mtm $55.68 below hwms)
+
+**Cushion snapshot (vs pre-mkt):**
+- XLF cushion to $52.12: +5.90% → **+6.83%** (widened on +1.13% intraday bounce — XLF intraday leader in book)
+- XLE cushion to $60.15: +13.59% → **+12.32%** (narrowed on -0.35% intraday pullback)
+- XOM cushion to $154.23: +16.52% → **+14.45%** (narrowed on -0.99% intraday pullback despite HWM ratchet)
+
+**STEP 6 intraday research — SKIP.** No sharp unexplained single-name moves; all 3 positions moving in-range on Tue AM tape (energy modest pullback despite WTI $100+ = normal off-peak digest; XLF counter-move on bank-tape digest already captured in pre-mkt research). No PG/BAC/HAL post-reaction single-name read-through flagged in book.
+
+**Fresh-entry re-screen (3 open slots / 3 FRESH budget):**
+- 10 pre-mkt screened ideas all retain their named failed test (XLE ADD Gate 20% + R:R, XOM ADD R:R + sector-conc, HAL R:R + catalyst-pre-open, DVN/EOG/COP/CVX R:R, semi moratorium armed, XLK re-entry R:R + ambiguous momentum, XLV/XLP/XLB R:R + sector-momentum fail, XLF ADD Gate + sector-momentum downgrade, XLI/RTX/GE/MMM/NOC sector-momentum fail + catalyst-pre-open, TSLA/META/NFLX event-driven not momentum).
+- No intraday catalyst flip observed; HAL/RTX/GE/MMM/NOC earnings prints already in base tape.
+- **NO QUALIFYING FRESH SETUP → no entry. Not a flat-session violation; each candidate has a named failed test (per CLAUDE.md Decision Rule).**
+
+**STEP 7 ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state:**
+- Market value: $36,058.92 | Deployment: ~36.57% mv (static from pre-mkt within rounding)
+- 3 positions / 3 slots open / Wk-20 FRESH 0/3 used
+- 5 GTC trailing stops active across 3 symbols (XOM ratcheted AM; XLE/XLF unchanged)
+- Phase P&L: ~-$1,473 (based on $98,551.88 pre-mkt equity + mtm delta on open book)
+
+**Next checkpoints (afternoon → close):**
+1. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING, SECTOR-MOMENTUM DOWNGRADE)** — cushion +6.83% to $52.12 flag (widened on intraday bounce). If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+2. **XLE MANUAL-CUT vigilance** — cushion +12.32% to $60.15 flag; GTC trail server-side at $61.6545 hwm $68.505. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +14.45% to $154.23 flag; GTC trail at $162.216 hwm $180.24 (new HWM Tue AM). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **No tighten triggers active** — XOM +6.44% top-unrl; next trigger +15% unrl at ~$190.72 (~8 pts away).
+5. **No fresh-entry today** — 10 ideas screened have named failed tests; EOD re-screen only. Under-deployment IS NOT a buy signal per CLAUDE.md.
+6. **HAL/RTX/GE/MMM/NOC post-earnings tape** — Tue AM prints; informational tape read-through (no FRESH triggers; all failed catalyst-pre-open or R:R structural).
+7. **Mag7 earnings mid-week overlay** — TSLA Wed 10/22, META/NFLX later week; no direct beta.
+8. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23; run mid-week when market quiet.
