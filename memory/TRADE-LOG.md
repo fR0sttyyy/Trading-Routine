@@ -4562,3 +4562,43 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 6. **HAL/RTX/GE/MMM/NOC post-earnings tape** — Tue AM prints; informational tape read-through (no FRESH triggers; all failed catalyst-pre-open or R:R structural).
 7. **Mag7 earnings mid-week overlay** — TSLA Wed 10/22, META/NFLX later week; no direct beta.
 8. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23; run mid-week when market quiet.
+
+### Oct 20 — EOD Snapshot (Day 2, Tuesday — Wk-20 Day 2 / Mag7 earnings week / XLF intraday leader / NO TRADES)
+**Portfolio:** $98,477.01 | **Cash:** $62,252.44 (63.22%) | **Day P&L:** +$87.92 (+0.089%) | **Phase P&L:** -$1,522.99 (-1.523%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $68.00 | +0.29% | +$1,018.69 (+5.13%) | $61.6545 (trail 10%, hwm $68.505) |
+| XLF | 180 | $56.045 | $55.635 | +1.04% | -$73.80 (-0.73%) | $50.5845 (orig 90 sh, hwm $56.205) / $50.445 (ADD 90 sh, hwm $56.05) |
+| XOM | 30 | $165.84 | $177.86 | -0.24% | +$360.60 (+7.25%) | $162.216 (trail 10%, hwm $180.24) |
+
+**Notes:** Wk-20 Day 2 Tuesday close — Mag7 earnings-week Day 2 / XLF intraday leader on bank-tape bounce / NO TRADES / clean 1-trading-day baseline vs Mon Oct 19 EOD ($98,389.09). Day P&L label applies cleanly (Mon→Tue is consecutive trading days). Day P&L +$87.92 (+0.089%) reconciles as pure open-book mark-to-close delta: XLF +$103.50 on +1.04% intraday (position leader) + XLE +$61.40 on +0.29% + XOM -$12.60 on -0.24% = +$152.30 book delta; residual -$64.38 vs equity change ties to small Alpaca mark-vs-snapshot drift (Alpaca lastday_price $67.80 XLE / $55.06 XLF / $178.28 XOM vs captured Mon close $67.96 / $55.085 / $178.63 — minor settlement mark delta, immaterial). Phase P&L -$1,522.99 (-1.523%) improved modestly from Mon EOD -$1,610.91 by +$87.92 day move; still well inside envelope on all positions. Deployment 36.78% mv (3 positions / 3 slots open / Wk-20 FRESH 0/3 used) — well below 75-85% target band but 10 pre-mkt + midday-rescreened ideas each retain a named failed test (CLAUDE.md Decision Rule discipline intact); under-deployment is NOT a buy signal. Cut-loser envelope end-of-day: **XLF -0.73% unrl is tightest in book / cushion $55.635 close vs $52.12 cut flag = +6.74%** (widened from midday +6.83% recomputed on PM close — XLF intraday leader +1.04%); XLE cushion $68.00 vs $60.15 = +13.05% (widened from midday +12.32% on PM continuation); XOM cushion $177.86 vs $154.23 = +15.32% (widened from midday +14.45% on PM bounce). All 3 remain inside envelope — no cuts warranted. Tighten-trail: XOM top at +7.25% unrl (still below +15% first-tighten threshold ~$190.72; ~$13 pts away). Server-side ratchets observed intraday Tue AM: XOM 30 sh hwm $179.30 → $180.24 (stop $161.37 → $162.216, +$0.846); XLE 233/74 sh hwm $68.505 unchanged (close $68.00 below hwm); XLF 90/90 sh hwm $56.205 / $56.05 unchanged (close $55.635 below both hwms). Alpaca `balance_asof: 2026-10-19` (field lagging 1 trading day; confirmed from account snapshot); equity $98,477.01 reflects Tue Oct 20 close marks and matches live Alpaca equity.
+
+**Trades today:** NONE — 0 FRESH, 0 strict-rule exits, 0 tightens, 0 cancels. All 5 GTC trailing stops remain active; XOM ratcheted intraday Tue AM.
+
+**Wk-20 trades running total:** 0/3 FRESH slot-consuming (Day 2 Tue). 3 FRESH slots fully available. 3/6 position-cap (3 slots structurally open).
+
+**Post-EOD order state (5 GTC stops covering 3 positions):**
+- XLE 233 sh: trail 10% $61.6545 hwm $68.505 (2cae6815) — unchanged Tue (close $68.00 below hwm)
+- XLE 74 sh: trail 10% $61.6545 hwm $68.505 (442df295) — unchanged Tue
+- XOM 30 sh: trail 10% $162.216 hwm $180.24 (5afbbb78) — ratcheted intraday Tue AM
+- XLF 90 sh (original): trail 10% $50.5845 hwm $56.205 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $50.445 hwm $56.05 (bbf96d5f) — unchanged
+
+**Sector-momentum posture (unchanged from Mon EOD):**
+- Direct semi/chip exposure ZERO (SMH + NVDA exited Wk-19); SEMI/CHIP MORATORIUM armed (2 consecutive fails).
+- Direct broad-tech exposure ZERO (XLK exited Fri 10/16); XLK re-entry gated by R:R + momentum re-screen.
+- Book: 1 energy ETF (XLE 21.20% mv) + 1 energy single-name (XOM 5.42%) + 1 financials ETF (XLF 10.17%) = 36.78% mv.
+- Energy sector concentration = 26.62% (XLE + XOM) — remains top-weighted; crude $100+ regime intact (modest off-peak digest intraday).
+- XLF sector-momentum DOWNGRADE informational (position inside envelope; no cut trigger).
+
+**Wednesday 10/21 (Wk-20 Day 3) plan:**
+1. **Pre-market scan** — Mag7 earnings-week continuation (TSLA Wed 10/22 AMC is primary direct Mag7 catalyst; book has zero direct-beta); crude $100+ digest Day 3; bank-earnings tape Day 3 (regional/money-center continuation).
+2. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING, SECTOR-MOMENTUM DOWNGRADE)** — cushion +6.74% to $52.12 flag; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE / XOM MANUAL-CUT vigilance** — XLE +13.05% / XOM +15.32% headroom; thesis-break only if WTI < $90 base or XLE < $65 sector-support.
+4. **XOM discretionary tighten watch** — top unrl +7.25%; next trigger +15% unrl at ~$190.72 (~$13 pts away). No tighten pending.
+5. **3 structural slots open (3/6 positions) / 36.78% deployment** — fresh-entry scan Wed AM. Qualifying setup required per CLAUDE.md Decision Rule (sector momentum + entry trigger + R:R>=2:1 + open slot/budget). If a setup qualifies → DEFAULT IS TO TRADE (no "patience" excuses).
+6. **Wk-20 FRESH slot budget:** 0/3 used; 3 FRESH slots fully available; semi/chip MORATORIUM continues to gate AMD/AVGO/TSM/NVDA/SMH re-entry.
+7. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23; run mid-week when market quiet.
+8. **TSLA Wed AMC earnings overlay** — primary direct Mag7 catalyst Wk-20; no direct beta in book (TSLA sector-momentum fail at pre-mkt screen); informational tape read-through only.
+9. **No gates relaxed, no overrides planned** — Wk-20 Day 3 opens clean with 3 slots open and FRESH budget intact; patience permitted ONLY if no qualifying setup appears.
