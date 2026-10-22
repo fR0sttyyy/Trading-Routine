@@ -4749,3 +4749,44 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 7. **Defensive rotation Day 3 watch (XLV/XLF)** — Thu intraday XLF leading book +0.86%; ETF R:R structural still blocks fresh ETF entry regardless.
 8. **Crude $100+ regime continuation** — WTI backed up Thu AM; XLE/XOM intraday off-peak digest within envelope; thesis-break only if WTI breaks sub-$90 base (not threatened).
 9. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23 (TOMORROW); run this afternoon when market quiet.
+
+### Oct 22 — EOD Snapshot (Day 4, Thursday — Wk-20 Day 4 / TSLA post-earnings tape / crude $100+ regime / defensive-rotation Day 3 / NO TRADES)
+**Portfolio:** $98,547.50 | **Cash:** $62,252.44 (63.17%) | **Day P&L:** -$63.67 (-0.065%) | **Phase P&L:** -$1,452.50 (-1.452%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $67.63 | -0.78% | +$905.10 (+4.56%) | $61.866 (trail 10%, hwm $68.74) |
+| XLF | 180 | $56.045 | $56.615 | +1.03% | +$102.60 (+1.02%) | $50.949 (both legs, hwm $56.61) |
+| XOM | 30 | $165.84 | $178.065 | -0.01% | +$366.75 (+7.37%) | $162.279 (trail 10%, hwm $180.31) |
+
+**Notes:** Wk-20 Day 4 Thursday close — TSLA post-earnings reaction tape digested / crude $100+ regime with intraday pullback / defensive-rotation Day 3 confirmed (XLF +1.03% intraday leader for 3rd consecutive day) / NO TRADES / clean 1-trading-day baseline vs Wed Oct 21 EOD ($98,611.17). Day P&L label applies cleanly (Wed→Thu consecutive trading days). Day P&L -$63.67 (-0.065%) reconciles as pure open-book mark-to-close delta: XLE 307 × -$0.53 = -$162.71 + XLF 180 × +$0.575 = +$103.50 + XOM 30 × -$0.025 = -$0.75 = -$59.96 book delta; residual -$3.71 vs equity change ties to minor Alpaca mark-vs-snapshot drift (last_equity $98,607.46 vs captured Wed EOD $98,611.17 — immaterial, matches residual exactly). Phase P&L -$1,452.50 (-1.452%) widened from Wed EOD -$1,388.83 by -$63.67; well inside envelope on all positions. Deployment 36.83% mv (3 positions / 3 slots open / Wk-20 FRESH 0/3 used) — well below 75-85% target band but all screened ideas each retain a named failed test (CLAUDE.md Decision Rule discipline intact); under-deployment is NOT a buy signal. Cut-loser envelope end-of-day: **XLF +1.02% unrl is tightest in book / cushion $56.615 close vs $52.12 cut flag = +8.62%** (widened from Wed EOD +7.54% on +1.03% intraday — XLF intraday leader Day 3 defensive-rotation); XLE cushion $67.63 vs $60.15 = +12.44% (narrowed from Wed EOD +13.34% on -0.78% intraday crude off-peak digest); XOM cushion $178.065 vs $154.23 = +15.46% (widened slightly from Wed EOD +15.41% on flat close within range). All 3 remain inside envelope — no cuts warranted. Tighten-trail: XOM top at +7.37% unrl (still below +15% first-tighten threshold ~$190.72; ~$12.66 pts away). Server-side ratchets observed intraday Thu: XLE 233/74 sh hwm $68.64 → $68.74 (stop $61.776 → $61.866, +$0.09, Thu AM micro-ratchet before intraday pullback); XLF 90 sh (ADD, bbf96d5f) hwm $56.145 → $56.61 (stop $50.5305 → $50.949, +$0.4185, Thu intraday new HWM); XLF 90 sh (original, 8bd5213b) hwm $56.205 → $56.61 (stop $50.5845 → $50.949, +$0.3645, Thu intraday new HWM); XOM 30 sh hwm $180.24 → $180.31 (stop $162.216 → $162.279, +$0.063, Thu AM micro-ratchet). Alpaca `balance_asof: 2026-10-21` (field lagging 1 trading day; confirmed from account snapshot); equity $98,547.50 reflects Thu Oct 22 close marks and matches live Alpaca equity.
+
+**Trades today:** NONE — 0 FRESH, 0 strict-rule exits, 0 tightens, 0 cancels. All 5 GTC trailing stops remain active; XLE both legs + XLF both legs + XOM all ratcheted intraday Thu.
+
+**Wk-20 trades running total:** 0/3 FRESH slot-consuming (Day 4 Thu). 3 FRESH slots fully available. 3/6 position-cap (3 slots structurally open).
+
+**Post-EOD order state (5 GTC stops covering 3 positions):**
+- XLE 233 sh: trail 10% $61.866 hwm $68.74 (2cae6815) — ratcheted Thu AM
+- XLE 74 sh: trail 10% $61.866 hwm $68.74 (442df295) — ratcheted Thu AM
+- XOM 30 sh: trail 10% $162.279 hwm $180.31 (5afbbb78) — ratcheted Thu AM
+- XLF 90 sh (original): trail 10% $50.949 hwm $56.61 (8bd5213b) — ratcheted Thu intraday
+- XLF 90 sh (ADD): trail 10% $50.949 hwm $56.61 (bbf96d5f) — ratcheted Thu intraday
+
+**Sector-momentum posture (unchanged from Wed EOD):**
+- Direct semi/chip exposure ZERO (SMH + NVDA exited Wk-19); SEMI/CHIP MORATORIUM armed+validated (Saxo "chip stocks sold off" Thu AM confirms).
+- Direct broad-tech exposure ZERO (XLK exited Fri 10/16); XLK re-entry gated by R:R + momentum re-screen.
+- Book: 1 energy ETF (XLE 21.07% mv) + 1 energy single-name (XOM 5.42%) + 1 financials ETF (XLF 10.34%) = 36.83% mv.
+- Energy sector concentration = 26.49% (XLE + XOM) — remains top-weighted; crude $100+ regime with intraday digest.
+- XLF sector-momentum DOWNGRADE informational (position inside envelope; now Day 3 of defensive-rotation participation — bank-tape bouncing against bearish "3-month low" narrative; +1.03% Thu makes 3 consecutive days intraday participation).
+
+**Friday 10/23 (Wk-20 Day 5) plan:**
+1. **Weekly review DUE (Wk-20)** — per weekly-review skill backlog; backlog Wk-16/17/18 still pending; prioritize this afternoon or Fri AM when market quiet.
+2. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING, SECTOR-MOMENTUM DOWNGRADE)** — cushion +8.62% to $52.12 flag; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE / XOM MANUAL-CUT vigilance** — XLE +12.44% / XOM +15.46% headroom; thesis-break only if WTI < $90 base or XLE < $65 sector-support.
+4. **XOM discretionary tighten watch** — top unrl +7.37%; next trigger +15% unrl at ~$190.72 (~$12.66 pts away). No tighten pending.
+5. **3 structural slots open (3/6 positions) / 36.83% deployment** — fresh-entry scan Fri AM. Qualifying setup required per CLAUDE.md Decision Rule (sector momentum + entry trigger + R:R>=2:1 + open slot/budget). If a setup qualifies → DEFAULT IS TO TRADE.
+6. **Wk-20 FRESH slot budget:** 0/3 used; 3 FRESH slots fully available at Day 5; semi/chip MORATORIUM continues to gate AMD/AVGO/TSM/NVDA/SMH re-entry (Saxo Thu AM validation).
+7. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 due Fri 10/23 (TOMORROW); run Fri when market quiet.
+8. **Defensive-rotation Day 4 watch (XLV/XLF)** — Thu Day 3 confirmed (XLF +1.03% intraday leader 3rd consecutive); Fri would be Day 4; ETF R:R structural still blocks fresh ETF entry regardless.
+9. **Crude $100+ regime continuation** — WTI backed up Thu AM then digest intraday; XLE/XOM intraday off-peak digest within envelope; thesis-break only if WTI breaks sub-$90 base (not threatened).
+10. **No gates relaxed, no overrides planned** — Wk-20 Day 5 opens clean with 3 slots open and FRESH budget intact; patience permitted ONLY if no qualifying setup appears.
