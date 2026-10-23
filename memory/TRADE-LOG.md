@@ -4790,3 +4790,56 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 8. **Defensive-rotation Day 4 watch (XLV/XLF)** — Thu Day 3 confirmed (XLF +1.03% intraday leader 3rd consecutive); Fri would be Day 4; ETF R:R structural still blocks fresh ETF entry regardless.
 9. **Crude $100+ regime continuation** — WTI backed up Thu AM then digest intraday; XLE/XOM intraday off-peak digest within envelope; thesis-break only if WTI breaks sub-$90 base (not threatened).
 10. **No gates relaxed, no overrides planned** — Wk-20 Day 5 opens clean with 3 slots open and FRESH budget intact; patience permitted ONLY if no qualifying setup appears.
+
+### Oct 23 — Midday Scan (Friday, 12:12 ET — Wk-20 Day 5 / crude $100+ regime / defensive-rotation Day 4 / NO ACTION)
+**Portfolio (midday):** 3 positions | **Equity:** $99,198.91 | **Deployment:** ~37.24% mv | **Wk-20 trades:** 0/3 FRESH | **daytrade_count:** 0/3
+
+| Ticker | Shares | Entry | Mtm | Intraday | Unrl P&L | Unrl % | Stop | Cushion to -7% |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $69.585 | +2.98% | +$1,505.28 | +7.58% | $62.739 (hwm $69.71) | $60.15 flag → +15.69% |
+| XLF | 180 | $56.045 | $56.065 | -1.03% | +$3.60 | +0.04% | $51.003 (both legs, hwm $56.67) | $52.12 flag → +7.57% |
+| XOM | 30 | $165.84 | $182.94 | +2.64% | +$513.00 | +10.31% | $165.375 (hwm $183.75) | $154.23 flag → +18.59% |
+
+**STEP 3 cut-loser check (unrealized_plpc <= -0.07):** XLE +7.58% / XLF +0.04% / XOM +10.31% — **all inside envelope. NO CUTS.**
+
+**STEP 4 tighten-trail check:** Max unrl = XOM +10.31% (still below +15% first-tighten threshold ~$190.72; XLE +7.58% also below). **NO TIGHTENS.**
+
+**STEP 5 thesis-break check:** XLE +2.98% / XOM +2.64% intraday leaders Fri — crude $100+ regime continuation driving energy complex higher. XLF -1.03% intraday pullback within envelope (Day 4 defensive-rotation; +0.04% unrl still positive). No single-name catalyst reversal; no sector-momentum break. **NO THESIS-BREAK CUTS.**
+
+**Server-side ratchets observed since Thu close:**
+- XLE 233/74 sh (2cae6815 + 442df295): hwm $68.74 → **$69.71** (stop $61.866 → **$62.739**, +$0.873 both legs) — Fri AM NEW HWM on crude $100+ continuation
+- XLF 90 sh original (8bd5213b): hwm $56.61 → **$56.67** (stop $50.949 → **$51.003**, +$0.054) — Fri AM micro-ratchet before intraday pullback
+- XLF 90 sh ADD (bbf96d5f): hwm $56.61 → **$56.67** (stop $50.949 → **$51.003**, +$0.054) — Fri AM micro-ratchet before intraday pullback
+- XOM 30 sh (5afbbb78): hwm $180.31 → **$183.75** (stop $162.279 → **$165.375**, +$3.096) — Fri AM NEW HWM on crude $100+ continuation
+
+**Cushion snapshot (vs pre-mkt):**
+- XLE cushion to $60.15: +13.07% → **+15.69%** (widened on +2.98% intraday crude continuation)
+- XLF cushion to $52.12: +8.08% → **+7.57%** (narrowed on -1.03% intraday — Day 4 defensive-rotation pullback)
+- XOM cushion to $154.23: +16.19% → **+18.59%** (widened on +2.64% intraday crude continuation)
+
+**STEP 6 intraday research — SKIP.** No sharp unexplained single-name moves; all 3 positions moving in-range on Fri midday tape (XLE/XOM crude $100+ continuation already captured in pre-mkt research; XLF Day 4 defensive-rotation modest pullback). No single-name catalyst requires research.
+
+**Fresh-entry re-screen (3 open slots / 3 FRESH budget):**
+- 11 pre-mkt screened ideas all retain their named failed test (R:R structural on all ETFs + mega-cap defensives + mega-cap energy single-names; Gate 20% cap on XLE ADD + XLF ADD; sector-conc on XOM ADD; catalyst-pre-open on AXP; semi moratorium ARMED+VALIDATED; broad-tech R:R).
+- Fri midday broad tape: XLE/XOM leading book +2.98%/+2.64% (crude $100+ continuation); XLF -1.03% pullback (Day 4 defensive-rotation digest within envelope); book +$647 intraday delta.
+- **NO QUALIFYING FRESH SETUP → no entry. Not a flat-session violation; each candidate has a named failed test (per CLAUDE.md Decision Rule).**
+
+**STEP 7 ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state:**
+- Equity: $99,198.91 | Market value: $36,946.47 | Deployment: ~37.24% mv (positions / equity)
+- 3 positions / 3 slots open / Wk-20 FRESH 0/3 used
+- 5 GTC trailing stops active across 3 symbols (all ratcheted intraday Fri AM; XLE both legs + XOM NEW HWM on crude continuation; XLF both legs micro-ratchet before intraday pullback)
+- Day P&L: +$658.58 (+0.67%) from Thu close $98,540.33 → reconciles to book delta (XLE 307 × +$1.955 = +$600.19 + XLF 180 × -$0.55 = -$99.00 + XOM 30 × +$4.875 = +$146.25 = +$647.44; residual +$11.14 mark drift)
+- Phase P&L: ~-$801.09 (-0.80%) — Fri midday has recovered ~$651 of Thu-EOD -$1,452.50 phase draw
+
+**Next checkpoints (afternoon → close):**
+1. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — cushion +7.57% to $52.12 flag (narrowed on -1.03% intraday); if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+2. **XLE MANUAL-CUT vigilance** — cushion +15.69% to $60.15 flag (widened on +2.98% intraday); GTC trail server-side at $62.739 hwm $69.71. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +18.59% to $154.23 flag (widened on +2.64% intraday); GTC trail at $165.375 hwm $183.75. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **No tighten triggers active** — XOM +10.31% top-unrl; next trigger +15% unrl at ~$190.72 (~$7.78 pts away — narrowed since EOD Thu on +2.64% intraday). XLE +7.58% next closest; next trigger at ~$74.38 (~$4.80 pts away).
+5. **No fresh-entry today** — 11 ideas screened have named failed tests; EOD re-screen only. Under-deployment IS NOT a buy signal per CLAUDE.md.
+6. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING + Wk-20 DUE TODAY (Fri 10/23); run this afternoon when market quiet.
+7. **Crude $100+ regime continuation** — WTI continuing to drive XLE/XOM higher Fri AM; both at NEW HWM intraday; thesis-break only if WTI breaks sub-$90 base (not threatened).
+8. **Defensive-rotation Day 4 watch (XLF)** — Fri intraday pullback -1.03% (within envelope); position still +0.04% unrl / cushion still +7.57%; informational — no action warranted.
+9. **AXP Q3 earnings pre-open informational** — zero direct beta in book; XLF read-through only.

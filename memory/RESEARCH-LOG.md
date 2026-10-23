@@ -8645,3 +8645,31 @@ Order of preference at MARKET-OPEN routine runtime:
 - Monitor chip-complex sell-off continuation — semi moratorium 3rd-session validated.
 - XOM Q3 10/30 earnings — set 10/27 pre-mkt scan as half-size event-day decision (4 trading days away).
 - Weekly-review skill backlog: Wk-16, Wk-17, Wk-18 (3 overdue) + **Wk-20 DUE TODAY**.
+
+### Oct 23 — Midday Addendum (Friday, 12:12 ET — Wk-20 Day 5 / crude $100+ continuation / defensive-rotation Day 4 digest)
+
+**Intraday tape (12:12 ET):**
+- **XLE $69.585 +2.98%** — intraday leader; NEW HWM $69.71; crude $100+ continuation Fri AM
+- **XOM $182.94 +2.64%** — intraday leader; NEW HWM $183.75; crude $100+ continuation Fri AM
+- **XLF $56.065 -1.03%** — modest pullback Day 4 defensive-rotation; within envelope; cushion +7.57% to $52.12 cut flag (narrowed from pre-mkt +8.08%)
+
+**Server-side ratchets (both legs each where applicable):**
+- XLE: hwm $68.74 → $69.71 / stop $61.866 → $62.739 (+$0.873)
+- XOM: hwm $180.31 → $183.75 / stop $162.279 → $165.375 (+$3.096) ← LARGE Fri AM ratchet
+- XLF: hwm $56.61 → $56.67 / stop $50.949 → $51.003 (+$0.054, pre-pullback micro)
+
+**No intraday research required (STEP 6 SKIP):** no sharp unexplained single-name moves; all 3 positions moving in-range on Fri midday tape per crude $100+ regime pre-mkt thesis + defensive-rotation Day 4 informational. AXP Q3 (pre-open beat/guide-up) + S&P Global PMI Flash Oct = informational only; zero direct beta.
+
+**Fresh-entry re-screen (11 ideas, all retain named failed test):**
+- Semi moratorium ARMED+VALIDATED (continues through Wk-20+); hedge fund tech-selloff narrative + Saxo Thu "chip stocks sold off"
+- R:R structural blocks all ETFs (XLE/XLF/XOM/XLP/XLV/XLK/IWM) + mega-cap single-names (PG/ABBV/LLY/UNH/JNJ/HAL/DVN/EOG/COP/CVX/BAC/JPM/WFC)
+- Gate 20% cap: XLE ADD at cap already (21.07% mv); XLF ADD blocked
+- Sector-conc: XOM ADD blocked (energy 26.49% mv)
+- Catalyst-pre-open: AXP Q3 resolved pre-open — zero actionable midday residual
+- **NO QUALIFYING FRESH SETUP → NO ENTRY — not a flat-session violation (CLAUDE.md Decision Rule discipline intact)**
+
+**Afternoon → EOD watch:**
+- XLF cushion decay — tightest in book +7.57% to $52.12 cut flag; monitor if intraday extends below -1.5%
+- XLE/XOM tighten-trail proximity — XOM +10.31% / XLE +7.58%; both inside first-tighten +15% threshold (~$190.72 XOM / ~$74.38 XLE); no action pending
+- Weekly review Wk-20 DUE this afternoon (+ Wk-16/17/18 backlog) when market quiet
+- Crude $100+ sustainment — XLE/XOM structural tailwind continuation
