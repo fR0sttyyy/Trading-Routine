@@ -9367,3 +9367,59 @@ Order of preference at MARKET-OPEN routine runtime:
 - **CAT -9% / XLI industrials** — sector-momentum broken; monitor for 2-session confirmation of break
 - **Weekly-review skill backlog:** Wk-16/17/18/19 (4 overdue) — ideally run Thu PM post-AMZN or Fri PM post-XOM calmer windows
 
+
+### Oct 29 — Midday Scan (Wk-21 Day 4, Thursday — GOOGL -10% / MSFT +4% Mag7 split tape / AMZN AMC tonight / crude $101 regime / XOM Q3 Fri AM)
+
+**Account midday (~12:15 ET):** Equity $98,928.44 | Cash $62,252.44 (62.93%) | MV $36,676.00 (37.07% deployment) | Last_equity Wed close $98,830.59 | **Day P&L +$97.85 (+0.099%)** | **Phase P&L -$1,071.56 (-1.072%)** vs $100k baseline
+
+**STEP 2 state pulled cleanly** — market open (closes 16:00 ET); 3 positions / 5 GTC trailing stops mapped by symbol:
+- XLE 233 sh → 2cae6815 (stop $62.874 hwm $69.86 — unchanged since Oct 26, mid $68.30 below HWM)
+- XLE 74 sh → 442df295 (stop $62.874 hwm $69.86 — unchanged since Oct 26, below HWM)
+- XLF 90 sh orig → 8bd5213b (stop $51.507 hwm $57.23 — **SERVER-SIDE RATCHETED today 10/29 13:48 ET**, new stop +$0.504 / new HWM +$0.56)
+- XLF 90 sh ADD → bbf96d5f (stop $51.507 hwm $57.23 — **SERVER-SIDE RATCHETED today 10/29 13:48 ET**, matching above)
+- XOM 30 sh → 5afbbb78 (stop $166.392 hwm $184.88 — unchanged since Oct 27, mid $182.015 below HWM)
+
+**Positions snapshot midday:**
+| Ticker | Shares | Entry | Mid | Day Chg | Unrl P&L | Unrl % | Stop | Cushion -7% |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $68.30 | -0.22% | +$1,110.79 | +5.59% | $62.874 (hwm $69.86) | $60.15 → +13.55% |
+| XLF | 180 | $56.045 | $56.965 | +1.49% | +$165.60 | +1.64% | $51.507 (hwm $57.23) | $52.12 → +9.30% |
+| XOM | 30 | $165.84 | $182.015 | -0.003% | +$485.25 | +9.75% | $166.392 (hwm $184.88) | $154.23 → +18.03% |
+
+**STEP 3 cut-loser check:** All 3 inside -7% envelope. XLE +5.59% / XLF +1.64% / XOM +9.75%. **NO CUTS.**
+
+**STEP 4 tighten-trail check:** Max unrl XOM +9.75% (still below +15% first-tighten; threshold ~$190.72, ~$8.71 pts away — widened from pre-mkt $6.47 gap on -1.21% intraday softening). XLE +5.59% next (threshold ~$74.38, ~$6.08 pts away — widened from pre-mkt $5.21 gap). **NO TIGHTENS.**
+
+**STEP 5 thesis-break check:** XLE -0.22% / XOM -0.003% energy softens slightly on US-Iran easing + Brent below $114; XLF +1.49% bank bid holding. Crude $100+ regime intact ($101+ WTI). No single-name catalyst reversal; GOOGL -10% + CAT -9% external not in-position. **NO THESIS-BREAK CUTS.**
+
+**Server-side ratchets observed since pre-mkt:** **XLF both legs ratcheted** at 13:48 ET today — new HWM $57.23 (from $56.67, +$0.56) / new stop $51.507 (from $51.003, +$0.504) on $56.965 mid > prior HWM $56.67; XLF cushion widened to +9.30% to $52.12 flag. XLE $68.30 vs HWM $69.86 (-2.23%); XOM $182.015 vs HWM $184.88 (-1.55%) — both still below HWM, no ratchets.
+
+**Cushion snapshot (vs pre-mkt):**
+- XLE cushion to $60.15: +14.99% → **+13.55%** (narrowed on -0.22% energy soften)
+- XLF cushion to $52.12: +9.14% → **+9.30%** (widened on +1.49% bank bid)
+- XOM cushion to $154.23: +19.46% → **+18.03%** (narrowed on -1.21% energy soften)
+
+**STEP 6 intraday research — SKIP.** XLE/XOM -0.22%/-0.003% intraday soften explained by US-Iran diplomatic easing + Brent below $114 (noted pre-mkt); XLF +1.49% on post-FOMC bank bid as expected. No sharp unexplained moves requiring research.
+
+**Fresh-entry re-screen (3 open slots / 3 FRESH budget):** Pre-mkt screened 12 candidates all retain named failed test. Thu AM broad tape: MSFT +4% / GOOGL -10% / CAT -9% confirms Mag7 split + "AI power wall" theme; semi/chip MORATORIUM REINFORCED (not reset). No new sector-momentum leader emerging (XLI broken on CAT, XLV digest, XLB narrow, XLK Day 4 reversal risk on NQ fut -1.34%). **NO QUALIFYING FRESH SETUP → no entry.** Not a flat-session violation (each candidate has a named failed test per CLAUDE.md Decision Rule). AMZN AMC tonight = single-name event, no half-size broad-book sizing input.
+
+**STEP 7 ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state:**
+- Equity: $98,928.44 | Market value: $36,676.00 | Deployment: ~37.07% mv
+- 3 positions / 3 slots open / Wk-21 FRESH 0/3 used (Mon-Thu AM)
+- 5 GTC trailing stops active — **XLF both legs server-side ratcheted today 13:48 ET** (new hwm $57.23 / new stop $51.507); XLE + XOM unchanged
+- Day P&L: +$97.85 (+0.099%) from Wed close $98,830.59 → book delta: XLE 307 × -$0.15 = -$46.05 + XLF 180 × +$0.835 = +$150.30 + XOM 30 × -$0.005 = -$0.15 = **+$104.10 book — matches equity delta within $6.25 mark-drift residual**
+- Phase P&L: -$1,071.56 (-1.072%) — Thu midday modestly extends Wed EOD -$1,169.41 by +$97.85
+
+**Next checkpoints (afternoon → close + AMZN AMC):**
+1. **XLF MANUAL-CUT PRIORITY-1 (still tightest cushion despite widening)** — cushion +9.30% to $52.12 flag (widened from pre-mkt +9.14%); XLF +1.64% unrl; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh. GTC trail now $51.507 hwm $57.23 (ratcheted today).
+2. **XLE MANUAL-CUT vigilance** — cushion +13.55% to $60.15 flag (narrowed from +14.99% on energy soften); GTC trail $62.874 hwm $69.86. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +18.03% to $154.23 flag (narrowed from +19.46% on soften); GTC trail $166.392 hwm $184.88. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **XOM / XLE discretionary tighten watch** — XOM top unrl +9.75% / XLE +5.59%; XOM tighten trigger ~$190.72 (~$8.71 away, widened from pre-mkt $6.47 gap on soften); XLE ~$74.38 (~$6.08 away, widened from $5.21). No tighten pending unless XOM rebounds.
+5. **AMZN earnings AMC tonight** — major Mag7 final leg; book zero direct Mag7 beta; Fri open tone-setter + XOM Q3 Fri AM dual event.
+6. **XOM Q3 Fri AM 10/30** — in-position hold through earnings per rule-set (30 sh); 1 trading day; refining windfall +$4.5B vs crude -1.03% softness.
+7. **Semi/chip MORATORIUM REINFORCED** — GOOGL -10% + CAT -9% "AI power wall" + AMZN AMC unresolved; moratorium NOT reset; semi/chip re-entry gated.
+8. **Weekly-review skill backlog:** Wk-16/17/18/19 (4 overdue) — run post-AMZN Thu PM / Fri PM post-XOM Q3 calmer windows.
+9. **Crude $101 regime watch** — WTI -1.03% today on US-Iran easing; thesis-break only if WTI breaks sub-$90 base (not threatened at $101+).
+10. **No gates relaxed, no overrides planned** — Wk-21 Day 4 midday: 3 slots open, FRESH budget intact (0/3 Mon-Thu AM), clean trailing-stop structure (5 GTC active; XLF both legs ratcheted today 13:48 ET).
