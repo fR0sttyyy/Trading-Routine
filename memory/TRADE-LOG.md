@@ -5220,3 +5220,65 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 8. **Crude $101 regime** — Thu +0.14%/+0.48% energy complex quiet-day drift; thesis-break only if WTI breaks sub-$90 base (not threatened).
 9. **Weekly-review Wk-21** — Fri PM Wk-21 EOD closes week with 0 trades Mon-Thu + whatever Fri yields. Wk-21 review scheduled Fri PM.
 10. **No gates relaxed, no overrides planned** — Wk-21 Day 5 opens with 3 slots open, FRESH budget intact (0/3 Mon-Thu), clean trailing-stop structure (5 GTC active; XLF both legs Thu AM NEW HWM ratchet; XLE + XOM unchanged below HWM). Patience permitted ONLY if no qualifying setup appears Fri AM.
+
+### Oct 30 — Midday Scan (Wk-21 Day 5, Fri — XOM Q3 beat + CVX blowout confirmed / crude $104+ regime / AMZN+Intel miss NQ -2.55% pre-mkt / defensive-rotation Day 2 Fri AM / NO ACTION)
+
+**Account midday (~12:48 ET):** Equity $99,424.84 | Cash $62,252.44 (62.61%) | MV $37,172.40 (37.39% deployment) | Last_equity Thu close $99,094.31 | **Day P&L +$330.53 (+0.333%)** | **Phase P&L -$575.16 (-0.575%)** vs $100k baseline
+
+**STEP 2 state pulled cleanly** — market open (closes 16:00 ET); 3 positions / 5 GTC trailing stops active mapped by symbol:
+- XLE 233 sh → 2cae6815 (stop $63.1359 hwm $70.151 — **Fri AM NEW HWM, +$0.291 vs Thu $69.86; stop +$0.262**)
+- XLE 74 sh → 442df295 (stop $63.1359 hwm $70.151 — **Fri AM NEW HWM, same ratchet**)
+- XOM 30 sh → 5afbbb78 (stop $169.65 hwm $188.50 — **Fri AM NEW HWM post-Q3 beat, +$3.62 vs Thu $184.88; stop +$3.258**)
+- XLF 90 sh orig → 8bd5213b (stop $51.507 hwm $57.23 — unchanged, current below HWM)
+- XLF 90 sh ADD → bbf96d5f (stop $51.507 hwm $57.23 — unchanged, current below HWM)
+
+**Positions snapshot midday:**
+| Ticker | Shares | Entry | Mid | Day Chg | Unrl P&L | Unrl % | Stop | Cushion -7% |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $69.685 | +1.42% | +$1,535.98 | +7.74% | $63.1359 (hwm $70.151) | $60.15 → +15.86% |
+| XLF | 180 | $56.045 | $56.65 | -0.51% | +$108.90 | +1.08% | $51.507 (hwm $57.23) | $52.12 → +8.70% |
+| XOM | 30 | $165.84 | $186.20 | +1.59% | +$610.80 | +12.28% | $169.65 (hwm $188.50) | $154.23 → +20.75% |
+
+**STEP 3 cut-loser check (unrealized_plpc <= -0.07):** XLE +7.74% / XLF +1.08% / XOM +12.28% — **all inside envelope. NO CUTS.**
+
+**STEP 4 tighten-trail check:** Max unrl = XOM +12.28% (still below +15% first-tighten threshold ~$190.72; **~$4.52 pts away** — narrowed from pre-mkt $4.24 gap on Fri midday pullback from AM HWM $188.50; XOM intraday range likely topped near HWM). XLE +7.74% next closest; next trigger ~$74.38 (~$4.70 pts away — narrowed from pre-mkt $5.84 on Fri +1.42% intraday). **NO TIGHTENS.**
+
+**STEP 5 thesis-break check:** XLE +1.42% / XOM +1.59% / XLF -0.51% — energy complex extending on crude $104+ regime + XOM Q3 beat / CVX Q3 blowout refining-boom confirmed (per pre-mkt research sector-wide); XLF modest pullback on broad risk-off tape (NQ -2.55% pre-mkt from AMZN+Intel miss) but position still +1.08% unrl. All 3 moves within intraday noise envelope on positions +1.08% to +12.28% unrealized. No single-name catalyst reversal; no sector-momentum break. Crude $100+ regime REINFORCED (WTI $103.93 / Brent $113.08 pre-mkt). Defensive-rotation Day 2 Fri AM continues (XLV/XLP/XLF/XLB/XLI composition favorable vs XLK bleed). **NO THESIS-BREAK CUTS.**
+
+**Server-side ratchets observed since Thu close:**
+- XOM 30 sh (5afbbb78): hwm $184.88 → **$188.50** (stop $166.392 → **$169.65**, +$3.258) — Fri AM NEW HWM on Q3 beat refining-boom gap-up (updated_at 09:59 ET)
+- XLE 233/74 sh (2cae6815 + 442df295): hwm $69.86 → **$70.151** (stop $62.874 → **$63.1359**, +$0.262 both legs) — Fri AM NEW HWM on crude $104+ (updated_at 10:10 ET)
+- XLF both legs (8bd5213b + bbf96d5f): hwm $57.23 unchanged (midday $56.65 below HWM) — Fri intraday -0.51% pullback kept HWM intact
+
+**Cushion snapshot (vs Thu close):**
+- XLE cushion to $60.15: +15.78% → **+15.86%** (widened on +1.42% intraday crude continuation; micro-widen)
+- XLF cushion to $52.12: +9.90% → **+8.70%** (narrowed on -0.51% intraday pullback; still ample)
+- XOM cushion to $154.23: +20.91% → **+20.75%** (narrowed micro on +1.59% intraday — HWM $188.50 above midday $186.20 means mid-off-HWM; largest cushion in book)
+
+**STEP 6 intraday research — SKIP.** XOM Q3 beat + CVX blowout + crude $104+ already captured in pre-mkt theme (Reuters/CNBC confirmed; US-Iran strike risk re-elevated). AMZN+Intel miss + NQ -2.55% broad-tech selloff already captured. XLF -0.51% intraday pullback is modest within post-FOMC digest + risk-off tape — not sharp enough on +1.08% unrl / +8.70% cushion. No single-name catalyst requires research.
+
+**Fresh-entry re-screen (3 open slots / 3 FRESH budget):**
+- Pre-mkt screened 12 candidates all retain their named failed test (R:R structural on all ETFs + mega-cap defensives + mega-cap energy single-names; Gate 20% cap on XLE ADD at 21.52% MV; sector-conc on XOM ADD / CVX FRESH / energy single-names; chase risk on XOM/CVX gap-up open; chase risk on MSFT/ORCL post-earnings; sector-momentum broken on XLK + XLI; sector-momentum unconfirmed on XLV/XLP Day 1-2; semi/chip MORATORIUM REINFORCED by Intel miss).
+- Fri midday broad tape: XLE/XOM leading book +1.42%/+1.59% (crude $104 + Q3 beat continuation); XLF -0.51% pullback on broad risk-off; book +$334 intraday delta.
+- **NO QUALIFYING FRESH SETUP → no entry. Not a flat-session violation; each candidate has a named failed test (per CLAUDE.md Decision Rule).**
+
+**STEP 7 ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state:**
+- Equity: $99,424.84 | Market value: $37,172.40 | Deployment: ~37.39% mv (positions / equity)
+- 3 positions / 3 slots open / Wk-21 FRESH 0/3 used (Mon-Fri AM)
+- 5 GTC trailing stops active across 3 symbols (XOM NEW HWM Fri AM Q3-beat ratchet +$3.258 stop; XLE both legs NEW HWM crude $104 ratchet +$0.262 both legs; XLF both legs unchanged below HWM)
+- Day P&L: +$330.53 (+0.333%) from Thu close $99,094.31 → book delta ≈ +$334.42 (XLE 307×+$0.975=+$299.33 + XLF 180×-$0.29=-$52.20 + XOM 30×+$2.91=+$87.30); residual -$3.89 mark drift
+- Phase P&L: ~-$575.16 (-0.575%) — Fri midday extends Thu-EOD -$975.24 phase recovery by +$400.08 on crude $104+ regime + Q3-beat lift
+
+**Next checkpoints (afternoon → close + Wk-21 week-end):**
+1. **XLF MANUAL-CUT PRIORITY-1 (TIGHTEST REMAINING)** — cushion +8.70% to $52.12 flag (narrowed from pre-mkt +9.90% on -0.51% intraday pullback); XLF +1.08% unrl; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+2. **XLE MANUAL-CUT vigilance** — cushion +15.86% to $60.15 flag (widened on +1.42% intraday); GTC trail server-side at $63.1359 hwm $70.151 (NEW HWM Fri AM). If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +20.75% to $154.23 flag (narrowed micro on intraday-off-HWM $186.20 vs HWM $188.50); GTC trail at $169.65 hwm $188.50 (NEW HWM Fri AM post-Q3 beat). If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **XOM discretionary tighten watch** — XOM top unrl +12.28% / next tighten trigger +15% unrl at ~$190.72 (~$4.52 away from mid $186.20; ~$2.22 away from HWM $188.50). If XOM resumes AM leg and prints $190.72+ Fri PM → cancel 5afbbb78, replace with 7% trail (first-tighten rule). XLE +7.74% also below first-tighten (threshold ~$74.38, ~$4.70 pts away). Monitor PM tape.
+5. **No fresh-entry today** — all 12 screened candidates retain named failed tests; EOD re-screen only. Under-deployment IS NOT a buy signal per CLAUDE.md.
+6. **Weekly-review Wk-21 scheduled Fri PM** — 0 trades Mon-Thu + Fri AM midday no-op; weekly-review skill to run Fri PM close window; Wk-16/17/18 reviews STILL PENDING (Wk-20 done).
+7. **Crude $104+ regime REINFORCED** — US-Iran strike risk re-elevated + XOM/CVX/BP Q3 refining-boom beats sector-confirming; XLE/XOM leaders Fri AM; thesis-break only if WTI breaks sub-$90 base (not threatened; well above).
+8. **Defensive-rotation Day 2 Fri AM** — XLV/XLP/XLB/XLI/XLF continuing green vs XLK bleed on AMZN+Intel miss; book composition (energy + financials, zero direct Mag7/semi beta) favorable; XLF intraday -0.51% is pullback within envelope (position still +1.08% unrl).
+9. **Semi/chip MORATORIUM REINFORCED** by Intel miss + AMZN AI capex scrutiny; AMD/AVGO/TSM/NVDA/SMH re-entry blocked; "AI power wall" theme continues.
+10. **Weekend risk** — US-Iran strike window post-midterms narrative + Mag7 vol event + XOM/CVX refining-boom narrative = weekend geopolitical gap risk; book defensive composition appropriate.
