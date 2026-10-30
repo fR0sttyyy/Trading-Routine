@@ -9423,3 +9423,180 @@ Order of preference at MARKET-OPEN routine runtime:
 8. **Weekly-review skill backlog:** Wk-16/17/18/19 (4 overdue) — run post-AMZN Thu PM / Fri PM post-XOM Q3 calmer windows.
 9. **Crude $101 regime watch** — WTI -1.03% today on US-Iran easing; thesis-break only if WTI breaks sub-$90 base (not threatened at $101+).
 10. **No gates relaxed, no overrides planned** — Wk-21 Day 4 midday: 3 slots open, FRESH budget intact (0/3 Mon-Thu AM), clean trailing-stop structure (5 GTC active; XLF both legs ratcheted today 13:48 ET).
+
+## 2026-10-30 — Pre-market Research (Wk-21 Day 5, Fri)
+
+### Account (balance_asof 10/29 Thu close; stale-stamp standard)
+- Equity: **$99,537.13** | Cash: **$62,252.44** (62.54%) | Buying power: $353,406.88 | Non-marg BP: $80,894.78
+- Portfolio value: $99,537.13 | Long mkt value: $37,284.69 (**37.46% deployed** — 3 positions / 3 open slots)
+- Last_equity (Wed close reference): $99,094.31 → **Thu intraday P&L: +$442.82 (+0.447%)** (reconciles exactly to unrl_intraday sum)
+- Phase P&L: **-$462.87 (-0.463%)** (vs $100,000 baseline) — recovers from Wed EOD -$1,169.41 by +$706.54 cumulative Thu
+- Daytrade count: n/a | PDT: safe (equity > $25k)
+- Thu intraday reconciliation: XLE 307×$0.93 = $285.51 + XLF 180×$0.3416 = $61.49 + XOM 30×$3.1939 = $95.82 = **+$442.82 — matches exactly**
+
+### Positions (3 open, 3 slots) — Thu close marks
+| Ticker | Shares | Entry | Thu Close | Unrl $ | Unrl % | HWM | Trail Stop | Cushion to -7% flag |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $69.64 | +$1,522.17 | **+7.666%** | $69.86 | $62.874 (10%) | $60.15 → **+15.78%** |
+| XLF | 180 | $56.045 | $57.2816 | +$222.59 | **+2.206%** | $57.23 | $51.507 (10%) both legs | $52.12 → **+9.90%** |
+| XOM | 30 | $165.84 | $186.4839 | +$619.32 | **+12.448%** | $184.88 | $166.392 (10%) | $154.23 → **+20.91%** |
+
+- **XOM $186.48 > HWM $184.88** (+0.87%) → **ratchet expected at open** (new hwm ~$186.48, new stop ~$167.832, +$1.44 vs prior $166.392)
+- **XLF $57.28 > HWM $57.23** (+0.09%) → micro ratchet possible at open (new hwm ~$57.28, new stop ~$51.552, +$0.045 both legs)
+- XLE $69.64 vs HWM $69.86 (-0.31%) → NO ratchet pending
+- All 3 positions GREEN pre-mkt; XOM cushion widens to +20.91% (largest cushion in book)
+
+### Market Context (Thu close + Fri AM futures)
+- **S&P 500: 7,720.39 (-0.30% Thu) | ES fut -1.06%** — tech-led drag (AMZN AMC miss + Intel miss)
+- **Nasdaq: 26,184.73 (-1.38% Thu) | NQ fut -2.55%** — major Mag7 vol event confirmed
+- **Dow: 52,342.56 (-0.25% Thu)**
+- **VIX: 18.68 (+8.6% Thu)** — vol spike on AMZN+Intel; still manageable
+- **WTI: $103.93 (+1.89% Fri AM) | Brent: $113.08 (+2.06% Fri AM)** — US-Iran strike risk re-elevated; $100+ regime REINFORCED
+- **Sectors Thu close:** XLV +2.4% / XLP +1.54% / XLF +1.44% / XLB +1.29% / XLI +0.97% / XLE +0.38% | XLK -1.18% (defensive rotation Day 1 clear + tech selloff)
+- Research.sh context cleanly stamped Thu close + Fri AM futures/crude; position marks reconcile exactly to equity delta → **DATA FRESH — NOT STALE**
+
+### Today's Catalysts (Fri 10/30)
+- **XOM Q3 BEAT — refining boom** (Reuters, CNBC confirmed pre-mkt): "ExxonMobil beats third-quarter profit estimates on refining boom" / "soaring refining margins driven by the US-Israeli war on Iran and Ukrainian conflict"
+- **CVX Q3 BLOWOUT** — net income +~200% YoY to $9.9B / $5.06 EPS (vs $3.5B / $1.82 PY); **refining division +300% to $4.9B** (vs $1.1B PY)
+- **AMZN Q3 MISS AH** — EPS $1.89 vs est $1.97; rev $201.9B vs est $202.2B; stock sliding AH; NQ fut -2.55%
+- **Intel miss (AH yday)** — spooks tech alongside AMZN per Saxo market quick-take
+- **US-Iran strike risk re-elevated** — US warning Persian Gulf countries for post-midterm military campaign; crude +1.89-2.06% Fri AM
+- **BP profit nearly quadrupled** (ties-in to global oil refining windfall theme)
+- **US fiscal deficit widens to $1.99T** — bond rally; Treasuries extending gains on tech selloff
+- Econ calendar: no CPI/PPI/FOMC/jobs today; US GDP (Q3 advance?) + Atlanta Fed GDPNow possibly later; **no scheduled Tier-1 macro event today**
+- **Weekend risk** — Fri PM positioning before weekend geopolitical headlines (Iran strike window post-midterms narrative)
+
+### Idea Screen (12 candidates, Decision Rule format)
+
+**Idea 1 — XLE ADD (energy regime $104 + XOM/CVX Q3 beats):**
+- Catalyst: ✓ Crude $104+ regime REINFORCED; XOM/CVX Q3 beats sector-confirming
+- Test 1-3: ✓ | Test 4: ✗ FAIL — ETF R:R structural <2:1 on 10% stop
+- Gate: ✗ XLE 21.48% equity ($21,379 / $99,537) **already over 20% cap**; ADD exceeds further
+- **DOES NOT QUALIFY → NO ENTRY** (Gate 20% cap + R:R structural)
+
+**Idea 2 — XOM ADD (post-Q3 beat):**
+- Catalyst: ✓ Q3 beat refining windfall confirmed pre-mkt
+- Test 1-3: ✓ | Test 4: ✗ FAIL — mega-cap R:R structural <2:1 on 10% stop
+- **Chase risk on post-earnings gap-up open** (known beat; expected intraday pop already priced)
+- Energy sector-conc: XLE+XOM = 27.10% mv ($26,974); ADD pushes toward 30%+ single-sector conc
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + chase risk + sector-conc)
+
+**Idea 3 — CVX FRESH (post-Q3 blowout +200% YoY net income $9.9B):**
+- Catalyst: ✓ Q3 blowout refining +300% YoY $4.9B; mega-cap E&P beat
+- Test 1: ✓ | Test 2: ✓ energy sector-momentum reinforced (XLE +0.38% Thu; crude $104+; sector peers XOM/BP all beat)
+- Test 3: ✓ 10% stop definable (CVX pre-mkt likely gaps up, use post-open settle)
+- Test 4: ✗ FAIL — mega-cap E&P R:R structural <2:1 on 10% stop (mega-caps move 3-7% near-term on earnings beat, not 20%)
+- **Chase risk on post-earnings gap-up open** (known beat; pre-mkt gap already priced)
+- Energy sector-conc already 27.10% mv; CVX FRESH pushes energy conc to ~35%+ (unacceptable single-sector tilt)
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + chase risk + sector-conc)
+
+**Idea 4 — HAL / DVN / EOG / COP FRESH (energy single-names, crude $104):**
+- Catalyst: △ Crude $104+ regime reinforced; US-Iran strike risk re-elevated
+- Test 2: ✓ | Test 4: ✗ FAIL — large/mega-cap E&P R:R structural <2:1 on 10% stop
+- Energy sector-conc already 27.10% mv; fresh energy single-name compounds conc
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + sector-conc)
+
+**Idea 5 — XLF ADD (banks post-FOMC +1.44% Thu):**
+- Catalyst: △ XLF +1.44% Thu close; +0.09% above HWM pre-mkt (ratchet pending)
+- Test 1-3: ✓ | Test 4: ✗ FAIL — ETF R:R structural <2:1 on 10% stop
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural on ETF)
+
+**Idea 6 — XLV FRESH (healthcare +2.4% Thu Day 1 breakout leader):**
+- Catalyst: △ XLV +2.4% Thu (Day 1 breakout); defensive-rotation Day 7+ now showing strength
+- Test 2: ✗ **sector-momentum unconfirmed** — 1-session leader; needs Day 2+ confirmation
+- Test 4: ✗ FAIL — ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector-momentum unconfirmed + R:R structural)
+
+**Idea 7 — XLP FRESH (staples +1.54% Thu Day 1 recovery):**
+- Catalyst: △ XLP +1.54% Thu Day 1 recovery after multi-session digest; defensive rotation
+- Test 2: ✗ sector-momentum unconfirmed (prior Day 6+ digest broke; 1-session Day 1 recovery insufficient)
+- Test 4: ✗ FAIL — ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector-momentum unconfirmed + R:R structural)
+
+**Idea 8 — XLB FRESH (materials +1.29% Thu Day 3 confirmation):**
+- Catalyst: △ XLB Tue +0.78% / Wed +0.15% / Thu +1.29% = 3-session leader (albeit Wed weak)
+- Test 2: △ (3-session confirmation but Wed weak at +0.15%); borderline sector-momentum confirmation
+- Test 4: ✗ FAIL — ETF R:R structural <2:1 on 10% stop
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural on ETF)
+
+**Idea 9 — XLI FRESH (industrials +0.97% Thu 1-session recovery after CAT -9%):**
+- Catalyst: △ XLI +0.97% Thu Day 1 recovery after CAT -9% Wed sector-break
+- Test 2: ✗ **sector-momentum still broken** — CAT "AI power wall" headline Wed = recent sector break; Day 1 recovery (+0.97%) insufficient reset
+- Test 4: ✗ FAIL — ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector-momentum broken + R:R structural)
+
+**Idea 10 — MSFT / ORCL FRESH (post-earnings mega-cap tech):**
+- Catalyst: ✓ MSFT +4% AH beat (Wed) / ORCL +11% AH on $225B rev target
+- Test 2: ✗ **tech sector-momentum BROKEN today** — XLK -1.18% Thu + NQ fut -2.55% Fri on AMZN+Intel misses; sector risk-off
+- Test 4: ✗ FAIL — mega-cap R:R structural <2:1 (3-5% near-term move expectation)
+- **Chase risk on +4% / +11% AH gaps**; AMZN+Intel broad-tech selloff risk Fri AM
+- **DOES NOT QUALIFY → NO ENTRY** (sector-momentum broken + R:R structural + chase risk)
+
+**Idea 11 — Semi/chip re-entry (NVDA / AMD / AVGO / TSM / SMH):**
+- Catalyst: ✗ **AMZN miss + Intel miss** reinforce "AI power wall" / AI-spend scrutiny theme; NQ fut -2.55%
+- Test 2: ✗ **MORATORIUM REINFORCED** — Intel miss = direct semi-sector failure; Amazon miss = AWS/AI capex scrutiny; moratorium NOT reset
+- Test 4: ✗ FAIL — mega-cap chip R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector moratorium not reset + R:R structural)
+
+**Idea 12 — IWM / small-caps (broad market defensive bid):**
+- Catalyst: △ Defensive sector rotation Day 1 (XLV/XLP/XLF/XLB/XLI all green Thu); small-cap exposure to defensive rotation
+- Test 2: ✗ (small-cap tech weight pressure on NQ -2.55% Fri; mixed cross-currents)
+- Test 4: ✗ FAIL — broad ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural + sector mix negative on Fri tape)
+
+### DECISION — 0 FRESH ENTRIES, HOLD 3 POSITIONS
+- **No new entries today.** Each of 12 screened ideas has a specific named failed test (not "patience" / "wait for next week" / "cash protection").
+- **Not a flat-session rule violation:** every candidate fails specific Buy-Side Gate / Entry test:
+  - R:R structural on ALL ETFs (XLE/XLF/XOM/XLP/XLV/XLK/XLI/XLB/IWM — low-beta sector funds, <2:1 on 10% stop)
+  - R:R structural on ALL mega-cap single-names (XOM/CVX/HAL/DVN/EOG/COP/MSFT/ORCL/NVDA/AMD/AVGO/TSM — 3-7% near-term move expectation vs 10% stop)
+  - Gate 20% cap on XLE ADD (21.48% already over cap)
+  - Sector-concentration risk on XOM ADD / CVX FRESH / energy single-names (XLE+XOM = 27.10% mv; any energy add compounds)
+  - Chase risk on XOM / CVX (post-Q3 beat gap-up open)
+  - Chase risk on MSFT (+4%) / ORCL (+11%) post-earnings gaps
+  - Sector-momentum BROKEN on XLK (NQ fut -2.55%, Intel+Amazon miss), XLI (CAT -9% Wed, 1-day recovery insufficient)
+  - Sector-momentum UNCONFIRMED on XLV / XLP (Day 1 defensive rotation), XLB (3-session but weak Wed)
+  - Semi/chip MORATORIUM REINFORCED (Intel direct semi failure; Amazon AWS/AI capex scrutiny; AI power wall theme ongoing)
+- **Energy regime structural tailwind REINFORCED** by crude $104+ / XOM Q3 beat / CVX Q3 blowout (+200% YoY $9.9B net income) — but ADD/FRESH blocked by Gate 20% + R:R + sector-conc + chase
+- **Defensive rotation Day 1 CONFIRMED** (XLV/XLP/XLF/XLB/XLI all green Thu while XLK -1.18%) — but all sector plays blocked by ETF R:R structural; Day 1-only on XLV/XLP; sector-momentum break on XLI
+- **Tech-sell risk-off Fri AM** — AMZN+Intel double-miss drives NQ fut -2.55%; semi/chip moratorium reinforced
+- **Deployment 37.46%** below 75-85% band; under-deployment NOT a buy signal per CLAUDE.md
+- **Resolve-now rule check:** No deferrable fact-blocker on any screened name. All failed tests are structural (R:R, Gate, moratorium, sector-conc, chase, sector-momentum broken/unconfirmed), NOT resolvable with research.sh / alpaca.sh quote
+- **Half-size event-day sizing INACTIVE** for broad book (no Tier-1 macro today); XOM/CVX earnings are single-name events already in-book (XOM) or disqualified (CVX)
+- **Weekend risk NOTE:** US-Iran strike window post-midterms narrative + Mag7 selloff positioning = weekend gap risk on all open positions; book defensive composition (energy + financials, zero direct Mag7/semi beta) is appropriate
+
+### Risk Factors (today)
+1. **AMZN -XX% AH + Intel miss + NQ fut -2.55%** — Nasdaq-led open red likely; broad-market vol-up
+2. **XOM Q3 beat REPORTED pre-mkt** — likely gap-up at open; in-position (30 sh) hold through confirmed boost; potential +15% tighten trigger at $190.72 (~$4.24 away)
+3. **US-Iran strike risk re-elevated** — crude $104+ regime REINFORCED; XLE/XOM structural tailwind; weekend geopolitical gap risk
+4. **AI-spend / FCF scrutiny theme** (Intel miss + Amazon miss + CAT "AI power wall") — broad-tech + AI-adjacent risk
+5. **Defensive rotation Day 1** (XLV/XLP/XLF/XLB/XLI green vs XLK red) — favors book composition; sector-leadership rotation watch for Day 2+ confirmation
+6. **XOM + XLF trail ratchets expected at open** — passive risk tightening into tape
+
+### MARKET-OPEN Routine Action List (Fri 10/30 09:30 ET)
+1. **XLF MANUAL-CUT PRIORITY-1 (tightest cushion despite widening)** — cushion +9.90% to $52.12 cut flag; XLF +2.21% unrl. **If XLF < $52.12 at routine runtime → cancel 8bd5213b + bbf96d5f, market sell 180 sh (strict -7% rule).**
+2. **XLE MANUAL-CUT vigilance** — cushion +15.78% to $60.15 flag; GTC trail $62.874 hwm $69.86 both legs. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +20.91% to $154.23 flag; GTC trail $166.392 hwm $184.88. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **XOM trail ratchet watch at open** — $186.48 Thu close > HWM $184.88 (+0.87%); server-side ratchet expected at open to new hwm ~$186.48 / new stop ~$167.832 (+$1.44 vs prior). Verify in orders refresh.
+5. **XLF trail micro-ratchet watch at open** — $57.2816 Thu close > HWM $57.23 (+0.09%); micro ratchet possible to new hwm ~$57.28 / new stop ~$51.552 (+$0.045) both legs. Verify in orders refresh.
+6. **XOM +15% TIGHTEN TRIGGER ACTIVE WATCH** — threshold ~$190.72 (XOM entry $165.84 × 1.15); current $186.48; **~$4.24 away (~2.27%)**. Q3 beat may push through at open. **If XOM breaks $190.72 intraday → tighten trail 10% → 7% (per CLAUDE.md rule 6).** If XOM breaks $199.01 (+20%) → tighten to 5%.
+7. **XLE +15% TIGHTEN TRIGGER WATCH** — threshold ~$74.38 (entry $64.68 × 1.15); current $69.64; **~$4.74 away (~6.80%)**. Crude $104+ supportive but further away than XOM.
+8. **NO FRESH ENTRIES QUEUED** — all 12 ideas have a named failed test (CLAUDE.md Decision Rule); 3 structural slots open but idea-book exhausted at pre-mkt. Not a flat-session violation.
+9. **NO half-size event-day sizing** on broad book (no Tier-1 macro today); XOM/CVX earnings are single-name events (XOM in-position, CVX disqualified at Idea 3).
+10. **AMZN miss + Intel miss = SEMI/CHIP MORATORIUM REINFORCED** — Intel direct semi failure + Amazon AWS/AI capex scrutiny; moratorium NOT reset.
+11. **Defensive rotation Day 1 confirmed Thu** — XLV/XLP/XLF/XLB/XLI all green; XLK -1.18%; book composition appropriate (zero Mag7/semi beta). Monitor Day 2+ confirmation for potential sector-rotation plays next week (but ETF R:R structural persists as blocker).
+12. **Weekly-review skill backlog:** Wk-16/17/18/19/20 (5 overdue, Wk-20 added as current week ends today) — run Fri PM post-close calmer window.
+13. **No gates relaxed, no overrides planned** — Wk-21 Day 5 opens with 3 slots open, FRESH budget intact (0/3 Mon-Thu), clean trailing-stop structure (5 GTC active; XOM + XLF ratchets pending at open).
+
+### Wk-21 Slot Budget (Day 5 Fri, final day of Wk-21)
+- FRESH used: 0/3 Mon-Thu; FRESH remaining: 3 structurally (but idea-book exhausted at pre-mkt — no qualifying setup today)
+- Position cap: 3/6; 3 structural slots open
+- Semi moratorium: continues unless (a) sector returns to momentum map leaders multi-session AND (b) no further semi/AI failures — Fri AM: Intel miss + Amazon miss = REINFORCES moratorium (NOT a reset)
+
+### Watchlist / Deferred (midday + afternoon re-screen + weekly review)
+- **XOM intraday action** — gap-up open likely on Q3 beat; +15% tighten trigger at $190.72 is primary action watch
+- **Crude $104+ regime watch** — US-Iran strike risk re-elevated; thesis-break only if WTI breaks sub-$90 base (nowhere near; $104+ regime REINFORCED)
+- **Defensive rotation Day 2+ confirmation** — monitor XLV/XLP/XLF/XLB/XLI breadth into next week for potential sector-rotation leader emergence (ETF R:R structural remains blocker)
+- **Semi/chip MORATORIUM** — Intel miss direct sector failure; Amazon miss indirect AI-capex scrutiny; moratorium continues; next reset condition: multi-session XLK leadership + semi earnings stabilization + no further AI-spend misses
+- **Weekly-review skill backlog:** Wk-16/17/18/19/20 (5 overdue) — Fri PM post-close ideal window
+- **Weekend risk** — Mag7 selloff positioning + US-Iran strike narrative + geopolitical gap risk; book defensive composition appropriate (XLE/XLF/XOM); no action needed
+- **Monday 11/02 opens Wk-22** — fresh 3-trade FRESH budget; current idea-book exhausted but defensive rotation leaders (XLV/XLP) may offer Day 2+ confirmation setups (still R:R structural on ETFs; need single-name defensive opportunity with 2:1 R:R)
