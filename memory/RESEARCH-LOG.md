@@ -9767,3 +9767,54 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Weekly-review skill backlog:** Wk-16/17/18 (3 overdue; Wk-20/21 done) — run post-midterms Wed PM calmer window
 - **Midterms Tue 11/3** — book defensive composition appropriate (energy + financials, zero direct Mag7/semi beta); market-open Tue routine will handle event-day sizing if any qualifying setup emerges Tue
 - **ISM Manufacturing PMI 10:00 ET** — Tier-2 macro; monitor for sector-rotation signal (if PMI firm → cyclicals bid; if soft → defensives bid)
+## 2026-11-02 — Midday Scan (Wk-22 Day 1, Monday — midterms-eve + crude -4% diplomacy unwind + XLF server-side HWM ratchet)
+
+**Context:** Mon pre-market research (above) committed to origin after this routine started pulling state; midday scan fires with pre-market idea screen (12 candidates all failed named test, 0 FRESH entries queued) now on record. Midday workflow still runs its own: positions pulled, orders mapped, strict rules applied against live Mon mid marks.
+
+**Account:** Equity $99,058.21 | Cash $62,252.44 (62.84%) | Long mv $36,805.77 (37.16% deployed) | Last_equity $99,537.88 (Fri close) → **Day P&L -$479.67 (-0.482%)** on crude -4% Iran diplomacy soften + XOM intraday -2.77% / XLE -2.26% / XLF +1.76%. Phase P&L **-$941.79 (-0.942%)** vs $100k baseline. balance_asof 2026-10-30 (Fri close weekend-stamped). Mid-vs-Fri reconciliation: XLE 307×(68.44-70.02)=-$485.06 + XLF 180×(57.505-56.51)=+$179.10 + XOM 30×(182.06-187.25)=-$155.70 = **-$461.66 book delta vs -$479.67 equity delta → -$18.01 residual mark drift** (clean, data FRESH). Mid-vs-pre-mkt delta: $99,058.21 - $99,233.29 = **-$175.08 intraday** on XLE -$0.71 ($69.15 → $68.44) + XLF +$0.775 ($56.73 → $57.505) + XOM -$2.62 ($184.68 → $182.06) = -$157.10 book, residual -$17.98 (consistent with Fri-close drift).
+
+**Positions (3 open / 3 slots) — Mon midday marks:**
+| Ticker | Shares | Entry | Mid | Chg | Unrl $ | Unrl % | HWM | Trail Stop | Cushion to -7% |
+| - | - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $68.44 | -2.26% | +$1,153.77 | **+5.81%** | $70.151 | $63.1359 (10%) both legs | $60.15 → **+13.78%** |
+| XLF | 180 | $56.045 | $57.505 | +1.76% | +$262.80 | **+2.60%** | **$57.5499 ↑** | **$51.79491 ↑** (10%) both legs | $52.12 → **+10.33%** |
+| XOM | 30 | $165.84 | $182.06 | -2.77% | +$486.60 | **+9.78%** | $188.50 | $169.65 (10%) | $154.23 → **+18.04%** |
+
+**Server-side ratchet observed Mon AM:**
+- **XLF both legs (8bd5213b + bbf96d5f)**: hwm $57.23 → **$57.5499** (stop $51.507 → **$51.79491**, +$0.28791 both legs) — Mon AM NEW HWM on defensive-rotation Day 3 bank bid (updated_at 11:07:51 UTC = 06:07 ET pre-mkt; recent intraday ratchet on $57.505 print)
+- XLE both legs: hwm $70.151 unchanged (Mon mid $68.44 well below HWM)
+- XOM 30 sh: hwm $188.50 unchanged (Mon mid $182.06 well below HWM)
+
+**STEP 3 — Cut-loser check:** All 3 positions unrealized_plpc > -0.07. **NO CUTS.**
+
+**STEP 4 — Tighten-winner check:** None at +15% unrl threshold.
+- XOM top at +9.78% (threshold ~$190.72, **~$8.66 pts away**; widened from Fri EOD $3.47 gap on crude -4% soften)
+- XLE +5.81% (threshold ~$74.38, ~$5.94 pts away)
+- XLF +2.60% (threshold ~$64.45, ~$6.95 pts away)
+- **NO TIGHTENS.**
+
+**STEP 5 — Thesis check:**
+- **XLE/XOM:** Crude -4% on Trump-Iran diplomacy signal + Doha mediator talks (WTI $99.74 breaks sub-$100 handle, still $9.74 above $90 thesis-break base). Energy sector-tailwind DEGRADING from $104+ regime to $99-100 regime but NOT broken. XOM intraday -2.77% / XLE -2.26% are regime-degradation moves not thesis breaks. **HOLD.**
+- **XLF:** Defensive-rotation Day 3 (XLV/XLP/XLF continuing-green vs XLK bleed per Fri Watchlist); XLF +1.76% intraday with server-side HWM ratchet confirms bank bid. Position +2.60% unrl, cushion widened. **HOLD, thesis strengthening.**
+
+**STEP 6 — Intraday research — SKIP.** XOM -2.77% / XLE -2.26% moves have obvious documented cause (crude -4% Iran diplomacy per weekend news flow); XLF +1.76% is defensive-rotation Day 3 continuation. No sharp move with mystery catalyst.
+
+**STEP 7 — ClickUp:** NO-OP (no action taken → no notification per routine spec).
+
+**Post-midday state:**
+- Equity: $99,058.21 | Market value: $36,805.77 | Deployment: ~37.16% mv
+- 3 positions / 3 slots open / Wk-22 FRESH 0/3 used (Mon Day 1)
+- 5 GTC trailing stops active across 3 symbols (XLF both legs NEW HWM Mon AM ratchet +$0.28791 both legs; XLE both legs unchanged; XOM unchanged)
+- Day P&L: -$479.67 (-0.482%) from Fri close $99,537.88
+
+**Next checkpoints (afternoon → Tue 11/3 midterms):**
+1. **XLF MANUAL-CUT PRIORITY-1 (tightest cushion still, despite widening)** — cushion +10.33% to $52.12 flag (widened from Mon pre-mkt +8.12% on intraday +1.76% bid); XLF +2.60% unrl. If XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+2. **XLE MANUAL-CUT vigilance** — cushion +13.78% to $60.15 flag (narrowed from pre-mkt +14.98% on intraday -2.26%); GTC trail $63.1359 hwm $70.151. If XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+3. **XOM MANUAL-CUT vigilance** — cushion +18.04% to $154.23 flag (narrowed from pre-mkt +19.72% on intraday -2.77%); GTC trail $169.65 hwm $188.50. If XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+4. **XOM / XLE tighten watch pushed further out** — XOM top unrl +9.78% / tighten trigger ~$190.72 (~$8.66 pts away, widened from Fri EOD $3.47 on crude soften). XLE +5.81% also below first-tighten (threshold ~$74.38, ~$5.94 pts away). No tighten pending unless crude regime recovers.
+5. **No fresh entries** — no pre-market idea screen committed today; midday scan is not an entry-screening workflow. EOD/pre-market Tue to re-screen. Under-deployment IS NOT a buy signal per CLAUDE.md.
+6. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING (Wk-20/21 done Fri 10/30); post-midterms Wed PM calmer window.
+7. **Crude $99-100 regime (DEGRADED from $104+)** — Iran diplomacy signal + Doha talks; thesis-break only if WTI < $90 base (still $9.74 above). XLE/XOM positions remain structurally OK.
+8. **Defensive-rotation Day 3 Mon** — XLF +1.76% intraday + server-side HWM ratchet = bank bid continuing; book composition (energy + financials, zero direct Mag7/semi beta) matches rotation.
+9. **MIDTERMS TUE 11/3** — Tier-1 macro tomorrow; any Tue qualifying setup triggers HALF-SIZE sizing input. Pre-mkt Tue routine will handle.
+10. **No gates relaxed, no overrides planned** — Wk-22 Day 1 midday: 3 slots open, FRESH budget intact (0/3), clean trailing-stop structure (5 GTC active; XLF both legs NEW HWM Mon AM; XLE + XOM below HWM).
