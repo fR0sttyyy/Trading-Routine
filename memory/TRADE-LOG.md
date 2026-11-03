@@ -5366,3 +5366,44 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 8. **Crude $104+ regime vigilance** — Mon energy intraday -3.4% profit-take is first warning; if Tue continues broader energy weakness, re-assess crude regime; thesis-break only if WTI breaks sub-$90 base (not threatened).
 9. **Defensive-rotation Day 4 Tue watch** — XLF +1.81% Mon continuation; monitor Tue for Day 4 confirmation vs Mag7 bounce reversal.
 10. **No gates relaxed, no overrides planned** — Wk-22 Day 1 close: 3 slots open, FRESH budget intact (0/3 after Mon), clean trailing-stop structure (5 GTC active; XLF both legs at NEW HWM Mon; XLE+XOM below HWM). Patience permitted ONLY if no qualifying setup appears Tue AM.
+
+### Nov 03 — EOD Snapshot (Day 2, Tuesday — Wk-22 Day 2 / crude $104+ regime digest Day 2 / energy-complex profit-take Day 2 / XLF defensive-rotation Day 4 mild pullback / NO TRADES)
+**Portfolio:** $98,428.45 | **Cash:** $62,252.44 (63.25%) | **Day P&L:** -$370.74 (-0.375%) | **Phase P&L:** -$1,571.55 (-1.572%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $66.865 | -0.57% | +$670.24 (+3.38%) | $63.1359 (trail 10%, hwm $70.151) |
+| XLF | 180 | $56.045 | $57.285 | -0.48% | +$223.20 (+2.21%) | $51.9255 (both legs, hwm $57.695) |
+| XOM | 30 | $165.84 | $177.89 | -0.99% | +$361.50 (+7.27%) | $169.65 (trail 10%, hwm $188.50) |
+
+**Notes:** Wk-22 Day 2 (Tuesday) — modest broad-book red session continues Mon's energy profit-take at smaller magnitude: XLE -0.57% / XLF -0.48% / XOM -0.99% intraday all closed below Mon marks but none breached stop or cut flag. Net book delta: XLE -$118.20 + XLF -$49.50 + XOM -$53.40 = **-$221.10** unrealized Δ; equity delta $98,799.19 → $98,428.45 = **-$370.74** (-0.375%) — larger than unrl Δ by ~$149 likely cash/margin interest line-item or dividend-free bookkeeping float; Alpaca `balance_asof: 2026-11-02` stale (not yet stamped Tue close; refresh overnight). Phase P&L deepens from -$1,200.81 → -$1,571.55 (now -1.572%); 2nd consecutive down day but shallow slope (-0.375% vs Mon -0.742%); drawdown remains below Wk-20 trough. Deployment 36.75% mv ($36,176.01 / $98,428.45 — 3 positions / 3 slots open) — remains well below 75-85% target band; no qualifying setup surfaced Tue per Decision Rule (Pre-mkt skill not run through this routine; prior semi/chip MORATORIUM remains armed; no new sector-momentum leader surfaced). Under-deployment is NOT a buy signal per CLAUDE.md. Cut-loser envelope Tue close: **XLF +2.21% unrl becomes tightest in book / cushion $57.285 vs $52.12 cut flag = +9.91%** (narrowed from Mon +10.38% on Tue -0.48% pullback — XLF now tightest in book both unrl AND cut-flag cushion); XLE cushion $66.865 vs $60.15 = +11.16% (narrowed from Mon +12.47% on Tue -0.57% pullback); XOM cushion $177.89 vs $154.23 = +15.34% (narrowed from Mon +17.20% on Tue -0.99% pullback). **All 3 remain inside envelope — no cuts warranted; all red on Tue close.** Tighten-trail: XOM top at +7.27% unrl (dropped from Mon +9.00%); still below +15% first-tighten threshold at ~$190.72 (gap widened to **~$12.83** from Mon $9.96 — XOM moved further from first-tighten). XLE +3.38% also below first-tighten (threshold ~$74.38, gap ~$7.52 — widened from Mon $6.73). XLF +2.21% unrl / first-tighten threshold ~$64.45 (gap ~$7.17). Server-side ratchets observed Tue 11/03: **NONE** — all 5 GTC stops unchanged (XLF both legs updated_at Nov 02 18:16 ET Mon hwm $57.695 — Tue close $57.285 BELOW HWM so no further ratchet; XLE both legs updated_at Oct 30 14:10 ET; XOM updated_at Oct 30 13:59 ET — all 3 closed below HWM). **Thesis-break check:** XLE -0.57% / XOM -0.99% / XLF -0.48% — Day 2 energy mild pullback consistent with crude $104+ regime digest; no WTI sub-$90 break, no XLE sector-support break, no single-name catalyst reversal; XLF Day 4 defensive-rotation mild pullback (-0.48%) remains within participation band. Crude $100+ regime HELD Day 2. Defensive-rotation Wk-22 Day 2 (Day 4 continuous since 10/27): XLF -0.48% Tue is first down-day in participation window. SEMI/CHIP MORATORIUM REMAINS ARMED+REINFORCED. **No cuts, no tightens, no fresh entries warranted.**
+
+**Trades today:** NONE — 0 FRESH, 0 strict-rule exits, 0 manual tightens, 0 cancels. All 5 GTC trailing stops remain active; no server-side ratchets Tue (all 3 positions closed below respective HWMs).
+
+**Wk-22 running count:** **0/3 FRESH slot-consuming used Mon-Tue.** 3 FRESH slots unused Tue close.
+
+**Post-close order state (5 GTC stops covering 3 positions — all unchanged Tue):**
+- XLE 233 sh: trail 10% $63.1359 hwm $70.151 (2cae6815) — unchanged (close below HWM)
+- XLE 74 sh: trail 10% $63.1359 hwm $70.151 (442df295) — unchanged (close below HWM)
+- XOM 30 sh: trail 10% $169.65 hwm $188.50 (5afbbb78) — unchanged (close below HWM)
+- XLF 90 sh (original): trail 10% $51.9255 hwm $57.695 (8bd5213b) — unchanged (close below HWM)
+- XLF 90 sh (ADD): trail 10% $51.9255 hwm $57.695 (bbf96d5f) — unchanged (close below HWM)
+
+**Sector-momentum posture (unchanged from Mon EOD):**
+- Direct semi/chip exposure ZERO; SEMI/CHIP MORATORIUM armed+validated+REINFORCED.
+- Direct broad-tech exposure ZERO; XLK re-entry gated.
+- Book: 1 energy ETF (XLE 20.86% mv) + 1 energy single-name (XOM 5.42%) + 1 financials ETF (XLF 10.48%) = 36.75% mv.
+- Energy sector concentration = 26.28% (XLE + XOM) — remains top-weighted; crude $104+ regime held Tue despite Day 2 mild pullback.
+- XLF sector-momentum DOWNGRADE informational SUPERSEDED-WATCH (position +2.21% unrl Tue close; Day 4 Wk-22 defensive-rotation participation; HWM $57.695 unchanged; cushion +9.91% — now tightest in book).
+
+**Wed 11/04 (Wk-22 Day 3) plan — Tue close digest + energy-complex Day 3 watch:**
+1. **Pre-mkt research** — run skill at 06:00 ET; Tue post-close news digest (crude $104+ regime overnight tape Day 3; XLE/XOM profit-take Day 3 vs reversal; XLF defensive-rotation Day 5 setup; midterm/geopolitical headlines; semi-chip MORATORIUM status).
+2. **XLF MANUAL-CUT PRIORITY-1 (tightest in book Tue)** — cushion +9.91% to $52.12 flag (narrowed from Mon +10.38% on Tue -0.48% pullback); XLF +2.21% unrl; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh.
+3. **XLE MANUAL-CUT vigilance** — cushion +11.16% to $60.15 flag (narrowed from Mon +12.47% on Tue -0.57% pullback); XLE +3.38% unrl; if XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh.
+4. **XOM MANUAL-CUT vigilance** — cushion +15.34% to $154.23 flag (narrowed from Mon +17.20% on Tue -0.99% pullback); XOM +7.27% unrl; if XOM < $154.23 → cancel 5afbbb78, market sell 30 sh.
+5. **XOM / XLE / XLF discretionary tighten WATCH** — XOM +7.27% unrl / tighten trigger ~$190.72 (~$12.83 away, widened from Mon $9.96); XLE +3.38% unrl / tighten trigger ~$74.38 (~$7.52 away, widened from Mon $6.73); XLF +2.21% unrl / tighten trigger ~$64.45 (~$7.17 away). No tighten pending Tue close; book moved further from first-tighten on Tue pullback.
+6. **3 structural slots open (3/6 positions) / 36.75% deployment / Wk-22 FRESH 0/3 after Mon-Tue** — fresh-entry scan Wed AM. Qualifying setup required per CLAUDE.md Decision Rule (sector momentum + entry trigger + R:R>=2:1 + open slot/budget). If a setup qualifies → DEFAULT IS TO TRADE.
+7. **Semi/chip MORATORIUM continues** — Intel miss + AMZN AI capex scrutiny REMAIN; AMD/AVGO/TSM/NVDA/SMH re-entry blocked.
+8. **Crude $104+ regime vigilance Day 3** — XLE/XOM Tue -0.5% to -1% is mild Day 2 digest; if Wed continues broader energy weakness Day 3, re-assess crude regime; thesis-break only if WTI breaks sub-$90 base (not threatened Day 2 close).
+9. **Defensive-rotation Day 5 Wed watch** — XLF -0.48% Tue is first down-day in Wk-21→Wk-22 rotation window; monitor Wed for Day 5 continuation vs reversal.
+10. **No gates relaxed, no overrides planned** — Wk-22 Day 2 close: 3 slots open, FRESH budget intact (0/3 after Mon-Tue), clean trailing-stop structure (5 GTC active unchanged Tue; all 3 positions closed below respective HWMs). Patience permitted ONLY if no qualifying setup appears Wed AM.
