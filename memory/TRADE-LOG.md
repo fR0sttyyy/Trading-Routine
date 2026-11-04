@@ -5407,3 +5407,53 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 8. **Crude $104+ regime vigilance Day 3** — XLE/XOM Tue -0.5% to -1% is mild Day 2 digest; if Wed continues broader energy weakness Day 3, re-assess crude regime; thesis-break only if WTI breaks sub-$90 base (not threatened Day 2 close).
 9. **Defensive-rotation Day 5 Wed watch** — XLF -0.48% Tue is first down-day in Wk-21→Wk-22 rotation window; monitor Wed for Day 5 continuation vs reversal.
 10. **No gates relaxed, no overrides planned** — Wk-22 Day 2 close: 3 slots open, FRESH budget intact (0/3 after Mon-Tue), clean trailing-stop structure (5 GTC active unchanged Tue; all 3 positions closed below respective HWMs). Patience permitted ONLY if no qualifying setup appears Wed AM.
+
+### Nov 04 — Midday Scan (Wk-22 Day 3, Wed 11:12 ET — post-midterms Dem-sweep Day 1 energy drag continuation + XLF defensive-rotation Day 5 new HWM / NO TRADES)
+
+**Clock:** market open (next_close 16:00 ET). **Equity:** $97,602.22 | **Cash:** $62,252.44 (63.78%) | **Day P&L:** -$738.98 (-0.751%) | **Phase P&L:** -$2,397.78 (-2.398%).
+
+| Ticker | Shares | Entry | Mid Mark | Day Chg | Unrl $ | Unrl % | Stop | Cushion to -7% cut flag |
+| - | - | - | - | - | - | - | - | - |
+| XLE | 307 | $64.6818 | $63.95 | -4.09% | -$224.66 | **-1.131%** | $63.1359 (trail 10%, hwm $70.151) | $60.15 → **+6.31%** |
+| XLF | 180 | $56.045 | $58.765 | +2.75% | +$489.60 | **+4.853%** | $52.893 (both legs, hwm $58.77) **NEW HWM** | $52.12 → **+12.75%** |
+| XOM | 30 | $165.84 | $171.535 | -3.34% | +$170.85 | **+3.434%** | $169.65 (trail 10%, hwm $188.50) | $154.23 → **+11.22%** |
+
+**Book-delta reconciliation:** XLE 307 × ($63.95 - $66.68) = -$838.11 + XLF 180 × ($58.765 - $57.19) = +$283.50 + XOM 30 × ($171.535 - $177.46) = -$177.75 = **-$732.36** unrealized Δ; equity delta -$738.98 — matches within $6.62 mark-drift/interest residual. **DATA FRESH, NOT STALE.**
+
+**Strict-rule exits:** NONE. XLE -1.131% / XLF +4.853% / XOM +3.434% — none at -7%. All 3 remain inside envelope.
+- XLE cushion to $60.15 cut flag = +6.31% — **NOW TIGHTEST IN BOOK** (narrowed from pre-mkt +10.78% on Wed -4.09% intraday; XLE further ~$3.80 below cut flag).
+- XLF cushion widened to +12.75% (from pre-mkt +11.33%) on +2.75% bank-bid continuation Day 5 defensive rotation.
+- XOM cushion narrowed to +11.22% (from pre-mkt +14.68%) on -3.34% energy drag.
+
+**Server-side ratchets observed Wed AM:**
+- **XLF both legs** hwm $57.695 → **$58.77** / stop $51.9255 → **$52.893** (+$0.9675 both legs) — Wed AM NEW HWM intraday from +2.75% defensive-rotation Day 5 participation (updated_at Nov 04 16:11 ET both legs 8bd5213b + bbf96d5f).
+- XLE both legs + XOM unchanged (all below HWM — XLE $63.95 vs $70.151 / XOM $171.535 vs $188.50).
+
+**Tighten-trail eligibility:** NONE.
+- XOM +3.434% unrl (dropped from pre-mkt +6.603%); first-tighten threshold +15% ~$190.72, gap now **~$19.19** (widened sharply from pre-mkt $11.71).
+- XLE -1.131% unrl (below zero); first-tighten threshold ~$74.38, gap ~$10.43.
+- XLF +4.853% unrl (up from pre-mkt +3.542%); first-tighten threshold ~$64.45, gap ~$5.69 — closest to first-tighten this week but still far.
+
+**Thesis check:** XLE/XOM Day 3 energy drag CONTINUES per pre-mkt research — crude $94 regime degradation 4-session -9% from Fri $103.93 + post-midterms Dem-sweep Day 1 energy-policy-scrutiny overhang (mild additional headwind). **NOT thesis-break:** WTI $94.68 Tue close still $4.68 above $90 base; XLE not at sector-support break ($63.95 above $60.15 cut flag); no catalyst reversal single-name. Energy drag is extension of crude regime digest, not regime break. XLF defensive-rotation Day 5 CONFIRMED (+2.75% Wed; new HWM $58.77; Day 4-5 participation continues despite Tue -0.48% single-day pullback). SEMI/CHIP MORATORIUM holds.
+
+**Intraday research skipped** — no sharp single-name move without cause; energy drag is pre-mkt-researched regime digest; XLF bank bid is defensive-rotation continuation. No research.sh call warranted.
+
+**Trades today:** NONE this midday — 0 FRESH, 0 strict-rule exits, 0 manual tightens, 0 cancels. All 5 GTC trailing stops remain active; XLF both legs Wed AM NEW HWM server-side ratchet (+$0.9675 stop both legs); XLE both legs + XOM unchanged. No ClickUp notification per routine spec (no action taken).
+
+**Wk-22 running count:** **0/3 FRESH slot-consuming used Mon-Wed midday.** 3 FRESH slots unused.
+
+**Post-midday order state (5 GTC stops covering 3 positions):**
+- XLE 233 sh: trail 10% $63.1359 hwm $70.151 (2cae6815) — unchanged (mid below HWM)
+- XLE 74 sh: trail 10% $63.1359 hwm $70.151 (442df295) — unchanged (mid below HWM)
+- XOM 30 sh: trail 10% $169.65 hwm $188.50 (5afbbb78) — unchanged (mid below HWM)
+- XLF 90 sh (original): trail 10% $52.893 hwm $58.77 (8bd5213b) — **Wed AM NEW HWM ratchet (+$0.9675 stop)**
+- XLF 90 sh (ADD): trail 10% $52.893 hwm $58.77 (bbf96d5f) — **Wed AM NEW HWM ratchet (+$0.9675 stop)**
+
+**Next checkpoints (Wed PM → close):**
+1. **XLE MANUAL-CUT PRIORITY-1 (TIGHTEST IN BOOK Wed midday)** — cushion narrowed to +6.31% on Day 3 crude $94 regime drag; if XLE < $60.15 → cancel 2cae6815 + 442df295, market sell 307 sh. XLE would need ~-5.9% additional intraday to trigger — unlikely but monitor. Trail stop $63.1359 is +0.81% below current — trail likely fires first if XLE breaks support.
+2. **XOM MANUAL-CUT vigilance** — cushion +11.22%; if XOM < $154.23 → cancel 5afbbb78, market sell 30 sh. Trail at $169.65 is -1.10% below current $171.535 — tight trail cushion (within 3% min distance rule but existing stop so permitted).
+3. **XLF cushion widest** — +12.75% on Wed +2.75% bank bid; Day 5 defensive rotation confirmed; new HWM $58.77 locks in +$0.9675 trail ratchet.
+4. **No fresh entries** — all 12 pre-mkt screened candidates retain named failed tests (R:R structural on all ETFs + mega-caps / Gate 20% XLE ADD / sector-conc XOM ADD + energy singles / crude regime degrading / sector-momentum broken XLP+XLB / unconfirmed XLI+XLK / defensive rotation reversed XLV / semi-chip MORATORIUM AAPL+AMD+PLTR pre-earnings Thu). Under-deployment is NOT a buy signal.
+5. **Crude $94 regime watch** — if WTI breaks sub-$90 base intraday, thesis-break on XLE/XOM activates. Currently $94.68 Tue → ~$94 Wed implied (research.sh not re-run; watch EOD).
+
+
