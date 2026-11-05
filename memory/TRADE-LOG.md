@@ -5494,3 +5494,40 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 10. **Baseline watch** — Nov 04 EOD snapshot taken 14:52 ET ~68 min pre-close with market still open; Thu AM Day P&L baseline uses $97,328.18 equity (intraday near-close). If close gaps materially from this snapshot (either direction by >$150), Thu EOD routine should re-reconcile against Alpaca overnight-stamped Nov 04 close instead of this snapshot.
 
 
+
+### Nov 05 — Midday Scan (Wk-22 Day 4, Thu 11:12 ET — XLF sole position intraday consolidation after Wed Dem-sweep rally / new HWM $60.04 server-side ratchet at open / NO TRADES)
+
+**Clock:** market open (next_close 16:00 ET). **Equity:** $97,172.61 | **Cash:** $86,720.01 (89.24%) | **Day P&L:** -$203.40 (-0.209%) vs last_equity $97,376.01 | **Phase P&L:** -$2,827.39 (-2.827%).
+
+| Ticker | Shares | Entry | Mid Mark | Day Chg | Unrl $ | Unrl % | Stop | Cushion to -7% cut flag |
+| - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $58.06 | -1.93% | +$362.70 | **+3.595%** | $54.036 (both legs, hwm $60.04) **NEW HWM** | $52.12 → **+11.40%** |
+
+**Book-delta reconciliation:** XLF 180 × ($58.06 - $59.20 lastday_price) = -$205.20 unrealized Δ vs Wed close; equity delta -$203.40 — matches within $1.80 mark-drift residual. **DATA FRESH, NOT STALE** (balance_asof 2026-11-04 Wed close but intraday equity live).
+
+**Strict-rule exits:** NONE. XLF +3.595% unrl — well inside envelope. Cushion to $52.12 cut flag +11.40%.
+
+**Server-side ratchets observed Thu AM:**
+- **XLF both legs** hwm $59.20 → **$60.04** / stop $53.28 → **$54.036** (+$0.756 both legs) — Thu AM NEW HWM intraday on $60.04+ print early session Dem-sweep Day 2 continuation bank bid (updated_at Nov 05 14:30:12 UTC = 09:30 ET open; both legs 8bd5213b + bbf96d5f).
+
+**Tighten-trail eligibility:** NONE.
+- XLF +3.595% unrl; first-tighten +15% threshold ~$64.45, gap **~$6.39** (widened from pre-mkt +6.97% on intraday -1.93% consolidation from Wed close rally extremes); second-tighten +20% threshold ~$67.25, gap ~$9.19.
+
+**Thesis check:** XLF Dem-sweep Day 2 consolidation after Wed Day 1 blowout (+3.51% Wed intraday → Thu intraday -1.93% retrace); NEW HWM $60.04 printed early AM then faded. Bank bid thesis intact but **WEAKENED** per pre-mkt research (Bloomberg Thu "Wall Street's Reckoning Looms as Democrats Take Over Congress" reg-scrutiny HEADWIND offsets rate-cut bull). **NOT thesis-break:** no specific CFPB / Senate Banking / capital-requirement punitive headline midday; XLF still +3.60% unrl; new HWM Thu AM confirms Day 5 bank bid participation. Thesis-tightened watch continues. Energy sector EXIT RULE remains armed (XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG blocked). Semi/chip MORATORIUM continues (AAPL/AMD/PLTR AMC Thu).
+
+**Intraday research skipped** — XLF -1.93% intraday is Wed rally consolidation, not sharp single-name move without cause. No research.sh call warranted.
+
+**Trades today:** NONE this midday — 0 FRESH, 0 strict-rule exits, 0 manual tightens, 0 cancels. Both XLF GTC trailing stops active; Thu AM NEW HWM server-side ratchet (+$0.756 stop both legs). No ClickUp notification per routine spec (no action taken).
+
+**Wk-22 running count:** **0/3 FRESH slot-consuming used Mon-Thu midday.** 3 FRESH slots unused.
+
+**Post-midday order state (2 GTC stops covering 1 position):**
+- XLF 90 sh (original): trail 10% $54.036 hwm $60.04 (8bd5213b) — **Thu AM NEW HWM ratchet (+$0.756 stop)**
+- XLF 90 sh (ADD): trail 10% $54.036 hwm $60.04 (bbf96d5f) — **Thu AM NEW HWM ratchet (+$0.756 stop)**
+
+**Next checkpoints (Thu PM → close):**
+1. **XLF MANUAL-CUT vigilance (sole position)** — cushion +11.40%; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh. XLF would need -10.2% additional to trigger — well cushioned. Trail stop $54.036 is -6.93% below current $58.06 — trail fires first if breakdown.
+2. **XLF discretionary tighten watch** — +3.595% unrl; first-tighten threshold +15% ~$64.45 (gap ~$6.39, +11.00% move needed); NOT at tighten threshold.
+3. **No fresh entries** — all 12 pre-mkt screened candidates retain named failed tests (R:R structural on ETFs + mega-caps / catalyst MIXED on financial single-names / Day 1 unconfirmed on defensive-rotation + USD-weakness / sector broken on tech+defense / semi-chip MORATORIUM + Thu AMC earnings binary / energy sector EXIT RULE activated). Under-deployment at 10.76% mv is NOT a buy signal per CLAUDE.md.
+4. **Dem-sweep reg-scrutiny headline watch** — monitor for specific CFPB / DOJ / Senate Banking / capital-requirement headlines that could tip XLF thesis-tightened to cut consideration.
+5. **AAPL/AMD/PLTR AMC Thu earnings** — book zero direct beta; Fri AM pre-mkt digest will update moratorium posture.
