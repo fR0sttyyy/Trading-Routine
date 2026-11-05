@@ -9994,3 +9994,188 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Dem-sweep aftermath** — Wed AM post-midterms bounce (ES +0.99% / VIX -12.29%); monitor for durability; AI/Big-Tech reg-scrutiny overhang may surface via specific DOJ/FTC headlines over coming sessions
 - **Crude $90 thesis-break watch** — primary book risk; WTI $94.68 narrowing to base; sub-$90 sustained → XLE/XOM thesis invalidation → likely cut-vigilance escalation
 - **AMD / AAPL / PLTR earnings Thu AMC** — book zero direct exposure; Fri open tone-setter
+
+## 2026-11-05 — Pre-market Research (Wk-22 Day 4, Thu — post-Dem-sweep Day 2 + XLE/XOM stopped Wed on crude sub-$90 thesis-break)
+
+### Account (balance_asof 2026-11-04 Wed close)
+- Equity: **$97,511.01** | Cash: **$86,720.01** (88.93%) | Buying power: $377,094.84 | Non-marg BP: $92,115.51
+- Portfolio value: $97,511.01 | Long mkt value: **$10,791.00 (11.07% deployed — 1 position / 5 open slots)**
+- Last_equity (Wed close): $97,376.01 → **Thu pre-mkt P&L +$135.00 (+0.139%)** on XLF intraday ratchet continuation
+- Phase P&L: **-$2,488.99 (-2.489%)** vs $100k baseline — Wed close deepened from Wed pre-mkt ($98,453.88) by -$942.87 on XLE/XOM realized losses offsetting XLF unrl gain
+- Daytrade count: safe (equity > $25k)
+- **MAJOR BOOK CHANGE Wed 11/04 — XLE + XOM BOTH STOPPED on crude sub-$90 thesis-break:**
+  - XOM 30sh trail-stop filled @ $169.59 (11:37 ET; filled_avg vs trigger $169.65; +$112.50 realized / +2.26% — winner on trail)
+  - XLE 233sh trail-stop filled @ $63.129142 (11:40 ET; -$279.57 / -1.87% — loser)
+  - XLE 74sh trail-stop filled @ $63.125676 (11:40 ET; -$196.98 / -4.05% — loser)
+  - Energy realized Wed: -$364.05 net ($112.50 XOM winner - $476.55 XLE loss)
+  - Cash gain Wed: +$24,468.09 (matches equity delta ex-mark-drift)
+- **ENERGY SECTOR EXIT RULE ACTIVATED** — 2 consecutive XLE failed trades Wed (233sh + 74sh legs both stopped at loss); XOM was separate sector sibling (winner). XLE sub-sector blocked pending sector-momentum reset (future WTI $95+ recovery + XLE multi-session breakout).
+
+### Positions (1 open, 5 slots) — Thu pre-mkt marks
+| Ticker | Shares | Entry | Wed Close | Chg | Unrl $ | Unrl % | HWM | Trail Stop | Cushion to -7% |
+| - | - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $59.95 | +1.27% intra | +$702.90 | **+6.97%** | **$59.20 ↑** | **$53.28 ↑** (10%) both legs | $52.12 → **+13.00%** |
+
+- **XLF NEW HWM Wed** (server-side ratchet): $57.695 → **$59.20** (both legs stop $51.9255 → **$53.28**, +$1.35 both legs; updated_at Wed 20:58 UTC = Wed close ratchet)
+- **Thu pre-mkt live quote** $59.27 ap / $59.23 bp (tight spread post-close; data FRESH)
+- 2 GTC trailing stops active (bbf96d5f + 8bd5213b — 90sh each, hwm $59.20, stop $53.28)
+- Position mv $10,791.00 = 11.07% equity; XLF single-position deployment well under 20% cap; **way under 75-85% deployment band — but under-deployment IS NOT a buy signal per CLAUDE.md**
+
+### Market Context (Wed 11/04 close + Thu pre-mkt)
+- **S&P 500: 7,688.62 (+1.58% Wed) | ES fut $7,724.75 (+0.06% Thu pre-mkt)** — Dem-sweep Day 1 risk-on massive rally; Thu pre-mkt cautious consolidation open
+- **Nasdaq: 25,736.51 (+1.44% Wed) | NQ fut -0.75% Thu pre-mkt** — tech lagging + AI reg-scrutiny overhang
+- **Dow: 53,356.12 (+3.03% Wed)** — defensives + financials + materials rotation blowout
+- **VIX: 16.91 (+1.81% Thu pre-mkt but LOW level)** — vol crush continuing from Tue post-midterms -12.29%; event-risk discharged
+- **WTI: $89.52 (-4.74%) | Brent: $96.80 (-2.3%)** — **CRUDE BROKE SUB-$90 THESIS-BREAK BASE** (4-session unwind: Fri $103.93 → Mon $99.74 → Wed pre-mkt $94.68 → Wed close $89.52; cumulative -13.9%); **energy sector thesis INVALIDATED**; XLE/XOM exited on Wed trail stops
+- **Sectors Wed close (Dem-sweep rotation blowout):**
+  - XLF +3.51% (Day 4 bank bid + rate-cut repricing on Dem sweep)
+  - XLP +3.36% (Day 1 defensive revival — flip from Tue -2.07%)
+  - XLV +3.06% (Day 1 defensive revival — flip from Tue -0.31%)
+  - XLB +2.49% (Day 1 USD-weakness bid — flip from Tue -2.01%)
+  - XLK -0.01% flat (AI reg-scrutiny overhang)
+  - XLI -1.09% (defense-spending pressure on Dem sweep)
+  - XLE -4.74% (crude sub-$90 sector thesis-break)
+- Research.sh context cleanly stamped Wed close + Thu pre-mkt futures; position marks reconcile to equity delta → **DATA FRESH — NOT STALE**
+
+### Today's Catalysts (Thu 11/05 — Post-Dem-sweep Day 2)
+- **DEM-SWEEP RALLY DAY 2 continuation watch** — Dow +3% / SPX +1.58% / Nasdaq +1.44% Wed; ES fut +0.06% Thu pre-mkt = cautious consolidation open; VIX 16.91 benign
+- **CRUDE SUB-$90 THESIS-BREAK CONFIRMED** — WTI $89.52 broke $90 base Wed; XLE/XOM stopped Wed; **ENERGY SECTOR BLOCKED FOR RE-ENTRY** (sector-exit rule activated per 2 consecutive XLE failed trades)
+- **DEM-SWEEP REG-SCRUTINY HEADWIND ON WALL STREET** (Bloomberg Thu) — "Wall Street's Reckoning Looms as Democrats Take Over Congress"; end-of-Trump-deregulation thesis; **MODIFIES FINANCIAL SECTOR THESIS from pure bullish (rate cuts + M&A) to MIXED (rate cuts + M&A OFFSET by reg-scrutiny / stronger-CFPB / higher capital requirements)** — XLF position UNCHANGED but thesis WEAKENED
+- **DEFENSE-SPENDING PRESSURE** on Dem sweep (CNBC Thu) — XLI -1.09% Wed; defense/aerospace single-names headwind (LMT/NOC/RTX/GD/HII blocked)
+- **AI REG-SCRUTINY** continues — GOOGL "AI push weighs on Search Revenue" (Bloomberg Thu); XLK flat Wed on tech reg-overhang
+- **Earnings pre-open Thu** — No significant US large-caps. Foreign: Maersk raised FY guidance; Sony Q2 +4.5% profit (Spider-Man); Nintendo slide.
+- **Earnings AMC Thu** — AAPL (Mag7 final) + AMD (semi moratorium NEXT TEST) + PLTR (AI/defense)
+- **Econ calendar** — BoE rate decision; no US Tier-1 macro today
+- **Hot or Not WallStreetZen Thu**: PBR / BTSG raised guidance / NAVI Q3 beat (sales +87.6% YoY)
+
+### Idea Screen (12 candidates, Decision Rule format)
+
+**Idea 1 — XLF ADD (new HWM Day 4 + bank bid + Dem-sweep rate-cut rotation):**
+- Catalyst: ✓ XLF +3.51% Wed new HWM $59.20; bank bid Day 4 multi-session
+- Test 1-3: ✓ (specific catalyst, sector-momentum confirmed, 10% stop $53.96 definable from $59.95 entry)
+- Test 4: ✗ FAIL — ETF R:R structural: ADD $59.95 / stop $53.96 (-10%) / 20% target $71.93 (XLF 2m trading range $56-60; 20% move not reachable near-term)
+- **Additional headwind:** Dem-sweep reg-scrutiny (Bloomberg) flips bank sector thesis to mixed; ADD inappropriate on weakening thesis
+- Gate: XLF 11.07% equity; ADD room to 20% cap (~145 sh at $59.95); cash ample; Wk-22 FRESH 3/3; 5 slots open
+- **DOES NOT QUALIFY → NO ADD** (R:R structural + thesis weakening on reg-scrutiny)
+
+**Idea 2 — Financial single-names FRESH (JPM $333.27 / GS $883.21 / SCHW $87.53 / BAC / WFC):**
+- Catalyst: △ XLF bank bid Day 4 + rate-cut repricing on Dem sweep
+- Test 1: ✗ catalyst MIXED — Dem-sweep "Wall Street reckoning" reg-scrutiny HEADWIND (Bloomberg Thu) directly offsets rate-cut bull case for banks
+- Test 2: ✓ sector-momentum (XLF Day 4)
+- Test 4: ✗ mega-cap bank R:R structural on 10% stop (JPM 20% target $400 / GS 20% target $1060 — multi-month)
+- **DOES NOT QUALIFY → NO ENTRY** (catalyst MIXED on reg-scrutiny + R:R structural on mega-cap bank beta)
+
+**Idea 3 — Regional banks (KRE $72.08 ETF / ZION / CFG / regional single-names):**
+- Catalyst: △ Dem-sweep rate-cut favors regional NIM
+- Test 1: ✗ catalyst MIXED — reg-scrutiny HEADWIND applies to regionals too (end-Trump-deregulation = stronger-CFPB + capital requirements)
+- Test 4: ✗ ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (catalyst mixed + R:R structural)
+
+**Idea 4 — XLV FRESH (healthcare Day 1 defensive revival):**
+- Catalyst: ✓ XLV +3.06% Wed Dem-sweep defensive rotation + rate-cut sensitivity
+- Test 2: ✗ sector-momentum Day 1 UNCONFIRMED (flip from Tue -0.31%; needs Day 2+ multi-session); Dem-sweep healthcare REG-REFORM crosswind (drug pricing pressure possible)
+- Test 4: ✗ ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (Day 1 unconfirmed + R:R structural + reg-reform crosswind)
+
+**Idea 5 — XLP FRESH (staples Day 1 defensive revival):**
+- Catalyst: ✓ XLP +3.36% Wed Dem-sweep defensive rotation
+- Test 2: ✗ sector-momentum Day 1 UNCONFIRMED (flip from Tue -2.07% broken; now Day 1 Wed revival; needs multi-session confirm)
+- Test 4: ✗ ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (Day 1 unconfirmed + R:R structural)
+
+**Idea 6 — XLB FRESH (materials Day 1 revival + USD-weakness):**
+- Catalyst: ✓ XLB +2.49% Wed Dem-sweep rotation + USD -0.4% weakness tailwind
+- Test 2: ✗ sector-momentum Day 1 UNCONFIRMED (flip from Tue -2.01%; Day 1 Wed revival)
+- Test 4: ✗ ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (Day 1 unconfirmed + R:R structural)
+
+**Idea 7 — Precious metals FRESH (GLD / GDX / NEM / GOLD — USD-weakness beneficiary):**
+- Catalyst: △ USD -0.4% Dem-sweep + bond rally favors metals
+- Test 2: ✗ sector-momentum UNCONFIRMED (no multi-session metals leadership shown in Wed context pull)
+- Test 4: possible on single miners (NEM / GOLD / FNV / AEM) with volatility but R:R needs name-specific confirmation
+- **DOES NOT QUALIFY → NO ENTRY** (sector-momentum unconfirmed)
+
+**Idea 8 — XLK / mega-cap tech FRESH (MSFT / META / GOOGL non-earnings):**
+- Catalyst: ✗ XLK flat -0.01% Wed; AI reg-scrutiny headwind (GOOGL Bloomberg Thu "AI push weighs on Search Revenue")
+- Test 2: ✗ sector-momentum BROKEN + reg-scrutiny overhang + AAPL AMC tonight binary
+- Test 4: ✗ mega-cap R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector broken + reg-overhang + R:R)
+
+**Idea 9 — AAPL / AMD / PLTR (pre-earnings AMC Thu):**
+- Catalyst: ✗ Thu AMC earnings binary vol event
+- Test 2: ✗ semi/chip MORATORIUM live (AMD = NEXT TEST not reset); Mag7 final leg test
+- Test 4: ✗ pre-earnings R:R structural chase
+- **DOES NOT QUALIFY → NO ENTRY** (pre-earnings chase + moratorium)
+
+**Idea 10 — XLE / crude re-entry FRESH (contrarian capitulation bounce):**
+- Catalyst: ✗ WTI $89.52 just broke $90 thesis-base Wed; XLE/XOM just stopped Wed on crude unwind
+- Test 2: ✗ sector-momentum BROKEN; crude thesis INVALIDATED (-13.9% 4-session cumulative)
+- **SECTOR EXIT RULE ACTIVATED** — 2 consecutive failed XLE trades Wed (233sh + 74sh both stopped below entry)
+- **DOES NOT QUALIFY → NO ENTRY** (sector exit rule + thesis-break + sector-momentum broken)
+
+**Idea 11 — Defense / aerospace FRESH (LMT / NOC / RTX / GD / HII):**
+- Catalyst: ✗ Dem-sweep DEFENSE SPENDING PRESSURE (CNBC Thu); XLI -1.09% Wed
+- Test 2: ✗ sector-momentum BROKEN by Dem-sweep structural spending-cut headwind
+- Test 4: ✗ R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector broken + structural reg-overhang)
+
+**Idea 12 — Small-caps / IWM FRESH (Dem-sweep domestic rate-cut bid):**
+- Catalyst: △ Dem-sweep favors small-caps on rate-cut + domestic bid + reg-relief smaller firms
+- Test 2: ✗ Day 1 rotation unconfirmed (no multi-session IWM leadership shown)
+- Test 4: ✗ broad ETF R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (Day 1 unconfirmed + R:R structural)
+
+### DECISION — 0 FRESH ENTRIES, HOLD XLF
+- **No new entries today.** Each of 12 screened ideas has a specific named failed test (NOT "patience" / "cash protection" / "wait for confirmation" / "not high-conviction enough" as unqualified reasons).
+- **Not a flat-session rule violation:** every candidate fails specific Buy-Side Gate / Entry test:
+  - R:R structural on ETFs (XLF add, XLV, XLP, XLB, KRE, IWM, GLD/GDX)
+  - R:R structural + catalyst-MIXED on financial single-names (JPM/GS/SCHW/BAC/WFC) — Dem-sweep reg-scrutiny HEADWIND (Bloomberg "Wall Street reckoning") offsets rate-cut bull
+  - Sector-momentum Day 1 UNCONFIRMED on defensive rotation (XLV/XLP/XLB) and USD-weakness rotation (metals/materials) — needs Day 2+ multi-session confirmation
+  - Sector-momentum BROKEN on tech (XLK flat + AI reg-scrutiny) and industrials/defense (XLI -1.09% + defense-spending-pressure structural)
+  - Semi/chip MORATORIUM live + AMD/AAPL/PLTR Thu AMC pre-earnings binary chase
+  - Energy SECTOR EXIT RULE activated (2 consecutive XLE failed trades Wed — crude sub-$90 thesis-break)
+  - Precious metals / small-caps: Day 1 unconfirmed + R:R structural
+- **Thesis update on XLF (position retained):** Dem-sweep reg-scrutiny HEADWIND materializes — Bloomberg "Wall Street reckoning" Thu narrative emerges. **XLF HELD** (unrl +6.97%, cushion +13.00% to -7% flag, new HWM Wed ratchet, Day 4 sector-momentum intact) but **thesis WEAKENED** (rate-cut bull case offset by stronger-CFPB / higher-capital-requirements / end-of-Trump-deregulation headwind). **Not a cut trigger**, but thesis-tightened watch — monitor for specific CFPB / DOJ / Senate Banking Committee headlines that could tip into cut consideration.
+- **Resolve-now check:** All failed tests structural (R:R, Day-1 unconfirmed, broken-sector, moratorium, pre-earnings, sector-exit-rule, reg-overhang) — NOT resolvable with research.sh news / alpaca.sh quote within this session.
+- **HALF-SIZE event-day sizing INACTIVE** — no Tier-1 US macro today; AAPL/AMD/PLTR Thu AMC are single-name events (zero direct beta in current book).
+
+### Risk Factors (today)
+1. **Dem-sweep REG-SCRUTINY on financials (NEW primary book risk)** — Bloomberg Thu "Wall Street's Reckoning Looms as Democrats Take Over Congress"; end-of-Trump-deregulation thesis; XLF position bank bid holding Day 4 but THESIS WEAKENED (mixed from pure bullish). Monitor for specific CFPB / Senate Banking / capital-requirement headlines.
+2. **Crude sub-$90 thesis-break confirmed** — WTI $89.52 broke $90 base Wed (-13.9% 4-session cumulative); energy sector DEAD; book already exited Wed (XLE/XOM); no residual exposure
+3. **AI/tech reg-scrutiny** — GOOGL (Bloomberg Thu) / MSFT / AAPL / AMZN overhang + Dem-sweep AI congressional oversight threat; book zero direct exposure (favorable)
+4. **AAPL / AMD / PLTR AMC Thu earnings** — binary single-name events; book zero direct beta (favorable)
+5. **Defense-spending pressure on Dem sweep** — XLI -1.09% Wed structural reg-overhang; book zero defense exposure (favorable)
+6. **Dem-sweep Day 2 continuation / consolidation risk** — massive Day 1 Wed gains (Dow +3.03%) may consolidate/pull back; ES fut +0.06% Thu pre-mkt + NQ fut -0.75% = cautious/mixed open signal
+7. **Under-deployment at 11.07% mv** — way below 75-85% band; opportunity-cost risk IF Dem-sweep rotation is durable; but CLAUDE.md explicitly says under-deployment NOT a buy signal — maintain discipline
+
+### MARKET-OPEN Routine Action List (Thu 11/05 09:30 ET)
+1. **XLF trail ratchet watch at open** — Wed close $59.95 (+$0.75 above HWM $59.20 = +1.27%); if sustained Thu open, server-side ratchet expected to new hwm ~$59.95, new stop ~$53.955 (+$0.675 both legs). Verify in orders refresh midday.
+2. **XLF MANUAL-CUT vigilance (primary + only)** — cushion +13.00% to $52.12 flag; GTC trail $53.28 hwm $59.20. If XLF < $52.12 at runtime → cancel bbf96d5f + 8bd5213b, market sell 180 sh (strict -7% rule). This is the only manual-cut watch now (XOM/XLE exited Wed).
+3. **XLF discretionary tighten watch** — +15% unrl threshold $64.45 (+$4.50 pts away from Wed close $59.95); +20% threshold $67.25 (+$7.30 pts away). **No tighten pending unless XLF rallies $4.50+ at open.**
+4. **NO FRESH ENTRIES QUEUED** — all 12 ideas have a named failed test (CLAUDE.md Decision Rule). Deployment 11.07% (way below 75-85% band) but **under-deployment IS NOT a buy signal** per CLAUDE.md. 5 structural slots open but idea-book exhausted at pre-mkt. **Not a flat-session violation.** **No ENTER-AT-OPEN runtime conditions set — no qualifying setup identified.**
+5. **NO half-size event-day sizing** — no Tier-1 US macro today; AAPL/AMD/PLTR Thu AMC single-name only.
+6. **ENERGY SECTOR EXIT RULE ACTIVATED** — 2 consecutive failed XLE trades Wed (233sh + 74sh legs both stopped below entry). XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED for re-entry pending sector-momentum reset (future WTI $95+ recovery + XLE multi-session breakout).
+7. **Semi/chip MORATORIUM continues** — AMD Thu AMC = NEXT TEST, not reset. AI reg-scrutiny adds overhang. AMD/AAPL/AVGO/NVDA/SMH/PLTR gated.
+8. **Defense-spending reg-overhang** — LMT/NOC/RTX/GD/HII BLOCKED pending structural reset of Dem-sweep spending-pressure thesis.
+9. **Weekly-review skill backlog:** Wk-16/17/18 reviews STILL PENDING (Wk-20/21 done Fri 10/30). Thu PM post-close or Fri weekly review calmer window (now that book is 1-position light).
+10. **No gates relaxed, no overrides planned** — Wk-22 Day 4 opens with 5 structural slots open, FRESH budget intact (0/3 Mon-Wed; Tue midterms-day gap), 1 position + 2 GTC trailing stops active, clean trailing-stop structure (XLF both legs at NEW HWM Wed ratchet).
+
+### Wk-22 Slot Budget (Day 4 Thu)
+- FRESH used Mon-Wed: 0/3 (Mon pre-mkt + midday no fresh; Tue midterms-day session gap; Wed pre-mkt no fresh); FRESH remaining: 3/3 structural
+- Position cap: 1/6; **5 structural slots open** (was 3/6 pre-Wed-exits — XLE 2 slots + XOM 1 slot freed Wed on stops)
+- Deployment: **11.07% mv** (way below 75-85% band; under-deployment NOT a buy signal per CLAUDE.md)
+- Semi moratorium: continues; AMD Thu AMC = NEXT TEST (not reset)
+- **Energy sector EXIT RULE: ACTIVATED** (2 consecutive XLE failed Wed → XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG blocked)
+- **Defense sector-momentum: BROKEN** on Dem-sweep spending-pressure structural
+- **Tech / AI reg-scrutiny overhang**: XLK / Mag7 / semi gated (compounds moratorium)
+
+### Watchlist / Deferred (midday + afternoon re-screen + Fri session + Thu AMC earnings)
+- **XLF server-side ratchet** — expected Thu open on $59.95 sustained; verify orders refresh midday
+- **Defensive-rotation Day 2 CONFIRMATION** — XLV/XLP/XLB Thu action; if continuing green Day 2 → sector-momentum confirms → fresh entries open for Fri screen (R:R structural remains for ETFs but single-names could pass)
+- **Materials Day 2 CONFIRMATION** — XLB USD-weakness thesis; USD / gold / copper Thu tape read (sector-momentum reset candidate)
+- **Dem-sweep reg-scrutiny specifics** — monitor for CFPB / DOJ / Senate Banking Committee / capital-requirement headlines; XLF thesis-tightened watch; if specific punitive headline → consider XLF discretionary trim (currently +6.97% unrl, HWM ratcheted)
+- **AMD / AAPL / PLTR AMC Thu earnings** — Mag7 final + semi moratorium test; book zero direct exposure; Fri AM pre-mkt routine will read post-earnings tape and update moratorium posture
+- **Weekly-review skill backlog:** Wk-16/17/18 (3 overdue) — Thu PM post-close window (book light + Fri weekly review approaching)
+- **Crude $85 secondary thesis-break watch** — WTI $89.52 broke $90 base Wed; secondary level $85 would confirm further degradation + extend energy sector-exit-rule timeline
+- **Defense sector rebalance** — any Dem-sweep defense-spending compromise headline could reset XLI/defense thesis; currently blocked
+- **Dem-sweep durability test** — Day 2 Thu + Fri + next Mon action; if Day 1 rally fades = rotation noise; if Day 2+ confirms = structural rotation (triggers broader sector-momentum re-evaluation for next week's FRESH budget)
