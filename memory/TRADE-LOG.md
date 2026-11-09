@@ -5593,3 +5593,45 @@ Deployment: 84.37% (fully in 75-85% target band — 6-week structural gap CLOSED
 9. **Sector rotation scan priority** — 2 slot vacancies from Wed XLE+XOM exits remain intact Wk-23 Mon AM; re-screen defensives + materials + industrials for new sector-momentum leaders with Mon post-earnings semi-chip tape as key macro input.
 10. **No gates relaxed, no overrides planned** — Mon AM baseline = $97,008.81 (today's weekend-stamped Fri close). If Mon AM pre-mkt routine fires and equity updates intraday Monday to a materially different value (>$150 gap), Mon midday/EOD reconciles against the live intraday value.
 
+
+
+### Nov 09 — Midday Scan (Wk-23 Day 1, Mon 11:15 ET — XLF sole position Day 7 bank-bid continuation +1.19% intraday / NEM market-open entry MISSED (gap-up $125.90 > $124 chase ceiling) / NO TRADES)
+
+**Clock:** market open (next_close 16:00 ET). **Equity:** $97,133.91 | **Cash:** $86,720.01 (89.28%) | **Day P&L:** +$125.10 (+0.129%) vs last_equity $97,008.81 | **Phase P&L:** -$2,866.09 (-2.866%).
+
+| Ticker | Shares | Entry | Mid Mark | Day Chg | Unrl $ | Unrl % | Stop | Cushion to -7% cut flag |
+| - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $57.855 | +1.19% | +$323.10 | **+3.20%** | $54.036 (both legs, hwm $60.04) | $52.12 → **+10.99%** |
+
+**Book-delta reconciliation:** XLF 180 × ($57.84 - $57.16 lastday_price) = +$122.40 unrealized Δ vs Fri close; equity delta +$125.10 — matches within $2.70 mark-drift residual. **DATA FRESH** (balance_asof 2026-11-06 Fri close stamped but intraday equity live; `unrealized_intraday_pl` $122.40 confirms Mon AM bid).
+
+**Strict-rule exits:** NONE. XLF +3.20% unrl — well inside envelope. Cushion to $52.12 cut flag +10.99%.
+
+**Server-side ratchets observed Mon AM:** NONE. Both XLF GTC trail legs `updated_at` stamp remains 2026-11-05 14:30:12 UTC (Thu AM open ratchet to hwm $60.04). Mon AM $57.85 well below $60.04 hwm — no new high printed; no ratchet.
+
+**Tighten-trail eligibility:** NONE.
+- XLF +3.20% unrl; first-tighten +15% threshold ~$64.45, gap **~$6.60** (narrowed from Mon pre-mkt from Fri close +9.67% on intraday +1.19% bid); second-tighten +20% threshold ~$67.25, gap ~$9.40.
+
+**Thesis check:** XLF Dem-sweep Day 7 bank-bid continuation; Mon AM +1.19% intraday is bounce off Fri soft fade close $57.16. Thesis-tightened watch continues (rate-hike-pivot regime HEADWIND + Dem-sweep reg-scrutiny HEADWIND) but Mon intraday action LESSENS discretionary-trim concern — price $57.85 well above <$55.90 trim trigger. **NOT thesis-break:** no CFPB/Senate Banking/capital-requirement punitive headline midday; no further rate-pivot escalation vs Fri NFP baseline. Energy sector EXIT RULE remains armed (WTI $88.25 Fri; XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED). Semi/chip MORATORIUM STRENGTHENED remains (AAPL/AMD/PLTR post-earnings Fri + AI reg-scrutiny overhang). Defense reg-overhang BLOCKED. Duration-sensitive defensives (XLU/XLRE) rate-hike-pivot NEGATIVE BLOCKED.
+
+**NEM market-open entry MISSED (documented, not acted):** Research log planned NEM 85 sh market buy at open with entry filter $108-$124. NEM midday quote **$125.90 ask / $125.01 bid** — ABOVE $124 chase ceiling. Entry filter failed per pre-mkt spec (gap-up chase block). **Not a flat-session rule violation per CLAUDE.md** — setup FAILED a specific named filter condition (gap-up > $124 ceiling), which is a valid skip reason per Decision Rule. No position opened at market; no NEM order visible in orders endpoint. Midday scan routine SCOPE does not include fresh entries (STEP 3-5 are strictly position management). **NEM entry opportunity lost today** — gold miners continuation thesis intact but entry filter was designed to avoid gap-up chases and that filter triggered. No corrective action midday; defer re-screen to Tue pre-mkt (half-size constraint applies to Tue 11/10 CPI event day).
+
+**Intraday research skipped** — XLF +1.19% is quiet Mon AM bank-bid continuation, not sharp single-name move without cause. No research.sh call warranted.
+
+**Trades today:** NONE this midday — 0 FRESH, 0 strict-rule exits, 0 manual tightens, 0 cancels. Both XLF GTC trailing stops active; no server-side ratchet Mon AM. No ClickUp notification per routine spec (no action taken).
+
+**Wk-23 running count:** **0/3 FRESH slot-consuming used Mon midday.** 3 FRESH slots unused.
+
+**Post-midday order state (2 GTC stops covering 1 position — unchanged since Thu 11/05 AM ratchet):**
+- XLF 90 sh (original): trail 10% $54.036 hwm $60.04 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $54.036 hwm $60.04 (bbf96d5f) — unchanged
+
+**Next checkpoints (Mon PM → close):**
+1. **XLF MANUAL-CUT vigilance (sole position)** — cushion +10.99%; if XLF < $52.12 → cancel 8bd5213b + bbf96d5f, market sell 180 sh. XLF would need -9.9% additional to trigger — well cushioned. Trail stop $54.036 is -6.60% below current $57.85 — trail fires first if breakdown.
+2. **XLF discretionary-trim watch <$55.90** — price $57.85 is +$1.95 (+3.49%) above trim trigger; trim consideration NOT active midday.
+3. **XLF trail ratchet watch** — HWM $60.04 Thu 11/05; Mon PM rally above $60.04 = new HWM + server-side tighten. $2.19 (+3.79%) gap to new HWM print.
+4. **XLF discretionary-tighten watch** — +3.20% unrl; first-tighten threshold +15% ~$64.45 (gap ~$6.60, +11.42% move needed); NOT at tighten threshold.
+5. **NEM re-screen Tue pre-mkt** — entry filter broken Mon by gap-up above $124; gold miners sector-momentum thesis still intact but Tue is CPI event day = HALF-SIZE constraint applies. Re-screen with Tue pre-mkt data + CPI positioning.
+6. **No fresh entries** — midday routine scope excludes fresh entries; all non-NEM screened ideas (1-8, 10-12 from pre-mkt) retain structural failed tests. Under-deployment 10.72% mv is NOT a buy signal per CLAUDE.md.
+7. **Weekly review backlog critical** — Wk-22 backfill due Mon (missed Fri PM); Wk-16/17/18 overdue. Weekly-review skill run post-midday or Mon PM before Tue CPI binary.
+8. **CPI Tue 11/10 08:30 ET** — binary macro event; HALF-SIZE constraint for Tue entries; XLF position carries pre-event; thesis-tightened watch intensifies if CPI confirms further rate-hike-pivot vs reverses.
