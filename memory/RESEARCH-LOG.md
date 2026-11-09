@@ -10381,3 +10381,225 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Weekly-review Fri PM post-close** — Wk-22 primary (XLE/XOM exits + XLF hold + flat-trading-week discipline evaluation) + Wk-16/17/18 backlog (3 overdue) — priority session before Mon reset
 - **Dem-sweep durability Day 3** — Fri + Mon action post-NFP; if Dem-sweep rotation reverses (defensives revert, tech bounces) = Wed-Thu was one-off; if rotation holds = structural Mon re-screen basis
 
+
+
+## 2026-11-09 — Pre-Market Research (Wk-23 Day 1 Mon — Post-Nasdaq-correction Day 2 bounce / Hot NFP Fri → Dec rate HIKE odds >65% / CPI Tue 11/10 / Veterans Day Wed 11/11 bond close / XLF sole position cushion +9.67% / 5 open slots / Wk-23 FRESH 0/3 RESET)
+
+### Account (balance_asof 2026-11-06 Fri close, Mon pre-mkt intraday equity live)
+- Equity: **$97,106.01** | Cash: **$86,720.01** (89.31%) | Buying power: $375,960.84 | Non-marg BP: $91,913.01
+- Portfolio value: $97,106.01 | Long mkt value: **$10,386.00 (10.69% deployed — 1 position / 5 open slots)**
+- Last_equity (Fri close): $97,008.81 → **Mon pre-mkt P&L +$97.20 (+0.100%)** on XLF intraday drift $57.16 → $57.70 (+0.945%)
+- Phase P&L: **-$2,893.99 (-2.894%)** vs $100k baseline — modest rebound off Fri close $97,008.81 phase low (-$2,991.19) on Mon pre-mkt XLF bid
+- Daytrade count: safe (equity > $25k)
+- **BOOK UNCHANGED Fri-weekend** — XLF 180 sh sole position; no new orders/fills since Thu AM 14:30:12 UTC server-side ratchet (both GTC trail legs stamped Thu AM, no Fri ratchet confirmed)
+- **DATA FRESH, NOT STALE** — balance_asof Fri 2026-11-06 overnight-stamped; position current_price $57.70 vs lastday $57.16 = +0.945% Mon pre-mkt live; account/orders/positions all reconcile
+
+### Positions (1 open, 5 slots) — Mon pre-mkt marks
+| Ticker | Shares | Entry | Fri Close | Mon Pre-mkt | Chg | Unrl $ | Unrl % | HWM | Trail Stop | Cushion to -7% |
+| - | - | - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $57.16 | $57.70 | +0.945% | +$297.90 | **+2.953%** | $60.04 | $54.036 (both legs, 10%) | $52.12 → **+10.72%** |
+
+- **XLF HWM $60.04 holds** (last ratchet Thu 11/05 14:30:12 UTC = Thu AM open); no Fri ratchet (XLF Fri high <$60.04); no Mon pre-mkt ratchet expected (stops only move during RTH)
+- **Mon pre-mkt bid rebound** $57.16 → $57.70 (+0.945%) on broad post-Nasdaq-correction Day 2 risk-on sentiment (ES fut +0.64% / NQ fut +0.62%)
+- 2 GTC trailing stops active (bbf96d5f + 8bd5213b — 90 sh each, hwm $60.04, stop $54.036; expires Dec 16-18)
+- Cushion to $52.12 cut flag WIDENED to **+10.72%** (from Fri close +9.67% on Mon pre-mkt bounce +0.945%)
+- Position mv $10,386.00 = **10.69%** equity; 75-85% deployment band NOT APPLICABLE (under-deployment NOT a buy signal per CLAUDE.md)
+
+### Market Context (Fri 11/06 close + Mon 11/09 pre-mkt)
+- **S&P 500: 7,376.86 (+0.31% Fri) | ES fut $7,449.50 (+0.64% Mon pre-mkt)** — Fri was Day 1 dead-cat bounce off Thu -4.36% rout; Mon ES fut extends the bounce +0.33% from Fri close
+- **Nasdaq: 24,579.42 (+1.09% Fri) | NQ fut $27,252.0 (+0.62% Mon pre-mkt)** — Fri +1.09% bounce off Thu -5.52% (worst day in 18-19 months, ~$2T wiped); SanDisk +10% / Micron +8% / Western Digital +8% Fri memory rebound; NQ still in CORRECTION technical zone
+- **Dow: 51,285.73 (-0.46% Fri)** — Fri weak vs tech bounce; mega-cap weakness persists
+- **VIX: 23.52 (-8.27% Fri)** — Fri vol-crush off Thu spike; STILL ELEVATED vs sub-17 pre-crash regime
+- **WTI: $88.25 (-2.84% Fri) | Brent: $94.93 (-3.45% Fri)** — **CRUDE BROKE BACK BELOW $90 BASE** (Thu $90.61 recovery REVERSED; Fri -2.84% deeper breakdown to $88.25); confirms Wed sub-$90 was not noise; **energy sector exit rule REMAINS ACTIVATED + deeper thesis-break**
+- **Sectors Fri close:**
+  - XLK +1.45% (semi-memory rebound Day 1)
+  - XLI +0.12% (flat)
+  - XLE -0.02% (FLAT despite crude -2.84% = relative strength on earnings bid)
+  - XLV -0.06% (defensive held)
+  - XLB -0.73% (materials fade)
+  - XLF -0.59% (soft)
+  - XLP -1.28% (defensive sold on risk-on tape — short-term rotation unwind)
+- Research.sh context cleanly stamped Fri close + Mon pre-mkt futures → **DATA FRESH**
+
+### Today's Catalysts (Mon 11/09 — CPI-eve / Veterans Day Wed bond close / post-crash Day 2 bounce)
+- **CPI release TUESDAY 11/10 08:30 ET** (consensus +0.3% MoM, core +0.2%) — TIER-1 MACRO Tuesday; **today Mon is CPI-EVE positioning day (not event day itself)**; **half-size constraint applies to TUE 11/10 entries, NOT Mon 11/09 entries per CLAUDE.md**
+- **HOT OCT NFP FRI 11/06 → Dec RATE HIKE odds >65%** (TipRanks source) — MAJOR REGIME SHIFT: pre-Fri assumed rate-CUTS; post-Fri market pricing rate HIKE Dec; reverses XLF Dem-sweep bank-bid rate-cut thesis; FAVORS gold/metals on USD volatility + risk-off hedge
+- **VETERANS DAY WED 11/11** — bond market closed Wed; equity markets OPEN Wed; thinner cross-asset trading midweek
+- **AI rout "set off market alarm signals"** — Reuters Fri 11/06; VIX elevated 23.52; "traders brace for what's next"; AI reg-scrutiny overhang + hedge-fund-de-risking structural narrative
+- **Memory/storage rebounded Fri** — SanDisk +10%, Micron +8%, WDC +8% — but single-session bounce after -5.52% broad Nasdaq rout = Day 1 only, NOT confirmation of AI thesis repair
+- **Gold +4% since midterms** (StockTwits source Mon 02:00 UTC); GLD Fri close $362.01 (-2.8% off Nov 4 peak $372.49 but +~4% net from pre-midterm base); multi-session metals leadership confirmed; Newmont +9.94% Nov 4
+- **Defensive rotation multi-session** — XLV +9.9%, XLP +9.7% since Oct 5 vs SPY -2.6% (Yahoo Finance Fri source "Healthcare and Staples Hold the Line Against Tech"); BUT Fri XLP -1.28% = short-term rotation unwind on risk-on tape (structural trend intact, tactical reversal)
+- **XLE relative strength** — Fri XLE flat despite crude -2.84% = buyers absorbed crude weakness; NOT sector reset (requires $95+ sustained + XLE multi-session breakout per energy-exit-rule)
+- **AAPL/AMD/PLTR post-earnings** — AAPL Fri pre-mkt had been -4.4% / PLTR -5.9% per prior session data; Fri tape digested; book zero direct beta
+- **Econ calendar ex-CPI-Tue** — Mon light calendar (Veterans Day bond-close-Wed anticipation); BoJ SOO, BoC Minutes mid-week; UK GDP later week
+- **Pre-open Mon earnings tape** — no major headliners confirmed in context pulls; not a catalyst day for earnings
+- **Wk-22 weekly review BACKFILL due** — Fri PM weekly review was missed; CLAUDE.md requires Monday AM backfill before Tue CPI; backlog Wk-16/17/18 still pending
+
+### Idea Screen (12 candidates, Decision Rule format)
+
+**Idea 1 — XLF ADD (sole position — defensive bank bid intact?):**
+- Catalyst: ✗ Dem-sweep reg-scrutiny HEADWIND materialized Thu 11/05 (-2.87%); Fri -0.59% soft continuation; Mon pre-mkt +0.945% bounce = tape beta not thesis repair
+- Test 1: ✗ catalyst NOW REVERSED by hot NFP → Dec rate HIKE odds >65% (bank bid thesis assumed rate CUTS; rate-HIKE regime = NIM pressure + credit tightening headwind); reg-scrutiny overlay PERSISTS structurally
+- Test 2: ✗ sector-momentum WEAKENED (Thu -2.87% / Fri -0.59% = 2-session digest + Mon pre-mkt +0.945% is tape beta not standalone bid)
+- Test 4: ✗ ETF R:R structural
+- **DOES NOT QUALIFY → NO ADD** (catalyst REVERSED by rate-hike-pivot + sector-momentum weakened + R:R structural)
+
+**Idea 2 — Financial single-names FRESH (JPM / GS / SCHW / BAC / WFC):**
+- Catalyst: ✗ rate-hike-pivot NEGATIVE for banks (NIM pressure / credit tightening); Dem-sweep reg-scrutiny structural overhang
+- Test 2: ✗ sector-momentum WEAKENED
+- Test 4: ✗ mega-cap bank R:R structural (10% stop → 20% target multi-quarter)
+- **DOES NOT QUALIFY → NO ENTRY** (catalyst-reversed + sector-weakened + R:R structural)
+
+**Idea 3 — XLP FRESH / XLP single-names (KO / PG / WMT / COST / MDLZ / KMB):**
+- Catalyst: △ defensive rotation multi-session confirmed (XLP +9.7% since Oct 5) but Fri -1.28% short-term reversal on risk-on tape
+- Test 2: △ sector-momentum CONFIRMED multi-session but with Fri reversal day
+- Test 4: ✗ ETF R:R structural (XLP range); mega-cap defensive single-names (KO/PG/WMT/COST) are 10% stop / 20% target multi-quarter structural
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural on ETF + mega-cap defensive beta)
+
+**Idea 4 — XLV FRESH / XLV single-names (UNH / JNJ / LLY / ABBV / PFE):**
+- Catalyst: △ defensive rotation multi-session (XLV +9.9% since Oct 5); Fri -0.06% held better than XLP
+- Test 2: △ sector-momentum CONFIRMED multi-session
+- Test 4: ✗ ETF R:R structural; mega-cap healthcare R:R structural on 10% stop
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural on ETF + mega-cap single-names)
+
+**Idea 5 — XLE / XOM / CVX / HAL / DVN / COP / EOG / FANG FRESH:**
+- Catalyst: ✗ WTI $88.25 BROKE BACK BELOW $90 BASE Fri (-2.84%); Thu $90.61 recovery REVERSED; confirms sub-$90 regime deeper
+- Test 2: ✗ sector-momentum BROKEN; Fri XLE flat (relative strength) is NOT multi-session reset; requires $95+ sustained
+- **SECTOR EXIT RULE ACTIVATED (Wed 2 fails: XLE+XOM trail-stop exits)**
+- **DOES NOT QUALIFY → NO ENTRY** (sector exit rule + crude thesis-break deeper + sector-momentum broken)
+
+**Idea 6 — XLK FRESH (tech post-correction Day 2 bounce):**
+- Catalyst: ✗ Fri +1.45% dead-cat bounce; memory/storage single-session rebound (SanDisk +10% etc.); NOT confirmation of AI thesis repair
+- Test 2: ✗ sector-momentum BROKEN (Nasdaq in CORRECTION technical zone); AI reg-scrutiny overhang + hedge-fund de-risking structural; Reuters "AI rout alarm signals"
+- Test 4: ✗ ETF R:R structural
+- **Chase risk** on Day 2 bounce entry after major breakdown
+- **DOES NOT QUALIFY → NO ENTRY** (sector broken + reg-overhang + chase risk + R:R structural)
+
+**Idea 7 — Mega-cap tech single-names (MSFT / META / GOOGL / AMZN / NVDA):**
+- Catalyst: ✗ tech broken + AI reg-scrutiny overhang + rate-hike headwind (tech beta to rates negative)
+- Test 2: ✗ sector BROKEN
+- Test 4: ✗ mega-cap R:R structural
+- **DOES NOT QUALIFY → NO ENTRY** (sector broken + reg-overhang + rate-hike headwind + R:R)
+
+**Idea 8 — AAPL / AMD / PLTR post-earnings (Thu AMC results digest Day 3):**
+- Catalyst: ✗ Fri post-earnings reaction NEGATIVE (AAPL -4.4% / PLTR -5.9% pre-mkt Fri); Mon entry = chase risk inverse (catching Day 3 falling knife)
+- Test 1: ✗ catalyst NEGATIVE
+- Test 2: ✗ semi moratorium live + tech broken
+- **DOES NOT QUALIFY → NO ENTRY** (catalyst negative + chase risk + moratorium)
+
+**Idea 9 — GOLD MINERS FRESH (NEM / GOLD / AEM) — MULTI-SESSION LEADERSHIP CONFIRMED:**
+- Catalyst: ✓ **Gold +4% since midterms** (StockTwits Mon 02:00 UTC); GLD $362.01 Fri close +~4% net from pre-midterm base (Nov 3); Newmont +9.94% Nov 4; GLD +3.67% Nov 4 (best gold day since August); above $4,000/oz; **multi-session leadership CONFIRMED (5 trading days: Nov 3 midterms → Nov 9 Mon pre-mkt)**
+- Test 1: ✓ specific catalyst — gold confirmed rally regime post-midterms; rate-hike-pivot creates USD-volatility backdrop + risk-off hedge demand (VIX 23.52 elevated); Dem-sweep fiscal-expansion-fear USD-weakness structural
+- Test 2: ✓ **MULTI-SESSION SECTOR MOMENTUM CONFIRMED** — Nov 3-6 net positive despite Thu -4.36% broad tape (metals held much better than SPX); +4% sector-wide gain against -2.6% SPY same window = relative-outperform + absolute-up (the ONLY sector this session satisfying both)
+- Test 3: ✓ 10% stop definable on single miners (NEM $115 → stop $103.50; GOLD $31.82 → stop $28.64; AEM $162 → stop $145.80)
+- Test 4: ✓ 2:1 R:R met on miners (NEM: $115 → stop $103.50 ($11.50 risk) → 20% target $138 ($23 reward) = 2.0:1; GOLD: $31.82 → stop $28.64 → target $38.18 = 2.0:1; AEM: $162.47 → stop $146.22 → target $194.96 = 2.0:1)
+- Buy-Side Gate:
+  - Total positions after fill: **2/6** ✓ (XLF + miner)
+  - Trades this week: **1/3** ✓ (Wk-23 FRESH budget intact)
+  - Position cost ≤ 20% equity ($19,421 max) — target ~$9,700 (10% equity sizing) ✓
+  - Position cost ≤ available cash ($86,720.01) ✓
+  - daytrade_count safe ✓
+  - Catalyst documented ✓ (this entry)
+  - Stock ✓
+- **Primary pick: NEM (Newmont)** — largest liquid US-listed gold miner, cleanest Dem-sweep beta (+9.94% Nov 4), $85B cap, tight spreads RTH
+- **Resolve-now rule check:** No deferred checkable facts — gold-sector-momentum CONFIRMED multi-session this pull; NEM quote $115.27 Fri close pulled; R:R computed; Buy-Side Gate confirmed. **Resolve NOW → TRADE at open.**
+- **QUALIFIES → TRADE** (default per Decision Rule when all 4 tests pass + gate clears)
+
+**Idea 10 — GLD / GDX ETF FRESH:**
+- Catalyst: ✓ same as Idea 9 (gold multi-session leadership)
+- Test 2: ✓ multi-session confirmed
+- Test 4: ✗ **ETF R:R structural** (GLD $362 → stop $325.80 → target $434.40 implies gold at $4,800/oz = Goldman 2027 year-end target; not achievable in trade window); GDX similar issue (ETF of baskets dampens individual miner extremes)
+- **DOES NOT QUALIFY → NO ENTRY** (R:R structural on ETF; prefer single-miner NEM)
+
+**Idea 11 — Defense / aerospace (LMT / NOC / RTX / GD / HII):**
+- Catalyst: ✗ Dem-sweep defense-spending reg-overhang structural
+- Test 2: ✗ sector-momentum BROKEN + structural reg-overhang
+- **DOES NOT QUALIFY → NO ENTRY**
+
+**Idea 12 — Utilities XLU / REITs XLRE (defensive + rate-sensitive):**
+- Catalyst: △ defensive bid but RATE-HIKE-PIVOT STRUCTURAL HEADWIND (XLU/XLRE both rate-sensitive long-duration proxies; Dec hike odds >65% = negative beta)
+- Test 1: ✗ catalyst NEGATIVE (rate-hike-pivot worse than defensive-rotation-positive for these specific sectors)
+- Test 2: ✗ sector dynamics BROKEN by rate-pivot
+- **DOES NOT QUALIFY → NO ENTRY** (rate-hike-pivot NEGATIVE for duration-sensitive defensives)
+
+### DECISION — 1 FRESH ENTRY (NEM), HOLD XLF
+
+**Trade 1: BUY NEM — MARKET-OPEN ENTRY Mon 09:30 ET**
+- Qualifies Test 1-4 + Buy-Side Gate (per Idea 9); **DEFAULT IS TO TRADE per Decision Rule when all tests pass**
+- **Size:** 85 shares × ~$115 ref = **~$9,775 (10.07% equity)** — mid-range sizing (max cap 20% = ~$19,421; 10% is conservative for freshly-forming thesis)
+- **Not half-size** — today Mon is CPI-EVE, NOT CPI event day (Tue 11/10 is event day per CLAUDE.md "a macro event is a reason to HALF-SIZE, not to skip"); full-size applies to Mon entries
+- **Entry condition (ENTER AT OPEN runtime check for MARKET-OPEN routine):**
+  - NEM price between $108.00 (Fri close -6.3%) and $124.00 (Fri close +7.8%) at runtime — avoid chase gap-up and catch panicked gap-down
+  - SPX not down more than -1.5% at runtime (not entering into collapse tape)
+  - VIX not spiking above 30 at runtime
+  - If all three conditions hold → submit `{"symbol":"NEM","qty":"85","side":"buy","type":"market","time_in_force":"day"}`
+  - If any condition fails at open → defer to midday re-screen; if conditions fail all day → carry forward Tue (half-size then on CPI day) or skip if sector-momentum breaks
+- **Post-fill stop (mandatory per Strategy Rule 4):**
+  - Submit `{"symbol":"NEM","qty":"85","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}`
+  - Trailing stops only work during RTH; verify submission before 16:00 ET
+  - Manual-cut flag: NEM < $107.00 (-7% from $115 entry baseline) triggers immediate market-sell override
+
+**Trade 2 (no change): HOLD XLF (180 sh)**
+- Thesis-tightened watch continues: rate-hike-pivot adds HEADWIND to bank-bid thesis (previously assumed rate-cut)
+- Cushion +10.72% to $52.12 cut flag (widened Mon pre-mkt from Fri +9.67% on bounce)
+- GTC trail $54.036 both legs active; no manual action required
+
+**Rate-hike-pivot regime shift note:** Fri hot NFP (Dec rate HIKE odds >65%) is a MAJOR REGIME SHIFT from pre-Fri rate-CUT assumption that underpinned XLF Dem-sweep bank bid thesis. Thesis WEAKENED; no add; XLF remains on thesis-tightened watch. If XLF breaks <$55.90 Mon → discretionary trim consideration (preserve capital vs trail-stop natural exit); actual cut at trail $54.036 or -7% flag $52.12.
+
+**Flat-session violation check:** NOT applicable — Mon has 1 qualifying FRESH trade (NEM) per Decision Rule. Under-deployment 10.69% was Wk-22 feature but Wk-23 opens with FRESH 1/3 after Mon open fill (assuming conditions hold); deployment post-fill ~20.76% (XLF $10,386 + NEM $9,775 = $20,161 / $97,106 = 20.76%) — still well below 75-85% target but aligned with CLAUDE.md "qualifying setup → trade; under-deployment is not a buy signal" principle (trading because NEM qualifies, not because deployment is low).
+
+**Resolve-now check:** All failed-test ideas (1-8, 10-12) have STRUCTURAL failed tests NOT resolvable this session (R:R structural on ETFs/mega-caps, sector-momentum broken on tech/energy, catalyst-reversed by rate-hike-pivot on financials, moratorium/reg-overhang on defense/semi/AAPL, instrument-type on duration-sensitive defensives post rate-pivot). Only NEM has resolvable path to qualifying this session — resolved and TRADED.
+
+### Risk Factors (today — Mon 11/09)
+1. **CPI release TUESDAY 11/10 08:30 ET** — Tier-1 macro Tue; Mon positioning risk ahead of print; +0.3% MoM consensus; NEM entry Mon = pre-event position (not event-day entry so full-size per CLAUDE.md); IF CPI hot → further rate-hike-pivot = gold mixed (USD-vol positive, real-rate-rise negative); IF CPI soft → rate-hike-fade = gold positive (USD-weakness bid)
+2. **HOT NFP → DEC RATE HIKE ODDS >65% REGIME SHIFT** — reverses rate-cut assumption underpinning XLF Dem-sweep thesis; structural narrative headwind for duration-sensitive defensives (XLU/XLRE); mixed for gold (USD-vol bid vs real-rate headwind); positive for cash (yield)
+3. **Post-Nasdaq-correction Day 2 bounce = DEAD-CAT RISK** — Thu $2T wiped; Fri Day 1 bounce; Mon Day 2 — historical pattern (per sources) shows post-70%-VIX-spike action often sees additional vol; VIX 23.52 still elevated
+4. **XLF reg-scrutiny HEADWIND + rate-pivot DOUBLE HEADWIND** — Dem-sweep congressional reg-scrutiny persists + Dec rate HIKE pivot adds NIM pressure/credit tightening; cushion +10.72% but thesis significantly weakened; discretionary-trim consideration <$55.90
+5. **AI/data-center capex thesis questioned structural** — Reuters "AI rout alarm signals" Fri; Dem-sweep congressional oversight; semi moratorium strengthened; XLK Fri +1.45% dead-cat only
+6. **Crude $88.25 BROKE BELOW $90 BASE DEEPER** — Thu $90.61 recovery reversed; confirms sub-$90 regime; XLE flat Fri (relative strength absorbing crude weakness) but NOT reset; sector exit rule remains ACTIVATED
+7. **Veterans Day Wed 11/11 bond close** — thinner cross-asset trading midweek; equity markets open Wed
+8. **Gold multi-session leadership with Fri soft fade** — GLD pulled back -2.8% from Nov 4 peak over Thu-Fri; net +4% since midterms; Mon entry NEM positions into confirmed-but-digesting trend (Nov 4 single-day spike + 2-day digest); risk = further digest before next leg up
+9. **Weekly review BACKLOG critical** — Wk-22 due today (Fri PM missed) + Wk-16/17/18 overdue; schedule post-market-open skill run before Tue CPI
+10. **PDT / daytrade_count** — safe (equity $97k > $25k); PDT limits moot
+
+### MARKET-OPEN Routine Action List (Mon 11/09 09:30 ET)
+1. **NEM FRESH ENTRY — PRIMARY ACTION** — at open, verify runtime conditions (NEM $108-$124 / SPX not down > -1.5% / VIX not > 30); if all pass → submit market buy 85 sh NEM; immediately after fill → submit 10% trailing stop GTC (`trail_percent:"10"`, `time_in_force:"gtc"`); verify stop acceptance before 16:00 ET. If conditions fail → defer to midday; reassess at midday scan.
+2. **XLF MANUAL-CUT vigilance (sole position pre-NEM fill)** — cushion +10.72% to $52.12 flag; GTC trail $54.036 hwm $60.04. If XLF < $52.12 at runtime → cancel bbf96d5f + 8bd5213b, market sell 180 sh (strict -7% rule). XLF would need -9.8% from $57.70 to trigger.
+3. **XLF DISCRETIONARY-TRIM WATCH <$55.90** — if XLF opens/trades below $55.90 at runtime (continues Fri soft tape + rate-pivot HEADWIND materialization) → consider discretionary trim (e.g., 50% position = 90 sh) ahead of trail-stop $54.036 natural exit. Rationale: thesis DOUBLE-WEAKENED (reg-scrutiny + rate-pivot); cushion preservation ahead of CPI Tue binary. Cushion-preservation discretionary, not entry-trigger-style rule.
+4. **XLF trail ratchet watch** — HWM $60.04 Thu AM; Mon rally above $60.04 = new HWM + server-side tighten. Unlikely given tape beta <$60.04 range; monitor.
+5. **XLF discretionary-tighten watch** — +2.95% unrl; first-tighten +15% threshold ~$64.45 (gap $6.75 from $57.70); second-tighten +20% ~$67.25, gap ~$9.55. **No manual tighten pending.**
+6. **ENERGY SECTOR EXIT RULE REMAINS ACTIVATED** — WTI $88.25 BROKE $90 deeper; XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED (requires $95+ sustained + XLE multi-session breakout).
+7. **Semi/chip MORATORIUM STRENGTHENED** — Fri AAPL/AMD/PLTR post-earnings -4.4%/-5.9% pre-mkt + AI reg-scrutiny overhang + Reuters alarm signals + memory single-session rebound ≠ thesis repair. AMD/AAPL/AVGO/NVDA/SMH/PLTR BLOCKED.
+8. **Defense reg-overhang** — LMT/NOC/RTX/GD/HII BLOCKED.
+9. **Volatility/inverse ETPs** — VIXY/UVXY/SQQQ/SOXS instrument-type violation (stocks-only). BLOCKED.
+10. **Duration-sensitive defensives (XLU/XLRE)** — rate-hike-pivot NEGATIVE; BLOCKED.
+11. **Weekly review skill — RUN AFTER MARKET-OPEN** — Wk-22 backfill primary (due Fri PM missed) + Wk-16/17/18 backlog before Tue CPI; CLAUDE.md priority.
+12. **NO ADDITIONAL FRESH ENTRIES QUEUED** — all 11 non-NEM screened ideas have a specific named failed test (CLAUDE.md Decision Rule). **NO FLAT-SESSION VIOLATION** — NEM QUALIFIES AND IS BEING TRADED.
+13. **No gates relaxed, no overrides planned** — Wk-23 Day 1 opens with 5 structural slots → 4 after NEM fill, FRESH budget 1/3 Wk-23, XLF on thesis-tightened cushion-preservation watch.
+
+### Wk-23 Slot Budget (Day 1 Mon — WEEK OPEN)
+- FRESH planned Mon: 1/3 (NEM at open); FRESH remaining post-Mon: 2/3
+- Position cap: 1/6 (pre-NEM) → 2/6 (post-NEM fill); 4 structural slots remaining
+- Deployment: 10.69% mv (pre-NEM) → projected ~20.76% mv (post-NEM fill at $115 ref); 75-85% band remains distant
+- Semi moratorium: strengthened (AI reg-scrutiny + post-Nasdaq-correction + AAPL/AMD/PLTR post-earnings)
+- Energy sector EXIT RULE: ACTIVATED (deeper on Fri WTI $88.25 breakdown)
+- Defense sector reg-overhang: structural BLOCK
+- Tech/AI reg-scrutiny: structural + Nasdaq correction technical zone
+- Duration-sensitive defensives (XLU/XLRE): rate-hike-pivot NEGATIVE
+- Rate-hike-pivot regime shift: NEW REGIME (Fri NFP → Dec hike odds >65%)
+- Gold miners: new sector-momentum position Mon (NEM primary)
+- Wk-22 weekly review: BACKFILL due (missed Fri PM)
+- Wk-16/17/18 weekly review backlog: 3 overdue
+
+### Watchlist / Deferred (midday + afternoon + Tue session)
+- **CPI print TUE 11/10 08:30 ET** — binary macro event; HALF-SIZE constraint applies to Tue 11/10 entries; monitor pre-mkt reaction to NEM position
+- **NEM post-fill thesis monitoring** — stop at $103.50 (trail 10%); manual-cut $107.00 (-7%); tighten-trail +15% to 7% at $132.25, +20% to 5% at $138.00
+- **XLF cushion health intraday** — monitor <$55.90 for discretionary-trim consideration; <$54.036 for trail execution; <$52.12 for -7% manual-cut
+- **Gold miners sector-momentum Day 6+ confirmation** — if Mon Day 6 further gold leg higher + miners wide participation → confirms Nov 4-spike + 2-day-digest-then-breakout pattern; if Mon flat/down → 3-day digest extends, no additional entries
+- **Defensive-rotation XLP/XLV Day 1 Mon action** — Fri XLP -1.28% was risk-on unwind; Mon reading tells structural vs tactical; fresh single-name defensive single-name screen deferred to Tue pre-mkt
+- **Metals ETF R:R reassessment** — GLD/GDX structural R:R blocks; stay single-miner for now
+- **Tech post-correction Day 3 action** — Mon NQ bounce continuation vs rollover; if NQ breaks Fri close -2% at runtime = dead-cat confirmed, moratorium hardens; if NQ holds/extends = moratorium posture unchanged (semi-single-names still gated on AI reg-scrutiny overhang)
+- **Crude $90 vs $85 regime watch** — WTI $88.25 Fri close; if $85 secondary thesis-break triggers Mon → extends sector-exit timeline; if WTI reclaims $90 → context monitoring (not reset)
+- **AAPL/AMD/PLTR Mon tape** — post-earnings Day 3 digest; reads semi/AI sentiment thermometer but zero book beta
+- **Weekly review Wk-22 backfill** — primary this session; schedule post-market-open skill run before Tue CPI
+- **Dem-sweep Day 4-5 durability** — rotation dynamics reverse (XLF rate-pivot headwind now overlays reg-scrutiny; XLP Fri unwind) or persist structurally; Mon action = key read
