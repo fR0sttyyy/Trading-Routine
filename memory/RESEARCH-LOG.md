@@ -11029,3 +11029,208 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Rigetti Tue -6.4%** — AI/quantum single-name moratorium confirmation
 - **Weekly review Wk-22 PRIMARY** — Wed market-open followup; Wk-16/17/18 backlog before Thu-Fri trading
 - **Thu-Fri setups TBD** — if gold miners sector-reclaim materializes or specific earnings catalyst arrives Thu AM (none currently screened)
+
+
+## 2026-11-12 — Pre-market Research (Wk-23 Day 4, Thursday — POST-VETERANS DAY FULL TAPE / XLF Day 10 HWM retest watch / Wk-23 FRESH 0/3 intact)
+
+### Account (Thu 11/12 pre-mkt 07:43 ET / balance_asof Wed 11/11)
+- Equity: $97,323.81 (last_equity $97,273.41 → day P&L **+$50.40 / +0.052%**)
+- Cash: $86,720.01 (**89.11% cash**)
+- Buying power: $376,570.68 (regt $184,043.82 / non-marginable $92,021.91)
+- Portfolio value: $97,323.81
+- Position market value: $10,603.80 (**10.90% deployed** — WELL BELOW 75-85% target band)
+- Daytrade count safe (equity > $25k; PDT limit moot)
+- **Phase P&L:** -$2,676.19 from $100k start (-2.676%) — narrowed from Wed close -2.736% on XLF Thu AM pre-mkt mark
+- **Baseline reconciliation:** Alpaca `last_equity` $97,273.41 Thu AM stamp vs TRADE-LOG Wed EOD $97,263.51 = $9.90 drift (negligible, well under $150 threshold → retain TRADE-LOG baseline per routine spec). `balance_asof` 2026-11-11 Wed close stamp confirmed.
+
+### Positions (sole: XLF — unchanged structure since 2026-09-17/21 entries)
+| Ticker | Shares | Avg Entry | Pre-mkt Mark | Unrl P&L | Unrl % | Stop (trail 10%) | HWM | Cushion |
+| - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $58.91 | +$515.70 | **+5.11%** | $54.036 (2 legs 90+90) | $60.04 | +$1.13 (+1.92%) to HWM retest / +$6.79 (+11.54%) to $52.12 -7% cut flag |
+
+- Alpaca `current_price` $58.91 Thu AM pre-mkt mark vs snapshot Wed close $58.61; `lastday_price` $58.63 → `change_today` +$0.28 (+0.48%) pre-open indicative
+- GTC trail stops: 90 sh (8bd5213b) + 90 sh (bbf96d5f) both `trail_percent:"10"`, `stop_price:"54.036"`, `hwm:"60.04"`, `time_in_force:"gtc"` — both `status:"new"`, **`updated_at` 2026-11-05T14:30:12Z unchanged** (last server-side ratchet Thu 11/05 AM open)
+- Expires Dec 16/18 2026 (both)
+
+### Market Context (Wed 11/11 close — Alpaca snapshots; Thu AM pre-mkt futures NOT available via Alpaca free feed)
+- **Indices Wed close:** SPY $759.80 **+1.32%** / QQQ $690.40 **+2.31%** / DIA $524.47 +0.51% / IWM $283.09 +0.89% — **broad risk-ON Wed Veterans Day thin tape; tech-led, 9 of 11 sectors positive**
+- **VIX proxy (VXX) Wed close:** $17.72 **-6.64%** — vol REGIME FULLY DIGESTED CPI-hot; forward uncertainty collapsed
+- **Crude (USO proxy) Wed close:** $141.48 +0.03% — $87-88 WTI range continues, flat Wed
+- **Gold (GLD) Wed close:** $365.20 **-1.14%** — miners breakdown extended; NEM $118.46 -1.21% / AEM $185.98 -2.30% / GDX $85.22 -1.48%
+- **Treasury proxies (bond mkt CLOSED Wed Veterans Day):** TLT $80.94 +0.06% / IEF $90.93 -0.11% — ETF trading only (no rate action Wed); **10Y level Thu AM reopen = NEW DATA POINT**
+- **Sectors Wed close (ranked):** XLK **+3.20%** (best) / XLE +1.82% / XLI +1.29% / XLC +0.83% / XLF +0.57% / XLP +0.44% / XLB +0.32% / XLU +0.23% / XLV +0.04% / XLY -0.07% / XLRE -0.02%
+- **Single-name tech (Wed close — AI/semi rip):** CRWV **+24.74%** ($60.80 Q3 beat gap-up) / ORCL **+8.77%** ($128.31) / SMH **+4.85%** / AVGO **+4.05%** ($345.52) / PLTR +2.10% / NFLX +2.06% — **AI thermometer BULLISH RELOAD Wed**
+- **Mon-Tue-Wed 3-session cumulative:** SPY +3.29% / XLK +4.79% → **XLK OUTPERFORMS SPY by +1.50% on 3-session basis** — AI/semi "moratorium" thesis from prior sessions requires RECONSIDERATION (see Idea 1 analysis below)
+- **Position endpoint XLF current_price $58.91** vs snapshot Wed close $58.61 → Alpaca internal mark updated post-session (Thu AM pre-open indicative +0.48%)
+
+### Thu 11/12 Catalysts
+- **Initial Jobless Claims 08:30 ET** — week ending Nov 7; TD consensus 195k vs prior 189k (financecalendar: no consensus; recent ~203-206k). Cool claims = labor softening = rate-pivot DOVISH signal; hot claims = labor firming = HAWKISH
+- **Fed speakers:** Daly 13:10 ET at Stanford (keynote); Williams 18:30 ET (panel) — POST-CPI RHETORICAL RISK HIGH; any 50bp language = XLF/duration-sensitive volatility
+- **PPI Fri 11/13 08:30 ET** — TD consensus +0.4% MoM vs prior +1.3%; **Thu PM = pre-PPI positioning; HALF-SIZE rule applies to fresh entries carrying into Fri PPI print**
+- **Bond market REOPENS Thu** — fixed-income fully-liquid first session post-Veterans Day; 10Y level known Thu AM (was 5.0% intraday Tue; Wed no bond action)
+- **Government shutdown resolution pending** — Barchart Wed "futures climb as shutdown nears end"; House vote signaled; policy catalyst Thu possible
+- **Earnings BMO Thu:** no specific notable reports confirmed via web search (fall back to during-session screen if single-name catalyst appears)
+- **Veterans Day Wed tape reflection:** thin cross-asset liquidity produced sharp tech rally (+3.20% XLK on CRWV halo + AI thermometer); may be thin-tape artifact OR regime reset — Thu full-liquidity session RESOLVES
+
+### Thu Decision Context (Decision Rule framework — CPI binary RESOLVED Tue; pre-PPI Thu PM half-size overlay Fri print)
+- **Sector momentum revision:** Prior session research flagged AI/semi moratorium STRENGTHENED based on Mon Nvidia slump + RGTI Tue -6.4% + MS Samsung/Hynix cuts + Anthropic IPO binary. Wed data CONTRADICTS: XLK +3.20% (best sector) / SMH +4.85% / AVGO +4.05% / CRWV +24.74% / ORCL +8.77%. Mon-Wed XLK +4.79% vs SPY +3.29% = +1.50% sector-relative outperformance. **AI/semi moratorium thesis MATERIALLY WEAKENED by Wed data.** However: (a) Wed Veterans Day thin tape may be noise (requires Thu full-liquidity confirmation); (b) sector LEADERSHIP needs multi-session confirmation beyond single Wed session; (c) individual tech names ALREADY GAPPED Wed (chase R:R poor Thu).
+- **Gold miners sector:** Day 7-8 regime BROKEN. Tue -3.6% relative loss on CPI-hot; Wed extended -2.5 to -3.6% relative on broad risk-on (NEM/AEM/GDX fell while SPY +1.32%). **Sector momentum DEFINITIVELY BROKEN two consecutive sessions.** Requires multi-session reclaim + gold $4,100+ breakout before re-screen.
+- **Energy sector exit rule:** Still ACTIVATED from Wed XLE+XOM failed trades. Crude $87 Wed = $85-$90 range, NOT $95+ sustained. XLE 2-session RS positive (Tue +0.44% / Wed +1.82%) but EXIT rule requires crude $95+ sustained + sector multi-session breakout.
+- **Rate-hike-pivot regime (CPI-hot Tue):** 10Y spiked 5.0% Tue; Wed no bond action (holiday); Thu AM reopen = NEW DATA. **Rate regime UNCERTAIN at pre-open** — status resolved Thu 08:30-10:00 ET.
+- **Veterans Day thin-tape artifact risk:** Wed XLK +3.20% on light volume (XLK volume ratios versus 20-day avg not confirmed via Alpaca free feed; thin-tape caveat applies).
+
+### Idea Screen (10 candidates — Decision Rule format)
+
+**Idea 1 — XLK / AI-semi tech RECLAIM FRESH (PRIMARY Thu — regime pivot candidate):**
+- Catalyst: ✓ CRWV +24.74% Q3 beat (Citi 200%+ target reiterated) + XLK +3.20% broad sector rip + SMH +4.85% / AVGO +4.05% / ORCL +8.77% halo = multi-name AI-semi reload Wed
+- Test 1: △ specific catalyst = Wed sector RIP, but Thu single-name trigger absent (no Thu earnings/guidance for NVDA/AVGO/MSFT; CRWV/ORCL already gapped Wed)
+- Test 2: △ Wed XLK +3.20% single-session reclaim; Mon-Wed cumulative +4.79% vs SPY +3.29% = +1.50% sector RS → arguably multi-session reclaim, BUT prior "moratorium" thesis assumed multi-session confirmation needed and Veterans Day thin-tape may be noise
+- Test 3: ✗ SMH ETF $507.20 close → 10% stop $456.48 (acceptable band); NVDA $184.97/MSFT $530.23/AVGO $345.52 single-names structural (large mega-caps, 10% stop definable)
+- Test 4: ✗ **CHASE R:R POOR** — SMH Wed +4.85% from $483.76→$507.20 already prints near prior high; CRWV $60.80 after +24.74% gap = mean-reversion risk >> continuation; ORCL +8.77% gap-chase; NVDA mega-cap R:R structural
+- Buy-Side Gate: ✓ passes (slot 2/6, Wk-23 FRESH 1/3, cost <20%, cash ample, catalyst docs'd, stocks)
+- **Resolve-now check:** (a) XLK $174.35 Wed close; Thu pre-mkt quote not in Alpaca free feed pre-open; (b) Thu bond-reopen 10Y level unknown — rate-pivot regime unresolved; (c) Wed thin-tape volume ratios unresolved at pre-open; (d) no Thu single-name catalyst for NVDA/AVGO. Resolve: Thu is a REGIME-CONFIRMATION session, not a chase-entry session.
+- **DOES NOT QUALIFY → NO ENTRY** — **TEST 4 FAILED** (gap-chase R:R poor on single-names; SMH/XLK ETF R:R structural; Thu is wait-for-confirmation session, not chase). Single-session Wed rip on thin-tape Veterans Day insufficient to override multi-session sector momentum requirement. Not a flat-session violation — specific test named.
+
+**Idea 2 — CRWV FRESH chase (post-Wed +24.74% gap):**
+- Catalyst: ✓ Q3 BEAT + Citi 200%+ target + "biggest one-day gain since August"
+- Test 1: ✓ specific catalyst (earnings beat Wed AMC digested)
+- Test 2: △ AI/semi moratorium weakened Wed but single-name post-beat mean-reversion risk > continuation on Thu
+- Test 3: ✗ chasing $60.80 after +24.74% single-session gap = stop needs to be BELOW $54.72 (10% band); but mean-reversion to pre-beat $48.74 = -19.8% risk → stop placement above pre-beat consolidation requires narrower stop than 10%
+- Test 4: ✗ post-beat gap-chase R:R poor (bounded upside near Citi target; downside mean-reversion to $48-50)
+- **DOES NOT QUALIFY → NO ENTRY** — Tests 3 + 4 fail (gap-chase R:R poor)
+
+**Idea 3 — ORCL FRESH chase (post-Wed +8.77% gap):**
+- Catalyst: ✓ Wed +8.77% move = single-name catalyst (likely cloud/AI reload)
+- Test 2: ✓ AI/cloud sector read aligned with Wed broad tech rip
+- Test 3: △ $128.31 close → 10% stop $115.48; $117.96 prev day = tight band risk
+- Test 4: ✗ chase R:R structural post-+8.77% gap; mean-reversion risk
+- **DOES NOT QUALIFY → NO ENTRY** — Test 4 fail (chase R:R structural)
+
+**Idea 4 — NEM/AEM/GDX gold miners — SECTOR DEFERRED CONTINUING:**
+- Catalyst: ✗ gold regime broken (-1.14% GLD Wed extending Tue break)
+- Test 2: ✗ **SECTOR MOMENTUM DEFINITIVELY BROKEN** — Day 7 Tue -4% / Day 8 Wed -1.2 to -2.3% on risk-on tape = -2.5 to -3.6% relative loss; two consecutive sessions of sector-leadership loss. Requires multi-session reclaim + gold $4,100+ breakout.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 fail (sector momentum broken, extended)
+
+**Idea 5 — XLE / Energy single-names (XOM/CVX/COP/EOG/HAL/DVN/FANG):**
+- Catalyst: △ XLE Tue +0.44% / Wed +1.82% = 2-session RS positive; crude $87 Wed holding
+- Test 2: ✗ **SECTOR EXIT RULE REMAINS ACTIVATED** (Wed XLE+XOM failed trades require crude $95+ sustained + sector multi-session breakout); crude $87 = sub-$90 regime
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 fail (exit rule active, crude sub-$95)
+
+**Idea 6 — XLF ADD (sole position; Day 10 bank-bid continuation):**
+- Catalyst: △ XLF Wed +0.57% / Berkshire add Nov 9 $26.7M / XLF outflows $797M prev week; rate-pivot UNRESOLVED pending Thu bond reopen
+- Test 1: ✗ catalyst MIXED (Berkshire + bank-bid vs rate-hike-pivot + outflows) = NO dominant Thu catalyst for ADD
+- Test 4: ✗ ETF R:R structural
+- **DOES NOT QUALIFY → NO ADD** — Tests 1 + 4 fail; HOLD existing 180 sh
+
+**Idea 7 — Defensive mega-caps (XLV/XLP/UNH/JNJ/PG/KO):**
+- Wed XLV +0.04% / XLP +0.44% / UNH -0.51% / JNJ -0.16% / PG -0.58% / KO +0.66% — defensive bid FADED on Wed risk-on
+- Test 2: ✗ defensive momentum broken Wed (XLV/XLP underperformed broad SPX +1.32%); regime now risk-on
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 fail
+
+**Idea 8 — Industrials (XLI) +1.29% Wed:**
+- Catalyst: △ shutdown-end hope (Barchart) + modest Wed RS
+- Test 1: ✗ no specific Thu single-name industrial catalyst
+- Test 2: △ single-session RS (Tue -0.09% Wed +1.29%) not multi-session confirmed
+- **DOES NOT QUALIFY → NO ENTRY** — Test 1 fail
+
+**Idea 9 — Banks single-names (JPM/BAC/WFC/GS/C) FRESH:**
+- Wed: JPM +0.38% / BAC -0.08% / WFC +0.05% / GS n/a (snapshot gap) — mild Wed
+- Test 1: △ rate-pivot UNRESOLVED (bond reopen Thu); catalyst direction ambiguous
+- Test 2: ✗ banks did not participate in Wed +1.32% broad rally; no sector leadership
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 fail
+
+**Idea 10 — Defense / Duration-sensitive / Inverse / Volatility ETPs:**
+- Defense (LMT/NOC/RTX/GD/HII): reg-overhang structural BLOCK (unchanged)
+- XLU +0.23% / XLRE -0.02% Wed: rate-pivot pending Thu bond-reopen; duration-sensitive status ambiguous — Test 2 marginal
+- VIXY/UVXY/SQQQ/SOXS/TBT: instrument-type rule violation (stocks-only); BLOCKED
+- **ALL DO NOT QUALIFY → NO ENTRY**
+
+### DECISION — NO FRESH ENTRY THU / HOLD XLF / THU IS REGIME-CONFIRMATION SESSION
+
+**Trade 1: NO FRESH ENTRY Thu 11/12**
+- All 10 screened ideas have specific NAMED failed tests per CLAUDE.md Decision Rule:
+  - XLK/AI-semi reclaim: Test 4 (chase R:R poor on single-names + ETF R:R structural)
+  - CRWV: Tests 3 + 4 (gap-chase R:R)
+  - ORCL: Test 4 (gap-chase R:R)
+  - Gold miners (NEM/AEM/GDX): Test 2 (sector momentum definitively broken)
+  - Energy: Test 2 (sector exit rule active, crude sub-$95)
+  - XLF ADD: Tests 1 + 4 (mixed catalyst + ETF R:R)
+  - Defensives: Test 2 (defensive bid faded Wed risk-on)
+  - Industrials: Test 1 (no specific Thu catalyst)
+  - Banks: Test 2 (no Wed participation in broad rally)
+  - Defense/Duration/Inverse: structural blocks
+- **NOT a flat-session violation** per CLAUDE.md — every idea has specific named failed test per Decision Rule.
+
+**Trade 2 (no change): HOLD XLF (180 sh)**
+- Cushion +11.54% to $52.12 (-7% manual-cut flag unchanged from $56.045 avg entry)
+- GTC trail $54.036 both legs active (hwm $60.04 Thu 11/05); unchanged since Thu AM ratchet
+- Thu HWM retest watch: gap +1.92% from $58.91 pre-mkt mark to $60.04 — CLOSEST gap since Thu 11/05 ratchet (Mon $2.19 / Tue $2.08 / Wed $1.47 / Thu $1.13)
+- Day 9-10 bank-bid continuation on structural catalyst (Berkshire add); rate-pivot regime pending Thu bond reopen; no action required — trail stops carry the position
+
+**Thu regime-confirmation agenda:**
+1. 08:30 ET Jobless Claims print — labor regime signal (cool = dovish rate-pivot pressure; hot = hawkish continuation)
+2. Bond market reopens — 10Y level vs Tue 5.0% intraday high (pull-back = rate-pivot reversal catalyst for banks/duration-sensitive)
+3. XLK Thu action — does Wed +3.20% confirm or fade? Full-liquidity session resolves thin-tape artifact question
+4. 13:10 ET Daly keynote (Stanford) — hawkish escalation risk
+5. 18:30 ET Williams panel — rhetorical risk continues
+6. Thu PM pre-PPI positioning — HALF-SIZE constraint applies to any fresh Thu PM entry carrying into Fri PPI print (none planned)
+
+### Risk Factors (Thu 11/12)
+1. **Veterans Day Wed thin-tape artifact risk** — Wed XLK +3.20% on light volume; may reverse Thu full-liquidity; AI/semi sector read requires Thu confirmation
+2. **Thu bond-market REOPEN (post-Veterans Day)** — 10Y level will reprice vs Tue 5.0% intraday high; direction of rate repricing = rate-pivot regime resolution; XLF / banks / duration-sensitive affected
+3. **Thu Jobless Claims 08:30 ET** — binary macro print; cool (<195k TD / <203k financecalendar) = dovish signal; hot = hawkish continuation
+4. **2 Fed speakers Thu (Daly 13:10 + Williams 18:30)** — post-CPI rhetorical risk HIGH; any 50bp language = XLF discretionary-trim <$55.90 watch arms
+5. **Fri PPI 08:30 ET (TD consensus +0.4% MoM vs prior +1.3%)** — Thu PM pre-positioning; HALF-SIZE rule for carrying entries into Fri print
+6. **Government shutdown resolution** — Barchart Wed "futures climb as shutdown nears end"; House vote signaled; policy catalyst Thu/Fri possible (could reverse Wed shutdown-end rally if votes fail)
+7. **Gold miners sector regime DEFINITIVELY BROKEN** — Day 7-8 two-session breakdown; NEM/AEM/GDX re-screen window requires multi-session reclaim + gold $4,100+ breakout; monitor for Thu continuation vs reversal
+8. **CRWV +24.74% mean-reversion risk Thu** — post-beat gap digest typically reverts next session; AI sentiment thermometer at risk of fade
+9. **AI/semi "moratorium" thesis under review** — Wed data contradicts prior-session moratorium strengthening narrative; Thu confirmation needed before FRESH entry qualifies on Test 2
+10. **XLF outflows $797M prev week** — structural flow headwind persists despite Wed +0.57% / Mon-Wed cumulative +1.4%; monitor trail $54.036 for breakdown
+11. **Flat-session Wk-23 Day 4** — 0 FRESH trades Wk-23 through Thu AM; Decision Rule FRESH budget 3/3 intact; flat NOT violation (specific failed tests named all ideas)
+12. **Weekly review Wk-22 STILL PENDING (critical)** — Mon+Tue+Wed backfill all MISSED; now 3 consecutive misses; Wk-16/17/18 also overdue (5+ weeks); **Thu AM post-market-open = CRITICAL backfill slot before Thu catalysts intensify afternoon**
+
+### MARKET-OPEN Routine Action List (Thu 11/12 09:30 ET — full-liquidity post-Veterans Day; Jobless Claims 08:30 pre-open)
+1. **NO FRESH ENTRIES PLANNED** — all screened ideas fail specific named tests; MARKET-OPEN reads this decision, confirms no execution, no action beyond stop maintenance
+2. **XLF MANUAL-CUT vigilance (sole position)** — cushion +11.54% to $52.12 flag; GTC trail $54.036 hwm $60.04. If XLF < $52.12 at runtime → cancel bbf96d5f + 8bd5213b, market sell 180 sh (strict -7% rule). XLF would need -11.5% from $58.91 Thu pre-mkt mark to trigger
+3. **XLF DISCRETIONARY-TRIM WATCH <$55.90** — if Thu Jobless Claims HOT + Daly hawkish + 10Y resurges to 5.0%+ causing XLF break <$55.90 at runtime → consider discretionary trim (e.g., 50% position = 90 sh) ahead of trail $54.036 natural exit. Rationale: rate-hike-pivot regime + XLF $797M outflow prev week. Discretionary, not trigger-rule style
+4. **XLF HWM RETEST WATCH (highest priority Thu)** — HWM $60.04; Thu rally above $60.04 = new HWM + server-side trail ratchet. Gap +$1.13 (+1.92% from $58.91) — CLOSEST gap in 4 sessions. Possible on Jobless Claims cool print + XLK continuation + 10Y pull-back combo
+5. **XLF discretionary-tighten watch** — +5.11% unrl; first-tighten +15% threshold ~$64.45 (gap ~$5.54, +9.40% move from $58.91); NOT at tighten threshold
+6. **ENERGY SECTOR EXIT RULE REMAINS ACTIVATED** — crude $87 Thu is sub-$95 regime; XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED unless crude $95+ sustained sector reset
+7. **Semi/chip/AI MORATORIUM UNDER REVIEW** — Wed XLK +3.20% / SMH +4.85% / AVGO +4.05% / CRWV +24.74% / ORCL +8.77% CONTRADICTS prior moratorium thesis. Thu action: NO FRESH tech entries (chase R:R poor); however watch for Thu reversion vs confirmation to inform Fri-Mon re-screen eligibility. SMH/NVDA/AVGO/MSFT/CRWV CHASE BLOCKED Thu
+8. **Gold miners DEFINITIVELY DEFERRED** — Test 2 sector momentum broken 2 sessions; NEM/AEM/GOLD/GDX/GLD BLOCKED. Thu action: monitor NEM/GDX for multi-session reclaim OR gold $4,100+ breakout
+9. **Defense reg-overhang** — LMT/NOC/RTX/GD/HII BLOCKED (unchanged)
+10. **Duration-sensitive (XLU/XLRE)** — rate-pivot UNRESOLVED pending Thu bond reopen; BLOCKED until 10Y level confirmed Thu AM
+11. **Volatility/inverse ETPs** — VIXY/UVXY/SQQQ/SOXS/TBT instrument-type violation (stocks-only); BLOCKED
+12. **Banks single-names** — rate-pivot UNRESOLVED; no Wed participation in broad rally; JPM/GS/SCHW/BAC/WFC/C BLOCKED (XLF held via Berkshire add catalyst at ETF level)
+13. **Weekly review Wk-22 backfill — CRITICAL NON-TRADE ACTION Thu AM** — 3 consecutive missed backfills Mon-Wed; Wk-16/17/18 backlog (5+ weeks overdue). Weekly-review skill MUST run Thu post-market-open or Thu midday before Fri PPI binary
+14. **Daly 13:10 ET + Williams 18:30 ET** — monitor for hawkish escalation / 50bp language; if XLF breaks <$55.90 on hawkish surprise → discretionary-trim watch arms
+15. **No gates relaxed, no overrides planned** — Wk-23 Day 4 opens with 5 structural slots; 1 held (XLF); FRESH budget 3/3 Wk-23 intact; deployment 10.90% well below 75-85% target but qualifying setup absent per Decision Rule
+
+### Wk-23 Slot Budget (Day 4 Thu — post-Veterans Day full tape / pre-PPI positioning)
+- FRESH planned Thu: 0/3 (all screened ideas fail specific named tests); FRESH budget remaining: 3/3 intact for Thu-Fri
+- Position cap: 1/6 (XLF); 5 structural slots remaining
+- Deployment: 10.90% ($10,603.80 / $97,323.81); 75-85% band remains distant — NOT a buy signal per Decision Rule
+- Semi moratorium: UNDER REVIEW (Wed data contradicts prior strengthening; Thu confirmation needed; chase R:R blocks Thu entries regardless)
+- Energy sector EXIT RULE: ACTIVATED ($95+ crude sustained + XLE breakout required)
+- Defense sector reg-overhang: structural BLOCK
+- Duration-sensitive defensives (XLU/XLRE): rate-pivot UNRESOLVED pending Thu bond reopen
+- Rate-hike-pivot regime: UNRESOLVED (10Y Tue 5.0% intraday; Wed holiday; Thu reopen resolves)
+- Gold miners: Day 7-8 sector-leadership DEFINITIVELY BROKEN; DEFERRED
+- Defensive mega-caps (XLV/XLP singles): Wed bid faded; Test 2 fail
+- Banks: no Wed participation in broad rally; rate-pivot pending
+- Industrials: single-session RS, no Thu catalyst
+- Wk-22 weekly review: BACKFILL CRITICAL — 3 consecutive misses; PRIMARY Thu AM action
+- Wk-16/17/18 weekly review backlog: 3 overdue 5+ weeks
+
+### Watchlist / Deferred (Thu midday + afternoon + Fri session)
+- **Jobless Claims 08:30 ET** — labor regime signal; cool print = dovish rate-pivot pressure (XLF HWM retest catalyst)
+- **10Y bond reopen Thu AM** — rate-pivot regime resolution; pull-back from 5.0% = XLF/duration beneficiaries
+- **Daly 13:10 ET + Williams 18:30 ET** — hawkish escalation watch; XLF <$55.90 discretionary-trim if materializes
+- **XLK Thu confirmation vs reversion** — thin-tape artifact resolution; if Thu confirms (XLK > +0.5% day) = AI/semi moratorium regime reset candidate for Fri re-screen
+- **CRWV/ORCL Thu mean-reversion watch** — post-gap digest typical; AI thermometer flux
+- **Gold miners sector-reclaim watch** — multi-session outperformance vs broad OR gold $4,100+ breakout = NEM/AEM re-screen; if gold breaks $4,000 = thesis fully destroyed
+- **Fri PPI 08:30 ET** — TD consensus +0.4% vs prior +1.3%; macro binary; Thu PM HALF-SIZE constraint any carry entry
+- **Government shutdown resolution** — House vote watch; policy catalyst flux Thu/Fri
+- **XLF cushion health intraday** — monitor <$55.90 discretionary-trim / <$54.036 trail execution / <$52.12 -7% manual-cut
+- **Crude $87 → $95 path** — WTI $87 Thu holding; $95+ sustained + XLE multi-session breakout required for sector-exit rule reset
+- **Weekly review Wk-22 CRITICAL** — Thu AM backfill; Wk-16/17/18 backlog
