@@ -11029,3 +11029,185 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Rigetti Tue -6.4%** — AI/quantum single-name moratorium confirmation
 - **Weekly review Wk-22 PRIMARY** — Wed market-open followup; Wk-16/17/18 backlog before Thu-Fri trading
 - **Thu-Fri setups TBD** — if gold miners sector-reclaim materializes or specific earnings catalyst arrives Thu AM (none currently screened)
+
+## 2026-11-13 — Pre-market Research (Fri Wk-23 Day 5 — PPI DAY 08:30 ET / post-Thu-Day10 XLF Day11 / weekly review day / NEM re-screen 3rd attempt — crushed overnight -4.92%)
+
+### Account
+- Equity: $97,260.00 (Thu close $97,197.81 last_equity → pre-mkt +$62.19 / +0.064%)
+- Cash: $86,720.01 (89.16% cash)
+- Buying power: $376,392.01 (regt $183,980.01 / non-marginable $91,990)
+- Portfolio value: $97,260.00
+- Position market value: $10,539.99 (10.84% deployed — WELL BELOW 75-85% target band)
+- Daytrade count: safe (equity > $25k; PDT limit moot)
+- **Phase P&L:** -$2,740 from $100,000 start (-2.74%)
+
+### Positions (sole: XLF)
+| Ticker | Shares | Avg Entry | Current | Unrl P&L | Unrl % | Stop (trail 10%) | HWM | Cushion |
+| - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $58.5555 (pre-mkt) | +$451.89 | +4.48% | $54.036 (2 legs 90+90) | $60.04 | +$4.52 to -7% manual-cut flag ($52.12) / +$1.48 to hwm retest |
+
+- XLF Thu close $58.21 (lastday_price per Alpaca; Thu day -0.72% per sector tape); Fri pre-mkt Alpaca bid/ask $58.18/$58.26 (Thu 16:02 ET stale timestamp — Yahoo intraday pre-mkt live $58.21 flat) — note: Thu EOD snapshot stamped $58.385 Thu close (TRADE-LOG) but Alpaca `lastday_price` = $58.21 — $0.175 reconciliation drift (below $0.20 material threshold; retain TRADE-LOG baseline per spec).
+- GTC trail stops: 90 sh (8bd5213b) + 90 sh (bbf96d5f) both `trail_percent:"10"`, `stop_price:"54.036"`, `hwm:"60.04"`, `time_in_force:"gtc"`, `status:"new"`, both `updated_at` 2026-11-05 14:30:12 UTC (Day 9 unchanged since first ratchet).
+- Cushion +11.74% to $52.12 (-7% manual-cut flag from avg entry $56.045 unchanged).
+
+### Market Context (Thu 11/12 close + Fri 11/13 pre-mkt)
+- **Indices (Thu close):** SPX 7592.40 -0.35% / NDX 25366.09 -0.39% / DJIA 52297.09 -0.36% — Thu modest broad weakness Day 2 post-CPI-hot regime digest.
+- **Futures (Fri pre-mkt):** ES=F 7649.5 +0.45% / NQ=F 28446.25 +0.22% — modest risk-on ahead of PPI 08:30 ET.
+- **VIX:** 17.77 **-4.97%** — sub-18 continued vol-compression Day 3 post-CPI-hot resolution.
+- **Crude:** WTI $89.11 +0.42% / Brent $96.75 +0.97% — WTI approaching $90 but NOT $95+ sustained; Brent holds above $95; Hormuz geopolitical overlay persists (prior week Iran Hormuz 7.2% crude move context).
+- **10Y Treasury:** **5.09%** (up 8bp Thu to Thu close) — rate-hike-pivot HARDENING continues; Dec rate HIKE path further confirmed.
+- **Sectors Thu close:** XLE 64.33 **+1.51%** (energy sector-leader Day 2-3 RS) / XLB 52.34 -1.28% (worst) / XLI 169.44 -0.89% / XLK 173.77 -0.34% / XLV 187.83 -0.59% (defensive fade) / XLP 91.06 -0.43% (defensive fade) / XLF 58.21 -0.72% (bank-bid Day 10 mild weakness)
+- **Gold overnight CRUSHED:** NEM $112.64 **-4.92%** / GLD $354.89 -2.82% / GDX $81.84 -3.95% / AEM $178.41 -4.06% — miners Day 10 regime DECISIVELY BROKEN; dollar strength + 10Y 5.09% real-rate hardening confirmed as negative catalyst.
+- **Energy singles pre-mkt Fri strong:** XOM $169.78 +1.84% / CVX $216.35 +1.44% / COP $140.06 +1.6% / EOG $155.62 +1.2% / FANG $182.2 +1.33% / DVN $46.23 +2.85% / HAL $32.76 -0.52% (laggard) — broad energy single-name bid.
+
+### Today's Catalysts (Fri 11/13 — PPI binary 08:30 ET + weekly review session)
+- **PPI DAY 08:30 ET** — October PPI release; consensus +0.4% MoM (after +1.3% prior); LAST BIG INFLATION DATA BEFORE DEC FED MEETING; binary macro event; HALF-SIZE constraint armed for any fresh entry pre/intra-PPI; routine fires 08:58 ET = post-PPI print (data in by execution).
+- **AMAT earnings 08:30 ET** — Applied Materials pre-open; AI/semi single-name read; moratorium structural block per Decision Rule.
+- **10Y 5.09% Thu close** — real-rate regime hardening (up from 5% Tue CPI-hot spike to 5.09% Thu); rate-hike-pivot ingrained; duration-sensitive sectors structural NEGATIVE.
+- **Gold overnight -3 to -5%** — NEM/GDX/AEM/GLD crushed on dollar strength + real-rate; miners Day 10 regime BROKEN (confirmation of Tue CPI-hot Test 2 failure; now even more decisive).
+- **Crude Brent $96+** — energy sector tailwind via Brent crack-spread; WTI $89 approaching $90 but NOT $95+ sustained reset threshold; XLE Thu +1.51% builds 2-day RS (Tue +0.44% / Thu +1.51%).
+- **Nvidia earnings next Tue (11/17)** — binary AI catalyst next week; this week's AI trade cautious; moratorium structural persists.
+- **Dollar strength persistent** — repricing of US Fed policy tightening; EM/commodity (ex-energy supply tightness) negative overlay.
+- **European bourses weaker Fri** — Richemont luxury earnings miss impact; broad European risk-off; neutral US beta.
+
+### Idea Screen (9 candidates — Decision Rule format, PPI HALF-SIZE constraint armed)
+
+**Idea 1 — NEM FRESH re-screen (3rd attempt — Mon chase block / Tue non-exec / Thu pre-mkt non-exec):**
+- Catalyst: ✗ **DECISIVELY NEGATED** — gold miners -3 to -5% overnight on dollar strength + 10Y 5.09% hardening; NEM $112.64 -4.92% confirms Day 10 regime BROKEN (vs Mon chase $125.90 → Fri $112.64 = -10.5% in 5 sessions).
+- Test 2: ✗ **SECTOR LEADERSHIP DECISIVELY BROKEN** — gold miners Day 10 regime closed; GDX -3.95% / NEM -4.92% / AEM -4.06% / GLD -2.82% = coordinated multi-sector-ETF collapse overnight. Reset criteria (sector reclaim via multi-session outperformance OR gold $4,100+ breakout) NOT met and MORE DISTANT than ever.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed decisively (5-session sector underperformance). Wk-23 FRESH attempt #3 closes with specific failed test named per Decision Rule. NOT a flat-session violation.
+
+**Idea 2 — XLE / Energy ADD (sector-level — Brent $96 + XLE +1.51% Thu):**
+- Catalyst: △ Brent $96.75 (above $95) + XLE +1.51% Thu (Day 2 RS; Tue +0.44% / Wed ? / Thu +1.51% = multi-session mild RS); crude WTI $89 approaching $90 but NOT $95+ sustained.
+- Test 1: △ catalyst mixed — Brent $95+ meets threshold but WTI $89 does NOT; XLE 2-day RS is modest not "breakout".
+- Test 2: ✗ **SECTOR EXIT RULE REMAINS ACTIVATED** — prior Wed XLE+XOM failed-trade 2-count rule; reset criterion per prior research-log convention = **WTI $95+ sustained + XLE multi-session breakout**; WTI $89.11 NOT $95+; XLE 2-day +3.4% is RS not breakout. Strict reading: BLOCKED.
+- Test 4: ✓ ETF R:R structural but entry at $64.33 target $70 stop $58 = ~$5.70 reward $6.30 risk → sub-2:1 anyway; 10% stop $57.90 = $6.43 risk; target needs $77+ for 2:1 → structural fail.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed (sector-exit rule not reset per WTI $95+ criterion) + Test 4 structural R:R fail.
+
+**Idea 3 — XOM / CVX / COP / EOG / FANG / DVN FRESH (energy singles pre-mkt +1-3%):**
+- Catalyst: ✓ specific pre-mkt rally +1-3% on Brent $96 / Hormuz overlay; FANG/DVN strongest.
+- Test 2: ✗ **SECTOR EXIT RULE ACTIVATED** (same as Idea 2) — XOM Wed stop-out + XLE Wed failed trade; reset criterion unmet (WTI $89, not $95+ sustained); individual single-name rally does not override sector block per Strategy Rule 10.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed (sector-exit rule block applies to all singles in exited sector).
+
+**Idea 4 — XLF ADD (sole position — Day 10 bank-bid continuation):**
+- Catalyst: ✗ **CATALYST REVERSED** — rate-hike-pivot HARDENED further (10Y 5.09% from 5.00% Tue); bank NIM pressure + credit tightening regime deepens; XLF $797M outflows prev week structural flow headwind; Thu close -0.72% is bank-bid fade not RS continuation.
+- Test 1: ✗ catalyst reversed (rate-hike NIM pressure + flow outflows + Thu RS fade).
+- Test 4: ✗ ETF R:R structural (same as Idea 2 energy ETF R:R math).
+- **DOES NOT QUALIFY → NO ADD** — Tests 1 + 4 fail; HOLD existing 180 sh.
+
+**Idea 5 — AMAT FRESH (Applied Materials — AI/semi earnings 08:30 ET):**
+- Catalyst: ✓ specific pre-open earnings catalyst Fri 08:30 ET.
+- Test 2: ✗ **AI/SEMI MORATORIUM STRENGTHENED** — Nvidia earnings next Tue (11/17) binary overhang; AI reg-scrutiny persistent; Mon Nvidia slump + Morgan Stanley Samsung/SK Hynix cuts + RGTI Tue -6.4% + Thu AI sentiment unknown; single-name earnings does NOT reset moratorium per Strategy Rule 9.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed (AI/semi moratorium structural block).
+
+**Idea 6 — XLK / Tech single-names FRESH (NQ +0.22% pre-mkt mild risk-on):**
+- Catalyst: △ NQ +0.22% futures / mild risk-on; no single-name catalyst specific to any ticker.
+- Test 1: ✗ tape-beta bounce ≠ specific single-name catalyst.
+- Test 2: ✗ AI/semi MORATORIUM structural + 10Y 5.09% duration hardening (worse than Wed 5.00%).
+- Test 4: ✗ mega-cap R:R structural.
+- **DOES NOT QUALIFY → NO ENTRY** — Tests 1 + 2 + 4 fail.
+
+**Idea 7 — XLV / XLP / Defensive mega-caps (UNH / JNJ / LLY / PG / KO / COST):**
+- Catalyst: ✗ Thu closes XLV -0.59% / XLP -0.43% = defensive RS from Tue 11/10 (XLV +0.29% / XLP +0.15% on 11-of-11-fell day) has FADED — defensives no longer leading.
+- Test 2: ✗ defensive sector RS BROKEN Thu (two sessions of underperformance Wed + Thu); multi-session RS no longer intact.
+- Test 4: ✗ ETF R:R structural; mega-cap defensive R:R structural.
+- **DOES NOT QUALIFY → NO ENTRY** — Tests 2 + 4 fail.
+
+**Idea 8 — Insurance / Rate-benefit (TRV / ALL / PRU / MET / AIG):**
+- Catalyst: △ 10Y 5.09% structural float-yield benefit; no specific Fri earnings or single-name trigger.
+- Test 1: ✗ no specific Fri catalyst documented (structural rate benefit ≠ specific entry trigger).
+- **DOES NOT QUALIFY → NO ENTRY** — Test 1 fail.
+
+**Idea 9 — Duration-sensitive / Defense / Inverse / Vol ETPs:**
+- Duration-sensitive (XLU/XLRE): rate-hike-pivot + 10Y 5.09% = NEGATIVE; Test 2 fail.
+- Defense (LMT/NOC/RTX/GD/HII): reg-overhang structural BLOCK.
+- Volatility/inverse (VIXY/UVXY/SQQQ/SOXS/TBT): instrument-type stocks-only rule violation; BLOCKED.
+- **ALL DO NOT QUALIFY → NO ENTRY**
+
+### DECISION — NO FRESH ENTRY FRI / HOLD XLF / WEEKLY REVIEW PRIORITY
+
+**Trade 1: NO FRESH ENTRY Fri 11/13**
+- All 9 screened ideas have specific NAMED failed tests per CLAUDE.md Decision Rule:
+  - NEM: Test 2 (gold miners Day 10 regime decisively broken; 5-session underperformance)
+  - XLE ADD: Tests 2 + 4 (sector-exit rule WTI $95+ criterion unmet + ETF R:R structural)
+  - XOM/CVX/COP/EOG/FANG/DVN singles: Test 2 (sector-exit rule applies to all singles)
+  - XLF ADD: Tests 1 + 4 (catalyst reversed rate-hike + ETF R:R)
+  - AMAT: Test 2 (AI/semi moratorium)
+  - XLK tech: Tests 1 + 2 + 4
+  - Defensives: Tests 2 + 4 (defensive RS broken Thu + R:R structural)
+  - Insurance: Test 1 (no Fri catalyst)
+  - Duration/Defense/Inverse: structural BLOCK
+- **NOT a flat-session violation** per CLAUDE.md — every idea has specific named failed test, not generic "patience/wait/protect cash" justification.
+- **Wk-23 FRESH budget 3/3 intact and unused** — closes week flat on screening quality, not timidity.
+
+**Trade 2 (no change): HOLD XLF (180 sh)**
+- Cushion +11.74% to $52.12 (-7% manual-cut flag unchanged from avg entry $56.045)
+- GTC trail $54.036 both legs active (hwm $60.04 Thu 11/05 unchanged); stops carry position
+- Day 10-11 bank-bid persists but 10Y 5.09% rate-hike-pivot deepening = NIM pressure overlay
+- No action required — trail stops carry
+
+**Post-CPI/PPI regime summary:**
+- Rate-hike-pivot HARDENED further (10Y 5.09%; Dec hike path ingrained)
+- Gold miners Day 10 regime DECISIVELY BROKEN overnight (NEM -4.92% / GLD -2.82%)
+- Energy single-names rally pre-mkt Fri but sector-exit rule unmet (WTI $89 < $95+ sustained)
+- AI/semi moratorium STRENGTHENED via Nvidia Tue 11/17 binary + 10Y 5.09% duration headwind
+- Defensive RS BROKEN Thu (XLV -0.59% / XLP -0.43%); no longer a leader
+- Dollar strength persistent → EM/commodity (ex-energy) negative overlay
+
+### Risk Factors (today — Fri 11/13 PPI binary + weekly close)
+1. **PPI 08:30 ET BINARY** — routine fires 08:58 ET = post-PPI data; if PPI hot >+0.4% → 10Y 5.09% extends / rate-hike odds harden further / defensive bid may reset / miners deeper break; if in-line +0.4% → modest digest; if cool <+0.3% → gold miners partial retrace possible intraday but overnight -5% gap may hold. HALF-SIZE rule armed for any fresh entry pre/intra-PPI; NO fresh entries planned regardless.
+2. **10Y 5.09% rate-hike hardening** — duration-sensitive (XLU/XLRE) + banks (NIM) + miners (opportunity cost) structural NEGATIVE deepens.
+3. **Gold miners Day 10 regime DECISIVELY BROKEN overnight** — NEM -4.92% / GLD -2.82% / GDX -3.95% / AEM -4.06% coordinated collapse; dollar strength + 10Y 5.09% real-rate materialized; NEM 3rd re-screen attempt closes with Test 2 failed definitively.
+4. **Energy sector-exit rule UNMET** — Brent $96 meets threshold but WTI $89 does NOT; XLE +1.51% Thu is Day 2 RS not breakout; XOM/CVX/COP/EOG/FANG/DVN singles all blocked by sector rule.
+5. **AI/semi moratorium STRENGTHENED** — Nvidia Tue 11/17 binary + 10Y 5.09% duration + AMAT Fri earnings single-name read; moratorium structural.
+6. **Defensive RS BROKEN Thu** — XLV -0.59% / XLP -0.43%; Tue rotation faded Wed-Thu; no longer leader.
+7. **XLF cushion health intraday** — monitor <$55.90 discretionary-trim / <$54.036 trail execution / <$52.12 -7% manual-cut; cushion +11.74% intact.
+8. **Nvidia earnings next Tue (11/17)** — binary AI catalyst; this week's AI trade cautious.
+9. **European bourses weak Fri** — Richemont luxury miss; neutral US beta.
+10. **Weekly review Wk-22 STILL PENDING** — 4+ consecutive miss sessions (Mon/Tue/Wed/Thu AM); Wk-16/17/18/22 backlog (5+ weeks overdue); **Fri EOD = natural weekly-review slot** — PRIMARY non-trade action for Fri session.
+11. **Flat Wk-23 Day 5 close** — 0/3 FRESH used; CLAUDE.md Decision Rule valid (every idea has specific failed test); weekly review classification pending per Tue market-open + Thu pre-mkt routine-miss flags.
+12. **Market gate pre-mkt**: routine fired at 08:58 ET (is_open=false; next_open 09:30 ET) — STEP 2 MARKET GATE applies at execution; if clock reports still-closed at STEP 2 re-validation, abort entries cleanly.
+
+### MARKET-OPEN Routine Action List (Fri 11/13 09:30 ET — PPI binary already printed by execution)
+1. **NO FRESH ENTRIES PLANNED** — all screened ideas fail specific named tests; MARKET-OPEN confirms no execution, no action beyond stop maintenance
+2. **XLF MANUAL-CUT vigilance (sole position)** — cushion +11.74% to $52.12 flag; GTC trail $54.036 hwm $60.04. If XLF < $52.12 at runtime → cancel bbf96d5f + 8bd5213b, market sell 180 sh (strict -7% rule). XLF would need -10.9% from $58.5555 pre-mkt to trigger.
+3. **XLF DISCRETIONARY-TRIM WATCH <$55.90** — if Fri open gap-down on hot PPI print and XLF breaks below $55.90 → consider discretionary trim (e.g., 50% position = 90 sh). Rationale: 10Y 5.09% + rate-hike-pivot + prior-week outflows + cushion defense. Discretionary, not rule.
+4. **XLF trail ratchet watch** — HWM $60.04; Fri rally above $60.04 = new HWM + server-side tighten. Gap +$1.48 (+2.55% from $58.5555 pre-mkt). Watch PPI-cool scenario or risk-on extension.
+5. **XLF discretionary-tighten watch** — +4.48% unrl; first-tighten +15% threshold ~$64.45 (gap ~$5.89 / +10.07%); NOT at threshold.
+6. **ENERGY SECTOR EXIT RULE REMAINS ACTIVATED** — WTI $89.11 Fri is NOT $95+ sustained; XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED despite pre-mkt +1-3% rallies.
+7. **Semi/chip/AI MORATORIUM STRENGTHENED** — Nvidia Tue 11/17 binary overhang + 10Y 5.09%; AMD/AAPL/AVGO/NVDA/SMH/PLTR/CRWV/AMAT BLOCKED.
+8. **Gold miners DEFERRED (DECISIVELY BROKEN overnight)** — NEM 3rd re-screen attempt closes Test 2 failed; re-screen only on gold $4,100+ breakout OR miners multi-session reclaim; both distant. NEM/AEM/GOLD/GDX/GLD BLOCKED.
+9. **Defense reg-overhang** — LMT/NOC/RTX/GD/HII BLOCKED.
+10. **Duration-sensitive defensives (XLU/XLRE)** — rate-hike-pivot deepened + 10Y 5.09% = NEGATIVE; BLOCKED.
+11. **Volatility/inverse ETPs** — stocks-only rule BLOCKED.
+12. **Banks single-names** — rate-hike-pivot catalyst REVERSED; JPM/GS/SCHW/BAC/WFC/C BLOCKED.
+13. **Defensives (XLV/XLP singles)** — Tue rotation faded Wed-Thu; Test 2 broken; BLOCKED.
+14. **Weekly review Wk-22 backfill — PRIMARY NON-TRADE ACTION Fri** — Fri EOD slot for Wk-23 + Wk-22 weekly review; Wk-16/17/18 backlog secondary.
+15. **MARKET GATE CHECK**: routine fired 08:58 ET pre-open; at STEP 2 re-validation in market-open block, if is_open=false → log "market closed, no entries" and skip to STEP 8 commit of research entry only.
+16. **No gates relaxed, no overrides planned** — Wk-23 Day 5 closes with 5 structural slots; 1 held (XLF); FRESH budget 3/3 Wk-23 unused (specific failed tests all ideas); deployment 10.84% well below 75-85% target but qualifying setup absent per Decision Rule.
+
+### Wk-23 Slot Budget (Day 5 Fri close)
+- FRESH planned Fri: 0/3 (all screened ideas fail specific named tests); Wk-23 FRESH budget closes 0/3 unused.
+- Position cap: 1/6 (XLF); 5 structural slots remaining
+- Deployment: 10.84% ($10,540 / $97,260); 75-85% band remains distant — NOT a buy signal per Decision Rule
+- Semi/chip/AI moratorium: STRENGTHENED (Nvidia Tue 11/17 binary + 10Y 5.09%)
+- Energy sector EXIT RULE: ACTIVATED (WTI $95+ sustained criterion unmet; $89.11 Fri)
+- Defense sector reg-overhang: structural BLOCK
+- Duration-sensitive defensives (XLU/XLRE): rate-hike-pivot NEGATIVE
+- Rate-hike-pivot regime: HARDENED (10Y 5.09%; Dec hike path ingrained)
+- Gold miners: Day 10 DECISIVELY BROKEN overnight; DEFERRED (3rd NEM re-screen attempt closes)
+- Defensive sector (XLV/XLP): Tue rotation faded Wed-Thu; Test 2 broken; not a leader
+- Banks single-names: catalyst reversed; XLF ADD rejected (1 + 4 fail)
+- Insurance 10Y-5.09% beneficiaries: no specific Fri catalyst
+- Wk-22 weekly review: BACKFILL STILL PENDING (4+ consecutive misses); PRIMARY ACTION Fri
+- Wk-16/17/18 weekly review backlog: 3 overdue (5+ weeks)
+
+### Watchlist / Deferred (midday + afternoon + Mon session)
+- **PPI print reaction 09:30-10:30 ET** — hot/in-line/cool read; XLF intraday cushion sensitivity; energy single-name magnitude on Brent $95+/WTI approach to $90
+- **Gold miners sector collapse watch** — if NEM breaks $110 or $100 round-number intraday, further thesis-break confirmation; no re-screen
+- **Energy sector reclaim watch** — if WTI breaches $90 intraday AND XLE +2%+ sustained Day 3 → partial criterion but not sufficient alone; MUST ACCUMULATE multi-session for Mon re-screen
+- **XLF cushion intraday** — <$55.90 discretionary-trim / <$54.036 trail execution / <$52.12 -7% manual-cut
+- **AMAT reaction 09:30 ET** — AI thermometer single-name; moratorium stays regardless
+- **Nvidia Tue 11/17 earnings positioning** — monitor NVDA/AVGO/AMD IV / positioning intraday; moratorium stays until catalyst clears
+- **Dollar / 10Y intraday PPI reaction** — 10Y 5.09% hardening path; if 5.15%+ → defensives/duration DEEPER pain; XLF NIM headwind deepens
+- **Weekly review Wk-22 PRIMARY** — Fri EOD slot; weekly-review skill required post-market
