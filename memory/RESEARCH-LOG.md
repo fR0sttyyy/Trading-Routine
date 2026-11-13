@@ -11211,3 +11211,24 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Nvidia Tue 11/17 earnings positioning** — monitor NVDA/AVGO/AMD IV / positioning intraday; moratorium stays until catalyst clears
 - **Dollar / 10Y intraday PPI reaction** — 10Y 5.09% hardening path; if 5.15%+ → defensives/duration DEEPER pain; XLF NIM headwind deepens
 - **Weekly review Wk-22 PRIMARY** — Fri EOD slot; weekly-review skill required post-market
+
+### Nov 13 — Midday Scan (Friday, 11:29 ET — Wk-23 Day 5 / post-PPI tape / 0 ACTIONS)
+
+**State pulled 11:29 ET:**
+- Clock: is_open=true; next_close 16:00 ET (today), next_open Mon 11/16 09:30 ET
+- Positions: XLF 180 sh @ avg $56.045 / current $58.575 / unrl +$455.40 (+4.514%) / intraday +0.627% ($0.365 above lastday $58.21) / mkt_val $10,543.50
+- Orders: 2 legs GTC trailing stops both ACTIVE — bbf96d5f (90 sh @ 10% / stop $54.036 / hwm $60.04) + 8bd5213b (90 sh @ 10% / stop $54.036 / hwm $60.04). No stale/new orders.
+
+**STEP 3 (-7% cut):** NO. XLF unrl +4.514% (cushion +11.51% from flag $52.12). Pass.
+**STEP 4 (tighten winners):** NO. +4.514% < +15% first-tighten threshold ($64.45); gap $5.875 / +10.03%. Pass.
+**STEP 5 (thesis break intraday):** NO — no thesis break. Pre-mkt research flagged rate-hike-pivot hardening (10Y 5.09%) + NIM pressure as structural overlay, but XLF intraday +0.63% morning session suggests PPI print did not shock the tape (would need intraday extension to 10Y 5.15%+ for deeper XLF pain). Current $58.575 well above discretionary-trim flag $55.90 (+4.78% cushion), trail stop $54.036 (+8.42% cushion), and -7% manual-cut $52.12 (+12.36% cushion).
+**STEP 6 (news check):** NOT TRIGGERED — XLF intraday +0.63% is normal action, not sharp move. No ticker in universe moving sharply without obvious cause (PPI print is the obvious cause for any macro-driven move).
+**STEP 7 (notification):** SKIPPED — no action taken.
+
+**Monitor through close:**
+- XLF discretionary-trim <$55.90 / trail-exec <$54.036 / manual-cut <$52.12 (all distant intraday)
+- XLF ratchet watch >$60.04 (gap +$1.465 / +2.50%) — PPI-cool intraday extension could trip new HWM + server-side tighten
+- 10Y 5.09% intraday reaction; 5.15%+ = defensive/duration deeper pain + XLF NIM headwind deepens
+- Energy sector reclaim watch (WTI >$90 sustained Day 3 for Mon re-screen criterion)
+
+**Wk-23 FRESH budget 3/3 unused** per Fri pre-mkt Decision Rule screen (9 ideas all with specific named failed test). Midday is not an entry-screening workflow. Weekly review Wk-22 backfill remains PRIMARY non-trade action for Fri session (EOD slot).
