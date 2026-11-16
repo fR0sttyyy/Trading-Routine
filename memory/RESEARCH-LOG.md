@@ -11232,3 +11232,202 @@ Order of preference at MARKET-OPEN routine runtime:
 - Energy sector reclaim watch (WTI >$90 sustained Day 3 for Mon re-screen criterion)
 
 **Wk-23 FRESH budget 3/3 unused** per Fri pre-mkt Decision Rule screen (9 ideas all with specific named failed test). Midday is not an entry-screening workflow. Weekly review Wk-22 backfill remains PRIMARY non-trade action for Fri session (EOD slot).
+
+## 2026-11-16 — Pre-market Research (Wk-24 Day 1 / Mon / NVDA Tue AMC T-1 / Warsh speech live / VIX breakout >20)
+
+### Account
+- Equity: $97,292.83 (Fri close last_equity $97,282.41 → pre-mkt +$10.42 / +0.011%)
+- Cash: $86,720.01 (89.13% cash)
+- Buying power: $376,483.94 (regt $184,012.84 / non-marginable $92,006.42)
+- Portfolio value: $97,292.83
+- Position market value: $10,572.82 (10.87% deployed — WELL BELOW 75-85% target band)
+- Daytrade count: safe (equity > $25k; PDT moot)
+- **Phase P&L:** -$2,707.17 from $100,000 start (-2.71%)
+- `balance_asof` 2026-11-13 Fri close stamped; intraday equity live; `unrealized_intraday_pl` +$10.42 confirms Mon AM flat
+- **Book-delta reconciliation:** XLF 180 × ($58.7379 - $58.68 lastday_price) = +$10.42 unrealized Δ vs Fri close stamp = EXACT match to `unrealized_intraday_pl`. **DATA FRESH**.
+
+### Positions (sole: XLF)
+| Ticker | Shares | Avg Entry | Current | Unrl P&L | Unrl % | Stop (trail 10%) | HWM | Cushion |
+| - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $58.7379 (pre-mkt) | +$484.72 | +4.80% | $54.036 (2 legs 90+90) | $60.04 | +$6.62 to -7% manual-cut flag ($52.12) / +$1.30 to hwm retest |
+
+- XLF Fri close $58.68 (lastday_price per Alpaca; Fri day +0.81% per sector tape); Mon pre-mkt Alpaca bid/ask $58.63/$58.72 (Fri 16:00 ET stale timestamp — modest pre-mkt uplift to $58.7379 current).
+- GTC trail stops: 90 sh (8bd5213b) + 90 sh (bbf96d5f) both `trail_percent:"10"`, `stop_price:"54.036"`, `hwm:"60.04"`, `time_in_force:"gtc"`, `status:"new"`, both `updated_at` 2026-11-05 14:30:12 UTC (Day 12 unchanged since first ratchet; gap to new HWM retest $1.30).
+- Cushion +11.27% to $52.12 (-7% manual-cut flag from avg entry $56.045 unchanged).
+
+### Market Context (Fri 11/13 close + Mon 11/16 pre-mkt)
+- **Indices (Fri close):** SPX 7561.67 **-0.40%** / NDX 25136.27 **-0.91%** / DJIA 52347.55 +0.10% — Fri AI-selloff resumed into weekend (NDX worst; DJIA defensive bid divergence).
+- **Futures (Mon pre-mkt):** ES=F 7530.25 **-0.70%** / NQ=F 27618.5 **-1.48%** — risk-off Day 1 Wk-24 with tech deeper fade (positioning stress into NVDA Tue AMC T-1).
+- **VIX:** 20.96 **+8.6%** — **REGIME BREAK >20 THRESHOLD** (Fri AM 17.77 → Mon pre-mkt 20.96 = +18% jump; vol-compression regime CLOSED; new fear-index regime live).
+- **Crude:** WTI $87.87 **-0.78%** / Brent $94.90 **-0.98%** — Brent back BELOW $95 (sector-exit-rule reset criterion WORSE); WTI below $88 Day 1 of Wk-24 (further from $95+ sustained threshold).
+- **10Y Treasury:** **5%+ confirmed** (Mon news "10Y rebounds above 5%"; likely 5.05-5.10% range Mon pre-mkt pending Warsh) — rate-hike-pivot regime STRUCTURAL.
+- **Sectors Fri close:** XLE 64.96 **+0.98%** (energy sector-leader Day 3 mild RS) / XLB 52.23 -0.21% / XLI 168.78 -0.39% / XLK 173.77 **-2.01%** (worst — AI/tech crushed pre-NVDA) / XLV 188.85 **+0.54%** (defensive revival Fri contra Thu fade) / XLP 92.35 **+1.42%** (defensive revival strongest Fri) / XLF 58.68 **+0.81%** (bank-bid Day 11 continuation)
+- **Gold overnight CONTINUED WEAK:** Silver $47.28 **one-year low**; gold price slipped below $3,851 ahead of Warsh; **gold miners regime Day 11 DECISIVELY BROKEN** (NEM/GDX/AEM confirmed via Fri overnight -3 to -5% residual + Mon weekend gold weakness continuation).
+- **Tech/AI pre-mkt Mon weak:** NQ=F -1.48% confirms AI selloff resumed Fri+Mon pre-mkt; "Nvidia Earnings: AI Selloff Resumes, Down 30%" headline indicates pre-earnings positioning stress; XLK Fri -2.01% = structural Day 1 regime shift pre-NVDA Tue AMC.
+
+### Today's Catalysts (Mon 11/16 — Warsh speech live + NVDA Tue AMC T-1 + VIX breakout)
+- **Fed Chair Warsh speech Mon 11/16** — rate-hike-pivot read; markets await Warsh remarks for Dec hike size signal; CME FedWatch 92% Dec 25bp / 8% 50bp — Dec hike fully priced, debate is size. Collins (Sun) cool on 50bp. Warsh record = quiet answer likely but any hawkish surprise = 10Y 5.15%+ risk = duration/defensive deeper pain + XLF NIM headwind deepens.
+- **NVDA earnings Tue 11/17 AMC — AI BINARY 24h AWAY** — "Nvidia Earnings: AI Selloff Resumes" pre-earnings positioning stress Fri+Mon; XLK -2.01% Fri + NQ=F -1.48% Mon pre-mkt = multi-session AI de-risking; T-1 structural AI/semi moratorium armed through Wed 11/18 post-NVDA tape.
+- **FOMC minutes Wed 11/18** — Oct 28 meeting minutes; rate-hike-path read; secondary macro overlay this week.
+- **Retail earnings cluster this week** — WMT Tue 11/17 / HD Tue 11/17 / TGT Wed 11/18 / LOW Wed 11/18 — consumer discretionary + staples read; Mon = pre-earnings positioning only (binary EPS catalysts T+1).
+- **Pre-open Mon 11/16 earnings** — Baidu, Tyson Foods, KE Holdings, GLBE, HAFN, GLNG, BLSH, ZIM, PONY, BKE — no major US single-name catalyst; non-US / small-cap mix.
+- **VIX breakout >20** — regime shift from sub-18 vol-compression (Fri AM 17.77 → Mon pre-mkt 20.96) — structural risk-off overlay; new regime Day 1.
+- **Gold one-year low + Silver one-year low** — precious-metals regime DEEPER BROKEN; miners re-screen blocked; dollar + 10Y 5%+ real-rate strength structural negative.
+- **Anthropic IPO watch** (CNBC week-ahead) — mentioned as AI narrative driver; noise vs NVDA binary.
+- **Nvidia Tue AMC positioning + Warsh Mon speech = double rate+AI event cluster Mon-Tue**.
+
+### Idea Screen (10 candidates — Decision Rule format, VIX >20 + NVDA T-1 overlay)
+
+**Idea 1 — NEM FRESH re-screen (4th attempt — Mon chase block / Tue non-exec / Thu pre-mkt non-exec / Fri decisive close):**
+- Catalyst: ✗ **DEEPER NEGATED** — gold hit one-year low Mon pre-mkt; silver $47.28 one-year low; dollar strength + 10Y 5%+ structural; Day 11 regime decisively broken.
+- Test 2: ✗ **SECTOR LEADERSHIP DEEPER BROKEN** — Fri overnight -3 to -5% residual + Mon weekend gold weakness continuation; reset criteria (sector reclaim via multi-session outperformance OR gold $4,100+ breakout) NOT met and MORE DISTANT than ever (gold $3,851 vs $4,100 threshold = $249 / 6.1% gap).
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed decisively (6-session sector underperformance). Wk-24 FRESH attempt #1 closes with specific failed test. NOT a flat-session violation.
+
+**Idea 2 — XLE / Energy ADD (sector-level — Brent $94.90 + XLE +0.98% Fri Day 3):**
+- Catalyst: ✗ Brent $94.90 BELOW $95 (sector-exit-rule reset criterion WORSE than Fri $96.75); crude WTI $87.87 BELOW $88 (further from $95+ sustained threshold).
+- Test 1: ✗ catalyst reversed intraweek (Brent $94.90 < $95; WTI $87.87 well below $90).
+- Test 2: ✗ **SECTOR EXIT RULE REMAINS ACTIVATED + WORSE** — prior Wed XLE+XOM failed-trade 2-count rule; reset criterion = **WTI $95+ sustained + XLE multi-session breakout**; WTI $87.87 NOT $95+; XLE 3-day +3.9% is RS not breakout per prior convention.
+- Test 4: ✗ ETF R:R structural (same math as Fri idea).
+- **DOES NOT QUALIFY → NO ENTRY** — Tests 1 + 2 + 4 fail (sector-exit rule unmet + Brent below $95 reversal + R:R structural).
+
+**Idea 3 — XOM / CVX / COP / EOG / FANG / DVN FRESH (energy singles):**
+- Catalyst: ✗ Brent $94.90 BELOW $95; WTI $87.87 BELOW $88 — Fri pre-mkt +1-3% rally FADED through Fri session and Mon pre-mkt.
+- Test 2: ✗ **SECTOR EXIT RULE ACTIVATED + WORSE** (same as Idea 2); individual single-name rally does not override sector block per Strategy Rule 10.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed (sector-exit-rule block applies to all singles in exited sector).
+
+**Idea 4 — XLF ADD (sole position — Day 11 bank-bid + Fri +0.81%):**
+- Catalyst: ✗ **CATALYST REMAINS REVERSED** — rate-hike-pivot STRUCTURAL (CME 92% Dec 25bp); bank NIM pressure + credit tightening regime deepens; XLF $797M outflows prev week structural flow headwind; Fri +0.81% is bank-bid continuation not fresh catalyst.
+- Test 1: ✗ catalyst reversed (rate-hike NIM pressure + flow outflows + duration structural).
+- Test 4: ✗ ETF R:R structural (same as Idea 2 energy ETF R:R math).
+- **DOES NOT QUALIFY → NO ADD** — Tests 1 + 4 fail; HOLD existing 180 sh.
+
+**Idea 5 — AMAT / NVDA / AI-semi FRESH (pre-NVDA Tue AMC):**
+- Catalyst: ✗ **AI SELLOFF RESUMED FRI+MON** — XLK -2.01% Fri + NQ=F -1.48% Mon pre-mkt + "AI selloff resumes down 30%" headline = pre-NVDA positioning stress; NVDA Tue AMC binary T-1.
+- Test 2: ✗ **AI/SEMI MORATORIUM STRENGTHENED FURTHER** — NVDA Tue AMC binary 24h away + 10Y 5%+ duration headwind + Mon-Tue AI de-risking positioning; single-name earnings does NOT reset moratorium per Strategy Rule 9.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 2 failed (AI/semi moratorium structural + T-1 binary overlay).
+
+**Idea 6 — XLK / Tech single-names FRESH (MSFT / GOOGL / META / AAPL / AMZN):**
+- Catalyst: ✗ XLK -2.01% Fri + NQ=F -1.48% Mon = tech-sector RS BROKEN heading into NVDA Tue AMC.
+- Test 1: ✗ no single-name catalyst; mega-cap tape-beta drag ≠ specific thesis-driven catalyst.
+- Test 2: ✗ sector RS broken Fri-Mon + AI/semi moratorium structural + 10Y 5%+ duration.
+- Test 4: ✗ mega-cap R:R structural.
+- **DOES NOT QUALIFY → NO ENTRY** — Tests 1 + 2 + 4 fail.
+
+**Idea 7 — XLV / XLP / Defensive mega-caps (UNH / JNJ / LLY / PG / KO / COST):**
+- Catalyst: △ XLV +0.54% / XLP +1.42% Fri = Thu rotation revived Fri on VIX breakout + AI de-risking.
+- Test 1: △ Mon catalyst = VIX 20.96 + NVDA T-1 + Warsh speech live — generic risk-off tape beta not single-name thesis.
+- Test 2: ✗ **FRI = 1-DAY RS REVIVAL** — Thu was -0.59% XLV / -0.43% XLP (fade); Fri +0.54% / +1.42% (reversal); multi-session RS NOT confirmed; Strategy Rule 9 "follow sector momentum" requires sustained RS, not 1-day reversal.
+- Test 4: ✗ ETF R:R structural; mega-cap defensive R:R structural (UNH ~$500 target requires $100+ move for 2:1).
+- **DOES NOT QUALIFY → NO ENTRY** — Tests 2 + 4 fail (1-day RS insufficient per Strategy Rule 9 + mega-cap R:R structural).
+
+**Idea 8 — WMT / HD / TGT / LOW pre-earnings positioning (Tue 11/17 / Wed 11/18 AMC):**
+- Catalyst: ✗ binary EPS catalyst T+1 or T+2; Mon = pre-earnings positioning only (not thesis-driven specific catalyst).
+- Test 1: ✗ pre-EPS binary positioning ≠ specific thesis per Strategy Rule 1.
+- **DOES NOT QUALIFY → NO ENTRY** — Test 1 fail (pre-earnings binary ≠ specific catalyst; event-driven on binary = half-size rule applies ONLY to otherwise-qualifying setups, not to speculative pre-EPS positioning without thesis).
+
+**Idea 9 — Insurance / Rate-benefit (TRV / ALL / PRU / MET / AIG) — Warsh speech live:**
+- Catalyst: △ Warsh speech Mon = live rate-hike macro event; 10Y 5%+ structural float-yield benefit; no specific insurance single-name catalyst.
+- Test 1: ✗ no specific Mon insurance single-name catalyst documented (structural rate benefit was prior-week structural idea; no fresh specific catalyst).
+- **DOES NOT QUALIFY → NO ENTRY** — Test 1 fail.
+
+**Idea 10 — Duration-sensitive / Defense / Inverse / Vol ETPs:**
+- Duration-sensitive (XLU/XLRE): rate-hike-pivot deepened + 10Y 5%+ = NEGATIVE; Test 2 fail.
+- Defense (LMT/NOC/RTX/GD/HII): reg-overhang structural BLOCK.
+- Volatility/inverse (VIXY/UVXY/SQQQ/SOXS/TBT): stocks-only rule violation (ETPs allowed as stocks per Alpaca but vol-derivatives contravene strategy intent); BLOCKED.
+- **ALL DO NOT QUALIFY → NO ENTRY**
+
+### DECISION — NO FRESH ENTRY MON 11/16 / HOLD XLF / WEEKLY REVIEW PRIORITY
+
+**Trade 1: NO FRESH ENTRY Mon 11/16**
+- All 10 screened ideas have specific NAMED failed tests per CLAUDE.md Decision Rule:
+  - NEM: Test 2 (gold Day 11 regime decisively broken; one-year low Mon)
+  - XLE ADD: Tests 1 + 2 + 4 (Brent $94.90 < $95 reversal + sector-exit rule unmet + ETF R:R)
+  - XOM/CVX/COP/EOG/FANG/DVN singles: Test 2 (sector-exit rule applies to all singles)
+  - XLF ADD: Tests 1 + 4 (catalyst reversed rate-hike + ETF R:R)
+  - AMAT/NVDA/AI-semi: Test 2 (AI/semi moratorium + T-1 NVDA binary)
+  - XLK tech singles: Tests 1 + 2 + 4
+  - XLV/XLP defensives: Tests 2 + 4 (1-day Fri RS insufficient + R:R structural)
+  - WMT/HD/TGT/LOW pre-EPS: Test 1 (binary EPS ≠ specific thesis)
+  - Insurance: Test 1 (no specific Mon catalyst)
+  - Duration/Defense/Inverse: structural BLOCK
+- **NOT a flat-session violation** per CLAUDE.md — every idea has specific named failed test, not generic "patience/wait/protect cash" justification.
+- **Wk-24 FRESH budget 3/3 fresh reset** — Day 1 opens with 0/3 used; qualifying setup still required per Decision Rule.
+
+**Trade 2 (no change): HOLD XLF (180 sh)**
+- Cushion +11.27% to $52.12 (-7% manual-cut flag unchanged from avg entry $56.045)
+- GTC trail $54.036 both legs active (hwm $60.04 Thu 11/05 unchanged; Day 12 server-side); stops carry position
+- Day 11 bank-bid persists but 10Y 5%+ rate-hike-pivot structural = NIM pressure overlay
+- No action required — trail stops carry
+
+**Regime summary Mon 11/16:**
+- **VIX regime BREAK >20** (17.77 Fri AM → 20.96 Mon pre-mkt = +18% jump; vol-compression closed)
+- Rate-hike-pivot STRUCTURAL (CME 92% Dec 25bp / 10Y 5%+); Warsh speech live Mon
+- **NVDA Tue AMC T-1** — AI binary 24h; AI selloff resumed Fri+Mon
+- Gold miners Day 11 DEEPER BROKEN (one-year lows gold + silver Mon)
+- Energy single-names rally FADED Fri→Mon; Brent $94.90 BELOW $95 (sector-exit rule unmet + WORSE)
+- AI/semi moratorium STRENGTHENED (NVDA Tue T-1 binary overhang)
+- Defensive RS REVIVED Fri (XLV +0.54% / XLP +1.42%) but 1-day reversal insufficient per Strategy Rule 9
+- Dollar strength persistent → EM/commodity (ex-energy) negative overlay
+- Risk-off Day 1 Wk-24 pre-mkt (ES=F -0.70% / NQ=F -1.48%)
+
+### Risk Factors (today — Mon 11/16 Wk-24 Day 1 / Warsh + VIX breakout + NVDA T-1)
+1. **VIX BREAKOUT >20 REGIME SHIFT** — Fri AM 17.77 → Mon pre-mkt 20.96 (+18% jump); vol-compression regime CLOSED; new fear-index regime live; structural risk-off overlay for duration/tech/equity-beta positions.
+2. **NVDA Tue 11/17 AMC T-1 = AI BINARY 24H AWAY** — XLK -2.01% Fri + NQ=F -1.48% Mon = multi-session pre-earnings de-risking; AI/semi moratorium STRENGTHENED structurally; "Nvidia Earnings: AI Selloff Resumes" indicates stress; Wed 11/18 post-NVDA tape sets AI sector regime.
+3. **Warsh speech Mon live** — rate-hike-pivot read; CME 92% Dec 25bp / 8% 50bp; Collins Sun cool on 50bp; any hawkish Warsh surprise = 10Y 5.15%+ risk = defensive/duration deeper pain + XLF NIM headwind deepens.
+4. **10Y 5%+ structural** — "10Y rebounds above 5%" Mon news; duration-sensitive (XLU/XLRE) + banks (NIM) + miners (opportunity cost) structural NEGATIVE deepens.
+5. **Gold + Silver one-year lows Mon** — precious-metals regime DEEPER BROKEN; miners re-screen blocked indefinitely; dollar strength structural NEGATIVE.
+6. **Energy sector-exit rule UNMET + WORSE** — Brent $94.90 BELOW $95; WTI $87.87 BELOW $88; XLE 3-day +3.9% RS not breakout; XOM/CVX/COP/EOG/FANG/DVN singles blocked.
+7. **FOMC minutes Wed 11/18** — Oct 28 meeting minutes; secondary rate read mid-week.
+8. **Retail earnings cluster Tue-Wed** — WMT/HD Tue / TGT/LOW Wed; pre-EPS positioning Mon speculative not thesis-driven.
+9. **XLF cushion health intraday** — monitor <$55.90 discretionary-trim / <$54.036 trail execution / <$52.12 -7% manual-cut; cushion +11.27% intact; 10Y 5.15%+ Warsh risk = NIM headwind deepens.
+10. **Weekly review Wk-23 STILL PENDING** — 5th consecutive unresolved (Mon-Fri Wk-23 all misses Wk-16/17/18/22/23 backlog); Wk-24 mid-week catch-up required.
+11. **Flat Wk-23 close 0/3 FRESH** — closed with every idea having specific named failed test per Decision Rule; Wk-24 Day 1 FRESH 0/3 fresh reset.
+12. **Market gate pre-mkt**: routine fired at 07:44 ET (is_open=false; next_open 09:30 ET) — STEP 2 MARKET GATE applies at market-open re-validation; data `balance_asof` 2026-11-13 Fri close stamped = Mon AM intraday live.
+
+### MARKET-OPEN Routine Action List (Mon 11/16 09:30 ET — Warsh speech live + NVDA T-1)
+1. **NO FRESH ENTRIES PLANNED** — all 10 screened ideas fail specific named tests; MARKET-OPEN confirms no execution, no action beyond stop maintenance.
+2. **XLF MANUAL-CUT vigilance (sole position)** — cushion +11.27% to $52.12 flag; GTC trail $54.036 hwm $60.04. If XLF < $52.12 at runtime → cancel bbf96d5f + 8bd5213b, market sell 180 sh (strict -7% rule). XLF would need -11.3% from $58.7379 pre-mkt to trigger.
+3. **XLF DISCRETIONARY-TRIM WATCH <$55.90** — if Mon open gap-down on hawkish Warsh or Mon risk-off extends and XLF breaks below $55.90 → consider discretionary trim (e.g., 50% position = 90 sh). Rationale: VIX regime break + 10Y 5%+ + rate-hike-pivot + prior-week outflows + cushion defense. Discretionary, not rule.
+4. **XLF trail ratchet watch** — HWM $60.04; Mon rally above $60.04 = new HWM + server-side tighten. Gap +$1.30 (+2.22% from $58.7379 pre-mkt). Watch Warsh-dovish scenario or risk-on rebound.
+5. **XLF discretionary-tighten watch** — +4.80% unrl; first-tighten +15% threshold ~$64.45 (gap ~$5.71 / +9.73%); NOT at threshold.
+6. **ENERGY SECTOR EXIT RULE REMAINS ACTIVATED + WORSE** — WTI $87.87 Mon is BELOW $88 (further from $95+ sustained); Brent $94.90 BELOW $95; XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED.
+7. **Semi/chip/AI MORATORIUM STRENGTHENED (T-1 NVDA)** — NVDA Tue AMC binary 24h + XLK Fri -2.01% + NQ=F -1.48% Mon = de-risking Day 1 Wk-24; AMD/AAPL/AVGO/NVDA/SMH/PLTR/CRWV/AMAT BLOCKED.
+8. **Gold miners DEEPER DEFERRED** — NEM 4th re-screen closes with Test 2 failed (one-year gold + silver lows); re-screen criterion = gold $4,100+ breakout OR miners multi-session reclaim; both distant.
+9. **Defense reg-overhang** — LMT/NOC/RTX/GD/HII BLOCKED.
+10. **Duration-sensitive defensives (XLU/XLRE)** — rate-hike-pivot deepened + 10Y 5%+ = NEGATIVE; BLOCKED.
+11. **Volatility/inverse ETPs** — strategy intent violation (not stock momentum); BLOCKED.
+12. **Banks single-names** — rate-hike-pivot catalyst REVERSED structurally; JPM/GS/SCHW/BAC/WFC/C BLOCKED.
+13. **Defensives (XLV/XLP singles)** — Fri 1-day RS revival insufficient per Strategy Rule 9 multi-session requirement; UNH/JNJ/LLY/PG/KO/COST BLOCKED.
+14. **Retail pre-EPS positioning** — WMT/HD/TGT/LOW binary EPS ≠ specific thesis per Strategy Rule 1; BLOCKED.
+15. **Weekly review Wk-23 backfill — PRIMARY NON-TRADE ACTION Wk-24** — Mon-Tue mid-week catch-up slot; Wk-16/17/18/22 backlog secondary (5+ weeks overdue).
+16. **MARKET GATE CHECK**: routine fired 07:44 ET pre-open; at STEP 2 re-validation in market-open block, if is_open=false → log "market closed, no entries" and skip to STEP 8 commit of research entry only.
+17. **No gates relaxed, no overrides planned** — Wk-24 Day 1 opens with 5 structural slots; 1 held (XLF); FRESH budget 3/3 fresh reset; deployment 10.87% well below 75-85% target but qualifying setup absent per Decision Rule.
+
+### Wk-24 Slot Budget (Day 1 Mon pre-mkt)
+- FRESH planned Mon: 0/3 (all 10 screened ideas fail specific named tests); Wk-24 FRESH budget opens 0/3 fresh.
+- Position cap: 1/6 (XLF); 5 structural slots remaining.
+- Deployment: 10.87% ($10,572.82 / $97,292.83); 75-85% band remains distant — NOT a buy signal per Decision Rule.
+- Semi/chip/AI moratorium: STRENGTHENED (NVDA Tue 11/17 AMC binary T-1).
+- Energy sector EXIT RULE: ACTIVATED + WORSE (WTI $87.87 vs $95+ sustained criterion; Brent $94.90 < $95).
+- Defense sector reg-overhang: structural BLOCK.
+- Duration-sensitive defensives (XLU/XLRE): rate-hike-pivot NEGATIVE deepens (10Y 5%+).
+- Rate-hike-pivot regime: STRUCTURAL (CME 92% Dec 25bp; Warsh speech live Mon).
+- Gold miners: Day 11 DEEPER BROKEN (gold + silver one-year lows Mon); DEFERRED (4th NEM re-screen attempt closes).
+- Defensive sector (XLV/XLP): Fri 1-day RS revival insufficient per Strategy Rule 9.
+- Banks single-names: catalyst reversed structurally; XLF ADD rejected (1 + 4 fail).
+- Insurance 10Y-5%+ beneficiaries: no specific Mon catalyst.
+- Retail (WMT/HD/TGT/LOW) pre-EPS: binary EPS ≠ specific thesis per Strategy Rule 1.
+- **Wk-23 weekly review: BACKFILL STILL PENDING (5 consecutive misses); PRIMARY ACTION Wk-24 mid-week catch-up.**
+- Wk-16/17/18/22 weekly review backlog: 4 overdue (6+ weeks).
+
+### Watchlist / Deferred (midday + afternoon + Tue session)
+- **Warsh speech reaction intraday** — 10Y / dollar / defensive / miner / XLF intraday reads; hawkish surprise = 5.15%+ risk / defensive deeper bid; dovish surprise = modest retrace.
+- **NVDA Tue AMC positioning Mon-Tue** — monitor NVDA / AVGO / AMD / SMH IV / positioning intraday; moratorium stays until catalyst clears Wed 11/18 AM.
+- **VIX regime watch** — if VIX breaks $23-25 → deeper fear regime / defensive bid strengthens / XLF cushion stress-test; VIX retracement below 18 = regime rebuild possible.
+- **Gold miners sector collapse watch** — if NEM breaks $110 or $100 round-number intraday, further thesis-break confirmation; no re-screen.
+- **Energy sector reclaim watch** — if WTI breaches $90 intraday AND XLE +2%+ sustained Day 4 → partial criterion but not sufficient alone; MUST ACCUMULATE multi-session for Wk-24 re-screen (far from threshold).
+- **XLF cushion intraday** — <$55.90 discretionary-trim / <$54.036 trail execution / <$52.12 -7% manual-cut; Warsh-hawkish scenario stress-test.
+- **FOMC minutes Wed 11/18** — rate-hike-path mid-week read.
+- **WMT/HD/TGT/LOW Tue-Wed earnings** — consumer discretionary + staples read; retail sector catalyst if beats strong.
+- **Weekly review Wk-23 PRIMARY** — Wk-24 Mon-Tue mid-week catch-up slot; weekly-review skill required.
+- **Mon-Tue AI-adjacent entry CAUTION** — half-size constraint persists through NVDA Tue 11/17 AMC resolution; Wed 11/18 post-NVDA AM = AI sector regime reset.
