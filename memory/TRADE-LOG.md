@@ -5977,3 +5977,44 @@ Net: 2 routine-failure flags Wk-23 (Tue market-open, Thu pre-mkt). Critical for 
 7. **Weekly review Wk-23 backfill STILL PENDING** — 7th consecutive miss (Mon EOD + Tue AM midday); Tue-Wed Wk-24 mid-week catch-up slot NARROWING further (now Wed-only before Thu-Fri Wk-24 close); Wk-16/17/18/22 also overdue (5+ weeks).
 8. **Routine-miss audit tally for Wk-24:** Mon 11/16 EOD pre-close 14:51 ET, Tue 11/17 EOD pre-close 14:51 ET — 2 consecutive scheduler-layer pre-close firings; Wk-24 weekly review classification required.
 9. **5 structural slots open / 10.61% deployment / Wk-24 FRESH 0/3** — qualifying setup still required per CLAUDE.md Decision Rule; no gates relaxed; phase P&L -$2,987 / -2.99% is NOT a trigger to loosen entries. Wk-24 Day 3 Wed is first full-liquidity post-NVDA/post-PPI session; fresh candidates may materialize.
+
+### Nov 18 — Midday Scan (Wk-24 Day 3, Wednesday — post-NVDA BEAT Day 1 / FOMC minutes 14:00 ET pending / XLF sole position Day 14 bank-bid soft intraday -1.10% / NO TRADES)
+**Clock:** is_open=true; timestamp 2026-11-18 11:13:14 ET; next_close 16:00 ET Wed.
+**Account midday:** equity $96,881.91 / last_equity $96,992.61 (Tue close stamped) / cash $86,720.01 (89.51%) / balance_asof 2026-11-17.
+**Baseline reconciliation:** Alpaca last_equity $96,992.61 vs TRADE-LOG Tue EOD pre-close $97,013.31 = -$20.70 drift (< $150 threshold) → retain TRADE-LOG baseline per routine spec. Tue full-close stamped -$20.70 below pre-close 14:51 ET intraday value (XLF ticked -$0.115 in last ~69 min to $57.07 close per `lastday_price`).
+**Deployment:** 10.49% mv ($10,161.90 XLF / $96,881.91 equity); 1 position / 5 slots open. **Day P&L (vs Alpaca stamped Tue close):** -$110.70 (-0.114%); **Phase P&L:** -$3,118.09 (-3.118%).
+
+| Ticker | Shares | Entry | Current | Lastday | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $56.44 | $57.07 | -1.104% | +$71.10 (+0.705%) | $54.036 (both legs, hwm $60.04) |
+
+**STEP 3 cut-loser check:** XLF unrl +0.705% — NOT at -7% cut flag. Cushion $56.44 vs $52.12 cut flag = **+7.65%** (narrowed from Tue EOD +9.72%). Trail stop $54.036 is -4.26% below current $56.44 (>3% buffer vs CLAUDE.md min). No action.
+
+**STEP 4 tighten-trail check:** XLF +0.705% unrl — NOT at +15% threshold (~$64.45, gap ~$8.01 / +14.19% move needed) nor +20% threshold (~$67.25, gap ~$10.81). No tighten.
+
+**STEP 4b HWM-ratchet watch:** XLF current $56.44 vs HWM $60.04 = gap **-$3.60 (-5.99%)** — widened from Tue EOD -4.75%. NOT at hwm; no server-side ratchet midday; both GTC trail legs `updated_at` stamp remains 2026-11-05 14:30:12 UTC (12 trading days stable).
+
+**STEP 5 thesis check:** XLF Dem-sweep Day 14 bank-bid continuation; Wed midday -1.10% intraday is modest give-back on broad Wed tape pre-FOMC-minutes (14:00 ET) + post-NVDA-BEAT digest (NDX pre-mkt +0.85% did not sustain full regime reset). No CFPB / Senate Banking / capital-requirement punitive headline today (none observed Wk-23 or Wk-24 to date). Price $56.44 above <$55.90 discretionary-trim trigger (+$0.54 / +0.96% cushion — **VERY NARROW**, down from Tue EOD +2.30% / Mon close +3.68% / Fri +4.97%). **NOT a thesis-break** — rate-hike-pivot regime HEADWIND + Dem-sweep reg-scrutiny HEADWIND remain structural but have NOT delivered single-day breakdown catalyst Day 14. Hold with cushion warning: FOMC-hawkish tilt at 14:00 ET + bank-continuation-down tape could breach $55.90 intraday — monitor for discretionary trim trigger.
+
+**STEP 6 intraday research:** SKIPPED. XLF -1.10% intraday is not a sharp single-name move; cause is well-documented macro overlay (pre-FOMC-minutes positioning / post-NVDA-BEAT partial-reclaim / rate-hike-pivot regime intact post-cool-PPI). No research.sh call warranted per routine criterion.
+
+**Trades today midday:** NONE. 0 FRESH entries (per Wed pre-mkt research idea screen — all 8 ideas fail specific named tests; no qualifying setup Mon-Wed pre-mkt → no screened candidates to execute midday), 0 strict-rule exits, 0 manual cuts, 0 manual tightens, 0 cancels. Both XLF GTC trail stops active; no server-side HWM ratchet Wed midday (price $56.44 < HWM $60.04).
+
+**Wk-24 running count (Wed midday):** **0/3 FRESH slot-consuming used Mon-Wed AM.** 3 FRESH slots unused.
+
+**Post-midday order state (2 GTC stops covering 1 position — unchanged since Thu 11/05 AM ratchet, now 12 trading days stable):**
+- XLF 90 sh (original): trail 10% $54.036 hwm $60.04 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $54.036 hwm $60.04 (bbf96d5f) — unchanged
+
+**Notification:** No ClickUp alert sent (no action taken per STEP 7 rule).
+
+**Next checkpoints (Wed PM → close):**
+1. **FOMC minutes 14:00 ET BINARY** — Oct 28 meeting; hawkish tilt = 10Y 5.15%+ risk / banks NIM headwind deepens / XLF cushion stress (discretionary-trim <$55.90 vulnerable given +0.96% narrow cushion); dovish = partial duration relief. Real-time XLF reaction primary.
+2. **XLF MANUAL-CUT vigilance (sole position)** — cushion +7.65% to $52.12; trail stop $54.036 is -4.26% below current $56.44 — trail fires first on breakdown. FOMC-hawk stress-test: XLF would need -7.65% from $56.44 to breach $52.12.
+3. **XLF DISCRETIONARY-TRIM WATCH <$55.90 VERY NARROW (+0.96% cushion)** — PRIMARY afternoon action trigger; if FOMC-hawk tilt drives XLF <$55.90 intraday, execute discretionary trim 50% (90 sh). Narrowest cushion since initial ADD.
+4. **XLF trail ratchet watch** — HWM $60.04; Wed PM rally above $60.04 = new HWM + server-side tighten. Gap -5.99% at midday; needs +6.38% intraday move (very unlikely absent dovish-FOMC shock).
+5. **XLF discretionary-tighten watch** — +0.705% unrl; first-tighten +15% threshold ~$64.45 (gap ~$8.01 / +14.19%); NOT at threshold.
+6. **TGT Q3 BMO reaction** — single-name retail binary; already open-tape digested by midday.
+7. **AI/semi moratorium posture Wed EOD** — if XLK closes >+1.5% AND NVDA holds gap-up → Thu AM re-screen for qualifying AI-adjacent entry; if XLK fades / NVDA gap fills → moratorium extends into Thu.
+8. **Weekly review Wk-23 backfill STILL PENDING** — 8th consecutive miss; Wed Wk-24 Day 3 mid-week catch-up slot FINAL (Thu-Fri = Wk-24 close); Wk-16/17/18/22 also overdue (5+ weeks).
+9. **5 structural slots open / 10.49% deployment / Wk-24 FRESH 0/3** — qualifying setup still required per CLAUDE.md Decision Rule; no gates relaxed; phase P&L -$3,118 / -3.12% is NOT a trigger to loosen entries.
