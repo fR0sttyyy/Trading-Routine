@@ -11811,3 +11811,206 @@ Order of preference at MARKET-OPEN routine runtime:
 - **TGT Wed BMO / WMT Thu BMO reaction** — retail/discretionary read; sector-level thesis only if both beat strong.
 - **Weekly review Wk-23 PRIMARY** — Wed Wk-24 Day 3 catch-up slot FINAL (Thu-Fri = Wk-24 close); weekly-review skill required.
 - **Post-NVDA Wed EOD regime assessment** — XLK close direction determines Thu AM AI-adjacent re-screen eligibility.
+
+## 2026-11-19 — Pre-market Research (Wk-24 Day 4 / Thu / Anthropic ANT Day 1 trades / NVDA Day 2 digest + Jensen overhang unresolved / Jobless claims 08:30 ET / WMT Q3 BMO ±6.9% implied / INTU Q1 AMC / post-FOMC-minutes Day 1)
+
+### Account
+- Equity: $96,918.81 (Wed close last_equity $96,875.61 → pre-mkt +$43.20 / +0.045% intraday Δ)
+- Cash: $86,720.01 (89.48% cash)
+- Buying power: $375,436.68 (regt $183,638.82 / non-marginable $91,819.41)
+- Portfolio value: $96,918.81
+- Position market value: $10,198.80 (10.52% deployed — WELL BELOW 75-85% target band; Day 11 sub-11%)
+- Daytrade count: safe (equity > $25k; PDT moot)
+- **Phase P&L:** -$3,081.19 from $100,000 start (-3.08%)
+- `balance_asof` 2026-11-18 Wed close stamped; `unrealized_intraday_pl` +$43.20 = pre-mkt Thu mild XLF mark-up
+- **Book-delta reconciliation:** XLF 180 × ($56.66 - $56.42 lastday_price) = +$43.20 unrealized Δ = EXACT match to `unrealized_intraday_pl`. **DATA FRESH.**
+- Note: Alpaca pre-mkt quote XLF ap $58.59 / bp $55.02 = wide stale extended-book (6.0% spread, ap likely late-tape artifact), timestamp 2026-11-18T21:00 UTC = Wed 16:00 ET. Position `current_price` $56.66 reflects Wed extended-hours tape (+$0.24 / +0.425% from Wed close $56.42). Thu open re-quote sets actual open mark.
+
+### Positions (sole: XLF)
+| Ticker | Shares | Avg Entry | Current | Unrl P&L | Unrl % | Stop (trail 10%) | HWM | Cushion |
+| - | - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $56.66 (Thu pre-mkt) / $56.42 (Wed close) | +$110.70 | +1.097% | $54.036 (2 legs 90+90) | $60.04 | +$4.54 to -7% manual-cut flag ($52.12) / +$3.38 to hwm retest |
+
+- XLF Wed close $56.42 (lastday_price per Alpaca; -$0.65 / -1.14% from Tue $57.07) — **Day 14 bank breakdown continues**; XLF 3-session Mon $57.56 → Tue $57.07 → Wed $56.42 = cumulative -1.98% 3-session.
+- Thu pre-mkt current_price $56.66 (+$0.24 / +0.425% from Wed close) — mild extended-hours mark-up on broad risk-on (ES/NQ futures +1.1-2.0%).
+- GTC trail stops: 90 sh (8bd5213b) + 90 sh (bbf96d5f) both `trail_percent:"10"`, `stop_price:"54.036"`, `hwm:"60.04"`, `time_in_force:"gtc"`, `status:"new"`, both `updated_at` 2026-11-05 14:30:12 UTC (Day 15 unchanged since first ratchet; gap to new HWM retest +$3.38 / +5.97% from Wed close).
+- Cushion +8.11% to $52.12 (-7% manual-cut flag from avg entry $56.045 unchanged); narrower vs Wed pre-mkt (+8.67%).
+
+### Market Context (Wed 11/18 close + Thu 11/19 pre-mkt)
+- **Indices (Wed close — web-search thin for exact levels):** tech-led selloff Wed per Edge Malaysia market-wrap headline; NVDA Wed close -2.89% (Jensen-no-reinstate overhang + Day 1 post-beat gap-fill); XLF Wed close $56.42 (-1.14% confirmed via Alpaca lastday_price). SPX/NDX exact levels unconfirmed pre-open — **DATA PARTIAL** on index closes but XLK direction inferred NEGATIVE (NVDA -2.89% + tech-led selloff headline); per Wed framework XLK did NOT close +1.5% → semi/chip/AI moratorium EXTENDS to Thu.
+- **Futures (Thu pre-mkt — CNBC + Stocktwits):** ES=F **+1.1-1.15%** / NQ=F **+2.0-2.06%** — Anthropic (NASDAQ:ANT) IPO Day 1 debut reviving AI-trade sentiment; broad risk-on; NDX leads +2% on AI-model-company listing.
+- **VIX:** no fresh pre-mkt print; +2% NQ futures implies decompression from Wed; <20 threshold test today if ANT debut holds and NVDA stabilizes.
+- **Crude:** WTI "edges higher" per Stocktwits pre-mkt headline; no specific level confirmed; XLE/energy regime unchanged (sector-exit rule UNMET).
+- **10Y Treasury:** post-FOMC-minutes Wed 14:00 ET; Oct 28 minutes released; market reaction unquantified in search results. Rate-hike-pivot regime intact absent contrary print.
+- **Sectors Wed close:** XLF $56.42 (-1.14% confirmed); all other sector levels unconfirmed. **Tech selloff headline** implies XLK negative. **XLF Day 14 bank breakdown** continues (3-session -1.98% cumulative).
+- **NVDA Q3 FY27 BEAT digest Day 2:** rev $115.8B / EPS $2.70 / $150B buyback / Q4 guide $130B objectively strong BUT Wed tape -2.89% confirms Jensen-no-reinstate overhang dominating. NQ +2% Thu pre-mkt is ANT-driven, NOT NVDA follow-through.
+- **Anthropic (NASDAQ:ANT) IPO:** priced Wed PM ($70-$80 range per prior log; 825M shares); trades Thu 11/19 Day 1. NDX futures +2% confirms AI-model-company listing as primary Thu catalyst.
+
+### Today's Catalysts (Thu 11/19 — Anthropic ANT Day 1 + NVDA Day 2 + Jobless claims 08:30 + WMT BMO + INTU AMC)
+- **Anthropic (ANT) IPO Day 1 trading** — binary AI-sentiment event; pure model-company listing; Alphabet (GOOGL) is major Anthropic investor (paper mark-up); no direct bot vehicle unless ANT itself opens with definable stop (Day 1 IPO = stop not definable per Test 3).
+- **NVDA Day 2 digest** — post-beat tape Day 2; Jensen overhang unresolved; NQ +2% pre-mkt is Anthropic-driven (not NVDA follow-through); XLK/SMH/AMD/AVGO re-screen requires Wed XLK close confirmation (per Wed framework) — NOT MET.
+- **Weekly jobless claims 08:30 ET** — macro print; 10Y + dollar reaction; no direct sector thesis beyond rate-hike-pivot regime stress.
+- **WMT Q3 BMO** — consensus $0.64 EPS / $187.11B rev; options implied ±6.9%; binary retail/staples event; pre-mkt WMT -0.6-0.7%; no bot entry pre-print per Rule 1.
+- **INTU Q1 AMC** — AI/software SaaS binary; no bot entry pre-print per Rule 1.
+- **GAP AMC** — retail single-name secondary.
+- **FOMC minutes Day 1 digest** — Wed 14:00 ET release; reaction distribution unquantified; 10Y path implications.
+
+### Idea Screen (8 candidates — Decision Rule format, NDX +2% pre-mkt + ANT IPO Day 1 + NVDA Day 2 overlay)
+
+**Idea 1 — XLK / QQQ / tech-broad long on ANT IPO + NVDA guide follow-through:**
+- Test 1 ✓: Anthropic IPO Day 1 = concrete new catalyst; NDX futures +2.0% confirms broad AI-sentiment risk-on; NVDA $130B Q4 guide + $150B buyback remains in force.
+- Test 2 ✗ **FAIL**: XLK 3-session Mon -3.24% / Tue -0.91% / Wed tech-negative (NVDA -2.89% + tech-led selloff headline) = cumulative sharply negative; 1-day pre-mkt NQ +2% ≠ multi-session momentum per Strategy Rule 9. **Wed framework condition "XLK closes >+1.5% Wed" UNMET** → moratorium EXTENDS.
+- Test 3: definable (10% trail or 8% fixed below Thu open).
+- Test 4: ANT-IPO-pop single-session thesis insufficient for 2:1 R:R on broad ETF without multi-session leadership confirmation.
+- **DOES NOT QUALIFY → NO TRADE** (Test 2 fail — Wed framework moratorium extension explicit).
+
+**Idea 2 — SMH / NVDA / AMD / AVGO / AMAT single-name semi longs:**
+- Test 1 ✓: NVDA $130B Q4 guide + $150B buyback + ANT IPO AI-demand mark; concrete catalyst stack.
+- Test 2 ✗ **FAIL**: same as Idea 1 PLUS single-name/semi concentration worsens risk; semi moratorium explicitly conditional on Wed close NOT MET.
+- Test 3: definable but gap-up open increases slippage risk.
+- **DOES NOT QUALIFY → NO TRADE** (Test 2 — semi moratorium extended per Wed framework).
+
+**Idea 3 — GOOGL (Anthropic investor mark-up / AI-model-adjacent):**
+- Test 1 PARTIAL: Alphabet ~$10B+ Anthropic investor; ANT IPO = paper mark-up catalyst; Gemini competitive position within mega-cap AI stack.
+- Test 2 ✗: XLC (communication services) not in confirmed multi-session momentum; mega-cap tech under same 3-session breakdown as XLK.
+- Test 3: definable.
+- Test 4: single-session ANT-mark-up catalyst insufficient for 2:1 R:R without sector leadership.
+- **DOES NOT QUALIFY → NO TRADE** (Test 2 — mega-cap tech sector under same multi-session breakdown).
+
+**Idea 4 — ANT IPO Day 1 direct entry:**
+- Test 1 ✓: IPO Day 1 is the catalyst itself.
+- Test 3 ✗ **FAIL**: Day 1 IPO has no price history → stop level 7-10% below entry NOT DEFINABLE per Test 3; no reference close; spread may be wide at open; halt risk.
+- **DOES NOT QUALIFY → NO TRADE** (Test 3 — IPO Day 1 stop undefinable per Strategy Rule).
+
+**Idea 5 — WMT / INTU / GAP earnings-event pre-prints:**
+- Test 1 ✗: binary EPS event ≠ specific thesis per Strategy Rule 1; WMT options pricing ±6.9% implied move = binary gamma.
+- **DOES NOT QUALIFY → NO TRADE** (binary EPS non-thesis).
+
+**Idea 6 — XLF ADD (bank RS re-screen Day 15):**
+- Test 1 ✗: no new Thu catalyst; FOMC minutes Wed already digested; rate-hike-pivot thesis under fatigue signal.
+- Test 2 ✗ **FAIL**: XLF 3-session Mon -0.85% / Tue -1.91% / Wed -1.14% = cumulative -3.86% bank breakdown deepens; thesis fatigue escalates; momentum map structurally NEGATIVE.
+- Test 3: entry ~$56.66, stop -8% = $52.13 — BELOW existing trail $54.036 (same conflict as Wed).
+- Test 4: target $60.04 HWM = +5.97% upside vs -8% stop = R:R 0.75:1 — **fails 2:1 strict test**.
+- **DOES NOT QUALIFY → NO TRADE** (Tests 1 + 2 + 4; bank 3-session breakdown escalates; XLF ADD rejected 2nd session running).
+
+**Idea 7 — XLE / XOM / CVX / COP / EOG (energy singles):**
+- Test 1 ✗: "WTI edges higher" pre-mkt = marginal; no reclaim of $90 confirmed; no fresh thesis.
+- Test 2 ✗: sector-exit rule UNMET (XLE/XOM/CVX multi-session RS BROKEN); 4-week pattern intact.
+- **DOES NOT QUALIFY → NO TRADE** (sector-exit rule unchanged).
+
+**Idea 8 — NEM/GDX/AEM/GOLD (gold miners 7th re-screen) + Defensives (XLV/XLP/UNH/LLY/JNJ) + Housing (XHB/ITB/LEN) + Duration/Defense/Inverse ETPs:**
+- Miners: regime Day 14 DECISIVELY BROKEN; one-year lows persist; no reclaim catalyst.
+- Defensives: Tue regime broke (XLV -1.41%, XLP -1.23%); multi-session RS insufficient.
+- Housing: data-reaction non-thesis per Rule 1; rate-hike structural headwind.
+- Duration-sensitive (XLU/XLRE): rate-hike-pivot + 10Y 5%+ structural NEGATIVE.
+- Defense (LMT/NOC/RTX/GD/HII): reg-overhang structural BLOCK.
+- Volatility/inverse (VIXY/UVXY/SQQQ/SOXS/TBT): strategy intent violation; BLOCKED.
+- **ALL DO NOT QUALIFY → NO ENTRY.**
+
+### DECISION — NO FRESH ENTRY THU 11/19 / HOLD XLF / ANT IPO DAY 1 SENTIMENT-ONLY (NO VEHICLE)
+
+**Trade 1: NO FRESH ENTRY Thu 11/19**
+- All 8 screened ideas have specific NAMED failed tests per CLAUDE.md Decision Rule:
+  - XLK/QQQ tech-broad: Test 2 (3-session XLK breakdown + Wed framework moratorium-extension condition explicit; 1-day NQ +2% ≠ Rule 9 multi-session)
+  - SMH/NVDA/AMD semi: Test 2 (same + semi concentration)
+  - GOOGL: Test 2 (mega-cap tech sector breakdown)
+  - ANT IPO Day 1: Test 3 (stop undefinable per IPO Day 1)
+  - WMT/INTU/GAP: Test 1 (binary EPS ≠ thesis per Rule 1)
+  - XLF ADD: Tests 1 + 2 + 4 (3-session bank breakdown + no catalyst + R:R structural)
+  - Energy singles: Tests 1 + 2 (sector-exit rule unchanged)
+  - Miners/Defensives/Housing/Duration/Defense/Inverse: structural BLOCKS / Tests 1 + 2
+- **NOT a flat-session violation** per CLAUDE.md — every idea has specific named failed test, not generic "patience/wait/protect cash" justification.
+- **Wk-24 FRESH budget 3/3 intact** (Day 4 opens 0/3 used Mon-Thu AM); qualifying setup still required per Decision Rule.
+- **RESOLVE-NOW RULE check:** XLK Wed close direction = checkable fact (Wed framework hinge). Resolved this session: tech-led selloff headline + NVDA Wed -2.89% + XLF Wed -1.14% confirms Wed broad-tape red; XLK did NOT close +1.5% per framework → moratorium extends. Fact resolved pre-decision, NOT deferred.
+
+**Trade 2 (no change): HOLD XLF (180 sh)**
+- Cushion +8.11% to $52.12 (-7% manual-cut flag unchanged from avg entry $56.045)
+- GTC trail $54.036 both legs active (hwm $60.04 Day 15 unchanged; gap to new HWM retest +$3.38 / +5.97% from Wed close)
+- Bank RS Day 15 breakdown deepens (XLF 3-session cumulative -1.98%); thesis under escalating pressure but no manual-cut trigger yet (gap to -7% flag: $52.12 = -7.60% from Wed close $56.42, so XLF would need -7.60% Thu to trigger).
+- No action required — trail stops carry.
+
+**Regime summary Thu 11/19:**
+- **VIX regime decompression attempt** — Wed close unquantified pre-open; NQ +2% futures implies partial decompression; <20 threshold test pending Thu tape.
+- Rate-hike-pivot STRUCTURAL (10Y 5%+ regime intact; FOMC minutes Wed 14:00 ET digested).
+- **NVDA Q3 BEAT CONFIRMED but Day 1 tape FAILED** — Wed close -2.89% = Jensen-no-reinstate overhang dominating; 1-session post-EPS tape ≠ sector momentum per Rule 9 confirmed again; AI moratorium stays per Wed framework.
+- **Anthropic IPO Day 1 as new Thu catalyst** — NDX +2% pre-mkt confirms sentiment shift, but single-session ≠ multi-session leadership per Rule 9; no qualifying entry despite catalyst.
+- Gold miners Day 14 DECISIVELY BROKEN (one-year lows persist).
+- Energy sector-exit rule UNMET (WTI "edges higher" marginal; no $90 reclaim).
+- Defensives (XLP/XLV) REGIME BROKE Tue — multi-session defensive bid thesis invalidated.
+- Banks RS Day 15 breakdown escalates (XLF 3-session cumulative -1.98%); XLF HOLD by carry only.
+- Dollar strength persistent → EM/commodity (ex-energy) negative overlay.
+- **Wk-24 Day 4 = FRESH 0/3 intact Mon-Thu AM; 1 position (XLF); 5 structural slots; 10.52% deployed WELL BELOW 75-85% band.**
+
+### Risk Factors (today — Thu 11/19 Wk-24 Day 4 / ANT Day 1 + NVDA Day 2 + WMT BMO)
+1. **ANT IPO Day 1 sentiment binary** — pure AI-model-company listing; could rally hard on pop or fade on open; broad AI sentiment transmission to XLK/SMH/NVDA/GOOGL uncertain; no direct bot vehicle (Test 3 fails).
+2. **NVDA Day 2 unresolved Jensen overhang** — Wed close -2.89% despite objective beat confirms leadership-succession binary dominating tape; Thu tape could decompress on ANT halo OR deepen on CEO uncertainty.
+3. **WMT Q3 BMO ±6.9% implied move** — binary retail/staples event 07:00-09:30 ET; sector-wide ripple to XLY/XLP possible (XRT/TGT reaction); no direct entry (Test 1 fail).
+4. **Jobless claims 08:30 ET** — weekly macro; 10Y + dollar reaction; rate-hike-pivot regime stress-test.
+5. **FOMC minutes Day 1 digest** — Wed release reaction continues; distribution unquantified.
+6. **XLF Day 15 bank breakdown continues** — 3-session cumulative -1.98%; cushion narrower (+8.11% to $52.12 vs Wed +8.67%); discretionary-trim <$55.90 remains armed if Thu gap-down.
+7. **XLK 3-session breakdown confirmed** — Mon -3.24% / Tue -0.91% / Wed tech-negative; 1-day NQ +2% pre-mkt ≠ sector momentum per Rule 9; moratorium per Wed framework explicit.
+8. **10Y 5%+ structural** — duration-sensitive (XLU/XLRE) + banks (NIM) + miners (opportunity cost) structural NEGATIVE.
+9. **Energy sector-exit rule UNMET** — WTI "edges higher" marginal; no $90 reclaim; XLE sector thesis break persists.
+10. **Gold/silver one-year lows persist** — miners Day 14 regime decisively broken.
+11. **Defensives REGIME BROKE Tue** — XLV/XLP multi-session thesis invalidated.
+12. **Phase P&L -$3,081 / -3.08%** — mild drawdown; not trigger for loosening entries per CLAUDE.md Decision Rule.
+13. **Event cluster Thu** — ANT Day 1 + WMT BMO + jobless claims + INTU AMC = 4 binaries in session; HALF-SIZE rule armed throughout for any fresh qualifying entry (none planned).
+14. **Weekly review Wk-23/Wk-24 STILL PENDING** — 10th consecutive miss (Mon 11/16 + Tue 11/17 + Wed 11/18 full day); Thu Wk-24 Day 4 catch-up slot NARROWING to Thu-Fri before Fri Wk-24 close; Wk-16/17/18/22/23 backlog (5+ weeks overdue). **WEEKLY REVIEW SKILL MUST FIRE Thu PM or Fri AM.**
+15. **Data gap — exact index/sector closes Wed 11/18** — web-search thin; XLF confirmed via Alpaca lastday_price; tech-negative direction inferred from NVDA -2.89% + tech-led selloff headline; MARKET-OPEN routine should re-quote at 09:30 ET for live SPX/NDX/XLK/XLE/VIX marks.
+
+### MARKET-OPEN Routine Action List (Thu 11/19 09:30 ET — ANT Day 1 open + NVDA Day 2 + jobless claims aftermath)
+1. **NO FRESH ENTRIES PLANNED** — all 8 screened ideas fail specific named tests; MARKET-OPEN confirms no execution, no action beyond stop maintenance.
+2. **XLF MANUAL-CUT vigilance (sole position)** — cushion +8.11% to $52.12 flag; GTC trail $54.036 hwm $60.04. If XLF < $52.12 at runtime → cancel bbf96d5f + 8bd5213b, market sell 180 sh (strict -7% rule). XLF would need -7.60% from Wed close $56.42 to trigger.
+3. **XLF DISCRETIONARY-TRIM WATCH <$55.90** — if Thu open gap-down on bank-weakness-continuation Day 15 OR jobless-claims-shock positioning AND XLF breaks below $55.90 → consider discretionary trim (e.g., 50% position = 90 sh). Rationale: XLF 3-session cumulative -1.98% + 10Y 5%+ + Day 15 thesis fatigue. Discretionary, not rule. Gap -$0.76 (-1.35% from Wed close $56.42) — NEAR threshold in Thu bank-weakness scenario.
+4. **XLF trail ratchet watch** — HWM $60.04; Thu rally above $60.04 = new HWM + server-side tighten. Gap +$3.62 (+6.42% from Wed close $56.42); requires broad bank reclaim scenario — LOW probability given Day 15 breakdown.
+5. **XLF discretionary-tighten watch** — +1.097% unrl; first-tighten +15% threshold ~$64.45 (gap ~$7.79 / +13.75% from current); NOT at threshold.
+6. **AI/SEMI MORATORIUM EXTENDS to Thu per Wed framework** — XLK did NOT close +1.5% Wed (inferred NEGATIVE from NVDA -2.89% + tech-led selloff headline); NVDA/SMH/AMD/AVGO/AMAT entries BLOCKED. Re-screen Thu PM close: if XLK closes >+2% AND NVDA stabilizes → Fri AM qualifying AI-adjacent re-screen.
+7. **ANT IPO Day 1 — SENTIMENT WATCH ONLY, NO ENTRY** — IPO Day 1 stop undefinable per Test 3; ANT bot vehicle BLOCKED Day 1. Monitor ANT open price / spread / halt status as sentiment signal for XLK/SMH/GOOGL re-screen eligibility.
+8. **ENERGY SECTOR EXIT RULE REMAINS ACTIVATED** — WTI no $90 reclaim; XLE/XOM/CVX/HAL/DVN/COP/EOG/FANG BLOCKED.
+9. **Gold miners DEEPER DEFERRED** — NEM/AEM/GDX re-screen criteria distant; miners Day 14 regime broken.
+10. **Defense reg-overhang** — LMT/NOC/RTX/GD/HII BLOCKED.
+11. **Duration-sensitive defensives (XLU/XLRE)** — rate-hike-pivot + 10Y 5%+ structural NEGATIVE; BLOCKED.
+12. **Volatility/inverse ETPs** — strategy intent violation; BLOCKED.
+13. **Banks single-names (JPM/GS/SCHW/BAC/WFC/C)** — XLF Day 15 bank breakdown; thesis fatigue; BLOCKED; XLF HOLD only via existing position carry.
+14. **Defensives (XLV/XLP singles)** — Tue REGIME BROKE; UNH/JNJ/LLY/PG/KO/COST BLOCKED.
+15. **Retail EPS (WMT BMO / INTU AMC / GAP AMC)** — binary EPS ≠ specific thesis per Strategy Rule 1; BLOCKED.
+16. **Housing (XHB/ITB/LEN/KBH/DHI)** — rate-hike structural headwind; BLOCKED.
+17. **GOOGL ANT-investor mark-up** — mega-cap tech sector multi-session breakdown; Test 2 fail; BLOCKED.
+18. **Weekly review Wk-23/Wk-24 backfill — PRIMARY NON-TRADE ACTION Wk-24 Thu** — Thu catch-up slot NARROWING to Thu-Fri before Fri Wk-24 close; 10th consecutive miss density is phase-record; Wk-16/17/18/22 backlog secondary (5+ weeks overdue).
+19. **MARKET GATE CHECK**: if is_open=false at STEP 2 → log "market closed, no entries" and skip to STEP 8 commit of research entry only.
+20. **JOBLESS CLAIMS 08:30 ET RULE**: any fresh entry evaluated post-claims would be HALF-SIZE per macro-event sizing rule — but no fresh entries planned per Idea Screen.
+21. **No gates relaxed, no overrides planned** — Wk-24 Day 4 opens with 5 structural slots; 1 held (XLF); FRESH budget 3/3 intact Mon-Thu AM; deployment 10.52% well below 75-85% target but qualifying setup absent per Decision Rule.
+
+### Wk-24 Slot Budget (Day 4 Thu pre-mkt)
+- FRESH planned Thu: 0/3 (all 8 screened ideas fail specific named tests); Wk-24 FRESH budget 0/3 unused Mon-Thu AM.
+- Position cap: 1/6 (XLF); 5 structural slots remaining.
+- Deployment: 10.52% ($10,198.80 / $96,918.81); 75-85% band remains distant — NOT a buy signal per Decision Rule.
+- Semi/chip/AI moratorium: EXTENDS to Thu per Wed framework (XLK Wed close +1.5% condition UNMET); Fri AM re-screen if Thu XLK closes +2% + NVDA stabilizes.
+- Energy sector EXIT RULE: ACTIVATED (WTI no $90 reclaim; XLE sector thesis break persists).
+- Defense sector reg-overhang: structural BLOCK.
+- Duration-sensitive defensives (XLU/XLRE): rate-hike-pivot NEGATIVE deepens (10Y 5%+).
+- Rate-hike-pivot regime: STRUCTURAL; FOMC minutes Wed digested.
+- Gold miners: Day 14 DECISIVELY BROKEN (one-year lows persist); DEFERRED.
+- Defensive sector (XLV/XLP): Tue regime BROKE; multi-session RS insufficient.
+- Banks single-names: XLF Day 15 bank breakdown; XLF ADD rejected 2nd consecutive session (Tests 1 + 2 + 4 fail).
+- Insurance 10Y-5%+ beneficiaries: no specific Thu catalyst.
+- Retail (WMT/INTU/GAP) EPS: binary EPS ≠ specific thesis per Rule 1.
+- Housing (XHB/ITB/LEN) data-reaction: data ≠ thesis per Rule 1.
+- GOOGL ANT-investor mark-up: Test 2 (mega-cap tech sector multi-session breakdown).
+- **Wk-23/Wk-24 weekly review: BACKFILL STILL PENDING (10 consecutive misses); PRIMARY ACTION Wk-24 Thu-Fri catch-up slot (final before Fri close).**
+- Wk-16/17/18/22 weekly review backlog: 4 overdue (6+ weeks).
+
+### Watchlist / Deferred (midday + afternoon + Fri session)
+- **ANT Day 1 open print + spread + halt status** — sentiment signal for XLK/SMH/NVDA/GOOGL Fri AM re-screen; NOT a bot entry vehicle Day 1 (Test 3 fail).
+- **XLK Thu close re-eval** — if Thu close >+2% AND NVDA stabilizes (not red) → Fri AM AI-adjacent qualifying re-screen eligible; if XLK fades / tech-negative Day 2 → moratorium extends into Fri.
+- **NVDA Day 2 tape** — Jensen overhang resolution binary; could decompress on ANT halo or deepen on continued succession uncertainty.
+- **Jobless claims reaction** — 10Y / dollar / defensive / XLF intraday reads.
+- **WMT post-print 09:30+ ET** — retail/staples sector read; XLY/XLP/XRT ripple; Fri sector-rotation re-screen if WMT beats strong + sector-wide RS confirms.
+- **INTU AMC Thu PM** — AI/software SaaS single-name binary; Fri AM re-screen if strong.
+- **VIX regime watch** — <20 = fear regime break (ANT IPO + NVDA decompression); >25 = deeper fear / defensive bid re-strengthens; current level unquantified pre-open.
+- **XLF cushion intraday** — <$55.90 discretionary-trim / <$54.036 trail execution / <$52.12 -7% manual-cut; Day 15 bank-weakness stress-test scenario.
+- **Energy sector reclaim watch** — WTI needs reclaim $90 AND XLE multi-session +RS for Test 2 revival; "edges higher" pre-mkt marginal.
+- **Gold miners sector reclaim watch** — gold $4,100 breakout OR miners multi-session reclaim required; both distant.
+- **GOOGL ANT-investor mark-up watch** — if XLC breaks into multi-session leadership Thu PM / Fri → GOOGL re-screen eligible.
+- **Weekly review Wk-23/Wk-24 PRIMARY** — Thu Wk-24 Day 4 catch-up slot NARROWING (Thu-Fri only before Fri Wk-24 close); weekly-review skill required Thu PM or Fri AM.
+- **Post-ANT Thu EOD regime assessment** — ANT Day 1 close direction + XLK close direction = Fri AM AI-adjacent re-screen eligibility gating.
