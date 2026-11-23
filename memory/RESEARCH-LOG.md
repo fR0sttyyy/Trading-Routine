@@ -12009,3 +12009,155 @@ Order of preference at MARKET-OPEN routine runtime:
 - **Weekly review Wk-23 MANDATORY** — Fri PM post-close weekly-review-skill fire; Wk-16/17/18/22/23 backlog (5+ weeks overdue).
 - **Wk-24 flat-session summary Wk-25 Mon pre-mkt** — all 5 sessions ran Idea Screens; 0/3 FRESH used; every candidate had specific named failed test; verify NOT violation per Decision Rule.
 - **Post-Wk-24 regime assessment** — Thu -2% broad risk-off + VIX 30+ + full-fear regime + ANT reallocation; if Wk-25 opens with relief = partial regime reset; if continuation = extended risk-off cycle.
+
+---
+
+## 2026-11-23 — Pre-market Research (Wk-25 Day 1, Monday — post-Fri-mayhem AI-rout + oversold bounce setup / XLF sole position Day 16 BREACHED $55.90 TRIM TRIGGER 3rd attempt / Thanksgiving-shortened wk)
+
+### Account
+- Equity: $96,720.81 (pre-mkt live) / last_equity $96,542.61 (Fri close stamped)
+- Cash: $86,720.01 (89.66% pre-mkt / 89.83% Fri close)
+- Buying power: $374,882.28 (reg-T $183,440.82; non-marg $91,720.41)
+- Daytrade count: 0 (unchanged)
+- Position market value: $10,000.80 (XLF 180 sh × $55.56 pre-mkt indicative, vs Fri close $9,822.60 — +$178.20 overnight gap-up / +1.81%)
+- Deployment: 10.34% mv pre-mkt (up from 10.17% Fri close)
+- Phase P&L (vs $100k start): -$3,279.19 / -3.28% (improved from Sun backfill -$3,457.39 / -3.46% on XLF overnight reclaim)
+- `balance_asof`: 2026-11-20 (Fri close officially stamped overnight — clean reconciliation vs TRADE-LOG Sun 11/22 backfill $96,542.61 = matched to the cent)
+
+### Market Context
+- **WTI crude:** $82.12 (-1.55%) — **crude sub-$90 STRUCTURAL regime continues** (energy sector sector-block ACTIVE, 16+ sessions)
+- **Brent crude:** $88.51 (-1.60%)
+- **S&P 500 futures (ES=F):** 7,102.25 **+2.41%** — risk-on bounce after Fri mayhem
+- **Nasdaq futures (NQ=F):** 25,903.75 **+3.09%** — AI-complex bounce attempt Day 1 post-crash
+- **Dow futures implied:** +800 pts / **+1.7%** (per Barron's/Yahoo pre-mkt coverage)
+- **VIX:** 30.98 (+8.93% Fri close) — **FEAR REGIME ENTRENCHED Day 4 Wk-24** (VIX 30+ confirmed; above 20 regime now 8th session)
+- **Indices Fri 11/20 close (per research.sh context):**
+  - S&P 500: 6,910.39 (**-3.7% intraday Fri** — single-day historic selloff)
+  - Nasdaq: 22,617.73 (**-5.28% intraday Fri** — Nasdaq erased all 2026 YTD gains per TradingKey)
+  - Dow: 48,147.33 (-1.93% intraday Fri)
+- **Sectors Fri 11/20 close:**
+  - XLK Tech: 149.01 (**-7.27% Fri** — AI-complex rout; semi-moratorium EXTENDED)
+  - XLB Materials: 48.34 (-2.19%)
+  - XLI Industrials: 156.37 (-3.09%)
+  - XLE Energy: 60.51 (-0.62% Fri / -6.17% week / -10.58% month) — oversold but crude block active
+  - XLF Financials: 54.57 (**-1.82% Fri** — Goldman Sachs -6.7% drag; XLF 5-session Wk-24 streak Mon-Fri)
+  - XLV Healthcare: 177.24 (-0.12%)
+  - XLP Staples: 90.46 (**+0.67% Fri** — defensive bid in risk-off)
+- **Today's catalysts:**
+  - **Oversold bounce setup** — multiple strategist consensus (Goldman, Saxo, Bloomberg); "reflex bounce more likely than durable low absent thrust day" per EdgeRater; Goldman set 3 conditions for rebound.
+  - **NVDA SEC accounting probe** — Fri 11/20 revelation; NVDA -14% Fri to $125.53, -43% 30-day, -$2.5T market-cap from peak. Fundamental damage not sentiment; BLOCKS AI-sector momentum reclaim.
+  - **Thanksgiving holiday schedule:** Mon 11/23 full / Tue 11/24 full / **Wed 11/25 full + Core PCE 08:30 ET BINARY** / **Thu 11/26 CLOSED Thanksgiving** / **Fri 11/27 EARLY CLOSE 13:00 ET** (bond mkt 14:00 ET).
+  - **Goldman AI-infra concern** — $44B bond sale for SpaceX funded AI infra = banks on hook for AI-capex if cycle turns; **XLF-specific catalyst** continues to apply to position.
+- **Earnings before open (Mon 11/23 BMO — none mega-cap):** CRGO, THCH, VNET, LI Auto — no strategy-relevant BMO prints.
+  - **Rest-of-week BMO/AMC:** Tue 11/24: ADSK AMC / Wed 11/25: HPE AMC + DELL AMC + CRWD / Fri 11/27: no major (half-session). **AI-infra server/software (HPE/DELL/CRWD) post-NVDA-crash Wk-25 binaries**; sector moratorium remains.
+- **Economic calendar Wk-25 (Thanksgiving-compressed):**
+  - **Mon 11/23:** Chicago Fed Nat'l Activity Index 08:30 ET (low-impact).
+  - **Tue 11/24:** FHFA House Price Index / S&P Case-Shiller / Consumer Confidence Nov / Richmond Fed Mfg.
+  - **Wed 11/25:** **Core PCE Oct 08:30 ET BINARY** (critical — rate-hike-pivot regime stress test) + Jobless Claims + GDP Q3 revised + Durable Goods + New Home Sales + Beige Book 14:00 ET.
+  - **Thu 11/26:** CLOSED (Thanksgiving).
+  - **Fri 11/27:** No scheduled major data (half-session 13:00 ET close).
+- **Sector momentum map (Mon pre-mkt / Wk-25 Day 1):**
+  - **LEADERS:** NONE — Fri -3.7% S&P + -5.28% NDX broad risk-off; all cyclical sectors bled.
+  - **DEFENSIVE:** XLP (+0.67% Fri bid) / XLV (-0.12% near-flat) — defensive-bid regime active Day 4 (Tue-Fri Wk-24).
+  - **BROKEN:** XLK Tech -7.27% Fri (AI-complex) / XLE Energy -6.17% week (crude block) / XLB Materials -2.19% / XLI Industrials -3.09%.
+  - **RATE-SENSITIVE BLOCKED:** XLU / XLRE (rate-hike-pivot Day 3 post-FOMC-minutes-hawkish).
+  - **GOLD-MINERS BLOCKED:** NEM Fri 11/13 -10.5% WoW persistent.
+  - **FINANCIALS IMPAIRED:** XLF -1.82% Fri (GS AI-infra skepticism); own XLF 180 sh at impaired thesis Day 16 of Dem-sweep bank-bid.
+
+### Trade Ideas (Mon 11/23 screening)
+
+**Trade 1 — XLF DISCRETIONARY TRIM 90 sh (50%) — PRIMARY ACTION Mon AM, NOT a new FRESH slot (reduction)**
+- **Catalyst:** $55.90 trim trigger breached Thu 11/19 ($55.71) and deepened Fri 11/20 ($54.57 = -2.38% below trigger); Mon pre-mkt indicative $55.56 (+1.81% gap-up from Fri close) still -0.61% below $55.90 trigger. Decision deferred 3rd time (Thu AM miss, Fri AM miss, now Mon AM live execution).
+- **Entry:** market-open sell 90 sh @ MKT if XLF <$55.90 AT 09:30 ET OPEN (not pre-mkt indicative; use actual open quote)
+- **Reset condition:** if XLF opens ≥$55.90 (requires +2.44% from Fri close = right at futures implied ~+2.4% beta-match), trim trigger resets AND cushion vs GTC stop widens; HOLD full 180 sh.
+- **Order-dependency:** `qty_available: 0` on position (both 180 sh locked by 2× 90 sh GTC trail legs). MUST cancel ONE 90 sh GTC trail leg (either `8bd5213b` original or `bbf96d5f` ADD) BEFORE sending 90 sh sell order — wrapper will reject otherwise.
+- **Execution shape (if trim fires):**
+  1. `bash scripts/alpaca.sh cancel <one 90 sh leg id>`
+  2. `bash scripts/alpaca.sh order '{"symbol":"XLF","qty":"90","side":"sell","type":"market","time_in_force":"day"}'`
+  3. Remaining 90 sh covered by surviving GTC trail leg @ $54.036 (trail 10%, hwm $60.04)
+- **Post-trim position:** 90 sh × ~$55.56 ≈ $5,000 mv (~5.2% deployment); cash rises to ~$91,720 (94.8%)
+- **R:R:** this is EXIT-SIZING not new-entry R:R; frees ~$5,000 cash for Wk-25 fresh opportunities + hedges thesis-broken continuation; cushion vs cut-flag $52.12 on remaining 90 sh: +$3.44 (+6.19% from $55.56) / +$2.45 (+4.50% from Fri $54.57).
+- **QUALIFIES → EXECUTE** (if XLF open <$55.90)
+
+**Trade 2 — NO FRESH ENTRIES screen (8 sectors tested per CLAUDE.md Decision Rule)**
+1. **AI/semi (NVDA/AMD/SMH/XLK)**: FAILS Test 1 (SEC accounting probe = FUNDAMENTAL damage; bounce is sentiment not thesis) + Test 2 (XLK -7.27% Fri Day 1 post-crash, NOT multi-session momentum per Strategy Rule 9). **BLOCKED.**
+2. **Financials ADD (XLF/GS/JPM)**: FAILS Test 1 (own XLF, thesis impaired Day 16, trim-decision ACTIVE) + Test 2 (XLF -1.82% Fri, GS -6.7% = sector LOSING Day 4 defensive-bid regime). **BLOCKED.**
+3. **Energy (XLE/XOM/CVX)**: FAILS Test 2 (crude $82 sub-$90 STRUCTURAL block, 16+ sessions) + Test 1 (XLE -10.58% monthly = sector-exit region per Rule 10). **BLOCKED.**
+4. **Defensive-bid (XLP/XLV)**: FAILS Test 2 (XLP +0.67% / XLV -0.12% Fri = flat defensive bid, NOT momentum sector-leader per Rule 9; defensive-bid regime Day 4 lacks multi-week RS). **BLOCKED.**
+5. **Gold miners (NEM/GDX)**: FAILS Test 2 (NEM -10.5% WoW persistent; miners structural block Day 10 per Wk-23 note). **BLOCKED.**
+6. **Rate-sensitive utilities/REITs (XLU/XLRE)**: FAILS Test 2 (rate-hike-pivot Day 3 post-FOMC-minutes-hawkish continues pressure; duration NEGATIVE regime). **BLOCKED.**
+7. **Oversold broad bounce (SPY/QQQ)**: FAILS Test 1 (bounce is sentiment not thesis-driven catalyst per Strategy Rule entry trigger) + Test 2 (Strategy Rule 9 requires sector momentum, broad-index ETFs do not qualify; "no thrust day yet" per EdgeRater). **BLOCKED.**
+8. **Retail Black Friday (XRT/TGT/WMT/AMZN)**: FAILS Test 1 (Black Friday is seasonal event not forward thesis; Target reported Q3 Wed 11/18, already digested; next retail prints are off-calendar until Fri PM Black Friday retail data). **BLOCKED.**
+
+### Risk Factors
+- **GTC trail stop buffer sub-1% CRITICAL** — Stop $54.036 vs Fri close $54.57 = -0.979% below current. Pre-mkt $55.56 widens buffer to -2.73% but still BELOW CLAUDE.md 3% min. **Any Mon gap-down >0.98% from Fri close OR intraday breakdown through $54.036 fires BOTH GTC legs server-side (180 sh market exit) BEFORE discretionary trim possible.**
+- **Dominant exit mechanism is server-side** — the 10% trail is now the primary risk mechanism; trim is a secondary SIZE-reduction action for continuation scenarios.
+- **Pre-mkt gap could reclaim $55.90 trigger** — if ES +2.41% / NQ +3.09% drags XLF beta-matched +2.0-2.4% from Fri $54.57, XLF opens $55.66-$55.88, STILL just below $55.90 trigger — trim DEFAULT fires. Needs +2.44% to reclaim, which is right at the futures edge; **execute on actual 09:30 ET open quote, not pre-mkt indicative**.
+- **Oversold bounce FAILURE risk** — Fri AI-rout + GS warn of "selloff could worsen" + no thrust day per EdgeRater = Mon bounce could fade intraday; XLF could re-break lower from gap-up open; monitor 60-min reversal.
+- **NVDA SEC accounting probe** — fundamental damage (not just sentiment); 1-session bounce does NOT reset AI regime; keeps semi-moratorium armed Wk-25.
+- **Core PCE Wed 11/25 08:30 ET BINARY** — hot print = rate-hike-pivot deepens / 10Y 5.15%+ / XLF NIM headwind / XLK longer-duration damaged / consumer discretionary pressured; cool print = partial relief + oversold bounce legs. Position any Tue entry at HALF-SIZE pre-binary per CLAUDE.md macro rule.
+- **Thanksgiving illiquidity Wk-25** — reduced volumes Mon-Wed, holiday Thu, half-session Fri. Elevated gap risk; favor conservative sizing on any eventual FRESH entry.
+- **Routine-miss risk Mon-Fri** — Wk-24 posted 10 scheduler anomalies; Mon 11/23 AM live routine firing is FIRST test of Wk-25 scheduler health; weekly review ITEM #8 flags Wk-25 escalated monitoring.
+- **Wk-25 FRESH counter 0/3 RESET Mon** — fresh week; qualifying setup gates unchanged per CLAUDE.md Decision Rule; phase P&L -3.28% is NOT a trigger to loosen entries.
+
+### Decision
+
+**Trade 1: XLF TRIM 90 sh @ MKT at 09:30 ET Mon open IF XLF <$55.90, ELSE HOLD FULL 180 sh (trigger reset)**
+- QUALIFIES on action-trigger logic (trim trigger breached Thu + Fri, deferred 3rd time, deepened -2.38% below trigger Fri close; position thesis IMPAIRED on 5-session Wk-24 breakdown sequence + GS AI-infra concern)
+- NOT a new FRESH slot (position reduction, not entry)
+- Gate check: N/A (sell action; no FRESH slot consumed)
+- **ENTER AT OPEN** — Market-open routine 09:30 ET decides based on actual open quote:
+  - If XLF open < $55.90: cancel ONE 90 sh GTC trail leg, submit market sell 90 sh, remaining 90 sh held with surviving GTC trail @ $54.036
+  - If XLF open ≥ $55.90: HOLD full 180 sh, both GTC legs stay active, trim trigger resets; re-evaluate only on new breach
+
+**Trade 2: NO FRESH ENTRIES Mon 11/23** — all 8 screened sectors have SPECIFIC NAMED failed tests per CLAUDE.md Decision Rule, NOT generic patience/wait/protect-cash:
+- AI/semi: Tests 1 + 2 (SEC probe fundamental + Day 1 post-crash lacks multi-session momentum)
+- Fin ADD: Tests 1 + 2 (own + thesis impaired + sector losing)
+- Energy: Tests 1 + 2 (sector-exit zone + crude sub-$90)
+- Defensive-bid: Test 2 (flat not momentum-leader)
+- Miners: Test 2 (structural block)
+- Rate-sensitive: Test 2 (rate-hike-pivot continues)
+- Oversold broad: Tests 1 + 2 (sentiment not thesis + index not sector)
+- Retail/Black Friday: Test 1 (seasonal event not thesis)
+- **NOT a flat-session violation** per CLAUDE.md — every idea has specific named failed test. Wk-25 FRESH budget 3/3 intact.
+- **RESOLVE-NOW RULE check:** No idea has "only blocker = checkable fact." SEC probe is multi-session fundamental; oversold bounce requires multi-session thrust confirmation; Core PCE binary Wed → HALF-SIZE Tue AM re-screen possible IF a sector shows multi-session RS by Tue pre-mkt.
+
+**Trade 3 (no change): HOLD remaining XLF 90 sh post-trim (or 180 sh if trim resets)**
+- Cushion from Fri close: +4.70% to $52.12 cut-flag (narrowed from Wed-pre-close +7.72% / Mon pre-mkt reclaim widens to ~+6.19% at $55.56)
+- GTC trail $54.036 (both legs if full-hold; one leg if trim) carries position; server-side fires on breakdown
+- Dem-sweep bank-bid thesis Day 16 IMPAIRED but not BROKEN at $52.12 cut-flag yet; hold
+
+**Regime summary Mon 11/23 (Wk-25 Day 1 open):**
+- **VIX 30+ FEAR REGIME Day 4** — bounce attempt but no thrust day yet; "sell the rip" risk if bounce fails midday
+- **Rate-hike-pivot STRUCTURAL Day 3 post-FOMC-minutes-hawkish** — Core PCE Wed 11/25 is critical stress test
+- **AI-complex IN CRISIS Day 1 post-crash** — NVDA -43% / 30d + SEC probe = NOT 1-session bounce fix; multi-week regime reset required
+- **Sector-leaders = NONE** — defensive bid XLP/XLV Day 4 but neither has multi-session RS to Qualify Rule 9; strategy requires leader, not safe-haven flat
+- **4 active sector blocks** (energy / defense / duration-sensitive / gold-miners) + AI-moratorium extended + XLF-ADD blocked
+- **Thanksgiving-shortened wk** — 4 equity sessions Mon-Wed full + Fri half; reduced liquidity; conservative sizing on any eventual FRESH entry
+- **Wk-25 FRESH 0/3 RESET Mon** — fresh week; qualifying setup required per Decision Rule
+
+### Mon 11/23 (Wk-25 Day 1) — Action Plan
+
+**Primary action: XLF trim decision at 09:30 ET open**
+- Decision tree hard-coded above (Trade 1); market-open routine executes on actual open quote
+- Secondary monitoring: GTC stop buffer sub-1% continues as dominant exit mechanism
+
+**Secondary monitoring:**
+- XLF trail ratchet watch: HWM $60.04; Mon rally above $60.04 = new HWM + server-side tighten (gap -9.11% at Fri close; requires +10.03% Mon = very unlikely absent dovish catalyst)
+- XLF tighten-trail watch: -2.63% unrl at Fri close; +15% threshold ~$64.45 (gap +18.11%); NOT at threshold
+- Oversold bounce quality: watch XLK session action — if XLK fails pre-mkt gap-up intraday + closes red = AI regime continues; if XLK closes +3%+ with NDX reclaim 23,300 = Day 1 thrust possible
+- GS session action: XLF cannot reclaim strength without GS stabilization; monitor GS for session-level reversal vs continued pressure
+
+**Routine health audit:**
+- Wk-25 Mon AM pre-mkt routine firing = first Wk-25 scheduler event; monitor for pattern continuation (Wk-24 posted 10 anomalies) vs recovery
+- EOD routine time: expect ~14:51 ET firing per Wk-24 Mon-Thu pattern; weekly review confirmed structural anomaly
+
+**Weekly review backlog (unchanged from Fri PM):**
+- Wk-23 + Wk-24 CURRENT (both fired)
+- Still-pending: Wk-16/17/18/22 (4 weeks backfill debt)
+- Wk-25 window opens Fri 11/27 PM (half-session) or carryover to Wk-26 Mon
+
+**Thanksgiving-week specific posture:**
+- No full session Thu; reduced liquidity Wed PM pre-holiday + Fri half-session illiquidity
+- Core PCE Wed 11/25 08:30 ET is PRIMARY macro binary of wk → HALF-SIZE any Tue entry per CLAUDE.md macro rule
+- Fri 11/27 half-session 13:00 ET: avoid fresh entries (illiquidity + gap risk overnight into Wk-26 open)
