@@ -6164,3 +6164,46 @@ Net: 2 routine-failure flags Wk-23 (Tue market-open, Thu pre-mkt). Critical for 
 5. **Weekly review backlog** — unchanged (Wk-16/17/18/22 debt); Mon-Wed Wk-25 is suggested catch-up window per Fri review priorities.
 6. **Routine-miss audit 3-wk rolling:** Wk-23 (2) + Wk-24 (10) + Wk-25 Day 1 (1 scheduler-timing + 1 classifier-layer) = 14 anomalies; classifier-layer is NEW category introduced Mon.
 7. **Wk-25 FRESH counter: 0/3 Mon EOD** (0 FRESH slot-consuming trades via Mon open routine); Tue AM scanner re-eval of all 8 blocked sectors — any multi-session RS emergence Mon-Tue could qualify first Wk-25 FRESH entry; Thanksgiving illiquidity Wk-25 favors conservative sizing.
+
+### Nov 23 — Midday (Wk-25 Day 1, Monday 11:13 ET — XLF intraday reclaim +2.35% from Fri close / GTC buffer restored above 3% min / NO ACTION)
+**Portfolio:** $96,739.90 (intraday live) | **Cash:** $86,720.01 (89.64%) | **Intraday P&L vs Fri close:** +$197.29 (+0.204%) | **Phase P&L:** -$3,260.10 (-3.260%)
+
+| Ticker | Shares | Entry | Current | Intraday Chg | Unrealized P&L | Unrl % | Stop |
+| - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $55.855 | +2.355% | -$34.20 | -0.339% | $54.036 (both legs, hwm $60.04) |
+
+**Scheduler health — Mon midday Wk-25 Day 1:** Midday routine fired at 11:13 ET (~47 min early vs expected 12:00 ET fire time). **Wk-25 Day 1 anomaly #2** (2 Wk-25 Day 1 anomalies today — market-open 54min pre-open per prior snapshot + midday 47min early = both timing-offset events). Rolling 3-wk tally: Wk-23 (2) + Wk-24 (10) + Wk-25 Day 1 (2 timing-offset + 1 classifier-layer deferred from market-open) = **15 anomalies 3-wk rolling**. Workaround: market is live (clock.is_open=true, next_close 16:00 ET), quotes valid, proceeded with routine on fire.
+
+**STEP 3 cuts:** NONE. XLF unrealized -0.339% / cushion to -7% cut at $52.12 = **+6.69% from $55.855** (widened materially from Fri close +4.70% / Mon open approx +6.19% on continued +0.26% XLF intraday). Not at threshold.
+
+**STEP 4 tightens:** NONE. XLF unrealized -0.339% (below +15% first-tighten threshold ~$64.45 = +15.4% move required); not eligible for either +15%/7% or +20%/5% tighten.
+
+**STEP 5 thesis check:** XLF thesis IMPAIRED-but-not-BROKEN continues. $55.855 vs $55.90 discretionary-trim trigger = **-$0.045 / -0.08% below trigger** — essentially AT trigger within noise. Mon intraday +2.35% reclaim nearly undoes the Thu-Fri trigger breach. No fresh mid-session catalyst break; XLF +2.35% intraday vs SPX futures pre-mkt +2.41% and XLE/sector tape = beta-consistent with Mon oversold-bounce regime, not XLF-specific divergence. Dem-sweep bank-bid Day 16 continues to carry the position at baseline; no GS reversal, no Senate Banking / CFPB / capital-requirement catalyst Mon AM. Thesis not broken this session.
+
+**STEP 6 intraday research:** NONE. No single ticker in portfolio moving sharply without obvious cause; XLF intraday +2.35% matches the broad risk-on bounce established in pre-mkt futures. No afternoon research addendum required.
+
+**GTC trail stop buffer — RESTORED above CLAUDE.md 3% min:** Stop $54.036 vs current $55.855 = **-$1.819 / -3.258% below current** → **ABOVE 3% min buffer** (recovered from Fri close -0.98% / Mon open -2.81%). This is the FIRST session since Thu 11/19 pre-close where the buffer meets the CLAUDE.md minimum threshold. HWM $60.04 unchanged (intraday high $55.855 is $4.185 / -6.97% below HWM); no server-side ratchet Mon intraday. Both GTC legs `updated_at` stamp remains 2026-11-05 14:30:12 UTC (Thu 11/05 AM open ratchet, now 15 trading days stable).
+
+**XLF $55.90 DISCRETIONARY-TRIM status — AT TRIGGER within noise ($55.855 = -0.08% below):** Market-open routine already escalated the classifier-execution-block to user via ClickUp alert (message id 80180090298411 at 09:30 ET). Midday routine does NOT re-attempt the trim per routine spec (trim is market-open decision-tree action, not midday mandatory) and does NOT fire a second ClickUp alert for the same decision. Price has essentially reclaimed the trigger within 8 bps — per Fri weekly review item #4: "HOLD if reclaims >$55.90 on broad relief bid." Monitoring:
+- If XLF closes <$55.90 Mon EOD: trim decision carries into Tue AM (4th attempt)
+- If XLF closes ≥$55.90 Mon EOD: trim trigger RESETS, full 180 sh held, both GTC legs stay active
+- EOD routine Mon PM will log the terminal state (contingent on EOD routine firing — Wk-24 pattern was 14:51 ET pre-close, structural)
+
+**Secondary monitoring unchanged:** Semi/chip moratorium carries forward (post-NVDA Day 4 + SEC accounting probe; AI-complex in crisis Day 1 bounce not multi-session RS); 4 active sector blocks continue (energy / defense / duration-sensitive / gold-miners); defensive-bid regime Day 4 lacks multi-session RS to qualify as sector-leader per Strategy Rule 9. Wk-25 FRESH 0/3 used (no fresh entries placed Mon AM per market-open "NO FRESH ENTRIES" screen across all 8 sectors tested); mid-session scan: no mid-session catalyst changed any sector's qualification status.
+
+**Deployment:** 10.39% mv ($10,053.90 XLF / $96,739.90 equity — up from Mon open 10.35% on +0.26% XLF intraday vs open). Cash 89.64% ($86,720.01 unchanged — 0 trades midday). **1 position / 5 slots open.**
+
+**Trades today midday:** NONE (0 cuts / 0 tightens / 0 thesis closes / 0 cancels / 0 FRESH entries). STEP 7 notification skipped per spec (no action taken).
+
+**Wk-25 running count (Mon midday):** 0/3 FRESH slot-consuming trades used; 1 pending discretionary-trim action carried in from Mon open (status: escalated to user ClickUp, awaiting approval OR intraday reclaim of $55.90 trigger; currently AT-TRIGGER within 8 bps).
+
+**Post-midday order state (2 GTC stops covering 1 position — UNCHANGED since Thu 11/05 AM ratchet, now 15 trading days stable):**
+- XLF 90 sh (original): trail 10% $54.036 hwm $60.04 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $54.036 hwm $60.04 (bbf96d5f) — unchanged
+
+**Immediate carry-in to EOD routine (expected ~14:51 ET per Wk-24 pattern, actual fire time TBD):**
+- Monitor XLF close level relative to $55.90 trim trigger (reset vs carry decision)
+- Monitor GTC trail buffer (3.26% at midday — holding above 3% min; first full session above min since Thu 11/19)
+- Monitor XLF relative strength vs XLK Mon intraday (XLK AI-bounce quality test — is Mon a one-off reflex bounce or Day 1 of durable reversal?)
+- Scheduler timing — if EOD fires ~14:51 ET again = Wk-25 Day 1 anomaly #3 confirms EOD pre-close pattern continues; if fires 16:00 ET = Wk-25 recovery vs Wk-24 pattern
+
