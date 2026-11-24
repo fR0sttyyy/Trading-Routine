@@ -6248,3 +6248,44 @@ Net: 2 routine-failure flags Wk-23 (Tue market-open, Thu pre-mkt). Critical for 
 11. **Routine-miss audit 3-wk rolling: 16 anomalies** (Wk-23: 2 / Wk-24: 10 / Wk-25 Day 1: 4 — 3 timing-offset + 1 classifier-layer). Classifier-layer is NEW Wk-25 category. Tue AM is 1st Tue session Wk-25; watch for continuation of Mon timing anomalies vs recovery.
 12. **5 structural slots open / 10.35% deployment / Wk-25 FRESH 0/3 used** — XLF $55.90 trim decision takes priority Tue AM over any new FRESH entry (consistent with Mon prioritization); qualifying setup gates unchanged per CLAUDE.md Decision Rule; no gates relaxed; phase P&L -$3,265 / -3.27% is NOT a trigger to loosen entries. Tue Wk-25 Day 2 is post-NVDA-crash Day 2 + FOMC-minutes-digest Day 4 + PCE-T-1 + Thanksgiving-week low-volume regime active.
 
+### Nov 24 — Midday (Wk-25 Day 2, Tuesday 11:13 ET — XLF intraday +0.38% / AT $55.90 trim trigger within 4bps / market-open routine did NOT fire today — no commit between pre-mkt 04fcf14 and midday / NO ACTION)
+**Portfolio:** $96,772.11 (intraday live) | **Cash:** $86,720.01 (89.61%) | **Intraday P&L vs Mon pre-close 14:51 ET baseline $96,734.31:** +$37.80 (+0.039%) | **Phase P&L:** -$3,227.89 (-3.228%)
+
+| Ticker | Shares | Entry | Current | Intraday Chg | Unrealized P&L | Unrl % | Stop |
+| - | - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $55.86 | +0.377% | -$33.32 | -0.330% | $54.036 (both legs, hwm $60.04) |
+
+**Scheduler health — Tue midday Wk-25 Day 2:** Midday routine fired at 11:13 ET (~47 min early vs expected 12:00 ET fire time). **Wk-25 Day 2 anomaly #2** (pre-mkt 07:43 ET LATE +1h43m, midday 11:13 ET EARLY -47min; direction flip within single session). **Market-open routine did NOT fire Tue AM** — git log shows no commit between pre-mkt 04fcf14 (Tue 04:43 ET ~07:43 wall) and this midday snapshot; position + order state unchanged since Mon EOD (both GTC legs `updated_at` 2026-11-05 14:30:12 UTC stable). This is a NEW anomaly category: ROUTINE-SKIP (market-open scheduled routine did not fire or fired without any action/commit). Rolling 3-wk tally: Wk-23 (2) + Wk-24 (10) + Wk-25 Day 1 (4) + Wk-25 Day 2 (2 so far: 1 pre-mkt LATE + 1 market-open SKIP; midday EARLY not yet counted until confirmed pattern) = **18 anomalies 3-wk rolling**. Data integrity: Alpaca clock confirms `is_open: true`, `next_close 2026-11-24T16:00:00-05:00`, quotes valid live ($55.86/$55.87 bid/ask with 4-digit spread = 0.018% = normal tight ETF spread; not halted/illiquid). Proceeded with routine on fire.
+
+**XLF $55.90 DISCRETIONARY-TRIM STATUS — AT TRIGGER WITHIN 4bps:** $55.86 current vs $55.90 trigger = **-$0.04 / -0.072% below trigger** (vs Mon EOD -0.474%; narrowed by 0.40pp Tue AM). Position state: qty 180 / qty_available 0 (both GTC legs tie up all 180 sh — no trim executed at market open Tue). **Market-open routine did NOT execute the Action-1 trim decision** (no new commit, no new orders, GTC legs unchanged since Nov 5). Possible causes: (a) routine fired but hit classifier block again for 4th consecutive attempt (no commit implies no log of this), (b) routine did not fire at all (no scheduler trigger). Per midday routine spec: **trim is market-open decision-tree action, not midday mandatory** — midday does NOT re-attempt the trim and does NOT fire a fresh ClickUp alert for the same unresolved decision (prior Mon ClickUp 80180090298411 still open). Monitoring path forward:
+- If XLF closes <$55.90 Tue EOD: trim decision carries into Wed AM (5th attempt) + post-PCE Wed decision resolves regime
+- If XLF closes ≥$55.90 Tue EOD: trim trigger RESETS, full 180 sh held, both GTC legs stay active
+- EOD routine Tue PM will log the terminal state + flag the market-open routine skip
+
+**STEP 3 cuts:** NONE. XLF unrealized -0.330% / cushion to -7% cut at $52.12 = **+6.69% from $55.86** (identical to Mon midday; stable). Not at threshold.
+
+**STEP 4 tightens:** NONE. XLF unrealized -0.330% (below +15% first-tighten threshold ~$64.45 = +15.4% move required); not eligible for either +15%/7% or +20%/5% tighten.
+
+**STEP 5 thesis check:** XLF thesis IMPAIRED-but-not-BROKEN continues. $55.86 vs $55.90 = essentially AT trim trigger within 4bps. No fresh mid-session catalyst break Tue AM; XLF +0.38% intraday vs broader tape = sector-beta consistent (no XLF-specific divergence). Dem-sweep bank-bid Day 18 continues baseline carry; no GS reversal, no Senate Banking / CFPB / capital-requirement catalyst Tue AM. **AI-complex Day 2 question:** Mon NVDA +31% / XLK +8.97% thrust — Tue reaction is partially resolving the "reflex vs thrust" test. Pre-mkt research noted Tue pre-mkt -5% NVDA / -3% semis; by midday 11:13 ET, need to verify XLK status vs Mon $162.38 close. Not directly relevant to XLF thesis (XLF is financials not tech) but regime signal. Thesis not broken this session.
+
+**STEP 6 intraday research:** NONE. No single ticker in portfolio moving sharply without obvious cause; XLF intraday +0.38% matches broad tape. No afternoon research addendum required.
+
+**GTC trail stop buffer:** Stop $54.036 vs current $55.86 = **-$1.824 / -3.266% below current** → **ABOVE 3% min buffer** (vs Mon EOD +2.874%; widened by 0.39pp on Tue AM +0.38% XLF intraday). HWM $60.04 unchanged (intraday high ~$55.87 is $4.17 / -6.95% below HWM); no server-side ratchet Tue. Both GTC legs `updated_at` stamp remains 2026-11-05 14:30:12 UTC (Thu 11/05 AM open ratchet, now 16 trading days stable — longest stable stretch of the phase).
+
+**Deployment:** 10.39% mv ($10,054.78 XLF / $96,772.11 equity — up from Mon EOD 10.35% on +0.38% XLF intraday). Cash 89.61% ($86,720.01 unchanged — 0 trades midday or at market-open today). **1 position / 5 slots open.**
+
+**Trades today midday:** NONE (0 cuts / 0 tightens / 0 thesis closes / 0 cancels / 0 FRESH entries / 0 trims — market-open did not execute). STEP 7 notification skipped per spec (no action taken).
+
+**Wk-25 running count (Tue midday):** 0/3 FRESH slot-consuming trades used; 1 pending discretionary-trim action carried in from Mon (status: escalated to user ClickUp, awaiting approval OR classifier fix OR Tue >$55.90 close reclaim resets trigger). Wk-25 compressed schedule: Mon 11/23 full ✓ / Tue 11/24 full (today) / Wed 11/25 full + PCE 08:30 ET / Thu 11/26 CLOSED / Fri 11/27 half-session 13:00 ET close.
+
+**Post-midday order state (2 GTC stops covering 1 position — UNCHANGED since Thu 11/05 AM ratchet, now 16 trading days stable):**
+- XLF 90 sh (original): trail 10% $54.036 hwm $60.04 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $54.036 hwm $60.04 (bbf96d5f) — unchanged
+
+**Immediate carry-in to EOD routine (expected ~14:51 ET per Wk-24+Wk-25 Day 1 pattern, actual fire time TBD):**
+- Monitor XLF close level relative to $55.90 trim trigger (reset vs carry decision for 5th attempt Wed AM)
+- Monitor GTC trail buffer (3.27% at midday — above 3% min; second full session above min since Thu 11/19)
+- Monitor XLK vs Mon $162.38 close (AI-complex Day 2 reflex vs thrust test)
+- Investigate market-open routine skip Tue AM (did it fire? if yes, why no commit? if no, scheduler issue flag for weekly review)
+- Scheduler timing — EOD fire time will confirm if 14:51 ET pre-close pattern continues Wk-25 Day 2
+
