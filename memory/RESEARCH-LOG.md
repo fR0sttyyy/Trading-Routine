@@ -12161,3 +12161,186 @@ Order of preference at MARKET-OPEN routine runtime:
 - No full session Thu; reduced liquidity Wed PM pre-holiday + Fri half-session illiquidity
 - Core PCE Wed 11/25 08:30 ET is PRIMARY macro binary of wk → HALF-SIZE any Tue entry per CLAUDE.md macro rule
 - Fri 11/27 half-session 13:00 ET: avoid fresh entries (illiquidity + gap risk overnight into Wk-26 open)
+
+---
+
+## 2026-11-24 — Pre-market Research (Wk-25 Day 2, Tuesday — PCE T-1 / post-Jensen-reinstatement Day 2 / Mon rally fading pre-mkt NQ -2% ES -1.1% / XLF trim trigger still breached / routine fired 07:43 ET = ~1h43m late vs 06:00 ET target)
+
+### Account (snapshot ~07:43 ET)
+- Equity: $96,720.81 | Cash: $86,720.01 (89.66%) | Buying power: $374,882.28 (4x margin)
+- Portfolio value: $96,720.81 | Long market value: $10,000.80 | daytrade_count not re-fetched (prior snapshot 0)
+- SMA: $96,542.61 | balance_asof: 2026-11-23 (prior-day close basis, standard for pre-mkt Alpaca account endpoint)
+- Phase P&L: -$3,279.19 (-3.279%) vs $100,000.00 start (Phase 2 baseline Oct 1)
+- Positions: 1 (XLF 180 sh) / 5 slots open / 10.34% deployed
+- Open orders: 2 XLF GTC trail stops @ $54.036 (hwm $60.04), both legs unchanged since Nov 5 (16 trading days stable)
+
+### Market Context (Tue 11/24 pre-mkt ~07:43 ET)
+- **WTI:** $80.08 (-0.11% overnight); Brent $86.84 (+0.18%) — **sub-$90 structural block Day 17**
+- **Equity futures (reversing Mon thrust):** ES -1.08% ($7,176 fut), NQ -1.87% ($26,306.5), Dow -277 pts / -0.6% per CNBC/MarketWatch pre-mkt coverage
+- **VIX:** 29.29 (+10.03%) — **above 30 regime continuing; elevated vol persistent despite Mon rally**
+- **Mon 11/23 close recap (biggest single-session rally of Phase 2):** S&P +4.73% / NDX +6.51% / XLK +8.97% / **NVDA +31%** on Jensen Huang CEO REINSTATEMENT 11 days after resignation; rate-hike bets trimmed; Dow +3.01%; XLF +1.98% (lagged broad bounce — beta-weak)
+- **Tue pre-mkt sectors most-moved pre-open:** NVDA -5% / AMD -3% / MU -3% / MRVL -3% / ARM -3% — **AI-complex giving back Mon rally in Tue pre-mkt consolidation**
+- **Today's catalysts:**
+  - **Jensen Huang reinstatement Day 2** — board approved Mon 11/23; US govt input said "no national security risk"; HOWEVER multiple probes remain active (SEC + DOJ + Commerce + CA AG + House committees + Senate Banking testimony scheduled Dec 3). BofA: "Nvidia bounces back... but SEC probe still looms." Yale governance expert publicly urged board to quit over reinstatement.
+  - **PCE T-1 positioning** — Core PCE Wed 11/25 08:30 ET; consensus 0.27-0.40% m/m / 3.21-3.30% y/y vs prior 0.3% / 3.1% y/y; headline forecast 3.8% y/y vs 3.6% prior = **expected ACCELERATION**. Called "Fed's Last Clean Read" (Traders4Traders).
+  - **Mon rally fading in pre-mkt** — 1-session thrust not confirmed by Day 2 follow-through; defines test of durability
+  - **ADI earnings BMO** (Analog Devices, $3.88 EPS consensus, 11-quarter beat streak at stake) — strategy-relevant AI/semi print
+  - **Dell AMC** (post-close) — AI-infra server read for Wed open
+- **Earnings this week (compressed):**
+  - **Tue 11/24 BMO:** ADI (semis)
+  - **Tue 11/24 AMC:** ADSK + DELL + HPE moved to Wed AMC per prior log; verify
+  - **Wed 11/25:** HPE AMC / DELL AMC / CRWD AMC — AI-infra server/software post-NVDA binaries
+  - **Fri 11/27:** no major (half-session 13:00 ET close)
+- **Economic calendar Wk-25 (Thanksgiving-compressed):**
+  - **Tue 11/24 today:** FHFA House Price Index / S&P Case-Shiller / Consumer Confidence Nov / Richmond Fed Mfg (all low/medium impact; Williams spoke overnight 02:00 ET)
+  - **Wed 11/25:** **Core PCE 08:30 ET BINARY** + Jobless Claims + GDP Q3 revised + Durable Goods + New Home Sales + Beige Book 14:00 ET
+  - **Thu 11/26:** CLOSED (Thanksgiving)
+  - **Fri 11/27:** No scheduled major data (half-session 13:00 ET close)
+- **Sector momentum map (Tue pre-mkt / Wk-25 Day 2):**
+  - **LEADERS Mon close:** XLK +8.97% (biggest 1-day rally of year) / XLI +3.9% / XLB +3.23% / XLF +1.98% (lagged) / XLV +1.23% (lagged defensively)
+  - **PRE-MKT TUE REVERSAL:** Semis -3-5%; NDX futures -1.87%; broad consolidation — Mon rally NOT yet multi-session RS
+  - **XLV Autumn Rebound narrative** (Harvest ETFs report Nov 17) — multi-week RS claim; but Mon -1.23% vs market +4.73% = **XLV LAGGED Mon oversold bounce** → inconsistent with momentum-leader thesis for this week's screen
+  - **BROKEN STRUCTURALLY:** XLE Energy (crude sub-$90 Day 17) / rate-sensitive (XLU/XLRE post-FOMC-minutes-hawkish Day 4 + PCE T-1) / gold miners (NEM structural)
+  - **FINANCIALS IMPAIRED:** XLF trim trigger still breached ($55.65 close vs $55.90 = -0.45%); own 180 sh at impaired thesis Day 17 of Dem-sweep bank-bid
+  - **AI-COMPLEX STILL CRISIS BLOCK:** Day 2 post-Jensen-reinstatement but Tue pre-mkt fade + BofA caution + Dec 3 Senate Banking testimony overhang = 1-session rally NOT thrust-day confirmation per Strategy Rule 9
+
+### Trade Ideas (Tue 11/24 screening)
+
+**Action 1 — XLF DISCRETIONARY TRIM 90 sh (50%) — 4TH ATTEMPT CARRY-FORWARD, NOT a new FRESH slot**
+- **Catalyst:** $55.90 trim trigger breached since Thu 11/19; Fri -2.38% below / Mon close -0.45% below / Tue futures imply ~-1.5% below on open (if XLF betas to NQ -1.87% / ES -1.08%, projected open ~$54.95-$55.10 = -1.4-1.7% below trigger).
+- **Action tree Tue 09:30 ET open:**
+  - IF XLF open ≥ $55.90: trim trigger RESETS, HOLD full 180 sh, both GTC stay active, no action; carry nothing forward
+  - IF XLF open < $55.90 AND user approved overnight via ClickUp: execute 50% trim — (a) cancel ONE 90 sh GTC leg, (b) market sell 90 sh, (c) remaining 90 sh covered by surviving GTC leg
+  - IF XLF open < $55.90 AND user has NOT approved AND classifier still blocks: 4th consecutive deferral; midday/EOD monitor; log as CARRY per prior protocol
+- **Order-dependency (identical to Mon plan):** `qty_available: 0` on position (180 sh locked by 2× 90 sh GTC legs); MUST cancel ONE leg first; wrapper rejects otherwise
+- **Post-trim:** 90 sh × ~$55.10 ≈ $4,959 mv (~5.1% deployment); cash rises to ~$91,680 (94.8%)
+- **R:R:** exit-sizing not new-entry; frees ~$5,000 for Wk-25 FRESH opportunities; cushion vs cut-flag $52.12 widens on remaining 90 sh
+- **QUALIFIES on action-trigger logic** (trim decision carried in; thesis IMPAIRED continues; PCE T-1 favors risk reduction before binary event)
+- **NO HALF-SIZE RULE APPLIES** — this is a REDUCTION action, not a FRESH entry; macro-event half-size filter is for new positions only
+
+**Action 2 — NO FRESH ENTRIES screen (8 sectors tested per CLAUDE.md Decision Rule)**
+
+Each test case states FAIL-REASON specifically per CLAUDE.md:
+
+1. **AI/semi (NVDA/AMD/SMH/XLK)** —
+   - Catalyst: Mon +8.97% XLK / +31% NVDA rally on Jensen reinstatement = Day 1 thrust CANDIDATE
+   - Test 1: Partial PASS — Jensen reinstatement is specific catalyst documented in today's log
+   - Test 2: **FAIL** — Tue pre-mkt NDX -1.87% / NVDA -5% / AMD/MU/MRVL/ARM -3% = Mon one-session rally NOT confirmed by Day 2 follow-through; Strategy Rule 9 requires sector momentum, not 1-session reflex bounce; BofA + Yale skepticism public
+   - Test 3: Definable (would use NVDA ~$155 current, stop $142 = -8.4%, OK)
+   - Test 4: Possible 2:1 on multi-week probe recovery
+   - **BLOCKED** — fails Test 2 specifically (multi-session RS not confirmed; Tue fade confirms thrust-day thesis unproven). RE-EVALUATE: if Wed post-PCE sees XLK close >Mon close with multi-session hold = qualify for Thu/Fri (but Thu closed, Fri half-session → effectively Wk-26 Mon).
+
+2. **Financials ADD (XLF/GS/JPM)** —
+   - Test 1: **FAIL** — no new sector catalyst Tue; own XLF at impaired thesis + trim decision active; no fresh ADD setup
+   - **BLOCKED** — fails Test 1
+
+3. **Energy (XLE/XOM/CVX)** —
+   - Test 2: **FAIL** — crude $80.08 sub-$90 STRUCTURAL block Day 17; XLE -1.06% consolidation not momentum
+   - Rule 10: XLE -10.58% monthly puts sector in exit-zone
+   - **BLOCKED** — fails Test 2 + Rule 10
+
+4. **Defensives (XLV/XLP)** —
+   - Catalyst: XLV "autumn rebound" narrative multi-week (Harvest ETFs Nov 17)
+   - Test 1: Partial — rebound narrative documented
+   - Test 2: **FAIL** — XLV Mon +1.23% vs market +4.73% = XLV LAGGED Mon oversold bounce; XLP Mon -0.09% flat; defensive bid sector-NEUTRAL not sector-LEADER per Strategy Rule 9 interpretation; multi-WEEK RS claim vs multi-SESSION RS requirement is a different read; the Nov-month chart may show XLV outperforming but recent-session leaders are tech/industrials/materials, not defensives
+   - **BLOCKED** — fails Test 2 (Mon-session XLV LAG disqualifies as current-regime momentum leader per the strict Rule 9 read)
+
+5. **Gold miners (NEM/GDX)** —
+   - Test 2: **FAIL** — NEM -10.5% WoW Nov 13 structural break; miners structural block Day 10+
+   - **BLOCKED** — fails Test 2
+
+6. **Rate-sensitive (XLU/XLRE)** —
+   - Test 2: **FAIL** — rate-hike-pivot Day 4 post-FOMC-minutes-hawkish; PCE Wed T-1 expected hot; duration NEGATIVE regime active; Mon Jensen-trim of hike bets is 1-session event not regime reset
+   - **BLOCKED** — fails Test 2
+
+7. **Oversold broad (SPY/QQQ)** —
+   - Test 1: **FAIL** — Jensen bounce is sentiment-driven CEO reinstatement, not durable thesis; probes still open; Tue fade pre-mkt argues against durable turn
+   - Test 2: **FAIL** — Strategy Rule 9 requires SECTOR momentum; broad-index ETFs are not sector positions
+   - **BLOCKED** — fails Tests 1 + 2
+
+8. **Retail Black Friday (XRT/TGT/WMT/AMZN)** —
+   - Test 1: **FAIL** — Black Friday is seasonal event not forward thesis; next retail prints off-calendar until Fri PM Black Friday retail data (half-session); no Tue retail-specific catalyst
+   - **BLOCKED** — fails Test 1
+
+**Summary: NO QUALIFYING FRESH SETUP Tue 11/24.** All 8 screened sectors have SPECIFIC NAMED failed tests, NOT generic "wait" / "patience" / "protect cash." This is NOT a flat-session-with-qualifying-setup violation. Wk-25 FRESH budget 3/3 remains intact. PCE Wed T-1 would have forced HALF-SIZE on any qualifying setup, but none qualifies regardless.
+
+**Action 3 (no change): HOLD position (full 180 sh OR remaining 90 sh post-trim)**
+- Cushion from Mon close: +6.76% to $52.12 cut-flag (unchanged materially)
+- GTC trail $54.036 both legs (or one leg if trim fires); server-side primary exit mechanism
+- Dem-sweep bank-bid Day 17 impaired-not-broken; $52.12 cut-flag not yet reached
+
+### Risk Factors (Tue 11/24)
+- **GTC trail stop buffer back near sub-3% CLAUDE.md min on pre-mkt gap-down setup** — Stop $54.036 vs Mon close $55.65 = +2.90% buffer; Tue futures imply open ~$55.00-$55.10 = +1.78-1.97% buffer = **BELOW 3% min again**. Any Tue gap-down >1.78% from Mon close OR intraday breakdown through $54.036 fires BOTH GTC legs server-side (180 sh market exit).
+- **Server-side exit remains dominant mechanism** — trim is secondary SIZE-reduction; if GTC fires on gap, trim becomes moot
+- **Pre-mkt futures reverse: NDX -1.87% / ES -1.08%** — Mon rally fading in Day 2 confirms NOT-yet-thrust-day status; "sell the rip" risk if intraday reversal continues
+- **Jensen-reinstatement OVERHANG persists** — BofA note "SEC probe still looms"; Yale governance call for board resign; Dec 3 Senate Banking testimony; multiple parallel probes = NVDA/AI-complex re-entry requires multi-session hold + probe-closure signal (very unlikely this week)
+- **Core PCE Wed 11/25 08:30 ET BINARY T-1 today** — expected ACCELERATION (0.27-0.40% m/m Core vs 0.3% prior; 3.21-3.30% y/y vs 3.1% prior; headline 3.8% vs 3.6% prior). Hot print = rate-hike-pivot deepens / 10Y 5.15%+ / XLF NIM headwind continues / XLK duration damaged / consumer discretionary pressured. Cool print = Mon oversold bounce legs extend. **Per CLAUDE.md macro rule: HALF-SIZE Tue qualifying setups; no deferral to post-event confirmation.**
+- **ADI BMO + DELL/HPE/CRWD AMC Tue-Wed** — semi/AI-infra sector guides; could re-trigger NVDA-style vol if Dell AMC AI-infra beat or miss
+- **Thanksgiving illiquidity Wk-25** — Tue-Wed full / Thu CLOSED / Fri half-session 13:00 ET; elevated gap risk Wed→Mon spanning 4-day gap (Wed close → Fri half-session → Wk-26 Mon) favors conservative sizing
+- **Scheduler timing anomaly Tue AM — pre-mkt routine fired 07:43 ET = ~1h43m late vs 06:00 ET target** — Wk-25 Day 2 anomaly #1 (timing-offset LATE this time vs 54min EARLY market-open Mon); rolling 3-wk tally: Wk-23 (2) + Wk-24 (10) + Wk-25 Day 1 (4) + Wk-25 Day 2 (1) = **17 anomalies 3-wk rolling**. Market pre-open at this time (market opens 09:30 ET = +107 min), data valid. Weekly review Wk-25 will document structural anomaly pattern.
+- **Wk-25 FRESH counter 0/3 remains** — fresh week; qualifying setup gates unchanged per CLAUDE.md Decision Rule; phase P&L -$3,279 / -3.28% is NOT a trigger to loosen entries
+
+### Decision
+
+**Action 1: XLF TRIM 90 sh @ MKT at 09:30 ET Tue open IF XLF <$55.90, ELSE HOLD FULL 180 sh (trigger reset); market-open routine executes based on actual open quote**
+- QUALIFIES on action-trigger logic (4th attempt; thesis impaired Day 17; PCE T-1 favors risk reduction pre-binary; trim trigger breached since Thu 11/19)
+- NOT a new FRESH slot (position reduction)
+- Half-size rule: N/A (reduction not FRESH)
+- Classifier dependency: previously blocked Mon market-open AM per log; if classifier still blocks Tue, 4th consecutive deferral; alert via ClickUp if needed
+- **ENTER AT OPEN** condition: market-open routine fires decision tree on 09:30 ET actual open quote
+
+**Action 2: NO FRESH ENTRIES Tue 11/24** — all 8 screened sectors have SPECIFIC NAMED failed tests per CLAUDE.md Decision Rule:
+- AI/semi: Test 2 (Day 2 Tue pre-mkt fade disqualifies Mon as thrust-day; multi-session RS not confirmed)
+- Fin ADD: Test 1 (no fresh sector catalyst; own XLF impaired)
+- Energy: Test 2 + Rule 10 (crude sub-$90 structural + monthly exit-zone)
+- Defensives (XLV/XLP): Test 2 (Mon LAG vs market disqualifies current-regime momentum-leader read)
+- Gold miners: Test 2 (NEM structural)
+- Rate-sensitive: Test 2 (rate-hike-pivot Day 4 + PCE T-1 expected hot)
+- Oversold broad: Tests 1 + 2 (sentiment not thesis + index not sector)
+- Retail/Black Friday: Test 1 (seasonal not thesis)
+- **NOT a flat-session violation** per CLAUDE.md. Wk-25 FRESH budget 3/3 intact.
+- **RESOLVE-NOW RULE check:** No idea has "only blocker = checkable fact Tue." AI-complex blocker = multi-session RS required (Tue pre-mkt fade already partially answers in NEGATIVE); PCE binary Wed = macro-event waiting; defensives blocker = Mon-session LAG (yesterday's data, already resolved → disqualifies). All blockers are either multi-session or structural, not Tue-answerable facts.
+
+**Action 3: HOLD remaining XLF 90 sh post-trim (or 180 sh if trim resets or defers)**
+- Thesis IMPAIRED but above $52.12 cut-flag
+- GTC trail $54.036 covers position (both legs or one leg)
+- Dem-sweep Day 17; Wed PCE binary could resolve regime direction one way or other
+
+**Regime summary Tue 11/24 (Wk-25 Day 2 open):**
+- **VIX 30 FEAR REGIME Day 5** — Mon rally did NOT crack VIX; 29.29 +10.03% elevated; "sell the rip" risk if Tue fade continues
+- **Rate-hike-pivot Day 4** — PCE Wed 11/25 is critical stress test; expected ACCELERATION print
+- **AI-complex Day 2 Jensen-reinstatement** — Mon one-session +31% NVDA / +8.97% XLK thrust NOT confirmed Day 2; Tue pre-mkt -5% NVDA / -3% semis + analyst skepticism (BofA/Yale) + Dec 3 Senate testimony + 5 active probes = reflex bounce not durable turn; moratorium continues
+- **Sector-leaders = NONE confirmed multi-session RS** — defensive bid flat; XLV lagged Mon; no sector satisfies Rule 9 strict read
+- **4-5 active sector blocks** (energy / defense / duration-sensitive / gold-miners / semi-moratorium)
+- **Thanksgiving-shortened wk** — 3 remaining sessions (Tue + Wed full + Fri half); Thu closed; conservative sizing posture
+- **Wk-25 FRESH 0/3** — fresh budget intact; no qualifying setup Tue
+
+### Tue 11/24 (Wk-25 Day 2) — Action Plan
+
+**Primary action: XLF trim decision at 09:30 ET open**
+- Market-open routine executes decision tree on actual open quote vs $55.90
+- Secondary monitoring: GTC stop buffer ~2% at pre-mkt futures-implied open; dominant exit = server-side
+
+**Secondary monitoring:**
+- XLF trail ratchet watch: HWM $60.04; Tue rally above $60.04 = new HWM + server-side tighten (gap -7.9% at Mon close; requires +7.9% move Tue to re-trigger = very unlikely absent dovish PCE pre-leak)
+- XLF discretionary-tighten watch: -0.87% unrl at Mon close; first-tighten +15% threshold ~$64.45 (gap +15.8%); NOT at threshold
+- XLF manual-cut vigilance: cushion +6.76% to $52.12 flag; cushion stable; no cut imminent
+- AI-complex Day 2 session action: watch XLK vs Mon $162.38 close — if Tue closes >$162.38 = thrust-day Day 2 confirmation; if <$162.38 = reflex-bounce fade thesis confirmed; midday scan will re-evaluate semi-moratorium status if XLK holds pre-mkt gap or reclaims by midday
+- NVDA session action: watch vs Mon $155.74 close — Tue pre-mkt -5% implies open ~$148; durability test
+- ADI BMO reaction: 11-quarter beat streak at stake; watch pre-mkt reaction as AI-semi momentum tell
+
+**Routine health audit:**
+- Wk-25 Day 2 Tue pre-mkt routine fired 07:43 ET = ~1h43m LATE vs 06:00 ET target
+- Wk-25 Day 2 anomaly #1 (timing-offset LATE vs Mon pattern EARLY = direction flipped)
+- Rolling 3-wk 17 anomalies; weekly review Wk-25 will document Tue flip pattern
+
+**Weekly review backlog (unchanged):**
+- Wk-23 + Wk-24 CURRENT
+- Still-pending: Wk-16/17/18/22 (4 weeks backfill debt)
+- Wk-25 window: Fri 11/27 PM (half-session) or Wk-26 Mon
+
+**Thanksgiving-week specific posture (Tue):**
+- Core PCE Wed 11/25 08:30 ET T-1 today = qualifying setups HALF-SIZE (none qualifies Tue anyway)
+- Thu 11/26 CLOSED
+- Fri 11/27 half-session: avoid fresh entries (illiquidity + overnight gap into Wk-26 open)
+
