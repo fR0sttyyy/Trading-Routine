@@ -12502,3 +12502,26 @@ Each test case states FAIL-REASON specifically per CLAUDE.md:
 - Fri 11/27 half-session: avoid fresh entries (overnight gap into Wk-26 Mon = 3-day exposure)
 - Dell/HPE/CRWD AMC Wed post-close: results print during Thu holiday gap → Fri reopen could see AI-infra vol
 
+### Wed 11/25 Midday Addendum (11:12 ET — post-PCE +2h42m)
+
+**Post-PCE regime read (quotes only, no WebSearch):**
+- XLF $55.565 (Tue close $55.985) = -0.750% intraday; **back below $55.90 trim trigger** (-0.60% below). Tue reclaim UNDONE.
+- XLV $182.58 (Tue close $184.72) = -1.16% intraday; **Test 2 multi-session RS FALSIFIED** — Tue +2.95% leadership was 1-day thrust not durable rotation. XLV re-screen entry BLOCKED (same Test 2 failure as pre-mkt, now confirmed reversal pattern).
+- XLK $148.69 (Mon $162.38) = -8.43% cumulative post-NVDA-crash; AI-complex crisis Day 3 continues; semi/chip moratorium stays BLOCKED.
+
+**PCE read (inferred from market reaction, no direct print research):** XLF fade + XLV fade + XLK continued weakness = PCE reaction NEGATIVE across sectors. Either (a) hot Core PCE > consensus → yield hawkish → bank-NIM compression → XLF fade, OR (b) in-line with hawkish FOMC-minutes-digest persistence rejecting any dovish repricing. XLF -0.75% intraday + XLV reversal + XLK continuation = **broad risk-off post-PCE**, not sector-specific. Supports STRESS-REGIME persistence into Thanksgiving holiday.
+
+**Sector screen (midday re-check):**
+- XLV defensive-rotation: Test 2 CONFIRMED FAIL (Tue +2.95% → Wed -1.16% = thrust-reflex reversal, not multi-session leader) — BLOCKED
+- AI/semi: Test 2 FAIL (XLK -8.43% cumulative) — BLOCKED
+- Financials ADD (XLF): Test 1 FAIL (already own + Wed re-impaired below trim trigger) — BLOCKED
+- All other sectors: unchanged structural blocks (energy sub-$90 crude, miners, duration-sensitive, XLP 1-day only, defense) — BLOCKED
+
+**No midday entries; no midday research deep-dive required** (XLF fade has obvious PCE-regime cause; no other position to research). XLF discretionary-trim playbook RE-ACTIVATES for EOD-Wed close-level determination; midday routine spec explicitly prohibits trim re-attempt at midday (market-open decision only).
+
+**Carry-in to EOD Wed (2-3h window):**
+- XLF close level vs $55.90 trim trigger — primary EOD decision input
+- Monitor for any XLF-specific catalyst break (GS/JPM/BAC single-name, CFPB headline) that elevates thesis-break posture
+- Market-open ROUTINE-SKIP 2nd consecutive session confirmed (Tue + Wed) — scheduler issue escalates to weekly review HIGH severity
+- 3-day overnight gap exposure building (Wed close → Fri 09:30 ET open = 2.5 calendar days with holiday news-flow)
+
