@@ -6403,3 +6403,37 @@ Net: 2 routine-failure flags Wk-23 (Tue market-open, Thu pre-mkt). Critical for 
 5. **Routine-miss audit** — 23 anomalies 3-wk rolling → HIGH severity Fri weekly review item; Fri half-session scheduler watch for 3rd-consecutive market-open SKIP pattern (if Fri also skips, system failure escalation needed).
 6. **5 structural slots open / 10.50% deployment / Wk-25 FRESH 0/3 used** — qualifying setup qualification gates unchanged; Fri half-session is unlikely window for FRESH entry (holiday-week low-volume + short duration). FRESH entry still permitted if setup qualifies.
 7. **Weekly review** — Fri PM post-close is weekly review slot but half-session may compress schedule; will cover Wk-25 full + Wk-16/17/18/22/23/24 backlog if time permits.
+
+### Nov 26 — EOD Snapshot (Day 4, Thursday — Wk-25 Day 4 / **US MARKET CLOSED — THANKSGIVING HOLIDAY** / no trading session / XLF position carry-over Wed→Fri 3-day gap exposure Day 1 / NO TRADES / EOD routine fired per schedule despite holiday)
+**Portfolio:** $96,891.81 | **Cash:** $86,720.01 (89.50%) | **Day P&L (Wed pre-close snapshot → Thu holiday settle span):** -$3.60 (-0.004%) | **Phase P&L:** -$3,108.19 (-3.108%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| - | - | - | - | - | - | - |
+| XLF | 180 | $56.045 | $56.51 | 0% (holiday) | +$83.70 (+0.830%) | $54.036 (both legs, hwm $60.04) |
+
+**Notes:** Wk-25 Day 4 (Thursday) — **US STOCK MARKET CLOSED for Thanksgiving**; no price action, no trading session. Account `balance_asof 2026-11-25` = Alpaca treating Wed as last settle; equity $96,891.81 reflects Wed actual close XLF $56.51 (vs Wed 14:50 ET pre-close snapshot $56.525 = -$0.015 / -0.027% drift). Day P&L -$3.60 is **pre-close snapshot → actual-close settle adjustment, NOT a trading-day P&L** — flagged as such per rule (prior snapshot baseline Wed pre-close 14:50 ET → Thu post-close holiday settle). Phase P&L -$3,108.19 (-3.108%) essentially unchanged from Wed -$3,104.59 (-$3.60 shift from pre-close/close drift). Deployment 10.50% mv ($10,171.80 XLF / $96,891.81 equity). Cash 89.50% ($86,720.01 unchanged — 0 Thu trades, market closed). **1 position / 5 slots open.** No workflows executable today (no market open / midday / pre-mkt research for closed-market day); EOD routine fired as scheduled.
+
+**GTC TRAIL BUFFER — STABLE ABOVE 3% MIN (holiday carry):** Stop $54.036 vs $56.51 = **-$2.474 / -4.378% buffer** (vs Wed EOD 4.403% = -2.5bps from pre-close/close drift). **3rd above-min close in 4 sessions** (holiday carry doesn't reset streak). Server-side 10% trail only fires on Fri gap-down >4.4% from $56.51 (requires open below $54.036). HWM $60.04 unchanged (no trading). Both GTC legs `updated_at` 2026-11-05 14:30:12 UTC stable (**18 trading days** — holiday counts as 0 trading days; same count as Wed). Cut-loser cushion $56.51 vs $52.122 flag = **+8.42%** (unchanged from Wed +7.79% — minor drift from close vs pre-close). Tighten-trail NONE (XLF +0.83% unrl, below +15% first-tighten threshold ~$64.45).
+
+**Thesis check — DORMANT (holiday):** No new price information Thu; sector thesis carries from Wed (XLF trim trigger reclaimed +1.12% above $55.90; defensive-rotation Day 7; AI-complex crisis Day 7). **3-day overnight gap exposure LIVE:** Wed close $56.51 → Fri 09:30 ET half-session open = 3 trading-day gap (Thu holiday + overnight). Position +4.4% above GTC stop + +8.4% above cut flag = adequate buffer absent black-swan weekend headline. Fri half-session 09:30-13:00 ET is first risk-live session.
+
+**Sector posture (Wk-25 Day 4 close — unchanged from Wed):** 1 financials ETF (XLF 10.50% mv — trim trigger reclaimed +1.12%). 8 sectors blocked: Direct energy (crude sub-$90), semi/chip (AI-complex crisis Day 7), defense (reg-overhang), duration-sensitive defensives (rate-hike pivot), gold miners, defensive bid lacking multi-session RS. No new sector data Thu → carry.
+
+**Trades today:** NONE (market closed — Thanksgiving holiday). 0 FRESH entries, 0 exits, 0 cuts, 0 tightens, 0 trims, 0 cancels. All orders in server-side GTC state unchanged.
+
+**Wk-25 running count (Thu EOD):** **0/3 FRESH slot-consuming trades used.** Mon ✓ / Tue ✓ / Wed ✓ / Thu 11/26 CLOSED ✓ / Fri 11/27 half-session remains — 1 half-session left this week.
+
+**Post-close order state (2 GTC stops covering 1 position — UNCHANGED since Thu 11/05 AM ratchet, now 18 trading days stable — holiday is no-count):**
+- XLF 90 sh (original): trail 10% $54.036 hwm $60.04 (8bd5213b) — unchanged
+- XLF 90 sh (ADD): trail 10% $54.036 hwm $60.04 (bbf96d5f) — unchanged
+
+**Scheduler health — Thu EOD Wk-25 Day 4 (holiday):** EOD routine fired on Thanksgiving despite closed market — operationally fine (snapshots still produce valid state) but notable as scheduler is running full day cadence regardless of holiday calendar. Rolling 3-wk anomaly tally static at 23 (Thu is no-trading-day; market-open/midday/pre-mkt not applicable → no new anomalies). Data integrity: Alpaca account + positions + orders fetched cleanly; `balance_asof 2026-11-25` correctly reflects Wed as last settle.
+
+**Fri 11/27 (Wk-25 Day 5, half-session 09:30-13:00 ET, Black Friday) plan:**
+1. **Pre-mkt research 06:00 ET** — holiday-weekend open; XLF 3-day-gap price-discovery; any Black Friday retail catalysts (XRT/XLY); AI-complex Day 8 crisis trajectory.
+2. **Half-session reality** — 13:00 ET close; lower liquidity; no PM session for intraday adjustment; conservative-sizing default on any FRESH entry.
+3. **XLF gap monitoring** — Wed close $56.51; Fri gap below $55.90 = trim trigger re-breach + 4th playbook activation carry into Mon 11/30; gap below $54.036 = GTC fires (requires -4.38% gap, unlikely absent weekend headline).
+4. **GTC TRAIL BUFFER monitoring** — current +4.38%; above 3% min; gap risk live through Fri open.
+5. **Routine-miss audit** — 23 anomalies 3-wk rolling → Fri weekly review HIGH severity item; watch Fri half-session for market-open fire (3rd consecutive skip = system-failure escalation).
+6. **5 structural slots open / 10.50% deployment / Wk-25 FRESH 0/3 used** — qualifying-setup gates unchanged; Fri half-session is unlikely FRESH window (holiday-week low-volume + short duration) but still permitted if setup qualifies.
+7. **Weekly review** — Fri PM post-close is weekly review slot; half-session may compress schedule; Wk-25 full + Wk-16/17/18/22/23/24 backlog if time permits.
