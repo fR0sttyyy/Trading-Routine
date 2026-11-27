@@ -12525,3 +12525,150 @@ Each test case states FAIL-REASON specifically per CLAUDE.md:
 - Market-open ROUTINE-SKIP 2nd consecutive session confirmed (Tue + Wed) — scheduler issue escalates to weekly review HIGH severity
 - 3-day overnight gap exposure building (Wed close → Fri 09:30 ET open = 2.5 calendar days with holiday news-flow)
 
+
+---
+
+## 2026-11-27 — Pre-market Research (Wk-25 Day 5, Friday — **BLACK FRIDAY HALF-SESSION 09:30-13:00 ET** / post-PCE relief rally / ES +1.58% NQ +2.15% / VIX 25.26 unwound from 30+ / XLF trim trigger RESET above / routine fired 07:46 ET = ~1h46m late vs 06:00 ET target)
+
+### Account (snapshot 07:46 ET)
+- Equity: $96,998.42 | Cash: $86,720.01 (89.40%) | Buying power: $375,659.60 (4x margin)
+- Portfolio value: $96,998.42 | Long market value: $10,278.41 (10.60%) | daytrade_count 0
+- SMA: $96,819.81 | balance_asof: 2026-11-25 (prior-close basis; Thu 11/26 CLOSED Thanksgiving)
+- Phase P&L: -$3,001.58 (-3.00%) vs $100,000.00 start (Phase 2 baseline Oct 1)
+- Positions: 1 (XLF 180 sh @ $56.045 avg, cur $57.1023, upl +$190.31 / +1.89%) / 5 slots open / 10.60% deployed
+- Open orders: 2× XLF GTC trail stops @ $54.036 (hwm $60.04), both legs unchanged since Nov 5 (18+ trading days stable)
+
+### Market Context (Fri 11/27 pre-mkt 07:46 ET — 1h44m to half-session open)
+- **WTI:** $85.18 (+1.79%); Brent $92.02 (+1.52%) — crude bouncing but sub-$90 Day 20 **STRUCTURAL block intact** (headline only; Core energy sub-$90)
+- **Equity futures (STRONG RISK-ON post-PCE / Asian-Euro Thu-Fri rally on tariff fears easing):** **ES +1.58%** / **NQ +2.15%** / Dow futures +0.6%-ish
+- **VIX:** **25.26 (-5.75% Wed close) — FEAR UNWOUND post-PCE** from Wed AM 30.75+ peak; VIX30+ regime BROKE after 6 sessions
+- **Wed 11/25 cash close:** S&P 7182.78 (-0.25%) / NDX 23585.80 (-0.62%) / Dow 50182.95 (+0.33%) / XLK 155.79 (-0.83%)
+- **Wed sector perf (CONSTRUCTIVE INTRADAY RECOVERY from PCE AM lows):** **XLB +2.07%** (materials lead, tariff-ease narrative) / XLI +0.83% / XLE +0.74% / **XLF +0.71%** / XLP +0.46% / XLV -0.56% / XLK -0.83%
+- **XLF Wed close $56.51 = ABOVE $55.90 trim trigger (+1.09%) — TRIM TRIGGER RESET post-18-day impairment** (first clean reclaim since Nov 19 breach)
+- **Mon-Tue-Wed 3-session sector composite:**
+  - Defensive bid XLP: Mon -0.09% / Tue +1.66% / Wed +0.46% = 2 confirming RS LEAD sessions (Mon LAG disqualifies strict 3-session read)
+  - XLV: Tue +2.95% → Wed -1.16% = thrust-reflex REVERSAL confirmed; defensive-rotation leader FALSIFIED
+  - XLK: Mon +8.97% → Tue -3.26% → Wed -0.83% = AI distribution Day 3 cumulative -4.09%
+  - XLB: 1-session move Wed; no Mon-Tue leadership
+  - XLF: Mon +0.76% / Tue +0.83% / Wed +0.71% = **3 confirming constructive sessions + trigger reclaim = thesis reactivating**
+- **PCE OCT PRINT (Wed 08:30 ET):**
+  - **Core +0.3% m/m in-line consensus**
+  - **Core +3.3% y/y HOT vs 3.2% consensus (highest since Nov 2023)**
+  - Headline +3.8% y/y matched May energy-shock peak
+  - **Market reaction: initial sell → recovered intraday** → VIX closed -5.75% = "no further acceleration" digest; hot-but-not-worse
+- **AMC prints Wed post-close (reactions digested over holiday closure):**
+  - Dell / HPE / CRWD prints landed during Thu holiday (US CLOSED); pre-mkt Fri reactions not clearly isolated — NQ +2.15% gap-up suggests net-constructive but mixes with broad risk-on
+- **Today's catalysts:**
+  - **NO major US economic data** (no CPI/PPI/Jobs Fri)
+  - **Black Friday retail activity** (seasonal narrative; XRT/XLY sentiment-only)
+  - **Asian/Euro rally Thu-Fri on tariff fears easing** (external catalyst driving US futures)
+  - **Half-session 13:00 ET close** — no afternoon / no post-market; 3-day weekend overnight gap into Mon 11/30 Wk-26
+  - **FOMC Dec 9 T-9** (next binary; hot PCE accelerated rate-hike-pivot regime)
+  - **NVDA Jensen Huang Congress Dec 1 T-4 / Senate Banking Dec 3 T-6** (AI-complex political overhang continues)
+- **Sector momentum map (Fri pre-mkt / Wk-25 Day 5):**
+  - **EMERGING LEADERS (3-session RS):** **XLF** (Mon+Tue+Wed all green + trigger reclaim; own already — Test 1 blocks fresh ADD)
+  - **BORDERLINE (2-session RS, Mon LAG):** XLP (Tue+Wed RS LEAD; Fri pro-cyclical open likely LAG pre-empts Day 3 confirmation)
+  - **WEAKENED / FALSIFIED:** XLV (Tue→Wed reversal); XLK (3-session distribution)
+  - **BROKEN STRUCTURALLY:** XLE (crude sub-$90 Day 20) / rate-sensitive XLU-XLRE (hot PCE reaffirmed) / gold miners NEM
+  - **1-SESSION WONDERS:** XLB +2.07% Wed; XLI +0.83% Wed — insufficient RS confirmation
+  - **AI-COMPLEX relief-rally RISK:** NQ +2.15% pre-mkt implies XLK gap-up ~+2% but 1-session on half-session liquidity = reflex not durable; Huang Dec 1 testimony + probes overhang unchanged
+
+### Trade Ideas (Fri 11/27 screening — half-session + 3-day overnight gap context)
+
+**Action 1 — XLF HOLD full 180 sh (NO TRIM, trigger reset)**
+- **Catalyst:** Wed close $56.51 ABOVE $55.90 trim trigger (+1.09%); pre-mkt $57.1023 extending to +$1.21 (+2.15%) above trigger; **trim playbook DEACTIVATED** until next breach below $55.90
+- **Position thesis:** upl +$190.31 (+1.89%) first positive print since Nov 11; GTC cushion $54.036 vs pre-mkt $57.10 = **+5.68% buffer (above 3% CLAUDE.md min)**
+- **Ratchet watch:** HWM $60.04; Fri pre-mkt $57.10 = -4.90% below HWM; no realistic path to new HWM this half-session (would require +4.90% intraday move)
+- **No action required** — monitor only; GTC remains sole exit mechanism; trim playbook DORMANT
+
+**Action 2 — FRESH entry screen Fri 11/27 (Wk-25 FRESH 0/3 intact, 1 slot per weekly budget available)**
+
+Each sector screened with SPECIFIC NAMED test failure per CLAUDE.md Decision Rule:
+
+1. **XLB Materials (+2.07% Wed):** Test 2 FAIL — 1-session only; Mon-Tue no leadership; tariff-ease narrative too thematic for Test 1. BLOCKED.
+2. **XLI Industrials (+0.83% Wed):** Test 2 FAIL — 1-session only. BLOCKED.
+3. **XLP Staples (+0.46% Wed):** Test 2 BORDERLINE — Tue+Wed 2-session RS LEAD but Mon LAG; AND Fri pro-cyclical open (ES +1.58%) likely sees XLP open flat-to-+0.3% = RS LAG session 1 breaks 2-session streak; Test 1 FAIL — no concrete Fri-specific catalyst (defensive narrative multi-week not today-specific). BLOCKED.
+4. **XLV Healthcare (-0.56% Wed):** Test 2 FAIL — Tue +2.95% → Wed -1.16% = thrust-reflex REVERSAL CONFIRMED; no longer multi-session RS candidate. BLOCKED.
+5. **XLK / AI-semi (-0.83% Wed cumulative -4.09% Mon→Wed):** Test 2 FAIL — distribution Day 3; Fri +2% implied gap = 1-session reflex on half-session liquidity, not durable; Huang Dec 1 T-4 + Senate Dec 3 T-6 + 5 SEC probes overhang unchanged. BLOCKED.
+6. **XLE Energy:** Test 2 FAIL + Rule 10 — crude $85.18 sub-$90 Day 20 STRUCTURAL; sector-exit zone. BLOCKED.
+7. **Gold miners (NEM/GDX):** Test 2 FAIL — structural block Day 12+. BLOCKED.
+8. **Rate-sensitive (XLU/XLRE):** Test 2 FAIL — hot Core PCE +3.3% y/y confirmed rate-hike-pivot regime. BLOCKED.
+9. **Financials ADD (XLF/GS/JPM):** Test 1 FAIL — already own; no fresh ADD catalyst beyond trigger reset (reset is own-position management, not fresh-sector-catalyst). BLOCKED.
+10. **Retail XRT/XLY Black Friday:** Test 1 FAIL — seasonal activity ≠ documented thesis catalyst; sales data lags days-weeks. BLOCKED.
+11. **Oversold broad (SPY/QQQ):** Test 1+2 FAIL — Fri gap-up is 1-session reflex + broad-index not sector; cannot satisfy sector-momentum requirement. BLOCKED.
+
+**Summary: NO QUALIFYING FRESH SETUP Fri 11/27 Black Friday half-session.** 11 sectors/ideas screened, each with SPECIFIC NAMED failed test per CLAUDE.md Decision Rule. **NOT a flat-session violation** — every idea has specific failed test; Wk-25 FRESH budget 3/3 remains INTACT.
+- **RESOLVE-NOW RULE check:** No idea has "only blocker = checkable fact pre-open." XLP blocker = Fri session-dependent RS confirmation (not pre-open resolvable); XLK blocker = multi-session durability (Fri alone cannot confirm); all structural blockers unchanged. NO resolve-now candidates.
+
+### Risk Factors (Fri 11/27)
+- **Black Friday half-session illiquidity** — 09:30-13:00 ET only (3.5 hours); no PM session; wide spreads + slippage risk on any fresh entry; conservative-sizing default on any eventual qualifying setup (none today)
+- **3-day weekend overnight gap exposure** — Fri 13:00 ET close → Mon 11/30 09:30 ET open = 68 hours of news-flow + 2.5 trading-day gap into Wk-26; XLF 180 sh GTC $54.036 is sole weekend protection
+- **PCE hot Y/Y digest continuation risk** — Core 3.3% y/y highest since Nov 2023 = rate-hike-pivot regime persistence; any Fri bond selloff / 10Y >5.10% repricing could reverse Thu-Fri gap-up (Asian/Euro rally partially tariff-ease driven, not US-fundamental)
+- **Scheduler timing — pre-mkt routine fired 07:46 ET = ~1h46m late vs 06:00 ET target.** Matches Tue 11/24 + Wed 11/25 pattern (07:43 ET both). Wk-25 Day 5 anomaly #1 (timing-offset LATE, consistent 3-day pattern Tue-Wed-Fri = structural scheduler config drift). Rolling 3-wk tally: Wk-23 (2) + Wk-24 (10) + Wk-25 D1 (4) + D2 (1) + D3 (1) + D5 (1) = **19 anomalies 3-wk rolling**. Routine data still valid (pre-mkt open T-1h44m); no workaround needed but Fri weekly review documents 23+ total anomaly pattern.
+- **Market-open routine 3rd consecutive session SKIP risk** — Mon/Tue/Wed market-open routine skipped (per Wed addendum); Fri 09:30 ET market-open expected to fire; if 3rd skip = system-failure escalation to HIGH severity; primary task Fri = monitor/no fresh action (XLF trim DORMANT; no new entries) so skip impact limited
+- **AI-complex politicization persistence** — Huang Congress Dec 1 T-4 / Senate Banking Dec 3 T-6 / 5 SEC probes / Trump pardon-float; Fri gap-up is relief-rally reflex, not regime reversal; semi-moratorium continues into Wk-26
+- **Wk-25 FRESH counter 0/3** — fresh budget intact; no qualifying setup Fri half-session; carries into Wk-26 Mon as 1 available slot (post-Wk-25 reset per weekly budget)
+
+### Decision
+
+**Action 1: XLF HOLD full 180 sh**
+- No trim trigger breach (Wed close $56.51 > $55.90; pre-mkt $57.10 extends above); trim playbook DORMANT until next breach
+- GTC trail $54.036 both legs active; sole exit mechanism; cushion +5.68% above 3% min
+- Thesis REACTIVATING (first +% UPL since Nov 11; 3-session constructive run Mon-Tue-Wed)
+- NOT a new FRESH slot (hold existing)
+
+**Action 2: NO FRESH ENTRIES Fri 11/27 Black Friday half-session** — 11 ideas screened, each with SPECIFIC NAMED failed test per CLAUDE.md Decision Rule:
+- XLB / XLI: Test 2 FAIL (1-session only)
+- XLP: Test 1 FAIL + Test 2 BORDERLINE (Mon LAG + Fri pro-cyclical lag risk)
+- XLV: Test 2 FAIL (Tue→Wed reversal confirmed)
+- XLK / AI: Test 2 FAIL (distribution Day 3)
+- XLE: Test 2 + Rule 10 (crude structural)
+- Miners: Test 2 FAIL (structural)
+- Rate-sensitive: Test 2 FAIL (hot PCE)
+- Financials ADD: Test 1 FAIL (already own)
+- Retail Black Friday: Test 1 FAIL (seasonal ≠ thesis)
+- Oversold broad: Test 1+2 FAIL
+- **NOT a flat-session violation** — every idea has specific failed test; Wk-25 FRESH 3/3 intact
+- **RESOLVE-NOW check:** No pre-open checkable blockers; XLP and XLK require Fri-session durability data (not resolvable this routine)
+- **Half-session + 3-day gap** is NOT a valid skip reason per CLAUDE.md — relied on Test failures only
+
+**Regime summary Fri 11/27 (Wk-25 Day 5, half-session):**
+- **VIX30+ FEAR REGIME BROKE** Wed close 25.26 (-5.75%); unwound from 30+ peak; "sell the news" risk dormant unless renewed catalyst
+- **Rate-hike-pivot Day 6+** — PCE Core 3.3% y/y highest since 2023; FOMC Dec 9 T-9 next binary
+- **AI-complex DISTRIBUTION Day 3** — Fri gap-up +2% implied = 1-session reflex on half-session; Huang Dec 1 T-4 overhang + 5 SEC probes; moratorium continues
+- **Sector-leaders = XLF own (3-session RS)** — Test 1 blocks fresh ADD; no OTHER sector satisfies Rule 9 multi-session RS strict read
+- **4 active sector blocks** (energy / duration-sensitive / gold-miners / semi-moratorium)
+- **Thanksgiving-shortened wk Day 5 FINAL session** — half-session 13:00 ET close; 3-day weekend overnight gap to Wk-26 Mon; conservative-sizing default (moot — no FRESH candidate anyway)
+- **Wk-25 FRESH 0/3** — budget intact; carries 0 forward (Wk-26 starts fresh 3/3)
+
+### Fri 11/27 (Wk-25 Day 5) — Action Plan
+
+**Primary action: NONE — HOLD XLF full 180 sh, NO FRESH entries**
+- Trim playbook DORMANT (trigger reset); GTC primary exit
+- Market-open routine (09:30 ET) action: verify XLF open quote vs $55.90 trim trigger + vs $54.036 GTC; log any 3rd consecutive routine-skip
+- Midday scan (expected ~11:00 ET): half-session midday screen for any late-emerging catalyst (unlikely on BF half-session)
+- EOD routine (expected ~12:51 ET, 9 min pre-close): position management + weekly review setup
+
+**Secondary monitoring:**
+- XLF ratchet watch: HWM $60.04; no realistic Fri path (-4.90% below)
+- XLF discretionary-tighten watch: first-tighten +15% threshold ~$64.45; current +1.89% UPL far from threshold
+- XLK session action: Fri gap-up durability — close >Wed close $155.79 = 1-session relief confirmed; AI-complex regime still fails multi-session read; semi-moratorium unchanged either way
+- 10Y yield action: Core PCE 3.3% y/y digest; watch 5.10% breach = rate-hike-pivot deepening
+- Dell / HPE / CRWD Fri open prints: post-Wed-AMC + post-holiday reaction isolate (if possible on half-session volume)
+
+**Routine health audit (Wk-25 Day 5 cumulative):**
+- Pre-mkt timing 07:46 ET = ~1h46m LATE vs 06:00 ET target (4th consecutive late firing: Tue 07:43 / Wed 07:43 / Fri 07:46 ET; Mon was EARLY offset; pattern = Tue-Wed-Fri consistent late)
+- Wk-25 anomalies: D1(4) + D2(1) + D3(1) + D5(1) = **7 Wk-25 total**; 3-wk rolling **19** post-today
+- Market-open routine Fri 09:30 ET is 4th weekly firing test — Mon-Tue-Wed skipped; Fri firing = critical for weekly data integrity; weekly review HIGH-severity item
+
+**Weekly review backlog (Fri PM half-session):**
+- **Wk-25 CURRENT** (Fri PM post-close is weekly review slot; half-session may compress schedule to <30 min)
+- Wk-23 + Wk-24 current
+- Backfill debt: Wk-16/17/18/22 (4 weeks)
+- Wk-25 review can run 13:30-15:00 ET post-half-session-close
+
+**Thanksgiving-week specific posture (Fri — final session):**
+- No major data; Black Friday retail (not actionable)
+- 3-day weekend overnight gap = conservative posture even if setup emerged (none does)
+- Wk-26 Mon 11/30 preview: sector-momentum map refreshes Mon pre-mkt; XLF thesis reactivation Day 2 confirmation; AI-complex Day 6 regime read; Huang Congress Dec 1 T-3
+
